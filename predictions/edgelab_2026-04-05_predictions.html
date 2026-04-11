@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EdgeLab — 5 April 2026 Predictions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:       #060a0e;
+    --surface:  #0d1318;
+    --border:   rgba(74,155,196,0.12);
+    --accent:   #4a9bc4;
+    --accent2:  #c8f135;
+    --orange:   #f1a035;
+    --red:      #f13557;
+    --text:     #e8eef2;
+    --muted:    #4a6070;
+    --dim:      #7a8e9a;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 40px 32px;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid var(--accent);
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    color: var(--text);
+    line-height: 1;
+  }
+  .logo span { color: var(--accent); }
+  .logo-sub {
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .meta {
+    text-align: right;
+    font-size: 11px;
+    color: var(--dim);
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
+
+  /* ── SEARCH ── */
+  .search-bar {
+    margin-bottom: 32px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    max-width: 480px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    color: var(--text);
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 10px 16px;
+    letter-spacing: 0.04em;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-bar input::placeholder { color: var(--muted); }
+  .search-bar input:focus { border-color: var(--accent); }
+  .search-count {
+    margin-top: 6px;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+
+  /* ── SUMMARY ── */
+  .summary-bar {
+    display: flex;
+    gap: 0;
+    margin-bottom: 40px;
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    overflow: hidden;
+  }
+
+  .summary-stat {
+    flex: 1;
+    text-align: center;
+    padding: 16px 8px;
+    border-right: 1px solid var(--border);
+  }
+  .summary-stat:last-child { border-right: none; }
+
+  .summary-val {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .summary-label {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ── SECTION TITLE ── */
+  .section-title {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+
+  /* ── ACCA CARDS ── */
+  .acca-section { margin-bottom: 48px; }
+
+  .acca-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px;
+  }
+
+  .acca-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--accent);
+    padding: 18px;
+  }
+  .acca-card.value  { border-top-color: var(--accent2); }
+  .acca-card.btts   { border-top-color: var(--orange); }
+  .acca-card.safety { border-top-color: var(--accent); }
+  .acca-card.upset  { border-top-color: var(--red); }
+
+  .acca-type {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
+  .acca-odds {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    margin-bottom: 2px;
+    line-height: 1;
+  }
+  .acca-card.value .acca-odds  { color: var(--accent2); }
+  .acca-card.btts  .acca-odds  { color: var(--orange); }
+  .acca-card.upset .acca-odds  { color: var(--red); }
+
+  .acca-comment {
+    font-size: 11px;
+    color: var(--dim);
+    font-style: italic;
+    margin: 10px 0 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    line-height: 1.5;
+  }
+
+  .acca-pick {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 12px;
+  }
+  .acca-pick:last-child { border-bottom: none; }
+
+  .pick-num  { color: var(--muted); width: 14px; flex-shrink: 0; font-size: 11px; }
+  .pick-tier {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--bg);
+    background: var(--muted);
+    padding: 2px 5px;
+    flex-shrink: 0;
+  }
+  .pick-match { flex: 1; color: var(--text); }
+  .pick-conf  { color: var(--accent); font-weight: 600; flex-shrink: 0; }
+  .acca-card.value .pick-conf  { color: var(--accent2); }
+  .acca-card.btts  .pick-conf  { color: var(--orange); }
+
+  /* ── PREDICTIONS TABLE ── */
+  .predictions-section { margin-bottom: 40px; }
+
+  .league-block { margin-bottom: 32px; }
+  .league-block.hidden { display: none; }
+
+  .league-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--accent);
+  }
+
+  .league-code {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--bg);
+    background: var(--accent);
+    padding: 2px 8px;
+  }
+
+  .league-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.04em;
+  }
+
+  .league-count {
+    margin-left: auto;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+
+  table { width: 100%; border-collapse: collapse; }
+
+  th {
+    text-align: left;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  th:hover { color: var(--accent); }
+  th.sort-asc::after  { content: ' ↑'; color: var(--accent); }
+  th.sort-desc::after { content: ' ↓'; color: var(--accent); }
+
+  td {
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(74,155,196,0.06);
+    font-size: 12px;
+    color: var(--dim);
+  }
+  td:nth-child(2), td:nth-child(3) { color: var(--text); }
+
+  tr:hover td { background: rgba(74,155,196,0.04); }
+  tr.row-hidden { display: none; }
+
+  .pred-H { color: var(--accent2); font-weight: 600; }
+  .pred-A { color: var(--accent);  font-weight: 600; }
+  .pred-D { color: var(--orange);  font-weight: 600; }
+
+  .chaos-LOW  { color: var(--accent2); }
+  .chaos-MED  { color: var(--dim); }
+  .chaos-HIGH { color: var(--red); }
+
+  .conf-high { color: var(--accent2); font-weight: 600; }
+  .conf-med  { color: var(--text); }
+  .conf-low  { color: var(--muted); }
+
+  .upset-flag { color: var(--red); font-weight: 600; }
+
+  .btts-conflict {
+    color: var(--orange);
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 4px;
+    cursor: help;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  footer span:last-child { color: rgba(74,155,196,0.4); }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">Edge<span>Lab</span></div>
+    <div class="logo-sub">Khaotikk Ltd — Internal Use Only</div>
+  </div>
+  <div class="meta">
+    Matchday: 5–11 April 2026<br>
+    Generated: 5 April 2026 — Session 17<br>
+    Params: --tier all evolved | Signals: dormant<br>
+    199 predictions across 17 tiers
+  </div>
+</header>
+
+<!-- SEARCH -->
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Search team, league, date..." oninput="filterTable()" />
+  <div class="search-count" id="searchCount"></div>
+</div>
+
+<!-- SUMMARY -->
+<div class="acca-section">
+  <div class="section-title">Summary</div>
+  <div class="summary-bar">
+    <div class="summary-stat"><div class="summary-val">199</div><div class="summary-label">Predictions</div></div>
+    <div class="summary-stat"><div class="summary-val" style="color:var(--accent2)">139</div><div class="summary-label">Home (H)</div></div>
+    <div class="summary-stat"><div class="summary-val" style="color:var(--orange)">4</div><div class="summary-label">Draw (D)</div></div>
+    <div class="summary-stat"><div class="summary-val" style="color:var(--accent)">56</div><div class="summary-label">Away (A)</div></div>
+    <div class="summary-stat"><div class="summary-val" style="color:var(--red)">5</div><div class="summary-label">Upset Flags</div></div>
+    <div class="summary-stat"><div class="summary-val">17</div><div class="summary-label">Tiers</div></div>
+  </div>
+</div>
+
+<!-- ACCAS -->
+<div class="acca-section">
+  <div class="section-title">Gary's Acca Picks — 5 April 2026</div>
+  <div class="acca-grid">
+
+    <div class="acca-card result">
+      <div class="acca-type">Result Acca</div>
+      <div class="acca-odds">~21.4/1</div>
+      <div class="acca-comment">"5 high-conviction picks, well spread across 5 tiers. This is the one."</div>
+      <div class="acca-pick"><span class="pick-num">1.</span><span class="pick-tier">I2</span><span class="pick-match">Frosinone to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">2.</span><span class="pick-tier">N1</span><span class="pick-match">Heerenveen to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">3.</span><span class="pick-tier">SP2</span><span class="pick-match">Las Palmas to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">4.</span><span class="pick-tier">B1</span><span class="pick-match">KV Mechelen to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">5.</span><span class="pick-tier">E1</span><span class="pick-match">Derby to win</span><span class="pick-conf">100%</span></div>
+    </div>
+
+    <div class="acca-card safety">
+      <div class="acca-type">Safety Acca</div>
+      <div class="acca-odds">~21.4/1</div>
+      <div class="acca-comment">"Shortest price I could find. Not exciting. That's the point."</div>
+      <div class="acca-pick"><span class="pick-num">1.</span><span class="pick-tier">I2</span><span class="pick-match">Frosinone to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">2.</span><span class="pick-tier">N1</span><span class="pick-match">Heerenveen to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">3.</span><span class="pick-tier">SP2</span><span class="pick-match">Las Palmas to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">4.</span><span class="pick-tier">B1</span><span class="pick-match">KV Mechelen to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">5.</span><span class="pick-tier">E1</span><span class="pick-match">Derby to win</span><span class="pick-conf">100%</span></div>
+    </div>
+
+    <div class="acca-card value">
+      <div class="acca-type">Value Acca</div>
+      <div class="acca-odds">~297.9/1</div>
+      <div class="acca-comment">"Edge vs the market. Engine confidence beats implied probability on all 5."</div>
+      <div class="acca-pick"><span class="pick-num">1.</span><span class="pick-tier">B1</span><span class="pick-match">KV Mechelen to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">2.</span><span class="pick-tier">E2</span><span class="pick-match">Leyton Orient to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">3.</span><span class="pick-tier">E3</span><span class="pick-match">Accrington ST to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">4.</span><span class="pick-tier">I2</span><span class="pick-match">Pescara to win</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">5.</span><span class="pick-tier">D1</span><span class="pick-match">1. FC Heidenheim to win</span><span class="pick-conf">100%</span></div>
+    </div>
+
+    <div class="acca-card btts">
+      <div class="acca-type">BTTS Acca</div>
+      <div class="acca-odds">— (no odds)</div>
+      <div class="acca-comment">"Both teams to score on all 5. Note: Sevilla vs Atletico flagged — engine predicts 0-1 but BTTS active. Bug logged."</div>
+      <div class="acca-pick"><span class="pick-num">1.</span><span class="pick-tier">EC</span><span class="pick-match">Morecambe vs Carlisle</span><span class="pick-conf">100%</span></div>
+      <div class="acca-pick"><span class="pick-num">2.</span><span class="pick-tier">B1</span><span class="pick-match">KVC Westerlo vs Charleroi</span><span class="pick-conf">90%</span></div>
+      <div class="acca-pick"><span class="pick-num">3.</span><span class="pick-tier">SP1</span><span class="pick-match">Sevilla vs Atletico Madrid <span class="btts-conflict" title="⚠ Conflict: engine predicts 0-1 (clean sheet). BTTS flag inconsistent with scoreline. Bug logged S19.">⚠</span></span><span class="pick-conf">83%</span></div>
+      <div class="acca-pick"><span class="pick-num">4.</span><span class="pick-tier">I1</span><span class="pick-match">Pisa vs Torino</span><span class="pick-conf">80%</span></div>
+      <div class="acca-pick"><span class="pick-num">5.</span><span class="pick-tier">SC1</span><span class="pick-match">Ayr Utd vs Dunfermline</span><span class="pick-conf">77%</span></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- PREDICTIONS BY LEAGUE -->
+<div class="predictions-section" id="predictionsSection">
+  <div class="section-title">All Predictions — By League</div>
+
+  <!-- E0 -->
+  <div class="league-block" data-league="E0">
+    <div class="league-header">
+      <span class="league-code">E0</span>
+      <span class="league-name">Premier League</span>
+      <span class="league-count">5 matches</span>
+    </div>
+    <table>
+      <thead><tr>
+        <th onclick="sortTable(this,0)">Date</th>
+        <th onclick="sortTable(this,1)">Home</th>
+        <th onclick="sortTable(this,2)">Away</th>
+        <th onclick="sortTable(this,3)">Pred</th>
+        <th onclick="sortTable(this,4)">Score</th>
+        <th onclick="sortTable(this,5)">Conf</th>
+        <th onclick="sortTable(this,6)">DTI</th>
+        <th onclick="sortTable(this,7)">Chaos</th>
+        <th onclick="sortTable(this,8)">Upset</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>10/04</td><td>West Ham</td><td>Wolves</td><td class="pred-A">A</td><td>1-1</td><td class="conf-low">29%</td><td>0.847</td><td class="chaos-HIGH">HIGH</td><td>0.14</td></tr>
+        <tr><td>11/04</td><td>Liverpool</td><td>Fulham</td><td class="pred-H">H</td><td>0-0</td><td class="conf-low">15%</td><td>0.862</td><td class="chaos-HIGH">HIGH</td><td>0.06</td></tr>
+        <tr><td>11/04</td><td>Brentford</td><td>Everton</td><td class="pred-A">A</td><td>1-2</td><td class="conf-low">4%</td><td>0.889</td><td class="chaos-HIGH">HIGH</td><td>0.02</td></tr>
+        <tr><td>11/04</td><td>Burnley</td><td>Brighton</td><td class="pred-A">A</td><td>0-3</td><td class="conf-high">100%</td><td>0.634</td><td class="chaos-MED">MED</td><td>0.44</td></tr>
+        <tr><td>11/04</td><td>Arsenal</td><td>Bournemouth</td><td class="pred-H">H</td><td>1-0</td><td class="conf-high">100%</td><td>0.674</td><td class="chaos-MED">MED</td><td>0.42</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- E1 -->
+  <div class="league-block" data-league="E1">
+    <div class="league-header">
+      <span class="league-code">E1</span>
+      <span class="league-name">Championship</span>
+      <span class="league-count">23 matches</span>
+    </div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>06/04</td><td>Portsmouth</td><td>Oxford</td><td class="pred-A">A</td><td>0-1</td><td class="conf-med">55%</td><td>0.582</td><td class="chaos-MED">MED</td><td>0.39</td></tr>
+        <tr><td>06/04</td><td>Millwall</td><td>Norwich</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">48%</td><td>0.840</td><td class="chaos-HIGH">HIGH</td><td>0.20</td></tr>
+        <tr><td>06/04</td><td>Watford</td><td>Charlton</td><td class="pred-H">H</td><td>0-1</td><td class="conf-med">69%</td><td>0.946</td><td class="chaos-HIGH">HIGH</td><td>0.36</td></tr>
+        <tr><td>06/04</td><td>Bristol City</td><td>Sheffield Utd</td><td class="pred-A">A</td><td>1-1</td><td class="conf-low">8%</td><td>0.667</td><td class="chaos-MED">MED</td><td>0.02</td></tr>
+        <tr><td>06/04</td><td>Ipswich</td><td>Birmingham</td><td class="pred-H">H</td><td>3-0</td><td class="conf-high">100%</td><td>0.762</td><td class="chaos-HIGH">HIGH</td><td>0.49</td></tr>
+        <tr><td>06/04</td><td>Preston</td><td>QPR</td><td class="pred-A">A</td><td>0-2</td><td class="conf-low">7%</td><td>0.760</td><td class="chaos-HIGH">HIGH</td><td>0.03</td></tr>
+        <tr><td>06/04</td><td>Blackburn</td><td>West Brom</td><td class="pred-H">H</td><td>0-1</td><td class="conf-low">9%</td><td>0.844</td><td class="chaos-HIGH">HIGH</td><td>0.03</td></tr>
+        <tr><td>06/04</td><td>Sheffield Weds</td><td>Leicester</td><td class="pred-H">H</td><td>0-3</td><td class="conf-low">8%</td><td>0.712</td><td class="chaos-MED">MED</td><td>0.06</td></tr>
+        <tr><td>06/04</td><td>Swansea</td><td>Middlesbrough</td><td class="pred-A">A</td><td>0-2</td><td class="conf-low">32%</td><td>0.820</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>06/04</td><td>Hull</td><td>Coventry</td><td class="pred-A">A</td><td>0-2</td><td class="conf-med">54%</td><td>0.670</td><td class="chaos-MED">MED</td><td>0.18</td></tr>
+        <tr><td>06/04</td><td>Derby</td><td>Stoke</td><td class="pred-H">H</td><td>2-0</td><td class="conf-high">100%</td><td>0.680</td><td class="chaos-MED">MED</td><td>0.52</td></tr>
+        <tr><td>07/04</td><td>Wrexham</td><td>Southampton</td><td class="pred-H">H</td><td>0-1</td><td class="conf-low">7%</td><td>0.728</td><td class="chaos-MED">MED</td><td>0.02</td></tr>
+        <tr><td>10/04</td><td>West Brom</td><td>Millwall</td><td class="pred-H">H</td><td>0-2</td><td class="conf-med">78%</td><td>0.936</td><td class="chaos-HIGH">HIGH</td><td>0.36</td></tr>
+        <tr><td>11/04</td><td>QPR</td><td>Bristol City</td><td class="pred-H">H</td><td>2-0</td><td class="conf-high">100%</td><td>0.682</td><td class="chaos-MED">MED</td><td>0.31</td></tr>
+        <tr><td>11/04</td><td>Norwich</td><td>Ipswich</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">74%</td><td>0.910</td><td class="chaos-HIGH">HIGH</td><td>0.30</td></tr>
+        <tr><td>11/04</td><td>Coventry</td><td>Sheffield Weds</td><td class="pred-H">H</td><td>3-0</td><td class="conf-high">100%</td><td>0.582</td><td class="chaos-MED">MED</td><td>0.26</td></tr>
+        <tr><td>11/04</td><td>Southampton</td><td>Derby</td><td class="pred-H">H</td><td>0-0</td><td class="conf-med">80%</td><td>0.888</td><td class="chaos-HIGH">HIGH</td><td>0.32</td></tr>
+        <tr><td>11/04</td><td>Sheffield Utd</td><td>Hull</td><td class="pred-H">H</td><td>1-0</td><td class="conf-med">67%</td><td>0.680</td><td class="chaos-MED">MED</td><td>0.21</td></tr>
+        <tr><td>11/04</td><td>Oxford</td><td>Watford</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">73%</td><td>0.904</td><td class="chaos-HIGH">HIGH</td><td>0.36</td></tr>
+        <tr><td>11/04</td><td>Charlton</td><td>Preston</td><td class="pred-H">H</td><td>0-3</td><td class="conf-high">100%</td><td>0.750</td><td class="chaos-HIGH">HIGH</td><td>0.50</td></tr>
+        <tr><td>11/04</td><td>Stoke</td><td>Blackburn</td><td class="pred-H">H</td><td>1-0</td><td class="conf-low">40%</td><td>0.872</td><td class="chaos-HIGH">HIGH</td><td>0.16</td></tr>
+        <tr><td>11/04</td><td>Middlesbrough</td><td>Portsmouth</td><td class="pred-H">H</td><td>2-0</td><td class="conf-high">100%</td><td>0.662</td><td class="chaos-MED">MED</td><td>0.33</td></tr>
+        <tr><td>11/04</td><td>Leicester</td><td>Swansea</td><td class="pred-H">H</td><td>0-0</td><td class="conf-med">73%</td><td>0.914</td><td class="chaos-HIGH">HIGH</td><td>0.30</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- E2 -->
+  <div class="league-block" data-league="E2">
+    <div class="league-header"><span class="league-code">E2</span><span class="league-name">League One</span><span class="league-count">22 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>06/04</td><td>Exeter</td><td>Doncaster</td><td class="pred-A">A</td><td>0-2</td><td class="conf-high">100%</td><td>0.508</td><td class="chaos-MED">MED</td><td>0.44</td></tr>
+        <tr><td>06/04</td><td>Reading</td><td>Lincoln</td><td class="pred-A">A</td><td>1-1</td><td class="conf-med">76%</td><td>0.664</td><td class="chaos-MED">MED</td><td>0.32</td></tr>
+        <tr><td>06/04</td><td>Barnsley</td><td>Plymouth</td><td class="pred-A">A</td><td>2-0</td><td class="conf-high">99%</td><td>0.640</td><td class="chaos-MED">MED</td><td>0.56</td></tr>
+        <tr><td>06/04</td><td>Bolton</td><td>Stockport</td><td class="pred-H">H</td><td>0-2</td><td class="conf-high">100%</td><td>0.914</td><td class="chaos-HIGH">HIGH</td><td class="upset-flag">⚠ 0.81</td></tr>
+        <tr><td>06/04</td><td>Mansfield</td><td>Burton</td><td class="pred-H">H</td><td>2-0</td><td class="conf-high">100%</td><td>0.828</td><td class="chaos-HIGH">HIGH</td><td class="upset-flag">⚠ 0.64</td></tr>
+        <tr><td>06/04</td><td>Stevenage</td><td>Blackpool</td><td class="pred-H">H</td><td>0-0</td><td class="conf-high">100%</td><td>0.888</td><td class="chaos-HIGH">HIGH</td><td>0.57</td></tr>
+        <tr><td>06/04</td><td>Wycombe</td><td>Bradford</td><td class="pred-H">H</td><td>0-3</td><td class="conf-med">82%</td><td>0.912</td><td class="chaos-HIGH">HIGH</td><td>0.46</td></tr>
+        <tr><td>06/04</td><td>Peterborough</td><td>Cardiff</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">80%</td><td>0.909</td><td class="chaos-HIGH">HIGH</td><td>0.53</td></tr>
+        <tr><td>06/04</td><td>Northampton</td><td>Wigan</td><td class="pred-A">A</td><td>3-2</td><td class="conf-med">60%</td><td>0.662</td><td class="chaos-MED">MED</td><td>0.26</td></tr>
+        <tr><td>06/04</td><td>AFC Wimbledon</td><td>Luton</td><td class="pred-A">A</td><td>3-2</td><td class="conf-low">26%</td><td>0.786</td><td class="chaos-HIGH">HIGH</td><td>0.09</td></tr>
+        <tr><td>06/04</td><td>Leyton Orient</td><td>Huddersfield</td><td class="pred-H">H</td><td>5-1</td><td class="conf-high">100%</td><td>0.606</td><td class="chaos-MED">MED</td><td>0.58</td></tr>
+        <tr><td>07/04</td><td>Port Vale</td><td>Rotherham</td><td class="pred-H">H</td><td>0-1</td><td class="conf-high">100%</td><td>0.778</td><td class="chaos-HIGH">HIGH</td><td class="upset-flag">⚠ 0.59</td></tr>
+        <tr><td>11/04</td><td>Blackpool</td><td>Peterborough</td><td class="pred-H">H</td><td>1-0</td><td class="conf-high">100%</td><td>0.666</td><td class="chaos-MED">MED</td><td>0.30</td></tr>
+        <tr><td>11/04</td><td>Doncaster</td><td>Reading</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">88%</td><td>0.878</td><td class="chaos-HIGH">HIGH</td><td>0.35</td></tr>
+        <tr><td>11/04</td><td>Bradford</td><td>Stevenage</td><td class="pred-H">H</td><td>1-1</td><td class="conf-low">37%</td><td>0.868</td><td class="chaos-HIGH">HIGH</td><td>0.21</td></tr>
+        <tr><td>11/04</td><td>Burton</td><td>AFC Wimbledon</td><td class="pred-H">H</td><td>3-0</td><td class="conf-high">100%</td><td>0.654</td><td class="chaos-MED">MED</td><td>0.29</td></tr>
+        <tr><td>11/04</td><td>Rotherham</td><td>Barnsley</td><td class="pred-A">A</td><td>1-3</td><td class="conf-med">75%</td><td>0.680</td><td class="chaos-MED">MED</td><td>0.23</td></tr>
+        <tr><td>11/04</td><td>Wigan</td><td>Mansfield</td><td class="pred-H">H</td><td>0-2</td><td class="conf-low">13%</td><td>0.914</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>11/04</td><td>Huddersfield</td><td>Wycombe</td><td class="pred-H">H</td><td>2-2</td><td class="conf-low">4%</td><td>0.878</td><td class="chaos-HIGH">HIGH</td><td>0.02</td></tr>
+        <tr><td>11/04</td><td>Lincoln</td><td>Leyton Orient</td><td class="pred-H">H</td><td>5-0</td><td class="conf-med">77%</td><td>0.914</td><td class="chaos-HIGH">HIGH</td><td>0.32</td></tr>
+        <tr><td>11/04</td><td>Plymouth</td><td>Exeter</td><td class="pred-H">H</td><td>2-2</td><td class="conf-high">100%</td><td>0.500</td><td class="chaos-MED">MED</td><td>0.23</td></tr>
+        <tr><td>11/04</td><td>Cardiff</td><td>Bolton</td><td class="pred-H">H</td><td>0-1</td><td class="conf-med">91%</td><td>0.916</td><td class="chaos-HIGH">HIGH</td><td>0.37</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- E3 -->
+  <div class="league-block" data-league="E3">
+    <div class="league-header"><span class="league-code">E3</span><span class="league-name">League Two</span><span class="league-count">19 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>06/04</td><td>Harrogate</td><td>Bristol Rvs</td><td class="pred-A">A</td><td>0-0</td><td class="conf-high">100%</td><td>0.587</td><td class="chaos-MED">MED</td><td>0.49</td></tr>
+        <tr><td>06/04</td><td>Barrow</td><td>Chesterfield</td><td class="pred-A">A</td><td>2-2</td><td class="conf-med">82%</td><td>0.689</td><td class="chaos-MED">MED</td><td>0.38</td></tr>
+        <tr><td>06/04</td><td>Tranmere</td><td>Colchester</td><td class="pred-A">A</td><td>2-1</td><td class="conf-med">62%</td><td>0.651</td><td class="chaos-MED">MED</td><td>0.25</td></tr>
+        <tr><td>06/04</td><td>Notts County</td><td>Newport County</td><td class="pred-H">H</td><td>0-2</td><td class="conf-med">81%</td><td>0.815</td><td class="chaos-HIGH">HIGH</td><td>0.37</td></tr>
+        <tr><td>06/04</td><td>Crewe</td><td>Salford</td><td class="pred-A">A</td><td>0-1</td><td class="conf-low">23%</td><td>0.752</td><td class="chaos-HIGH">HIGH</td><td>0.08</td></tr>
+        <tr><td>06/04</td><td>Cheltenham</td><td>Cambridge</td><td class="pred-A">A</td><td>4-0</td><td class="conf-low">40%</td><td>0.851</td><td class="chaos-HIGH">HIGH</td><td>0.22</td></tr>
+        <tr><td>06/04</td><td>Crawley Town</td><td>Grimsby</td><td class="pred-A">A</td><td>2-1</td><td class="conf-low">47%</td><td>0.772</td><td class="chaos-HIGH">HIGH</td><td>0.18</td></tr>
+        <tr><td>06/04</td><td>Swindon</td><td>Walsall</td><td class="pred-H">H</td><td>0-3</td><td class="conf-low">8%</td><td>0.960</td><td class="chaos-HIGH">HIGH</td><td>0.07</td></tr>
+        <tr><td>06/04</td><td>Gillingham</td><td>Accrington ST</td><td class="pred-A">A</td><td>0-2</td><td class="conf-high">100%</td><td>0.452</td><td class="chaos-LOW">LOW</td><td>0.47</td></tr>
+        <tr><td>06/04</td><td>Fleetwood Town</td><td>Barnet</td><td class="pred-H">H</td><td>0-1</td><td class="conf-low">15%</td><td>0.966</td><td class="chaos-HIGH">HIGH</td><td>0.06</td></tr>
+        <tr><td>06/04</td><td>Oldham</td><td>Milton Keynes Dons</td><td class="pred-H">H</td><td>1-0</td><td class="conf-med">65%</td><td>0.766</td><td class="chaos-HIGH">HIGH</td><td>0.46</td></tr>
+        <tr><td>10/04</td><td>Colchester</td><td>Swindon</td><td class="pred-A">A</td><td>1-2</td><td class="conf-low">33%</td><td>0.720</td><td class="chaos-MED">MED</td><td>0.17</td></tr>
+        <tr><td>11/04</td><td>Salford</td><td>Gillingham</td><td class="pred-H">H</td><td>0-3</td><td class="conf-high">100%</td><td>0.443</td><td class="chaos-LOW">LOW</td><td>0.30</td></tr>
+        <tr><td>11/04</td><td>Cambridge</td><td>Notts County</td><td class="pred-H">H</td><td>2-1</td><td class="conf-low">4%</td><td>0.914</td><td class="chaos-HIGH">HIGH</td><td>0.01</td></tr>
+        <tr><td>11/04</td><td>Barnet</td><td>Barrow</td><td class="pred-H">H</td><td>1-1</td><td class="conf-high">100%</td><td>0.735</td><td class="chaos-MED">MED</td><td>0.33</td></tr>
+        <tr><td>11/04</td><td>Grimsby</td><td>Crewe</td><td class="pred-H">H</td><td>4-2</td><td class="conf-low">41%</td><td>0.944</td><td class="chaos-HIGH">HIGH</td><td>0.18</td></tr>
+        <tr><td>11/04</td><td>Chesterfield</td><td>Tranmere</td><td class="pred-H">H</td><td>2-1</td><td class="conf-med">74%</td><td>0.688</td><td class="chaos-MED">MED</td><td>0.23</td></tr>
+        <tr><td>11/04</td><td>Walsall</td><td>Cheltenham</td><td class="pred-H">H</td><td>2-1</td><td class="conf-med">72%</td><td>0.815</td><td class="chaos-HIGH">HIGH</td><td>0.36</td></tr>
+        <tr><td>11/04</td><td>Shrewsbury</td><td>Oldham</td><td class="pred-A">A</td><td>0-2</td><td class="conf-high">100%</td><td>0.427</td><td class="chaos-LOW">LOW</td><td>0.19</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- EC -->
+  <div class="league-block" data-league="EC">
+    <div class="league-header"><span class="league-code">EC</span><span class="league-name">National League</span><span class="league-count">23 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>06/04</td><td>Brackley Town</td><td>Boston Utd</td><td class="pred-A">A</td><td>1-1</td><td class="conf-low">12%</td><td>0.764</td><td class="chaos-HIGH">HIGH</td><td>0.04</td></tr>
+        <tr><td>06/04</td><td>Truro City</td><td>Forest Green</td><td class="pred-H">H</td><td>1-0</td><td class="conf-low">16%</td><td>0.910</td><td class="chaos-HIGH">HIGH</td><td>0.07</td></tr>
+        <tr><td>06/04</td><td>FC Halifax Town</td><td>Tamworth</td><td class="pred-H">H</td><td>1-0</td><td class="conf-low">23%</td><td>0.922</td><td class="chaos-HIGH">HIGH</td><td>0.10</td></tr>
+        <tr><td>06/04</td><td>Sutton Utd</td><td>Southend</td><td class="pred-H">H</td><td>1-1</td><td class="conf-low">21%</td><td>0.936</td><td class="chaos-HIGH">HIGH</td><td>0.09</td></tr>
+        <tr><td>06/04</td><td>Solihull</td><td>Boreham Wood</td><td class="pred-A">A</td><td>1-3</td><td class="conf-med">54%</td><td>0.781</td><td class="chaos-HIGH">HIGH</td><td>0.25</td></tr>
+        <tr><td>06/04</td><td>Braintree</td><td>Woking</td><td class="pred-A">A</td><td>1-1</td><td class="conf-low">10%</td><td>0.833</td><td class="chaos-HIGH">HIGH</td><td>0.04</td></tr>
+        <tr><td>06/04</td><td>Morecambe</td><td>Carlisle</td><td class="pred-A">A</td><td>3-4</td><td class="conf-med">78%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.33</td></tr>
+        <tr><td>06/04</td><td>Gateshead</td><td>Scunthorpe</td><td class="pred-A">A</td><td>1-2</td><td class="conf-low">3%</td><td>0.760</td><td class="chaos-HIGH">HIGH</td><td>0.01</td></tr>
+        <tr><td>06/04</td><td>Eastleigh</td><td>Yeovil</td><td class="pred-A">A</td><td>2-2</td><td class="conf-low">29%</td><td>0.755</td><td class="chaos-HIGH">HIGH</td><td>0.10</td></tr>
+        <tr><td>06/04</td><td>Hartlepool</td><td>Rochdale</td><td class="pred-H">H</td><td>1-2</td><td class="conf-low">12%</td><td>0.871</td><td class="chaos-HIGH">HIGH</td><td>0.13</td></tr>
+        <tr><td>06/04</td><td>York</td><td>Altrincham</td><td class="pred-H">H</td><td>0-1</td><td class="conf-high">100%</td><td>0.713</td><td class="chaos-MED">MED</td><td>0.49</td></tr>
+        <tr><td>06/04</td><td>Wealdstone</td><td>Aldershot</td><td class="pred-H">H</td><td>2-3</td><td class="conf-high">100%</td><td>0.767</td><td class="chaos-HIGH">HIGH</td><td class="upset-flag">⚠ 0.65</td></tr>
+        <tr><td>11/04</td><td>Rochdale</td><td>Wealdstone</td><td class="pred-H">H</td><td>1-2</td><td class="conf-high">100%</td><td>0.785</td><td class="chaos-HIGH">HIGH</td><td>0.35</td></tr>
+        <tr><td>11/04</td><td>Boston Utd</td><td>Truro City</td><td class="pred-H">H</td><td>0-2</td><td class="conf-med">62%</td><td>0.680</td><td class="chaos-MED">MED</td><td>0.19</td></tr>
+        <tr><td>11/04</td><td>Altrincham</td><td>Eastleigh</td><td class="pred-H">H</td><td>0-1</td><td class="conf-high">100%</td><td>0.655</td><td class="chaos-MED">MED</td><td>0.36</td></tr>
+        <tr><td>11/04</td><td>Woking</td><td>Morecambe</td><td class="pred-H">H</td><td>1-1</td><td class="conf-high">100%</td><td>0.669</td><td class="chaos-MED">MED</td><td>0.38</td></tr>
+        <tr><td>11/04</td><td>Yeovil</td><td>FC Halifax Town</td><td class="pred-H">H</td><td>1-1</td><td class="conf-high">100%</td><td>0.688</td><td class="chaos-MED">MED</td><td>0.31</td></tr>
+        <tr><td>11/04</td><td>Forest Green</td><td>Braintree</td><td class="pred-H">H</td><td>1-0</td><td class="conf-high">100%</td><td>0.688</td><td class="chaos-MED">MED</td><td>0.31</td></tr>
+        <tr><td>11/04</td><td>Carlisle</td><td>Sutton Utd</td><td class="pred-H">H</td><td>0-0</td><td class="conf-high">100%</td><td>0.588</td><td class="chaos-MED">MED</td><td>0.26</td></tr>
+        <tr><td>11/04</td><td>Southend</td><td>Solihull</td><td class="pred-H">H</td><td>2-1</td><td class="conf-med">96%</td><td>0.864</td><td class="chaos-HIGH">HIGH</td><td>0.37</td></tr>
+        <tr><td>11/04</td><td>Scunthorpe</td><td>Brackley Town</td><td class="pred-H">H</td><td>2-2</td><td class="conf-high">100%</td><td>0.634</td><td class="chaos-MED">MED</td><td>0.29</td></tr>
+        <tr><td>11/04</td><td>Tamworth</td><td>York</td><td class="pred-H">H</td><td>0-3</td><td class="conf-low">14%</td><td>0.910</td><td class="chaos-HIGH">HIGH</td><td>0.06</td></tr>
+        <tr><td>11/04</td><td>Aldershot</td><td>Gateshead</td><td class="pred-A">A</td><td>2-2</td><td class="conf-low">41%</td><td>0.730</td><td class="chaos-MED">MED</td><td>0.17</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- B1 -->
+  <div class="league-block" data-league="B1">
+    <div class="league-header"><span class="league-code">B1</span><span class="league-name">Belgian Pro League</span><span class="league-count">8 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>05/04</td><td>KVC Westerlo</td><td>Charleroi</td><td class="pred-A">A</td><td>2-0</td><td class="conf-med">61%</td><td>0.706</td><td class="chaos-MED">MED</td><td>0.28</td></tr>
+        <tr><td>06/04</td><td>Club Brugge KV</td><td>Anderlecht</td><td class="pred-H">H</td><td>5-3</td><td class="conf-low">49%</td><td>0.927</td><td class="chaos-HIGH">HIGH</td><td>0.20</td></tr>
+        <tr><td>06/04</td><td>RAAL La Louvière</td><td>Dender</td><td class="pred-H">H</td><td>2-2</td><td class="conf-low">47%</td><td>0.909</td><td class="chaos-HIGH">HIGH</td><td>0.19</td></tr>
+        <tr><td>06/04</td><td>Gent</td><td>KV Mechelen</td><td class="pred-A">A</td><td>0-4</td><td class="conf-high">100%</td><td>0.582</td><td class="chaos-MED">MED</td><td>0.52</td></tr>
+        <tr><td>10/04</td><td>Charleroi</td><td>Antwerp</td><td class="pred-H">H</td><td>2-2</td><td class="conf-med">95%</td><td>0.839</td><td class="chaos-HIGH">HIGH</td><td>0.36</td></tr>
+        <tr><td>11/04</td><td>St. Truiden</td><td>Club Brugge KV</td><td class="pred-H">H</td><td>0-1</td><td class="conf-high">100%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.30</td></tr>
+        <tr><td>11/04</td><td>Standard Liege</td><td>KVC Westerlo</td><td class="pred-H">H</td><td>0-1</td><td class="conf-high">100%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.30</td></tr>
+        <tr><td>11/04</td><td>Cercle Brugge</td><td>RAAL La Louvière</td><td class="pred-H">H</td><td>0-0</td><td class="conf-med">63%</td><td>0.677</td><td class="chaos-MED">MED</td><td>0.19</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- D1 -->
+  <div class="league-block" data-league="D1">
+    <div class="league-header"><span class="league-code">D1</span><span class="league-name">Bundesliga</span><span class="league-count">8 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>05/04</td><td>Eintracht Frankfurt</td><td>1. FC Köln</td><td class="pred-H">H</td><td>1-2</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>05/04</td><td>Union Berlin</td><td>FC St. Pauli</td><td class="pred-A">A</td><td>3-1</td><td class="conf-low">27%</td><td>0.863</td><td class="chaos-HIGH">HIGH</td><td>0.10</td></tr>
+        <tr><td>10/04</td><td>FC Augsburg</td><td>1899 Hoffenheim</td><td class="pred-H">H</td><td>3-3</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>11/04</td><td>FC St. Pauli</td><td>Bayern München</td><td class="pred-D">D</td><td>0-0</td><td class="conf-low">14%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.04</td></tr>
+        <tr><td>11/04</td><td>1. FC Heidenheim</td><td>Union Berlin</td><td class="pred-H">H</td><td>2-2</td><td class="conf-high">100%</td><td>0.721</td><td class="chaos-MED">MED</td><td>0.57</td></tr>
+        <tr><td>11/04</td><td>RB Leipzig</td><td>Borussia M'gladbach</td><td class="pred-H">H</td><td>2-1</td><td class="conf-high">99%</td><td>0.811</td><td class="chaos-HIGH">HIGH</td><td>0.49</td></tr>
+        <tr><td>11/04</td><td>Borussia Dortmund</td><td>Bayer Leverkusen</td><td class="pred-H">H</td><td>1-0</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>11/04</td><td>VfL Wolfsburg</td><td>Eintracht Frankfurt</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">86%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.43</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- D2 -->
+  <div class="league-block" data-league="D2">
+    <div class="league-header"><span class="league-code">D2</span><span class="league-name">2. Bundesliga</span><span class="league-count">11 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>05/04</td><td>Hannover 96</td><td>SV Elversberg</td><td class="pred-H">H</td><td>1-4</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>05/04</td><td>FC Schalke 04</td><td>Karlsruher SC</td><td class="pred-H">H</td><td>0-0</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>05/04</td><td>SpVgg Greuther Fürth</td><td>SC Paderborn 07</td><td class="pred-H">H</td><td>3-0</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.13</td></tr>
+        <tr><td>05/04</td><td>Holstein Kiel</td><td>Preußen Münster</td><td class="pred-H">H</td><td>4-1</td><td class="conf-med">74%</td><td>0.796</td><td class="chaos-HIGH">HIGH</td><td>0.35</td></tr>
+        <tr><td>05/04</td><td>Eintracht Braunschweig</td><td>1. FC Nürnberg</td><td class="pred-H">H</td><td>2-0</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+        <tr><td>10/04</td><td>Karlsruher SC</td><td>Arminia Bielefeld</td><td class="pred-D">D</td><td>0-0</td><td class="conf-low">22%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.07</td></tr>
+        <tr><td>10/04</td><td>Fortuna Düsseldorf</td><td>Holstein Kiel</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">68%</td><td>0.832</td><td class="chaos-HIGH">HIGH</td><td>0.34</td></tr>
+        <tr><td>11/04</td><td>SV Darmstadt 98</td><td>Hannover 96</td><td class="pred-H">H</td><td>0-0</td><td class="conf-med">94%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.29</td></tr>
+        <tr><td>11/04</td><td>Preußen Münster</td><td>SpVgg Greuther Fürth</td><td class="pred-D">D</td><td>1-2</td><td class="conf-low">3%</td><td>0.648</td><td class="chaos-MED">MED</td><td>0.01</td></tr>
+        <tr><td>11/04</td><td>1. FC Nürnberg</td><td>Dynamo Dresden</td><td class="pred-D">D</td><td>0-3</td><td class="conf-low">22%</td><td>0.675</td><td class="chaos-MED">MED</td><td>0.07</td></tr>
+        <tr><td>11/04</td><td>Hertha BSC</td><td>1. FC Kaiserslautern</td><td class="pred-H">H</td><td>1-2</td><td class="conf-low">27%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SP1 -->
+  <div class="league-block" data-league="SP1">
+    <div class="league-header"><span class="league-code">SP1</span><span class="league-name">La Liga</span><span class="league-count">10 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>05/04</td><td>Alaves</td><td>Osasuna</td><td class="pred-H">H</td><td>1-2</td><td class="conf-low">33%</td><td>0.901</td><td class="chaos-HIGH">HIGH</td><td>0.27</td></tr>
+        <tr><td>05/04</td><td>Oviedo</td><td>Sevilla</td><td class="pred-H">H</td><td>0-4</td><td class="conf-low">37%</td><td>0.879</td><td class="chaos-HIGH">HIGH</td><td>0.16</td></tr>
+        <tr><td>05/04</td><td>Getafe</td><td>Athletic Club</td><td class="pred-H">H</td><td>2-2</td><td class="conf-med">75%</td><td>0.910</td><td class="chaos-HIGH">HIGH</td><td>0.46</td></tr>
+        <tr><td>05/04</td><td>Valencia</td><td>Celta Vigo</td><td class="pred-H">H</td><td>1-0</td><td class="conf-med">75%</td><td>0.910</td><td class="chaos-HIGH">HIGH</td><td>0.43</td></tr>
+        <tr><td>06/04</td><td>Girona</td><td>Villarreal</td><td class="pred-H">H</td><td>3-1</td><td class="conf-low">26%</td><td>0.848</td><td class="chaos-HIGH">HIGH</td><td>0.20</td></tr>
+        <tr><td>10/04</td><td>Real Madrid</td><td>Girona</td><td class="pred-H">H</td><td>2-1</td><td class="conf-high">100%</td><td>0.807</td><td class="chaos-HIGH">HIGH</td><td>0.44</td></tr>
+        <tr><td>11/04</td><td>Sevilla</td><td>Atletico Madrid</td><td class="pred-A">A</td><td>0-1</td><td class="conf-low">16%</td><td>0.717</td><td class="chaos-MED">MED</td><td>0.05</td></tr>
+        <tr><td>11/04</td><td>Barcelona</td><td>Espanyol</td><td class="pred-H">H</td><td>2-2</td><td class="conf-high">100%</td><td>0.537</td><td class="chaos-MED">MED</td><td>0.32</td></tr>
+        <tr><td>11/04</td><td>Elche</td><td>Valencia</td><td class="pred-A">A</td><td>1-3</td><td class="conf-low">32%</td><td>0.745</td><td class="chaos-MED">MED</td><td>0.11</td></tr>
+        <tr><td>11/04</td><td>Real Sociedad</td><td>Alaves</td><td class="pred-H">H</td><td>3-4</td><td class="conf-med">90%</td><td>0.832</td><td class="chaos-HIGH">HIGH</td><td>0.47</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- N1 -->
+  <div class="league-block" data-league="N1">
+    <div class="league-header"><span class="league-code">N1</span><span class="league-name">Eredivisie</span><span class="league-count">9 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>05/04</td><td>NAC Breda</td><td>Sparta Rotterdam</td><td class="pred-H">H</td><td>0-1</td><td class="conf-low">11%</td><td>0.873</td><td class="chaos-HIGH">HIGH</td><td>0.08</td></tr>
+        <tr><td>05/04</td><td>FC Volendam</td><td>Feyenoord</td><td class="pred-H">H</td><td>3-1</td><td class="conf-low">29%</td><td>0.961</td><td class="chaos-HIGH">HIGH</td><td>0.18</td></tr>
+        <tr><td>05/04</td><td>GO Ahead Eagles</td><td>PEC Zwolle</td><td class="pred-H">H</td><td>3-0</td><td class="conf-low">33%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.15</td></tr>
+        <tr><td>05/04</td><td>Heerenveen</td><td>Heracles</td><td class="pred-H">H</td><td>4-1</td><td class="conf-high">100%</td><td>0.608</td><td class="chaos-MED">MED</td><td>0.40</td></tr>
+        <tr><td>10/04</td><td>Twente</td><td>FC Volendam</td><td class="pred-H">H</td><td>2-2</td><td class="conf-high">100%</td><td>0.551</td><td class="chaos-MED">MED</td><td>0.32</td></tr>
+        <tr><td>11/04</td><td>Heracles</td><td>Ajax</td><td class="pred-A">A</td><td>1-0</td><td class="conf-low">42%</td><td>0.716</td><td class="chaos-MED">MED</td><td>0.14</td></tr>
+        <tr><td>11/04</td><td>Groningen</td><td>GO Ahead Eagles</td><td class="pred-H">H</td><td>2-1</td><td class="conf-high">100%</td><td>0.651</td><td class="chaos-MED">MED</td><td>0.46</td></tr>
+        <tr><td>11/04</td><td>Sparta Rotterdam</td><td>PSV Eindhoven</td><td class="pred-A">A</td><td>3-0</td><td class="conf-low">25%</td><td>0.783</td><td class="chaos-HIGH">HIGH</td><td>0.09</td></tr>
+        <tr><td>11/04</td><td>Utrecht</td><td>Telstar</td><td class="pred-H">H</td><td>0-1</td><td class="conf-med">66%</td><td>0.837</td><td class="chaos-HIGH">HIGH</td><td>0.28</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SC0 -->
+  <div class="league-block" data-league="SC0">
+    <div class="league-header"><span class="league-code">SC0</span><span class="league-name">Scottish Premiership</span><span class="league-count">7 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>05/04</td><td>Dundee</td><td>Celtic</td><td class="pred-H">H</td><td>2-2</td><td class="conf-low">45%</td><td>0.944</td><td class="chaos-HIGH">HIGH</td><td>0.39</td></tr>
+        <tr><td>05/04</td><td>Livingston</td><td>Heart Of Midlothian</td><td class="pred-A">A</td><td>1-1</td><td class="conf-low">10%</td><td>0.860</td><td class="chaos-HIGH">HIGH</td><td>0.04</td></tr>
+        <tr><td>11/04</td><td>Heart Of Midlothian</td><td>Motherwell</td><td class="pred-A">A</td><td>0-0</td><td class="conf-med">72%</td><td>0.633</td><td class="chaos-MED">MED</td><td>0.37</td></tr>
+        <tr><td>11/04</td><td>Aberdeen</td><td>Hibernian</td><td class="pred-A">A</td><td>0-0</td><td class="conf-high">100%</td><td>0.651</td><td class="chaos-MED">MED</td><td>0.48</td></tr>
+        <tr><td>11/04</td><td>Kilmarnock</td><td>Dundee</td><td class="pred-H">H</td><td>1-2</td><td class="conf-low">28%</td><td>0.891</td><td class="chaos-HIGH">HIGH</td><td>0.11</td></tr>
+        <tr><td>11/04</td><td>Celtic</td><td>ST Mirren</td><td class="pred-H">H</td><td>0-1</td><td class="conf-low">32%</td><td>0.975</td><td class="chaos-HIGH">HIGH</td><td>0.14</td></tr>
+        <tr><td>11/04</td><td>Dundee Utd</td><td>Livingston</td><td class="pred-H">H</td><td>3-0</td><td class="conf-med">82%</td><td>0.808</td><td class="chaos-HIGH">HIGH</td><td>0.40</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SC1 -->
+  <div class="league-block" data-league="SC1">
+    <div class="league-header"><span class="league-code">SC1</span><span class="league-name">Scottish Championship</span><span class="league-count">6 matches</span></div>
+    <table>
+      <thead><tr><th onclick="sortTable(this,0)">Date</th><th onclick="sortTable(this,1)">Home</th><th onclick="sortTable(this,2)">Away</th><th onclick="sortTable(this,3)">Pred</th><th onclick="sortTable(this,4)">Score</th><th onclick="sortTable(this,5)">Conf</th><th onclick="sortTable(this,6)">DTI</th><th onclick="sortTable(this,7)">Chaos</th><th onclick="sortTable(this,8)">Upset</th></tr></thead>
+      <tbody>
+        <tr><td>07/04</td><td>Ayr Utd</td><td>Dunfermline</td><td class="pred-A">A</td><td>1-1</td><td class="conf-med">63%</td><td>0.747</td><td class="chaos-MED">MED</td><td>0.33</td></tr>
+        <tr><td>10/04</td><td>Queen's Park</td><td>Ross County</td><td class="pred-H">H</td><td>4-0</td><td class="conf-high">100%</td><td>0.707</td><td class="chaos-MED">MED</td><td>0.32</td></tr>
+        <tr><td>11/04</td><td>Ayr Utd</td><td>Arbroath</td><td class="pred-A">A</td><td>0-2</td><td class="conf-low">26%</td><td>0.690</td><td class="chaos-MED">MED</td><td>0.08</td></tr>
+        <tr><td>11/04</td><td>Raith Rovers</td><td>Morton</td><td class="pred-H">H</td><td>1-1</td><td class="conf-med">65%</td><td>0.899</td><td class="chaos-HIGH">HIGH</td><td>0.26</td></tr>
+        <tr><td>11/04</td><td>Partick</td><td>Dunfermline</td><td class="pred-H">H</td><td>2-2</td><td class="conf-low">23%</td><td>0.852</td><td class="chaos-HIGH">HIGH</td><td>0.09</td></tr>
+        <tr><td>11/04</td><td>ST Johnstone</td><td>Airdrie United</td><td class="pred-H">H</td><td>0-3</td><td class="conf-low">26%</td><td>1.000</td><td class="chaos-HIGH">HIGH</td><td>0.12</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<footer>
+  <span>EdgeLab v1 — Khaotikk Ltd</span>
+  <span>Session 17 — 5 April 2026</span>
+  <span>Powered by EdgeLab</span>
+</footer>
+
+<script>
+  // ── SORT ──
+  let sortState = {};
+
+  function sortTable(th, colIdx) {
+    const table = th.closest('table');
+    const tbody = table.querySelector('tbody');
+    const rows  = Array.from(tbody.querySelectorAll('tr:not(.row-hidden)'));
+    const key   = table.closest('.league-block').dataset.league + '-' + colIdx;
+
+    const asc = sortState[key] !== 'asc';
+    sortState[key] = asc ? 'asc' : 'desc';
+
+    // Clear all header indicators in this table
+    th.closest('thead').querySelectorAll('th').forEach(h => {
+      h.classList.remove('sort-asc','sort-desc');
+    });
+    th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+
+    rows.sort((a, b) => {
+      let av = a.cells[colIdx]?.textContent.trim() || '';
+      let bv = b.cells[colIdx]?.textContent.trim() || '';
+      // Strip % and non-numeric for numeric cols
+      const an = parseFloat(av.replace(/[^0-9.\-]/g,''));
+      const bn = parseFloat(bv.replace(/[^0-9.\-]/g,''));
+      if (!isNaN(an) && !isNaN(bn)) return asc ? an - bn : bn - an;
+      return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+    });
+
+    rows.forEach(r => tbody.appendChild(r));
+  }
+
+  // ── SEARCH ──
+  function filterTable() {
+    const q = document.getElementById('searchInput').value.toLowerCase().trim();
+    const blocks = document.querySelectorAll('.league-block');
+    let total = 0;
+
+    blocks.forEach(block => {
+      const rows = block.querySelectorAll('tbody tr');
+      let blockMatch = 0;
+
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        const leagueText = block.querySelector('.league-name')?.textContent.toLowerCase() || '';
+        const codeText   = block.querySelector('.league-code')?.textContent.toLowerCase() || '';
+        const match = !q || text.includes(q) || leagueText.includes(q) || codeText.includes(q);
+        row.classList.toggle('row-hidden', !match);
+        if (match) blockMatch++;
+      });
+
+      total += blockMatch;
+      block.classList.toggle('hidden', blockMatch === 0 && q !== '');
+    });
+
+    const count = document.getElementById('searchCount');
+    count.textContent = q ? `${total} match${total !== 1 ? 'es' : ''} found` : '';
+  }
+</script>
+</body>
+</html>
