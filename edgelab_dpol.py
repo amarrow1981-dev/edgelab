@@ -108,14 +108,20 @@ class DPOLManager:
         initial_params_factory: Callable[[str], LeagueParams] = None,
         window_rounds: int = 6,
         boldness: str = "small",  # 'tiny', 'small', 'medium'
+        db=None,  # Optional EdgeLabDB instance — enables candidate log navigation
     ):
         """
         :param initial_params_factory: function(tier) -> LeagueParams
         :param window_rounds: how many rounds of matches to use in evaluation window
         :param boldness: how aggressive adjustments are ('tiny','small','medium')
+        :param db: Optional EdgeLabDB instance. When provided, DPOL reads
+                   get_successful_param_directions() before each evolution round
+                   to bias candidate generation toward historically proven moves.
+                   Without this, DPOL runs blind (previous behaviour).
         """
         self.window_rounds = window_rounds
         self.boldness = boldness
+        self.db = db  # fixture intelligence database — None = blind mode
 
         if initial_params_factory is None:
             initial_params_factory = lambda tier: LeagueParams()
@@ -203,10 +209,33 @@ class DPOLManager:
 
         logger.info(f"[DPOL] Tier={tier_name} Round={max_round} Base accuracy={base_acc:.3f}")
 
+        # Query the fixture intelligence database for historically proven
+        # param directions before generating candidates.
+        # This is the core of the S30 fix: DPOL no longer starts blind.
+        # If DB is not available (or has no data yet for this tier),
+        # directions is empty and candidate generation falls back to the
+        # original blind behaviour — safe and backward-compatible.
+        proven_directions = []
+        if self.db is not None:
+            try:
+                proven_directions = self.db.get_successful_param_directions(
+                    tier=tier_name,
+                    top_n=10,
+                    min_delta=0.001,
+                )
+                if proven_directions:
+                    logger.info(
+                        f"[DPOL] Tier={tier_name} Round={max_round} "
+                        f"Navigation: {len(proven_directions)} proven directions loaded from candidate log"
+                    )
+            except Exception as _db_err:
+                logger.warning(f"[DPOL] Could not read candidate directions: {_db_err}")
+                proven_directions = []
+
         candidates = (
             self._generate_candidates_signals_only(state.current_params)
             if signals_only
-            else self._generate_candidates(state.current_params)
+            else self._generate_candidates(state.current_params, proven_directions=proven_directions)
         )
 
         best_candidate = None
@@ -352,16 +381,35 @@ class DPOLManager:
 
         return candidates
 
-    def _generate_candidates(self, base: LeagueParams) -> List[LeagueParams]:
+    def _generate_candidates(self, base: LeagueParams, proven_directions: list = None) -> List[LeagueParams]:
         """
         Generate candidate parameter variations around the current base parameters.
         Boldness controls how big the steps are.
+
+        proven_directions: list of dicts from db.get_successful_param_directions().
+            Each entry: {param, direction, avg_delta, avg_signed_move, count}
+            When provided, candidates are generated with bias:
+              - Proven direction: larger step (scale * PROVEN_BOOST)
+              - Opposite direction: skipped if direction is clear ("up" or "down")
+              - "mixed" direction: both directions tested at normal scale
+              - Params with no history: normal blind generation (unchanged)
         """
         scale = {
             "tiny": 0.02,
             "small": 0.05,
             "medium": 0.10,
         }.get(self.boldness, 0.05)
+
+        # Build a quick lookup: param -> direction entry
+        # Only params with clear direction ("up" or "down") and enough evidence
+        # get the bias treatment. "mixed" and unknown fall through to blind.
+        direction_map = {}
+        if proven_directions:
+            for entry in proven_directions:
+                direction_map[entry["param"]] = entry
+
+        # Multiplier for the proven direction step — larger = bolder navigation
+        PROVEN_BOOST = 2.0
 
         candidates: List[LeagueParams] = []
 
@@ -371,114 +419,102 @@ class DPOLManager:
                 setattr(p, k, v)
             candidates.append(p)
 
-        # Adjust form weight
-        add_variant(w_form=base.w_form * (1 + scale))
-        add_variant(w_form=base.w_form * (1 - scale))
+        def biased_variants(param_name: str, current_val: float, step: float,
+                            lower_bound: float = None):
+            """
+            Add up/down variants for a param, using direction bias if available.
 
-        # Adjust goal difference weight
-        add_variant(w_gd=base.w_gd * (1 + scale))
-        add_variant(w_gd=base.w_gd * (1 - scale))
+            If direction is "up": add proven (up, bigger step) + exploratory (down, normal)
+            If direction is "down": add proven (down, bigger step) + exploratory (up, normal)
+            If direction is "mixed" or unknown: add both at normal step
+            """
+            entry = direction_map.get(param_name)
 
-        # Adjust home advantage
-        add_variant(home_adv=base.home_adv * (1 + scale))
-        add_variant(home_adv=base.home_adv * (1 - scale))
+            if entry and entry["direction"] == "up":
+                # Proven: larger step up
+                add_variant(**{param_name: current_val * (1 + step * PROVEN_BOOST)})
+                # Exploratory: normal step down (don't skip — we might be wrong)
+                down_val = current_val * (1 - step)
+                if lower_bound is not None:
+                    down_val = max(lower_bound, down_val)
+                if down_val != current_val:
+                    add_variant(**{param_name: down_val})
 
-        # Adjust DTI impact
-        add_variant(dti_edge_scale=base.dti_edge_scale * (1 + scale))
-        add_variant(dti_edge_scale=base.dti_edge_scale * (1 - scale))
-        add_variant(dti_ha_scale=base.dti_ha_scale * (1 + scale))
-        add_variant(dti_ha_scale=base.dti_ha_scale * (1 - scale))
+            elif entry and entry["direction"] == "down":
+                # Proven: larger step down
+                down_val = current_val * (1 - step * PROVEN_BOOST)
+                if lower_bound is not None:
+                    down_val = max(lower_bound, down_val)
+                add_variant(**{param_name: down_val})
+                # Exploratory: normal step up
+                add_variant(**{param_name: current_val * (1 + step)})
 
-        # Adjust draw margin slightly
-        add_variant(draw_margin=base.draw_margin * (1 + scale))
-        add_variant(draw_margin=base.draw_margin * (1 - scale))
+            else:
+                # Blind (mixed, unknown, or no history) — normal both directions
+                add_variant(**{param_name: current_val * (1 + step)})
+                down_val = current_val * (1 - step)
+                if lower_bound is not None:
+                    down_val = max(lower_bound, down_val)
+                if down_val != current_val:
+                    add_variant(**{param_name: down_val})
 
-        # Adjust coin-flip DTI threshold
-        add_variant(coin_dti_thresh=base.coin_dti_thresh * (1 + scale))
-        add_variant(coin_dti_thresh=base.coin_dti_thresh * (1 - scale))
+        def biased_variants_zero_safe(param_name: str, current_val: float, step: float):
+            """
+            For params that start at 0.0 — use additive steps, not multiplicative.
+            Direction bias still applies.
+            """
+            entry = direction_map.get(param_name)
 
-        # Adjust draw_pull — how strongly parity pulls toward draw
-        add_variant(draw_pull=base.draw_pull * (1 + scale))
-        add_variant(draw_pull=base.draw_pull * (1 - scale))
+            if entry and entry["direction"] == "up":
+                add_variant(**{param_name: current_val + step * PROVEN_BOOST})
+                if current_val > 0:
+                    add_variant(**{param_name: max(0.0, current_val - step)})
+            elif entry and entry["direction"] == "down":
+                add_variant(**{param_name: max(0.0, current_val - step * PROVEN_BOOST)})
+                add_variant(**{param_name: current_val + step})
+            else:
+                add_variant(**{param_name: current_val + step})
+                if current_val > 0:
+                    add_variant(**{param_name: max(0.0, current_val - step)})
 
-        # Adjust dti_draw_lock — when to lock parity matches as draw
-        add_variant(dti_draw_lock=base.dti_draw_lock * (1 + scale))
-        add_variant(dti_draw_lock=base.dti_draw_lock * (1 - scale))
+        # ── Core params — multiplicative steps ──────────────────────────────
+        biased_variants("w_form",         base.w_form,         scale)
+        biased_variants("w_gd",           base.w_gd,           scale)
+        biased_variants("home_adv",       base.home_adv,       scale)
+        biased_variants("dti_edge_scale", base.dti_edge_scale, scale)
+        biased_variants("dti_ha_scale",   base.dti_ha_scale,   scale)
+        biased_variants("draw_margin",    base.draw_margin,    scale)
+        biased_variants("coin_dti_thresh",base.coin_dti_thresh,scale)
+        biased_variants("draw_pull",      base.draw_pull,      scale)
+        biased_variants("dti_draw_lock",  base.dti_draw_lock,  scale)
 
-        # --- Draw intelligence params ---
-        # These start at 0.0. DPOL tries activating them from scratch
-        # by nudging up from zero. Once active, it also nudges down/up.
-        DRAW_STEP = max(scale, 0.05)  # minimum step so 0.0 * anything != 0
+        # ── Draw intelligence — additive from zero ───────────────────────────
+        DRAW_STEP = max(scale, 0.05)
 
-        # Odds weight — try switching on
-        add_variant(w_draw_odds=base.w_draw_odds + DRAW_STEP)
-        if base.w_draw_odds > 0:
-            add_variant(w_draw_odds=max(0.0, base.w_draw_odds - DRAW_STEP))
+        biased_variants_zero_safe("w_draw_odds",      base.w_draw_odds,      DRAW_STEP)
+        biased_variants_zero_safe("w_draw_tendency",  base.w_draw_tendency,  DRAW_STEP)
+        biased_variants_zero_safe("w_h2h_draw",       base.w_h2h_draw,       DRAW_STEP)
 
-        # Draw tendency weight — try switching on
-        add_variant(w_draw_tendency=base.w_draw_tendency + DRAW_STEP)
-        if base.w_draw_tendency > 0:
-            add_variant(w_draw_tendency=max(0.0, base.w_draw_tendency - DRAW_STEP))
-
-        # H2H draw weight — try switching on
-        add_variant(w_h2h_draw=base.w_h2h_draw + DRAW_STEP)
-        if base.w_h2h_draw > 0:
-            add_variant(w_h2h_draw=max(0.0, base.w_h2h_draw - DRAW_STEP))
-
-        # Draw score threshold — only tune if any draw weights are active
+        # draw_score_thresh — only tune if draw weights are active
         if (base.w_draw_odds + base.w_draw_tendency + base.w_h2h_draw) > 0:
-            add_variant(draw_score_thresh=base.draw_score_thresh + DRAW_STEP)
-            add_variant(draw_score_thresh=max(0.30, base.draw_score_thresh - DRAW_STEP))
+            biased_variants_zero_safe("draw_score_thresh", base.draw_score_thresh, DRAW_STEP)
 
-        # --- Score prediction params ---
-        # w_score_margin: predicted goal margin reinforces H/A calls.
-        # Try switching on from zero with a small nudge.
-        SCORE_STEP = max(scale * 0.5, 0.02)  # smaller step — this signal is continuous
-        add_variant(w_score_margin=base.w_score_margin + SCORE_STEP)
-        if base.w_score_margin > 0:
-            add_variant(w_score_margin=max(0.0, base.w_score_margin - SCORE_STEP))
+        # ── Score prediction params — additive from zero ─────────────────────
+        SCORE_STEP = max(scale * 0.5, 0.02)
+        biased_variants_zero_safe("w_score_margin", base.w_score_margin, SCORE_STEP)
 
-        # w_btts: BTTS probability feeds into draw_score.
-        # Only meaningful if draw intelligence is also active.
-        add_variant(w_btts=base.w_btts + DRAW_STEP)
-        if base.w_btts > 0:
-            add_variant(w_btts=max(0.0, base.w_btts - DRAW_STEP))
+        biased_variants_zero_safe("w_btts",         base.w_btts,         DRAW_STEP)
 
-        # --- Composite draw signal layer (session 26) ---
-        # w_xg_draw: expected goals total as draw signal (low xG = tight match = draw-positive).
-        # composite_draw_boost: additive boost when odds anchor + supporting signal fire together.
-        # Both start at 0.0 — nudge up from zero to try activating. Tune down once active.
-        add_variant(w_xg_draw=base.w_xg_draw + DRAW_STEP)
-        if base.w_xg_draw > 0:
-            add_variant(w_xg_draw=max(0.0, base.w_xg_draw - DRAW_STEP))
+        # ── Composite draw signal layer ──────────────────────────────────────
+        biased_variants_zero_safe("w_xg_draw",           base.w_xg_draw,           DRAW_STEP)
+        biased_variants_zero_safe("composite_draw_boost", base.composite_draw_boost, DRAW_STEP)
 
-        add_variant(composite_draw_boost=base.composite_draw_boost + DRAW_STEP)
-        if base.composite_draw_boost > 0:
-            add_variant(composite_draw_boost=max(0.0, base.composite_draw_boost - DRAW_STEP))
-
-        # --- External Signal Layer — Phase 1 ---
-        # All start at 0.0. Nudge up from zero to try activating each signal.
+        # ── External Signal Layer — Phase 1 ─────────────────────────────────
         EXT_STEP = max(scale, 0.05)
-
-        # Referee home bias signal
-        add_variant(w_ref_signal=base.w_ref_signal + EXT_STEP)
-        if base.w_ref_signal > 0:
-            add_variant(w_ref_signal=max(0.0, base.w_ref_signal - EXT_STEP))
-
-        # Away travel load signal
-        add_variant(w_travel_load=base.w_travel_load + EXT_STEP)
-        if base.w_travel_load > 0:
-            add_variant(w_travel_load=max(0.0, base.w_travel_load - EXT_STEP))
-
-        # Fixture timing disruption signal
-        add_variant(w_timing_signal=base.w_timing_signal + EXT_STEP)
-        if base.w_timing_signal > 0:
-            add_variant(w_timing_signal=max(0.0, base.w_timing_signal - EXT_STEP))
-
-        # Motivation gap signal
-        add_variant(w_motivation_gap=base.w_motivation_gap + EXT_STEP)
-        if base.w_motivation_gap > 0:
-            add_variant(w_motivation_gap=max(0.0, base.w_motivation_gap - EXT_STEP))
+        biased_variants_zero_safe("w_ref_signal",     base.w_ref_signal,     EXT_STEP)
+        biased_variants_zero_safe("w_travel_load",    base.w_travel_load,    EXT_STEP)
+        biased_variants_zero_safe("w_timing_signal",  base.w_timing_signal,  EXT_STEP)
+        biased_variants_zero_safe("w_motivation_gap", base.w_motivation_gap, EXT_STEP)
 
         return candidates
     

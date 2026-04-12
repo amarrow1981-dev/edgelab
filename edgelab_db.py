@@ -548,52 +548,104 @@ class EdgeLabDB:
         For a given tier, find which param changes have historically
         improved accuracy the most when accepted by DPOL.
 
-        Returns a list of dicts: {param, avg_delta, count, direction}
-        Direction: 'up' means increasing this param helped, 'down' means decreasing helped.
+        Returns a list of dicts:
+            {
+                param:       str,   — param name e.g. "w_form"
+                direction:   str,   — "up" | "down" | "mixed"
+                avg_delta:   float, — mean accuracy gain across accepted moves
+                avg_signed_move: float, — mean signed change (candidate - base)
+                count:       int,   — number of accepted moves for this param
+            }
+
+        Direction is computed properly: for each accepted candidate we
+        join to param_versions to get the base param value that was
+        active at the time, then compute (candidate_value - base_value).
+        Positive = moving up helped. Negative = moving down helped.
+        "mixed" means both directions helped across different rounds.
 
         This is what DPOL reads to bias its candidate generation —
         stop wandering, start navigating.
         """
+        # Fetch all accepted candidates for this tier with sufficient delta,
+        # joined to the param_version that was active when they were tested.
+        # The JOIN gives us the base param values so we can compute direction.
         with self._conn() as conn:
             rows = conn.execute(
-                """SELECT * FROM dpol_candidate_log
-                   WHERE tier = ? AND accepted = 1 AND delta_vs_base >= ?
-                   ORDER BY delta_vs_base DESC""",
+                """SELECT cl.*, pv.{param_cols}
+                   FROM dpol_candidate_log cl
+                   LEFT JOIN param_versions pv
+                       ON cl.param_version_id = pv.version_id
+                   WHERE cl.tier = ?
+                     AND cl.accepted = 1
+                     AND cl.delta_vs_base >= ?
+                   ORDER BY cl.delta_vs_base DESC""".format(
+                    param_cols=", ".join(f"pv.{p} AS base_{p}" for p in PARAM_FIELDS)
+                ),
                 (tier, min_delta)
             ).fetchall()
 
         if not rows:
             return []
 
-        # Also get the base (rejected) candidates to compute direction
-        with self._conn() as conn:
-            base_rows = conn.execute(
-                """SELECT * FROM dpol_candidate_log
-                   WHERE tier = ? AND accepted = 0
-                   ORDER BY evaluated_at DESC LIMIT 1000""",
-                (tier,)
-            ).fetchall()
-
-        # Compute per-param signal
-        # For each accepted candidate, check which params moved vs the base
-        # This is a simplified version — full implementation in DPOL rebuild
+        # For each param, collect signed moves across all accepted candidates.
+        # signed_move = candidate_value - base_value
+        # weighted by delta_vs_base so bigger improvements carry more signal.
         results = []
         for p in PARAM_FIELDS:
-            accepted_deltas = []
+            signed_moves = []   # (signed_move, delta_vs_base)
+
             for row in rows:
-                val = row[f"p_{p}"]
-                if val is not None:
-                    accepted_deltas.append((val, row["delta_vs_base"]))
+                candidate_val = row[f"p_{p}"]
+                base_val = row[f"base_{p}"]
+                delta = row["delta_vs_base"]
 
-            if accepted_deltas:
-                avg_delta = sum(d for _, d in accepted_deltas) / len(accepted_deltas)
-                if avg_delta >= min_delta:
-                    results.append({
-                        "param": p,
-                        "avg_delta": round(avg_delta, 4),
-                        "count": len(accepted_deltas),
-                    })
+                # Skip rows where either value is missing
+                # (param_version_id not set — older log entries pre-S29)
+                if candidate_val is None or base_val is None:
+                    continue
 
+                signed_move = candidate_val - base_val
+
+                # Only count moves where the param actually changed
+                # (ignore candidates that happened to leave this param untouched)
+                if abs(signed_move) < 1e-9:
+                    continue
+
+                signed_moves.append((signed_move, delta))
+
+            if not signed_moves:
+                continue
+
+            # Weighted average signed move (weight = delta_vs_base)
+            total_weight = sum(d for _, d in signed_moves)
+            if total_weight <= 0:
+                continue
+
+            avg_signed = sum(m * d for m, d in signed_moves) / total_weight
+            avg_delta = sum(d for _, d in signed_moves) / len(signed_moves)
+
+            if avg_delta < min_delta:
+                continue
+
+            # Direction: consistent if avg_signed clearly positive or negative.
+            # "mixed" if the signal is weak (competing moves roughly cancel out).
+            DIRECTION_THRESHOLD = 0.1  # avg signed move must be at least 10% of step
+            if avg_signed > DIRECTION_THRESHOLD:
+                direction = "up"
+            elif avg_signed < -DIRECTION_THRESHOLD:
+                direction = "down"
+            else:
+                direction = "mixed"
+
+            results.append({
+                "param":            p,
+                "direction":        direction,
+                "avg_delta":        round(avg_delta, 4),
+                "avg_signed_move":  round(avg_signed, 4),
+                "count":            len(signed_moves),
+            })
+
+        # Sort by avg_delta descending — strongest proven movers first
         results.sort(key=lambda x: x["avg_delta"], reverse=True)
         return results[:top_n]
 

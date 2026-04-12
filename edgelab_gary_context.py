@@ -174,6 +174,11 @@ def match_prompt(ctx: GaryContext) -> str:
     # --- What Gary doesn't have yet ---
     sections.append(_build_slots_section(ctx))
 
+    # --- Pattern memory (nearest-neighbour from fixture intelligence DB) ---
+    pattern_section = _build_pattern_memory_section(ctx)
+    if pattern_section:
+        sections.append(pattern_section)
+
     # --- The ask ---
     sections.append("Give me your honest read on this one Gary.")
 
@@ -400,25 +405,43 @@ def _build_slots_section(ctx: GaryContext) -> str:
     Tell Gary what data he doesn't have yet.
     Keeps him honest — he won't fabricate what isn't there.
     """
-    e = ctx.engine_output
+    e = ctx.match_flags
+    eo = ctx.engine_output
     missing = []
 
-    if e.team_chaos_index is None:
+    if eo.team_chaos_index is None:
         missing.append("Team Chaos Index (not built yet)")
-    if e.signal_ledger_context is None:
+    if eo.signal_ledger_context is None:
         missing.append("Signal Performance Ledger (not built yet)")
-    if e.bogey_team_alert is None:
+    if eo.bogey_team_alert is None:
         missing.append("Bogey Team system (early watch list only)")
     if ctx.match_flags.injury_index is None:
         missing.append("Injury data (not connected)")
     if ctx.match_flags.weather_load is None:
         missing.append("Weather data (not connected)")
+    if ctx.gary_memory.pattern_memory is None:
+        missing.append("Pattern memory (fixture intelligence DB not connected)")
 
     if not missing:
         return ""
 
     lines = ["WHAT GARY DOESN'T HAVE YET:"]
     lines.extend([f"  — {m}" for m in missing])
+    return "\n".join(lines)
+
+
+def _build_pattern_memory_section(ctx: "GaryContext") -> str:
+    """
+    Render Gary's nearest-neighbour pattern memory block.
+    Only appears when the fixture intelligence DB is connected and has data.
+    """
+    pm = ctx.gary_memory.pattern_memory
+    if pm is None:
+        return ""
+
+    lines = [f"PATTERN MEMORY ({pm.n_similar} similar historical fixtures):"]
+    lines.append(pm.summary)
+
     return "\n".join(lines)
 
 

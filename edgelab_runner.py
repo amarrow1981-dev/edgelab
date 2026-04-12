@@ -189,6 +189,7 @@ def run_dpol_for_tier(df_tier, tier, window_rounds, boldness, save=True, signals
         initial_params_factory=lambda t: copy.deepcopy(initial_lp),
         window_rounds=window_rounds,
         boldness=boldness,
+        db=_db if _DB_AVAILABLE else None,
     )
 
     seasons = sorted(df_tier["season"].unique())

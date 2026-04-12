@@ -246,10 +246,28 @@ class EngineOutputBlock:
 
 
 @dataclass
+class PatternMemory:
+    """
+    Nearest-neighbour pattern memory from the fixture intelligence database.
+    Populated when EdgeLabDB is available and has sufficient historical data.
+
+    Gary reads this as: "In N similar historical fixtures, Home won H_pct%,
+    Draw D_pct%, Away won A_pct%."
+    """
+    n_similar: int = 0               # number of similar fixtures found
+    h_pct: float = 0.0               # home win rate in similar fixtures
+    d_pct: float = 0.0               # draw rate in similar fixtures
+    a_pct: float = 0.0               # away win rate in similar fixtures
+    engine_agreement: Optional[str] = None  # "agrees" | "disagrees" | "mixed"
+    # Plain English summary for Gary
+    summary: Optional[str] = None
+
+
+@dataclass
 class GaryMemoryBlock:
     """All SLOTs — nothing populated until those systems exist."""
     signal_performance_ledger: None = None
-    pattern_memory: None = None
+    pattern_memory: Optional[PatternMemory] = None
     meta_learning_context: None = None
     param_resurrection_candidates: None = None
     sport_specific_context: None = None
@@ -388,20 +406,27 @@ class GaryBrain:
     Designed to be instantiated once at startup and reused across many matches.
     """
 
-    def __init__(self, data_folder: str):
+    def __init__(self, data_folder: str, db=None):
         """
         Load all historical CSVs. This is the only I/O at startup.
 
         Args:
             data_folder: Path to folder containing historical CSV files.
+            db:          Optional EdgeLabDB instance. When provided, Gary
+                         receives nearest-neighbour pattern memory from the
+                         fixture intelligence database on every build_context()
+                         call. Without it, gary_memory.pattern_memory is None.
         """
         print(f"  [GaryBrain] Loading historical data from {data_folder}...")
         self.df = load_all_csvs(data_folder)
         self.df = self.df.sort_values("parsed_date").reset_index(drop=True)
+        self.db = db
         n = len(self.df)
         tiers = sorted(self.df["tier"].unique())
         seasons = self.df["season"].nunique()
         print(f"  [GaryBrain] Ready — {n:,} matches | {len(tiers)} tiers | {seasons} seasons")
+        if self.db is not None:
+            print(f"  [GaryBrain] Pattern memory: ACTIVE (fixture intelligence DB connected)")
 
     # -----------------------------------------------------------------------
     # Main entry point
@@ -442,6 +467,7 @@ class GaryBrain:
         flags       = self._build_match_flags(home_team, away_team, dt, df_tier)
         world_ctx   = self._build_world_context(dt)
         eng_out     = engine_output if engine_output is not None else EngineOutputBlock()
+        pattern_mem = self._build_pattern_memory(eng_out, flags, form, tier)
 
         return GaryContext(
             match_context=match_ctx,
@@ -450,8 +476,118 @@ class GaryBrain:
             match_flags=flags,
             world_context=world_ctx,
             engine_output=eng_out,
-            gary_memory=GaryMemoryBlock(),
+            gary_memory=GaryMemoryBlock(pattern_memory=pattern_mem),
         )
+
+    # -----------------------------------------------------------------------
+    # PATTERN MEMORY — nearest-neighbour from fixture intelligence database
+    # -----------------------------------------------------------------------
+
+    def _build_pattern_memory(
+        self,
+        engine_output: "EngineOutputBlock",
+        match_flags: "MatchFlagsBlock",
+        form: "FormBlock",
+        tier: str,
+        n: int = 200,
+    ) -> Optional["PatternMemory"]:
+        """
+        Query the fixture intelligence database for the N most similar
+        historical fixtures and return an outcome distribution.
+
+        Returns None if DB is not connected or has insufficient data.
+
+        The feature vector is built from engine output and match flags —
+        the same pre-match signals that are stored in the fixtures table.
+        This ensures we're comparing like-for-like: pre-match features only.
+        """
+        if self.db is None:
+            return None
+
+        try:
+            # Build feature vector from available pre-match signals.
+            # Keys match FEATURE_FIELDS in edgelab_db.py.
+            # We use what Gary already has — no extra computation needed.
+            feature_vector = {
+                "home_form":      form.home.form_score if form.home else None,
+                "away_form":      form.away.form_score if form.away else None,
+                "dti":            engine_output.dti,
+                "draw_score":     engine_output.draw_score,
+                "upset_score":    engine_output.upset_score,
+                "btts_flag":      float(engine_output.btts_flag) if engine_output.btts_flag is not None else None,
+                "travel_load":    match_flags.travel_load,
+                "motivation_gap": match_flags.motivation_gap,
+                "timing_signal":  match_flags.timing_signal,
+                "weather_load":   match_flags.weather_load,
+            }
+
+            # Remove None values — find_similar_fixtures handles missing fields gracefully
+            feature_vector = {k: v for k, v in feature_vector.items() if v is not None}
+
+            if not feature_vector:
+                return None
+
+            similar = self.db.find_similar_fixtures(
+                feature_vector=feature_vector,
+                tier=tier,
+                n=n,
+                completed_only=True,
+            )
+
+            if not similar:
+                return None
+
+            dist = self.db.get_outcome_distribution(similar)
+            total = dist.get("total", 0)
+
+            if total < 10:
+                # Too few similar fixtures to be meaningful — don't mislead Gary
+                return None
+
+            h_pct = dist.get("H_pct", 0.0)
+            d_pct = dist.get("D_pct", 0.0)
+            a_pct = dist.get("A_pct", 0.0)
+
+            # Does the pattern memory agree with the engine prediction?
+            engine_pred = engine_output.prediction
+            pattern_leader = max(
+                [("H", h_pct), ("D", d_pct), ("A", a_pct)],
+                key=lambda x: x[1]
+            )[0]
+
+            if engine_pred is None:
+                agreement = None
+            elif engine_pred == pattern_leader:
+                agreement = "agrees"
+            elif pattern_leader == "D" or engine_pred == "D":
+                agreement = "mixed"  # draw involvement — nuanced, not a flat disagreement
+            else:
+                agreement = "disagrees"
+
+            # Plain English summary Gary reads in his briefing
+            summary = (
+                f"In {total} similar historical fixtures: "
+                f"Home won {h_pct:.0%}, Draw {d_pct:.0%}, Away won {a_pct:.0%}."
+            )
+            if agreement == "agrees":
+                summary += f" Pattern memory backs the engine."
+            elif agreement == "disagrees":
+                summary += f" Pattern memory points the other way — worth noting."
+            elif agreement == "mixed":
+                summary += f" Draw is a factor in the historical pattern."
+
+            return PatternMemory(
+                n_similar=total,
+                h_pct=round(h_pct, 3),
+                d_pct=round(d_pct, 3),
+                a_pct=round(a_pct, 3),
+                engine_agreement=agreement,
+                summary=summary,
+            )
+
+        except Exception as e:
+            logger.warning(f"[GaryBrain] Pattern memory lookup failed: {e}")
+            return None
 
     # -----------------------------------------------------------------------
     # MATCH_CONTEXT
