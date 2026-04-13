@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+I1,01/02/2012,Napoli,Cesena,0,0,D
+I1,01/02/2012,Udinese,Lecce,2,1,H
+I1,01/02/2012,Lazio,AC Milan,2,0,H
+I1,01/02/2012,Inter,Palermo,4,4,D
+I1,01/02/2012,Cagliari,AS Roma,4,2,H
+I1,01/04/2012,Juventus,Napoli,3,0,H
+I1,01/04/2012,Robur Siena,Udinese,1,0,H
+I1,01/04/2012,Bologna,Palermo,1,3,A
+I1,01/04/2012,Inter,Genoa,5,4,H
+I1,01/04/2012,Fiorentina,Chievo,1,2,A
+I1,01/04/2012,Lecce,Cesena,0,0,D
+I1,01/04/2012,Cagliari,Atalanta,2,0,H
+I1,01/04/2012,AS Roma,Novara,5,2,H
+I1,01/05/2012,Chievo,AS Roma,0,0,D
+I1,01/05/2012,Napoli,Palermo,2,0,H
+I1,01/10/2011,Inter,Napoli,0,3,A
+I1,01/10/2011,AS Roma,Atalanta,3,1,H
+I1,02/02/2012,Novara,Chievo,1,2,A
+I1,02/05/2012,Catania,Bologna,0,1,A
+I1,02/05/2012,Genoa,Cagliari,2,1,H
+I1,02/05/2012,Parma,Inter,3,1,H
+I1,02/05/2012,Juventus,Lecce,1,1,D
+I1,02/05/2012,Fiorentina,Novara,2,2,D
+I1,02/05/2012,Lazio,Robur Siena,1,1,D
+I1,02/05/2012,Cesena,Udinese,0,1,A
+I1,02/05/2012,AC Milan,Atalanta,2,0,H
+I1,02/10/2011,Novara,Catania,3,3,D
+I1,02/10/2011,Fiorentina,Lazio,1,2,A
+I1,02/10/2011,Lecce,Cagliari,0,2,A
+I1,02/10/2011,Palermo,Robur Siena,2,0,H
+I1,02/10/2011,Parma,Genoa,3,1,H
+I1,02/10/2011,Udinese,Bologna,2,0,H
+I1,02/10/2011,Juventus,AC Milan,2,0,H
+I1,02/10/2011,Cesena,Chievo,0,0,D
+I1,02/12/2011,Genoa,AC Milan,0,2,A
+I1,03/03/2012,Palermo,AC Milan,0,4,A
+I1,03/03/2012,Juventus,Chievo,1,1,D
+I1,03/12/2011,Napoli,Lecce,4,2,H
+I1,03/12/2011,Inter,Udinese,0,1,A
+I1,04/03/2012,Udinese,Atalanta,0,0,D
+I1,04/03/2012,Inter,Catania,2,2,D
+I1,04/03/2012,Robur Siena,Cagliari,3,0,H
+I1,04/03/2012,Fiorentina,Cesena,2,0,H
+I1,04/03/2012,Lecce,Genoa,2,2,D
+I1,04/03/2012,AS Roma,Lazio,1,2,A
+I1,04/03/2012,Bologna,Novara,1,0,H
+I1,04/03/2012,Parma,Napoli,1,2,A
+I1,04/12/2011,Bologna,Robur Siena,1,0,H
+I1,04/12/2011,Chievo,Atalanta,0,0,D
+I1,04/12/2011,Fiorentina,AS Roma,3,0,H
+I1,04/12/2011,Catania,Cagliari,0,1,A
+I1,04/12/2011,Parma,Palermo,0,0,D
+I1,04/12/2011,Juventus,Cesena,2,0,H
+I1,05/02/2012,AC Milan,Napoli,0,0,D
+I1,05/02/2012,Genoa,Lazio,3,2,H
+I1,05/02/2012,Palermo,Atalanta,2,1,H
+I1,05/02/2012,Lecce,Bologna,0,0,D
+I1,05/02/2012,Fiorentina,Udinese,3,2,H
+I1,05/02/2012,Juventus,Robur Siena,0,0,D
+I1,05/02/2012,Chievo,Parma,1,2,A
+I1,05/02/2012,AS Roma,Inter,4,0,H
+I1,05/02/2012,Novara,Cagliari,0,0,D
+I1,05/05/2012,AS Roma,Catania,2,2,D
+I1,05/05/2012,Lecce,Fiorentina,0,1,A
+I1,05/11/2011,Novara,AS Roma,0,2,A
+I1,05/11/2011,Palermo,Bologna,3,1,H
+I1,05/12/2011,Lazio,Novara,3,0,H
+I1,06/05/2012,Inter,AC Milan,4,2,H
+I1,06/05/2012,Cagliari,Juventus,0,2,A
+I1,06/05/2012,Bologna,Napoli,2,0,H
+I1,06/05/2012,Atalanta,Lazio,0,2,A
+I1,06/05/2012,Novara,Cesena,3,0,H
+I1,06/05/2012,Palermo,Chievo,4,4,D
+I1,06/05/2012,Robur Siena,Parma,0,2,A
+I1,06/05/2012,Udinese,Genoa,2,0,H
+I1,06/11/2011,Udinese,Robur Siena,2,1,H
+I1,06/11/2011,Atalanta,Cagliari,1,0,H
+I1,06/11/2011,Cesena,Lecce,0,1,A
+I1,06/11/2011,Chievo,Fiorentina,1,0,H
+I1,06/11/2011,Lazio,Parma,1,0,H
+I1,06/11/2011,AC Milan,Catania,4,0,H
+I1,07/01/2012,Inter,Parma,5,0,H
+I1,07/01/2012,Robur Siena,Lazio,4,0,H
+I1,07/03/2012,Bologna,Juventus,1,1,D
+I1,07/03/2012,Parma,Fiorentina,2,2,D
+I1,07/03/2012,Cesena,Catania,0,0,D
+I1,07/04/2012,Cesena,Bologna,0,0,D
+I1,07/04/2012,Lazio,Napoli,3,1,H
+I1,07/04/2012,Palermo,Juventus,0,2,A
+I1,07/04/2012,Atalanta,Robur Siena,1,2,A
+I1,07/04/2012,Udinese,Parma,3,1,H
+I1,07/04/2012,Cagliari,Inter,2,2,D
+I1,07/04/2012,Lecce,AS Roma,4,2,H
+I1,07/04/2012,AC Milan,Fiorentina,1,2,A
+I1,07/04/2012,Chievo,Catania,3,2,H
+I1,07/04/2012,Novara,Genoa,1,1,D
+I1,08/01/2012,Palermo,Napoli,1,3,A
+I1,08/01/2012,AS Roma,Chievo,2,0,H
+I1,08/01/2012,Novara,Fiorentina,0,3,A
+I1,08/01/2012,Lecce,Juventus,0,1,A
+I1,08/01/2012,Cagliari,Genoa,3,0,H
+I1,08/01/2012,Bologna,Catania,2,0,H
+I1,08/01/2012,Atalanta,AC Milan,0,2,A
+I1,08/01/2012,Udinese,Cesena,4,1,H
+I1,08/02/2012,Catania,AS Roma,1,1,D
+I1,09/02/2012,Lazio,Cesena,3,2,H
+I1,09/03/2012,Napoli,Cagliari,6,3,H
+I1,09/03/2012,Chievo,Inter,0,2,A
+I1,09/09/2011,AC Milan,Lazio,2,2,D
+I1,10/03/2012,Palermo,AS Roma,0,1,A
+I1,10/04/2012,Chievo,AC Milan,0,1,A
+I1,10/09/2011,Cesena,Napoli,1,3,A
+I1,10/12/2011,Palermo,Cesena,0,1,A
+I1,10/12/2011,Inter,Fiorentina,2,0,H
+I1,10/12/2011,Lecce,Lazio,2,3,A
+I1,10/12/2011,Robur Siena,Genoa,0,2,A
+I1,11/02/2012,Cagliari,Palermo,2,1,H
+I1,11/02/2012,Udinese,AC Milan,1,2,A
+I1,11/03/2012,AC Milan,Lecce,2,0,H
+I1,11/03/2012,Novara,Udinese,1,0,H
+I1,11/03/2012,Genoa,Juventus,0,0,D
+I1,11/03/2012,Cesena,Robur Siena,0,2,A
+I1,11/03/2012,Atalanta,Parma,1,1,D
+I1,11/03/2012,Catania,Fiorentina,1,0,H
+I1,11/03/2012,Lazio,Bologna,1,3,A
+I1,11/04/2012,Fiorentina,Palermo,0,0,D
+I1,11/04/2012,Parma,Novara,2,0,H
+I1,11/04/2012,Genoa,Cesena,1,1,D
+I1,11/04/2012,Juventus,Lazio,2,1,H
+I1,11/04/2012,Inter,Robur Siena,2,1,H
+I1,11/04/2012,Napoli,Atalanta,1,3,A
+I1,11/04/2012,Catania,Lecce,1,2,A
+I1,11/04/2012,AS Roma,Udinese,3,1,H
+I1,11/09/2011,Catania,Robur Siena,0,0,D
+I1,11/09/2011,Juventus,Parma,4,1,H
+I1,11/09/2011,Chievo,Novara,2,2,D
+I1,11/09/2011,Fiorentina,Bologna,2,0,H
+I1,11/09/2011,Genoa,Atalanta,2,2,D
+I1,11/09/2011,Lecce,Udinese,0,2,A
+I1,11/09/2011,AS Roma,Cagliari,1,2,A
+I1,11/09/2011,Palermo,Inter,4,3,H
+I1,11/12/2011,Cagliari,Parma,0,0,D
+I1,11/12/2011,Atalanta,Catania,1,1,D
+I1,11/12/2011,Bologna,AC Milan,2,2,D
+I1,11/12/2011,Udinese,Chievo,2,1,H
+I1,11/12/2011,Novara,Napoli,1,1,D
+I1,12/02/2012,Inter,Novara,0,1,A
+I1,12/02/2012,Atalanta,Lecce,0,0,D
+I1,12/02/2012,Catania,Genoa,4,0,H
+I1,12/04/2012,Bologna,Cagliari,1,0,H
+I1,12/12/2011,AS Roma,Juventus,1,1,D
+I1,13/02/2012,Robur Siena,AS Roma,1,0,H
+I1,13/02/2012,Napoli,Chievo,2,0,H
+I1,13/05/2012,Juventus,Atalanta,3,1,H
+I1,13/05/2012,Chievo,Lecce,1,0,H
+I1,13/05/2012,Lazio,Inter,3,1,H
+I1,13/05/2012,Cesena,AS Roma,2,3,A
+I1,13/05/2012,Parma,Bologna,1,0,H
+I1,13/05/2012,AC Milan,Novara,2,1,H
+I1,13/05/2012,Fiorentina,Cagliari,0,0,D
+I1,13/05/2012,Genoa,Palermo,2,0,H
+I1,13/05/2012,Napoli,Robur Siena,2,1,H
+I1,13/05/2012,Catania,Udinese,0,2,A
+I1,13/12/2011,Genoa,Inter,0,1,A
+I1,15/01/2012,AC Milan,Inter,0,1,A
+I1,15/01/2012,Parma,Robur Siena,3,1,H
+I1,15/01/2012,Juventus,Cagliari,1,1,D
+I1,15/01/2012,Fiorentina,Lecce,0,1,A
+I1,15/01/2012,Chievo,Palermo,1,0,H
+I1,15/01/2012,Cesena,Novara,3,1,H
+I1,15/01/2012,Genoa,Udinese,3,2,H
+I1,15/01/2012,Lazio,Atalanta,2,0,H
+I1,15/02/2012,Parma,Juventus,0,0,D
+I1,15/02/2012,Atalanta,Genoa,1,0,H
+I1,15/10/2011,AC Milan,Palermo,3,0,H
+I1,15/10/2011,Catania,Inter,2,1,H
+I1,15/10/2011,Napoli,Parma,1,2,A
+I1,16/01/2012,Napoli,Bologna,1,1,D
+I1,16/10/2011,Atalanta,Udinese,0,0,D
+I1,16/10/2011,Lazio,AS Roma,2,1,H
+I1,16/10/2011,Novara,Bologna,0,2,A
+I1,16/10/2011,Genoa,Lecce,0,0,D
+I1,16/10/2011,Chievo,Juventus,0,0,D
+I1,16/10/2011,Cagliari,Robur Siena,0,0,D
+I1,16/10/2011,Cesena,Fiorentina,0,0,D
+I1,17/02/2012,Inter,Bologna,0,3,A
+I1,17/02/2012,Fiorentina,Napoli,0,3,A
+I1,17/03/2012,Fiorentina,Juventus,0,5,A
+I1,17/03/2012,Parma,AC Milan,0,2,A
+I1,17/09/2011,Inter,AS Roma,0,0,D
+I1,17/09/2011,Cagliari,Novara,2,1,H
+I1,17/12/2011,Chievo,Cagliari,2,0,H
+I1,17/12/2011,AC Milan,Robur Siena,2,0,H
+I1,17/12/2011,Fiorentina,Atalanta,2,2,D
+I1,18/02/2012,Juventus,Catania,3,1,H
+I1,18/03/2012,Lecce,Palermo,1,1,D
+I1,18/03/2012,Robur Siena,Novara,0,2,A
+I1,18/03/2012,Bologna,Chievo,2,2,D
+I1,18/03/2012,Udinese,Napoli,2,2,D
+I1,18/03/2012,Inter,Atalanta,0,0,D
+I1,18/03/2012,Cagliari,Cesena,3,0,H
+I1,18/03/2012,Catania,Lazio,1,0,H
+I1,18/09/2011,Catania,Cesena,1,0,H
+I1,18/09/2011,Parma,Chievo,2,1,H
+I1,18/09/2011,Robur Siena,Juventus,0,1,A
+I1,18/09/2011,Udinese,Fiorentina,2,0,H
+I1,18/09/2011,Napoli,AC Milan,3,1,H
+I1,18/09/2011,Atalanta,Palermo,1,0,H
+I1,18/09/2011,Bologna,Lecce,0,2,A
+I1,18/09/2011,Lazio,Genoa,1,2,A
+I1,18/12/2011,Catania,Palermo,2,0,H
+I1,18/12/2011,Cesena,Inter,0,1,A
+I1,18/12/2011,Genoa,Bologna,2,1,H
+I1,18/12/2011,Juventus,Novara,2,0,H
+I1,18/12/2011,Parma,Lecce,3,3,D
+I1,18/12/2011,Lazio,Udinese,2,2,D
+I1,18/12/2011,Napoli,AS Roma,1,3,A
+I1,19/02/2012,Genoa,Chievo,0,1,A
+I1,19/02/2012,Cesena,AC Milan,1,3,A
+I1,19/02/2012,AS Roma,Parma,1,0,H
+I1,19/02/2012,Udinese,Cagliari,0,0,D
+I1,19/02/2012,Palermo,Lazio,5,1,H
+I1,19/02/2012,Novara,Atalanta,0,0,D
+I1,19/02/2012,Lecce,Robur Siena,4,1,H
+I1,19/03/2012,AS Roma,Genoa,1,0,H
+I1,19/11/2011,Napoli,Lazio,0,0,D
+I1,19/11/2011,Inter,Cagliari,2,1,H
+I1,19/11/2011,Fiorentina,AC Milan,0,0,D
+I1,20/09/2011,Novara,Inter,3,1,H
+I1,20/11/2011,Bologna,Cesena,0,1,A
+I1,20/11/2011,Robur Siena,Atalanta,2,2,D
+I1,20/11/2011,Parma,Udinese,2,0,H
+I1,20/11/2011,Juventus,Palermo,3,0,H
+I1,20/11/2011,Genoa,Novara,1,0,H
+I1,20/11/2011,Catania,Chievo,1,2,A
+I1,20/11/2011,AS Roma,Lecce,2,1,H
+I1,20/12/2011,Cagliari,AC Milan,0,2,A
+I1,20/12/2011,Robur Siena,Fiorentina,0,0,D
+I1,21/01/2012,AS Roma,Cesena,5,1,H
+I1,21/01/2012,Atalanta,Juventus,0,2,A
+I1,21/02/2012,Bologna,Fiorentina,2,0,H
+I1,21/04/2012,Parma,Cagliari,3,0,H
+I1,21/04/2012,Chievo,Udinese,0,0,D
+I1,21/04/2012,Catania,Atalanta,2,0,H
+I1,21/04/2012,Napoli,Novara,2,0,H
+I1,21/09/2011,AC Milan,Udinese,1,1,D
+I1,21/09/2011,Cesena,Lazio,1,2,A
+I1,21/09/2011,Chievo,Napoli,1,0,H
+I1,21/09/2011,Fiorentina,Parma,3,0,H
+I1,21/09/2011,Genoa,Catania,3,0,H
+I1,21/09/2011,Juventus,Bologna,1,1,D
+I1,21/09/2011,Lecce,Atalanta,1,2,A
+I1,21/09/2011,Palermo,Cagliari,3,2,H
+I1,21/12/2011,Parma,Catania,3,3,D
+I1,21/12/2011,Novara,Palermo,2,2,D
+I1,21/12/2011,Napoli,Genoa,6,1,H
+I1,21/12/2011,Lazio,Chievo,0,0,D
+I1,21/12/2011,Inter,Lecce,4,1,H
+I1,21/12/2011,Bologna,AS Roma,0,2,A
+I1,21/12/2011,Atalanta,Cesena,4,1,H
+I1,21/12/2011,Udinese,Juventus,0,0,D
+I1,22/01/2012,Lecce,Chievo,2,2,D
+I1,22/01/2012,Bologna,Parma,0,0,D
+I1,22/01/2012,Udinese,Catania,2,1,H
+I1,22/01/2012,Novara,AC Milan,0,3,A
+I1,22/01/2012,Palermo,Genoa,5,3,H
+I1,22/01/2012,Cagliari,Fiorentina,0,0,D
+I1,22/01/2012,Inter,Lazio,2,1,H
+I1,22/01/2012,Robur Siena,Napoli,1,1,D
+I1,22/02/2012,Robur Siena,Catania,0,1,A
+I1,22/04/2012,Cesena,Palermo,2,2,D
+I1,22/04/2012,Genoa,Robur Siena,1,4,A
+I1,22/04/2012,Lazio,Lecce,1,1,D
+I1,22/04/2012,Juventus,AS Roma,4,0,H
+I1,22/04/2012,Fiorentina,Inter,0,0,D
+I1,22/04/2012,AC Milan,Bologna,1,1,D
+I1,22/09/2011,AS Roma,Robur Siena,1,1,D
+I1,22/10/2011,Juventus,Genoa,2,2,D
+I1,22/10/2011,Fiorentina,Catania,2,2,D
+I1,23/10/2011,Bologna,Lazio,0,2,A
+I1,23/10/2011,Udinese,Novara,3,0,H
+I1,23/10/2011,Robur Siena,Cesena,2,0,H
+I1,23/10/2011,Parma,Atalanta,1,2,A
+I1,23/10/2011,Inter,Chievo,1,0,H
+I1,23/10/2011,AS Roma,Palermo,1,0,H
+I1,23/10/2011,Lecce,AC Milan,3,4,A
+I1,23/10/2011,Cagliari,Napoli,0,0,D
+I1,24/03/2012,Palermo,Udinese,1,1,D
+I1,24/03/2012,AC Milan,AS Roma,2,1,H
+I1,24/04/2012,Cagliari,Catania,3,0,H
+I1,24/04/2012,Atalanta,Chievo,1,0,H
+I1,24/09/2011,Bologna,Inter,1,3,A
+I1,24/09/2011,AC Milan,Cesena,1,0,H
+I1,24/09/2011,Napoli,Fiorentina,0,0,D
+I1,25/02/2012,Genoa,Parma,2,2,D
+I1,25/02/2012,AC Milan,Juventus,1,1,D
+I1,25/03/2012,Genoa,Fiorentina,2,2,D
+I1,25/03/2012,Atalanta,Bologna,2,0,H
+I1,25/03/2012,Juventus,Inter,2,0,H
+I1,25/03/2012,Chievo,Robur Siena,1,1,D
+I1,25/03/2012,Cesena,Parma,2,2,D
+I1,25/03/2012,Novara,Lecce,0,0,D
+I1,25/03/2012,Napoli,Catania,2,2,D
+I1,25/03/2012,Lazio,Cagliari,1,0,H
+I1,25/04/2012,Cesena,Juventus,0,1,A
+I1,25/04/2012,AC Milan,Genoa,1,0,H
+I1,25/04/2012,Palermo,Parma,1,2,A
+I1,25/04/2012,Lecce,Napoli,0,2,A
+I1,25/04/2012,Robur Siena,Bologna,1,1,D
+I1,25/04/2012,Novara,Lazio,2,1,H
+I1,25/04/2012,AS Roma,Fiorentina,1,2,A
+I1,25/04/2012,Udinese,Inter,1,3,A
+I1,25/09/2011,Robur Siena,Lecce,3,0,H
+I1,25/09/2011,Chievo,Genoa,2,1,H
+I1,25/09/2011,Atalanta,Novara,2,1,H
+I1,25/09/2011,Cagliari,Udinese,0,0,D
+I1,25/09/2011,Parma,AS Roma,0,1,A
+I1,25/09/2011,Lazio,Palermo,0,0,D
+I1,25/09/2011,Catania,Juventus,1,1,D
+I1,25/10/2011,Juventus,Fiorentina,2,1,H
+I1,25/11/2011,Udinese,AS Roma,2,0,H
+I1,26/02/2012,Napoli,Inter,1,0,H
+I1,26/02/2012,Lazio,Fiorentina,1,0,H
+I1,26/02/2012,Atalanta,AS Roma,4,1,H
+I1,26/02/2012,Robur Siena,Palermo,4,1,H
+I1,26/02/2012,Catania,Novara,3,1,H
+I1,26/02/2012,Cagliari,Lecce,1,2,A
+I1,26/02/2012,Chievo,Cesena,1,0,H
+I1,26/02/2012,Bologna,Udinese,1,3,A
+I1,26/10/2011,Novara,Robur Siena,1,1,D
+I1,26/10/2011,Napoli,Udinese,2,0,H
+I1,26/10/2011,AC Milan,Parma,4,1,H
+I1,26/10/2011,Lazio,Catania,1,1,D
+I1,26/10/2011,Chievo,Bologna,0,1,A
+I1,26/10/2011,Cesena,Cagliari,1,1,D
+I1,26/10/2011,Atalanta,Inter,1,1,D
+I1,26/10/2011,Genoa,AS Roma,2,1,H
+I1,26/11/2011,Lecce,Catania,0,1,A
+I1,26/11/2011,Novara,Parma,2,1,H
+I1,26/11/2011,Atalanta,Napoli,1,1,D
+I1,26/11/2011,Lazio,Juventus,0,1,A
+I1,27/10/2011,Palermo,Lecce,2,0,H
+I1,27/11/2011,Cagliari,Bologna,1,1,D
+I1,27/11/2011,Cesena,Genoa,2,0,H
+I1,27/11/2011,Palermo,Fiorentina,2,0,H
+I1,27/11/2011,Robur Siena,Inter,0,1,A
+I1,27/11/2011,AC Milan,Chievo,4,0,H
+I1,28/01/2012,Juventus,Udinese,2,1,H
+I1,28/01/2012,Catania,Parma,1,1,D
+I1,28/04/2012,AS Roma,Napoli,2,2,D
+I1,28/04/2012,Cagliari,Chievo,0,0,D
+I1,28/04/2012,Palermo,Catania,1,1,D
+I1,29/01/2012,Palermo,Novara,2,0,H
+I1,29/01/2012,AC Milan,Cagliari,3,0,H
+I1,29/01/2012,Genoa,Napoli,3,2,H
+I1,29/01/2012,Fiorentina,Robur Siena,2,1,H
+I1,29/01/2012,Cesena,Atalanta,0,1,A
+I1,29/01/2012,Chievo,Lazio,0,3,A
+I1,29/01/2012,Lecce,Inter,1,0,H
+I1,29/01/2012,AS Roma,Bologna,1,1,D
+I1,29/04/2012,Lecce,Parma,1,2,A
+I1,29/04/2012,Udinese,Lazio,2,0,H
+I1,29/04/2012,Inter,Cesena,2,1,H
+I1,29/04/2012,Atalanta,Fiorentina,2,0,H
+I1,29/04/2012,Novara,Juventus,0,4,A
+I1,29/04/2012,Robur Siena,AC Milan,1,4,A
+I1,29/04/2012,Bologna,Genoa,3,2,H
+I1,29/10/2011,AS Roma,AC Milan,2,3,A
+I1,29/10/2011,Inter,Juventus,1,2,A
+I1,29/10/2011,Catania,Napoli,2,1,H
+I1,29/11/2011,Napoli,Juventus,3,3,D
+I1,30/10/2011,Robur Siena,Chievo,4,1,H
+I1,30/10/2011,Bologna,Atalanta,3,1,H
+I1,30/10/2011,Fiorentina,Genoa,1,0,H
+I1,30/10/2011,Lecce,Novara,1,1,D
+I1,30/10/2011,Parma,Cesena,2,0,H
+I1,30/10/2011,Udinese,Palermo,1,0,H
+I1,30/10/2011,Cagliari,Lazio,0,3,A
+I1,31/03/2012,Catania,AC Milan,1,1,D
+I1,31/03/2012,Parma,Lazio,3,1,H

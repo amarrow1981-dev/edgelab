@@ -1,0 +1,136 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,02/01/2021,Dundee,Heart Of Midlothian,3,1,H
+SC1,02/01/2021,Alloa Athletic,Morton,1,1,D
+SC1,02/01/2021,Queen of the South,Ayr Utd,3,2,H
+SC1,02/03/2021,Dundee,Inverness CT,2,1,H
+SC1,03/02/2021,Dunfermline,Raith Rovers,4,1,H
+SC1,03/02/2021,Arbroath,Inverness CT,1,1,D
+SC1,03/04/2021,Arbroath,Alloa Athletic,2,1,H
+SC1,03/04/2021,Dunfermline,Heart Of Midlothian,0,0,D
+SC1,04/12/2020,Queen of the South,Inverness CT,0,3,A
+SC1,05/02/2021,Ayr Utd,Heart Of Midlothian,0,1,A
+SC1,05/12/2020,Dundee,Arbroath,1,0,H
+SC1,05/12/2020,Alloa Athletic,Ayr Utd,0,2,A
+SC1,05/12/2020,Raith Rovers,Dunfermline,2,2,D
+SC1,05/12/2020,Morton,Heart Of Midlothian,0,2,A
+SC1,06/02/2021,Arbroath,Dunfermline,2,0,H
+SC1,06/02/2021,Alloa Athletic,Queen of the South,2,1,H
+SC1,06/02/2021,Morton,Raith Rovers,0,1,A
+SC1,06/03/2021,Heart Of Midlothian,Dundee,2,1,H
+SC1,06/03/2021,Morton,Ayr Utd,0,2,A
+SC1,06/03/2021,Alloa Athletic,Inverness CT,1,1,D
+SC1,06/03/2021,Arbroath,Queen of the South,2,4,A
+SC1,06/04/2021,Ayr Utd,Dundee,0,3,A
+SC1,06/04/2021,Morton,Inverness CT,1,4,A
+SC1,06/11/2020,Alloa Athletic,Dundee,3,3,D
+SC1,07/11/2020,Ayr Utd,Dunfermline,0,0,D
+SC1,07/11/2020,Arbroath,Queen of the South,1,1,D
+SC1,07/11/2020,Heart Of Midlothian,Inverness CT,2,1,H
+SC1,07/11/2020,Raith Rovers,Morton,5,0,H
+SC1,09/03/2021,Inverness CT,Morton,0,1,A
+SC1,09/03/2021,Raith Rovers,Ayr Utd,0,0,D
+SC1,09/04/2021,Heart Of Midlothian,Alloa Athletic,6,0,H
+SC1,10/04/2021,Raith Rovers,Arbroath,2,2,D
+SC1,10/04/2021,Queen of the South,Inverness CT,1,1,D
+SC1,10/04/2021,Ayr Utd,Dunfermline,1,1,D
+SC1,10/04/2021,Dundee,Morton,1,1,D
+SC1,11/12/2020,Ayr Utd,Raith Rovers,0,0,D
+SC1,12/02/2021,Queen of the South,Heart Of Midlothian,1,1,D
+SC1,12/03/2021,Inverness CT,Raith Rovers,0,0,D
+SC1,12/12/2020,Heart Of Midlothian,Queen of the South,6,1,H
+SC1,12/12/2020,Inverness CT,Dundee,2,2,D
+SC1,12/12/2020,Dunfermline,Morton,1,2,A
+SC1,12/12/2020,Arbroath,Alloa Athletic,0,1,A
+SC1,13/02/2021,Alloa Athletic,Arbroath,1,1,D
+SC1,13/03/2021,Heart Of Midlothian,Ayr Utd,2,0,H
+SC1,13/03/2021,Queen of the South,Alloa Athletic,2,3,A
+SC1,13/03/2021,Dundee,Arbroath,2,0,H
+SC1,13/03/2021,Dunfermline,Morton,1,0,H
+SC1,13/04/2021,Queen of the South,Raith Rovers,0,1,A
+SC1,13/04/2021,Dunfermline,Dundee,0,0,D
+SC1,15/01/2021,Morton,Dunfermline,0,0,D
+SC1,16/01/2021,Alloa Athletic,Heart Of Midlothian,1,3,A
+SC1,16/01/2021,Queen of the South,Arbroath,2,2,D
+SC1,16/03/2021,Dundee,Ayr Utd,1,3,A
+SC1,16/03/2021,Raith Rovers,Inverness CT,0,1,A
+SC1,16/10/2020,Heart Of Midlothian,Dundee,6,2,H
+SC1,17/02/2021,Inverness CT,Queen of the South,0,1,A
+SC1,17/04/2021,Arbroath,Ayr Utd,4,0,H
+SC1,17/04/2021,Alloa Athletic,Raith Rovers,1,2,A
+SC1,17/04/2021,Dunfermline,Queen of the South,3,1,H
+SC1,17/10/2020,Morton,Alloa Athletic,1,0,H
+SC1,17/10/2020,Raith Rovers,Arbroath,3,0,H
+SC1,17/10/2020,Ayr Utd,Queen of the South,2,1,H
+SC1,17/10/2020,Dunfermline,Inverness CT,3,1,H
+SC1,19/03/2021,Alloa Athletic,Dundee,0,3,A
+SC1,19/12/2020,Morton,Queen of the South,2,0,H
+SC1,19/12/2020,Dundee,Dunfermline,3,3,D
+SC1,19/12/2020,Alloa Athletic,Inverness CT,2,1,H
+SC1,19/12/2020,Arbroath,Ayr Utd,2,1,H
+SC1,20/02/2021,Dunfermline,Alloa Athletic,2,1,H
+SC1,20/02/2021,Arbroath,Raith Rovers,1,0,H
+SC1,20/02/2021,Ayr Utd,Inverness CT,0,2,A
+SC1,20/02/2021,Heart Of Midlothian,Morton,1,1,D
+SC1,20/02/2021,Dundee,Queen of the South,2,3,A
+SC1,20/03/2021,Ayr Utd,Raith Rovers,1,1,D
+SC1,20/03/2021,Morton,Queen of the South,2,1,H
+SC1,20/03/2021,Dunfermline,Inverness CT,0,1,A
+SC1,20/03/2021,Arbroath,Heart Of Midlothian,0,0,D
+SC1,20/04/2021,Inverness CT,Dundee,1,1,D
+SC1,20/04/2021,Morton,Heart Of Midlothian,0,0,D
+SC1,20/11/2020,Dunfermline,Heart Of Midlothian,2,1,H
+SC1,21/11/2020,Queen of the South,Alloa Athletic,2,0,H
+SC1,21/11/2020,Ayr Utd,Dundee,2,0,H
+SC1,21/11/2020,Arbroath,Morton,0,0,D
+SC1,21/11/2020,Inverness CT,Raith Rovers,2,0,H
+SC1,22/01/2021,Arbroath,Dundee,1,1,D
+SC1,23/01/2021,Heart Of Midlothian,Raith Rovers,2,3,A
+SC1,23/01/2021,Queen of the South,Morton,2,1,H
+SC1,23/01/2021,Dunfermline,Ayr Utd,0,0,D
+SC1,23/02/2021,Inverness CT,Alloa Athletic,2,2,D
+SC1,23/10/2020,Arbroath,Heart Of Midlothian,0,1,A
+SC1,24/04/2021,Ayr Utd,Queen of the South,0,0,D
+SC1,24/04/2021,Dunfermline,Arbroath,4,3,H
+SC1,24/04/2021,Morton,Alloa Athletic,1,1,D
+SC1,24/04/2021,Dundee,Raith Rovers,2,1,H
+SC1,24/04/2021,Heart Of Midlothian,Inverness CT,3,0,H
+SC1,24/10/2020,Dundee,Morton,1,0,H
+SC1,24/10/2020,Inverness CT,Ayr Utd,1,1,D
+SC1,24/10/2020,Queen of the South,Raith Rovers,2,5,A
+SC1,24/10/2020,Alloa Athletic,Dunfermline,1,4,A
+SC1,24/11/2020,Heart Of Midlothian,Alloa Athletic,3,0,H
+SC1,26/01/2021,Raith Rovers,Heart Of Midlothian,0,4,A
+SC1,26/02/2021,Inverness CT,Heart Of Midlothian,1,1,D
+SC1,26/12/2020,Heart Of Midlothian,Ayr Utd,5,3,H
+SC1,26/12/2020,Queen of the South,Dundee,1,3,A
+SC1,26/12/2020,Dunfermline,Arbroath,1,0,H
+SC1,26/12/2020,Alloa Athletic,Raith Rovers,2,5,A
+SC1,27/01/2021,Morton,Inverness CT,2,2,D
+SC1,27/02/2021,Ayr Utd,Arbroath,0,1,A
+SC1,27/02/2021,Raith Rovers,Alloa Athletic,3,1,H
+SC1,27/02/2021,Queen of the South,Dunfermline,1,0,H
+SC1,27/02/2021,Morton,Dundee,2,2,D
+SC1,27/03/2021,Inverness CT,Arbroath,1,0,H
+SC1,27/03/2021,Heart Of Midlothian,Queen of the South,2,3,A
+SC1,27/03/2021,Dundee,Dunfermline,3,2,H
+SC1,27/03/2021,Alloa Athletic,Ayr Utd,2,2,D
+SC1,27/03/2021,Raith Rovers,Morton,1,0,H
+SC1,29/12/2020,Ayr Utd,Morton,1,1,D
+SC1,29/12/2020,Inverness CT,Dunfermline,1,1,D
+SC1,29/12/2020,Dundee,Alloa Athletic,3,1,H
+SC1,29/12/2020,Heart Of Midlothian,Arbroath,3,1,H
+SC1,29/12/2020,Raith Rovers,Queen of the South,0,2,A
+SC1,30/01/2021,Ayr Utd,Alloa Athletic,4,1,H
+SC1,30/01/2021,Raith Rovers,Dundee,3,1,H
+SC1,30/01/2021,Morton,Arbroath,0,1,A
+SC1,30/01/2021,Heart Of Midlothian,Dunfermline,1,0,H
+SC1,30/03/2021,Raith Rovers,Dunfermline,5,1,H
+SC1,30/04/2021,Raith Rovers,Heart Of Midlothian,0,4,A
+SC1,30/04/2021,Inverness CT,Ayr Utd,2,2,D
+SC1,30/04/2021,Queen of the South,Dundee,0,2,A
+SC1,30/04/2021,Arbroath,Morton,0,0,D
+SC1,30/04/2021,Alloa Athletic,Dunfermline,1,0,H
+SC1,31/10/2020,Morton,Ayr Utd,3,2,H
+SC1,31/10/2020,Dunfermline,Queen of the South,3,2,H
+SC1,31/10/2020,Inverness CT,Arbroath,3,1,H
+SC1,31/10/2020,Dundee,Raith Rovers,1,1,D

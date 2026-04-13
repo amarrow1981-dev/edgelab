@@ -1,0 +1,556 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E1,01/02/2017,Burton,Fulham,0,2,A
+E1,01/02/2017,Newcastle,QPR,2,2,D
+E1,01/02/2017,Blackburn,Leeds,1,2,A
+E1,01/04/2017,Reading,Leeds,1,0,H
+E1,01/04/2017,Rotherham,Fulham,0,1,A
+E1,01/04/2017,Aston Villa,Norwich,2,0,H
+E1,01/04/2017,Preston,Nott'm Forest,1,1,D
+E1,01/04/2017,Ipswich,Birmingham,1,1,D
+E1,01/04/2017,Brentford,Bristol City,2,0,H
+E1,01/04/2017,Brighton,Blackburn,1,0,H
+E1,01/04/2017,Wolves,Cardiff,3,1,H
+E1,01/04/2017,Huddersfield,Burton,0,1,A
+E1,01/04/2017,Newcastle,Wigan,2,1,H
+E1,01/04/2017,Barnsley,Sheffield Weds,1,1,D
+E1,01/10/2016,Brentford,Wigan,0,0,D
+E1,01/10/2016,Bristol City,Nott'm Forest,2,1,H
+E1,01/10/2016,Reading,Derby,1,1,D
+E1,01/10/2016,Birmingham,Blackburn,1,0,H
+E1,01/10/2016,Wolves,Norwich,1,2,A
+E1,01/10/2016,Burton,Cardiff,2,0,H
+E1,01/10/2016,Sheffield Weds,Brighton,1,2,A
+E1,01/10/2016,Rotherham,Newcastle,0,1,A
+E1,01/10/2016,Leeds,Barnsley,2,1,H
+E1,01/10/2016,Preston,Aston Villa,2,0,H
+E1,01/10/2016,Ipswich,Huddersfield,0,1,A
+E1,01/10/2016,Fulham,QPR,1,2,A
+E1,01/12/2016,QPR,Wolves,1,2,A
+E1,02/01/2017,Cardiff,Aston Villa,1,0,H
+E1,02/01/2017,Fulham,Brighton,1,2,A
+E1,02/01/2017,QPR,Ipswich,2,1,H
+E1,02/01/2017,Birmingham,Brentford,1,3,A
+E1,02/01/2017,Bristol City,Reading,2,3,A
+E1,02/01/2017,Wigan,Huddersfield,0,1,A
+E1,02/01/2017,Leeds,Rotherham,3,0,H
+E1,02/01/2017,Nott'm Forest,Barnsley,0,1,A
+E1,02/01/2017,Blackburn,Newcastle,1,0,H
+E1,02/01/2017,Burton,Preston,0,1,A
+E1,02/01/2017,Sheffield Weds,Wolves,0,0,D
+E1,02/01/2017,Norwich,Derby,3,0,H
+E1,02/02/2017,Huddersfield,Brighton,3,1,H
+E1,02/12/2016,Nott'm Forest,Newcastle,2,1,H
+E1,03/02/2017,Wigan,Sheffield Weds,0,1,A
+E1,03/03/2017,Birmingham,Leeds,1,3,A
+E1,03/12/2016,Blackburn,Huddersfield,1,1,D
+E1,03/12/2016,Norwich,Brentford,5,0,H
+E1,03/12/2016,Bristol City,Ipswich,2,0,H
+E1,03/12/2016,Burton,Rotherham,2,1,H
+E1,03/12/2016,Leeds,Aston Villa,2,0,H
+E1,03/12/2016,Birmingham,Barnsley,0,3,A
+E1,03/12/2016,Cardiff,Brighton,0,0,D
+E1,03/12/2016,Fulham,Reading,5,0,H
+E1,03/12/2016,Wigan,Derby,0,1,A
+E1,03/12/2016,Sheffield Weds,Preston,2,1,H
+E1,04/02/2017,Cardiff,Norwich,0,1,A
+E1,04/02/2017,Nott'm Forest,Aston Villa,2,1,H
+E1,04/02/2017,Burton,Wolves,2,1,H
+E1,04/02/2017,Barnsley,Preston,0,0,D
+E1,04/02/2017,Blackburn,QPR,1,0,H
+E1,04/02/2017,Ipswich,Reading,2,2,D
+E1,04/02/2017,Bristol City,Rotherham,1,0,H
+E1,04/02/2017,Newcastle,Derby,1,0,H
+E1,04/02/2017,Birmingham,Fulham,1,0,H
+E1,04/03/2017,Bristol City,Burton,0,0,D
+E1,04/03/2017,Sheffield Weds,Norwich,5,1,H
+E1,04/03/2017,Rotherham,Aston Villa,0,2,A
+E1,04/03/2017,QPR,Cardiff,2,1,H
+E1,04/03/2017,Derby,Barnsley,2,1,H
+E1,04/03/2017,Blackburn,Wigan,1,0,H
+E1,04/03/2017,Nott'm Forest,Brighton,3,0,H
+E1,04/03/2017,Ipswich,Brentford,1,1,D
+E1,04/03/2017,Reading,Wolves,2,1,H
+E1,04/03/2017,Fulham,Preston,3,1,H
+E1,04/03/2017,Huddersfield,Newcastle,1,3,A
+E1,04/04/2017,Barnsley,Cardiff,0,0,D
+E1,04/04/2017,Rotherham,Sheffield Weds,0,2,A
+E1,04/04/2017,Derby,Fulham,4,2,H
+E1,04/04/2017,Aston Villa,QPR,1,0,H
+E1,04/04/2017,Preston,Bristol City,5,0,H
+E1,04/04/2017,Ipswich,Wigan,3,0,H
+E1,04/04/2017,Reading,Blackburn,3,1,H
+E1,04/04/2017,Brighton,Birmingham,3,1,H
+E1,04/04/2017,Wolves,Nott'm Forest,1,0,H
+E1,04/04/2017,Brentford,Leeds,2,0,H
+E1,04/11/2016,Brentford,Fulham,0,2,A
+E1,05/02/2017,Brentford,Brighton,3,3,D
+E1,05/02/2017,Huddersfield,Leeds,2,1,H
+E1,05/04/2017,Newcastle,Burton,1,0,H
+E1,05/04/2017,Huddersfield,Norwich,3,0,H
+E1,05/08/2016,Fulham,Newcastle,1,0,H
+E1,05/11/2016,Nott'm Forest,QPR,1,1,D
+E1,05/11/2016,Huddersfield,Birmingham,1,1,D
+E1,05/11/2016,Wigan,Reading,0,3,A
+E1,05/11/2016,Aston Villa,Blackburn,2,1,H
+E1,05/11/2016,Norwich,Leeds,2,3,A
+E1,05/11/2016,Rotherham,Preston,1,3,A
+E1,05/11/2016,Sheffield Weds,Ipswich,1,2,A
+E1,05/11/2016,Burton,Barnsley,0,0,D
+E1,05/11/2016,Bristol City,Brighton,0,2,A
+E1,05/11/2016,Newcastle,Cardiff,2,1,H
+E1,05/11/2016,Wolves,Derby,2,3,A
+E1,06/08/2016,Birmingham,Cardiff,0,0,D
+E1,06/08/2016,Ipswich,Barnsley,4,2,H
+E1,06/08/2016,Nott'm Forest,Burton,4,3,H
+E1,06/08/2016,Blackburn,Norwich,1,4,A
+E1,06/08/2016,Derby,Brighton,0,0,D
+E1,06/08/2016,Rotherham,Wolves,2,2,D
+E1,06/08/2016,Bristol City,Wigan,2,1,H
+E1,06/08/2016,Reading,Preston,1,0,H
+E1,06/08/2016,Huddersfield,Brentford,2,1,H
+E1,07/02/2017,Wigan,Norwich,2,2,D
+E1,07/03/2017,Nott'm Forest,Brentford,2,3,A
+E1,07/03/2017,Blackburn,Cardiff,1,1,D
+E1,07/03/2017,Derby,Preston,1,1,D
+E1,07/03/2017,Bristol City,Norwich,1,1,D
+E1,07/03/2017,Rotherham,Brighton,0,2,A
+E1,07/03/2017,Sheffield Weds,Burton,1,1,D
+E1,07/03/2017,Reading,Newcastle,0,0,D
+E1,07/03/2017,Birmingham,Wigan,0,1,A
+E1,07/03/2017,Huddersfield,Aston Villa,1,0,H
+E1,07/03/2017,Fulham,Leeds,1,1,D
+E1,07/03/2017,Ipswich,Wolves,0,0,D
+E1,07/03/2017,QPR,Barnsley,2,1,H
+E1,07/04/2017,QPR,Brighton,1,2,A
+E1,07/05/2017,Burton,Reading,2,4,A
+E1,07/05/2017,Bristol City,Birmingham,0,1,A
+E1,07/05/2017,Sheffield Weds,Fulham,1,2,A
+E1,07/05/2017,Rotherham,Derby,1,1,D
+E1,07/05/2017,Norwich,QPR,4,0,H
+E1,07/05/2017,Aston Villa,Brighton,1,1,D
+E1,07/05/2017,Nott'm Forest,Ipswich,3,0,H
+E1,07/05/2017,Wigan,Leeds,1,1,D
+E1,07/05/2017,Brentford,Blackburn,1,3,A
+E1,07/05/2017,Wolves,Preston,1,0,H
+E1,07/05/2017,Newcastle,Barnsley,3,0,H
+E1,07/05/2017,Huddersfield,Cardiff,0,3,A
+E1,07/08/2016,Sheffield Weds,Aston Villa,1,0,H
+E1,07/08/2016,QPR,Leeds,3,0,H
+E1,08/04/2017,Sheffield Weds,Newcastle,2,1,H
+E1,08/04/2017,Burton,Aston Villa,1,1,D
+E1,08/04/2017,Norwich,Reading,7,1,H
+E1,08/04/2017,Wigan,Rotherham,3,2,H
+E1,08/04/2017,Fulham,Ipswich,3,1,H
+E1,08/04/2017,Cardiff,Brentford,2,1,H
+E1,08/04/2017,Birmingham,Derby,1,2,A
+E1,08/04/2017,Bristol City,Wolves,3,1,H
+E1,08/04/2017,Blackburn,Barnsley,0,2,A
+E1,08/04/2017,Leeds,Preston,3,0,H
+E1,08/04/2017,Nott'm Forest,Huddersfield,2,0,H
+E1,09/09/2016,Reading,Ipswich,2,1,H
+E1,09/12/2016,Brighton,Leeds,2,0,H
+E1,10/02/2017,Sheffield Weds,Birmingham,3,0,H
+E1,10/03/2017,Brighton,Derby,3,0,H
+E1,10/09/2016,Rotherham,Bristol City,2,2,D
+E1,10/09/2016,Leeds,Huddersfield,0,1,A
+E1,10/09/2016,Norwich,Cardiff,3,2,H
+E1,10/09/2016,QPR,Blackburn,1,1,D
+E1,10/09/2016,Preston,Barnsley,1,2,A
+E1,10/09/2016,Sheffield Weds,Wigan,2,1,H
+E1,10/09/2016,Fulham,Birmingham,0,1,A
+E1,10/09/2016,Brighton,Brentford,0,2,A
+E1,10/09/2016,Wolves,Burton,1,1,D
+E1,10/09/2016,Derby,Newcastle,0,2,A
+E1,10/12/2016,Aston Villa,Wigan,1,0,H
+E1,10/12/2016,Huddersfield,Bristol City,2,1,H
+E1,10/12/2016,Newcastle,Birmingham,4,0,H
+E1,10/12/2016,Brentford,Burton,2,1,H
+E1,10/12/2016,Reading,Sheffield Weds,2,1,H
+E1,10/12/2016,Preston,Blackburn,3,2,H
+E1,10/12/2016,Ipswich,Cardiff,1,1,D
+E1,10/12/2016,Wolves,Fulham,4,4,D
+E1,10/12/2016,Barnsley,Norwich,2,1,H
+E1,10/12/2016,Rotherham,QPR,1,0,H
+E1,11/02/2017,Fulham,Wigan,3,2,H
+E1,11/02/2017,Norwich,Nott'm Forest,5,1,H
+E1,11/02/2017,QPR,Huddersfield,1,2,A
+E1,11/02/2017,Rotherham,Blackburn,1,1,D
+E1,11/02/2017,Wolves,Newcastle,0,1,A
+E1,11/02/2017,Leeds,Cardiff,0,2,A
+E1,11/02/2017,Preston,Brentford,4,2,H
+E1,11/02/2017,Reading,Barnsley,0,0,D
+E1,11/02/2017,Brighton,Burton,4,1,H
+E1,11/02/2017,Derby,Bristol City,3,3,D
+E1,11/02/2017,Aston Villa,Ipswich,0,1,A
+E1,11/03/2017,Wolves,Rotherham,1,0,H
+E1,11/03/2017,Brentford,Huddersfield,0,1,A
+E1,11/03/2017,Preston,Reading,3,0,H
+E1,11/03/2017,Wigan,Bristol City,0,1,A
+E1,11/03/2017,Leeds,QPR,0,0,D
+E1,11/03/2017,Newcastle,Fulham,1,3,A
+E1,11/03/2017,Aston Villa,Sheffield Weds,2,0,H
+E1,11/03/2017,Norwich,Blackburn,2,2,D
+E1,11/03/2017,Barnsley,Ipswich,1,1,D
+E1,11/03/2017,Burton,Nott'm Forest,1,0,H
+E1,11/03/2017,Cardiff,Birmingham,1,1,D
+E1,11/09/2016,Aston Villa,Nott'm Forest,2,2,D
+E1,11/12/2016,Derby,Nott'm Forest,3,0,H
+E1,12/01/2017,Reading,QPR,0,1,A
+E1,12/08/2016,Brighton,Nott'm Forest,3,0,H
+E1,13/01/2017,Leeds,Derby,1,0,H
+E1,13/04/2017,Wigan,Barnsley,3,2,H
+E1,13/05/2017,Fulham,Reading,1,1,D
+E1,13/08/2016,Newcastle,Huddersfield,1,2,A
+E1,13/08/2016,Wolves,Reading,2,0,H
+E1,13/08/2016,Norwich,Sheffield Weds,0,0,D
+E1,13/08/2016,Brentford,Ipswich,2,0,H
+E1,13/08/2016,Burton,Bristol City,1,2,A
+E1,13/08/2016,Barnsley,Derby,2,0,H
+E1,13/08/2016,Aston Villa,Rotherham,3,0,H
+E1,13/08/2016,Leeds,Birmingham,1,2,A
+E1,13/08/2016,Wigan,Blackburn,3,0,H
+E1,13/08/2016,Preston,Fulham,1,2,A
+E1,13/09/2016,Reading,Birmingham,0,0,D
+E1,13/09/2016,Brighton,Huddersfield,1,0,H
+E1,13/09/2016,Wolves,Barnsley,0,4,A
+E1,13/09/2016,Leeds,Blackburn,2,1,H
+E1,13/09/2016,Derby,Ipswich,0,1,A
+E1,13/09/2016,Norwich,Wigan,2,1,H
+E1,13/09/2016,QPR,Newcastle,0,6,A
+E1,13/09/2016,Sheffield Weds,Bristol City,3,2,H
+E1,13/09/2016,Preston,Cardiff,3,0,H
+E1,13/09/2016,Fulham,Burton,1,1,D
+E1,13/12/2016,Burton,Huddersfield,0,1,A
+E1,13/12/2016,Fulham,Rotherham,2,1,H
+E1,13/12/2016,Cardiff,Wolves,2,1,H
+E1,13/12/2016,Bristol City,Brentford,0,1,A
+E1,13/12/2016,Leeds,Reading,2,0,H
+E1,13/12/2016,Birmingham,Ipswich,2,1,H
+E1,13/12/2016,Norwich,Aston Villa,1,0,H
+E1,13/12/2016,Sheffield Weds,Barnsley,2,0,H
+E1,13/12/2016,Blackburn,Brighton,2,3,A
+E1,14/01/2017,Rotherham,Norwich,2,1,H
+E1,14/01/2017,Preston,Brighton,2,0,H
+E1,14/01/2017,Ipswich,Blackburn,3,2,H
+E1,14/01/2017,Fulham,Barnsley,2,0,H
+E1,14/01/2017,Bristol City,Cardiff,2,3,A
+E1,14/01/2017,Burton,Wigan,0,2,A
+E1,14/01/2017,Sheffield Weds,Huddersfield,2,0,H
+E1,14/01/2017,Wolves,Aston Villa,1,0,H
+E1,14/01/2017,Birmingham,Nott'm Forest,0,0,D
+E1,14/01/2017,Brentford,Newcastle,1,2,A
+E1,14/02/2017,Reading,Brentford,3,2,H
+E1,14/02/2017,Sheffield Weds,Blackburn,2,1,H
+E1,14/02/2017,Rotherham,Huddersfield,2,3,A
+E1,14/02/2017,Norwich,Newcastle,2,2,D
+E1,14/02/2017,Derby,Cardiff,3,4,A
+E1,14/02/2017,Aston Villa,Barnsley,1,3,A
+E1,14/02/2017,Preston,Birmingham,2,1,H
+E1,14/02/2017,Brighton,Ipswich,1,1,D
+E1,14/02/2017,Wolves,Wigan,0,1,A
+E1,14/02/2017,Fulham,Nott'm Forest,3,2,H
+E1,14/02/2017,Leeds,Bristol City,2,1,H
+E1,14/03/2017,Brentford,Wolves,1,2,A
+E1,14/03/2017,Fulham,Blackburn,2,2,D
+E1,14/04/2017,Huddersfield,Preston,3,2,H
+E1,14/04/2017,Brentford,Derby,4,0,H
+E1,14/04/2017,Bristol City,QPR,2,1,H
+E1,14/04/2017,Norwich,Fulham,1,3,A
+E1,14/04/2017,Rotherham,Birmingham,1,1,D
+E1,14/04/2017,Sheffield Weds,Cardiff,1,0,H
+E1,14/04/2017,Wolves,Brighton,0,2,A
+E1,14/04/2017,Newcastle,Leeds,1,1,D
+E1,14/04/2017,Nott'm Forest,Blackburn,0,1,A
+E1,14/04/2017,Burton,Ipswich,1,2,A
+E1,14/05/2017,Huddersfield,Sheffield Weds,0,0,D
+E1,14/08/2016,Cardiff,QPR,0,2,A
+E1,14/09/2016,Rotherham,Nott'm Forest,2,2,D
+E1,14/09/2016,Aston Villa,Brentford,1,1,D
+E1,14/10/2016,Nott'm Forest,Birmingham,3,1,H
+E1,14/10/2016,Cardiff,Bristol City,2,1,H
+E1,14/12/2016,Nott'm Forest,Preston,1,1,D
+E1,14/12/2016,Wigan,Newcastle,0,2,A
+E1,14/12/2016,QPR,Derby,0,1,A
+E1,15/04/2017,Aston Villa,Reading,1,3,A
+E1,15/10/2016,Aston Villa,Wolves,1,1,D
+E1,15/10/2016,Barnsley,Fulham,2,4,A
+E1,15/10/2016,Norwich,Rotherham,3,1,H
+E1,15/10/2016,Derby,Leeds,1,0,H
+E1,15/10/2016,Blackburn,Ipswich,0,0,D
+E1,15/10/2016,Wigan,Burton,0,0,D
+E1,15/10/2016,Brighton,Preston,2,2,D
+E1,15/10/2016,Newcastle,Brentford,3,1,H
+E1,15/10/2016,QPR,Reading,1,1,D
+E1,16/05/2017,Reading,Fulham,1,0,H
+E1,16/08/2016,Wolves,Ipswich,0,0,D
+E1,16/08/2016,Brighton,Rotherham,3,0,H
+E1,16/08/2016,Brentford,Nott'm Forest,1,0,H
+E1,16/08/2016,Preston,Derby,0,1,A
+E1,16/08/2016,Wigan,Birmingham,1,1,D
+E1,16/08/2016,Leeds,Fulham,1,1,D
+E1,16/08/2016,Aston Villa,Huddersfield,1,1,D
+E1,16/08/2016,Burton,Sheffield Weds,3,1,H
+E1,16/08/2016,Norwich,Bristol City,1,0,H
+E1,16/10/2016,Huddersfield,Sheffield Weds,0,1,A
+E1,16/12/2016,Norwich,Huddersfield,1,2,A
+E1,17/03/2017,Bristol City,Huddersfield,4,0,H
+E1,17/03/2017,Sheffield Weds,Reading,0,2,A
+E1,17/04/2017,Brighton,Wigan,2,1,H
+E1,17/04/2017,Birmingham,Burton,0,2,A
+E1,17/04/2017,Ipswich,Newcastle,3,1,H
+E1,17/04/2017,Cardiff,Nott'm Forest,1,0,H
+E1,17/04/2017,Leeds,Wolves,0,1,A
+E1,17/04/2017,Reading,Rotherham,2,1,H
+E1,17/04/2017,Preston,Norwich,1,3,A
+E1,17/04/2017,Barnsley,Brentford,1,1,D
+E1,17/04/2017,Blackburn,Bristol City,1,1,D
+E1,17/04/2017,Fulham,Aston Villa,3,1,H
+E1,17/04/2017,QPR,Sheffield Weds,1,2,A
+E1,17/04/2017,Derby,Huddersfield,1,1,D
+E1,17/08/2016,Cardiff,Blackburn,2,1,H
+E1,17/08/2016,Newcastle,Reading,4,1,H
+E1,17/08/2016,Barnsley,QPR,3,2,H
+E1,17/09/2016,Birmingham,Sheffield Weds,2,1,H
+E1,17/09/2016,Burton,Brighton,0,1,A
+E1,17/09/2016,Cardiff,Leeds,0,2,A
+E1,17/09/2016,Huddersfield,QPR,2,1,H
+E1,17/09/2016,Blackburn,Rotherham,4,2,H
+E1,17/09/2016,Brentford,Preston,5,0,H
+E1,17/09/2016,Bristol City,Derby,1,1,D
+E1,17/09/2016,Ipswich,Aston Villa,0,0,D
+E1,17/09/2016,Wigan,Fulham,0,0,D
+E1,17/09/2016,Nott'm Forest,Norwich,1,2,A
+E1,17/09/2016,Newcastle,Wolves,0,2,A
+E1,17/09/2016,Barnsley,Reading,1,2,A
+E1,17/12/2016,Birmingham,Brighton,1,2,A
+E1,17/12/2016,Cardiff,Barnsley,3,4,A
+E1,17/12/2016,Bristol City,Preston,1,2,A
+E1,17/12/2016,Wigan,Ipswich,2,3,A
+E1,17/12/2016,Burton,Newcastle,1,2,A
+E1,17/12/2016,Sheffield Weds,Rotherham,1,0,H
+E1,17/12/2016,Blackburn,Reading,2,3,A
+E1,17/12/2016,Fulham,Derby,2,2,D
+E1,17/12/2016,Nott'm Forest,Wolves,0,2,A
+E1,17/12/2016,Leeds,Brentford,1,0,H
+E1,18/02/2017,Barnsley,Brighton,0,2,A
+E1,18/02/2017,Nott'm Forest,Sheffield Weds,1,2,A
+E1,18/02/2017,Burton,Norwich,2,1,H
+E1,18/02/2017,Wigan,Preston,0,0,D
+E1,18/02/2017,Ipswich,Leeds,1,1,D
+E1,18/02/2017,Birmingham,QPR,1,4,A
+E1,18/02/2017,Cardiff,Rotherham,5,0,H
+E1,18/03/2017,QPR,Rotherham,5,1,H
+E1,18/03/2017,Leeds,Brighton,2,0,H
+E1,18/03/2017,Norwich,Barnsley,2,0,H
+E1,18/03/2017,Cardiff,Ipswich,3,1,H
+E1,18/03/2017,Burton,Brentford,3,5,A
+E1,18/03/2017,Nott'm Forest,Derby,2,2,D
+E1,18/03/2017,Blackburn,Preston,2,2,D
+E1,18/03/2017,Fulham,Wolves,1,3,A
+E1,18/03/2017,Birmingham,Newcastle,0,0,D
+E1,18/03/2017,Wigan,Aston Villa,0,2,A
+E1,18/10/2016,Blackburn,Nott'm Forest,2,1,H
+E1,18/10/2016,Derby,Brentford,0,0,D
+E1,18/10/2016,QPR,Bristol City,1,0,H
+E1,18/10/2016,Brighton,Wolves,1,0,H
+E1,18/10/2016,Leeds,Wigan,1,1,D
+E1,18/10/2016,Reading,Aston Villa,1,2,A
+E1,18/10/2016,Barnsley,Newcastle,0,2,A
+E1,18/10/2016,Fulham,Norwich,2,2,D
+E1,18/10/2016,Birmingham,Rotherham,4,2,H
+E1,18/10/2016,Ipswich,Burton,2,0,H
+E1,18/11/2016,Brighton,Aston Villa,1,1,D
+E1,18/12/2016,QPR,Aston Villa,0,1,A
+E1,19/10/2016,Cardiff,Sheffield Weds,1,1,D
+E1,19/10/2016,Preston,Huddersfield,3,1,H
+E1,19/11/2016,Cardiff,Huddersfield,3,2,H
+E1,19/11/2016,Fulham,Sheffield Weds,1,1,D
+E1,19/11/2016,Birmingham,Bristol City,1,0,H
+E1,19/11/2016,Preston,Wolves,0,0,D
+E1,19/11/2016,Blackburn,Brentford,3,2,H
+E1,19/11/2016,Derby,Rotherham,3,0,H
+E1,19/11/2016,QPR,Norwich,2,1,H
+E1,19/11/2016,Barnsley,Wigan,0,0,D
+E1,19/11/2016,Ipswich,Nott'm Forest,0,2,A
+E1,19/11/2016,Reading,Burton,3,0,H
+E1,20/01/2017,Brighton,Sheffield Weds,2,1,H
+E1,20/02/2017,Newcastle,Aston Villa,2,0,H
+E1,20/08/2016,Blackburn,Burton,2,2,D
+E1,20/08/2016,Huddersfield,Barnsley,2,1,H
+E1,20/08/2016,Derby,Aston Villa,0,0,D
+E1,20/08/2016,Rotherham,Brentford,1,0,H
+E1,20/08/2016,QPR,Preston,0,2,A
+E1,20/08/2016,Nott'm Forest,Wigan,4,3,H
+E1,20/08/2016,Bristol City,Newcastle,0,1,A
+E1,20/08/2016,Birmingham,Wolves,1,3,A
+E1,20/08/2016,Reading,Brighton,2,2,D
+E1,20/08/2016,Sheffield Weds,Leeds,0,2,A
+E1,20/08/2016,Fulham,Cardiff,2,2,D
+E1,20/11/2016,Leeds,Newcastle,0,2,A
+E1,21/01/2017,Aston Villa,Preston,2,2,D
+E1,21/01/2017,Huddersfield,Ipswich,2,0,H
+E1,21/01/2017,Wigan,Brentford,2,1,H
+E1,21/01/2017,Cardiff,Burton,1,0,H
+E1,21/01/2017,Nott'm Forest,Bristol City,1,0,H
+E1,21/01/2017,Derby,Reading,3,2,H
+E1,21/01/2017,Blackburn,Birmingham,1,1,D
+E1,21/01/2017,Barnsley,Leeds,3,2,H
+E1,21/01/2017,Newcastle,Rotherham,4,0,H
+E1,21/01/2017,Norwich,Wolves,3,1,H
+E1,21/01/2017,QPR,Fulham,1,1,D
+E1,21/02/2017,Sheffield Weds,Brentford,1,2,A
+E1,21/02/2017,QPR,Wigan,2,1,H
+E1,21/02/2017,Derby,Burton,0,0,D
+E1,21/02/2017,Huddersfield,Reading,1,0,H
+E1,21/04/2017,Norwich,Brighton,2,0,H
+E1,21/08/2016,Ipswich,Norwich,1,1,D
+E1,21/10/2016,Burton,Birmingham,2,0,H
+E1,22/02/2017,Bristol City,Fulham,0,2,A
+E1,22/04/2017,Huddersfield,Fulham,1,4,A
+E1,22/04/2017,Wolves,Blackburn,0,0,D
+E1,22/04/2017,Brentford,QPR,3,1,H
+E1,22/04/2017,Bristol City,Barnsley,3,2,H
+E1,22/04/2017,Wigan,Cardiff,0,0,D
+E1,22/04/2017,Nott'm Forest,Reading,3,2,H
+E1,22/04/2017,Rotherham,Ipswich,1,0,H
+E1,22/04/2017,Sheffield Weds,Derby,2,1,H
+E1,22/04/2017,Burton,Leeds,2,1,H
+E1,22/10/2016,Norwich,Preston,0,1,A
+E1,22/10/2016,Huddersfield,Derby,1,0,H
+E1,22/10/2016,Wolves,Leeds,0,1,A
+E1,22/10/2016,Brentford,Barnsley,0,2,A
+E1,22/10/2016,Bristol City,Blackburn,1,0,H
+E1,22/10/2016,Wigan,Brighton,0,1,A
+E1,22/10/2016,Aston Villa,Fulham,1,0,H
+E1,22/10/2016,Rotherham,Reading,0,1,A
+E1,22/10/2016,Sheffield Weds,QPR,1,0,H
+E1,22/10/2016,Nott'm Forest,Cardiff,1,2,A
+E1,22/10/2016,Newcastle,Ipswich,3,0,H
+E1,23/04/2017,Aston Villa,Birmingham,1,0,H
+E1,23/09/2016,Preston,Wigan,1,0,H
+E1,24/01/2017,Brighton,Cardiff,1,0,H
+E1,24/01/2017,Reading,Fulham,1,0,H
+E1,24/02/2017,Burton,Blackburn,1,1,D
+E1,24/02/2017,Wolves,Birmingham,1,2,A
+E1,24/04/2017,Newcastle,Preston,4,1,H
+E1,24/09/2016,Derby,Blackburn,1,2,A
+E1,24/09/2016,Fulham,Bristol City,0,4,A
+E1,24/09/2016,Wolves,Brentford,3,1,H
+E1,24/09/2016,Brighton,Barnsley,2,0,H
+E1,24/09/2016,Reading,Huddersfield,1,0,H
+E1,24/09/2016,Leeds,Ipswich,1,0,H
+E1,24/09/2016,Norwich,Burton,3,1,H
+E1,24/09/2016,QPR,Birmingham,1,1,D
+E1,24/09/2016,Rotherham,Cardiff,1,2,A
+E1,24/09/2016,Sheffield Weds,Nott'm Forest,2,1,H
+E1,24/09/2016,Aston Villa,Newcastle,1,1,D
+E1,25/01/2017,Leeds,Nott'm Forest,2,0,H
+E1,25/02/2017,Leeds,Sheffield Weds,1,0,H
+E1,25/02/2017,Newcastle,Bristol City,2,2,D
+E1,25/02/2017,Brentford,Rotherham,4,2,H
+E1,25/02/2017,Cardiff,Fulham,2,2,D
+E1,25/02/2017,Wigan,Nott'm Forest,0,0,D
+E1,25/02/2017,Aston Villa,Derby,1,0,H
+E1,25/02/2017,Barnsley,Huddersfield,1,1,D
+E1,25/02/2017,Brighton,Reading,3,0,H
+E1,25/02/2017,Preston,QPR,2,1,H
+E1,25/04/2017,Wolves,Huddersfield,0,1,A
+E1,25/11/2016,Barnsley,Nott'm Forest,2,5,A
+E1,26/02/2017,Norwich,Ipswich,1,1,D
+E1,26/08/2016,Burton,Derby,1,0,H
+E1,26/11/2016,Wolves,Sheffield Weds,0,2,A
+E1,26/11/2016,Brentford,Birmingham,1,2,A
+E1,26/11/2016,Newcastle,Blackburn,0,1,A
+E1,26/11/2016,Rotherham,Leeds,1,2,A
+E1,26/11/2016,Aston Villa,Cardiff,3,1,H
+E1,26/11/2016,Ipswich,QPR,3,0,H
+E1,26/11/2016,Preston,Burton,1,1,D
+E1,26/11/2016,Reading,Bristol City,2,1,H
+E1,26/11/2016,Derby,Norwich,1,0,H
+E1,26/11/2016,Brighton,Fulham,2,1,H
+E1,26/12/2016,Newcastle,Sheffield Weds,0,1,A
+E1,26/12/2016,Barnsley,Blackburn,2,0,H
+E1,26/12/2016,Aston Villa,Burton,2,1,H
+E1,26/12/2016,Rotherham,Wigan,3,2,H
+E1,26/12/2016,Brentford,Cardiff,2,2,D
+E1,26/12/2016,Huddersfield,Nott'm Forest,2,1,H
+E1,26/12/2016,Wolves,Bristol City,3,2,H
+E1,26/12/2016,Reading,Norwich,3,1,H
+E1,26/12/2016,Ipswich,Fulham,0,2,A
+E1,26/12/2016,Preston,Leeds,1,4,A
+E1,27/08/2016,Birmingham,Norwich,3,0,H
+E1,27/08/2016,Brentford,Sheffield Weds,1,1,D
+E1,27/08/2016,Bristol City,Aston Villa,3,1,H
+E1,27/08/2016,Ipswich,Preston,1,0,H
+E1,27/08/2016,Wigan,QPR,0,1,A
+E1,27/08/2016,Newcastle,Brighton,2,0,H
+E1,27/08/2016,Blackburn,Fulham,0,1,A
+E1,27/08/2016,Barnsley,Rotherham,4,0,H
+E1,27/08/2016,Huddersfield,Wolves,1,0,H
+E1,27/08/2016,Nott'm Forest,Leeds,3,1,H
+E1,27/08/2016,Cardiff,Reading,0,1,A
+E1,27/09/2016,Barnsley,Aston Villa,1,1,D
+E1,27/09/2016,Burton,QPR,1,1,D
+E1,27/09/2016,Blackburn,Sheffield Weds,0,1,A
+E1,27/09/2016,Nott'm Forest,Fulham,1,1,D
+E1,27/09/2016,Wigan,Wolves,2,1,H
+E1,27/09/2016,Ipswich,Brighton,0,0,D
+E1,27/09/2016,Bristol City,Leeds,1,0,H
+E1,27/09/2016,Brentford,Reading,4,1,H
+E1,27/09/2016,Huddersfield,Rotherham,2,1,H
+E1,27/09/2016,Cardiff,Derby,0,2,A
+E1,27/09/2016,Birmingham,Preston,2,2,D
+E1,27/12/2016,Derby,Birmingham,1,0,H
+E1,27/12/2016,Brighton,QPR,3,0,H
+E1,28/01/2017,Reading,Cardiff,2,1,H
+E1,28/01/2017,Preston,Ipswich,1,1,D
+E1,28/01/2017,Norwich,Birmingham,2,0,H
+E1,28/01/2017,Rotherham,Barnsley,0,1,A
+E1,28/01/2017,QPR,Burton,1,2,A
+E1,28/02/2017,Brighton,Newcastle,1,2,A
+E1,28/02/2017,Aston Villa,Bristol City,2,0,H
+E1,28/02/2017,Blackburn,Derby,1,0,H
+E1,28/04/2017,Cardiff,Newcastle,0,2,A
+E1,28/09/2016,Newcastle,Norwich,4,3,H
+E1,28/10/2016,QPR,Brentford,0,2,A
+E1,28/11/2016,Huddersfield,Wigan,1,2,A
+E1,29/04/2017,Birmingham,Huddersfield,2,0,H
+E1,29/04/2017,Ipswich,Sheffield Weds,0,1,A
+E1,29/04/2017,Preston,Rotherham,1,1,D
+E1,29/04/2017,Reading,Wigan,1,0,H
+E1,29/04/2017,Fulham,Brentford,1,1,D
+E1,29/04/2017,Blackburn,Aston Villa,1,0,H
+E1,29/04/2017,Barnsley,Burton,1,1,D
+E1,29/04/2017,Derby,Wolves,3,1,H
+E1,29/04/2017,Leeds,Norwich,3,3,D
+E1,29/04/2017,QPR,Nott'm Forest,2,0,H
+E1,29/04/2017,Brighton,Bristol City,0,1,A
+E1,29/10/2016,Blackburn,Wolves,1,1,D
+E1,29/10/2016,Barnsley,Bristol City,2,2,D
+E1,29/10/2016,Leeds,Burton,2,0,H
+E1,29/10/2016,Preston,Newcastle,1,2,A
+E1,29/10/2016,Ipswich,Rotherham,2,2,D
+E1,29/10/2016,Reading,Nott'm Forest,2,0,H
+E1,29/10/2016,Brighton,Norwich,5,0,H
+E1,29/10/2016,Cardiff,Wigan,0,1,A
+E1,29/10/2016,Fulham,Huddersfield,5,0,H
+E1,29/10/2016,Derby,Sheffield Weds,2,0,H
+E1,29/12/2016,Rotherham,Burton,1,2,A
+E1,29/12/2016,Aston Villa,Leeds,1,1,D
+E1,30/10/2016,Birmingham,Aston Villa,1,1,D
+E1,30/12/2016,Newcastle,Nott'm Forest,3,1,H
+E1,30/12/2016,Ipswich,Bristol City,2,1,H
+E1,31/01/2017,Cardiff,Preston,2,0,H
+E1,31/01/2017,Barnsley,Wolves,1,3,A
+E1,31/01/2017,Nott'm Forest,Rotherham,2,0,H
+E1,31/01/2017,Ipswich,Derby,0,3,A
+E1,31/01/2017,Bristol City,Sheffield Weds,2,2,D
+E1,31/01/2017,Brentford,Aston Villa,3,0,H
+E1,31/01/2017,Birmingham,Reading,0,1,A
+E1,31/03/2017,Derby,QPR,1,0,H
+E1,31/12/2016,Barnsley,Birmingham,2,2,D
+E1,31/12/2016,Brentford,Norwich,0,0,D
+E1,31/12/2016,Preston,Sheffield Weds,1,1,D
+E1,31/12/2016,Huddersfield,Blackburn,1,1,D
+E1,31/12/2016,Wolves,QPR,1,2,A
+E1,31/12/2016,Derby,Wigan,0,0,D

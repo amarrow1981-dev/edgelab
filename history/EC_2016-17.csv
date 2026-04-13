@@ -1,0 +1,552 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2017,Woking,Aldershot,1,2,A
+EC,01/01/2017,Maidstone Utd,Dover,1,4,A
+EC,01/01/2017,Forest Green,Torquay,5,5,D
+EC,01/01/2017,Lincoln,Guiseley AFC,3,1,H
+EC,01/01/2017,Macclesfield,Tranmere,4,2,H
+EC,01/01/2017,Sutton Utd,Bromley,2,0,H
+EC,01/01/2017,York,North Ferriby United,0,1,A
+EC,01/01/2017,Southport,Wrexham,3,2,H
+EC,01/01/2017,Chester,Solihull,0,3,A
+EC,01/04/2017,Wrexham,Tranmere,0,1,A
+EC,01/04/2017,Forest Green,North Ferriby United,0,1,A
+EC,01/04/2017,Lincoln,Bromley,1,0,H
+EC,01/04/2017,Dag and Red,Eastleigh,4,0,H
+EC,01/04/2017,Southport,Guiseley AFC,0,1,A
+EC,01/04/2017,Torquay,Chester,0,1,A
+EC,01/04/2017,York,Braintree,3,0,H
+EC,01/04/2017,Dover,Gateshead,2,0,H
+EC,01/04/2017,Boreham Wood,Macclesfield,2,4,A
+EC,01/04/2017,Solihull,Aldershot,0,2,A
+EC,01/04/2017,Woking,Sutton Utd,2,1,H
+EC,01/04/2017,Maidstone Utd,Barrow,2,1,H
+EC,01/10/2016,Maidstone Utd,Solihull,2,4,A
+EC,01/10/2016,Sutton Utd,Guiseley AFC,1,0,H
+EC,01/10/2016,Boreham Wood,Wrexham,0,1,A
+EC,01/10/2016,York,Aldershot,0,1,A
+EC,01/10/2016,Southport,Bromley,1,2,A
+EC,01/10/2016,Gateshead,Torquay,0,0,D
+EC,01/10/2016,Dag and Red,Tranmere,0,0,D
+EC,01/10/2016,Macclesfield,North Ferriby United,1,0,H
+EC,01/10/2016,Lincoln,Braintree,3,0,H
+EC,01/10/2016,Forest Green,Barrow,0,0,D
+EC,01/10/2016,Woking,Eastleigh,3,3,D
+EC,01/10/2016,Chester,Dover,5,0,H
+EC,02/01/2017,Dag and Red,Braintree,3,0,H
+EC,03/03/2017,Chester,Tranmere,2,3,A
+EC,03/04/2017,Lincoln,Dag and Red,2,0,H
+EC,03/09/2016,Macclesfield,Woking,3,1,H
+EC,03/09/2016,Chester,Forest Green,1,2,A
+EC,03/09/2016,Dag and Red,Boreham Wood,0,2,A
+EC,03/09/2016,Maidstone Utd,Wrexham,2,2,D
+EC,03/09/2016,Gateshead,Sutton Utd,1,0,H
+EC,03/09/2016,Guiseley AFC,Braintree,0,0,D
+EC,03/09/2016,Southport,Dover,0,1,A
+EC,03/09/2016,Torquay,Lincoln,1,2,A
+EC,03/09/2016,Eastleigh,North Ferriby United,2,0,H
+EC,03/09/2016,York,Solihull,4,0,H
+EC,03/09/2016,Barrow,Bromley,1,1,D
+EC,03/09/2016,Aldershot,Tranmere,3,1,H
+EC,03/12/2016,Aldershot,Boreham Wood,2,0,H
+EC,03/12/2016,Dover,Dag and Red,1,2,A
+EC,03/12/2016,North Ferriby United,Gateshead,1,0,H
+EC,03/12/2016,Bromley,Maidstone Utd,2,0,H
+EC,03/12/2016,Guiseley AFC,Chester,1,1,D
+EC,03/12/2016,Tranmere,York,1,0,H
+EC,04/02/2017,Bromley,Torquay,1,0,H
+EC,04/02/2017,Wrexham,Guiseley AFC,3,1,H
+EC,04/02/2017,Maidstone Utd,Aldershot,0,2,A
+EC,04/02/2017,Gateshead,Southport,3,0,H
+EC,04/02/2017,Dag and Red,Chester,3,2,H
+EC,04/03/2017,Aldershot,Lincoln,0,0,D
+EC,04/03/2017,North Ferriby United,Woking,2,1,H
+EC,04/03/2017,Braintree,Wrexham,1,2,A
+EC,04/03/2017,Boreham Wood,Bromley,0,0,D
+EC,04/03/2017,Dover,Solihull,0,0,D
+EC,04/03/2017,York,Eastleigh,3,1,H
+EC,04/03/2017,Torquay,Guiseley AFC,1,2,A
+EC,04/03/2017,Maidstone Utd,Southport,4,2,H
+EC,04/03/2017,Gateshead,Dag and Red,1,0,H
+EC,04/03/2017,Forest Green,Macclesfield,3,0,H
+EC,04/03/2017,Barrow,Sutton Utd,0,0,D
+EC,04/04/2017,York,Bromley,0,2,A
+EC,04/04/2017,Southport,Macclesfield,1,2,A
+EC,04/04/2017,Tranmere,Sutton Utd,3,2,H
+EC,04/10/2016,Eastleigh,Maidstone Utd,3,0,H
+EC,04/10/2016,Bromley,Woking,2,1,H
+EC,04/10/2016,Solihull,Southport,4,0,H
+EC,04/10/2016,Braintree,Boreham Wood,1,2,A
+EC,04/10/2016,Dover,Sutton Utd,3,1,H
+EC,04/10/2016,Torquay,Dag and Red,1,0,H
+EC,04/10/2016,Wrexham,Lincoln,1,2,A
+EC,04/10/2016,Tranmere,Gateshead,0,1,A
+EC,04/10/2016,Aldershot,Forest Green,0,4,A
+EC,04/10/2016,Barrow,Macclesfield,1,1,D
+EC,04/10/2016,Guiseley AFC,York,6,1,H
+EC,04/10/2016,North Ferriby United,Chester,0,1,A
+EC,05/11/2016,North Ferriby United,Wrexham,0,0,D
+EC,05/11/2016,Forest Green,Aldershot,2,1,H
+EC,06/08/2016,Maidstone Utd,York,1,1,D
+EC,06/08/2016,Wrexham,Dover,0,0,D
+EC,06/08/2016,Dag and Red,Southport,3,0,H
+EC,06/08/2016,Eastleigh,Guiseley AFC,2,1,H
+EC,06/08/2016,Gateshead,Chester,3,0,H
+EC,06/08/2016,Boreham Wood,Forest Green,1,0,H
+EC,06/08/2016,Bromley,Tranmere,0,2,A
+EC,06/08/2016,North Ferriby United,Braintree,0,0,D
+EC,06/08/2016,Sutton Utd,Solihull,1,3,A
+EC,06/08/2016,Woking,Lincoln,1,3,A
+EC,06/08/2016,Macclesfield,Torquay,2,0,H
+EC,06/08/2016,Barrow,Aldershot,1,0,H
+EC,06/12/2016,Wrexham,Macclesfield,0,3,A
+EC,07/01/2017,Wrexham,Woking,2,1,H
+EC,07/01/2017,Solihull,Gateshead,0,2,A
+EC,07/01/2017,North Ferriby United,Dag and Red,0,4,A
+EC,07/01/2017,Bromley,Forest Green,1,5,A
+EC,07/01/2017,Braintree,Chester,1,2,A
+EC,07/01/2017,Dover,York,2,2,D
+EC,07/01/2017,Guiseley AFC,Maidstone Utd,2,1,H
+EC,07/01/2017,Aldershot,Southport,2,1,H
+EC,07/01/2017,Torquay,Boreham Wood,0,1,A
+EC,07/03/2017,Braintree,Lincoln,0,4,A
+EC,07/03/2017,Barrow,Tranmere,2,1,H
+EC,08/04/2017,Macclesfield,Dag and Red,1,4,A
+EC,08/04/2017,Barrow,Woking,2,2,D
+EC,08/04/2017,Chester,York,0,2,A
+EC,08/04/2017,Eastleigh,Lincoln,0,1,A
+EC,08/04/2017,Gateshead,Maidstone Utd,1,2,A
+EC,08/04/2017,Guiseley AFC,Forest Green,0,1,A
+EC,08/04/2017,Braintree,Dover,1,2,A
+EC,08/04/2017,Bromley,Wrexham,4,3,H
+EC,08/04/2017,North Ferriby United,Boreham Wood,2,4,A
+EC,08/04/2017,Sutton Utd,Southport,2,2,D
+EC,08/04/2017,Tranmere,Solihull,9,0,H
+EC,08/04/2017,Aldershot,Torquay,1,1,D
+EC,08/10/2016,Sutton Utd,Woking,4,1,H
+EC,08/10/2016,Tranmere,Wrexham,2,0,H
+EC,08/10/2016,Macclesfield,Boreham Wood,0,2,A
+EC,08/10/2016,Aldershot,Solihull,2,0,H
+EC,08/10/2016,Barrow,Maidstone Utd,3,0,H
+EC,08/10/2016,Chester,Torquay,1,0,H
+EC,08/10/2016,Eastleigh,Dag and Red,0,1,A
+EC,08/10/2016,Gateshead,Dover,4,2,H
+EC,08/10/2016,Braintree,York,1,1,D
+EC,08/10/2016,Bromley,Lincoln,1,1,D
+EC,08/10/2016,North Ferriby United,Forest Green,0,3,A
+EC,08/10/2016,Guiseley AFC,Southport,2,1,H
+EC,09/08/2016,York,Macclesfield,1,0,H
+EC,09/08/2016,Dover,Boreham Wood,1,4,A
+EC,09/08/2016,Braintree,Eastleigh,1,1,D
+EC,09/08/2016,Southport,Gateshead,0,3,A
+EC,09/08/2016,Guiseley AFC,Wrexham,2,3,A
+EC,09/08/2016,Solihull,Woking,2,2,D
+EC,09/08/2016,Torquay,Bromley,1,0,H
+EC,09/08/2016,Forest Green,Sutton Utd,1,1,D
+EC,09/08/2016,Lincoln,North Ferriby United,6,1,H
+EC,09/08/2016,Tranmere,Barrow,2,0,H
+EC,09/08/2016,Aldershot,Maidstone Utd,1,0,H
+EC,09/08/2016,Chester,Dag and Red,3,0,H
+EC,10/01/2017,Macclesfield,Dover,2,1,H
+EC,10/01/2017,Barrow,Southport,0,1,A
+EC,10/01/2017,Eastleigh,Forest Green,1,1,D
+EC,10/01/2017,Braintree,Sutton Utd,1,0,H
+EC,10/09/2016,Wrexham,Sutton Utd,1,0,H
+EC,10/09/2016,Aldershot,Chester,0,0,D
+EC,10/09/2016,Solihull,Dag and Red,2,5,A
+EC,10/09/2016,North Ferriby United,Maidstone Utd,0,2,A
+EC,10/09/2016,Bromley,Macclesfield,0,1,A
+EC,10/09/2016,Braintree,Gateshead,1,4,A
+EC,10/09/2016,Torquay,York,2,0,H
+EC,10/09/2016,Guiseley AFC,Woking,1,1,D
+EC,10/09/2016,Eastleigh,Southport,1,1,D
+EC,10/09/2016,Barrow,Boreham Wood,1,1,D
+EC,10/09/2016,Dover,Forest Green,4,3,H
+EC,10/09/2016,Tranmere,Lincoln,0,1,A
+EC,11/02/2017,Lincoln,Woking,3,2,H
+EC,11/02/2017,Braintree,North Ferriby United,1,0,H
+EC,11/02/2017,Dover,Wrexham,1,1,D
+EC,11/02/2017,York,Maidstone Utd,1,1,D
+EC,11/02/2017,Torquay,Macclesfield,1,1,D
+EC,11/02/2017,Southport,Dag and Red,1,4,A
+EC,11/02/2017,Guiseley AFC,Eastleigh,1,1,D
+EC,11/02/2017,Aldershot,Barrow,2,2,D
+EC,11/02/2017,Solihull,Sutton Utd,3,0,H
+EC,11/02/2017,Tranmere,Bromley,2,2,D
+EC,11/02/2017,Chester,Gateshead,1,2,A
+EC,11/02/2017,Forest Green,Boreham Wood,2,0,H
+EC,11/03/2017,Wrexham,Gateshead,0,2,A
+EC,11/03/2017,Woking,Boreham Wood,0,0,D
+EC,11/03/2017,Sutton Utd,York,2,2,D
+EC,11/03/2017,Solihull,Braintree,3,3,D
+EC,11/03/2017,Bromley,North Ferriby United,3,0,H
+EC,11/03/2017,Southport,Torquay,1,2,A
+EC,11/03/2017,Guiseley AFC,Aldershot,1,0,H
+EC,11/03/2017,Dag and Red,Forest Green,2,1,H
+EC,11/03/2017,Eastleigh,Barrow,2,0,H
+EC,11/04/2017,Tranmere,Forest Green,0,1,A
+EC,11/04/2017,Macclesfield,Maidstone Utd,3,0,H
+EC,11/04/2017,Lincoln,Chester,1,0,H
+EC,12/11/2016,Eastleigh,York,1,1,D
+EC,12/11/2016,Woking,North Ferriby United,1,1,D
+EC,12/11/2016,Sutton Utd,Barrow,0,0,D
+EC,12/11/2016,Wrexham,Braintree,0,1,A
+EC,12/11/2016,Solihull,Dover,2,3,A
+EC,12/11/2016,Bromley,Boreham Wood,1,0,H
+EC,12/11/2016,Southport,Maidstone Utd,3,2,H
+EC,12/11/2016,Lincoln,Aldershot,3,3,D
+EC,12/11/2016,Macclesfield,Forest Green,0,1,A
+EC,12/11/2016,Tranmere,Chester,2,2,D
+EC,12/11/2016,Dag and Red,Gateshead,0,5,A
+EC,12/11/2016,Guiseley AFC,Torquay,2,0,H
+EC,13/08/2016,York,Boreham Wood,1,1,D
+EC,13/08/2016,Torquay,Barrow,1,1,D
+EC,13/08/2016,Southport,Woking,2,1,H
+EC,13/08/2016,Braintree,Macclesfield,1,3,A
+EC,13/08/2016,Solihull,Bromley,1,0,H
+EC,13/08/2016,Dover,North Ferriby United,2,0,H
+EC,13/08/2016,Aldershot,Wrexham,2,0,H
+EC,13/08/2016,Chester,Maidstone Utd,1,3,A
+EC,13/08/2016,Guiseley AFC,Dag and Red,0,2,A
+EC,13/08/2016,Tranmere,Eastleigh,2,1,H
+EC,13/08/2016,Lincoln,Sutton Utd,1,3,A
+EC,13/08/2016,Forest Green,Gateshead,1,0,H
+EC,13/09/2016,York,Tranmere,0,0,D
+EC,13/09/2016,Woking,Torquay,3,1,H
+EC,13/09/2016,Sutton Utd,Braintree,1,2,A
+EC,13/09/2016,Boreham Wood,Aldershot,1,1,D
+EC,13/09/2016,Southport,Barrow,1,4,A
+EC,13/09/2016,Forest Green,Eastleigh,1,1,D
+EC,13/09/2016,Maidstone Utd,Bromley,0,2,A
+EC,13/09/2016,Gateshead,North Ferriby United,0,1,A
+EC,13/09/2016,Lincoln,Solihull,0,0,D
+EC,13/09/2016,Chester,Guiseley AFC,2,0,H
+EC,13/09/2016,Dag and Red,Dover,2,0,H
+EC,14/01/2017,Torquay,Woking,1,2,A
+EC,14/01/2017,Wrexham,North Ferriby United,1,0,H
+EC,14/02/2017,Guiseley AFC,Sutton Utd,2,1,H
+EC,14/02/2017,Eastleigh,Braintree,0,2,A
+EC,14/02/2017,Woking,Solihull,2,1,H
+EC,14/03/2017,Macclesfield,Gateshead,1,1,D
+EC,14/03/2017,Boreham Wood,Dover,5,0,H
+EC,14/03/2017,Sutton Utd,Forest Green,1,2,A
+EC,14/03/2017,Torquay,Tranmere,0,0,D
+EC,14/04/2017,Woking,Macclesfield,1,0,H
+EC,14/04/2017,Forest Green,Chester,2,0,H
+EC,14/04/2017,Solihull,York,1,2,A
+EC,14/04/2017,Wrexham,Maidstone Utd,1,3,A
+EC,14/04/2017,Lincoln,Torquay,2,1,H
+EC,14/04/2017,Tranmere,Aldershot,2,2,D
+EC,14/04/2017,Dover,Southport,3,0,H
+EC,14/04/2017,Boreham Wood,Dag and Red,1,3,A
+EC,14/04/2017,Braintree,Guiseley AFC,2,0,H
+EC,14/04/2017,Bromley,Barrow,4,1,H
+EC,14/04/2017,North Ferriby United,Eastleigh,2,1,H
+EC,14/04/2017,Sutton Utd,Gateshead,3,0,H
+EC,15/02/2017,Macclesfield,Barrow,0,1,A
+EC,16/08/2016,Wrexham,Solihull,1,0,H
+EC,16/08/2016,Sutton Utd,Torquay,2,0,H
+EC,16/08/2016,North Ferriby United,Guiseley AFC,3,2,H
+EC,16/08/2016,Barrow,Chester,3,2,H
+EC,16/08/2016,Dag and Red,Lincoln,1,0,H
+EC,16/08/2016,Macclesfield,Southport,3,1,H
+EC,16/08/2016,Gateshead,York,6,1,H
+EC,16/08/2016,Maidstone Utd,Braintree,2,1,H
+EC,16/08/2016,Boreham Wood,Tranmere,0,1,A
+EC,16/08/2016,Bromley,Aldershot,2,2,D
+EC,16/08/2016,Eastleigh,Dover,2,4,A
+EC,16/08/2016,Woking,Forest Green,0,1,A
+EC,17/04/2017,Torquay,Braintree,3,1,H
+EC,17/04/2017,Chester,Woking,2,3,A
+EC,17/04/2017,Macclesfield,Solihull,1,3,A
+EC,17/04/2017,Dag and Red,Sutton Utd,2,2,D
+EC,17/04/2017,Aldershot,Dover,1,0,H
+EC,17/04/2017,Gateshead,Lincoln,1,2,A
+EC,17/04/2017,Guiseley AFC,Tranmere,1,2,A
+EC,17/04/2017,Maidstone Utd,Boreham Wood,1,0,H
+EC,17/04/2017,Southport,Forest Green,2,0,H
+EC,17/04/2017,Eastleigh,Bromley,2,1,H
+EC,17/04/2017,Barrow,North Ferriby United,3,1,H
+EC,17/04/2017,York,Wrexham,1,3,A
+EC,17/09/2016,Maidstone Utd,Guiseley AFC,1,1,D
+EC,17/09/2016,Southport,Aldershot,1,1,D
+EC,17/09/2016,York,Dover,0,1,A
+EC,17/09/2016,Woking,Wrexham,2,0,H
+EC,17/09/2016,Gateshead,Solihull,0,0,D
+EC,17/09/2016,Boreham Wood,Torquay,2,0,H
+EC,17/09/2016,Chester,Braintree,1,0,H
+EC,17/09/2016,Macclesfield,Eastleigh,0,1,A
+EC,17/09/2016,Lincoln,Barrow,1,2,A
+EC,17/09/2016,Forest Green,Bromley,1,0,H
+EC,17/09/2016,Sutton Utd,Tranmere,1,0,H
+EC,17/09/2016,Dag and Red,North Ferriby United,2,0,H
+EC,17/12/2016,York,Torquay,0,0,D
+EC,17/12/2016,Forest Green,Dover,1,1,D
+EC,17/12/2016,Woking,Guiseley AFC,0,0,D
+EC,17/12/2016,Sutton Utd,Wrexham,1,0,H
+EC,17/12/2016,Boreham Wood,Barrow,1,1,D
+EC,17/12/2016,Southport,Eastleigh,4,3,H
+EC,17/12/2016,Dag and Red,Solihull,4,4,D
+EC,17/12/2016,Gateshead,Braintree,1,1,D
+EC,17/12/2016,Chester,Aldershot,2,0,H
+EC,17/12/2016,Lincoln,Tranmere,2,1,H
+EC,17/12/2016,Macclesfield,Bromley,1,2,A
+EC,17/12/2016,Maidstone Utd,North Ferriby United,1,2,A
+EC,18/02/2017,Woking,Southport,0,0,D
+EC,18/02/2017,North Ferriby United,Dover,1,2,A
+EC,18/02/2017,Bromley,Solihull,0,1,A
+EC,18/02/2017,Boreham Wood,York,1,1,D
+EC,18/02/2017,Maidstone Utd,Chester,4,2,H
+EC,18/02/2017,Gateshead,Forest Green,3,1,H
+EC,18/02/2017,Eastleigh,Tranmere,0,2,A
+EC,18/02/2017,Dag and Red,Guiseley AFC,1,2,A
+EC,18/02/2017,Macclesfield,Braintree,2,0,H
+EC,18/02/2017,Barrow,Torquay,0,0,D
+EC,18/02/2017,Wrexham,Aldershot,0,2,A
+EC,18/03/2017,Gateshead,Woking,2,1,H
+EC,18/03/2017,Forest Green,Wrexham,3,0,H
+EC,18/03/2017,North Ferriby United,Solihull,1,4,A
+EC,18/03/2017,Braintree,Southport,2,0,H
+EC,18/03/2017,Chester,Eastleigh,0,1,A
+EC,18/03/2017,Boreham Wood,Guiseley AFC,0,0,D
+EC,18/03/2017,Dover,Bromley,1,0,H
+EC,18/03/2017,Barrow,Dag and Red,2,1,H
+EC,18/03/2017,Aldershot,Sutton Utd,2,0,H
+EC,19/11/2016,Forest Green,Lincoln,2,3,A
+EC,19/11/2016,Aldershot,Macclesfield,1,2,A
+EC,19/11/2016,Barrow,Solihull,2,1,H
+EC,19/11/2016,Chester,Bromley,1,1,D
+EC,19/11/2016,Gateshead,Eastleigh,2,2,D
+EC,19/11/2016,Maidstone Utd,Woking,0,3,A
+EC,19/11/2016,Braintree,Tranmere,0,1,A
+EC,19/11/2016,York,Dag and Red,0,2,A
+EC,19/11/2016,Dover,Guiseley AFC,2,0,H
+EC,19/11/2016,Boreham Wood,Southport,2,0,H
+EC,19/11/2016,North Ferriby United,Sutton Utd,2,1,H
+EC,19/11/2016,Torquay,Wrexham,1,1,D
+EC,20/01/2017,Lincoln,Dover,2,0,H
+EC,20/08/2016,Bromley,Gateshead,3,2,H
+EC,20/08/2016,Braintree,Aldershot,2,0,H
+EC,20/08/2016,Boreham Wood,Chester,1,1,D
+EC,20/08/2016,Solihull,Guiseley AFC,3,2,H
+EC,20/08/2016,Sutton Utd,Macclesfield,2,0,H
+EC,20/08/2016,Dover,Barrow,3,1,H
+EC,20/08/2016,Wrexham,Eastleigh,0,0,D
+EC,20/08/2016,North Ferriby United,Torquay,1,0,H
+EC,20/08/2016,Woking,Dag and Red,1,3,A
+EC,20/08/2016,Forest Green,York,2,1,H
+EC,20/08/2016,Lincoln,Southport,4,0,H
+EC,20/08/2016,Tranmere,Maidstone Utd,2,1,H
+EC,20/12/2016,Boreham Wood,Braintree,0,1,A
+EC,21/01/2017,Sutton Utd,Eastleigh,1,1,D
+EC,21/01/2017,Boreham Wood,Solihull,0,0,D
+EC,21/01/2017,Forest Green,Braintree,1,1,D
+EC,21/01/2017,Southport,North Ferriby United,2,4,A
+EC,21/01/2017,Macclesfield,Guiseley AFC,1,2,A
+EC,21/01/2017,Chester,Wrexham,1,1,D
+EC,21/01/2017,Gateshead,Aldershot,1,1,D
+EC,21/01/2017,York,Barrow,2,1,H
+EC,21/01/2017,Maidstone Utd,Torquay,2,1,H
+EC,21/02/2017,York,Gateshead,1,3,A
+EC,21/02/2017,Eastleigh,Macclesfield,0,1,A
+EC,21/02/2017,Dag and Red,Bromley,2,1,H
+EC,21/02/2017,Tranmere,Boreham Wood,2,1,H
+EC,21/02/2017,North Ferriby United,Lincoln,0,1,A
+EC,21/03/2017,Boreham Wood,Lincoln,2,0,H
+EC,21/03/2017,Chester,Macclesfield,2,3,A
+EC,21/03/2017,Gateshead,Guiseley AFC,1,1,D
+EC,21/03/2017,Maidstone Utd,Sutton Utd,1,1,D
+EC,21/03/2017,Forest Green,Solihull,2,1,H
+EC,21/03/2017,Aldershot,Dag and Red,3,1,H
+EC,21/03/2017,Barrow,Wrexham,1,1,D
+EC,21/03/2017,North Ferriby United,Tranmere,1,4,A
+EC,21/03/2017,Braintree,Woking,1,3,A
+EC,21/03/2017,Torquay,Eastleigh,2,3,A
+EC,21/03/2017,York,Southport,5,3,H
+EC,22/04/2017,Lincoln,Macclesfield,2,1,H
+EC,22/04/2017,Wrexham,Dag and Red,0,1,A
+EC,22/04/2017,Woking,York,1,1,D
+EC,22/04/2017,Dover,Torquay,1,2,A
+EC,22/04/2017,Tranmere,Southport,4,1,H
+EC,22/04/2017,Forest Green,Maidstone Utd,2,2,D
+EC,22/04/2017,Braintree,Barrow,0,2,A
+EC,22/04/2017,Bromley,Guiseley AFC,1,1,D
+EC,22/04/2017,Boreham Wood,Gateshead,0,4,A
+EC,22/04/2017,North Ferriby United,Aldershot,0,3,A
+EC,22/04/2017,Solihull,Eastleigh,2,0,H
+EC,22/04/2017,Sutton Utd,Chester,5,2,H
+EC,22/10/2016,Forest Green,Guiseley AFC,3,0,H
+EC,22/10/2016,York,Chester,1,1,D
+EC,22/10/2016,Woking,Barrow,1,1,D
+EC,22/10/2016,Wrexham,Bromley,2,1,H
+EC,22/10/2016,Lincoln,Eastleigh,0,0,D
+EC,22/10/2016,Dag and Red,Macclesfield,1,1,D
+EC,22/10/2016,Maidstone Utd,Gateshead,0,2,A
+EC,22/10/2016,Solihull,Tranmere,0,3,A
+EC,22/10/2016,Boreham Wood,North Ferriby United,1,0,H
+EC,22/10/2016,Dover,Braintree,6,1,H
+EC,22/10/2016,Torquay,Aldershot,0,0,D
+EC,22/10/2016,Southport,Sutton Utd,1,1,D
+EC,22/11/2016,Aldershot,Eastleigh,0,1,A
+EC,22/11/2016,Braintree,Bromley,2,2,D
+EC,22/11/2016,Dover,Woking,3,1,H
+EC,22/11/2016,York,Lincoln,1,4,A
+EC,22/11/2016,Torquay,Solihull,3,0,H
+EC,22/11/2016,Maidstone Utd,Dag and Red,0,1,A
+EC,22/11/2016,Gateshead,Macclesfield,1,1,D
+EC,22/11/2016,Chester,Southport,2,2,D
+EC,22/11/2016,Barrow,Guiseley AFC,3,0,H
+EC,22/11/2016,Forest Green,Tranmere,2,2,D
+EC,22/11/2016,Boreham Wood,Sutton Utd,1,0,H
+EC,24/01/2017,Barrow,Lincoln,3,0,H
+EC,24/09/2016,Bromley,Dag and Red,1,3,A
+EC,24/09/2016,Braintree,Forest Green,0,1,A
+EC,24/09/2016,Wrexham,Chester,0,0,D
+EC,24/09/2016,Tranmere,Woking,3,1,H
+EC,24/09/2016,Aldershot,Gateshead,3,0,H
+EC,24/09/2016,Barrow,York,2,0,H
+EC,24/09/2016,Eastleigh,Sutton Utd,2,1,H
+EC,24/09/2016,Guiseley AFC,Macclesfield,1,2,A
+EC,24/09/2016,Solihull,Boreham Wood,1,1,D
+EC,24/09/2016,North Ferriby United,Southport,0,1,A
+EC,24/09/2016,Dover,Lincoln,2,0,H
+EC,24/09/2016,Torquay,Maidstone Utd,2,3,A
+EC,25/02/2017,Torquay,Sutton Utd,2,3,A
+EC,25/02/2017,Forest Green,Woking,4,3,H
+EC,25/02/2017,Solihull,Wrexham,0,1,A
+EC,25/02/2017,Braintree,Maidstone Utd,0,0,D
+EC,25/02/2017,Dover,Eastleigh,3,0,H
+EC,25/02/2017,Aldershot,Bromley,4,0,H
+EC,25/02/2017,Southport,Chester,0,1,A
+EC,25/02/2017,Guiseley AFC,North Ferriby United,1,2,A
+EC,25/03/2017,Tranmere,Braintree,1,0,H
+EC,25/03/2017,Dag and Red,York,1,0,H
+EC,25/03/2017,Eastleigh,Gateshead,1,1,D
+EC,25/03/2017,Solihull,Barrow,2,4,A
+EC,25/03/2017,Guiseley AFC,Dover,0,4,A
+EC,25/03/2017,Wrexham,Torquay,1,1,D
+EC,25/03/2017,Woking,Maidstone Utd,2,4,A
+EC,25/03/2017,Sutton Utd,North Ferriby United,5,1,H
+EC,25/03/2017,Bromley,Chester,0,1,A
+EC,25/03/2017,Southport,Boreham Wood,1,0,H
+EC,25/03/2017,Lincoln,Forest Green,3,1,H
+EC,25/03/2017,Macclesfield,Aldershot,0,2,A
+EC,25/04/2017,Maidstone Utd,Lincoln,0,0,D
+EC,25/04/2017,Dover,Macclesfield,2,2,D
+EC,25/10/2016,Bromley,Dover,0,2,A
+EC,25/10/2016,Macclesfield,Chester,0,0,D
+EC,25/10/2016,Tranmere,North Ferriby United,1,0,H
+EC,25/10/2016,Dag and Red,Aldershot,1,0,H
+EC,25/10/2016,Eastleigh,Torquay,3,0,H
+EC,25/10/2016,Guiseley AFC,Gateshead,1,1,D
+EC,25/10/2016,Lincoln,Boreham Wood,2,0,H
+EC,25/10/2016,Solihull,Forest Green,0,1,A
+EC,25/10/2016,Sutton Utd,Maidstone Utd,2,2,D
+EC,25/10/2016,Woking,Braintree,2,3,A
+EC,25/10/2016,Wrexham,Barrow,2,2,D
+EC,25/10/2016,Southport,York,2,0,H
+EC,26/11/2016,Eastleigh,Chester,0,3,A
+EC,26/11/2016,Guiseley AFC,Boreham Wood,3,1,H
+EC,26/11/2016,Tranmere,Torquay,2,1,H
+EC,26/11/2016,Lincoln,Maidstone Utd,2,0,H
+EC,26/11/2016,Dag and Red,Barrow,1,4,A
+EC,26/11/2016,Southport,Braintree,4,5,A
+EC,26/11/2016,Solihull,North Ferriby United,2,0,H
+EC,26/11/2016,Sutton Utd,Aldershot,2,0,H
+EC,26/11/2016,Woking,Gateshead,3,0,H
+EC,26/11/2016,Wrexham,Forest Green,3,1,H
+EC,26/11/2016,Bromley,York,3,0,H
+EC,26/12/2016,Wrexham,Southport,1,0,H
+EC,26/12/2016,Solihull,Chester,3,2,H
+EC,26/12/2016,Bromley,Sutton Utd,1,0,H
+EC,26/12/2016,Braintree,Dag and Red,3,2,H
+EC,26/12/2016,Dover,Maidstone Utd,1,1,D
+EC,26/12/2016,Guiseley AFC,Lincoln,2,1,H
+EC,26/12/2016,Barrow,Gateshead,0,0,D
+EC,26/12/2016,Tranmere,Macclesfield,1,0,H
+EC,26/12/2016,North Ferriby United,York,0,1,A
+EC,26/12/2016,Torquay,Forest Green,4,3,H
+EC,26/12/2016,Aldershot,Woking,4,0,H
+EC,27/08/2016,Dag and Red,Wrexham,3,0,H
+EC,27/08/2016,Macclesfield,Lincoln,1,2,A
+EC,27/08/2016,Aldershot,North Ferriby United,2,0,H
+EC,27/08/2016,Barrow,Braintree,2,1,H
+EC,27/08/2016,Eastleigh,Solihull,2,0,H
+EC,27/08/2016,Gateshead,Boreham Wood,1,1,D
+EC,27/08/2016,Guiseley AFC,Bromley,1,4,A
+EC,27/08/2016,Chester,Sutton Utd,4,0,H
+EC,27/08/2016,Torquay,Dover,2,1,H
+EC,27/08/2016,Southport,Tranmere,1,1,D
+EC,27/08/2016,Maidstone Utd,Forest Green,1,4,A
+EC,27/08/2016,York,Woking,4,1,H
+EC,27/09/2016,Macclesfield,Wrexham,3,0,H
+EC,27/12/2016,Eastleigh,Boreham Wood,2,2,D
+EC,28/01/2017,Wrexham,Boreham Wood,2,1,H
+EC,28/01/2017,Solihull,Maidstone Utd,2,0,H
+EC,28/01/2017,Bromley,Southport,3,1,H
+EC,28/01/2017,Dover,Chester,3,1,H
+EC,28/01/2017,Torquay,Gateshead,3,1,H
+EC,28/01/2017,Eastleigh,Woking,0,1,A
+EC,28/01/2017,Barrow,Forest Green,2,3,A
+EC,28/01/2017,North Ferriby United,Macclesfield,0,2,A
+EC,28/01/2017,Tranmere,Dag and Red,0,2,A
+EC,28/01/2017,Aldershot,York,0,0,D
+EC,28/02/2017,Lincoln,York,1,1,D
+EC,28/02/2017,Dag and Red,Maidstone Utd,0,2,A
+EC,28/02/2017,Guiseley AFC,Barrow,1,0,H
+EC,28/02/2017,Bromley,Braintree,0,5,A
+EC,28/02/2017,Sutton Utd,Boreham Wood,1,0,H
+EC,28/02/2017,Eastleigh,Aldershot,1,1,D
+EC,28/02/2017,Woking,Dover,1,0,H
+EC,28/03/2017,Sutton Utd,Lincoln,1,1,D
+EC,28/03/2017,Solihull,Torquay,0,1,A
+EC,28/03/2017,Chester,Barrow,1,2,A
+EC,28/03/2017,Tranmere,Dover,1,0,H
+EC,28/03/2017,Macclesfield,York,1,3,A
+EC,29/04/2017,Macclesfield,Sutton Utd,0,0,D
+EC,29/04/2017,Aldershot,Braintree,2,0,H
+EC,29/04/2017,Barrow,Dover,2,3,A
+EC,29/04/2017,Dag and Red,Woking,1,1,D
+EC,29/04/2017,Eastleigh,Wrexham,1,1,D
+EC,29/04/2017,Gateshead,Bromley,0,2,A
+EC,29/04/2017,Guiseley AFC,Solihull,1,1,D
+EC,29/04/2017,Maidstone Utd,Tranmere,0,1,A
+EC,29/04/2017,Southport,Lincoln,1,1,D
+EC,29/04/2017,York,Forest Green,2,2,D
+EC,29/04/2017,Torquay,North Ferriby United,2,0,H
+EC,29/08/2016,Wrexham,York,2,1,H
+EC,29/08/2016,Forest Green,Southport,5,1,H
+EC,29/08/2016,Lincoln,Gateshead,3,0,H
+EC,29/08/2016,Dover,Aldershot,1,2,A
+EC,29/08/2016,Braintree,Torquay,1,3,A
+EC,29/08/2016,Bromley,Eastleigh,0,5,A
+EC,29/08/2016,Boreham Wood,Maidstone Utd,0,1,A
+EC,29/08/2016,Solihull,Macclesfield,2,3,A
+EC,29/08/2016,Sutton Utd,Dag and Red,1,0,H
+EC,29/08/2016,Woking,Chester,3,1,H
+EC,29/08/2016,Tranmere,Guiseley AFC,1,0,H
+EC,29/08/2016,North Ferriby United,Barrow,0,1,A
+EC,29/10/2016,Gateshead,Wrexham,2,2,D
+EC,29/10/2016,Barrow,Eastleigh,4,0,H
+EC,29/10/2016,Forest Green,Dag and Red,1,1,D
+EC,29/10/2016,Aldershot,Guiseley AFC,1,0,H
+EC,29/10/2016,Chester,Lincoln,2,5,A
+EC,29/10/2016,Maidstone Utd,Macclesfield,2,1,H
+EC,29/10/2016,York,Sutton Utd,2,2,D
+EC,29/10/2016,Dover,Tranmere,1,4,A
+EC,29/10/2016,Boreham Wood,Woking,2,1,H
+EC,29/10/2016,Braintree,Solihull,0,1,A
+EC,29/10/2016,North Ferriby United,Bromley,1,2,A
+EC,29/10/2016,Torquay,Southport,1,2,A
+EC,29/11/2016,Gateshead,Tranmere,0,1,A
+EC,29/11/2016,Lincoln,Wrexham,1,0,H
+EC,29/11/2016,Chester,North Ferriby United,3,0,H
+EC,29/11/2016,Dag and Red,Torquay,0,1,A
+EC,29/11/2016,Maidstone Utd,Eastleigh,2,1,H
+EC,29/11/2016,Southport,Solihull,0,0,D
+EC,29/11/2016,York,Guiseley AFC,1,1,D
+EC,29/11/2016,Sutton Utd,Dover,0,6,A
+EC,29/11/2016,Woking,Bromley,2,1,H
+EC,31/01/2017,Woking,Tranmere,0,3,A
+EC,31/01/2017,Solihull,Lincoln,0,1,A
+EC,31/12/2016,Gateshead,Barrow,4,1,H
+EC,31/12/2016,Boreham Wood,Eastleigh,0,1,A

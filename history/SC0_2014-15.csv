@@ -1,0 +1,229 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/01/2015,Ross County,Inverness CT,1,3,A
+SC0,01/01/2015,Aberdeen,ST Johnstone,2,0,H
+SC0,01/01/2015,Dundee Utd,Dundee,6,2,H
+SC0,01/01/2015,ST Mirren,Kilmarnock,1,2,A
+SC0,01/01/2015,Hamilton Academical,Motherwell,5,0,H
+SC0,01/03/2015,Celtic,Aberdeen,4,0,H
+SC0,01/05/2015,Celtic,Dundee,5,0,H
+SC0,01/11/2014,Celtic,Inverness CT,1,0,H
+SC0,01/11/2014,Kilmarnock,Dundee,1,3,A
+SC0,01/11/2014,Dundee Utd,ST Mirren,3,0,H
+SC0,01/11/2014,Hamilton Academical,Partick,3,3,D
+SC0,02/05/2015,Kilmarnock,Hamilton Academical,2,3,A
+SC0,02/05/2015,ST Johnstone,Inverness CT,1,1,D
+SC0,02/05/2015,Partick,ST Mirren,3,0,H
+SC0,02/05/2015,Dundee Utd,Aberdeen,1,0,H
+SC0,02/05/2015,Motherwell,Ross County,1,1,D
+SC0,03/04/2015,ST Mirren,Celtic,0,2,A
+SC0,03/10/2014,Kilmarnock,Dundee Utd,2,0,H
+SC0,03/11/2014,Ross County,Aberdeen,0,1,A
+SC0,03/12/2014,Celtic,Partick,1,0,H
+SC0,04/01/2015,ST Johnstone,Hamilton Academical,0,1,A
+SC0,04/01/2015,Partick,Dundee Utd,2,2,D
+SC0,04/01/2015,Inverness CT,ST Mirren,1,0,H
+SC0,04/01/2015,Dundee,Ross County,1,1,D
+SC0,04/01/2015,Motherwell,Aberdeen,0,2,A
+SC0,04/03/2015,Celtic,ST Johnstone,0,1,A
+SC0,04/04/2015,Hamilton Academical,ST Johnstone,1,1,D
+SC0,04/04/2015,Dundee Utd,Ross County,1,2,A
+SC0,04/04/2015,Aberdeen,Partick,0,0,D
+SC0,04/04/2015,Inverness CT,Dundee,1,1,D
+SC0,04/04/2015,Kilmarnock,Motherwell,1,2,A
+SC0,04/10/2014,ST Johnstone,ST Mirren,1,2,A
+SC0,04/10/2014,Dundee,Aberdeen,2,3,A
+SC0,04/10/2014,Partick,Motherwell,3,1,H
+SC0,05/01/2015,Kilmarnock,Celtic,0,2,A
+SC0,05/05/2015,Inverness CT,Dundee Utd,2,1,H
+SC0,05/10/2014,Inverness CT,Ross County,1,1,D
+SC0,05/10/2014,Celtic,Hamilton Academical,0,1,A
+SC0,05/12/2014,Ross County,Dundee Utd,2,3,A
+SC0,06/12/2014,Motherwell,Celtic,0,1,A
+SC0,06/12/2014,Aberdeen,Hamilton Academical,3,0,H
+SC0,06/12/2014,ST Mirren,ST Johnstone,0,1,A
+SC0,06/12/2014,Partick,Kilmarnock,1,1,D
+SC0,06/12/2014,Dundee,Inverness CT,1,2,A
+SC0,07/02/2015,Aberdeen,Ross County,4,0,H
+SC0,07/02/2015,Hamilton Academical,Kilmarnock,0,0,D
+SC0,07/03/2015,Motherwell,Kilmarnock,1,1,D
+SC0,07/03/2015,Ross County,Partick,1,0,H
+SC0,07/04/2015,Ross County,ST Johnstone,1,0,H
+SC0,07/04/2015,Motherwell,ST Mirren,5,0,H
+SC0,07/11/2014,Motherwell,Dundee Utd,1,0,H
+SC0,08/04/2015,Celtic,Partick,2,0,H
+SC0,08/04/2015,Aberdeen,Inverness CT,1,0,H
+SC0,08/04/2015,Dundee,Dundee Utd,3,1,H
+SC0,08/05/2015,Motherwell,Kilmarnock,3,1,H
+SC0,08/11/2014,Inverness CT,Hamilton Academical,4,2,H
+SC0,08/11/2014,Dundee,ST Johnstone,1,1,D
+SC0,08/11/2014,ST Mirren,Partick,0,1,A
+SC0,08/11/2014,Kilmarnock,Ross County,0,3,A
+SC0,09/05/2015,Hamilton Academical,Partick,1,1,D
+SC0,09/05/2015,Dundee,Inverness CT,0,1,A
+SC0,09/05/2015,ST Johnstone,Dundee Utd,1,1,D
+SC0,09/05/2015,Ross County,ST Mirren,1,2,A
+SC0,09/08/2014,Hamilton Academical,Inverness CT,0,2,A
+SC0,09/08/2014,Dundee,Kilmarnock,1,1,D
+SC0,09/08/2014,Motherwell,ST Mirren,1,0,H
+SC0,09/11/2014,Aberdeen,Celtic,1,2,A
+SC0,10/01/2015,Kilmarnock,Inverness CT,1,2,A
+SC0,10/01/2015,ST Mirren,Aberdeen,0,2,A
+SC0,10/01/2015,Dundee,Motherwell,4,1,H
+SC0,10/05/2015,Aberdeen,Celtic,0,1,A
+SC0,10/08/2014,Aberdeen,Dundee Utd,0,3,A
+SC0,10/08/2014,Ross County,ST Johnstone,1,2,A
+SC0,11/02/2015,Partick,Celtic,0,3,A
+SC0,11/04/2015,Partick,Motherwell,2,0,H
+SC0,11/04/2015,Dundee Utd,Hamilton Academical,1,0,H
+SC0,11/04/2015,Inverness CT,Celtic,1,1,D
+SC0,11/04/2015,ST Johnstone,Dundee,1,0,H
+SC0,12/01/2015,Hamilton Academical,Dundee Utd,2,3,A
+SC0,12/04/2015,Kilmarnock,Aberdeen,1,2,A
+SC0,13/03/2015,Aberdeen,Motherwell,2,1,H
+SC0,13/04/2015,ST Mirren,Ross County,0,3,A
+SC0,13/08/2014,ST Johnstone,Celtic,0,3,A
+SC0,13/08/2014,Inverness CT,Dundee,0,0,D
+SC0,13/08/2014,Kilmarnock,Aberdeen,0,2,A
+SC0,13/08/2014,Partick,Ross County,4,0,H
+SC0,13/08/2014,Dundee Utd,Motherwell,1,0,H
+SC0,13/08/2014,ST Mirren,Hamilton Academical,0,2,A
+SC0,13/09/2014,Celtic,Aberdeen,2,1,H
+SC0,13/09/2014,Dundee Utd,Hamilton Academical,2,2,D
+SC0,13/09/2014,Ross County,Motherwell,1,2,A
+SC0,13/09/2014,Partick,Inverness CT,3,1,H
+SC0,13/09/2014,Kilmarnock,ST Mirren,2,1,H
+SC0,13/09/2014,ST Johnstone,Dundee,0,1,A
+SC0,13/12/2014,Kilmarnock,ST Johnstone,0,1,A
+SC0,13/12/2014,Dundee Utd,Aberdeen,0,2,A
+SC0,13/12/2014,Inverness CT,Partick,0,4,A
+SC0,13/12/2014,Motherwell,Ross County,2,2,D
+SC0,13/12/2014,Hamilton Academical,Dundee,2,1,H
+SC0,14/02/2015,Dundee,Partick,1,0,H
+SC0,14/02/2015,Ross County,Motherwell,3,2,H
+SC0,14/02/2015,ST Johnstone,Celtic,1,2,A
+SC0,14/02/2015,ST Mirren,Inverness CT,1,2,A
+SC0,14/02/2015,Kilmarnock,Dundee Utd,3,2,H
+SC0,14/03/2015,Partick,ST Johnstone,3,0,H
+SC0,14/03/2015,Kilmarnock,ST Mirren,1,0,H
+SC0,14/03/2015,Hamilton Academical,Ross County,2,2,D
+SC0,14/12/2014,Celtic,ST Mirren,4,1,H
+SC0,15/02/2015,Hamilton Academical,Aberdeen,0,3,A
+SC0,15/04/2015,Celtic,Kilmarnock,4,1,H
+SC0,15/05/2015,ST Johnstone,Celtic,0,0,D
+SC0,16/05/2015,Ross County,Hamilton Academical,2,1,H
+SC0,16/05/2015,Partick,Kilmarnock,1,4,A
+SC0,16/05/2015,Inverness CT,Dundee Utd,3,0,H
+SC0,16/05/2015,Dundee,Aberdeen,1,1,D
+SC0,16/05/2015,ST Mirren,Motherwell,2,1,H
+SC0,16/08/2014,Hamilton Academical,ST Johnstone,1,0,H
+SC0,16/08/2014,Dundee,Partick,1,1,D
+SC0,16/08/2014,Motherwell,Inverness CT,0,2,A
+SC0,16/08/2014,Celtic,Dundee Utd,6,1,H
+SC0,16/08/2014,Ross County,Kilmarnock,1,2,A
+SC0,17/01/2015,Aberdeen,Dundee,3,3,D
+SC0,17/01/2015,Hamilton Academical,Celtic,0,2,A
+SC0,17/01/2015,ST Johnstone,Partick,2,0,H
+SC0,17/01/2015,Ross County,ST Mirren,1,2,A
+SC0,17/10/2014,Hamilton Academical,Aberdeen,3,0,H
+SC0,18/04/2015,Aberdeen,Dundee Utd,1,0,H
+SC0,18/10/2014,Dundee Utd,Partick,1,0,H
+SC0,18/10/2014,ST Johnstone,Kilmarnock,1,2,A
+SC0,18/10/2014,Motherwell,Dundee,1,3,A
+SC0,18/10/2014,ST Mirren,Inverness CT,0,1,A
+SC0,18/10/2014,Ross County,Celtic,0,5,A
+SC0,19/09/2014,Partick,ST Mirren,1,2,A
+SC0,20/01/2015,Inverness CT,ST Johnstone,2,0,H
+SC0,20/03/2015,Motherwell,Hamilton Academical,4,0,H
+SC0,20/09/2014,Inverness CT,ST Johnstone,2,1,H
+SC0,20/09/2014,Hamilton Academical,Kilmarnock,0,0,D
+SC0,20/09/2014,Aberdeen,Ross County,3,0,H
+SC0,20/12/2014,Ross County,Hamilton Academical,0,1,A
+SC0,20/12/2014,Partick,Dundee,1,1,D
+SC0,20/12/2014,ST Johnstone,Inverness CT,1,0,H
+SC0,20/12/2014,Aberdeen,Kilmarnock,1,0,H
+SC0,20/12/2014,ST Mirren,Motherwell,0,1,A
+SC0,21/01/2015,Partick,Hamilton Academical,5,0,H
+SC0,21/01/2015,ST Mirren,Dundee Utd,1,1,D
+SC0,21/01/2015,Celtic,Motherwell,4,0,H
+SC0,21/01/2015,Dundee,Kilmarnock,1,0,H
+SC0,21/02/2015,Dundee Utd,ST Johnstone,0,2,A
+SC0,21/02/2015,Inverness CT,Kilmarnock,3,3,D
+SC0,21/02/2015,Motherwell,Dundee,0,1,A
+SC0,21/02/2015,Aberdeen,ST Mirren,3,0,H
+SC0,21/02/2015,Partick,Ross County,1,3,A
+SC0,21/03/2015,ST Johnstone,ST Mirren,2,0,H
+SC0,21/03/2015,Partick,Inverness CT,1,0,H
+SC0,21/03/2015,Ross County,Kilmarnock,2,1,H
+SC0,21/03/2015,Dundee,Aberdeen,1,1,D
+SC0,21/03/2015,Celtic,Dundee Utd,3,0,H
+SC0,21/09/2014,Celtic,Motherwell,1,1,D
+SC0,21/09/2014,Dundee,Dundee Utd,1,4,A
+SC0,21/12/2014,Dundee Utd,Celtic,2,1,H
+SC0,22/02/2015,Celtic,Hamilton Academical,4,0,H
+SC0,22/04/2015,Dundee,Celtic,1,2,A
+SC0,22/11/2014,Hamilton Academical,ST Mirren,3,0,H
+SC0,22/11/2014,ST Johnstone,Ross County,2,1,H
+SC0,22/11/2014,Inverness CT,Motherwell,3,1,H
+SC0,22/11/2014,Dundee Utd,Kilmarnock,3,1,H
+SC0,22/11/2014,Celtic,Dundee,2,1,H
+SC0,23/01/2015,ST Johnstone,Aberdeen,1,1,D
+SC0,23/05/2015,Hamilton Academical,ST Mirren,1,0,H
+SC0,23/05/2015,Kilmarnock,Ross County,1,2,A
+SC0,23/05/2015,Motherwell,Partick,0,0,D
+SC0,23/08/2014,Kilmarnock,Motherwell,2,0,H
+SC0,23/08/2014,ST Mirren,Dundee,0,1,A
+SC0,23/08/2014,ST Johnstone,Aberdeen,1,0,H
+SC0,23/08/2014,Inverness CT,Celtic,1,0,H
+SC0,23/08/2014,Partick,Hamilton Academical,1,2,A
+SC0,23/08/2014,Dundee Utd,Ross County,2,1,H
+SC0,23/11/2014,Partick,Aberdeen,0,1,A
+SC0,24/01/2015,Hamilton Academical,Inverness CT,0,2,A
+SC0,24/01/2015,Ross County,Celtic,0,1,A
+SC0,24/01/2015,ST Mirren,Dundee,1,2,A
+SC0,24/01/2015,Kilmarnock,Partick,2,2,D
+SC0,24/01/2015,Dundee Utd,Motherwell,3,1,H
+SC0,24/02/2015,Dundee Utd,Inverness CT,1,1,D
+SC0,24/04/2015,Hamilton Academical,Motherwell,2,0,H
+SC0,24/05/2015,Celtic,Inverness CT,5,0,H
+SC0,24/05/2015,Dundee Utd,Dundee,3,0,H
+SC0,24/05/2015,Aberdeen,ST Johnstone,0,1,A
+SC0,24/10/2014,Aberdeen,Motherwell,1,0,H
+SC0,25/04/2015,Inverness CT,Aberdeen,1,2,A
+SC0,25/04/2015,Ross County,Partick,1,2,A
+SC0,25/04/2015,Dundee,ST Johnstone,0,2,A
+SC0,25/04/2015,ST Mirren,Kilmarnock,4,1,H
+SC0,25/10/2014,Partick,ST Johnstone,0,0,D
+SC0,25/10/2014,Dundee,Hamilton Academical,2,0,H
+SC0,25/10/2014,ST Mirren,Ross County,2,2,D
+SC0,25/10/2014,Inverness CT,Dundee Utd,1,0,H
+SC0,26/04/2015,Dundee Utd,Celtic,0,3,A
+SC0,26/10/2014,Celtic,Kilmarnock,2,0,H
+SC0,27/09/2014,Dundee Utd,ST Johnstone,2,0,H
+SC0,27/09/2014,Ross County,Dundee,2,1,H
+SC0,27/09/2014,Motherwell,Hamilton Academical,0,4,A
+SC0,27/09/2014,Aberdeen,Inverness CT,3,2,H
+SC0,27/09/2014,Kilmarnock,Partick,3,0,H
+SC0,27/09/2014,ST Mirren,Celtic,1,2,A
+SC0,27/12/2014,Celtic,Ross County,0,0,D
+SC0,27/12/2014,Kilmarnock,Hamilton Academical,1,0,H
+SC0,27/12/2014,Dundee,ST Mirren,1,3,A
+SC0,27/12/2014,ST Johnstone,Dundee Utd,2,1,H
+SC0,27/12/2014,Motherwell,Partick,1,0,H
+SC0,28/02/2015,ST Mirren,Hamilton Academical,1,0,H
+SC0,28/02/2015,Motherwell,Inverness CT,2,1,H
+SC0,28/02/2015,Dundee Utd,Partick,0,2,A
+SC0,28/02/2015,Ross County,Dundee,1,0,H
+SC0,28/02/2015,ST Johnstone,Kilmarnock,0,0,D
+SC0,28/12/2014,Inverness CT,Aberdeen,0,1,A
+SC0,30/01/2015,Partick,ST Mirren,0,1,A
+SC0,30/08/2014,Hamilton Academical,Ross County,4,0,H
+SC0,30/08/2014,Inverness CT,Kilmarnock,2,0,H
+SC0,30/08/2014,Motherwell,ST Johnstone,0,1,A
+SC0,30/08/2014,Aberdeen,Partick,2,0,H
+SC0,30/08/2014,ST Mirren,Dundee Utd,0,3,A
+SC0,30/09/2014,Aberdeen,ST Mirren,2,2,D
+SC0,31/01/2015,Dundee,Hamilton Academical,1,1,D
+SC0,31/01/2015,Motherwell,ST Johnstone,1,1,D
+SC0,31/01/2015,Inverness CT,Ross County,1,1,D
+SC0,31/08/2014,Dundee,Celtic,1,1,D
+SC0,31/10/2014,ST Johnstone,Motherwell,2,1,H

@@ -1,0 +1,333 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+B1,01/03/2021,OH Leuven,Antwerp,2,0,H
+B1,01/05/2021,Oostende,Standard Liege,6,2,H
+B1,01/05/2021,Seraing United,SK Beveren,1,1,D
+B1,01/11/2020,Anderlecht,Antwerp,1,0,H
+B1,01/11/2020,SK Beveren,Gent,1,4,A
+B1,01/11/2020,Standard Liege,Oostende,1,0,H
+B1,01/12/2020,Royal Excel Mouscron,St. Truiden,3,2,H
+B1,02/05/2021,Gent,KV Mechelen,2,2,D
+B1,02/05/2021,Club Brugge KV,Anderlecht,2,2,D
+B1,02/10/2020,Antwerp,KV Mechelen,4,1,H
+B1,02/11/2020,Zulte Waregem,Kortrijk,1,1,D
+B1,02/12/2020,Charleroi,SK Beveren,0,2,A
+B1,03/04/2021,St. Truiden,KV Mechelen,2,1,H
+B1,03/04/2021,Kortrijk,Club Brugge KV,1,2,A
+B1,03/04/2021,Oostende,SK Beveren,0,2,A
+B1,03/10/2020,SK Beveren,Genk,1,1,D
+B1,03/10/2020,OH Leuven,Zulte Waregem,2,1,H
+B1,03/10/2020,AS Eupen,Cercle Brugge,1,2,A
+B1,03/10/2020,St. Truiden,Kortrijk,0,0,D
+B1,03/12/2020,AS Eupen,KV Mechelen,1,1,D
+B1,04/04/2021,Cercle Brugge,Beerschot VA,2,1,H
+B1,04/04/2021,Standard Liege,Gent,2,1,H
+B1,04/04/2021,Charleroi,Royal Excel Mouscron,1,1,D
+B1,04/10/2020,Charleroi,Standard Liege,1,2,A
+B1,04/10/2020,Club Brugge KV,Anderlecht,3,0,H
+B1,04/10/2020,Gent,Beerschot VA,5,1,H
+B1,04/10/2020,Oostende,Royal Excel Mouscron,3,0,H
+B1,04/12/2020,Zulte Waregem,Anderlecht,2,2,D
+B1,05/02/2021,Royal Excel Mouscron,Kortrijk,0,3,A
+B1,05/03/2021,Charleroi,St. Truiden,0,0,D
+B1,05/04/2021,Antwerp,Anderlecht,1,4,A
+B1,05/04/2021,Zulte Waregem,AS Eupen,2,1,H
+B1,05/04/2021,OH Leuven,Genk,2,3,A
+B1,05/12/2020,Club Brugge KV,St. Truiden,1,0,H
+B1,05/12/2020,OH Leuven,Cercle Brugge,2,1,H
+B1,05/12/2020,SK Beveren,Royal Excel Mouscron,2,0,H
+B1,06/01/2021,AS Eupen,Genk,1,4,A
+B1,06/02/2021,SK Beveren,Club Brugge KV,0,2,A
+B1,06/02/2021,Standard Liege,OH Leuven,1,1,D
+B1,06/02/2021,Cercle Brugge,KV Mechelen,0,1,A
+B1,06/02/2021,Oostende,St. Truiden,3,1,H
+B1,06/03/2021,SK Beveren,Beerschot VA,1,2,A
+B1,06/03/2021,Antwerp,Kortrijk,4,2,H
+B1,06/03/2021,AS Eupen,OH Leuven,3,3,D
+B1,06/04/2021,SK Beveren,St. Truiden,2,4,A
+B1,06/11/2020,KV Mechelen,Charleroi,3,3,D
+B1,06/12/2020,Genk,Antwerp,4,2,H
+B1,06/12/2020,Beerschot VA,AS Eupen,0,1,A
+B1,06/12/2020,Standard Liege,KV Mechelen,2,2,D
+B1,06/12/2020,Oostende,Gent,2,1,H
+B1,07/02/2021,Genk,Anderlecht,1,2,A
+B1,07/02/2021,Gent,AS Eupen,2,2,D
+B1,07/02/2021,Beerschot VA,Antwerp,1,2,A
+B1,07/02/2021,Charleroi,Zulte Waregem,1,1,D
+B1,07/03/2021,Genk,Cercle Brugge,2,0,H
+B1,07/03/2021,Royal Excel Mouscron,Standard Liege,1,0,H
+B1,07/03/2021,Club Brugge KV,Zulte Waregem,3,0,H
+B1,07/03/2021,Anderlecht,KV Mechelen,1,1,D
+B1,07/04/2021,Beerschot VA,Charleroi,2,1,H
+B1,07/05/2021,Genk,Club Brugge KV,3,0,H
+B1,07/11/2020,St. Truiden,Genk,1,2,A
+B1,07/11/2020,Kortrijk,Beerschot VA,5,5,D
+B1,07/11/2020,AS Eupen,SK Beveren,1,1,D
+B1,07/12/2020,Charleroi,Kortrijk,0,0,D
+B1,08/03/2021,Gent,Oostende,1,0,H
+B1,08/05/2021,Anderlecht,Antwerp,2,2,D
+B1,08/05/2021,SK Beveren,Seraing United,2,5,A
+B1,08/05/2021,Standard Liege,Gent,2,1,H
+B1,08/08/2020,Club Brugge KV,Charleroi,0,1,A
+B1,08/08/2020,Standard Liege,Cercle Brugge,1,0,H
+B1,08/08/2020,Antwerp,Royal Excel Mouscron,1,1,D
+B1,08/11/2020,Cercle Brugge,Zulte Waregem,1,3,A
+B1,08/11/2020,Gent,Anderlecht,1,1,D
+B1,08/11/2020,Oostende,Club Brugge KV,1,3,A
+B1,08/11/2020,Antwerp,Standard Liege,1,1,D
+B1,08/12/2020,OH Leuven,Royal Excel Mouscron,2,0,H
+B1,09/01/2021,Zulte Waregem,Royal Excel Mouscron,1,0,H
+B1,09/01/2021,Kortrijk,Genk,2,1,H
+B1,09/01/2021,Cercle Brugge,AS Eupen,1,2,A
+B1,09/01/2021,Oostende,Charleroi,3,2,H
+B1,09/04/2021,AS Eupen,Standard Liege,0,4,A
+B1,09/05/2021,KV Mechelen,Oostende,5,3,H
+B1,09/08/2020,KV Mechelen,Anderlecht,2,2,D
+B1,09/08/2020,Kortrijk,SK Beveren,1,3,A
+B1,09/08/2020,Zulte Waregem,Genk,1,2,A
+B1,09/08/2020,St. Truiden,Gent,2,1,H
+B1,10/01/2021,KV Mechelen,Antwerp,3,0,H
+B1,10/01/2021,OH Leuven,Anderlecht,1,0,H
+B1,10/01/2021,Beerschot VA,Gent,1,1,D
+B1,10/01/2021,St. Truiden,Club Brugge KV,1,2,A
+B1,10/04/2021,Cercle Brugge,OH Leuven,3,0,H
+B1,10/04/2021,Gent,Charleroi,4,0,H
+B1,10/04/2021,KV Mechelen,Zulte Waregem,4,2,H
+B1,10/08/2020,Oostende,Beerschot VA,1,2,A
+B1,10/08/2020,OH Leuven,AS Eupen,1,1,D
+B1,11/01/2021,Standard Liege,SK Beveren,3,1,H
+B1,11/04/2021,SK Beveren,Kortrijk,3,4,A
+B1,11/04/2021,Anderlecht,Club Brugge KV,2,1,H
+B1,11/04/2021,Beerschot VA,Oostende,1,2,A
+B1,11/04/2021,Genk,St. Truiden,4,0,H
+B1,11/09/2020,AS Eupen,Gent,2,1,H
+B1,11/12/2020,Anderlecht,Genk,1,0,H
+B1,12/01/2021,Oostende,AS Eupen,1,1,D
+B1,12/02/2021,OH Leuven,Kortrijk,3,1,H
+B1,12/03/2021,Charleroi,Club Brugge KV,1,1,D
+B1,12/04/2021,Royal Excel Mouscron,Antwerp,2,3,A
+B1,12/05/2021,Genk,Anderlecht,1,1,D
+B1,12/09/2020,KV Mechelen,Oostende,0,1,A
+B1,12/09/2020,OH Leuven,Standard Liege,1,0,H
+B1,12/09/2020,Club Brugge KV,SK Beveren,4,1,H
+B1,12/12/2020,St. Truiden,Charleroi,1,2,A
+B1,12/12/2020,Cercle Brugge,Oostende,0,1,A
+B1,12/12/2020,Kortrijk,OH Leuven,0,3,A
+B1,12/12/2020,Royal Excel Mouscron,Beerschot VA,3,1,H
+B1,13/01/2021,Beerschot VA,Cercle Brugge,1,1,D
+B1,13/02/2021,St. Truiden,Zulte Waregem,1,2,A
+B1,13/05/2021,Gent,Oostende,2,1,H
+B1,13/05/2021,Standard Liege,KV Mechelen,1,2,A
+B1,13/05/2021,Antwerp,Club Brugge KV,0,0,D
+B1,13/09/2020,Kortrijk,Royal Excel Mouscron,3,0,H
+B1,13/09/2020,Zulte Waregem,Charleroi,0,2,A
+B1,13/09/2020,St. Truiden,Antwerp,2,3,A
+B1,13/09/2020,Anderlecht,Cercle Brugge,2,0,H
+B1,13/12/2020,Gent,Standard Liege,2,1,H
+B1,13/12/2020,KV Mechelen,SK Beveren,2,3,A
+B1,13/12/2020,Antwerp,Club Brugge KV,0,2,A
+B1,14/02/2021,Beerschot VA,KV Mechelen,1,2,A
+B1,14/02/2021,Cercle Brugge,Anderlecht,0,0,D
+B1,14/02/2021,Standard Liege,Antwerp,1,1,D
+B1,14/08/2020,Royal Excel Mouscron,KV Mechelen,0,1,A
+B1,14/09/2020,Beerschot VA,Genk,5,2,H
+B1,15/01/2021,AS Eupen,Anderlecht,2,0,H
+B1,15/02/2021,Gent,Royal Excel Mouscron,4,0,H
+B1,15/03/2021,Gent,Club Brugge KV,0,4,A
+B1,15/05/2021,Anderlecht,Genk,1,2,A
+B1,15/08/2020,Gent,Kortrijk,1,2,A
+B1,15/08/2020,Genk,OH Leuven,1,1,D
+B1,15/08/2020,Charleroi,Oostende,1,0,H
+B1,15/12/2020,Anderlecht,Oostende,2,1,H
+B1,15/12/2020,Cercle Brugge,Charleroi,3,4,A
+B1,15/12/2020,Royal Excel Mouscron,OH Leuven,2,2,D
+B1,16/01/2021,Royal Excel Mouscron,Genk,2,0,H
+B1,16/01/2021,SK Beveren,Zulte Waregem,1,5,A
+B1,16/01/2021,Oostende,Kortrijk,2,1,H
+B1,16/01/2021,Charleroi,KV Mechelen,0,1,A
+B1,16/05/2021,Club Brugge KV,Antwerp,2,1,H
+B1,16/05/2021,KV Mechelen,Standard Liege,3,1,H
+B1,16/05/2021,Oostende,Gent,0,4,A
+B1,16/08/2020,Anderlecht,St. Truiden,3,1,H
+B1,16/08/2020,AS Eupen,Club Brugge KV,0,4,A
+B1,16/08/2020,Beerschot VA,Zulte Waregem,3,1,H
+B1,16/08/2020,Cercle Brugge,Antwerp,2,1,H
+B1,16/12/2020,Antwerp,Zulte Waregem,0,1,A
+B1,16/12/2020,Gent,SK Beveren,3,0,H
+B1,16/12/2020,Kortrijk,Standard Liege,2,1,H
+B1,17/01/2021,Beerschot VA,Club Brugge KV,0,3,A
+B1,17/01/2021,Gent,Antwerp,0,1,A
+B1,17/01/2021,St. Truiden,OH Leuven,3,1,H
+B1,17/01/2021,Cercle Brugge,Standard Liege,0,1,A
+B1,17/02/2021,Oostende,Genk,3,1,H
+B1,17/02/2021,SK Beveren,AS Eupen,1,0,H
+B1,17/04/2021,Antwerp,Genk,3,2,H
+B1,17/04/2021,Charleroi,AS Eupen,2,3,A
+B1,17/08/2020,SK Beveren,Standard Liege,1,2,A
+B1,17/10/2020,Beerschot VA,St. Truiden,6,3,H
+B1,17/10/2020,Cercle Brugge,Gent,5,2,H
+B1,17/10/2020,Standard Liege,Club Brugge KV,1,1,D
+B1,17/10/2020,KV Mechelen,Kortrijk,1,2,A
+B1,17/12/2020,KV Mechelen,Club Brugge KV,0,3,A
+B1,18/04/2021,St. Truiden,Anderlecht,0,1,A
+B1,18/04/2021,Kortrijk,KV Mechelen,1,4,A
+B1,18/04/2021,Standard Liege,Beerschot VA,3,0,H
+B1,18/04/2021,Zulte Waregem,Gent,2,7,A
+B1,18/04/2021,Club Brugge KV,Royal Excel Mouscron,4,2,H
+B1,18/04/2021,OH Leuven,SK Beveren,1,2,A
+B1,18/04/2021,Oostende,Cercle Brugge,1,1,D
+B1,18/09/2020,Charleroi,Beerschot VA,3,1,H
+B1,18/10/2020,Genk,Charleroi,2,1,H
+B1,18/10/2020,Royal Excel Mouscron,AS Eupen,0,2,A
+B1,18/10/2020,Zulte Waregem,Antwerp,1,3,A
+B1,18/10/2020,Anderlecht,OH Leuven,2,2,D
+B1,18/12/2020,Charleroi,Anderlecht,1,0,H
+B1,19/01/2021,Anderlecht,Charleroi,3,0,H
+B1,19/01/2021,Royal Excel Mouscron,SK Beveren,1,1,D
+B1,19/02/2021,KV Mechelen,Gent,1,1,D
+B1,19/03/2021,Genk,Standard Liege,2,2,D
+B1,19/05/2021,Oostende,KV Mechelen,2,2,D
+B1,19/05/2021,Gent,Standard Liege,2,0,H
+B1,19/09/2020,Oostende,OH Leuven,3,1,H
+B1,19/09/2020,Royal Excel Mouscron,Gent,0,1,A
+B1,19/09/2020,SK Beveren,Anderlecht,2,4,A
+B1,19/12/2020,Genk,Kortrijk,2,0,H
+B1,19/12/2020,Zulte Waregem,St. Truiden,0,2,A
+B1,20/01/2021,Kortrijk,St. Truiden,0,2,A
+B1,20/01/2021,KV Mechelen,Standard Liege,0,4,A
+B1,20/01/2021,AS Eupen,Beerschot VA,3,1,H
+B1,20/01/2021,Club Brugge KV,Oostende,2,1,H
+B1,20/01/2021,Antwerp,Cercle Brugge,1,0,H
+B1,20/02/2021,SK Beveren,Charleroi,1,1,D
+B1,20/02/2021,Royal Excel Mouscron,Cercle Brugge,1,2,A
+B1,20/02/2021,AS Eupen,Oostende,1,1,D
+B1,20/03/2021,AS Eupen,Kortrijk,2,0,H
+B1,20/03/2021,Royal Excel Mouscron,Oostende,0,1,A
+B1,20/05/2021,Anderlecht,Club Brugge KV,3,3,D
+B1,20/05/2021,Genk,Antwerp,4,0,H
+B1,20/09/2020,Antwerp,AS Eupen,2,2,D
+B1,20/09/2020,Genk,KV Mechelen,3,1,H
+B1,20/09/2020,Standard Liege,Kortrijk,2,1,H
+B1,20/09/2020,Zulte Waregem,Club Brugge KV,0,6,A
+B1,20/12/2020,SK Beveren,Antwerp,0,3,A
+B1,20/12/2020,Club Brugge KV,Gent,0,1,A
+B1,20/12/2020,OH Leuven,KV Mechelen,1,2,A
+B1,20/12/2020,Standard Liege,Royal Excel Mouscron,0,1,A
+B1,21/01/2021,Zulte Waregem,OH Leuven,2,3,A
+B1,21/01/2021,Genk,Gent,1,1,D
+B1,21/02/2021,Anderlecht,Kortrijk,0,2,A
+B1,21/02/2021,Genk,Beerschot VA,1,2,A
+B1,21/02/2021,Antwerp,St. Truiden,0,0,D
+B1,21/02/2021,Zulte Waregem,Standard Liege,3,2,H
+B1,21/03/2021,Gent,Cercle Brugge,1,0,H
+B1,21/03/2021,Anderlecht,Zulte Waregem,4,1,H
+B1,21/03/2021,KV Mechelen,OH Leuven,2,2,D
+B1,21/03/2021,Club Brugge KV,Antwerp,0,2,A
+B1,21/08/2020,Kortrijk,AS Eupen,0,0,D
+B1,21/09/2020,Cercle Brugge,St. Truiden,3,0,H
+B1,21/11/2020,Oostende,Antwerp,1,1,D
+B1,21/11/2020,Club Brugge KV,Kortrijk,1,0,H
+B1,21/11/2020,Standard Liege,AS Eupen,2,2,D
+B1,21/11/2020,SK Beveren,Cercle Brugge,0,2,A
+B1,22/01/2021,Anderlecht,SK Beveren,0,0,D
+B1,22/02/2021,Club Brugge KV,OH Leuven,3,0,H
+B1,22/05/2021,KV Mechelen,Gent,1,2,A
+B1,22/05/2021,Standard Liege,Oostende,1,3,A
+B1,22/08/2020,KV Mechelen,Cercle Brugge,2,3,A
+B1,22/08/2020,Antwerp,Gent,1,0,H
+B1,22/08/2020,Zulte Waregem,SK Beveren,4,1,H
+B1,22/08/2020,OH Leuven,Charleroi,1,3,A
+B1,22/11/2020,Charleroi,Gent,0,1,A
+B1,22/11/2020,Zulte Waregem,KV Mechelen,1,2,A
+B1,22/11/2020,Genk,Royal Excel Mouscron,4,1,H
+B1,22/11/2020,Beerschot VA,Anderlecht,2,1,H
+B1,23/01/2021,Antwerp,Oostende,1,2,A
+B1,23/01/2021,St. Truiden,Royal Excel Mouscron,0,2,A
+B1,23/01/2021,KV Mechelen,AS Eupen,3,0,H
+B1,23/01/2021,Kortrijk,Cercle Brugge,1,2,A
+B1,23/05/2021,Antwerp,Anderlecht,1,0,H
+B1,23/05/2021,Club Brugge KV,Genk,1,2,A
+B1,23/08/2020,Standard Liege,Genk,0,0,D
+B1,23/08/2020,Club Brugge KV,Beerschot VA,0,1,A
+B1,23/08/2020,Anderlecht,Royal Excel Mouscron,1,1,D
+B1,23/10/2020,Kortrijk,Anderlecht,1,3,A
+B1,23/11/2020,OH Leuven,St. Truiden,2,2,D
+B1,24/01/2021,Club Brugge KV,Genk,3,2,H
+B1,24/01/2021,Zulte Waregem,Beerschot VA,0,3,A
+B1,24/01/2021,Standard Liege,Charleroi,3,2,H
+B1,24/01/2021,OH Leuven,Gent,0,3,A
+B1,24/08/2020,St. Truiden,Oostende,0,0,D
+B1,24/10/2020,OH Leuven,Club Brugge KV,2,1,H
+B1,24/11/2020,SK Beveren,Oostende,2,0,H
+B1,25/09/2020,Kortrijk,Antwerp,1,3,A
+B1,25/10/2020,Antwerp,Beerschot VA,3,2,H
+B1,25/10/2020,Oostende,Zulte Waregem,3,0,H
+B1,25/10/2020,St. Truiden,Standard Liege,2,0,H
+B1,25/11/2020,Cercle Brugge,Royal Excel Mouscron,1,2,A
+B1,26/01/2021,SK Beveren,KV Mechelen,2,3,A
+B1,26/01/2021,AS Eupen,Antwerp,0,2,A
+B1,26/01/2021,Royal Excel Mouscron,Anderlecht,1,1,D
+B1,26/02/2021,Charleroi,Genk,1,2,A
+B1,26/09/2020,KV Mechelen,St. Truiden,2,0,H
+B1,26/09/2020,Beerschot VA,SK Beveren,3,2,H
+B1,26/09/2020,Gent,OH Leuven,2,3,A
+B1,26/10/2020,Gent,Genk,1,2,A
+B1,26/12/2020,Club Brugge KV,AS Eupen,3,0,H
+B1,26/12/2020,Zulte Waregem,Cercle Brugge,1,0,H
+B1,26/12/2020,OH Leuven,Oostende,1,2,A
+B1,26/12/2020,Kortrijk,Gent,1,0,H
+B1,26/12/2020,Standard Liege,St. Truiden,1,2,A
+B1,27/01/2021,Beerschot VA,Kortrijk,0,0,D
+B1,27/01/2021,Genk,Zulte Waregem,3,2,H
+B1,27/01/2021,Charleroi,OH Leuven,1,1,D
+B1,27/01/2021,Gent,St. Truiden,1,1,D
+B1,27/02/2021,Oostende,KV Mechelen,2,0,H
+B1,27/02/2021,Cercle Brugge,SK Beveren,2,0,H
+B1,27/02/2021,Kortrijk,Zulte Waregem,1,2,A
+B1,27/09/2020,Royal Excel Mouscron,Charleroi,1,1,D
+B1,27/09/2020,Standard Liege,Zulte Waregem,2,2,D
+B1,27/09/2020,Club Brugge KV,Cercle Brugge,2,1,H
+B1,27/09/2020,Anderlecht,AS Eupen,1,1,D
+B1,27/11/2020,AS Eupen,Charleroi,3,1,H
+B1,27/12/2020,Antwerp,Charleroi,2,1,H
+B1,27/12/2020,KV Mechelen,Royal Excel Mouscron,2,1,H
+B1,27/12/2020,Anderlecht,Beerschot VA,2,0,H
+B1,27/12/2020,Genk,SK Beveren,1,1,D
+B1,28/01/2021,Oostende,Standard Liege,2,2,D
+B1,28/01/2021,Cercle Brugge,Club Brugge KV,1,2,A
+B1,28/02/2021,St. Truiden,AS Eupen,0,2,A
+B1,28/02/2021,Beerschot VA,Royal Excel Mouscron,2,2,D
+B1,28/02/2021,Standard Liege,Anderlecht,1,3,A
+B1,28/08/2020,Oostende,Anderlecht,2,2,D
+B1,28/09/2020,Genk,Oostende,2,2,D
+B1,28/11/2020,Cercle Brugge,Genk,1,5,A
+B1,28/11/2020,St. Truiden,SK Beveren,1,1,D
+B1,28/11/2020,Royal Excel Mouscron,Club Brugge KV,0,0,D
+B1,29/01/2021,Antwerp,SK Beveren,3,2,H
+B1,29/08/2020,Cercle Brugge,Kortrijk,0,1,A
+B1,29/08/2020,SK Beveren,OH Leuven,1,3,A
+B1,29/08/2020,Royal Excel Mouscron,Zulte Waregem,0,1,A
+B1,29/08/2020,AS Eupen,St. Truiden,1,1,D
+B1,29/11/2020,Gent,Zulte Waregem,0,3,A
+B1,29/11/2020,KV Mechelen,Beerschot VA,2,3,A
+B1,29/11/2020,Anderlecht,Standard Liege,0,0,D
+B1,29/11/2020,Kortrijk,Oostende,3,1,H
+B1,29/12/2020,AS Eupen,Zulte Waregem,2,3,A
+B1,30/01/2021,Kortrijk,Charleroi,1,3,A
+B1,30/01/2021,AS Eupen,Royal Excel Mouscron,1,1,D
+B1,30/01/2021,OH Leuven,Beerschot VA,0,1,A
+B1,30/01/2021,KV Mechelen,Genk,0,0,D
+B1,30/04/2021,Antwerp,Genk,2,3,A
+B1,30/08/2020,Genk,Club Brugge KV,1,2,A
+B1,30/08/2020,Gent,KV Mechelen,1,0,H
+B1,30/08/2020,Charleroi,Antwerp,2,0,H
+B1,30/08/2020,Beerschot VA,Standard Liege,0,3,A
+B1,30/10/2020,Genk,AS Eupen,4,0,H
+B1,30/11/2020,Antwerp,OH Leuven,3,2,H
+B1,30/12/2020,St. Truiden,Beerschot VA,1,0,H
+B1,31/01/2021,St. Truiden,Cercle Brugge,3,0,H
+B1,31/01/2021,Club Brugge KV,Standard Liege,3,1,H
+B1,31/01/2021,Zulte Waregem,Oostende,2,1,H
+B1,31/01/2021,Anderlecht,Gent,0,0,D
+B1,31/10/2020,Club Brugge KV,KV Mechelen,2,2,D
+B1,31/10/2020,Charleroi,Cercle Brugge,3,0,H
+B1,31/10/2020,Beerschot VA,OH Leuven,4,2,H

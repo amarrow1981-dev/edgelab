@@ -1,0 +1,557 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E1,01/01/2014,Reading,Nott'm Forest,1,1,D
+E1,01/01/2014,Sheffield Weds,Blackpool,2,0,H
+E1,01/01/2014,Derby,Wigan,0,1,A
+E1,01/01/2014,Bolton,Middlesbrough,2,2,D
+E1,01/01/2014,Leeds,Blackburn,1,2,A
+E1,01/01/2014,QPR,Doncaster,2,1,H
+E1,01/01/2014,Ipswich,Charlton,1,1,D
+E1,01/01/2014,Birmingham,Barnsley,1,1,D
+E1,01/01/2014,Brighton,Bournemouth,1,1,D
+E1,01/01/2014,Burnley,Huddersfield,3,2,H
+E1,01/01/2014,Millwall,Leicester,1,3,A
+E1,01/02/2014,Sheffield Weds,Barnsley,1,0,H
+E1,01/02/2014,QPR,Burnley,3,3,D
+E1,01/02/2014,Bournemouth,Leicester,0,1,A
+E1,01/02/2014,Birmingham,Derby,3,3,D
+E1,01/02/2014,Millwall,Reading,0,3,A
+E1,01/02/2014,Wigan,Charlton,2,1,H
+E1,01/02/2014,Leeds,Huddersfield,5,1,H
+E1,01/02/2014,Blackburn,Blackpool,2,0,H
+E1,01/02/2014,Doncaster,Middlesbrough,0,0,D
+E1,01/02/2014,Ipswich,Bolton,1,0,H
+E1,01/03/2014,Reading,Yeovil,1,1,D
+E1,01/03/2014,Sheffield Weds,Middlesbrough,1,0,H
+E1,01/03/2014,Nott'm Forest,Wigan,1,4,A
+E1,01/03/2014,Millwall,Brighton,0,1,A
+E1,01/03/2014,QPR,Leeds,1,1,D
+E1,01/03/2014,Bolton,Blackburn,4,0,H
+E1,01/03/2014,Huddersfield,Barnsley,5,0,H
+E1,01/03/2014,Bournemouth,Doncaster,5,0,H
+E1,01/03/2014,Leicester,Charlton,3,0,H
+E1,01/03/2014,Burnley,Derby,2,0,H
+E1,01/03/2014,Ipswich,Birmingham,1,0,H
+E1,01/03/2014,Watford,Blackpool,4,0,H
+E1,01/04/2014,Wigan,Leicester,2,2,D
+E1,01/04/2014,Blackburn,Brighton,3,3,D
+E1,01/04/2014,Leeds,Charlton,0,1,A
+E1,01/10/2013,Blackpool,Bolton,0,0,D
+E1,01/10/2013,Blackburn,Watford,1,0,H
+E1,01/10/2013,Leeds,Bournemouth,2,1,H
+E1,01/10/2013,Derby,Ipswich,4,4,D
+E1,01/10/2013,Middlesbrough,Huddersfield,1,1,D
+E1,01/10/2013,Barnsley,Reading,1,1,D
+E1,01/10/2013,Charlton,Nott'm Forest,1,1,D
+E1,01/10/2013,Doncaster,Burnley,0,2,A
+E1,01/10/2013,Yeovil,Leicester,1,2,A
+E1,01/10/2013,Brighton,Sheffield Weds,1,1,D
+E1,01/10/2013,Birmingham,Millwall,4,0,H
+E1,01/11/2013,Ipswich,Barnsley,1,1,D
+E1,01/12/2013,Wigan,Derby,1,3,A
+E1,02/02/2014,Nott'm Forest,Yeovil,3,1,H
+E1,02/02/2014,Watford,Brighton,2,0,H
+E1,02/11/2013,Birmingham,Charlton,0,1,A
+E1,02/11/2013,Watford,Leicester,0,3,A
+E1,02/11/2013,Bournemouth,Bolton,0,2,A
+E1,02/11/2013,Millwall,Burnley,2,2,D
+E1,02/11/2013,Wigan,Huddersfield,2,1,H
+E1,02/11/2013,Nott'm Forest,Blackpool,0,1,A
+E1,02/11/2013,Blackburn,Middlesbrough,1,0,H
+E1,02/11/2013,QPR,Derby,2,1,H
+E1,02/11/2013,Sheffield Weds,Reading,5,2,H
+E1,02/11/2013,Doncaster,Brighton,1,3,A
+E1,02/11/2013,Leeds,Yeovil,2,0,H
+E1,03/05/2014,Leicester,Doncaster,1,0,H
+E1,03/05/2014,Watford,Huddersfield,1,4,A
+E1,03/05/2014,Reading,Burnley,2,2,D
+E1,03/05/2014,Bolton,Birmingham,2,2,D
+E1,03/05/2014,Millwall,Bournemouth,1,0,H
+E1,03/05/2014,Leeds,Derby,1,1,D
+E1,03/05/2014,Blackburn,Wigan,4,3,H
+E1,03/05/2014,Yeovil,Middlesbrough,1,4,A
+E1,03/05/2014,Blackpool,Charlton,0,3,A
+E1,03/05/2014,Nott'm Forest,Brighton,1,2,A
+E1,03/05/2014,Ipswich,Sheffield Weds,2,1,H
+E1,03/05/2014,Barnsley,QPR,2,3,A
+E1,03/08/2013,Burnley,Bolton,1,1,D
+E1,03/08/2013,QPR,Sheffield Weds,2,1,H
+E1,03/08/2013,Nott'm Forest,Huddersfield,1,0,H
+E1,03/08/2013,Leeds,Brighton,2,1,H
+E1,03/08/2013,Millwall,Yeovil,0,1,A
+E1,03/08/2013,Birmingham,Watford,0,1,A
+E1,03/08/2013,Reading,Ipswich,2,1,H
+E1,03/08/2013,Bournemouth,Charlton,2,1,H
+E1,03/08/2013,Barnsley,Wigan,0,4,A
+E1,03/08/2013,Doncaster,Blackpool,1,3,A
+E1,03/08/2013,Middlesbrough,Leicester,1,2,A
+E1,03/12/2013,Brighton,Barnsley,1,2,A
+E1,03/12/2013,Burnley,Watford,0,0,D
+E1,03/12/2013,Reading,Charlton,1,0,H
+E1,03/12/2013,Birmingham,Doncaster,1,1,D
+E1,03/12/2013,Ipswich,Blackburn,3,1,H
+E1,03/12/2013,Millwall,Nott'm Forest,2,2,D
+E1,03/12/2013,QPR,Bournemouth,3,0,H
+E1,03/12/2013,Sheffield Weds,Leicester,2,1,H
+E1,03/12/2013,Yeovil,Blackpool,1,0,H
+E1,03/12/2013,Bolton,Huddersfield,0,1,A
+E1,04/04/2014,Leicester,Sheffield Weds,2,1,H
+E1,04/08/2013,Derby,Blackburn,1,1,D
+E1,04/12/2013,Derby,Middlesbrough,2,1,H
+E1,04/12/2013,Leeds,Wigan,2,0,H
+E1,05/04/2014,Middlesbrough,Derby,1,0,H
+E1,05/04/2014,Barnsley,Brighton,0,0,D
+E1,05/04/2014,Charlton,Reading,0,1,A
+E1,05/04/2014,Blackpool,Yeovil,1,2,A
+E1,05/04/2014,Doncaster,Birmingham,1,3,A
+E1,05/04/2014,Blackburn,Ipswich,2,0,H
+E1,05/04/2014,Wigan,Leeds,1,0,H
+E1,05/04/2014,Bournemouth,QPR,2,1,H
+E1,05/04/2014,Nott'm Forest,Millwall,1,2,A
+E1,05/04/2014,Watford,Burnley,1,1,D
+E1,05/04/2014,Huddersfield,Bolton,0,1,A
+E1,05/10/2013,Sheffield Weds,Ipswich,1,1,D
+E1,05/10/2013,Brighton,Nott'm Forest,1,3,A
+E1,05/10/2013,Doncaster,Leicester,1,0,H
+E1,05/10/2013,Charlton,Blackpool,0,0,D
+E1,05/10/2013,QPR,Barnsley,2,0,H
+E1,05/10/2013,Middlesbrough,Yeovil,4,1,H
+E1,05/10/2013,Derby,Leeds,3,1,H
+E1,05/10/2013,Burnley,Reading,2,1,H
+E1,05/10/2013,Huddersfield,Watford,1,2,A
+E1,05/10/2013,Birmingham,Bolton,1,2,A
+E1,05/10/2013,Bournemouth,Millwall,5,2,H
+E1,06/10/2013,Wigan,Blackburn,2,1,H
+E1,07/12/2013,Birmingham,Middlesbrough,2,2,D
+E1,07/12/2013,Ipswich,Huddersfield,2,1,H
+E1,07/12/2013,Millwall,Wigan,2,1,H
+E1,07/12/2013,Reading,Bournemouth,1,2,A
+E1,07/12/2013,Leeds,Watford,3,3,D
+E1,07/12/2013,Bolton,Doncaster,3,0,H
+E1,07/12/2013,QPR,Blackburn,0,0,D
+E1,07/12/2013,Brighton,Leicester,3,1,H
+E1,07/12/2013,Yeovil,Charlton,2,2,D
+E1,07/12/2013,Derby,Blackpool,5,1,H
+E1,07/12/2013,Sheffield Weds,Nott'm Forest,0,1,A
+E1,07/12/2013,Burnley,Barnsley,1,0,H
+E1,08/02/2014,Blackpool,Nott'm Forest,1,1,D
+E1,08/02/2014,Barnsley,Ipswich,2,2,D
+E1,08/02/2014,Burnley,Millwall,3,1,H
+E1,08/02/2014,Middlesbrough,Blackburn,0,0,D
+E1,08/02/2014,Bolton,Bournemouth,2,2,D
+E1,08/02/2014,Yeovil,Leeds,1,2,A
+E1,08/02/2014,Brighton,Doncaster,1,0,H
+E1,08/02/2014,Leicester,Watford,2,2,D
+E1,08/02/2014,Charlton,Birmingham,0,2,A
+E1,08/02/2014,Huddersfield,Wigan,1,0,H
+E1,08/02/2014,Reading,Sheffield Weds,0,2,A
+E1,08/03/2014,Leeds,Bolton,1,5,A
+E1,08/03/2014,Derby,Millwall,0,1,A
+E1,08/03/2014,Birmingham,QPR,0,2,A
+E1,08/03/2014,Brighton,Reading,1,1,D
+E1,08/03/2014,Yeovil,Sheffield Weds,2,0,H
+E1,08/03/2014,Blackpool,Bournemouth,0,1,A
+E1,08/03/2014,Middlesbrough,Ipswich,2,0,H
+E1,08/03/2014,Barnsley,Nott'm Forest,1,0,H
+E1,08/03/2014,Doncaster,Huddersfield,2,0,H
+E1,08/04/2014,Blackburn,QPR,2,0,H
+E1,08/04/2014,Huddersfield,Ipswich,0,2,A
+E1,08/04/2014,Bournemouth,Reading,3,1,H
+E1,08/04/2014,Nott'm Forest,Sheffield Weds,3,3,D
+E1,08/04/2014,Leicester,Brighton,1,4,A
+E1,08/04/2014,Wigan,Millwall,0,1,A
+E1,08/04/2014,Blackpool,Derby,1,3,A
+E1,08/04/2014,Doncaster,Bolton,1,2,A
+E1,08/04/2014,Charlton,Yeovil,3,2,H
+E1,08/04/2014,Barnsley,Burnley,0,1,A
+E1,08/04/2014,Middlesbrough,Birmingham,3,1,H
+E1,08/04/2014,Watford,Leeds,3,0,H
+E1,08/05/2014,Brighton,Derby,1,2,A
+E1,09/03/2014,Blackburn,Burnley,1,2,A
+E1,09/05/2014,Wigan,QPR,0,0,D
+E1,09/11/2013,Middlesbrough,Watford,2,2,D
+E1,09/11/2013,Charlton,Leeds,2,4,A
+E1,09/11/2013,Blackpool,Ipswich,2,3,A
+E1,09/11/2013,Barnsley,Doncaster,0,0,D
+E1,09/11/2013,Derby,Sheffield Weds,3,0,H
+E1,09/11/2013,Brighton,Blackburn,3,0,H
+E1,09/11/2013,Leicester,Nott'm Forest,0,2,A
+E1,09/11/2013,Burnley,Bournemouth,1,1,D
+E1,09/11/2013,Huddersfield,Birmingham,1,3,A
+E1,09/11/2013,Reading,QPR,1,1,D
+E1,09/11/2013,Bolton,Millwall,3,1,H
+E1,10/01/2014,Leicester,Derby,4,1,H
+E1,10/02/2014,Derby,QPR,1,0,H
+E1,10/08/2013,Ipswich,Millwall,3,0,H
+E1,10/08/2013,Brighton,Derby,1,2,A
+E1,10/08/2013,Watford,Bournemouth,6,1,H
+E1,10/08/2013,Huddersfield,QPR,1,1,D
+E1,10/08/2013,Blackpool,Barnsley,1,0,H
+E1,10/08/2013,Charlton,Middlesbrough,0,1,A
+E1,10/08/2013,Sheffield Weds,Burnley,1,2,A
+E1,10/08/2013,Bolton,Reading,1,1,D
+E1,10/08/2013,Blackburn,Nott'm Forest,0,1,A
+E1,10/08/2013,Yeovil,Birmingham,0,1,A
+E1,10/11/2013,Yeovil,Wigan,0,1,A
+E1,11/01/2014,Blackpool,Middlesbrough,0,2,A
+E1,11/01/2014,Bolton,Nott'm Forest,1,1,D
+E1,11/01/2014,Blackburn,Doncaster,1,0,H
+E1,11/01/2014,Wigan,Bournemouth,3,0,H
+E1,11/01/2014,Ipswich,QPR,1,3,A
+E1,11/01/2014,Sheffield Weds,Leeds,6,0,H
+E1,11/01/2014,Huddersfield,Millwall,1,0,H
+E1,11/01/2014,Yeovil,Burnley,1,2,A
+E1,11/01/2014,Brighton,Birmingham,1,0,H
+E1,11/01/2014,Watford,Reading,0,1,A
+E1,11/02/2014,Bolton,Burnley,0,1,A
+E1,11/02/2014,Yeovil,Millwall,1,1,D
+E1,11/02/2014,Sheffield Weds,Wigan,0,3,A
+E1,11/02/2014,Brighton,Leeds,1,0,H
+E1,11/02/2014,Watford,Birmingham,1,0,H
+E1,11/02/2014,Huddersfield,Nott'm Forest,0,3,A
+E1,11/03/2014,Blackpool,Millwall,1,0,H
+E1,11/03/2014,Doncaster,Watford,2,1,H
+E1,11/03/2014,Barnsley,Leicester,0,3,A
+E1,11/03/2014,Brighton,QPR,2,0,H
+E1,11/03/2014,Derby,Bolton,0,0,D
+E1,11/03/2014,Middlesbrough,Nott'm Forest,1,1,D
+E1,11/03/2014,Yeovil,Ipswich,0,1,A
+E1,11/03/2014,Leeds,Reading,2,4,A
+E1,11/05/2014,Derby,Brighton,4,1,H
+E1,11/08/2013,Leicester,Leeds,0,0,D
+E1,12/03/2014,Blackburn,Bournemouth,0,1,A
+E1,12/03/2014,Charlton,Huddersfield,0,0,D
+E1,12/03/2014,Wigan,Sheffield Weds,1,0,H
+E1,12/03/2014,Birmingham,Burnley,3,3,D
+E1,12/04/2014,Leeds,Blackpool,2,0,H
+E1,12/04/2014,Ipswich,Doncaster,2,1,H
+E1,12/04/2014,Brighton,Charlton,3,0,H
+E1,12/04/2014,Burnley,Middlesbrough,0,1,A
+E1,12/04/2014,QPR,Nott'm Forest,5,2,H
+E1,12/04/2014,Millwall,Watford,2,2,D
+E1,12/04/2014,Derby,Huddersfield,3,1,H
+E1,12/04/2014,Yeovil,Bournemouth,1,1,D
+E1,12/04/2014,Sheffield Weds,Blackburn,3,3,D
+E1,12/04/2014,Bolton,Barnsley,1,0,H
+E1,14/04/2014,Reading,Leicester,1,1,D
+E1,14/09/2013,Bolton,Leeds,0,1,A
+E1,14/09/2013,QPR,Birmingham,1,0,H
+E1,14/09/2013,Nott'm Forest,Barnsley,3,2,H
+E1,14/09/2013,Sheffield Weds,Yeovil,1,1,D
+E1,14/09/2013,Millwall,Derby,1,5,A
+E1,14/09/2013,Watford,Charlton,1,1,D
+E1,14/09/2013,Huddersfield,Doncaster,0,0,D
+E1,14/09/2013,Bournemouth,Blackpool,1,2,A
+E1,14/09/2013,Burnley,Blackburn,1,1,D
+E1,14/09/2013,Ipswich,Middlesbrough,3,1,H
+E1,14/09/2013,Leicester,Wigan,2,0,H
+E1,14/12/2013,Bournemouth,Birmingham,0,2,A
+E1,14/12/2013,Huddersfield,Reading,0,1,A
+E1,14/12/2013,Middlesbrough,Brighton,0,1,A
+E1,14/12/2013,Watford,Sheffield Weds,0,1,A
+E1,14/12/2013,Nott'm Forest,Ipswich,0,0,D
+E1,14/12/2013,Blackburn,Millwall,3,2,H
+E1,14/12/2013,Barnsley,Yeovil,1,1,D
+E1,14/12/2013,Leicester,Burnley,1,1,D
+E1,14/12/2013,Blackpool,QPR,0,2,A
+E1,14/12/2013,Doncaster,Leeds,0,3,A
+E1,14/12/2013,Charlton,Derby,0,2,A
+E1,15/02/2014,Doncaster,Barnsley,2,2,D
+E1,15/02/2014,Ipswich,Blackpool,0,0,D
+E1,15/02/2014,Birmingham,Huddersfield,1,2,A
+E1,15/02/2014,Watford,Middlesbrough,1,0,H
+E1,15/02/2014,Bournemouth,Burnley,1,1,D
+E1,15/02/2014,Millwall,Bolton,1,1,D
+E1,15/03/2014,Watford,Barnsley,3,0,H
+E1,15/03/2014,Bournemouth,Middlesbrough,0,0,D
+E1,15/03/2014,Huddersfield,Blackburn,2,4,A
+E1,15/03/2014,Sheffield Weds,Birmingham,4,1,H
+E1,15/03/2014,Ipswich,Wigan,1,3,A
+E1,15/03/2014,Reading,Derby,0,0,D
+E1,15/03/2014,Millwall,Charlton,0,0,D
+E1,15/03/2014,Nott'm Forest,Doncaster,0,0,D
+E1,15/03/2014,Bolton,Brighton,0,2,A
+E1,15/03/2014,QPR,Yeovil,3,0,H
+E1,15/03/2014,Burnley,Leeds,2,1,H
+E1,15/03/2014,Leicester,Blackpool,3,1,H
+E1,15/04/2014,Charlton,Barnsley,1,2,A
+E1,15/09/2013,Reading,Brighton,0,0,D
+E1,15/12/2013,Wigan,Bolton,3,2,H
+E1,16/02/2014,QPR,Reading,1,3,A
+E1,16/08/2013,Doncaster,Blackburn,2,0,H
+E1,17/08/2013,Millwall,Huddersfield,0,1,A
+E1,17/08/2013,Barnsley,Charlton,2,2,D
+E1,17/08/2013,QPR,Ipswich,1,0,H
+E1,17/08/2013,Middlesbrough,Blackpool,1,1,D
+E1,17/08/2013,Derby,Leicester,0,1,A
+E1,17/08/2013,Leeds,Sheffield Weds,1,1,D
+E1,17/08/2013,Birmingham,Brighton,0,1,A
+E1,17/08/2013,Bournemouth,Wigan,1,0,H
+E1,17/08/2013,Burnley,Yeovil,2,0,H
+E1,17/08/2013,Reading,Watford,3,3,D
+E1,17/08/2013,Nott'm Forest,Bolton,3,0,H
+E1,17/09/2013,Burnley,Birmingham,3,0,H
+E1,17/09/2013,Leicester,Blackburn,2,1,H
+E1,17/09/2013,Huddersfield,Charlton,2,1,H
+E1,17/09/2013,Ipswich,Yeovil,2,1,H
+E1,17/09/2013,Millwall,Blackpool,3,1,H
+E1,17/09/2013,Nott'm Forest,Middlesbrough,2,2,D
+E1,17/09/2013,Bolton,Derby,2,2,D
+E1,17/09/2013,Bournemouth,Barnsley,1,0,H
+E1,17/09/2013,Watford,Doncaster,2,1,H
+E1,18/01/2014,Doncaster,Wigan,3,0,H
+E1,18/01/2014,QPR,Huddersfield,2,1,H
+E1,18/01/2014,Middlesbrough,Charlton,1,0,H
+E1,18/01/2014,Derby,Brighton,1,0,H
+E1,18/01/2014,Barnsley,Blackpool,2,0,H
+E1,18/01/2014,Millwall,Ipswich,1,0,H
+E1,18/01/2014,Birmingham,Yeovil,0,2,A
+E1,18/01/2014,Reading,Bolton,7,1,H
+E1,18/01/2014,Nott'm Forest,Blackburn,4,1,H
+E1,18/01/2014,Burnley,Sheffield Weds,1,1,D
+E1,18/01/2014,Bournemouth,Watford,1,1,D
+E1,18/01/2014,Leeds,Leicester,0,1,A
+E1,18/02/2014,Wigan,Barnsley,2,0,H
+E1,18/02/2014,Yeovil,Watford,0,0,D
+E1,18/02/2014,Sheffield Weds,Derby,0,1,A
+E1,18/03/2014,Charlton,Bournemouth,1,0,H
+E1,18/03/2014,Sheffield Weds,QPR,3,0,H
+E1,18/03/2014,Wigan,Yeovil,3,3,D
+E1,18/04/2014,Blackpool,Burnley,0,1,A
+E1,18/04/2014,Blackburn,Yeovil,0,0,D
+E1,18/04/2014,Wigan,Reading,3,0,H
+E1,18/04/2014,Huddersfield,Brighton,1,1,D
+E1,18/04/2014,Bournemouth,Sheffield Weds,2,4,A
+E1,18/04/2014,Doncaster,Derby,0,2,A
+E1,18/04/2014,Charlton,Bolton,0,0,D
+E1,18/09/2013,QPR,Brighton,0,0,D
+E1,18/09/2013,Reading,Leeds,1,0,H
+E1,19/02/2014,Nott'm Forest,Leicester,2,2,D
+E1,19/04/2014,Middlesbrough,Millwall,1,2,A
+E1,19/04/2014,Leicester,QPR,1,0,H
+E1,19/04/2014,Watford,Ipswich,3,1,H
+E1,19/04/2014,Nott'm Forest,Birmingham,1,0,H
+E1,19/04/2014,Barnsley,Leeds,0,1,A
+E1,19/10/2013,Yeovil,Brighton,0,0,D
+E1,19/10/2013,Bolton,Sheffield Weds,1,1,D
+E1,19/10/2013,Nott'm Forest,Bournemouth,1,1,D
+E1,19/10/2013,Blackburn,Charlton,0,1,A
+E1,19/10/2013,Barnsley,Middlesbrough,3,2,H
+E1,19/10/2013,Millwall,QPR,2,2,D
+E1,19/10/2013,Blackpool,Wigan,1,0,H
+E1,19/10/2013,Reading,Doncaster,4,1,H
+E1,19/10/2013,Leicester,Huddersfield,2,1,H
+E1,19/10/2013,Watford,Derby,2,3,A
+E1,19/10/2013,Ipswich,Burnley,0,1,A
+E1,20/08/2013,Wigan,Doncaster,2,2,D
+E1,20/10/2013,Leeds,Birmingham,4,0,H
+E1,21/04/2014,Sheffield Weds,Charlton,2,3,A
+E1,21/04/2014,QPR,Watford,2,1,H
+E1,21/04/2014,Derby,Barnsley,2,1,H
+E1,21/04/2014,Millwall,Doncaster,0,0,D
+E1,21/04/2014,Ipswich,Bournemouth,2,2,D
+E1,21/04/2014,Birmingham,Blackburn,2,4,A
+E1,21/04/2014,Brighton,Blackpool,1,1,D
+E1,21/04/2014,Yeovil,Huddersfield,1,2,A
+E1,21/04/2014,Burnley,Wigan,2,0,H
+E1,21/04/2014,Leeds,Nott'm Forest,0,2,A
+E1,21/09/2013,Blackburn,Huddersfield,0,0,D
+E1,21/09/2013,Derby,Reading,1,3,A
+E1,21/09/2013,Middlesbrough,Bournemouth,3,3,D
+E1,21/09/2013,Barnsley,Watford,1,5,A
+E1,21/09/2013,Doncaster,Nott'm Forest,2,2,D
+E1,21/09/2013,Blackpool,Leicester,2,2,D
+E1,21/09/2013,Yeovil,QPR,0,1,A
+E1,21/09/2013,Brighton,Bolton,3,1,H
+E1,21/09/2013,Charlton,Millwall,0,1,A
+E1,21/09/2013,Birmingham,Sheffield Weds,4,1,H
+E1,21/09/2013,Leeds,Burnley,1,2,A
+E1,21/12/2013,Leeds,Barnsley,0,0,D
+E1,21/12/2013,Ipswich,Watford,1,1,D
+E1,21/12/2013,Bolton,Charlton,1,1,D
+E1,21/12/2013,Reading,Wigan,1,2,A
+E1,21/12/2013,Brighton,Huddersfield,0,0,D
+E1,21/12/2013,Burnley,Blackpool,2,1,H
+E1,21/12/2013,QPR,Leicester,0,1,A
+E1,21/12/2013,Derby,Doncaster,3,1,H
+E1,21/12/2013,Birmingham,Nott'm Forest,0,0,D
+E1,21/12/2013,Sheffield Weds,Bournemouth,1,2,A
+E1,21/12/2013,Yeovil,Blackburn,0,1,A
+E1,21/12/2013,Millwall,Middlesbrough,0,2,A
+E1,22/02/2014,Middlesbrough,Leeds,0,0,D
+E1,22/02/2014,Huddersfield,Sheffield Weds,0,2,A
+E1,22/02/2014,Yeovil,Doncaster,1,0,H
+E1,22/02/2014,Blackpool,Birmingham,1,2,A
+E1,22/02/2014,Burnley,Nott'm Forest,3,1,H
+E1,22/02/2014,Charlton,QPR,1,0,H
+E1,22/02/2014,Leicester,Ipswich,3,0,H
+E1,22/02/2014,Brighton,Wigan,1,2,A
+E1,22/02/2014,Reading,Blackburn,0,1,A
+E1,22/02/2014,Bolton,Watford,2,0,H
+E1,22/02/2014,Barnsley,Millwall,1,0,H
+E1,22/02/2014,Derby,Bournemouth,1,0,H
+E1,22/03/2014,Derby,Nott'm Forest,5,0,H
+E1,22/03/2014,Birmingham,Reading,1,2,A
+E1,22/03/2014,Yeovil,Bolton,2,2,D
+E1,22/03/2014,Wigan,Watford,2,1,H
+E1,22/03/2014,Leeds,Millwall,2,1,H
+E1,22/03/2014,Blackburn,Leicester,1,1,D
+E1,22/03/2014,Middlesbrough,QPR,1,3,A
+E1,22/03/2014,Charlton,Burnley,0,3,A
+E1,22/03/2014,Brighton,Ipswich,0,2,A
+E1,22/03/2014,Barnsley,Bournemouth,0,1,A
+E1,22/03/2014,Blackpool,Huddersfield,1,0,H
+E1,22/03/2014,Doncaster,Sheffield Weds,1,0,H
+E1,22/04/2014,Bolton,Leicester,0,1,A
+E1,22/04/2014,Reading,Middlesbrough,2,0,H
+E1,22/09/2013,Wigan,Ipswich,2,0,H
+E1,22/11/2013,Doncaster,Yeovil,2,1,H
+E1,23/11/2013,QPR,Charlton,1,0,H
+E1,23/11/2013,Nott'm Forest,Burnley,1,1,D
+E1,23/11/2013,Leeds,Middlesbrough,2,1,H
+E1,23/11/2013,Wigan,Brighton,0,1,A
+E1,23/11/2013,Millwall,Barnsley,1,0,H
+E1,23/11/2013,Ipswich,Leicester,1,2,A
+E1,23/11/2013,Birmingham,Blackpool,1,1,D
+E1,23/11/2013,Watford,Bolton,0,1,A
+E1,23/11/2013,Bournemouth,Derby,0,1,A
+E1,23/11/2013,Sheffield Weds,Huddersfield,1,2,A
+E1,23/11/2013,Blackburn,Reading,0,0,D
+E1,24/05/2014,Derby,QPR,0,1,A
+E1,24/08/2013,Huddersfield,Bournemouth,5,1,H
+E1,24/08/2013,Leicester,Birmingham,3,2,H
+E1,24/08/2013,Brighton,Burnley,2,0,H
+E1,24/08/2013,Bolton,QPR,0,1,A
+E1,24/08/2013,Yeovil,Derby,0,3,A
+E1,24/08/2013,Blackpool,Reading,1,0,H
+E1,24/08/2013,Blackburn,Barnsley,5,2,H
+E1,24/08/2013,Ipswich,Leeds,1,2,A
+E1,24/08/2013,Sheffield Weds,Millwall,2,2,D
+E1,25/01/2014,Leicester,Middlesbrough,2,0,H
+E1,25/01/2014,Ipswich,Reading,2,0,H
+E1,25/01/2014,Blackburn,Derby,1,1,D
+E1,25/01/2014,Blackpool,Doncaster,1,1,D
+E1,25/03/2014,Millwall,Birmingham,2,3,A
+E1,25/03/2014,Leicester,Yeovil,1,1,D
+E1,25/03/2014,Ipswich,Derby,2,1,H
+E1,25/03/2014,Nott'm Forest,Charlton,0,1,A
+E1,25/03/2014,QPR,Wigan,1,0,H
+E1,25/03/2014,Reading,Barnsley,1,3,A
+E1,25/03/2014,Bolton,Blackpool,1,0,H
+E1,25/03/2014,Burnley,Doncaster,2,0,H
+E1,25/03/2014,Watford,Blackburn,3,3,D
+E1,25/03/2014,Sheffield Weds,Brighton,1,0,H
+E1,25/03/2014,Bournemouth,Leeds,4,1,H
+E1,25/03/2014,Huddersfield,Middlesbrough,2,2,D
+E1,25/04/2014,Brighton,Yeovil,2,0,H
+E1,25/08/2013,Watford,Nott'm Forest,1,1,D
+E1,25/08/2013,Wigan,Middlesbrough,2,2,D
+E1,25/10/2013,Middlesbrough,Doncaster,4,0,H
+E1,26/04/2014,Birmingham,Leeds,1,3,A
+E1,26/04/2014,Doncaster,Reading,1,3,A
+E1,26/04/2014,Burnley,Ipswich,1,0,H
+E1,26/04/2014,Huddersfield,Leicester,0,2,A
+E1,26/04/2014,Bournemouth,Nott'm Forest,4,1,H
+E1,26/04/2014,Sheffield Weds,Bolton,1,3,A
+E1,26/04/2014,QPR,Millwall,1,1,D
+E1,26/04/2014,Middlesbrough,Barnsley,3,1,H
+E1,26/04/2014,Derby,Watford,4,2,H
+E1,26/04/2014,Wigan,Blackpool,0,2,A
+E1,26/04/2014,Charlton,Blackburn,1,3,A
+E1,26/10/2013,Barnsley,Sheffield Weds,1,1,D
+E1,26/10/2013,Yeovil,Nott'm Forest,3,1,H
+E1,26/10/2013,Derby,Birmingham,1,1,D
+E1,26/10/2013,Bolton,Ipswich,1,1,D
+E1,26/10/2013,Reading,Millwall,1,1,D
+E1,26/10/2013,Leicester,Bournemouth,2,1,H
+E1,26/10/2013,Burnley,QPR,2,0,H
+E1,26/10/2013,Huddersfield,Leeds,3,2,H
+E1,26/10/2013,Blackpool,Blackburn,2,2,D
+E1,26/11/2013,Charlton,Doncaster,2,0,H
+E1,26/12/2013,Doncaster,Ipswich,0,3,A
+E1,26/12/2013,Barnsley,Bolton,0,1,A
+E1,26/12/2013,Blackpool,Leeds,1,1,D
+E1,26/12/2013,Blackburn,Sheffield Weds,0,0,D
+E1,26/12/2013,Bournemouth,Yeovil,3,0,H
+E1,26/12/2013,Leicester,Reading,1,0,H
+E1,26/12/2013,Huddersfield,Derby,1,1,D
+E1,26/12/2013,Watford,Millwall,4,0,H
+E1,26/12/2013,Charlton,Brighton,3,2,H
+E1,26/12/2013,Wigan,Birmingham,0,0,D
+E1,26/12/2013,Nott'm Forest,QPR,2,0,H
+E1,26/12/2013,Middlesbrough,Burnley,1,0,H
+E1,27/09/2013,Huddersfield,Blackpool,1,1,D
+E1,27/10/2013,Charlton,Wigan,0,0,D
+E1,28/01/2014,Reading,Blackpool,5,1,H
+E1,28/01/2014,Doncaster,Charlton,3,0,H
+E1,28/01/2014,Barnsley,Blackburn,2,2,D
+E1,28/01/2014,QPR,Bolton,2,1,H
+E1,28/01/2014,Middlesbrough,Wigan,0,0,D
+E1,28/01/2014,Derby,Yeovil,3,2,H
+E1,28/01/2014,Leeds,Ipswich,1,1,D
+E1,28/01/2014,Millwall,Sheffield Weds,1,1,D
+E1,28/01/2014,Burnley,Brighton,0,0,D
+E1,28/01/2014,Bournemouth,Huddersfield,2,1,H
+E1,28/01/2014,Birmingham,Leicester,1,2,A
+E1,28/09/2013,Ipswich,Brighton,2,0,H
+E1,28/09/2013,Nott'm Forest,Derby,1,0,H
+E1,28/09/2013,Bournemouth,Blackburn,1,3,A
+E1,28/09/2013,Watford,Wigan,1,0,H
+E1,28/09/2013,Burnley,Charlton,3,0,H
+E1,28/09/2013,Leicester,Barnsley,2,1,H
+E1,28/09/2013,Reading,Birmingham,2,0,H
+E1,28/09/2013,Sheffield Weds,Doncaster,0,1,A
+E1,28/09/2013,Millwall,Leeds,2,0,H
+E1,28/09/2013,Bolton,Yeovil,1,1,D
+E1,28/09/2013,QPR,Middlesbrough,2,0,H
+E1,28/10/2013,Brighton,Watford,1,1,D
+E1,29/03/2014,Leeds,Doncaster,1,2,A
+E1,29/03/2014,Ipswich,Nott'm Forest,1,1,D
+E1,29/03/2014,Millwall,Blackburn,2,2,D
+E1,29/03/2014,Sheffield Weds,Watford,1,4,A
+E1,29/03/2014,Bolton,Wigan,1,1,D
+E1,29/03/2014,Birmingham,Bournemouth,2,4,A
+E1,29/03/2014,Yeovil,Barnsley,1,4,A
+E1,29/03/2014,Reading,Huddersfield,1,1,D
+E1,29/03/2014,QPR,Blackpool,1,1,D
+E1,29/03/2014,Brighton,Middlesbrough,0,2,A
+E1,29/03/2014,Burnley,Leicester,0,2,A
+E1,29/03/2014,Derby,Charlton,3,0,H
+E1,29/04/2014,Birmingham,Wigan,0,1,A
+E1,29/04/2014,Charlton,Watford,3,1,H
+E1,29/11/2013,Nott'm Forest,Reading,2,3,A
+E1,29/12/2013,Doncaster,Millwall,0,0,D
+E1,29/12/2013,Wigan,Burnley,0,0,D
+E1,29/12/2013,Barnsley,Derby,1,2,A
+E1,29/12/2013,Middlesbrough,Reading,3,0,H
+E1,29/12/2013,Blackburn,Birmingham,2,3,A
+E1,29/12/2013,Nott'm Forest,Leeds,2,1,H
+E1,29/12/2013,Leicester,Bolton,5,3,H
+E1,29/12/2013,Bournemouth,Ipswich,1,1,D
+E1,29/12/2013,Charlton,Sheffield Weds,1,1,D
+E1,29/12/2013,Blackpool,Brighton,0,1,A
+E1,29/12/2013,Huddersfield,Yeovil,5,1,H
+E1,29/12/2013,Watford,QPR,0,0,D
+E1,30/01/2014,Nott'm Forest,Watford,4,2,H
+E1,30/10/2013,Wigan,QPR,0,0,D
+E1,30/11/2013,Bournemouth,Brighton,1,1,D
+E1,30/11/2013,Blackpool,Sheffield Weds,2,0,H
+E1,30/11/2013,Doncaster,QPR,2,1,H
+E1,30/11/2013,Charlton,Ipswich,0,1,A
+E1,30/11/2013,Barnsley,Birmingham,0,3,A
+E1,30/11/2013,Middlesbrough,Bolton,1,0,H
+E1,30/11/2013,Blackburn,Leeds,1,0,H
+E1,30/11/2013,Leicester,Millwall,3,0,H
+E1,30/11/2013,Watford,Yeovil,0,3,A
+E1,30/11/2013,Huddersfield,Burnley,2,1,H
+E1,31/08/2013,Wigan,Nott'm Forest,2,1,H
+E1,31/08/2013,Brighton,Millwall,1,1,D
+E1,31/08/2013,Blackburn,Bolton,4,1,H
+E1,31/08/2013,Derby,Burnley,0,3,A
+E1,31/08/2013,Middlesbrough,Sheffield Weds,1,1,D
+E1,31/08/2013,Barnsley,Huddersfield,2,1,H
+E1,31/08/2013,Charlton,Leicester,2,1,H
+E1,31/08/2013,Doncaster,Bournemouth,0,1,A
+E1,31/08/2013,Blackpool,Watford,1,0,H
+E1,31/08/2013,Yeovil,Reading,0,1,A
+E1,31/08/2013,Birmingham,Ipswich,1,1,D
+E1,31/08/2013,Leeds,QPR,0,1,A

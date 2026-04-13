@@ -1,0 +1,558 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E3,01/01/2014,Plymouth,Torquay,2,0,H
+E3,01/01/2014,Fleetwood Town,Accrington ST,3,1,H
+E3,01/01/2014,Scunthorpe,Rochdale,3,0,H
+E3,01/01/2014,Southend,Portsmouth,2,1,H
+E3,01/01/2014,Hartlepool,Bury,0,3,A
+E3,01/01/2014,Mansfield,Burton,0,0,D
+E3,01/01/2014,Dag and Red,AFC Wimbledon,1,0,H
+E3,01/01/2014,York,Morecambe,1,0,H
+E3,01/02/2014,Portsmouth,Torquay,0,1,A
+E3,01/02/2014,Chesterfield,Bristol Rvs,3,1,H
+E3,01/02/2014,Bury,Wycombe,1,0,H
+E3,01/02/2014,Burton,Exeter,1,1,D
+E3,01/02/2014,Oxford,AFC Wimbledon,2,1,H
+E3,01/02/2014,Fleetwood Town,York,1,2,A
+E3,01/02/2014,Plymouth,Mansfield,1,1,D
+E3,01/02/2014,Rochdale,Dag and Red,0,1,A
+E3,01/02/2014,Cheltenham,Northampton,1,1,D
+E3,01/02/2014,Hartlepool,Scunthorpe,0,0,D
+E3,01/03/2014,Newport County,Scunthorpe,2,2,D
+E3,01/03/2014,Hartlepool,Torquay,3,0,H
+E3,01/03/2014,Plymouth,Morecambe,5,0,H
+E3,01/03/2014,Southend,Wycombe,1,1,D
+E3,01/03/2014,Rochdale,Oxford,3,0,H
+E3,01/03/2014,Northampton,Bristol Rvs,0,0,D
+E3,01/03/2014,Fleetwood Town,AFC Wimbledon,0,0,D
+E3,01/03/2014,Burton,Accrington ST,2,1,H
+E3,01/03/2014,Dag and Red,Mansfield,0,0,D
+E3,01/03/2014,Cheltenham,Bury,2,1,H
+E3,01/03/2014,York,Exeter,2,1,H
+E3,01/04/2014,Bury,Bristol Rvs,2,1,H
+E3,01/11/2013,Southend,Mansfield,3,0,H
+E3,01/12/2013,Newport County,Chesterfield,3,2,H
+E3,02/11/2013,Fleetwood Town,Newport County,4,1,H
+E3,02/11/2013,Oxford,Bristol Rvs,0,1,A
+E3,02/11/2013,Rochdale,AFC Wimbledon,1,2,A
+E3,02/11/2013,Bury,Torquay,1,3,A
+E3,02/11/2013,Burton,Morecambe,0,1,A
+E3,02/11/2013,Chesterfield,Scunthorpe,1,1,D
+E3,02/11/2013,Portsmouth,Exeter,3,2,H
+E3,02/11/2013,Plymouth,Northampton,1,0,H
+E3,02/11/2013,Accrington ST,Wycombe,1,1,D
+E3,02/11/2013,Hartlepool,Dag and Red,2,1,H
+E3,02/11/2013,Cheltenham,York,2,2,D
+E3,03/03/2014,Chesterfield,Portsmouth,0,0,D
+E3,03/05/2014,Bristol Rvs,Mansfield,0,1,A
+E3,03/05/2014,Morecambe,Bury,0,0,D
+E3,03/05/2014,Cheltenham,Dag and Red,2,3,A
+E3,03/05/2014,Newport County,Rochdale,2,1,H
+E3,03/05/2014,Hartlepool,Exeter,0,2,A
+E3,03/05/2014,Accrington ST,AFC Wimbledon,3,2,H
+E3,03/05/2014,Chesterfield,Fleetwood Town,2,1,H
+E3,03/05/2014,Southend,Burton,1,0,H
+E3,03/05/2014,Scunthorpe,York,2,2,D
+E3,03/05/2014,Northampton,Oxford,3,1,H
+E3,03/05/2014,Torquay,Wycombe,0,3,A
+E3,03/05/2014,Portsmouth,Plymouth,3,3,D
+E3,03/08/2013,Fleetwood Town,Dag and Red,3,1,H
+E3,03/08/2013,Wycombe,Morecambe,1,0,H
+E3,03/08/2013,York,Northampton,1,0,H
+E3,03/08/2013,Torquay,AFC Wimbledon,1,1,D
+E3,03/08/2013,Cheltenham,Burton,2,2,D
+E3,03/08/2013,Newport County,Accrington ST,4,1,H
+E3,03/08/2013,Exeter,Bristol Rvs,2,1,H
+E3,03/08/2013,Portsmouth,Oxford,1,4,A
+E3,03/08/2013,Bury,Chesterfield,0,2,A
+E3,03/08/2013,Southend,Plymouth,1,0,H
+E3,03/08/2013,Scunthorpe,Mansfield,2,0,H
+E3,03/08/2013,Rochdale,Hartlepool,3,0,H
+E3,04/01/2014,York,Dag and Red,3,1,H
+E3,04/01/2014,Torquay,Morecambe,1,1,D
+E3,04/01/2014,Wycombe,AFC Wimbledon,0,3,A
+E3,04/01/2014,Newport County,Northampton,1,2,A
+E3,04/01/2014,Exeter,Mansfield,0,1,A
+E3,04/02/2014,Bury,Oxford,1,1,D
+E3,04/03/2014,Newport County,Fleetwood Town,0,0,D
+E3,04/10/2013,Accrington ST,Dag and Red,1,2,A
+E3,04/12/2013,Portsmouth,Wycombe,2,2,D
+E3,05/04/2014,Accrington ST,Northampton,0,1,A
+E3,05/04/2014,Torquay,Scunthorpe,0,1,A
+E3,05/04/2014,Morecambe,Mansfield,0,1,A
+E3,05/04/2014,Cheltenham,Southend,1,2,A
+E3,05/04/2014,Wycombe,Dag and Red,2,0,H
+E3,05/04/2014,Portsmouth,Hartlepool,1,0,H
+E3,05/04/2014,Chesterfield,Newport County,1,1,D
+E3,05/04/2014,Oxford,Fleetwood Town,0,2,A
+E3,05/04/2014,Rochdale,York,0,0,D
+E3,05/04/2014,AFC Wimbledon,Bristol Rvs,0,0,D
+E3,05/04/2014,Burton,Plymouth,1,0,H
+E3,05/04/2014,Bury,Exeter,2,0,H
+E3,05/10/2013,Oxford,Southend,0,2,A
+E3,05/10/2013,Bristol Rvs,Fleetwood Town,1,3,A
+E3,05/10/2013,AFC Wimbledon,Northampton,0,2,A
+E3,05/10/2013,Scunthorpe,Cheltenham,2,0,H
+E3,05/10/2013,Exeter,Plymouth,3,1,H
+E3,05/10/2013,Portsmouth,Rochdale,3,0,H
+E3,05/10/2013,Wycombe,Burton,1,2,A
+E3,05/10/2013,Mansfield,Hartlepool,1,4,A
+E3,05/10/2013,Morecambe,Chesterfield,4,3,H
+E3,05/10/2013,Torquay,York,0,3,A
+E3,05/10/2013,Bury,Newport County,0,0,D
+E3,07/03/2014,Bury,Rochdale,0,0,D
+E3,07/09/2013,Burton,Oxford,0,2,A
+E3,07/09/2013,Dag and Red,Exeter,1,1,D
+E3,07/09/2013,Fleetwood Town,Torquay,4,1,H
+E3,07/09/2013,York,AFC Wimbledon,0,2,A
+E3,07/09/2013,Newport County,Mansfield,1,1,D
+E3,07/09/2013,Rochdale,Bury,1,0,H
+E3,07/09/2013,Southend,Morecambe,1,3,A
+E3,07/09/2013,Chesterfield,Accrington ST,1,0,H
+E3,07/09/2013,Plymouth,Bristol Rvs,1,0,H
+E3,07/09/2013,Hartlepool,Wycombe,1,2,A
+E3,07/09/2013,Northampton,Scunthorpe,1,1,D
+E3,07/09/2013,Cheltenham,Portsmouth,2,2,D
+E3,07/12/2013,Morecambe,Cheltenham,0,1,A
+E3,08/02/2014,York,Cheltenham,0,0,D
+E3,08/02/2014,Dag and Red,Hartlepool,0,2,A
+E3,08/02/2014,AFC Wimbledon,Rochdale,0,3,A
+E3,08/02/2014,Mansfield,Southend,2,1,H
+E3,08/02/2014,Morecambe,Burton,0,1,A
+E3,08/02/2014,Exeter,Portsmouth,1,1,D
+E3,08/02/2014,Wycombe,Accrington ST,0,0,D
+E3,08/02/2014,Scunthorpe,Chesterfield,1,1,D
+E3,08/02/2014,Northampton,Plymouth,0,2,A
+E3,08/02/2014,Bristol Rvs,Oxford,1,1,D
+E3,08/03/2014,Mansfield,Newport County,2,1,H
+E3,08/03/2014,Torquay,Fleetwood Town,0,1,A
+E3,08/03/2014,Wycombe,Hartlepool,2,1,H
+E3,08/03/2014,Portsmouth,Cheltenham,0,0,D
+E3,08/03/2014,Scunthorpe,Northampton,1,1,D
+E3,08/03/2014,Oxford,Burton,1,2,A
+E3,08/03/2014,Bristol Rvs,Plymouth,2,1,H
+E3,08/03/2014,AFC Wimbledon,York,0,1,A
+E3,08/03/2014,Morecambe,Southend,2,1,H
+E3,08/03/2014,Exeter,Dag and Red,2,2,D
+E3,08/03/2014,Accrington ST,Chesterfield,3,1,H
+E3,08/04/2014,Newport County,Plymouth,1,2,A
+E3,10/08/2013,Bristol Rvs,Scunthorpe,0,0,D
+E3,10/08/2013,Accrington ST,Portsmouth,2,2,D
+E3,10/08/2013,Northampton,Newport County,3,1,H
+E3,10/08/2013,Oxford,Bury,2,1,H
+E3,10/08/2013,Chesterfield,Cheltenham,2,0,H
+E3,10/08/2013,Hartlepool,Southend,0,1,A
+E3,10/08/2013,Mansfield,Exeter,0,0,D
+E3,10/08/2013,Morecambe,Torquay,1,1,D
+E3,10/08/2013,Dag and Red,York,2,0,H
+E3,10/08/2013,Burton,Rochdale,1,0,H
+E3,10/08/2013,AFC Wimbledon,Wycombe,1,0,H
+E3,10/08/2013,Plymouth,Fleetwood Town,0,2,A
+E3,11/01/2014,Plymouth,Southend,1,1,D
+E3,11/01/2014,Burton,Cheltenham,2,1,H
+E3,11/01/2014,AFC Wimbledon,Torquay,0,2,A
+E3,11/01/2014,Bristol Rvs,Exeter,2,1,H
+E3,11/01/2014,Northampton,York,0,2,A
+E3,11/01/2014,Oxford,Portsmouth,0,0,D
+E3,11/01/2014,Chesterfield,Bury,4,0,H
+E3,11/01/2014,Accrington ST,Newport County,3,3,D
+E3,11/01/2014,Hartlepool,Rochdale,0,3,A
+E3,11/01/2014,Mansfield,Scunthorpe,0,2,A
+E3,11/01/2014,Dag and Red,Fleetwood Town,0,1,A
+E3,11/01/2014,Morecambe,Wycombe,1,1,D
+E3,11/02/2014,Torquay,Northampton,1,2,A
+E3,11/02/2014,Bristol Rvs,Cheltenham,1,0,H
+E3,11/02/2014,Wycombe,Fleetwood Town,1,1,D
+E3,11/03/2014,AFC Wimbledon,Chesterfield,1,1,D
+E3,11/03/2014,Bristol Rvs,Dag and Red,1,2,A
+E3,11/03/2014,Torquay,Rochdale,2,1,H
+E3,11/03/2014,Morecambe,Newport County,4,1,H
+E3,11/03/2014,Oxford,Cheltenham,1,1,D
+E3,11/03/2014,Scunthorpe,Southend,2,2,D
+E3,11/03/2014,Bury,Fleetwood Town,2,2,D
+E3,11/03/2014,Portsmouth,Burton,0,0,D
+E3,11/03/2014,Wycombe,Plymouth,0,1,A
+E3,11/03/2014,Mansfield,York,0,1,A
+E3,11/03/2014,Exeter,Northampton,0,1,A
+E3,11/03/2014,Accrington ST,Hartlepool,0,0,D
+E3,11/05/2014,Burton,Southend,1,0,H
+E3,12/04/2014,Bristol Rvs,Torquay,1,2,A
+E3,12/04/2014,Plymouth,Oxford,0,2,A
+E3,12/04/2014,Scunthorpe,Bury,2,2,D
+E3,12/04/2014,Southend,AFC Wimbledon,0,1,A
+E3,12/04/2014,York,Accrington ST,1,1,D
+E3,12/04/2014,Dag and Red,Portsmouth,1,4,A
+E3,12/04/2014,Mansfield,Rochdale,3,0,H
+E3,12/04/2014,Newport County,Wycombe,2,0,H
+E3,12/04/2014,Hartlepool,Chesterfield,1,2,A
+E3,12/04/2014,Northampton,Burton,1,0,H
+E3,12/04/2014,Exeter,Cheltenham,1,1,D
+E3,12/04/2014,Fleetwood Town,Morecambe,2,2,D
+E3,12/05/2014,York,Fleetwood Town,0,1,A
+E3,12/10/2013,Oxford,Northampton,2,0,H
+E3,12/10/2013,Exeter,Hartlepool,0,3,A
+E3,12/10/2013,Wycombe,Torquay,3,2,H
+E3,12/10/2013,Rochdale,Newport County,3,0,H
+E3,12/10/2013,Mansfield,Bristol Rvs,1,1,D
+E3,12/10/2013,Plymouth,Portsmouth,1,1,D
+E3,12/10/2013,Burton,Southend,0,1,A
+E3,12/10/2013,AFC Wimbledon,Accrington ST,1,1,D
+E3,12/10/2013,Fleetwood Town,Chesterfield,1,1,D
+E3,12/10/2013,Dag and Red,Cheltenham,1,2,A
+E3,12/10/2013,Bury,Morecambe,0,2,A
+E3,13/09/2013,Southend,Scunthorpe,0,1,A
+E3,14/02/2014,Accrington ST,Scunthorpe,2,3,A
+E3,14/09/2013,Burton,Portsmouth,1,2,A
+E3,14/09/2013,Plymouth,Wycombe,0,3,A
+E3,14/09/2013,York,Mansfield,1,2,A
+E3,14/09/2013,Dag and Red,Bristol Rvs,2,0,H
+E3,14/09/2013,Cheltenham,Oxford,2,2,D
+E3,14/09/2013,Hartlepool,Accrington ST,2,1,H
+E3,14/09/2013,Fleetwood Town,Bury,2,1,H
+E3,14/09/2013,Northampton,Exeter,1,2,A
+E3,14/09/2013,Rochdale,Torquay,1,0,H
+E3,14/09/2013,Chesterfield,AFC Wimbledon,2,0,H
+E3,14/09/2013,Newport County,Morecambe,2,3,A
+E3,14/12/2013,Morecambe,Bristol Rvs,2,1,H
+E3,14/12/2013,Cheltenham,Hartlepool,2,2,D
+E3,14/12/2013,Torquay,Southend,1,0,H
+E3,14/12/2013,Wycombe,Scunthorpe,1,1,D
+E3,14/12/2013,Portsmouth,Newport County,0,2,A
+E3,14/12/2013,Chesterfield,Plymouth,2,0,H
+E3,14/12/2013,Rochdale,Fleetwood Town,1,2,A
+E3,14/12/2013,Oxford,Dag and Red,2,1,H
+E3,14/12/2013,AFC Wimbledon,Mansfield,0,0,D
+E3,14/12/2013,Burton,York,1,1,D
+E3,14/12/2013,Accrington ST,Exeter,2,3,A
+E3,14/12/2013,Bury,Northampton,1,1,D
+E3,15/02/2014,Burton,Dag and Red,1,1,D
+E3,15/02/2014,Hartlepool,Newport County,3,0,H
+E3,15/02/2014,Plymouth,York,0,4,A
+E3,15/02/2014,Portsmouth,AFC Wimbledon,1,0,H
+E3,15/02/2014,Chesterfield,Torquay,3,1,H
+E3,15/02/2014,Fleetwood Town,Northampton,2,0,H
+E3,15/02/2014,Oxford,Mansfield,3,0,H
+E3,15/02/2014,Rochdale,Morecambe,2,1,H
+E3,15/02/2014,Southend,Exeter,2,3,A
+E3,15/03/2014,Rochdale,Accrington ST,2,1,H
+E3,15/03/2014,York,Wycombe,2,0,H
+E3,15/03/2014,Dag and Red,Morecambe,1,1,D
+E3,15/03/2014,Cheltenham,Torquay,1,0,H
+E3,15/03/2014,Hartlepool,Bristol Rvs,4,0,H
+E3,15/03/2014,Burton,AFC Wimbledon,1,1,D
+E3,15/03/2014,Plymouth,Scunthorpe,0,2,A
+E3,15/03/2014,Chesterfield,Oxford,3,0,H
+E3,15/03/2014,Fleetwood Town,Portsmouth,3,1,H
+E3,15/03/2014,Northampton,Mansfield,1,1,D
+E3,15/03/2014,Southend,Bury,0,0,D
+E3,15/11/2013,Newport County,Hartlepool,2,0,H
+E3,16/03/2014,Newport County,Exeter,1,1,D
+E3,16/05/2014,Fleetwood Town,York,0,0,D
+E3,16/11/2013,Dag and Red,Burton,2,0,H
+E3,16/11/2013,Torquay,Chesterfield,0,2,A
+E3,16/11/2013,York,Plymouth,1,1,D
+E3,16/11/2013,Morecambe,Rochdale,1,2,A
+E3,16/11/2013,Mansfield,Oxford,1,3,A
+E3,16/11/2013,Exeter,Southend,0,2,A
+E3,16/11/2013,Wycombe,Cheltenham,1,2,A
+E3,16/11/2013,Scunthorpe,Accrington ST,0,2,A
+E3,16/11/2013,Northampton,Fleetwood Town,1,0,H
+E3,16/11/2013,Bristol Rvs,Bury,1,1,D
+E3,16/11/2013,AFC Wimbledon,Portsmouth,4,0,H
+E3,17/05/2014,Southend,Burton,2,2,D
+E3,17/08/2013,Wycombe,Mansfield,0,1,A
+E3,17/08/2013,Scunthorpe,Dag and Red,1,1,D
+E3,17/08/2013,Southend,Northampton,2,0,H
+E3,17/08/2013,Bury,Accrington ST,3,0,H
+E3,17/08/2013,Portsmouth,Morecambe,3,0,H
+E3,17/08/2013,Rochdale,Chesterfield,2,2,D
+E3,17/08/2013,Exeter,AFC Wimbledon,2,0,H
+E3,17/08/2013,Newport County,Bristol Rvs,1,0,H
+E3,17/08/2013,Cheltenham,Plymouth,1,3,A
+E3,17/08/2013,Torquay,Oxford,1,3,A
+E3,17/08/2013,York,Hartlepool,0,0,D
+E3,17/08/2013,Fleetwood Town,Burton,2,3,A
+E3,18/01/2014,York,Bristol Rvs,0,0,D
+E3,18/01/2014,Cheltenham,Accrington ST,1,2,A
+E3,18/01/2014,Portsmouth,Mansfield,1,1,D
+E3,18/01/2014,Bury,Burton,0,0,D
+E3,18/01/2014,Southend,Chesterfield,3,0,H
+E3,18/01/2014,Scunthorpe,AFC Wimbledon,0,0,D
+E3,18/01/2014,Fleetwood Town,Hartlepool,2,0,H
+E3,18/01/2014,Rochdale,Plymouth,3,0,H
+E3,18/01/2014,Wycombe,Oxford,0,1,A
+E3,18/02/2014,Newport County,Oxford,3,2,H
+E3,18/02/2014,Exeter,Morecambe,1,1,D
+E3,18/02/2014,Accrington ST,Bury,0,0,D
+E3,18/02/2014,Southend,Hartlepool,1,1,D
+E3,18/02/2014,Rochdale,Burton,1,1,D
+E3,18/03/2014,Accrington ST,Morecambe,5,1,H
+E3,18/03/2014,Cheltenham,Wycombe,1,1,D
+E3,18/03/2014,Torquay,Bury,2,1,H
+E3,18/03/2014,Plymouth,Chesterfield,2,1,H
+E3,18/03/2014,Northampton,Rochdale,0,3,A
+E3,18/04/2014,Morecambe,Scunthorpe,1,1,D
+E3,18/04/2014,Rochdale,Southend,0,3,A
+E3,18/04/2014,Bury,Plymouth,4,0,H
+E3,18/04/2014,AFC Wimbledon,Newport County,2,2,D
+E3,18/04/2014,Chesterfield,Exeter,1,1,D
+E3,18/04/2014,Wycombe,Northampton,1,1,D
+E3,18/04/2014,Accrington ST,Mansfield,1,1,D
+E3,18/04/2014,Torquay,Dag and Red,0,1,A
+E3,18/04/2014,Oxford,York,0,1,A
+E3,18/04/2014,Cheltenham,Fleetwood Town,1,2,A
+E3,18/10/2013,Southend,Fleetwood Town,2,0,H
+E3,19/03/2014,Newport County,Dag and Red,1,2,A
+E3,19/04/2014,Portsmouth,Bristol Rvs,3,2,H
+E3,19/04/2014,Burton,Hartlepool,3,0,H
+E3,19/10/2013,Portsmouth,Bury,1,0,H
+E3,19/10/2013,Accrington ST,Oxford,0,0,D
+E3,19/10/2013,Hartlepool,Plymouth,1,0,H
+E3,19/10/2013,Newport County,York,3,0,H
+E3,19/10/2013,Cheltenham,Rochdale,1,2,A
+E3,19/10/2013,Morecambe,AFC Wimbledon,1,1,D
+E3,19/10/2013,Torquay,Mansfield,0,0,D
+E3,19/10/2013,Chesterfield,Burton,0,2,A
+E3,19/10/2013,Northampton,Dag and Red,2,2,D
+E3,19/10/2013,Bristol Rvs,Wycombe,0,1,A
+E3,19/10/2013,Scunthorpe,Exeter,0,4,A
+E3,20/12/2013,Exeter,Chesterfield,0,2,A
+E3,20/12/2013,Southend,Rochdale,1,1,D
+E3,21/01/2014,Chesterfield,Rochdale,2,2,D
+E3,21/02/2014,Bristol Rvs,Burton,2,0,H
+E3,21/03/2014,Bristol Rvs,Southend,0,0,D
+E3,21/03/2014,Oxford,Hartlepool,1,0,H
+E3,21/04/2014,Northampton,Portsmouth,0,1,A
+E3,21/04/2014,York,Bury,1,0,H
+E3,21/04/2014,Fleetwood Town,Wycombe,1,0,H
+E3,21/04/2014,Dag and Red,Chesterfield,0,1,A
+E3,21/04/2014,Scunthorpe,Oxford,1,0,H
+E3,21/04/2014,Southend,Accrington ST,1,0,H
+E3,21/04/2014,Plymouth,AFC Wimbledon,1,2,A
+E3,21/04/2014,Exeter,Torquay,1,2,A
+E3,21/04/2014,Hartlepool,Morecambe,2,1,H
+E3,21/04/2014,Newport County,Burton,1,1,D
+E3,21/04/2014,Mansfield,Cheltenham,0,2,A
+E3,21/04/2014,Bristol Rvs,Rochdale,1,2,A
+E3,21/09/2013,Bury,Southend,1,1,D
+E3,21/09/2013,Portsmouth,Fleetwood Town,0,1,A
+E3,21/09/2013,Torquay,Cheltenham,4,2,H
+E3,21/09/2013,Morecambe,Dag and Red,2,2,D
+E3,21/09/2013,Mansfield,Northampton,3,0,H
+E3,21/09/2013,Exeter,Newport County,0,2,A
+E3,21/09/2013,Accrington ST,Rochdale,1,2,A
+E3,21/09/2013,Oxford,Chesterfield,0,1,A
+E3,21/09/2013,Bristol Rvs,Hartlepool,2,2,D
+E3,21/09/2013,AFC Wimbledon,Burton,3,1,H
+E3,21/09/2013,Wycombe,York,1,1,D
+E3,21/09/2013,Scunthorpe,Plymouth,1,0,H
+E3,21/12/2013,Plymouth,Bury,2,1,H
+E3,21/12/2013,Hartlepool,Burton,1,1,D
+E3,21/12/2013,Bristol Rvs,Portsmouth,2,0,H
+E3,21/12/2013,York,Oxford,0,0,D
+E3,21/12/2013,Dag and Red,Torquay,0,1,A
+E3,21/12/2013,Mansfield,Accrington ST,2,3,A
+E3,21/12/2013,Fleetwood Town,Cheltenham,0,2,A
+E3,21/12/2013,Northampton,Wycombe,1,4,A
+E3,21/12/2013,Scunthorpe,Morecambe,2,0,H
+E3,22/02/2014,Exeter,Rochdale,0,1,A
+E3,22/02/2014,Northampton,Hartlepool,2,0,H
+E3,22/02/2014,AFC Wimbledon,Bury,0,1,A
+E3,22/02/2014,Morecambe,Oxford,1,1,D
+E3,22/02/2014,Mansfield,Fleetwood Town,1,0,H
+E3,22/02/2014,Dag and Red,Plymouth,1,2,A
+E3,22/02/2014,Torquay,Accrington ST,0,1,A
+E3,22/02/2014,York,Southend,0,0,D
+E3,22/02/2014,Scunthorpe,Portsmouth,5,1,H
+E3,22/02/2014,Newport County,Cheltenham,0,1,A
+E3,22/02/2014,Wycombe,Chesterfield,1,0,H
+E3,22/03/2014,Scunthorpe,Burton,1,0,H
+E3,22/03/2014,Bury,Dag and Red,1,1,D
+E3,22/03/2014,Portsmouth,York,0,1,A
+E3,22/03/2014,Wycombe,Rochdale,0,2,A
+E3,22/03/2014,AFC Wimbledon,Cheltenham,4,3,H
+E3,22/03/2014,Mansfield,Chesterfield,0,0,D
+E3,22/03/2014,Exeter,Fleetwood Town,3,0,H
+E3,22/03/2014,Accrington ST,Plymouth,1,1,D
+E3,22/03/2014,Torquay,Newport County,0,1,A
+E3,22/03/2014,Morecambe,Northampton,1,1,D
+E3,22/10/2013,Burton,Torquay,2,0,H
+E3,22/10/2013,Accrington ST,Bristol Rvs,2,1,H
+E3,22/10/2013,Hartlepool,AFC Wimbledon,3,1,H
+E3,22/10/2013,Cheltenham,Morecambe,3,0,H
+E3,22/10/2013,Bury,Mansfield,0,0,D
+E3,22/10/2013,Southend,Dag and Red,0,1,A
+E3,22/10/2013,Rochdale,Northampton,3,2,H
+E3,22/10/2013,Oxford,Exeter,0,0,D
+E3,22/10/2013,Fleetwood Town,Scunthorpe,0,1,A
+E3,22/10/2013,Plymouth,Newport County,0,0,D
+E3,22/10/2013,Chesterfield,York,2,2,D
+E3,23/11/2013,Hartlepool,Northampton,2,0,H
+E3,23/11/2013,Burton,Bristol Rvs,1,0,H
+E3,23/11/2013,Fleetwood Town,Mansfield,5,4,H
+E3,23/11/2013,Cheltenham,Newport County,0,0,D
+E3,23/11/2013,Bury,AFC Wimbledon,1,1,D
+E3,23/11/2013,Chesterfield,Wycombe,2,0,H
+E3,23/11/2013,Rochdale,Exeter,3,1,H
+E3,23/11/2013,Plymouth,Dag and Red,2,1,H
+E3,23/11/2013,Accrington ST,Torquay,2,1,H
+E3,23/11/2013,Southend,York,2,1,H
+E3,23/11/2013,Oxford,Morecambe,3,0,H
+E3,23/11/2013,Portsmouth,Scunthorpe,1,2,A
+E3,24/03/2014,Southend,Oxford,3,0,H
+E3,24/08/2013,Accrington ST,Cheltenham,0,1,A
+E3,24/08/2013,Plymouth,Rochdale,1,0,H
+E3,24/08/2013,Chesterfield,Southend,2,1,H
+E3,24/08/2013,Oxford,Wycombe,2,2,D
+E3,24/08/2013,Northampton,Torquay,1,2,A
+E3,24/08/2013,Burton,Bury,2,2,D
+E3,24/08/2013,Bristol Rvs,York,3,2,H
+E3,24/08/2013,Dag and Red,Newport County,1,1,D
+E3,24/08/2013,AFC Wimbledon,Scunthorpe,3,2,H
+E3,24/08/2013,Morecambe,Exeter,2,0,H
+E3,24/08/2013,Mansfield,Portsmouth,2,2,D
+E3,24/08/2013,Hartlepool,Fleetwood Town,0,1,A
+E3,25/01/2014,AFC Wimbledon,Exeter,2,1,H
+E3,25/01/2014,Bristol Rvs,Newport County,3,1,H
+E3,25/01/2014,Northampton,Chesterfield,1,3,A
+E3,25/01/2014,Oxford,Torquay,1,0,H
+E3,25/01/2014,Plymouth,Cheltenham,1,1,D
+E3,25/01/2014,Hartlepool,York,2,0,H
+E3,25/01/2014,Mansfield,Wycombe,2,2,D
+E3,25/01/2014,Dag and Red,Scunthorpe,3,3,D
+E3,25/01/2014,Burton,Fleetwood Town,2,4,A
+E3,25/01/2014,Morecambe,Portsmouth,2,2,D
+E3,25/02/2014,Exeter,Wycombe,0,1,A
+E3,25/02/2014,Scunthorpe,Bristol Rvs,1,1,D
+E3,25/02/2014,Portsmouth,Accrington ST,1,0,H
+E3,25/02/2014,Cheltenham,Chesterfield,1,4,A
+E3,25/02/2014,Mansfield,Bury,1,4,A
+E3,25/02/2014,Newport County,AFC Wimbledon,1,2,A
+E3,25/02/2014,Torquay,Burton,1,1,D
+E3,25/02/2014,Northampton,Southend,2,1,H
+E3,25/02/2014,Fleetwood Town,Plymouth,0,4,A
+E3,25/03/2014,Dag and Red,Accrington ST,0,0,D
+E3,25/03/2014,York,Torquay,1,0,H
+E3,25/03/2014,Plymouth,Exeter,1,2,A
+E3,25/03/2014,Hartlepool,Mansfield,2,4,A
+E3,25/03/2014,Newport County,Bury,0,0,D
+E3,25/03/2014,Chesterfield,Morecambe,1,0,H
+E3,25/03/2014,Rochdale,Portsmouth,3,0,H
+E3,25/03/2014,Northampton,AFC Wimbledon,2,2,D
+E3,25/03/2014,Fleetwood Town,Bristol Rvs,3,1,H
+E3,25/03/2014,Burton,Wycombe,1,0,H
+E3,25/03/2014,Cheltenham,Scunthorpe,0,2,A
+E3,26/04/2014,Exeter,Scunthorpe,2,0,H
+E3,26/04/2014,Mansfield,Torquay,1,3,A
+E3,26/04/2014,Wycombe,Bristol Rvs,1,2,A
+E3,26/04/2014,Plymouth,Hartlepool,1,1,D
+E3,26/04/2014,Rochdale,Cheltenham,2,0,H
+E3,26/04/2014,Oxford,Accrington ST,1,2,A
+E3,26/04/2014,Fleetwood Town,Southend,1,1,D
+E3,26/04/2014,AFC Wimbledon,Morecambe,0,3,A
+E3,26/04/2014,York,Newport County,1,0,H
+E3,26/04/2014,Bury,Portsmouth,4,4,D
+E3,26/04/2014,Dag and Red,Northampton,0,3,A
+E3,26/05/2014,Burton,Fleetwood Town,0,1,A
+E3,26/10/2013,Mansfield,Plymouth,0,1,A
+E3,26/10/2013,Morecambe,Accrington ST,1,2,A
+E3,26/10/2013,Northampton,Cheltenham,1,1,D
+E3,26/10/2013,AFC Wimbledon,Oxford,0,2,A
+E3,26/10/2013,Scunthorpe,Hartlepool,1,0,H
+E3,26/10/2013,Wycombe,Bury,1,2,A
+E3,26/10/2013,Bristol Rvs,Chesterfield,0,0,D
+E3,26/10/2013,Newport County,Southend,3,1,H
+E3,26/10/2013,York,Fleetwood Town,0,2,A
+E3,26/10/2013,Torquay,Portsmouth,1,1,D
+E3,26/10/2013,Dag and Red,Rochdale,3,1,H
+E3,26/10/2013,Exeter,Burton,0,1,A
+E3,26/11/2013,Cheltenham,Bristol Rvs,0,0,D
+E3,26/11/2013,Portsmouth,Southend,1,2,A
+E3,26/11/2013,Torquay,Plymouth,1,1,D
+E3,26/11/2013,Morecambe,York,0,0,D
+E3,26/11/2013,Accrington ST,Fleetwood Town,2,0,H
+E3,26/11/2013,Bury,Hartlepool,1,0,H
+E3,26/11/2013,Chesterfield,Northampton,0,0,D
+E3,26/11/2013,Rochdale,Scunthorpe,0,4,A
+E3,26/11/2013,Oxford,Newport County,0,0,D
+E3,26/11/2013,AFC Wimbledon,Dag and Red,1,1,D
+E3,26/11/2013,Burton,Mansfield,1,0,H
+E3,26/11/2013,Wycombe,Exeter,1,1,D
+E3,26/12/2013,Bury,Scunthorpe,2,2,D
+E3,26/12/2013,Wycombe,Newport County,0,1,A
+E3,26/12/2013,Portsmouth,Dag and Red,1,0,H
+E3,26/12/2013,Burton,Northampton,1,0,H
+E3,26/12/2013,AFC Wimbledon,Southend,0,1,A
+E3,26/12/2013,Oxford,Plymouth,2,3,A
+E3,26/12/2013,Rochdale,Mansfield,3,0,H
+E3,26/12/2013,Chesterfield,Hartlepool,1,1,D
+E3,26/12/2013,Torquay,Bristol Rvs,1,1,D
+E3,26/12/2013,Cheltenham,Exeter,1,0,H
+E3,26/12/2013,Morecambe,Fleetwood Town,1,0,H
+E3,26/12/2013,Accrington ST,York,1,1,D
+E3,27/01/2014,Scunthorpe,Fleetwood Town,0,0,D
+E3,27/04/2014,Burton,Chesterfield,0,2,A
+E3,27/09/2013,Southend,Bristol Rvs,1,1,D
+E3,28/01/2014,Dag and Red,Southend,1,1,D
+E3,28/01/2014,Exeter,Oxford,0,0,D
+E3,28/01/2014,Wycombe,Portsmouth,0,1,A
+E3,28/01/2014,Bristol Rvs,Accrington ST,0,1,A
+E3,28/01/2014,AFC Wimbledon,Hartlepool,2,1,H
+E3,28/01/2014,York,Chesterfield,0,2,A
+E3,28/09/2013,Northampton,Morecambe,0,0,D
+E3,28/09/2013,Rochdale,Wycombe,3,2,H
+E3,28/09/2013,Plymouth,Accrington ST,0,0,D
+E3,28/09/2013,Hartlepool,Oxford,1,3,A
+E3,28/09/2013,Newport County,Torquay,2,1,H
+E3,28/09/2013,Cheltenham,AFC Wimbledon,1,0,H
+E3,28/09/2013,Dag and Red,Bury,2,1,H
+E3,28/09/2013,York,Portsmouth,4,2,H
+E3,28/09/2013,Chesterfield,Mansfield,0,1,A
+E3,28/09/2013,Burton,Scunthorpe,2,2,D
+E3,28/09/2013,Fleetwood Town,Exeter,1,2,A
+E3,29/03/2014,York,Burton,0,0,D
+E3,29/03/2014,Bristol Rvs,Morecambe,1,0,H
+E3,29/03/2014,Northampton,Bury,0,3,A
+E3,29/03/2014,Fleetwood Town,Rochdale,0,0,D
+E3,29/03/2014,Southend,Torquay,1,0,H
+E3,29/03/2014,Scunthorpe,Wycombe,0,0,D
+E3,29/03/2014,Mansfield,AFC Wimbledon,1,0,H
+E3,29/03/2014,Dag and Red,Oxford,1,0,H
+E3,29/03/2014,Hartlepool,Cheltenham,0,1,A
+E3,29/03/2014,Exeter,Accrington ST,0,1,A
+E3,29/03/2014,Newport County,Portsmouth,1,2,A
+E3,29/10/2013,York,Scunthorpe,4,1,H
+E3,29/12/2013,Accrington ST,Southend,1,1,D
+E3,29/12/2013,Cheltenham,Mansfield,1,2,A
+E3,29/12/2013,Morecambe,Hartlepool,1,2,A
+E3,29/12/2013,Torquay,Exeter,1,3,A
+E3,29/12/2013,Chesterfield,Dag and Red,1,1,D
+E3,29/12/2013,Bury,York,2,1,H
+E3,29/12/2013,Rochdale,Bristol Rvs,2,0,H
+E3,29/12/2013,Oxford,Scunthorpe,0,2,A
+E3,29/12/2013,AFC Wimbledon,Plymouth,1,1,D
+E3,29/12/2013,Burton,Newport County,1,0,H
+E3,29/12/2013,Portsmouth,Northampton,0,0,D
+E3,30/11/2013,Fleetwood Town,Oxford,1,1,D
+E3,30/11/2013,Southend,Cheltenham,1,1,D
+E3,30/11/2013,York,Rochdale,0,0,D
+E3,30/11/2013,Dag and Red,Wycombe,2,0,H
+E3,30/11/2013,Mansfield,Morecambe,1,2,A
+E3,30/11/2013,Bristol Rvs,AFC Wimbledon,3,0,H
+E3,30/11/2013,Northampton,Accrington ST,1,0,H
+E3,30/11/2013,Scunthorpe,Torquay,3,1,H
+E3,30/11/2013,Hartlepool,Portsmouth,0,0,D
+E3,30/11/2013,Plymouth,Burton,0,1,A
+E3,30/11/2013,Exeter,Bury,2,2,D
+E3,31/01/2014,Southend,Newport County,0,0,D
+E3,31/08/2013,Morecambe,Plymouth,2,1,H
+E3,31/08/2013,Torquay,Hartlepool,0,0,D
+E3,31/08/2013,Exeter,York,2,1,H
+E3,31/08/2013,Wycombe,Southend,2,1,H
+E3,31/08/2013,AFC Wimbledon,Fleetwood Town,2,0,H
+E3,31/08/2013,Bristol Rvs,Northampton,1,0,H
+E3,31/08/2013,Oxford,Rochdale,1,1,D
+E3,31/08/2013,Scunthorpe,Newport County,1,1,D
+E3,31/08/2013,Bury,Cheltenham,4,1,H
+E3,31/08/2013,Portsmouth,Chesterfield,0,2,A
+E3,31/08/2013,Accrington ST,Burton,0,1,A
+E3,31/08/2013,Mansfield,Dag and Red,3,0,H

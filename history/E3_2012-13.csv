@@ -1,0 +1,549 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E3,01/01/2013,Northampton,Dag and Red,3,1,H
+E3,01/01/2013,Port Vale,Fleetwood Town,0,2,A
+E3,01/01/2013,Wycombe,Exeter,0,1,A
+E3,01/01/2013,Accrington ST,Chesterfield,1,0,H
+E3,01/01/2013,Barnet,Aldershot,0,1,A
+E3,01/01/2013,Morecambe,Bradford,0,0,D
+E3,01/01/2013,Torquay,AFC Wimbledon,2,3,A
+E3,01/01/2013,Rochdale,Rotherham,1,2,A
+E3,01/01/2013,York,Burton,3,0,H
+E3,01/01/2013,Bristol Rvs,Plymouth,2,1,H
+E3,01/01/2013,Southend,Gillingham,0,1,A
+E3,01/01/2013,Oxford,Cheltenham,1,0,H
+E3,01/02/2013,Bristol Rvs,Barnet,2,1,H
+E3,01/04/2013,York,Plymouth,2,0,H
+E3,01/04/2013,AFC Wimbledon,Barnet,0,1,A
+E3,01/04/2013,Southend,Fleetwood Town,1,1,D
+E3,01/04/2013,Gillingham,Rotherham,1,0,H
+E3,01/04/2013,Chesterfield,Port Vale,2,2,D
+E3,01/04/2013,Torquay,Bradford,1,3,A
+E3,01/04/2013,Dag and Red,Bristol Rvs,2,4,A
+E3,01/04/2013,Aldershot,Oxford,3,2,H
+E3,01/04/2013,Morecambe,Wycombe,0,1,A
+E3,01/04/2013,Cheltenham,Northampton,1,0,H
+E3,01/04/2013,Exeter,Rochdale,1,2,A
+E3,01/04/2013,Accrington ST,Burton,3,3,D
+E3,01/09/2012,Fleetwood Town,Aldershot,4,1,H
+E3,01/09/2012,Rochdale,Barnet,2,0,H
+E3,01/09/2012,Gillingham,Chesterfield,1,1,D
+E3,01/09/2012,Exeter,Burton,3,0,H
+E3,01/09/2012,Plymouth,Northampton,3,2,H
+E3,01/09/2012,Bristol Rvs,Morecambe,0,3,A
+E3,01/09/2012,Cheltenham,Accrington ST,0,3,A
+E3,01/09/2012,York,Oxford,3,1,H
+E3,01/09/2012,Port Vale,Torquay,1,1,D
+E3,01/09/2012,AFC Wimbledon,Dag and Red,2,2,D
+E3,01/09/2012,Southend,Wycombe,1,0,H
+E3,01/09/2012,Rotherham,Bradford,4,0,H
+E3,01/12/2012,Rochdale,York,2,3,A
+E3,01/12/2012,Wycombe,Bristol Rvs,2,0,H
+E3,01/12/2012,Torquay,Dag and Red,2,1,H
+E3,02/02/2013,Port Vale,Accrington ST,3,0,H
+E3,02/02/2013,York,Morecambe,1,4,A
+E3,02/02/2013,Cheltenham,Torquay,2,1,H
+E3,02/02/2013,Exeter,Aldershot,0,0,D
+E3,02/02/2013,Plymouth,Dag and Red,0,0,D
+E3,02/02/2013,Southend,Oxford,1,0,H
+E3,02/02/2013,Rochdale,Chesterfield,1,1,D
+E3,02/02/2013,Rotherham,Northampton,3,1,H
+E3,02/02/2013,AFC Wimbledon,Burton,1,1,D
+E3,02/02/2013,Fleetwood Town,Bradford,2,2,D
+E3,02/03/2013,Dag and Red,Chesterfield,0,1,A
+E3,02/03/2013,York,Bradford,0,2,A
+E3,02/03/2013,Aldershot,Gillingham,1,1,D
+E3,02/03/2013,Cheltenham,AFC Wimbledon,2,1,H
+E3,02/03/2013,Morecambe,Rochdale,3,0,H
+E3,02/03/2013,Accrington ST,Torquay,0,0,D
+E3,02/03/2013,Wycombe,Fleetwood Town,1,0,H
+E3,02/03/2013,Plymouth,Barnet,2,1,H
+E3,02/03/2013,Bristol Rvs,Burton,3,0,H
+E3,02/03/2013,Oxford,Port Vale,2,1,H
+E3,02/03/2013,Southend,Rotherham,1,1,D
+E3,02/03/2013,Exeter,Northampton,3,0,H
+E3,02/05/2013,Bradford,Burton,2,3,A
+E3,02/05/2013,Northampton,Cheltenham,1,0,H
+E3,02/10/2012,Torquay,Aldershot,4,3,H
+E3,02/10/2012,Port Vale,Dag and Red,1,1,D
+E3,02/10/2012,Southend,Burton,0,1,A
+E3,02/10/2012,Rochdale,Bradford,0,0,D
+E3,02/10/2012,Oxford,AFC Wimbledon,3,2,H
+E3,02/10/2012,Northampton,Gillingham,1,2,A
+E3,02/10/2012,York,Fleetwood Town,0,2,A
+E3,02/10/2012,Barnet,Exeter,1,2,A
+E3,02/10/2012,Morecambe,Chesterfield,2,0,H
+E3,02/10/2012,Wycombe,Plymouth,1,1,D
+E3,03/10/2012,Bristol Rvs,Cheltenham,0,1,A
+E3,04/02/2013,Gillingham,Wycombe,0,1,A
+E3,05/01/2013,Port Vale,Plymouth,4,0,H
+E3,05/01/2013,Northampton,Fleetwood Town,3,1,H
+E3,05/01/2013,Bristol Rvs,Gillingham,0,2,A
+E3,05/01/2013,Wycombe,Chesterfield,2,1,H
+E3,05/01/2013,Rochdale,AFC Wimbledon,0,1,A
+E3,05/01/2013,Barnet,Bradford,2,0,H
+E3,05/01/2013,York,Exeter,1,2,A
+E3,05/02/2013,Port Vale,AFC Wimbledon,3,0,H
+E3,05/02/2013,Cheltenham,Bristol Rvs,1,1,D
+E3,05/03/2013,Port Vale,Bradford,0,0,D
+E3,05/03/2013,Oxford,Rotherham,0,4,A
+E3,05/03/2013,Cheltenham,Chesterfield,1,0,H
+E3,05/04/2013,Port Vale,Burton,7,1,H
+E3,05/05/2013,Burton,Bradford,1,3,A
+E3,05/05/2013,Cheltenham,Northampton,0,1,A
+E3,06/03/2013,Bristol Rvs,Exeter,2,0,H
+E3,06/04/2013,Exeter,Dag and Red,0,1,A
+E3,06/04/2013,York,Accrington ST,1,1,D
+E3,06/04/2013,Morecambe,Rotherham,2,1,H
+E3,06/04/2013,Barnet,Chesterfield,0,2,A
+E3,06/04/2013,Bradford,Northampton,1,0,H
+E3,06/04/2013,Bristol Rvs,AFC Wimbledon,1,0,H
+E3,06/04/2013,Gillingham,Torquay,1,0,H
+E3,06/04/2013,Fleetwood Town,Rochdale,0,3,A
+E3,06/04/2013,Oxford,Wycombe,0,1,A
+E3,06/04/2013,Plymouth,Cheltenham,2,0,H
+E3,06/10/2012,Aldershot,Chesterfield,0,1,A
+E3,06/10/2012,Morecambe,Burton,0,0,D
+E3,06/10/2012,Cheltenham,Fleetwood Town,2,2,D
+E3,06/10/2012,Exeter,Port Vale,0,2,A
+E3,06/10/2012,Accrington ST,Rochdale,2,3,A
+E3,06/10/2012,Wycombe,Torquay,2,1,H
+E3,06/10/2012,Plymouth,AFC Wimbledon,1,2,A
+E3,06/10/2012,Southend,Barnet,2,2,D
+E3,06/10/2012,Oxford,Gillingham,0,0,D
+E3,06/10/2012,Bristol Rvs,Northampton,3,1,H
+E3,06/10/2012,York,Rotherham,0,0,D
+E3,06/10/2012,Dag and Red,Bradford,4,3,H
+E3,06/11/2012,Oxford,Dag and Red,2,3,A
+E3,06/11/2012,Aldershot,Wycombe,0,0,D
+E3,06/11/2012,Morecambe,Accrington ST,0,0,D
+E3,06/11/2012,Exeter,AFC Wimbledon,2,0,H
+E3,06/11/2012,Port Vale,Rochdale,2,2,D
+E3,06/11/2012,Gillingham,Cheltenham,0,0,D
+E3,06/11/2012,Bradford,Chesterfield,0,0,D
+E3,06/11/2012,York,Northampton,1,1,D
+E3,06/11/2012,Bristol Rvs,Southend,2,3,A
+E3,06/11/2012,Barnet,Torquay,1,0,H
+E3,06/11/2012,Fleetwood Town,Rotherham,1,1,D
+E3,07/11/2012,Plymouth,Burton,1,2,A
+E3,08/01/2013,Morecambe,Dag and Red,2,1,H
+E3,08/09/2012,Morecambe,Fleetwood Town,0,4,A
+E3,08/09/2012,Torquay,Plymouth,0,0,D
+E3,08/09/2012,York,Chesterfield,2,2,D
+E3,08/09/2012,Wycombe,Cheltenham,1,1,D
+E3,08/09/2012,Accrington ST,Bradford,1,1,D
+E3,08/09/2012,Port Vale,Rotherham,6,2,H
+E3,08/09/2012,Southend,Dag and Red,3,1,H
+E3,08/09/2012,Rochdale,Burton,0,1,A
+E3,08/09/2012,Northampton,AFC Wimbledon,2,0,H
+E3,08/09/2012,Barnet,Gillingham,1,3,A
+E3,08/09/2012,Bristol Rvs,Aldershot,2,2,D
+E3,08/09/2012,Oxford,Exeter,2,4,A
+E3,08/12/2012,Barnet,AFC Wimbledon,1,1,D
+E3,08/12/2012,Wycombe,Morecambe,2,2,D
+E3,08/12/2012,Plymouth,York,2,0,H
+E3,08/12/2012,Port Vale,Chesterfield,0,2,A
+E3,08/12/2012,Bradford,Torquay,1,0,H
+E3,08/12/2012,Rochdale,Exeter,2,3,A
+E3,08/12/2012,Oxford,Aldershot,1,1,D
+E3,08/12/2012,Rotherham,Gillingham,1,2,A
+E3,08/12/2012,Bristol Rvs,Dag and Red,0,1,A
+E3,08/12/2012,Fleetwood Town,Southend,0,0,D
+E3,08/12/2012,Northampton,Cheltenham,2,3,A
+E3,09/02/2013,Accrington ST,Southend,1,1,D
+E3,09/02/2013,Chesterfield,AFC Wimbledon,2,0,H
+E3,09/02/2013,Oxford,Bristol Rvs,0,2,A
+E3,09/02/2013,Northampton,Rochdale,3,1,H
+E3,09/02/2013,Burton,Rotherham,2,0,H
+E3,09/02/2013,Wycombe,York,4,0,H
+E3,09/02/2013,Dag and Red,Cheltenham,1,0,H
+E3,09/02/2013,Barnet,Port Vale,0,0,D
+E3,09/02/2013,Morecambe,Exeter,0,3,A
+E3,09/02/2013,Torquay,Fleetwood Town,0,1,A
+E3,09/02/2013,Bradford,Gillingham,0,1,A
+E3,09/02/2013,Aldershot,Plymouth,1,2,A
+E3,09/03/2013,Rochdale,Wycombe,4,1,H
+E3,09/03/2013,Rotherham,Dag and Red,1,2,A
+E3,09/03/2013,Torquay,Oxford,1,3,A
+E3,09/03/2013,Chesterfield,Bristol Rvs,2,0,H
+E3,09/03/2013,Port Vale,Southend,1,2,A
+E3,09/03/2013,Bradford,Aldershot,1,1,D
+E3,09/03/2013,Fleetwood Town,Exeter,0,0,D
+E3,09/03/2013,AFC Wimbledon,York,3,2,H
+E3,09/04/2013,Rotherham,Exeter,4,1,H
+E3,09/04/2013,Burton,Wycombe,2,0,H
+E3,09/04/2013,Port Vale,Aldershot,1,1,D
+E3,09/04/2013,Bradford,Bristol Rvs,4,1,H
+E3,09/12/2012,Burton,Accrington ST,1,0,H
+E3,10/04/2013,Rochdale,Southend,4,2,H
+E3,10/11/2012,Aldershot,Bradford,0,2,A
+E3,10/11/2012,Dag and Red,Rotherham,5,0,H
+E3,10/11/2012,Cheltenham,Burton,1,0,H
+E3,10/11/2012,Exeter,Fleetwood Town,2,2,D
+E3,10/11/2012,York,AFC Wimbledon,0,3,A
+E3,10/11/2012,Accrington ST,Northampton,2,4,A
+E3,10/11/2012,Bristol Rvs,Chesterfield,3,2,H
+E3,10/11/2012,Plymouth,Gillingham,2,2,D
+E3,10/11/2012,Southend,Port Vale,0,0,D
+E3,10/11/2012,Oxford,Torquay,0,0,D
+E3,10/11/2012,Morecambe,Barnet,4,1,H
+E3,10/11/2012,Wycombe,Rochdale,1,2,A
+E3,12/01/2013,Chesterfield,Northampton,3,0,H
+E3,12/01/2013,AFC Wimbledon,Wycombe,2,2,D
+E3,12/01/2013,Burton,Torquay,2,1,H
+E3,12/01/2013,Aldershot,Accrington ST,2,0,H
+E3,12/01/2013,Dag and Red,Rochdale,2,1,H
+E3,12/01/2013,Rotherham,Barnet,0,2,A
+E3,12/01/2013,Gillingham,Port Vale,1,2,A
+E3,12/01/2013,Fleetwood Town,Bristol Rvs,0,3,A
+E3,12/01/2013,Bradford,Oxford,1,2,A
+E3,12/01/2013,Exeter,Southend,3,0,H
+E3,12/01/2013,Cheltenham,York,1,1,D
+E3,12/01/2013,Plymouth,Morecambe,2,1,H
+E3,12/02/2013,York,Gillingham,0,0,D
+E3,12/02/2013,Morecambe,Aldershot,2,1,H
+E3,12/02/2013,Wycombe,Bradford,0,3,A
+E3,12/02/2013,Southend,Cheltenham,1,2,A
+E3,12/02/2013,Oxford,Fleetwood Town,1,2,A
+E3,12/02/2013,Torquay,Rotherham,1,3,A
+E3,12/03/2013,York,Rochdale,0,0,D
+E3,12/03/2013,Wycombe,Rotherham,2,2,D
+E3,12/03/2013,Aldershot,Burton,1,2,A
+E3,12/03/2013,Morecambe,Northampton,1,1,D
+E3,12/03/2013,Accrington ST,Fleetwood Town,0,3,A
+E3,12/03/2013,Dag and Red,Torquay,2,2,D
+E3,12/03/2013,Plymouth,Bradford,0,0,D
+E3,12/03/2013,Southend,AFC Wimbledon,1,3,A
+E3,12/03/2013,Oxford,Barnet,1,0,H
+E3,12/03/2013,Bristol Rvs,Port Vale,2,0,H
+E3,12/04/2013,Accrington ST,Morecambe,2,0,H
+E3,13/04/2013,Rochdale,Port Vale,2,2,D
+E3,13/04/2013,Northampton,York,0,2,A
+E3,13/04/2013,AFC Wimbledon,Exeter,2,2,D
+E3,13/04/2013,Chesterfield,Bradford,2,2,D
+E3,13/04/2013,Wycombe,Aldershot,2,1,H
+E3,13/04/2013,Cheltenham,Gillingham,1,0,H
+E3,13/04/2013,Dag and Red,Oxford,0,1,A
+E3,13/04/2013,Southend,Bristol Rvs,0,0,D
+E3,13/04/2013,Rotherham,Fleetwood Town,2,1,H
+E3,13/04/2013,Burton,Plymouth,1,0,H
+E3,13/10/2012,Gillingham,Aldershot,4,0,H
+E3,13/10/2012,Rotherham,Southend,0,3,A
+E3,13/10/2012,Burton,Bristol Rvs,1,1,D
+E3,13/10/2012,AFC Wimbledon,Cheltenham,1,2,A
+E3,13/10/2012,Fleetwood Town,Wycombe,0,1,A
+E3,13/10/2012,Northampton,Exeter,3,0,H
+E3,13/10/2012,Rochdale,Morecambe,1,2,A
+E3,13/10/2012,Bradford,York,1,1,D
+E3,13/10/2012,Chesterfield,Dag and Red,1,2,A
+E3,13/10/2012,Torquay,Accrington ST,3,1,H
+E3,13/10/2012,Barnet,Plymouth,1,4,A
+E3,15/01/2013,Torquay,Exeter,1,1,D
+E3,15/02/2013,Exeter,Accrington ST,2,0,H
+E3,15/09/2012,Dag and Red,Accrington ST,1,1,D
+E3,15/09/2012,Fleetwood Town,Northampton,1,0,H
+E3,15/09/2012,Aldershot,Morecambe,0,0,D
+E3,15/09/2012,Cheltenham,Southend,1,3,A
+E3,15/09/2012,Exeter,York,1,1,D
+E3,15/09/2012,Plymouth,Port Vale,1,3,A
+E3,15/09/2012,Gillingham,Bristol Rvs,4,0,H
+E3,15/09/2012,Chesterfield,Wycombe,3,1,H
+E3,15/09/2012,Bradford,Barnet,3,0,H
+E3,15/09/2012,Rotherham,Torquay,1,0,H
+E3,15/09/2012,AFC Wimbledon,Rochdale,1,2,A
+E3,15/09/2012,Burton,Oxford,4,0,H
+E3,15/10/2012,Port Vale,Oxford,3,0,H
+E3,15/12/2012,Aldershot,Rochdale,4,2,H
+E3,15/12/2012,Torquay,Northampton,1,1,D
+E3,15/12/2012,Dag and Red,Barnet,1,0,H
+E3,15/12/2012,York,Bristol Rvs,4,1,H
+E3,15/12/2012,Cheltenham,Port Vale,1,1,D
+E3,15/12/2012,Southend,Bradford,2,2,D
+E3,15/12/2012,Gillingham,Fleetwood Town,2,2,D
+E3,15/12/2012,Chesterfield,Burton,1,1,D
+E3,15/12/2012,AFC Wimbledon,Rotherham,0,1,A
+E3,15/12/2012,Exeter,Plymouth,1,1,D
+E3,15/12/2012,Accrington ST,Wycombe,0,2,A
+E3,15/12/2012,Morecambe,Oxford,1,1,D
+E3,16/02/2013,Cheltenham,Aldershot,1,1,D
+E3,16/02/2013,Plymouth,Oxford,0,1,A
+E3,16/02/2013,Port Vale,Morecambe,0,1,A
+E3,16/02/2013,York,Barnet,1,2,A
+E3,16/02/2013,Gillingham,Dag and Red,2,1,H
+E3,16/02/2013,Bristol Rvs,Wycombe,1,0,H
+E3,16/02/2013,Rochdale,Torquay,1,0,H
+E3,16/02/2013,Fleetwood Town,Burton,0,4,A
+E3,16/02/2013,AFC Wimbledon,Bradford,2,1,H
+E3,16/02/2013,Rotherham,Chesterfield,1,0,H
+E3,16/02/2013,Southend,Northampton,1,2,A
+E3,16/03/2013,Cheltenham,Rotherham,3,0,H
+E3,16/03/2013,Southend,Torquay,1,1,D
+E3,16/03/2013,Oxford,Chesterfield,0,1,A
+E3,16/03/2013,Bristol Rvs,Rochdale,2,1,H
+E3,16/03/2013,York,Port Vale,0,2,A
+E3,16/03/2013,Dag and Red,Burton,1,1,D
+E3,16/03/2013,Morecambe,Gillingham,1,1,D
+E3,16/03/2013,Plymouth,Fleetwood Town,2,1,H
+E3,16/03/2013,Exeter,Bradford,4,1,H
+E3,16/03/2013,Aldershot,AFC Wimbledon,0,1,A
+E3,16/03/2013,Accrington ST,Barnet,3,2,H
+E3,16/04/2013,Bradford,Rotherham,0,2,A
+E3,16/04/2013,Chesterfield,Plymouth,1,2,A
+E3,16/04/2013,Wycombe,Northampton,0,0,D
+E3,16/04/2013,Aldershot,Southend,0,2,A
+E3,16/04/2013,Torquay,Barnet,3,2,H
+E3,16/11/2012,Barnet,Accrington ST,1,1,D
+E3,17/11/2012,Port Vale,York,2,2,D
+E3,17/11/2012,Rotherham,Cheltenham,4,2,H
+E3,17/11/2012,Burton,Dag and Red,3,2,H
+E3,17/11/2012,AFC Wimbledon,Aldershot,1,1,D
+E3,17/11/2012,Fleetwood Town,Plymouth,3,0,H
+E3,17/11/2012,Northampton,Wycombe,3,1,H
+E3,17/11/2012,Rochdale,Bristol Rvs,2,1,H
+E3,17/11/2012,Bradford,Exeter,0,1,A
+E3,17/11/2012,Chesterfield,Oxford,2,1,H
+E3,17/11/2012,Gillingham,Morecambe,2,1,H
+E3,17/11/2012,Torquay,Southend,1,4,A
+E3,18/01/2013,Morecambe,Cheltenham,0,0,D
+E3,18/05/2013,Bradford,Northampton,3,0,H
+E3,18/08/2012,Rotherham,Burton,3,0,H
+E3,18/08/2012,Port Vale,Barnet,3,0,H
+E3,18/08/2012,AFC Wimbledon,Chesterfield,1,0,H
+E3,18/08/2012,Bristol Rvs,Oxford,0,2,A
+E3,18/08/2012,Fleetwood Town,Torquay,0,0,D
+E3,18/08/2012,Exeter,Morecambe,0,3,A
+E3,18/08/2012,Gillingham,Bradford,3,1,H
+E3,18/08/2012,Southend,Accrington ST,0,1,A
+E3,18/08/2012,Rochdale,Northampton,0,0,D
+E3,18/08/2012,Cheltenham,Dag and Red,2,0,H
+E3,18/08/2012,York,Wycombe,1,3,A
+E3,18/08/2012,Plymouth,Aldershot,0,2,A
+E3,18/09/2012,AFC Wimbledon,Torquay,0,1,A
+E3,18/09/2012,Rotherham,Rochdale,2,3,A
+E3,18/09/2012,Bradford,Morecambe,3,1,H
+E3,18/09/2012,Chesterfield,Accrington ST,4,3,H
+E3,18/09/2012,Dag and Red,Northampton,0,1,A
+E3,18/09/2012,Aldershot,Barnet,1,0,H
+E3,18/09/2012,Cheltenham,Oxford,2,1,H
+E3,18/09/2012,Exeter,Wycombe,3,2,H
+E3,18/09/2012,Plymouth,Bristol Rvs,1,1,D
+E3,18/09/2012,Fleetwood Town,Port Vale,2,5,A
+E3,18/09/2012,Gillingham,Southend,1,0,H
+E3,19/01/2013,Northampton,Burton,1,0,H
+E3,19/01/2013,Wycombe,Dag and Red,1,0,H
+E3,19/01/2013,York,Aldershot,0,0,D
+E3,19/02/2013,Aldershot,Torquay,1,0,H
+E3,19/02/2013,Bristol Rvs,Rotherham,1,2,A
+E3,19/02/2013,AFC Wimbledon,Northampton,1,1,D
+E3,19/03/2013,Rochdale,Gillingham,1,1,D
+E3,19/03/2013,Bradford,Wycombe,1,0,H
+E3,19/03/2013,Accrington ST,AFC Wimbledon,4,0,H
+E3,19/03/2013,Torquay,Chesterfield,2,1,H
+E3,19/03/2013,Barnet,Fleetwood Town,2,0,H
+E3,19/03/2013,Southend,Plymouth,0,2,A
+E3,19/09/2012,Burton,York,3,1,H
+E3,19/10/2012,Barnet,Northampton,4,0,H
+E3,20/04/2013,Oxford,Rochdale,3,0,H
+E3,20/04/2013,Bristol Rvs,Accrington ST,0,1,A
+E3,20/04/2013,York,Southend,2,1,H
+E3,20/04/2013,Aldershot,Dag and Red,1,0,H
+E3,20/04/2013,Morecambe,Torquay,0,2,A
+E3,20/04/2013,Barnet,Wycombe,1,0,H
+E3,20/04/2013,Exeter,Cheltenham,0,1,A
+E3,20/04/2013,Plymouth,Rotherham,0,1,A
+E3,20/04/2013,Port Vale,Northampton,2,2,D
+E3,20/04/2013,Gillingham,AFC Wimbledon,2,2,D
+E3,20/04/2013,Bradford,Burton,1,0,H
+E3,20/04/2013,Fleetwood Town,Chesterfield,1,3,A
+E3,20/10/2012,Port Vale,Wycombe,4,1,H
+E3,20/10/2012,Gillingham,Burton,4,1,H
+E3,20/10/2012,Fleetwood Town,AFC Wimbledon,1,1,D
+E3,20/10/2012,Bristol Rvs,Torquay,3,2,H
+E3,20/10/2012,Oxford,Accrington ST,5,0,H
+E3,20/10/2012,Morecambe,Southend,1,0,H
+E3,20/10/2012,Aldershot,Rotherham,0,3,A
+E3,20/10/2012,Plymouth,Rochdale,3,1,H
+E3,20/10/2012,York,Dag and Red,3,2,H
+E3,20/10/2012,Bradford,Cheltenham,3,1,H
+E3,20/10/2012,Exeter,Chesterfield,0,1,A
+E3,20/11/2012,Bradford,Plymouth,1,0,H
+E3,20/11/2012,Burton,Aldershot,0,1,A
+E3,20/11/2012,AFC Wimbledon,Southend,0,4,A
+E3,20/11/2012,Fleetwood Town,Accrington ST,1,3,A
+E3,20/11/2012,Northampton,Morecambe,3,0,H
+E3,20/11/2012,Chesterfield,Cheltenham,4,1,H
+E3,20/11/2012,Port Vale,Bristol Rvs,4,0,H
+E3,20/11/2012,Barnet,Oxford,2,2,D
+E3,20/11/2012,Rotherham,Wycombe,2,3,A
+E3,20/11/2012,Gillingham,Exeter,2,3,A
+E3,21/08/2012,Dag and Red,Plymouth,0,0,D
+E3,21/08/2012,Bradford,Fleetwood Town,1,0,H
+E3,21/08/2012,Torquay,Cheltenham,2,2,D
+E3,21/08/2012,Barnet,Bristol Rvs,1,1,D
+E3,21/08/2012,Aldershot,Exeter,1,2,A
+E3,21/08/2012,Wycombe,Gillingham,0,1,A
+E3,21/08/2012,Burton,AFC Wimbledon,6,2,H
+E3,21/08/2012,Northampton,Rotherham,2,1,H
+E3,21/08/2012,Oxford,Southend,2,0,H
+E3,21/08/2012,Chesterfield,Rochdale,1,1,D
+E3,21/08/2012,Accrington ST,Port Vale,2,0,H
+E3,21/08/2012,Morecambe,York,2,2,D
+E3,21/12/2012,Barnet,Burton,3,2,H
+E3,21/12/2012,Southend,Chesterfield,3,0,H
+E3,21/12/2012,Rochdale,Cheltenham,4,1,H
+E3,22/01/2013,Aldershot,Northampton,1,2,A
+E3,22/09/2012,Bristol Rvs,Fleetwood Town,0,0,D
+E3,22/09/2012,York,Cheltenham,0,0,D
+E3,22/09/2012,Rochdale,Dag and Red,2,2,D
+E3,22/09/2012,Torquay,Burton,1,1,D
+E3,22/09/2012,Morecambe,Plymouth,2,3,A
+E3,22/09/2012,Barnet,Rotherham,0,0,D
+E3,22/09/2012,Accrington ST,Aldershot,1,0,H
+E3,22/09/2012,Wycombe,AFC Wimbledon,0,1,A
+E3,22/09/2012,Northampton,Chesterfield,0,0,D
+E3,22/09/2012,Port Vale,Gillingham,0,2,A
+E3,22/09/2012,Oxford,Bradford,0,2,A
+E3,22/09/2012,Southend,Exeter,2,1,H
+E3,22/12/2012,Accrington ST,Plymouth,1,1,D
+E3,22/12/2012,Northampton,Aldershot,2,0,H
+E3,23/02/2013,Aldershot,Fleetwood Town,2,0,H
+E3,23/02/2013,Wycombe,Southend,1,2,A
+E3,23/02/2013,Morecambe,Bristol Rvs,1,1,D
+E3,23/02/2013,Barnet,Rochdale,0,0,D
+E3,23/02/2013,Accrington ST,Cheltenham,2,2,D
+E3,23/02/2013,Chesterfield,Gillingham,0,1,A
+E3,23/02/2013,Northampton,Plymouth,1,0,H
+E3,23/02/2013,Burton,Exeter,4,2,H
+E3,23/02/2013,Dag and Red,AFC Wimbledon,0,1,A
+E3,23/02/2013,Torquay,Port Vale,0,1,A
+E3,23/03/2013,AFC Wimbledon,Morecambe,2,0,H
+E3,23/03/2013,Fleetwood Town,Dag and Red,2,1,H
+E3,23/03/2013,Northampton,Oxford,1,0,H
+E3,23/03/2013,Gillingham,Accrington ST,1,0,H
+E3,23/03/2013,Barnet,Cheltenham,0,0,D
+E3,23/03/2013,Torquay,York,2,1,H
+E3,23/10/2012,Cheltenham,Plymouth,2,1,H
+E3,23/10/2012,Torquay,Gillingham,2,1,H
+E3,23/10/2012,Dag and Red,Exeter,1,1,D
+E3,23/10/2012,Accrington ST,York,0,1,A
+E3,23/10/2012,Chesterfield,Fleetwood Town,1,2,A
+E3,23/10/2012,Rochdale,Oxford,2,0,H
+E3,23/10/2012,Southend,Aldershot,1,2,A
+E3,23/10/2012,Wycombe,Barnet,0,0,D
+E3,23/10/2012,Burton,Port Vale,1,1,D
+E3,23/10/2012,Rotherham,Morecambe,2,1,H
+E3,23/10/2012,AFC Wimbledon,Bristol Rvs,3,1,H
+E3,23/10/2012,Northampton,Bradford,0,1,A
+E3,24/01/2013,AFC Wimbledon,Port Vale,2,2,D
+E3,24/11/2012,Southend,Rochdale,3,1,H
+E3,24/11/2012,York,Torquay,0,2,A
+E3,24/11/2012,Dag and Red,Fleetwood Town,1,0,H
+E3,24/11/2012,Aldershot,Port Vale,1,3,A
+E3,24/11/2012,Bristol Rvs,Bradford,3,3,D
+E3,24/11/2012,Oxford,Northampton,2,1,H
+E3,24/11/2012,Plymouth,Chesterfield,0,1,A
+E3,24/11/2012,Wycombe,Burton,3,0,H
+E3,24/11/2012,Exeter,Rotherham,0,1,A
+E3,24/11/2012,Cheltenham,Barnet,1,0,H
+E3,24/11/2012,Morecambe,AFC Wimbledon,3,1,H
+E3,24/11/2012,Accrington ST,Gillingham,1,1,D
+E3,25/01/2013,Cheltenham,Rochdale,0,0,D
+E3,25/08/2012,Oxford,Plymouth,2,1,H
+E3,25/08/2012,Bradford,AFC Wimbledon,5,1,H
+E3,25/08/2012,Northampton,Southend,3,3,D
+E3,25/08/2012,Burton,Fleetwood Town,0,1,A
+E3,25/08/2012,Dag and Red,Gillingham,1,2,A
+E3,25/08/2012,Torquay,Rochdale,4,2,H
+E3,25/08/2012,Aldershot,Cheltenham,0,1,A
+E3,25/08/2012,Morecambe,Port Vale,1,3,A
+E3,25/08/2012,Barnet,York,1,3,A
+E3,25/08/2012,Accrington ST,Exeter,0,3,A
+E3,25/08/2012,Chesterfield,Rotherham,1,1,D
+E3,26/01/2013,Chesterfield,Southend,0,1,A
+E3,26/01/2013,Burton,Barnet,1,0,H
+E3,26/01/2013,Fleetwood Town,Oxford,3,0,H
+E3,26/01/2013,Dag and Red,Morecambe,1,2,A
+E3,26/01/2013,Plymouth,Accrington ST,0,0,D
+E3,26/01/2013,Gillingham,York,1,1,D
+E3,26/01/2013,Rotherham,Bristol Rvs,1,3,A
+E3,26/02/2013,AFC Wimbledon,Plymouth,1,1,D
+E3,26/02/2013,Fleetwood Town,Cheltenham,1,1,D
+E3,26/02/2013,Northampton,Bristol Rvs,1,0,H
+E3,26/02/2013,Rochdale,Accrington ST,0,3,A
+E3,26/02/2013,Port Vale,Exeter,0,2,A
+E3,26/02/2013,Gillingham,Oxford,0,1,A
+E3,26/02/2013,Torquay,Wycombe,1,2,A
+E3,26/02/2013,Rotherham,York,1,1,D
+E3,26/02/2013,Barnet,Southend,2,0,H
+E3,26/02/2013,Chesterfield,Aldershot,0,0,D
+E3,26/02/2013,Burton,Morecambe,3,2,H
+E3,26/12/2012,Burton,Rochdale,3,2,H
+E3,26/12/2012,Fleetwood Town,Morecambe,1,0,H
+E3,26/12/2012,Gillingham,Barnet,0,1,A
+E3,26/12/2012,Plymouth,Torquay,1,1,D
+E3,26/12/2012,Dag and Red,Southend,0,3,A
+E3,26/12/2012,Rotherham,Port Vale,1,2,A
+E3,26/12/2012,Chesterfield,York,3,0,H
+E3,26/12/2012,Exeter,Oxford,1,3,A
+E3,26/12/2012,Cheltenham,Wycombe,4,0,H
+E3,27/02/2013,Bradford,Dag and Red,1,1,D
+E3,27/04/2013,Torquay,Bristol Rvs,3,3,D
+E3,27/04/2013,Southend,Morecambe,0,1,A
+E3,27/04/2013,Chesterfield,Exeter,4,0,H
+E3,27/04/2013,Cheltenham,Bradford,0,0,D
+E3,27/04/2013,Accrington ST,Oxford,0,3,A
+E3,27/04/2013,Wycombe,Port Vale,1,1,D
+E3,27/04/2013,Rotherham,Aldershot,2,0,H
+E3,27/04/2013,Burton,Gillingham,3,2,H
+E3,27/04/2013,AFC Wimbledon,Fleetwood Town,2,1,H
+E3,27/04/2013,Northampton,Barnet,2,0,H
+E3,27/04/2013,Rochdale,Plymouth,1,0,H
+E3,27/04/2013,Dag and Red,York,0,1,A
+E3,27/10/2012,Torquay,Morecambe,1,0,H
+E3,27/10/2012,Dag and Red,Aldershot,0,0,D
+E3,27/10/2012,Accrington ST,Bristol Rvs,1,0,H
+E3,27/10/2012,Wycombe,Oxford,1,3,A
+E3,27/10/2012,Chesterfield,Barnet,0,1,A
+E3,27/10/2012,Southend,York,0,0,D
+E3,27/10/2012,AFC Wimbledon,Gillingham,0,1,A
+E3,27/10/2012,Cheltenham,Exeter,3,0,H
+E3,27/10/2012,Rotherham,Plymouth,1,0,H
+E3,27/10/2012,Burton,Bradford,1,0,H
+E3,27/10/2012,Rochdale,Fleetwood Town,0,0,D
+E3,27/10/2012,Northampton,Port Vale,2,0,H
+E3,27/11/2012,Accrington ST,Rotherham,1,2,A
+E3,28/01/2013,Exeter,Torquay,0,1,A
+E3,28/09/2012,Cheltenham,Morecambe,2,0,H
+E3,29/01/2013,Gillingham,Northampton,2,0,H
+E3,29/01/2013,Oxford,Burton,1,1,D
+E3,29/03/2013,Northampton,Torquay,1,0,H
+E3,29/03/2013,Barnet,Dag and Red,0,0,D
+E3,29/03/2013,Wycombe,Accrington ST,0,1,A
+E3,29/03/2013,Port Vale,Cheltenham,3,2,H
+E3,29/03/2013,Bradford,Southend,2,2,D
+E3,29/03/2013,Rochdale,Aldershot,1,1,D
+E3,29/03/2013,Oxford,Morecambe,1,1,D
+E3,29/03/2013,Rotherham,AFC Wimbledon,1,0,H
+E3,29/09/2012,Dag and Red,Wycombe,3,0,H
+E3,29/09/2012,Burton,Northampton,3,3,D
+E3,29/09/2012,Fleetwood Town,Barnet,2,1,H
+E3,29/09/2012,Bradford,Port Vale,0,1,A
+E3,29/09/2012,Chesterfield,Torquay,1,1,D
+E3,29/09/2012,Gillingham,Rochdale,1,2,A
+E3,29/09/2012,Plymouth,Southend,1,1,D
+E3,29/09/2012,Exeter,Bristol Rvs,1,2,A
+E3,29/09/2012,Aldershot,York,0,2,A
+E3,29/09/2012,Rotherham,Oxford,3,1,H
+E3,29/09/2012,AFC Wimbledon,Accrington ST,1,2,A
+E3,29/12/2012,Bradford,Rochdale,2,4,A
+E3,29/12/2012,Chesterfield,Morecambe,1,1,D
+E3,29/12/2012,Plymouth,Wycombe,0,1,A
+E3,29/12/2012,Exeter,Barnet,2,2,D
+E3,29/12/2012,AFC Wimbledon,Oxford,0,3,A
+E3,29/12/2012,Burton,Southend,2,0,H
+E3,29/12/2012,Rotherham,Accrington ST,4,1,H
+E3,29/12/2012,Dag and Red,Port Vale,2,3,A
+E3,29/12/2012,Fleetwood Town,York,0,0,D
+E3,30/03/2013,Fleetwood Town,Gillingham,2,2,D
+E3,30/03/2013,Plymouth,Exeter,1,0,H
+E3,30/03/2013,Burton,Chesterfield,0,1,A
+E3,30/03/2013,Bristol Rvs,York,0,0,D

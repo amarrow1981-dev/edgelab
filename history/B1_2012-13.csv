@@ -1,0 +1,303 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+B1,01/04/2013,Club Brugge KV,Standard Liege,0,2,A
+B1,01/04/2013,Anderlecht,Genk,1,2,A
+B1,01/09/2012,Lierse,OH Leuven,1,1,D
+B1,01/09/2012,Charleroi,Gent,1,1,D
+B1,01/09/2012,Zulte Waregem,Mons,2,4,A
+B1,01/09/2012,KV Mechelen,Beerschot,0,2,A
+B1,01/09/2012,SK Beveren,Cercle Brugge,2,0,H
+B1,01/12/2012,Lierse,Mons,0,3,A
+B1,01/12/2012,Charleroi,Kortrijk,2,0,H
+B1,01/12/2012,OH Leuven,Gent,1,1,D
+B1,01/12/2012,Anderlecht,Cercle Brugge,2,1,H
+B1,01/12/2012,Club Brugge KV,KV Mechelen,1,1,D
+B1,01/12/2012,Zulte Waregem,Beerschot,0,0,D
+B1,02/02/2013,Kortrijk,KV Mechelen,2,1,H
+B1,02/02/2013,Cercle Brugge,Zulte Waregem,1,2,A
+B1,02/02/2013,Lierse,Lokeren,1,1,D
+B1,02/02/2013,Mons,SK Beveren,3,0,H
+B1,02/02/2013,OH Leuven,Charleroi,1,0,H
+B1,02/02/2013,Gent,Beerschot,2,1,H
+B1,02/09/2012,Anderlecht,Genk,2,2,D
+B1,02/09/2012,Club Brugge KV,Standard Liege,4,2,H
+B1,02/09/2012,Lokeren,Kortrijk,0,1,A
+B1,02/12/2012,Lokeren,Genk,3,4,A
+B1,02/12/2012,SK Beveren,Standard Liege,0,2,A
+B1,03/02/2013,Anderlecht,Standard Liege,2,2,D
+B1,03/02/2013,Genk,Club Brugge KV,4,1,H
+B1,03/03/2013,Charleroi,Zulte Waregem,0,1,A
+B1,03/05/2013,Zulte Waregem,Genk,0,4,A
+B1,03/08/2012,Lierse,Standard Liege,0,0,D
+B1,03/11/2012,Beerschot,SK Beveren,1,2,A
+B1,03/11/2012,Gent,Genk,1,2,A
+B1,03/11/2012,Mons,Cercle Brugge,3,2,H
+B1,03/11/2012,Charleroi,Lokeren,0,2,A
+B1,03/11/2012,Kortrijk,Lierse,4,1,H
+B1,03/11/2012,KV Mechelen,Anderlecht,1,4,A
+B1,04/05/2013,Mons,Gent,1,1,D
+B1,04/05/2013,Charleroi,KV Mechelen,1,2,A
+B1,04/05/2013,SK Beveren,OH Leuven,0,1,A
+B1,04/05/2013,Kortrijk,Lierse,0,3,A
+B1,04/08/2012,Charleroi,Club Brugge KV,0,1,A
+B1,04/08/2012,Anderlecht,Beerschot,1,0,H
+B1,04/08/2012,Lokeren,Mons,2,2,D
+B1,04/08/2012,Cercle Brugge,Kortrijk,1,2,A
+B1,04/08/2012,SK Beveren,KV Mechelen,0,0,D
+B1,04/11/2012,Standard Liege,OH Leuven,2,0,H
+B1,04/11/2012,Club Brugge KV,Zulte Waregem,0,1,A
+B1,05/04/2013,Lokeren,Club Brugge KV,1,4,A
+B1,05/05/2013,Anderlecht,Standard Liege,2,0,H
+B1,05/05/2013,Club Brugge KV,Lokeren,2,1,H
+B1,05/08/2012,OH Leuven,Genk,2,2,D
+B1,05/08/2012,Zulte Waregem,Gent,3,1,H
+B1,05/10/2012,Beerschot,Gent,2,2,D
+B1,06/04/2013,Kortrijk,Gent,0,0,D
+B1,06/04/2013,Mons,Lierse,2,1,H
+B1,06/04/2013,Cercle Brugge,Beerschot,1,0,H
+B1,06/04/2013,SK Beveren,KV Mechelen,1,0,H
+B1,06/04/2013,Charleroi,OH Leuven,3,0,H
+B1,06/04/2013,Standard Liege,Anderlecht,0,0,D
+B1,06/10/2012,Zulte Waregem,Cercle Brugge,3,1,H
+B1,06/10/2012,Charleroi,OH Leuven,0,4,A
+B1,06/10/2012,KV Mechelen,Kortrijk,0,2,A
+B1,06/10/2012,SK Beveren,Mons,2,2,D
+B1,06/10/2012,Lokeren,Lierse,2,2,D
+B1,07/04/2013,Genk,Zulte Waregem,1,1,D
+B1,07/10/2012,Standard Liege,Anderlecht,2,1,H
+B1,07/10/2012,Club Brugge KV,Genk,1,1,D
+B1,07/12/2012,Standard Liege,Charleroi,6,1,H
+B1,08/12/2012,Mons,Anderlecht,0,5,A
+B1,08/12/2012,KV Mechelen,Lokeren,2,1,H
+B1,08/12/2012,Gent,SK Beveren,0,2,A
+B1,08/12/2012,Kortrijk,Zulte Waregem,1,2,A
+B1,08/12/2012,Cercle Brugge,OH Leuven,1,1,D
+B1,09/02/2013,Lokeren,Zulte Waregem,1,1,D
+B1,09/02/2013,Charleroi,Lierse,1,0,H
+B1,09/02/2013,Club Brugge KV,OH Leuven,3,1,H
+B1,09/02/2013,KV Mechelen,Cercle Brugge,2,0,H
+B1,09/02/2013,Beerschot,Genk,0,2,A
+B1,09/02/2013,Kortrijk,Gent,1,0,H
+B1,09/03/2013,OH Leuven,Standard Liege,0,4,A
+B1,09/03/2013,Lokeren,Charleroi,1,1,D
+B1,09/03/2013,Zulte Waregem,Club Brugge KV,1,2,A
+B1,09/03/2013,Lierse,Kortrijk,1,0,H
+B1,09/03/2013,Genk,Gent,3,2,H
+B1,09/03/2013,Cercle Brugge,Mons,1,3,A
+B1,09/03/2013,SK Beveren,Beerschot,3,2,H
+B1,09/03/2013,Anderlecht,KV Mechelen,1,0,H
+B1,09/11/2012,Lokeren,Standard Liege,2,1,H
+B1,09/12/2012,Genk,Lierse,4,1,H
+B1,09/12/2012,Beerschot,Club Brugge KV,1,7,A
+B1,10/02/2013,SK Beveren,Anderlecht,1,2,A
+B1,10/02/2013,Standard Liege,Mons,0,1,A
+B1,10/08/2012,Standard Liege,SK Beveren,3,1,H
+B1,10/11/2012,Lierse,Beerschot,1,3,A
+B1,10/11/2012,Cercle Brugge,Gent,2,2,D
+B1,10/11/2012,SK Beveren,Charleroi,0,0,D
+B1,10/11/2012,Zulte Waregem,KV Mechelen,1,1,D
+B1,10/11/2012,OH Leuven,Kortrijk,0,0,D
+B1,11/05/2013,Lokeren,Zulte Waregem,2,3,A
+B1,11/05/2013,OH Leuven,Gent,1,4,A
+B1,11/08/2012,Kortrijk,Charleroi,0,1,A
+B1,11/08/2012,Mons,Lierse,1,1,D
+B1,11/08/2012,KV Mechelen,Club Brugge KV,3,3,D
+B1,11/08/2012,Beerschot,Zulte Waregem,1,1,D
+B1,11/11/2012,Genk,Mons,5,1,H
+B1,11/11/2012,Anderlecht,Club Brugge KV,6,1,H
+B1,12/04/2013,Zulte Waregem,Standard Liege,3,4,A
+B1,12/05/2013,Standard Liege,Club Brugge KV,2,4,A
+B1,12/05/2013,Genk,Anderlecht,1,2,A
+B1,12/08/2012,Gent,OH Leuven,1,1,D
+B1,12/08/2012,Genk,Lokeren,1,0,H
+B1,12/08/2012,Cercle Brugge,Anderlecht,0,3,A
+B1,13/04/2013,Beerschot,Cercle Brugge,1,2,A
+B1,13/04/2013,Lierse,Gent,1,2,A
+B1,13/04/2013,OH Leuven,KV Mechelen,0,3,A
+B1,13/04/2013,Kortrijk,Mons,3,0,H
+B1,13/04/2013,Charleroi,SK Beveren,1,1,D
+B1,13/04/2013,Genk,Lokeren,2,1,H
+B1,14/04/2013,Anderlecht,Club Brugge KV,1,1,D
+B1,14/09/2012,Kortrijk,Club Brugge KV,1,1,D
+B1,15/02/2013,Anderlecht,Charleroi,2,0,H
+B1,15/09/2012,OH Leuven,Zulte Waregem,0,1,A
+B1,15/09/2012,Lierse,Anderlecht,1,1,D
+B1,15/09/2012,Cercle Brugge,Lokeren,0,1,A
+B1,15/09/2012,Genk,SK Beveren,1,1,D
+B1,15/09/2012,Mons,Charleroi,2,3,A
+B1,15/09/2012,Gent,KV Mechelen,0,2,A
+B1,15/12/2012,KV Mechelen,Standard Liege,0,2,A
+B1,15/12/2012,Lokeren,Gent,2,2,D
+B1,15/12/2012,SK Beveren,Kortrijk,1,0,H
+B1,15/12/2012,Charleroi,Beerschot,1,0,H
+B1,15/12/2012,Lierse,Cercle Brugge,1,1,D
+B1,15/12/2012,Club Brugge KV,Mons,2,0,H
+B1,16/02/2013,Cercle Brugge,Standard Liege,0,1,A
+B1,16/02/2013,OH Leuven,Beerschot,1,1,D
+B1,16/02/2013,Zulte Waregem,SK Beveren,2,0,H
+B1,16/02/2013,Lierse,KV Mechelen,0,2,A
+B1,16/02/2013,Mons,Gent,0,2,A
+B1,16/03/2013,Club Brugge KV,Lierse,3,0,H
+B1,16/03/2013,Mons,Genk,1,5,A
+B1,16/03/2013,Charleroi,SK Beveren,3,0,H
+B1,16/03/2013,Kortrijk,OH Leuven,0,0,D
+B1,16/03/2013,Standard Liege,Lokeren,0,2,A
+B1,16/03/2013,Gent,Anderlecht,1,1,D
+B1,16/03/2013,KV Mechelen,Zulte Waregem,2,3,A
+B1,16/03/2013,Beerschot,Cercle Brugge,3,1,H
+B1,16/04/2013,Standard Liege,Genk,3,0,H
+B1,16/05/2013,Genk,Standard Liege,1,1,D
+B1,16/05/2013,Zulte Waregem,Club Brugge KV,5,2,H
+B1,16/05/2013,Lokeren,Anderlecht,2,4,A
+B1,16/09/2012,Beerschot,Standard Liege,3,2,H
+B1,16/12/2012,Zulte Waregem,Genk,3,2,H
+B1,16/12/2012,Anderlecht,OH Leuven,2,1,H
+B1,17/02/2013,Genk,Kortrijk,2,0,H
+B1,17/02/2013,Lokeren,Club Brugge KV,1,1,D
+B1,17/04/2013,Anderlecht,Lokeren,3,0,H
+B1,17/11/2012,OH Leuven,Mons,1,3,A
+B1,17/11/2012,Charleroi,KV Mechelen,1,1,D
+B1,17/11/2012,Lierse,Gent,2,0,H
+B1,17/11/2012,Cercle Brugge,Genk,3,1,H
+B1,17/11/2012,SK Beveren,Club Brugge KV,2,6,A
+B1,18/04/2013,Club Brugge KV,Zulte Waregem,3,4,A
+B1,18/05/2013,Gent,OH Leuven,4,1,H
+B1,18/08/2012,Lierse,Genk,1,1,D
+B1,18/08/2012,Lokeren,KV Mechelen,2,1,H
+B1,18/08/2012,Zulte Waregem,Kortrijk,2,0,H
+B1,18/08/2012,Club Brugge KV,Beerschot,3,1,H
+B1,18/08/2012,OH Leuven,Cercle Brugge,3,2,H
+B1,18/08/2012,Anderlecht,Mons,2,1,H
+B1,18/08/2012,SK Beveren,Gent,0,2,A
+B1,18/11/2012,Zulte Waregem,Standard Liege,0,0,D
+B1,18/11/2012,Anderlecht,Kortrijk,1,0,H
+B1,18/11/2012,Lokeren,Beerschot,1,0,H
+B1,19/01/2013,Genk,Charleroi,3,1,H
+B1,19/01/2013,Kortrijk,Beerschot,4,0,H
+B1,19/01/2013,OH Leuven,Lokeren,2,6,A
+B1,19/01/2013,Gent,Standard Liege,0,0,D
+B1,19/01/2013,Mons,KV Mechelen,2,3,A
+B1,19/01/2013,Lierse,SK Beveren,0,0,D
+B1,19/05/2013,Club Brugge KV,Genk,1,0,H
+B1,19/05/2013,Anderlecht,Zulte Waregem,1,1,D
+B1,19/05/2013,Standard Liege,Lokeren,4,3,H
+B1,19/08/2012,Charleroi,Standard Liege,2,6,A
+B1,19/10/2012,Anderlecht,SK Beveren,2,0,H
+B1,20/02/2013,Charleroi,Cercle Brugge,2,1,H
+B1,20/04/2013,Mons,Kortrijk,2,1,H
+B1,20/04/2013,Lokeren,Standard Liege,4,1,H
+B1,20/04/2013,Cercle Brugge,Beerschot,2,1,H
+B1,20/04/2013,SK Beveren,Charleroi,0,0,D
+B1,20/04/2013,Gent,Lierse,3,0,H
+B1,20/04/2013,KV Mechelen,OH Leuven,1,5,A
+B1,20/10/2012,Cercle Brugge,KV Mechelen,1,2,A
+B1,20/10/2012,Gent,Kortrijk,0,1,A
+B1,20/10/2012,Zulte Waregem,Lokeren,0,3,A
+B1,20/10/2012,OH Leuven,Club Brugge KV,4,1,H
+B1,20/10/2012,Genk,Beerschot,3,0,H
+B1,20/10/2012,Lierse,Charleroi,0,1,A
+B1,21/04/2013,Zulte Waregem,Anderlecht,2,1,H
+B1,21/04/2013,Genk,Club Brugge KV,0,2,A
+B1,21/09/2012,Standard Liege,Gent,1,2,A
+B1,21/10/2012,Mons,Standard Liege,3,1,H
+B1,21/12/2012,Kortrijk,Lokeren,2,3,A
+B1,22/09/2012,SK Beveren,Lierse,1,1,D
+B1,22/09/2012,Lokeren,OH Leuven,2,2,D
+B1,22/09/2012,Zulte Waregem,Anderlecht,2,3,A
+B1,22/09/2012,Beerschot,Kortrijk,2,1,H
+B1,22/09/2012,KV Mechelen,Mons,3,0,H
+B1,22/12/2012,Mons,Zulte Waregem,1,1,D
+B1,22/12/2012,OH Leuven,Lierse,2,2,D
+B1,22/12/2012,Gent,Charleroi,1,2,A
+B1,22/12/2012,Cercle Brugge,SK Beveren,2,2,D
+B1,22/12/2012,Beerschot,KV Mechelen,0,2,A
+B1,23/02/2013,Beerschot,Lierse,1,3,A
+B1,23/02/2013,SK Beveren,Lokeren,0,0,D
+B1,23/02/2013,Gent,Cercle Brugge,2,0,H
+B1,23/02/2013,KV Mechelen,OH Leuven,1,2,A
+B1,23/02/2013,Kortrijk,Mons,0,1,A
+B1,23/05/2013,Gent,Standard Liege,1,0,H
+B1,23/09/2012,Club Brugge KV,Cercle Brugge,4,0,H
+B1,23/09/2012,Charleroi,Genk,1,2,A
+B1,23/11/2012,Standard Liege,Lierse,3,0,H
+B1,23/12/2012,Standard Liege,Club Brugge KV,1,3,A
+B1,23/12/2012,Genk,Anderlecht,2,4,A
+B1,24/02/2013,Club Brugge KV,Anderlecht,2,2,D
+B1,24/02/2013,Standard Liege,Genk,0,0,D
+B1,24/11/2012,Kortrijk,Cercle Brugge,3,1,H
+B1,24/11/2012,Gent,Zulte Waregem,0,1,A
+B1,24/11/2012,KV Mechelen,SK Beveren,0,1,A
+B1,24/11/2012,Beerschot,Anderlecht,1,4,A
+B1,24/11/2012,Mons,Lokeren,1,2,A
+B1,25/01/2013,Standard Liege,Kortrijk,2,0,H
+B1,25/08/2012,Beerschot,Charleroi,2,0,H
+B1,25/08/2012,OH Leuven,Anderlecht,1,1,D
+B1,25/08/2012,Kortrijk,SK Beveren,2,1,H
+B1,25/08/2012,Cercle Brugge,Lierse,0,3,A
+B1,25/11/2012,Club Brugge KV,Charleroi,1,0,H
+B1,25/11/2012,Genk,OH Leuven,1,1,D
+B1,26/01/2013,Lokeren,Anderlecht,0,2,A
+B1,26/01/2013,Beerschot,Mons,0,0,D
+B1,26/01/2013,SK Beveren,OH Leuven,2,0,H
+B1,26/01/2013,KV Mechelen,Genk,2,1,H
+B1,26/01/2013,Zulte Waregem,Lierse,2,0,H
+B1,26/05/2013,Standard Liege,Gent,7,0,H
+B1,26/08/2012,Mons,Club Brugge KV,1,3,A
+B1,26/08/2012,Genk,Zulte Waregem,2,0,H
+B1,26/08/2012,Gent,Lokeren,2,1,H
+B1,26/08/2012,Standard Liege,KV Mechelen,3,2,H
+B1,26/10/2012,Standard Liege,Cercle Brugge,2,1,H
+B1,26/12/2012,Zulte Waregem,OH Leuven,2,1,H
+B1,26/12/2012,Charleroi,Mons,1,2,A
+B1,26/12/2012,Lokeren,Cercle Brugge,3,0,H
+B1,26/12/2012,SK Beveren,Genk,1,1,D
+B1,26/12/2012,Club Brugge KV,Kortrijk,0,0,D
+B1,26/12/2012,KV Mechelen,Gent,1,0,H
+B1,27/01/2013,Club Brugge KV,Gent,0,0,D
+B1,27/02/2013,Anderlecht,Zulte Waregem,0,1,A
+B1,27/04/2013,OH Leuven,Charleroi,0,0,D
+B1,27/04/2013,KV Mechelen,SK Beveren,2,0,H
+B1,27/04/2013,Gent,Kortrijk,1,0,H
+B1,27/04/2013,Lokeren,Genk,0,0,D
+B1,27/04/2013,Lierse,Mons,0,1,A
+B1,27/10/2012,KV Mechelen,Lierse,3,0,H
+B1,27/10/2012,Charleroi,Anderlecht,2,0,H
+B1,27/10/2012,Gent,Mons,2,0,H
+B1,27/10/2012,SK Beveren,Zulte Waregem,0,2,A
+B1,27/10/2012,Beerschot,OH Leuven,1,3,A
+B1,27/12/2012,Anderlecht,Lierse,4,1,H
+B1,27/12/2012,Standard Liege,Beerschot,3,0,H
+B1,28/02/2013,Cercle Brugge,Club Brugge KV,0,3,A
+B1,28/04/2013,Standard Liege,Zulte Waregem,1,0,H
+B1,28/04/2013,Club Brugge KV,Anderlecht,2,1,H
+B1,28/07/2012,KV Mechelen,Charleroi,4,2,H
+B1,28/07/2012,Club Brugge KV,SK Beveren,3,1,H
+B1,28/07/2012,Mons,OH Leuven,5,2,H
+B1,28/07/2012,Beerschot,Lokeren,2,4,A
+B1,28/07/2012,Kortrijk,Anderlecht,1,1,D
+B1,28/10/2012,Kortrijk,Genk,1,1,D
+B1,28/10/2012,Club Brugge KV,Lokeren,2,3,A
+B1,29/07/2012,Gent,Lierse,2,0,H
+B1,29/07/2012,Standard Liege,Zulte Waregem,0,1,A
+B1,29/07/2012,Genk,Cercle Brugge,3,3,D
+B1,29/09/2012,OH Leuven,SK Beveren,5,2,H
+B1,29/09/2012,Mons,Beerschot,1,0,H
+B1,29/09/2012,Lierse,Zulte Waregem,1,4,A
+B1,29/09/2012,Genk,KV Mechelen,2,1,H
+B1,29/09/2012,Cercle Brugge,Charleroi,1,0,H
+B1,29/09/2012,Anderlecht,Lokeren,3,0,H
+B1,30/03/2013,Zulte Waregem,Lokeren,1,1,D
+B1,30/03/2013,Lierse,Kortrijk,0,0,D
+B1,30/03/2013,Beerschot,Cercle Brugge,1,0,H
+B1,30/03/2013,Gent,Mons,2,1,H
+B1,30/03/2013,OH Leuven,SK Beveren,3,1,H
+B1,30/03/2013,KV Mechelen,Charleroi,0,0,D
+B1,30/09/2012,Kortrijk,Standard Liege,2,1,H
+B1,30/09/2012,Gent,Club Brugge KV,2,2,D
+B1,30/10/2012,Anderlecht,Gent,5,0,H
+B1,31/10/2012,Lierse,Club Brugge KV,3,2,H
+B1,31/10/2012,Mons,Kortrijk,1,0,H
+B1,31/10/2012,Cercle Brugge,Beerschot,3,1,H
+B1,31/10/2012,Lokeren,SK Beveren,2,0,H
+B1,31/10/2012,Zulte Waregem,Charleroi,4,1,H
+B1,31/10/2012,OH Leuven,KV Mechelen,3,1,H
+B1,31/10/2012,Genk,Standard Liege,0,2,A

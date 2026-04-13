@@ -1,0 +1,235 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/05/2021,Dundee Utd,Ross County,0,2,A
+SC0,01/05/2021,Motherwell,Kilmarnock,2,0,H
+SC0,01/05/2021,Livingston,Aberdeen,1,2,A
+SC0,01/05/2021,ST Mirren,Hamilton Academical,1,2,A
+SC0,01/05/2021,Hibernian,ST Johnstone,0,1,A
+SC0,01/08/2020,Aberdeen,Rangers,0,1,A
+SC0,01/08/2020,Hibernian,Kilmarnock,2,1,H
+SC0,01/08/2020,ST Mirren,Livingston,1,0,H
+SC0,01/08/2020,Dundee Utd,ST Johnstone,1,1,D
+SC0,01/11/2020,Kilmarnock,Rangers,0,1,A
+SC0,02/01/2021,Rangers,Celtic,1,0,H
+SC0,02/01/2021,Hamilton Academical,Motherwell,3,0,H
+SC0,02/01/2021,Hibernian,Livingston,0,3,A
+SC0,02/01/2021,Kilmarnock,ST Mirren,1,1,D
+SC0,02/01/2021,Aberdeen,Dundee Utd,0,0,D
+SC0,02/01/2021,Ross County,ST Johnstone,1,1,D
+SC0,02/02/2021,Kilmarnock,Celtic,0,4,A
+SC0,02/02/2021,Aberdeen,Livingston,0,2,A
+SC0,02/02/2021,ST Mirren,Hibernian,1,2,A
+SC0,02/05/2021,Rangers,Celtic,4,1,H
+SC0,02/08/2020,Celtic,Hamilton Academical,5,1,H
+SC0,02/10/2020,Hibernian,Hamilton Academical,3,2,H
+SC0,02/10/2020,Dundee Utd,Livingston,1,2,A
+SC0,02/10/2020,Aberdeen,ST Mirren,2,1,H
+SC0,03/02/2021,Rangers,ST Johnstone,1,0,H
+SC0,03/02/2021,Motherwell,Dundee Utd,2,1,H
+SC0,03/02/2021,Hamilton Academical,Ross County,1,2,A
+SC0,03/03/2021,Livingston,Rangers,0,1,A
+SC0,03/03/2021,Hamilton Academical,ST Johnstone,1,1,D
+SC0,03/08/2020,Ross County,Motherwell,1,0,H
+SC0,04/05/2021,Dunfermline,Raith Rovers,0,0,D
+SC0,04/10/2020,ST Johnstone,Celtic,0,2,A
+SC0,04/10/2020,Rangers,Ross County,2,0,H
+SC0,05/12/2020,Motherwell,Hibernian,0,3,A
+SC0,05/12/2020,ST Mirren,Aberdeen,1,1,D
+SC0,05/12/2020,Livingston,Dundee Utd,2,0,H
+SC0,05/12/2020,Hamilton Academical,Kilmarnock,1,0,H
+SC0,06/02/2021,ST Mirren,Kilmarnock,2,0,H
+SC0,06/02/2021,Hibernian,Aberdeen,2,0,H
+SC0,06/02/2021,Celtic,Motherwell,2,1,H
+SC0,06/02/2021,Ross County,Dundee Utd,0,2,A
+SC0,06/02/2021,Livingston,ST Johnstone,1,2,A
+SC0,06/03/2021,Aberdeen,Hamilton Academical,0,0,D
+SC0,06/03/2021,Motherwell,Livingston,3,1,H
+SC0,06/03/2021,ST Johnstone,Hibernian,1,0,H
+SC0,06/03/2021,Ross County,Kilmarnock,3,2,H
+SC0,06/03/2021,Rangers,ST Mirren,3,0,H
+SC0,06/11/2020,ST Johnstone,Kilmarnock,1,0,H
+SC0,06/11/2020,Ross County,Livingston,1,1,D
+SC0,06/11/2020,ST Mirren,Dundee Utd,0,0,D
+SC0,06/11/2020,Aberdeen,Hibernian,2,0,H
+SC0,06/12/2020,Celtic,ST Johnstone,1,1,D
+SC0,06/12/2020,Ross County,Rangers,0,4,A
+SC0,07/02/2021,Hamilton Academical,Rangers,1,1,D
+SC0,07/03/2021,Dundee Utd,Celtic,0,0,D
+SC0,08/05/2021,Raith Rovers,Dunfermline,2,0,H
+SC0,08/08/2020,Hamilton Academical,Ross County,0,1,A
+SC0,08/08/2020,Livingston,Hibernian,1,4,A
+SC0,08/08/2020,Motherwell,Dundee Utd,0,1,A
+SC0,08/11/2020,Motherwell,Celtic,1,4,A
+SC0,08/11/2020,Rangers,Hamilton Academical,8,0,H
+SC0,09/01/2021,ST Mirren,Motherwell,1,1,D
+SC0,09/01/2021,Kilmarnock,Hamilton Academical,2,0,H
+SC0,09/08/2020,Rangers,ST Mirren,3,0,H
+SC0,09/08/2020,Kilmarnock,Celtic,1,1,D
+SC0,10/01/2021,Aberdeen,Rangers,1,2,A
+SC0,10/01/2021,Livingston,Ross County,3,1,H
+SC0,10/02/2021,ST Mirren,Celtic,0,4,A
+SC0,10/02/2021,Kilmarnock,Motherwell,0,1,A
+SC0,10/04/2021,ST Johnstone,Aberdeen,0,1,A
+SC0,10/04/2021,Celtic,Livingston,6,0,H
+SC0,10/04/2021,Kilmarnock,Ross County,2,2,D
+SC0,10/04/2021,Motherwell,ST Mirren,1,0,H
+SC0,10/04/2021,Hamilton Academical,Dundee Utd,0,1,A
+SC0,11/01/2021,Celtic,Hibernian,1,1,D
+SC0,11/04/2021,Rangers,Hibernian,2,1,H
+SC0,11/08/2020,Dundee Utd,Hibernian,0,1,A
+SC0,12/01/2021,Dundee Utd,ST Johnstone,2,2,D
+SC0,12/05/2021,Raith Rovers,Dundee,0,3,A
+SC0,12/05/2021,Livingston,Rangers,0,3,A
+SC0,12/05/2021,Dundee Utd,Motherwell,2,2,D
+SC0,12/05/2021,Celtic,ST Johnstone,4,0,H
+SC0,12/05/2021,Kilmarnock,ST Mirren,3,3,D
+SC0,12/05/2021,Aberdeen,Hibernian,0,1,A
+SC0,12/05/2021,Ross County,Hamilton Academical,2,1,H
+SC0,12/08/2020,Ross County,Kilmarnock,2,2,D
+SC0,12/08/2020,Rangers,ST Johnstone,3,0,H
+SC0,12/08/2020,Motherwell,Livingston,2,2,D
+SC0,12/09/2020,Ross County,Celtic,0,5,A
+SC0,12/09/2020,Livingston,Hamilton Academical,1,2,A
+SC0,12/09/2020,Aberdeen,Kilmarnock,1,0,H
+SC0,12/09/2020,ST Mirren,Hibernian,0,3,A
+SC0,12/09/2020,Rangers,Dundee Utd,4,0,H
+SC0,12/09/2020,Motherwell,ST Johnstone,1,0,H
+SC0,12/12/2020,Motherwell,ST Mirren,0,1,A
+SC0,12/12/2020,ST Johnstone,Livingston,1,2,A
+SC0,12/12/2020,Hamilton Academical,Hibernian,0,4,A
+SC0,12/12/2020,Aberdeen,Ross County,2,0,H
+SC0,13/02/2021,Aberdeen,ST Mirren,0,0,D
+SC0,13/02/2021,Motherwell,Hamilton Academical,1,4,A
+SC0,13/02/2021,Rangers,Kilmarnock,1,0,H
+SC0,13/02/2021,Dundee Utd,Livingston,3,0,H
+SC0,13/03/2021,Ross County,Hibernian,1,2,A
+SC0,13/03/2021,Livingston,Hamilton Academical,2,1,H
+SC0,13/12/2020,Dundee Utd,Rangers,1,2,A
+SC0,13/12/2020,Celtic,Kilmarnock,2,0,H
+SC0,14/02/2021,ST Johnstone,Celtic,1,2,A
+SC0,15/05/2021,Hibernian,Celtic,0,0,D
+SC0,15/05/2021,ST Johnstone,Livingston,0,0,D
+SC0,15/05/2021,Rangers,Aberdeen,4,0,H
+SC0,15/05/2021,Dundee,Raith Rovers,0,1,A
+SC0,15/08/2020,Hamilton Academical,ST Mirren,0,1,A
+SC0,15/08/2020,Ross County,Dundee Utd,1,2,A
+SC0,15/08/2020,Hibernian,Motherwell,0,0,D
+SC0,15/08/2020,Kilmarnock,ST Johnstone,1,2,A
+SC0,16/01/2021,Ross County,Aberdeen,4,1,H
+SC0,16/01/2021,ST Johnstone,ST Mirren,1,0,H
+SC0,16/01/2021,Hibernian,Kilmarnock,2,0,H
+SC0,16/01/2021,Hamilton Academical,Dundee Utd,0,0,D
+SC0,16/01/2021,Celtic,Livingston,0,0,D
+SC0,16/05/2021,ST Mirren,Dundee Utd,0,0,D
+SC0,16/05/2021,Hamilton Academical,Kilmarnock,0,2,A
+SC0,16/05/2021,Motherwell,Ross County,1,2,A
+SC0,16/08/2020,Livingston,Rangers,0,0,D
+SC0,16/09/2020,ST Mirren,Celtic,1,2,A
+SC0,17/01/2021,Motherwell,Rangers,1,1,D
+SC0,17/02/2021,ST Mirren,Hamilton Academical,1,1,D
+SC0,17/02/2021,Celtic,Aberdeen,1,0,H
+SC0,17/10/2020,Livingston,Kilmarnock,1,3,A
+SC0,17/10/2020,Celtic,Rangers,0,2,A
+SC0,17/10/2020,Ross County,Hibernian,0,0,D
+SC0,17/10/2020,Dundee Utd,Aberdeen,0,0,D
+SC0,17/10/2020,Hamilton Academical,ST Johnstone,3,5,A
+SC0,19/09/2020,ST Johnstone,Ross County,0,1,A
+SC0,19/09/2020,Kilmarnock,Hamilton Academical,2,1,H
+SC0,19/09/2020,Celtic,Livingston,3,2,H
+SC0,19/09/2020,Dundee Utd,ST Mirren,2,1,H
+SC0,19/12/2020,Ross County,Hamilton Academical,0,2,A
+SC0,19/12/2020,Rangers,Motherwell,3,1,H
+SC0,19/12/2020,ST Mirren,ST Johnstone,3,2,H
+SC0,19/12/2020,Hibernian,Dundee Utd,1,1,D
+SC0,20/01/2021,Livingston,Celtic,2,2,D
+SC0,20/02/2021,Hibernian,Hamilton Academical,2,0,H
+SC0,20/02/2021,ST Mirren,Livingston,1,1,D
+SC0,20/02/2021,Aberdeen,Kilmarnock,1,0,H
+SC0,20/02/2021,Motherwell,ST Johnstone,0,3,A
+SC0,20/03/2021,Dundee Utd,Aberdeen,1,0,H
+SC0,20/03/2021,ST Johnstone,Ross County,1,0,H
+SC0,20/03/2021,Livingston,Hibernian,1,1,D
+SC0,20/03/2021,Kilmarnock,Motherwell,4,1,H
+SC0,20/03/2021,Hamilton Academical,ST Mirren,1,1,D
+SC0,20/05/2021,Dundee,Kilmarnock,2,1,H
+SC0,20/08/2020,ST Johnstone,Aberdeen,0,1,A
+SC0,20/09/2020,Aberdeen,Motherwell,0,3,A
+SC0,20/09/2020,Hibernian,Rangers,2,2,D
+SC0,20/10/2020,Aberdeen,Hamilton Academical,4,2,H
+SC0,20/12/2020,Kilmarnock,Aberdeen,0,2,A
+SC0,21/02/2021,Ross County,Celtic,1,0,H
+SC0,21/02/2021,Rangers,Dundee Utd,4,1,H
+SC0,21/03/2021,Celtic,Rangers,1,1,D
+SC0,21/04/2021,ST Johnstone,Rangers,1,1,D
+SC0,21/04/2021,Ross County,ST Mirren,1,3,A
+SC0,21/04/2021,Aberdeen,Celtic,1,1,D
+SC0,21/04/2021,Kilmarnock,Dundee Utd,3,0,H
+SC0,21/04/2021,Hibernian,Livingston,2,1,H
+SC0,21/04/2021,Hamilton Academical,Motherwell,0,1,A
+SC0,21/11/2020,Livingston,ST Mirren,0,1,A
+SC0,21/11/2020,Dundee Utd,Hamilton Academical,2,1,H
+SC0,21/11/2020,Hibernian,Celtic,2,2,D
+SC0,21/11/2020,Kilmarnock,Ross County,3,1,H
+SC0,21/11/2020,ST Johnstone,Motherwell,1,1,D
+SC0,22/08/2020,ST Mirren,Ross County,1,1,D
+SC0,22/08/2020,Dundee Utd,Celtic,0,1,A
+SC0,22/08/2020,Rangers,Kilmarnock,2,0,H
+SC0,22/08/2020,Motherwell,Hamilton Academical,0,1,A
+SC0,22/11/2020,Rangers,Aberdeen,4,0,H
+SC0,23/01/2021,Rangers,Ross County,5,0,H
+SC0,23/01/2021,Aberdeen,Motherwell,2,0,H
+SC0,23/08/2020,ST Johnstone,Hibernian,0,1,A
+SC0,23/08/2020,Aberdeen,Livingston,2,1,H
+SC0,23/12/2020,ST Johnstone,Rangers,0,3,A
+SC0,23/12/2020,Hibernian,ST Mirren,1,0,H
+SC0,23/12/2020,Hamilton Academical,Livingston,0,2,A
+SC0,23/12/2020,Celtic,Ross County,2,0,H
+SC0,23/12/2020,Motherwell,Aberdeen,0,0,D
+SC0,23/12/2020,Dundee Utd,Kilmarnock,2,0,H
+SC0,24/02/2021,ST Mirren,Motherwell,0,0,D
+SC0,24/05/2021,Kilmarnock,Dundee,1,2,A
+SC0,24/10/2020,Kilmarnock,Hibernian,0,1,A
+SC0,24/10/2020,Motherwell,Ross County,4,0,H
+SC0,24/10/2020,ST Johnstone,Dundee Utd,0,0,D
+SC0,24/11/2020,Hibernian,ST Johnstone,2,2,D
+SC0,25/10/2020,Rangers,Livingston,2,0,H
+SC0,25/10/2020,Aberdeen,Celtic,3,3,D
+SC0,25/11/2020,Hamilton Academical,Aberdeen,1,1,D
+SC0,26/09/2020,Hamilton Academical,Dundee Utd,1,1,D
+SC0,26/09/2020,ST Mirren,Kilmarnock,0,1,A
+SC0,26/09/2020,Livingston,ST Johnstone,2,0,H
+SC0,26/12/2020,Rangers,Hibernian,1,0,H
+SC0,26/12/2020,Aberdeen,ST Johnstone,2,1,H
+SC0,26/12/2020,Ross County,ST Mirren,0,2,A
+SC0,26/12/2020,Dundee Utd,Motherwell,1,1,D
+SC0,26/12/2020,Hamilton Academical,Celtic,0,3,A
+SC0,26/12/2020,Kilmarnock,Livingston,1,2,A
+SC0,27/01/2021,Ross County,Motherwell,1,2,A
+SC0,27/01/2021,Celtic,Hamilton Academical,2,0,H
+SC0,27/01/2021,Hibernian,Rangers,0,1,A
+SC0,27/01/2021,Livingston,Kilmarnock,2,0,H
+SC0,27/01/2021,ST Johnstone,Aberdeen,0,0,D
+SC0,27/01/2021,Dundee Utd,ST Mirren,1,5,A
+SC0,27/02/2021,Kilmarnock,Dundee Utd,1,1,D
+SC0,27/02/2021,ST Mirren,Ross County,1,0,H
+SC0,27/02/2021,Celtic,Aberdeen,1,0,H
+SC0,27/02/2021,Hibernian,Motherwell,0,2,A
+SC0,27/09/2020,Motherwell,Rangers,1,5,A
+SC0,27/09/2020,Ross County,Aberdeen,0,3,A
+SC0,27/09/2020,Celtic,Hibernian,3,0,H
+SC0,29/08/2020,Kilmarnock,Dundee Utd,4,0,H
+SC0,29/08/2020,Livingston,Ross County,1,0,H
+SC0,29/08/2020,ST Johnstone,ST Mirren,1,0,H
+SC0,29/08/2020,Hamilton Academical,Rangers,0,2,A
+SC0,30/01/2021,Celtic,ST Mirren,1,2,A
+SC0,30/01/2021,Kilmarnock,ST Johnstone,2,3,A
+SC0,30/01/2021,Livingston,Aberdeen,0,0,D
+SC0,30/01/2021,Dundee Utd,Hibernian,0,2,A
+SC0,30/08/2020,Celtic,Motherwell,3,0,H
+SC0,30/08/2020,Hibernian,Aberdeen,0,1,A
+SC0,30/12/2020,Celtic,Dundee Utd,3,0,H
+SC0,30/12/2020,Hibernian,Ross County,0,2,A
+SC0,30/12/2020,ST Mirren,Rangers,0,2,A
+SC0,30/12/2020,Motherwell,Kilmarnock,0,2,A
+SC0,30/12/2020,ST Johnstone,Hamilton Academical,0,0,D
+SC0,31/10/2020,Livingston,Motherwell,0,2,A
+SC0,31/10/2020,Dundee Utd,Ross County,2,1,H

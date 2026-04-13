@@ -1,0 +1,181 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/03/2019,Morton,Falkirk,1,1,D
+SC1,01/09/2018,Alloa Athletic,Dundee Utd,1,1,D
+SC1,01/09/2018,Dunfermline,Inverness CT,0,3,A
+SC1,01/09/2018,Queen of the South,Ayr Utd,5,0,H
+SC1,01/09/2018,Ross County,Falkirk,2,0,H
+SC1,01/09/2018,Partick,Morton,1,0,H
+SC1,01/12/2018,Queen of the South,Partick,1,0,H
+SC1,01/12/2018,Alloa Athletic,Ross County,0,1,A
+SC1,01/12/2018,Inverness CT,Falkirk,2,3,A
+SC1,01/12/2018,Dunfermline,Morton,3,0,H
+SC1,02/02/2019,Inverness CT,Partick,1,2,A
+SC1,02/02/2019,Dundee Utd,Morton,2,1,H
+SC1,02/02/2019,Dunfermline,Ross County,1,2,A
+SC1,02/02/2019,Alloa Athletic,Ayr Utd,1,3,A
+SC1,02/02/2019,Falkirk,Queen of the South,3,0,H
+SC1,02/03/2019,Dunfermline,Queen of the South,1,0,H
+SC1,02/04/2019,Inverness CT,Ross County,1,2,A
+SC1,02/04/2019,Queen of the South,Falkirk,1,1,D
+SC1,02/04/2019,Ayr Utd,Morton,1,1,D
+SC1,03/11/2018,Morton,Partick,5,1,H
+SC1,03/11/2018,Alloa Athletic,Dunfermline,0,1,A
+SC1,03/11/2018,Falkirk,Ayr Utd,0,1,A
+SC1,03/11/2018,Dundee Utd,Queen of the South,2,0,H
+SC1,03/11/2018,Inverness CT,Ross County,2,2,D
+SC1,04/01/2019,Morton,Ross County,1,0,H
+SC1,04/05/2019,Inverness CT,Dunfermline,1,0,H
+SC1,04/05/2019,Morton,Dundee Utd,1,0,H
+SC1,04/05/2019,Queen of the South,Partick,0,3,A
+SC1,04/05/2019,Ayr Utd,Alloa Athletic,1,1,D
+SC1,04/05/2019,Falkirk,Ross County,3,2,H
+SC1,04/08/2018,Ross County,Alloa Athletic,1,0,H
+SC1,04/08/2018,Morton,Queen of the South,2,2,D
+SC1,04/08/2018,Dundee Utd,Dunfermline,2,3,A
+SC1,04/08/2018,Ayr Utd,Partick,2,0,H
+SC1,04/08/2018,Falkirk,Inverness CT,0,1,A
+SC1,05/01/2019,Dundee Utd,Partick,1,1,D
+SC1,05/01/2019,Ayr Utd,Falkirk,0,1,A
+SC1,05/01/2019,Dunfermline,Alloa Athletic,2,2,D
+SC1,05/01/2019,Inverness CT,Queen of the South,1,2,A
+SC1,05/04/2019,Ross County,Dundee Utd,1,1,D
+SC1,06/04/2019,Partick,Dunfermline,2,2,D
+SC1,06/04/2019,Falkirk,Alloa Athletic,1,2,A
+SC1,06/04/2019,Ayr Utd,Inverness CT,0,1,A
+SC1,06/04/2019,Queen of the South,Morton,1,1,D
+SC1,06/10/2018,Ayr Utd,Dundee Utd,2,0,H
+SC1,06/10/2018,Inverness CT,Morton,1,1,D
+SC1,06/10/2018,Partick,Ross County,0,2,A
+SC1,06/10/2018,Queen of the South,Alloa Athletic,3,3,D
+SC1,06/10/2018,Falkirk,Dunfermline,0,2,A
+SC1,08/03/2019,Falkirk,Ayr Utd,2,0,H
+SC1,08/12/2018,Partick,Dunfermline,2,0,H
+SC1,08/12/2018,Ross County,Queen of the South,1,1,D
+SC1,08/12/2018,Morton,Dundee Utd,1,1,D
+SC1,08/12/2018,Falkirk,Alloa Athletic,2,2,D
+SC1,09/02/2019,Alloa Athletic,Falkirk,1,2,A
+SC1,09/03/2019,Partick,Dundee Utd,2,1,H
+SC1,09/03/2019,Queen of the South,Inverness CT,0,2,A
+SC1,09/03/2019,Alloa Athletic,Dunfermline,0,1,A
+SC1,09/03/2019,Ross County,Morton,2,0,H
+SC1,09/04/2019,Ayr Utd,Queen of the South,1,0,H
+SC1,09/04/2019,Morton,Alloa Athletic,1,2,A
+SC1,09/04/2019,Ross County,Dunfermline,1,0,H
+SC1,10/11/2018,Partick,Inverness CT,0,1,A
+SC1,10/11/2018,Ross County,Dundee Utd,0,1,A
+SC1,10/11/2018,Morton,Alloa Athletic,0,2,A
+SC1,10/11/2018,Ayr Utd,Queen of the South,1,1,D
+SC1,10/11/2018,Dunfermline,Falkirk,0,1,A
+SC1,11/08/2018,Queen of the South,Dundee Utd,1,2,A
+SC1,11/08/2018,Dunfermline,Ross County,1,3,A
+SC1,11/08/2018,Alloa Athletic,Morton,0,2,A
+SC1,11/08/2018,Partick,Falkirk,2,1,H
+SC1,11/08/2018,Inverness CT,Ayr Utd,0,0,D
+SC1,12/01/2019,Alloa Athletic,Morton,2,1,H
+SC1,12/01/2019,Inverness CT,Ayr Utd,1,0,H
+SC1,12/01/2019,Queen of the South,Ross County,4,0,H
+SC1,12/01/2019,Dundee Utd,Dunfermline,1,0,H
+SC1,12/01/2019,Partick,Falkirk,1,1,D
+SC1,12/03/2019,Ross County,Falkirk,2,1,H
+SC1,12/04/2019,Dundee Utd,Ayr Utd,2,1,H
+SC1,13/04/2019,Alloa Athletic,Queen of the South,1,0,H
+SC1,13/04/2019,Ross County,Partick,0,0,D
+SC1,13/04/2019,Dunfermline,Falkirk,0,1,A
+SC1,13/10/2018,Partick,Dundee Utd,1,2,A
+SC1,15/09/2018,Dunfermline,Alloa Athletic,0,0,D
+SC1,15/09/2018,Dundee Utd,Morton,1,1,D
+SC1,15/09/2018,Queen of the South,Ross County,0,0,D
+SC1,15/09/2018,Ayr Utd,Falkirk,3,2,H
+SC1,15/09/2018,Inverness CT,Partick,3,2,H
+SC1,15/12/2018,Partick,Alloa Athletic,2,2,D
+SC1,15/12/2018,Inverness CT,Dundee Utd,1,1,D
+SC1,15/12/2018,Ayr Utd,Ross County,3,3,D
+SC1,15/12/2018,Queen of the South,Dunfermline,0,0,D
+SC1,15/12/2018,Falkirk,Morton,0,0,D
+SC1,16/02/2019,Queen of the South,Dundee Utd,0,1,A
+SC1,16/02/2019,Dunfermline,Inverness CT,1,0,H
+SC1,16/02/2019,Alloa Athletic,Partick,0,2,A
+SC1,16/02/2019,Morton,Ayr Utd,0,0,D
+SC1,16/03/2019,Falkirk,Partick,1,1,D
+SC1,16/04/2019,Morton,Inverness CT,2,2,D
+SC1,17/11/2018,Falkirk,Partick,1,1,D
+SC1,17/11/2018,Ayr Utd,Morton,0,0,D
+SC1,17/11/2018,Queen of the South,Inverness CT,3,3,D
+SC1,19/03/2019,Dundee Utd,Ross County,1,0,H
+SC1,19/04/2019,Ayr Utd,Ross County,1,3,A
+SC1,20/04/2019,Falkirk,Morton,0,2,A
+SC1,20/04/2019,Partick,Alloa Athletic,2,1,H
+SC1,20/04/2019,Queen of the South,Dunfermline,2,1,H
+SC1,20/04/2019,Inverness CT,Dundee Utd,0,2,A
+SC1,20/10/2018,Dundee Utd,Inverness CT,1,1,D
+SC1,20/10/2018,Dunfermline,Queen of the South,0,1,A
+SC1,20/10/2018,Alloa Athletic,Partick,1,0,H
+SC1,20/10/2018,Ross County,Ayr Utd,2,1,H
+SC1,20/10/2018,Morton,Falkirk,1,0,H
+SC1,20/11/2018,Dundee Utd,Alloa Athletic,4,2,H
+SC1,22/03/2019,Partick,Inverness CT,1,2,A
+SC1,22/09/2018,Partick,Queen of the South,3,2,H
+SC1,22/09/2018,Morton,Dunfermline,1,1,D
+SC1,22/09/2018,Ross County,Inverness CT,0,0,D
+SC1,22/09/2018,Alloa Athletic,Ayr Utd,0,2,A
+SC1,22/09/2018,Falkirk,Dundee Utd,0,2,A
+SC1,22/12/2018,Alloa Athletic,Queen of the South,2,0,H
+SC1,22/12/2018,Dunfermline,Ayr Utd,0,0,D
+SC1,22/12/2018,Dundee Utd,Falkirk,2,1,H
+SC1,22/12/2018,Morton,Inverness CT,1,2,A
+SC1,22/12/2018,Ross County,Partick,2,0,H
+SC1,23/02/2019,Inverness CT,Morton,1,0,H
+SC1,23/02/2019,Falkirk,Dundee Utd,1,1,D
+SC1,23/02/2019,Ayr Utd,Dunfermline,0,1,A
+SC1,23/02/2019,Queen of the South,Alloa Athletic,1,2,A
+SC1,23/02/2019,Partick,Ross County,2,4,A
+SC1,23/03/2019,Dundee Utd,Alloa Athletic,2,1,H
+SC1,23/04/2019,Ayr Utd,Partick,0,1,A
+SC1,24/11/2018,Ross County,Dunfermline,2,1,H
+SC1,25/01/2019,Ayr Utd,Dundee Utd,1,0,H
+SC1,25/08/2018,Morton,Ross County,2,1,H
+SC1,25/08/2018,Falkirk,Queen of the South,0,3,A
+SC1,25/08/2018,Inverness CT,Alloa Athletic,2,2,D
+SC1,25/08/2018,Dundee Utd,Partick,3,1,H
+SC1,25/08/2018,Ayr Utd,Dunfermline,4,1,H
+SC1,26/01/2019,Partick,Queen of the South,2,1,H
+SC1,26/01/2019,Morton,Dunfermline,0,0,D
+SC1,26/01/2019,Ross County,Alloa Athletic,2,0,H
+SC1,26/01/2019,Falkirk,Inverness CT,2,2,D
+SC1,26/02/2019,Morton,Queen of the South,1,0,H
+SC1,26/02/2019,Dundee Utd,Inverness CT,1,0,H
+SC1,26/02/2019,Dunfermline,Partick,3,0,H
+SC1,26/02/2019,Ross County,Ayr Utd,3,2,H
+SC1,26/03/2019,Dunfermline,Dundee Utd,0,1,A
+SC1,26/03/2019,Inverness CT,Alloa Athletic,3,2,H
+SC1,26/04/2019,Ross County,Queen of the South,4,0,H
+SC1,27/04/2019,Dunfermline,Morton,0,1,A
+SC1,27/04/2019,Alloa Athletic,Inverness CT,1,2,A
+SC1,27/04/2019,Partick,Ayr Utd,1,2,A
+SC1,27/04/2019,Dundee Utd,Falkirk,2,0,H
+SC1,27/10/2018,Ross County,Morton,5,0,H
+SC1,27/10/2018,Partick,Ayr Utd,0,1,A
+SC1,27/10/2018,Queen of the South,Falkirk,2,0,H
+SC1,27/10/2018,Dunfermline,Dundee Utd,0,2,A
+SC1,27/10/2018,Alloa Athletic,Inverness CT,0,0,D
+SC1,28/09/2018,Dunfermline,Partick,1,0,H
+SC1,29/01/2019,Ayr Utd,Inverness CT,2,3,A
+SC1,29/03/2019,Dunfermline,Ayr Utd,0,1,A
+SC1,29/09/2018,Inverness CT,Queen of the South,0,0,D
+SC1,29/09/2018,Morton,Ayr Utd,1,5,A
+SC1,29/09/2018,Dundee Utd,Ross County,1,5,A
+SC1,29/09/2018,Alloa Athletic,Falkirk,0,2,A
+SC1,29/12/2018,Partick,Morton,1,2,A
+SC1,29/12/2018,Alloa Athletic,Dundee Utd,2,1,H
+SC1,29/12/2018,Falkirk,Dunfermline,2,4,A
+SC1,29/12/2018,Queen of the South,Ayr Utd,1,1,D
+SC1,29/12/2018,Ross County,Inverness CT,2,1,H
+SC1,30/03/2019,Dundee Utd,Queen of the South,1,2,A
+SC1,30/03/2019,Inverness CT,Falkirk,0,0,D
+SC1,30/03/2019,Morton,Partick,0,3,A
+SC1,30/03/2019,Alloa Athletic,Ross County,1,0,H
+SC1,30/10/2018,Ayr Utd,Alloa Athletic,3,0,H
+SC1,30/10/2018,Queen of the South,Morton,1,2,A
+SC1,30/10/2018,Inverness CT,Dunfermline,2,2,D
+SC1,30/10/2018,Falkirk,Ross County,1,1,D
+SC1,30/11/2018,Dundee Utd,Ayr Utd,0,5,A

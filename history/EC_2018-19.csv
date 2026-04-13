@@ -1,0 +1,553 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2019,Leyton Orient,Dag and Red,1,0,H
+EC,01/01/2019,FC Halifax Town,Harrogate,1,1,D
+EC,01/01/2019,AFC Fylde,Barrow,0,0,D
+EC,01/01/2019,Solihull,Chesterfield,2,2,D
+EC,01/01/2019,Braintree,Ebbsfleet,0,4,A
+EC,01/01/2019,Maidstone Utd,Dover,0,1,A
+EC,01/01/2019,Eastleigh,Havant & Wville,2,1,H
+EC,01/01/2019,Aldershot,Maidenhead,0,0,D
+EC,01/01/2019,Barnet,Boreham Wood,1,1,D
+EC,01/01/2019,Hartlepool,Gateshead,2,1,H
+EC,01/01/2019,Salford,Wrexham,2,0,H
+EC,01/01/2019,Bromley,Sutton Utd,2,1,H
+EC,01/09/2018,Gateshead,Maidstone Utd,1,0,H
+EC,01/09/2018,Chesterfield,Leyton Orient,0,1,A
+EC,01/09/2018,Dover,Barnet,1,2,A
+EC,01/09/2018,Boreham Wood,Braintree,1,1,D
+EC,01/09/2018,Sutton Utd,FC Halifax Town,1,1,D
+EC,01/09/2018,Wrexham,Aldershot,2,0,H
+EC,01/09/2018,Maidenhead,Bromley,2,2,D
+EC,01/09/2018,Ebbsfleet,AFC Fylde,1,3,A
+EC,01/09/2018,Harrogate,Eastleigh,4,0,H
+EC,01/09/2018,Havant & Wville,Hartlepool,1,2,A
+EC,01/09/2018,Dag and Red,Salford,0,0,D
+EC,01/09/2018,Barrow,Solihull,1,2,A
+EC,01/12/2018,Salford,Havant & Wville,3,0,H
+EC,01/12/2018,AFC Fylde,Sutton Utd,2,2,D
+EC,01/12/2018,Maidenhead,Harrogate,1,2,A
+EC,01/12/2018,Braintree,Barrow,0,2,A
+EC,01/12/2018,Eastleigh,Dover,2,2,D
+EC,01/12/2018,Aldershot,Ebbsfleet,0,2,A
+EC,01/12/2018,Leyton Orient,Gateshead,2,0,H
+EC,01/12/2018,Hartlepool,Dag and Red,1,2,A
+EC,02/02/2019,Dover,Gateshead,1,2,A
+EC,02/03/2019,Barnet,Barrow,3,1,H
+EC,02/03/2019,Aldershot,Gateshead,0,2,A
+EC,02/03/2019,Eastleigh,FC Halifax Town,0,1,A
+EC,02/03/2019,Dover,Braintree,3,0,H
+EC,02/03/2019,Bromley,Boreham Wood,0,2,A
+EC,02/03/2019,Sutton Utd,Hartlepool,2,2,D
+EC,02/03/2019,Wrexham,Chesterfield,1,0,H
+EC,02/03/2019,AFC Fylde,Maidenhead,2,1,H
+EC,02/03/2019,Ebbsfleet,Salford,0,1,A
+EC,02/03/2019,Solihull,Maidstone Utd,5,0,H
+EC,02/03/2019,Havant & Wville,Leyton Orient,1,2,A
+EC,02/03/2019,Harrogate,Dag and Red,1,1,D
+EC,02/04/2019,AFC Fylde,Dag and Red,1,1,D
+EC,02/04/2019,Bromley,Leyton Orient,2,1,H
+EC,02/04/2019,Eastleigh,Barnet,0,3,A
+EC,03/11/2018,Havant & Wville,FC Halifax Town,2,1,H
+EC,03/11/2018,Aldershot,Braintree,1,0,H
+EC,03/11/2018,Eastleigh,Salford,1,1,D
+EC,03/11/2018,Dover,Maidenhead,2,0,H
+EC,03/11/2018,Bromley,Hartlepool,4,0,H
+EC,03/11/2018,Solihull,Boreham Wood,0,0,D
+EC,03/11/2018,Harrogate,Chesterfield,1,1,D
+EC,03/11/2018,Wrexham,Gateshead,3,1,H
+EC,03/11/2018,AFC Fylde,Leyton Orient,1,3,A
+EC,03/11/2018,Ebbsfleet,Barrow,1,0,H
+EC,03/11/2018,Barnet,Maidstone Utd,0,2,A
+EC,03/11/2018,Sutton Utd,Dag and Red,1,0,H
+EC,04/08/2018,Salford,Leyton Orient,1,1,D
+EC,04/08/2018,Harrogate,Sutton Utd,2,2,D
+EC,04/08/2018,Barrow,Havant & Wville,3,0,H
+EC,04/08/2018,Eastleigh,Solihull,1,2,A
+EC,04/08/2018,Maidstone Utd,Hartlepool,1,1,D
+EC,04/08/2018,Dover,Wrexham,0,1,A
+EC,04/08/2018,Aldershot,Barnet,0,0,D
+EC,04/08/2018,Braintree,FC Halifax Town,0,2,A
+EC,04/08/2018,Maidenhead,Gateshead,1,3,A
+EC,04/08/2018,AFC Fylde,Bromley,2,1,H
+EC,04/08/2018,Ebbsfleet,Chesterfield,0,1,A
+EC,04/08/2018,Boreham Wood,Dag and Red,1,0,H
+EC,04/09/2018,Dag and Red,Braintree,1,0,H
+EC,04/09/2018,Hartlepool,Barrow,0,0,D
+EC,04/09/2018,AFC Fylde,Salford,0,2,A
+EC,04/09/2018,Maidenhead,Eastleigh,2,0,H
+EC,04/09/2018,Wrexham,FC Halifax Town,0,0,D
+EC,04/09/2018,Bromley,Barnet,0,1,A
+EC,04/09/2018,Boreham Wood,Chesterfield,1,0,H
+EC,04/09/2018,Dover,Ebbsfleet,1,1,D
+EC,04/09/2018,Maidstone Utd,Sutton Utd,0,1,A
+EC,04/09/2018,Gateshead,Harrogate,2,3,A
+EC,04/09/2018,Leyton Orient,Solihull,3,0,H
+EC,04/12/2018,Solihull,Harrogate,2,0,H
+EC,05/01/2019,Havant & Wville,Barrow,2,0,H
+EC,05/01/2019,FC Halifax Town,Braintree,0,0,D
+EC,05/01/2019,Hartlepool,Maidstone Utd,1,2,A
+EC,05/01/2019,Wrexham,Dover,0,1,A
+EC,05/01/2019,Sutton Utd,Harrogate,2,1,H
+EC,05/01/2019,Solihull,Eastleigh,4,1,H
+EC,05/01/2019,Bromley,AFC Fylde,3,2,H
+EC,05/01/2019,Gateshead,Maidenhead,0,1,A
+EC,05/01/2019,Dag and Red,Boreham Wood,4,4,D
+EC,05/01/2019,Leyton Orient,Salford,0,3,A
+EC,05/01/2019,Chesterfield,Ebbsfleet,3,3,D
+EC,05/03/2019,FC Halifax Town,Barnet,3,0,H
+EC,05/03/2019,Braintree,Chesterfield,1,3,A
+EC,05/03/2019,Maidenhead,Dag and Red,1,1,D
+EC,05/03/2019,Salford,Sutton Utd,2,0,H
+EC,05/03/2019,Barrow,Leyton Orient,2,3,A
+EC,05/03/2019,Harrogate,Bromley,1,0,H
+EC,05/09/2018,Havant & Wville,Aldershot,2,1,H
+EC,06/04/2019,Maidstone Utd,Salford,0,2,A
+EC,06/04/2019,Dover,Chesterfield,0,0,D
+EC,06/04/2019,Havant & Wville,Harrogate,1,2,A
+EC,06/04/2019,Leyton Orient,FC Halifax Town,2,2,D
+EC,06/04/2019,Dag and Red,Barrow,0,0,D
+EC,06/04/2019,Boreham Wood,Sutton Utd,1,2,A
+EC,06/04/2019,Bromley,Aldershot,2,2,D
+EC,06/04/2019,Wrexham,Braintree,3,1,H
+EC,06/04/2019,Maidenhead,Barnet,0,1,A
+EC,06/04/2019,AFC Fylde,Eastleigh,4,2,H
+EC,06/04/2019,Gateshead,Ebbsfleet,1,1,D
+EC,06/04/2019,Hartlepool,Solihull,0,1,A
+EC,06/10/2018,Maidstone Utd,Bromley,0,1,A
+EC,06/10/2018,Barrow,Sutton Utd,2,1,H
+EC,06/10/2018,Barnet,Solihull,2,0,H
+EC,06/10/2018,Aldershot,FC Halifax Town,3,0,H
+EC,06/10/2018,Ebbsfleet,Harrogate,0,2,A
+EC,06/10/2018,Maidenhead,Leyton Orient,0,2,A
+EC,06/10/2018,Wrexham,Havant & Wville,1,0,H
+EC,06/10/2018,Gateshead,Dag and Red,2,0,H
+EC,06/10/2018,Dover,Salford,1,4,A
+EC,06/10/2018,Braintree,Eastleigh,1,2,A
+EC,06/10/2018,Chesterfield,AFC Fylde,0,0,D
+EC,06/10/2018,Hartlepool,Boreham Wood,2,0,H
+EC,07/08/2018,Leyton Orient,Ebbsfleet,1,1,D
+EC,07/08/2018,FC Halifax Town,Barrow,2,0,H
+EC,07/08/2018,Chesterfield,Aldershot,3,0,H
+EC,07/08/2018,Hartlepool,Harrogate,2,2,D
+EC,07/08/2018,Barnet,Braintree,1,1,D
+EC,07/08/2018,Dag and Red,Maidstone Utd,1,2,A
+EC,07/08/2018,Wrexham,AFC Fylde,0,0,D
+EC,07/08/2018,Gateshead,Salford,2,1,H
+EC,07/08/2018,Solihull,Maidenhead,1,0,H
+EC,07/08/2018,Sutton Utd,Eastleigh,1,0,H
+EC,07/08/2018,Havant & Wville,Boreham Wood,0,0,D
+EC,07/08/2018,Bromley,Dover,2,2,D
+EC,08/01/2019,Bromley,Wrexham,2,0,H
+EC,08/01/2019,Gateshead,Solihull,1,2,A
+EC,08/09/2018,Eastleigh,AFC Fylde,0,0,D
+EC,08/09/2018,Aldershot,Bromley,3,2,H
+EC,08/09/2018,Ebbsfleet,Gateshead,0,1,A
+EC,08/09/2018,Chesterfield,Dover,0,0,D
+EC,08/09/2018,Braintree,Wrexham,0,1,A
+EC,08/09/2018,Barnet,Maidenhead,1,0,H
+EC,08/09/2018,Solihull,Hartlepool,0,1,A
+EC,08/09/2018,Barrow,Dag and Red,0,1,A
+EC,08/09/2018,Harrogate,Havant & Wville,3,2,H
+EC,08/09/2018,Salford,Maidstone Utd,1,0,H
+EC,08/09/2018,FC Halifax Town,Leyton Orient,1,1,D
+EC,08/12/2018,Gateshead,Bromley,2,0,H
+EC,08/12/2018,Harrogate,Aldershot,4,1,H
+EC,08/12/2018,Ebbsfleet,Barnet,1,0,H
+EC,08/12/2018,Maidenhead,Hartlepool,0,1,A
+EC,08/12/2018,Wrexham,Eastleigh,2,0,H
+EC,08/12/2018,Dover,AFC Fylde,2,1,H
+EC,08/12/2018,Havant & Wville,Braintree,2,1,H
+EC,08/12/2018,Boreham Wood,Leyton Orient,1,0,H
+EC,08/12/2018,Chesterfield,Salford,2,0,H
+EC,08/12/2018,Barrow,Maidstone Utd,1,0,H
+EC,08/12/2018,Dag and Red,FC Halifax Town,1,1,D
+EC,08/12/2018,Sutton Utd,Solihull,2,2,D
+EC,09/02/2019,Gateshead,Havant & Wville,0,0,D
+EC,09/02/2019,Ebbsfleet,Solihull,0,1,A
+EC,09/02/2019,Maidenhead,Boreham Wood,1,0,H
+EC,09/02/2019,Wrexham,Dag and Red,1,0,H
+EC,09/02/2019,Braintree,Salford,1,0,H
+EC,09/02/2019,Dover,Harrogate,2,3,A
+EC,09/02/2019,Maidstone Utd,AFC Fylde,1,1,D
+EC,09/02/2019,Chesterfield,FC Halifax Town,1,0,H
+EC,09/02/2019,Barrow,Bromley,1,1,D
+EC,09/02/2019,Aldershot,Eastleigh,1,3,A
+EC,09/02/2019,Barnet,Sutton Utd,0,1,A
+EC,09/02/2019,Hartlepool,Leyton Orient,1,1,D
+EC,09/03/2019,Maidenhead,Sutton Utd,1,0,H
+EC,09/03/2019,Leyton Orient,Wrexham,1,0,H
+EC,09/03/2019,Salford,Solihull,2,0,H
+EC,09/03/2019,Braintree,Harrogate,0,4,A
+EC,09/03/2019,Boreham Wood,AFC Fylde,1,1,D
+EC,09/03/2019,Maidstone Utd,Havant & Wville,2,0,H
+EC,09/03/2019,Dag and Red,Bromley,3,0,H
+EC,09/03/2019,Barrow,Aldershot,2,1,H
+EC,09/03/2019,Hartlepool,Dover,3,2,H
+EC,09/03/2019,Chesterfield,Eastleigh,2,3,A
+EC,09/03/2019,Gateshead,Barnet,2,1,H
+EC,09/04/2019,Gateshead,AFC Fylde,0,1,A
+EC,09/04/2019,Leyton Orient,Eastleigh,3,2,H
+EC,09/04/2019,Maidstone Utd,Barnet,2,1,H
+EC,11/08/2018,Solihull,Aldershot,1,0,H
+EC,11/08/2018,FC Halifax Town,Maidstone Utd,3,0,H
+EC,11/08/2018,Dag and Red,Maidenhead,2,2,D
+EC,11/08/2018,Leyton Orient,Barrow,2,2,D
+EC,11/08/2018,Barnet,Eastleigh,1,2,A
+EC,11/08/2018,Hartlepool,Ebbsfleet,0,1,A
+EC,11/08/2018,Chesterfield,Braintree,1,0,H
+EC,11/08/2018,Wrexham,Boreham Wood,3,0,H
+EC,11/08/2018,Havant & Wville,AFC Fylde,1,1,D
+EC,11/08/2018,Sutton Utd,Salford,2,1,H
+EC,11/08/2018,Bromley,Harrogate,1,1,D
+EC,11/08/2018,Gateshead,Dover,2,1,H
+EC,12/02/2019,Aldershot,Solihull,0,3,A
+EC,12/03/2019,Ebbsfleet,Maidenhead,3,0,H
+EC,12/03/2019,Wrexham,Barrow,1,3,A
+EC,12/03/2019,AFC Fylde,Hartlepool,4,2,H
+EC,12/03/2019,Havant & Wville,Dag and Red,3,0,H
+EC,12/03/2019,Barnet,FC Halifax Town,1,1,D
+EC,12/03/2019,Sutton Utd,Braintree,0,3,A
+EC,12/03/2019,Aldershot,Leyton Orient,1,2,A
+EC,12/03/2019,Bromley,Chesterfield,3,3,D
+EC,12/03/2019,Dover,Boreham Wood,1,1,D
+EC,12/03/2019,Eastleigh,Maidstone Utd,2,0,H
+EC,12/03/2019,Solihull,Gateshead,1,0,H
+EC,13/04/2019,Braintree,AFC Fylde,2,1,H
+EC,13/04/2019,Solihull,Havant & Wville,3,2,H
+EC,13/04/2019,Sutton Utd,Leyton Orient,1,2,A
+EC,13/04/2019,FC Halifax Town,Bromley,2,2,D
+EC,13/04/2019,Harrogate,Boreham Wood,0,1,A
+EC,13/04/2019,Salford,Maidenhead,3,0,H
+EC,13/04/2019,Chesterfield,Maidstone Utd,4,1,H
+EC,13/04/2019,Aldershot,Hartlepool,1,1,D
+EC,13/04/2019,Eastleigh,Gateshead,1,0,H
+EC,13/04/2019,Barrow,Dover,2,3,A
+EC,13/04/2019,Ebbsfleet,Dag and Red,0,1,A
+EC,13/04/2019,Barnet,Wrexham,1,2,A
+EC,13/10/2018,Salford,Braintree,2,2,D
+EC,13/10/2018,AFC Fylde,Maidstone Utd,2,0,H
+EC,13/10/2018,Harrogate,Dover,2,2,D
+EC,13/10/2018,Havant & Wville,Gateshead,0,1,A
+EC,13/10/2018,Leyton Orient,Hartlepool,0,0,D
+EC,13/10/2018,FC Halifax Town,Chesterfield,1,1,D
+EC,13/10/2018,Boreham Wood,Maidenhead,3,1,H
+EC,13/10/2018,Dag and Red,Wrexham,1,2,A
+EC,13/10/2018,Eastleigh,Aldershot,1,2,A
+EC,13/10/2018,Solihull,Ebbsfleet,2,1,H
+EC,13/10/2018,Bromley,Barrow,2,1,H
+EC,14/08/2018,Dover,Havant & Wville,4,3,H
+EC,14/08/2018,Eastleigh,Bromley,1,0,H
+EC,14/08/2018,Barrow,Chesterfield,3,2,H
+EC,14/08/2018,Aldershot,Dag and Red,2,1,H
+EC,14/08/2018,Salford,FC Halifax Town,2,1,H
+EC,14/08/2018,Harrogate,Barnet,2,0,H
+EC,14/08/2018,Boreham Wood,Gateshead,1,1,D
+EC,14/08/2018,Braintree,Hartlepool,1,1,D
+EC,14/08/2018,Maidenhead,Wrexham,0,2,A
+EC,14/08/2018,Ebbsfleet,Sutton Utd,0,1,A
+EC,14/08/2018,AFC Fylde,Solihull,3,1,H
+EC,14/08/2018,Maidstone Utd,Leyton Orient,1,2,A
+EC,15/01/2019,Maidstone Utd,Maidenhead,2,4,A
+EC,15/09/2018,AFC Fylde,Aldershot,3,0,H
+EC,15/09/2018,Havant & Wville,Sutton Utd,1,2,A
+EC,15/09/2018,Hartlepool,Eastleigh,1,1,D
+EC,15/09/2018,Bromley,Salford,0,2,A
+EC,15/09/2018,Dover,Solihull,0,2,A
+EC,15/09/2018,Maidstone Utd,Harrogate,0,2,A
+EC,15/09/2018,Boreham Wood,Barrow,1,1,D
+EC,15/09/2018,Gateshead,Braintree,0,1,A
+EC,15/09/2018,Dag and Red,Chesterfield,1,1,D
+EC,15/09/2018,Wrexham,Ebbsfleet,4,1,H
+EC,15/09/2018,Leyton Orient,Barnet,3,1,H
+EC,15/09/2018,Maidenhead,FC Halifax Town,3,0,H
+EC,16/02/2019,AFC Fylde,Chesterfield,0,1,A
+EC,16/02/2019,FC Halifax Town,Aldershot,0,0,D
+EC,16/02/2019,Salford,Dover,1,3,A
+EC,16/02/2019,Dag and Red,Gateshead,0,2,A
+EC,16/02/2019,Havant & Wville,Wrexham,2,3,A
+EC,16/02/2019,Harrogate,Ebbsfleet,1,2,A
+EC,16/02/2019,Eastleigh,Braintree,2,1,H
+EC,16/02/2019,Boreham Wood,Hartlepool,0,4,A
+EC,16/02/2019,Bromley,Maidstone Utd,2,0,H
+EC,16/02/2019,Solihull,Barnet,2,2,D
+EC,16/02/2019,Sutton Utd,Barrow,0,1,A
+EC,16/02/2019,Leyton Orient,Maidenhead,0,1,A
+EC,16/03/2019,Harrogate,Maidenhead,1,0,H
+EC,16/03/2019,Wrexham,Maidstone Utd,1,0,H
+EC,16/03/2019,Sutton Utd,Gateshead,4,2,H
+EC,16/03/2019,Solihull,Braintree,2,1,H
+EC,16/03/2019,Aldershot,Salford,0,1,A
+EC,16/03/2019,Barnet,Hartlepool,0,0,D
+EC,16/03/2019,Dover,FC Halifax Town,2,1,H
+EC,16/03/2019,Eastleigh,Barrow,0,1,A
+EC,16/03/2019,Havant & Wville,Chesterfield,1,2,A
+EC,16/03/2019,Ebbsfleet,Boreham Wood,3,2,H
+EC,17/11/2018,Braintree,Solihull,0,3,A
+EC,17/11/2018,Chesterfield,Havant & Wville,0,0,D
+EC,17/11/2018,Leyton Orient,Bromley,3,1,H
+EC,17/11/2018,Barrow,Eastleigh,0,3,A
+EC,17/11/2018,Dag and Red,AFC Fylde,2,1,H
+EC,17/11/2018,Gateshead,Sutton Utd,0,0,D
+EC,17/11/2018,Maidstone Utd,Wrexham,1,1,D
+EC,17/11/2018,Boreham Wood,Ebbsfleet,0,0,D
+EC,17/11/2018,Salford,Aldershot,4,0,H
+EC,17/11/2018,FC Halifax Town,Dover,1,0,H
+EC,18/08/2018,FC Halifax Town,Dag and Red,2,1,H
+EC,18/08/2018,Hartlepool,Maidenhead,2,1,H
+EC,18/08/2018,Barnet,Ebbsfleet,0,3,A
+EC,18/08/2018,Leyton Orient,Boreham Wood,1,0,H
+EC,18/08/2018,Aldershot,Harrogate,0,2,A
+EC,18/08/2018,Eastleigh,Wrexham,1,3,A
+EC,18/08/2018,Salford,Chesterfield,3,2,H
+EC,18/08/2018,Maidstone Utd,Barrow,1,0,H
+EC,18/08/2018,Braintree,Havant & Wville,3,4,A
+EC,18/08/2018,Bromley,Gateshead,1,0,H
+EC,18/08/2018,Solihull,Sutton Utd,2,2,D
+EC,18/08/2018,AFC Fylde,Dover,4,0,H
+EC,18/09/2018,Sutton Utd,Boreham Wood,0,4,A
+EC,18/11/2018,Hartlepool,Barnet,1,3,A
+EC,18/12/2018,FC Halifax Town,Boreham Wood,1,1,D
+EC,19/01/2019,Harrogate,Hartlepool,3,1,H
+EC,19/01/2019,Aldershot,Chesterfield,0,2,A
+EC,19/01/2019,Barrow,FC Halifax Town,0,0,D
+EC,19/01/2019,Eastleigh,Sutton Utd,3,2,H
+EC,19/01/2019,Maidstone Utd,Dag and Red,0,3,A
+EC,19/01/2019,Dover,Bromley,1,1,D
+EC,19/01/2019,Boreham Wood,Havant & Wville,1,3,A
+EC,19/01/2019,Salford,Gateshead,1,1,D
+EC,19/01/2019,Maidenhead,Solihull,1,2,A
+EC,19/01/2019,AFC Fylde,Wrexham,2,0,H
+EC,19/01/2019,Ebbsfleet,Leyton Orient,2,0,H
+EC,19/01/2019,Braintree,Barnet,4,0,H
+EC,19/02/2019,Maidstone Utd,FC Halifax Town,0,1,A
+EC,19/02/2019,Ebbsfleet,Hartlepool,0,0,D
+EC,19/02/2019,AFC Fylde,Havant & Wville,6,2,H
+EC,19/02/2019,Sutton Utd,Barnet,0,0,D
+EC,19/02/2019,Boreham Wood,Wrexham,0,2,A
+EC,19/03/2019,Barnet,Harrogate,1,0,H
+EC,19/04/2019,Havant & Wville,Ebbsfleet,3,3,D
+EC,19/04/2019,AFC Fylde,Barnet,1,0,H
+EC,19/04/2019,Wrexham,Sutton Utd,1,0,H
+EC,19/04/2019,Bromley,Solihull,0,2,A
+EC,19/04/2019,Boreham Wood,Salford,2,3,A
+EC,19/04/2019,Dover,Aldershot,1,0,H
+EC,19/04/2019,Maidstone Utd,Braintree,0,2,A
+EC,19/04/2019,Gateshead,Chesterfield,1,0,H
+EC,19/04/2019,Dag and Red,Eastleigh,2,0,H
+EC,19/04/2019,Leyton Orient,Harrogate,2,0,H
+EC,19/04/2019,Maidenhead,Barrow,1,1,D
+EC,19/04/2019,Hartlepool,FC Halifax Town,2,1,H
+EC,22/04/2019,Barnet,Bromley,1,1,D
+EC,22/04/2019,Harrogate,Gateshead,2,0,H
+EC,22/04/2019,Barrow,Hartlepool,1,0,H
+EC,22/04/2019,Eastleigh,Maidenhead,2,0,H
+EC,22/04/2019,Braintree,Dag and Red,2,0,H
+EC,22/04/2019,Solihull,Leyton Orient,0,0,D
+EC,22/04/2019,Sutton Utd,Maidstone Utd,2,2,D
+EC,22/04/2019,Ebbsfleet,Dover,0,1,A
+EC,22/04/2019,Aldershot,Havant & Wville,2,0,H
+EC,22/04/2019,Salford,AFC Fylde,0,1,A
+EC,22/04/2019,FC Halifax Town,Wrexham,2,1,H
+EC,22/04/2019,Chesterfield,Boreham Wood,3,2,H
+EC,22/09/2018,Aldershot,Dover,2,0,H
+EC,22/09/2018,Eastleigh,Dag and Red,1,0,H
+EC,22/09/2018,Chesterfield,Gateshead,0,3,A
+EC,22/09/2018,Barrow,Maidenhead,2,0,H
+EC,22/09/2018,Harrogate,Leyton Orient,0,3,A
+EC,22/09/2018,FC Halifax Town,Hartlepool,1,2,A
+EC,22/09/2018,Salford,Boreham Wood,3,1,H
+EC,22/09/2018,Sutton Utd,Wrexham,3,0,H
+EC,22/09/2018,Solihull,Bromley,5,0,H
+EC,22/09/2018,Braintree,Maidstone Utd,0,1,A
+EC,22/09/2018,Barnet,AFC Fylde,1,1,D
+EC,22/09/2018,Ebbsfleet,Havant & Wville,1,1,D
+EC,22/12/2018,Maidstone Utd,Gateshead,2,3,A
+EC,22/12/2018,Barnet,Dover,2,0,H
+EC,22/12/2018,Leyton Orient,Chesterfield,3,1,H
+EC,22/12/2018,Aldershot,Wrexham,0,0,D
+EC,22/12/2018,Eastleigh,Harrogate,2,1,H
+EC,22/12/2018,Braintree,Boreham Wood,1,1,D
+EC,22/12/2018,Hartlepool,Havant & Wville,1,1,D
+EC,22/12/2018,Solihull,Barrow,0,1,A
+EC,22/12/2018,Bromley,Maidenhead,1,0,H
+EC,22/12/2018,Salford,Dag and Red,1,2,A
+EC,22/12/2018,FC Halifax Town,Sutton Utd,0,1,A
+EC,22/12/2018,AFC Fylde,Ebbsfleet,2,0,H
+EC,23/02/2019,Barrow,Ebbsfleet,0,0,D
+EC,23/02/2019,Dag and Red,Sutton Utd,1,0,H
+EC,23/02/2019,Gateshead,Wrexham,1,1,D
+EC,23/02/2019,Braintree,Aldershot,0,1,A
+EC,23/02/2019,Hartlepool,Bromley,1,2,A
+EC,23/02/2019,Maidenhead,Dover,1,0,H
+EC,23/02/2019,FC Halifax Town,Havant & Wville,0,0,D
+EC,23/02/2019,Salford,Eastleigh,0,2,A
+EC,23/02/2019,Chesterfield,Harrogate,0,1,A
+EC,23/03/2019,Boreham Wood,Aldershot,0,2,A
+EC,23/03/2019,Maidstone Utd,Ebbsfleet,0,2,A
+EC,23/03/2019,Barrow,Harrogate,2,2,D
+EC,23/03/2019,Hartlepool,Wrexham,1,0,H
+EC,23/03/2019,Chesterfield,Sutton Utd,3,0,H
+EC,23/03/2019,Salford,Barnet,0,0,D
+EC,23/03/2019,FC Halifax Town,Solihull,2,0,H
+EC,23/03/2019,Braintree,Bromley,2,4,A
+EC,24/11/2018,Aldershot,Barrow,0,2,A
+EC,24/11/2018,Bromley,Dag and Red,0,2,A
+EC,24/11/2018,Solihull,Salford,0,0,D
+EC,24/11/2018,Sutton Utd,Maidenhead,0,1,A
+EC,24/11/2018,Barnet,Gateshead,1,2,A
+EC,24/11/2018,AFC Fylde,Boreham Wood,2,1,H
+EC,24/11/2018,Ebbsfleet,FC Halifax Town,4,0,H
+EC,24/11/2018,Harrogate,Braintree,3,1,H
+EC,24/11/2018,Havant & Wville,Maidstone Utd,5,2,H
+EC,24/11/2018,Dover,Hartlepool,2,1,H
+EC,24/11/2018,Wrexham,Leyton Orient,0,2,A
+EC,24/11/2018,Eastleigh,Chesterfield,1,1,D
+EC,25/08/2018,Wrexham,Bromley,2,2,D
+EC,25/08/2018,Sutton Utd,AFC Fylde,0,0,D
+EC,25/08/2018,Boreham Wood,FC Halifax Town,2,1,H
+EC,25/08/2018,Dover,Eastleigh,1,2,A
+EC,25/08/2018,Gateshead,Leyton Orient,1,1,D
+EC,25/08/2018,Dag and Red,Hartlepool,1,2,A
+EC,25/08/2018,Maidenhead,Maidstone Utd,3,2,H
+EC,25/08/2018,Chesterfield,Barnet,0,1,A
+EC,25/08/2018,Ebbsfleet,Aldershot,3,1,H
+EC,25/08/2018,Harrogate,Solihull,3,1,H
+EC,25/08/2018,Havant & Wville,Salford,1,1,D
+EC,25/08/2018,Barrow,Braintree,1,0,H
+EC,25/09/2018,Solihull,Dag and Red,2,0,H
+EC,25/09/2018,Sutton Utd,Dover,2,2,D
+EC,25/09/2018,Ebbsfleet,Bromley,1,2,A
+EC,25/09/2018,Chesterfield,Maidenhead,1,3,A
+EC,25/09/2018,Barnet,Havant & Wville,2,2,D
+EC,25/09/2018,Aldershot,Maidstone Utd,0,1,A
+EC,25/09/2018,Barrow,Gateshead,1,2,A
+EC,25/09/2018,Eastleigh,Boreham Wood,1,0,H
+EC,25/09/2018,Braintree,Leyton Orient,1,5,A
+EC,25/09/2018,Salford,Hartlepool,3,0,H
+EC,25/09/2018,FC Halifax Town,AFC Fylde,0,0,D
+EC,25/09/2018,Harrogate,Wrexham,0,0,D
+EC,26/01/2019,Hartlepool,Braintree,2,1,H
+EC,26/01/2019,Havant & Wville,Dover,0,0,D
+EC,26/01/2019,FC Halifax Town,Salford,0,0,D
+EC,26/01/2019,Wrexham,Maidenhead,1,0,H
+EC,26/01/2019,Sutton Utd,Ebbsfleet,1,0,H
+EC,26/01/2019,Solihull,AFC Fylde,1,2,A
+EC,26/01/2019,Bromley,Eastleigh,0,1,A
+EC,26/01/2019,Gateshead,Boreham Wood,1,1,D
+EC,26/01/2019,Dag and Red,Aldershot,1,1,D
+EC,26/01/2019,Leyton Orient,Maidstone Utd,3,0,H
+EC,26/01/2019,Chesterfield,Barrow,0,0,D
+EC,26/02/2019,Barnet,Chesterfield,0,2,A
+EC,26/03/2019,FC Halifax Town,Ebbsfleet,0,0,D
+EC,26/03/2019,Maidenhead,Havant & Wville,2,1,H
+EC,26/03/2019,Barnet,Aldershot,2,0,H
+EC,26/03/2019,Dag and Red,Dover,1,3,A
+EC,26/03/2019,Boreham Wood,Solihull,2,2,D
+EC,26/03/2019,Leyton Orient,AFC Fylde,2,0,H
+EC,26/12/2018,Maidenhead,Aldershot,4,3,H
+EC,26/12/2018,Boreham Wood,Barnet,1,0,H
+EC,26/12/2018,Chesterfield,Solihull,0,4,A
+EC,26/12/2018,Barrow,AFC Fylde,1,1,D
+EC,26/12/2018,Gateshead,Hartlepool,2,1,H
+EC,26/12/2018,Dag and Red,Leyton Orient,2,1,H
+EC,26/12/2018,Sutton Utd,Bromley,1,0,H
+EC,26/12/2018,Dover,Maidstone Utd,3,1,H
+EC,26/12/2018,Havant & Wville,Eastleigh,2,2,D
+EC,26/12/2018,Wrexham,Salford,5,1,H
+EC,26/12/2018,Ebbsfleet,Braintree,4,2,H
+EC,26/12/2018,Harrogate,FC Halifax Town,1,2,A
+EC,27/03/2019,Harrogate,Salford,0,1,A
+EC,27/04/2019,Hartlepool,Salford,3,2,H
+EC,27/04/2019,Leyton Orient,Braintree,0,0,D
+EC,27/04/2019,Dag and Red,Solihull,1,1,D
+EC,27/04/2019,Maidstone Utd,Aldershot,0,2,A
+EC,27/04/2019,Dover,Sutton Utd,3,0,H
+EC,27/04/2019,Boreham Wood,Eastleigh,3,3,D
+EC,27/04/2019,Bromley,Ebbsfleet,5,1,H
+EC,27/04/2019,Wrexham,Harrogate,2,1,H
+EC,27/04/2019,Maidenhead,Chesterfield,2,0,H
+EC,27/04/2019,Gateshead,Barrow,0,2,A
+EC,27/04/2019,Havant & Wville,Barnet,0,2,A
+EC,27/04/2019,AFC Fylde,FC Halifax Town,0,2,A
+EC,27/08/2018,Hartlepool,Chesterfield,1,0,H
+EC,27/08/2018,Salford,Barrow,3,1,H
+EC,27/08/2018,FC Halifax Town,Gateshead,1,0,H
+EC,27/08/2018,Solihull,Wrexham,1,0,H
+EC,27/08/2018,Bromley,Havant & Wville,4,0,H
+EC,27/08/2018,Braintree,Maidenhead,0,2,A
+EC,27/08/2018,Maidstone Utd,Boreham Wood,1,2,A
+EC,27/08/2018,AFC Fylde,Harrogate,0,0,D
+EC,27/08/2018,Leyton Orient,Dover,3,0,H
+EC,27/08/2018,Barnet,Dag and Red,2,1,H
+EC,27/08/2018,Aldershot,Sutton Utd,2,1,H
+EC,27/08/2018,Eastleigh,Ebbsfleet,0,1,A
+EC,27/10/2018,Barrow,Barnet,0,2,A
+EC,27/10/2018,Chesterfield,Wrexham,1,1,D
+EC,27/10/2018,Hartlepool,Sutton Utd,2,3,A
+EC,27/10/2018,Dag and Red,Harrogate,2,1,H
+EC,27/10/2018,FC Halifax Town,Eastleigh,0,1,A
+EC,27/10/2018,Leyton Orient,Havant & Wville,4,0,H
+EC,27/10/2018,Gateshead,Aldershot,3,0,H
+EC,27/10/2018,Maidstone Utd,Solihull,1,3,A
+EC,27/10/2018,Salford,Ebbsfleet,1,1,D
+EC,27/10/2018,Braintree,Dover,2,1,H
+EC,27/10/2018,Maidenhead,AFC Fylde,0,6,A
+EC,27/10/2018,Boreham Wood,Bromley,2,1,H
+EC,27/11/2018,Chesterfield,Bromley,1,1,D
+EC,27/11/2018,Hartlepool,AFC Fylde,1,2,A
+EC,27/11/2018,Barrow,Wrexham,0,0,D
+EC,27/11/2018,Dag and Red,Havant & Wville,3,1,H
+EC,27/11/2018,Boreham Wood,Dover,0,1,A
+EC,27/11/2018,Braintree,Sutton Utd,2,2,D
+EC,27/11/2018,Maidenhead,Ebbsfleet,1,1,D
+EC,27/11/2018,Salford,Harrogate,3,2,H
+EC,27/11/2018,Leyton Orient,Aldershot,0,0,D
+EC,27/11/2018,Maidstone Utd,Eastleigh,1,3,A
+EC,29/09/2018,Bromley,FC Halifax Town,2,2,D
+EC,29/09/2018,Wrexham,Barnet,1,0,H
+EC,29/09/2018,Maidenhead,Salford,0,3,A
+EC,29/09/2018,AFC Fylde,Braintree,3,0,H
+EC,29/09/2018,Havant & Wville,Solihull,0,1,A
+EC,29/09/2018,Dover,Barrow,0,2,A
+EC,29/09/2018,Boreham Wood,Harrogate,2,4,A
+EC,29/09/2018,Maidstone Utd,Chesterfield,1,1,D
+EC,29/09/2018,Gateshead,Eastleigh,0,1,A
+EC,29/09/2018,Dag and Red,Ebbsfleet,1,3,A
+EC,29/09/2018,Leyton Orient,Sutton Utd,0,1,A
+EC,29/09/2018,Hartlepool,Aldershot,1,1,D
+EC,29/12/2018,Barrow,Salford,3,2,H
+EC,29/12/2018,Chesterfield,Hartlepool,1,1,D
+EC,29/12/2018,Dag and Red,Barnet,0,1,A
+EC,29/12/2018,Gateshead,FC Halifax Town,1,1,D
+EC,29/12/2018,Dover,Leyton Orient,0,0,D
+EC,29/12/2018,Boreham Wood,Maidstone Utd,0,1,A
+EC,29/12/2018,Sutton Utd,Aldershot,2,1,H
+EC,29/12/2018,Wrexham,Solihull,1,0,H
+EC,29/12/2018,Maidenhead,Braintree,0,1,A
+EC,29/12/2018,Ebbsfleet,Eastleigh,3,0,H
+EC,29/12/2018,Harrogate,AFC Fylde,1,2,A
+EC,29/12/2018,Havant & Wville,Bromley,0,3,A
+EC,30/03/2019,Braintree,Gateshead,2,0,H
+EC,30/03/2019,Barnet,Leyton Orient,0,0,D
+EC,30/03/2019,Barrow,Boreham Wood,1,2,A
+EC,30/03/2019,Eastleigh,Hartlepool,3,2,H
+EC,30/03/2019,Solihull,Dover,2,2,D
+EC,30/03/2019,Salford,Bromley,2,1,H
+EC,30/03/2019,Ebbsfleet,Wrexham,4,2,H
+EC,30/03/2019,FC Halifax Town,Maidenhead,0,1,A
+EC,30/03/2019,Harrogate,Maidstone Utd,2,2,D
+EC,30/03/2019,Chesterfield,Dag and Red,2,0,H
+EC,30/03/2019,Sutton Utd,Havant & Wville,2,2,D
+EC,30/03/2019,Aldershot,AFC Fylde,0,0,D
+EC,30/10/2018,Ebbsfleet,Maidstone Utd,1,1,D
+EC,30/10/2018,Havant & Wville,Maidenhead,7,0,H
+EC,30/10/2018,Aldershot,Boreham Wood,1,1,D
+EC,30/10/2018,Eastleigh,Leyton Orient,1,1,D
+EC,30/10/2018,Dover,Dag and Red,0,2,A
+EC,30/10/2018,Bromley,Braintree,2,4,A
+EC,30/10/2018,Solihull,FC Halifax Town,0,0,D
+EC,30/10/2018,Sutton Utd,Chesterfield,1,1,D
+EC,30/10/2018,Wrexham,Hartlepool,1,0,H
+EC,30/10/2018,AFC Fylde,Gateshead,1,0,H
+EC,30/10/2018,Harrogate,Barrow,4,2,H
+EC,30/10/2018,Barnet,Salford,1,3,A

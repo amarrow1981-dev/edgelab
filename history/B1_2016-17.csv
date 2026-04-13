@@ -1,0 +1,271 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+B1,01/04/2017,Charleroi,Oostende,1,1,D
+B1,01/05/2017,Club Brugge KV,Zulte Waregem,2,1,H
+B1,01/10/2016,Zulte Waregem,Charleroi,1,1,D
+B1,01/10/2016,KVC Westerlo,SK Beveren,1,0,H
+B1,01/10/2016,Lokeren,Kortrijk,2,1,H
+B1,01/10/2016,AS Eupen,Royal Excel Mouscron,1,4,A
+B1,02/04/2017,Gent,Club Brugge KV,2,1,H
+B1,02/10/2016,Club Brugge KV,Gent,1,0,H
+B1,02/10/2016,Standard Liege,Anderlecht,0,1,A
+B1,02/10/2016,Genk,KV Mechelen,2,1,H
+B1,02/12/2016,KV Mechelen,AS Eupen,1,0,H
+B1,03/02/2017,Lokeren,Anderlecht,0,0,D
+B1,03/12/2016,KVC Westerlo,Gent,0,0,D
+B1,03/12/2016,St. Truiden,Royal Excel Mouscron,1,0,H
+B1,03/12/2016,Zulte Waregem,SK Beveren,1,1,D
+B1,03/12/2016,Club Brugge KV,Oostende,2,0,H
+B1,04/02/2017,Genk,Royal Excel Mouscron,1,0,H
+B1,04/02/2017,Standard Liege,Kortrijk,0,3,A
+B1,04/02/2017,AS Eupen,SK Beveren,0,2,A
+B1,04/02/2017,Oostende,KV Mechelen,2,0,H
+B1,04/03/2017,Genk,Club Brugge KV,2,1,H
+B1,04/03/2017,SK Beveren,Gent,2,3,A
+B1,04/03/2017,St. Truiden,AS Eupen,2,1,H
+B1,04/03/2017,KV Mechelen,Anderlecht,3,2,H
+B1,04/03/2017,Zulte Waregem,KVC Westerlo,2,2,D
+B1,04/03/2017,Oostende,Lokeren,0,0,D
+B1,04/03/2017,Royal Excel Mouscron,Standard Liege,1,0,H
+B1,04/03/2017,Charleroi,Kortrijk,1,1,D
+B1,04/11/2016,Kortrijk,Charleroi,2,1,H
+B1,04/12/2016,Kortrijk,Anderlecht,1,3,A
+B1,04/12/2016,Charleroi,Standard Liege,1,3,A
+B1,04/12/2016,Genk,Lokeren,1,2,A
+B1,05/02/2017,KVC Westerlo,St. Truiden,1,0,H
+B1,05/02/2017,Zulte Waregem,Gent,1,1,D
+B1,05/02/2017,Club Brugge KV,Charleroi,1,0,H
+B1,05/05/2017,Charleroi,Club Brugge KV,1,3,A
+B1,05/08/2016,Oostende,Club Brugge KV,1,0,H
+B1,05/11/2016,AS Eupen,St. Truiden,4,2,H
+B1,05/11/2016,Lokeren,KV Mechelen,0,0,D
+B1,05/11/2016,KVC Westerlo,Zulte Waregem,1,2,A
+B1,06/08/2016,Royal Excel Mouscron,Charleroi,0,1,A
+B1,06/08/2016,Standard Liege,St. Truiden,2,0,H
+B1,06/08/2016,SK Beveren,Zulte Waregem,0,2,A
+B1,06/08/2016,AS Eupen,KV Mechelen,0,2,A
+B1,06/11/2016,Club Brugge KV,Genk,1,1,D
+B1,06/11/2016,Anderlecht,Oostende,1,1,D
+B1,06/11/2016,Gent,SK Beveren,2,0,H
+B1,06/11/2016,Standard Liege,Royal Excel Mouscron,2,1,H
+B1,07/02/2017,SK Beveren,Genk,0,0,D
+B1,07/04/2017,Oostende,Zulte Waregem,1,1,D
+B1,07/05/2017,Anderlecht,Zulte Waregem,2,0,H
+B1,07/05/2017,Oostende,Gent,4,3,H
+B1,07/08/2016,Lokeren,KVC Westerlo,3,0,H
+B1,07/08/2016,Gent,Genk,1,0,H
+B1,07/08/2016,Anderlecht,Kortrijk,5,1,H
+B1,08/04/2017,Club Brugge KV,Charleroi,1,1,D
+B1,09/04/2017,Anderlecht,Gent,0,0,D
+B1,09/09/2016,SK Beveren,Club Brugge KV,1,0,H
+B1,09/12/2016,Lokeren,Zulte Waregem,1,1,D
+B1,10/02/2017,St. Truiden,Genk,0,3,A
+B1,10/09/2016,KV Mechelen,St. Truiden,2,0,H
+B1,10/09/2016,Royal Excel Mouscron,Zulte Waregem,1,5,A
+B1,10/09/2016,Kortrijk,KVC Westerlo,4,1,H
+B1,10/09/2016,AS Eupen,Oostende,2,1,H
+B1,10/12/2016,Kortrijk,St. Truiden,0,1,A
+B1,10/12/2016,Royal Excel Mouscron,KV Mechelen,1,4,A
+B1,10/12/2016,AS Eupen,Charleroi,2,2,D
+B1,11/02/2017,Gent,AS Eupen,0,1,A
+B1,11/02/2017,Charleroi,KVC Westerlo,2,1,H
+B1,11/02/2017,Kortrijk,KV Mechelen,0,2,A
+B1,11/02/2017,Royal Excel Mouscron,Oostende,1,2,A
+B1,11/09/2016,Gent,Lokeren,3,0,H
+B1,11/09/2016,Anderlecht,Charleroi,3,2,H
+B1,11/09/2016,Standard Liege,Genk,2,0,H
+B1,11/12/2016,Anderlecht,Club Brugge KV,0,0,D
+B1,11/12/2016,Standard Liege,KVC Westerlo,3,1,H
+B1,11/12/2016,Gent,Oostende,1,1,D
+B1,12/02/2017,Lokeren,Club Brugge KV,1,0,H
+B1,12/02/2017,Anderlecht,Zulte Waregem,4,2,H
+B1,12/02/2017,SK Beveren,Standard Liege,0,1,A
+B1,12/03/2017,AS Eupen,Zulte Waregem,1,3,A
+B1,12/03/2017,Lokeren,Charleroi,0,0,D
+B1,12/03/2017,Kortrijk,Royal Excel Mouscron,0,2,A
+B1,12/03/2017,Standard Liege,Oostende,2,2,D
+B1,12/03/2017,Gent,KV Mechelen,3,0,H
+B1,12/03/2017,Club Brugge KV,St. Truiden,2,2,D
+B1,12/03/2017,Anderlecht,SK Beveren,3,0,H
+B1,12/03/2017,KVC Westerlo,Genk,0,4,A
+B1,12/08/2016,St. Truiden,Anderlecht,0,0,D
+B1,13/05/2017,Zulte Waregem,Oostende,3,1,H
+B1,13/08/2016,Charleroi,Gent,1,1,D
+B1,13/08/2016,KVC Westerlo,AS Eupen,1,2,A
+B1,13/08/2016,Genk,SK Beveren,2,2,D
+B1,13/08/2016,KV Mechelen,Kortrijk,0,0,D
+B1,14/05/2017,Gent,Charleroi,1,1,D
+B1,14/05/2017,Club Brugge KV,Anderlecht,1,1,D
+B1,14/08/2016,Zulte Waregem,Standard Liege,1,0,H
+B1,14/08/2016,Oostende,Royal Excel Mouscron,2,1,H
+B1,14/08/2016,Club Brugge KV,Lokeren,1,0,H
+B1,14/10/2016,Charleroi,Club Brugge KV,1,0,H
+B1,15/10/2016,Kortrijk,Standard Liege,3,3,D
+B1,15/10/2016,St. Truiden,KVC Westerlo,2,2,D
+B1,15/10/2016,SK Beveren,AS Eupen,4,2,H
+B1,15/10/2016,Royal Excel Mouscron,Genk,2,2,D
+B1,16/04/2017,Oostende,Anderlecht,0,1,A
+B1,16/09/2016,Charleroi,KV Mechelen,0,0,D
+B1,16/10/2016,KV Mechelen,Oostende,2,3,A
+B1,16/10/2016,Gent,Zulte Waregem,3,0,H
+B1,16/10/2016,Anderlecht,Lokeren,1,0,H
+B1,17/02/2017,KVC Westerlo,Club Brugge KV,1,2,A
+B1,17/04/2017,Charleroi,Gent,0,1,A
+B1,17/04/2017,Zulte Waregem,Club Brugge KV,2,2,D
+B1,17/09/2016,Club Brugge KV,AS Eupen,3,2,H
+B1,17/09/2016,KVC Westerlo,Royal Excel Mouscron,1,3,A
+B1,17/09/2016,St. Truiden,SK Beveren,4,1,H
+B1,17/09/2016,Zulte Waregem,Kortrijk,2,1,H
+B1,17/12/2016,St. Truiden,Gent,3,1,H
+B1,17/12/2016,Charleroi,Royal Excel Mouscron,2,0,H
+B1,17/12/2016,KV Mechelen,SK Beveren,2,0,H
+B1,17/12/2016,KVC Westerlo,Lokeren,1,3,A
+B1,17/12/2016,Oostende,Zulte Waregem,1,1,D
+B1,18/02/2017,KV Mechelen,Lokeren,3,0,H
+B1,18/02/2017,Zulte Waregem,St. Truiden,4,1,H
+B1,18/02/2017,Royal Excel Mouscron,SK Beveren,1,2,A
+B1,18/02/2017,AS Eupen,Kortrijk,1,0,H
+B1,18/05/2017,Oostende,Club Brugge KV,2,1,H
+B1,18/05/2017,Gent,Zulte Waregem,5,2,H
+B1,18/05/2017,Charleroi,Anderlecht,1,3,A
+B1,18/09/2016,Lokeren,Standard Liege,0,1,A
+B1,18/09/2016,Oostende,Gent,1,0,H
+B1,18/09/2016,Genk,Anderlecht,0,2,A
+B1,18/11/2016,St. Truiden,Club Brugge KV,0,1,A
+B1,18/12/2016,Club Brugge KV,Kortrijk,5,1,H
+B1,18/12/2016,Genk,Standard Liege,2,2,D
+B1,18/12/2016,Anderlecht,AS Eupen,4,0,H
+B1,19/02/2017,Oostende,Anderlecht,1,4,A
+B1,19/02/2017,Standard Liege,Gent,1,1,D
+B1,19/02/2017,Genk,Charleroi,1,1,D
+B1,19/08/2016,Standard Liege,Charleroi,0,0,D
+B1,19/11/2016,Royal Excel Mouscron,Gent,0,2,A
+B1,19/11/2016,SK Beveren,Kortrijk,1,1,D
+B1,19/11/2016,Genk,AS Eupen,2,0,H
+B1,19/11/2016,Oostende,KVC Westerlo,5,0,H
+B1,20/01/2017,Gent,Charleroi,1,0,H
+B1,20/08/2016,SK Beveren,KV Mechelen,2,2,D
+B1,20/08/2016,Royal Excel Mouscron,St. Truiden,2,1,H
+B1,20/08/2016,Zulte Waregem,Oostende,1,1,D
+B1,20/08/2016,Kortrijk,Club Brugge KV,2,1,H
+B1,20/11/2016,Zulte Waregem,Anderlecht,3,2,H
+B1,20/11/2016,KV Mechelen,Standard Liege,2,1,H
+B1,20/11/2016,Charleroi,Lokeren,2,1,H
+B1,20/12/2016,KV Mechelen,Charleroi,1,0,H
+B1,20/12/2016,SK Beveren,St. Truiden,3,1,H
+B1,20/12/2016,Royal Excel Mouscron,KVC Westerlo,0,0,D
+B1,21/01/2017,AS Eupen,Genk,0,1,A
+B1,21/01/2017,Royal Excel Mouscron,Lokeren,2,1,H
+B1,21/01/2017,SK Beveren,Oostende,0,1,A
+B1,21/01/2017,Kortrijk,Zulte Waregem,2,3,A
+B1,21/04/2017,Gent,Oostende,1,1,D
+B1,21/05/2017,Anderlecht,Oostende,3,2,H
+B1,21/05/2017,Zulte Waregem,Charleroi,2,2,D
+B1,21/05/2017,Club Brugge KV,Gent,2,1,H
+B1,21/08/2016,AS Eupen,Anderlecht,2,2,D
+B1,21/08/2016,Lokeren,Genk,0,3,A
+B1,21/08/2016,Gent,KVC Westerlo,4,2,H
+B1,21/10/2016,Oostende,Kortrijk,2,2,D
+B1,21/12/2016,Zulte Waregem,Genk,1,0,H
+B1,21/12/2016,AS Eupen,Club Brugge KV,1,4,A
+B1,21/12/2016,Kortrijk,Oostende,0,2,A
+B1,21/12/2016,Standard Liege,Lokeren,1,1,D
+B1,22/01/2017,Standard Liege,Club Brugge KV,0,3,A
+B1,22/01/2017,Anderlecht,St. Truiden,3,1,H
+B1,22/01/2017,KV Mechelen,KVC Westerlo,1,2,A
+B1,22/04/2017,Charleroi,Zulte Waregem,2,0,H
+B1,22/10/2016,KVC Westerlo,Charleroi,0,0,D
+B1,22/10/2016,Zulte Waregem,Lokeren,2,0,H
+B1,22/10/2016,KV Mechelen,Royal Excel Mouscron,2,0,H
+B1,22/12/2016,Gent,Anderlecht,2,3,A
+B1,23/04/2017,Anderlecht,Club Brugge KV,2,0,H
+B1,23/09/2016,Royal Excel Mouscron,Club Brugge KV,0,3,A
+B1,23/10/2016,Genk,St. Truiden,1,0,H
+B1,23/10/2016,Standard Liege,SK Beveren,5,0,H
+B1,23/10/2016,AS Eupen,Gent,3,2,H
+B1,23/10/2016,Club Brugge KV,Anderlecht,2,1,H
+B1,24/01/2017,Genk,Kortrijk,3,0,H
+B1,24/01/2017,Zulte Waregem,Royal Excel Mouscron,1,0,H
+B1,24/01/2017,Oostende,Charleroi,1,2,A
+B1,24/02/2017,Club Brugge KV,Zulte Waregem,5,0,H
+B1,24/09/2016,SK Beveren,Lokeren,1,1,D
+B1,24/09/2016,KV Mechelen,Zulte Waregem,2,3,A
+B1,24/09/2016,Gent,St. Truiden,2,1,H
+B1,24/09/2016,Charleroi,Oostende,2,1,H
+B1,25/01/2017,St. Truiden,KV Mechelen,2,1,H
+B1,25/01/2017,Lokeren,Gent,0,0,D
+B1,25/01/2017,Club Brugge KV,SK Beveren,2,1,H
+B1,25/01/2017,KVC Westerlo,Anderlecht,2,4,A
+B1,25/02/2017,KVC Westerlo,Oostende,0,4,A
+B1,25/02/2017,Charleroi,St. Truiden,1,0,H
+B1,25/02/2017,Kortrijk,SK Beveren,1,2,A
+B1,25/02/2017,Lokeren,AS Eupen,1,2,A
+B1,25/04/2017,Zulte Waregem,Gent,0,2,A
+B1,25/09/2016,Standard Liege,AS Eupen,3,0,H
+B1,25/09/2016,Anderlecht,KVC Westerlo,1,2,A
+B1,25/09/2016,Kortrijk,Genk,4,1,H
+B1,25/10/2016,Lokeren,Oostende,1,2,A
+B1,25/11/2016,Club Brugge KV,KV Mechelen,6,1,H
+B1,26/01/2017,AS Eupen,Standard Liege,2,2,D
+B1,26/02/2017,Standard Liege,KV Mechelen,2,2,D
+B1,26/02/2017,Gent,Royal Excel Mouscron,3,1,H
+B1,26/02/2017,Anderlecht,Genk,2,0,H
+B1,26/04/2017,Club Brugge KV,Oostende,3,1,H
+B1,26/08/2016,Charleroi,AS Eupen,3,2,H
+B1,26/10/2016,Club Brugge KV,KVC Westerlo,4,0,H
+B1,26/10/2016,Anderlecht,KV Mechelen,2,0,H
+B1,26/10/2016,St. Truiden,Zulte Waregem,0,2,A
+B1,26/10/2016,Charleroi,Genk,2,1,H
+B1,26/10/2016,Kortrijk,AS Eupen,1,1,D
+B1,26/11/2016,AS Eupen,KVC Westerlo,3,3,D
+B1,26/11/2016,Lokeren,St. Truiden,1,0,H
+B1,26/11/2016,SK Beveren,Charleroi,0,1,A
+B1,26/12/2016,Oostende,AS Eupen,1,3,A
+B1,26/12/2016,Zulte Waregem,KV Mechelen,0,0,D
+B1,26/12/2016,Lokeren,SK Beveren,0,0,D
+B1,26/12/2016,Charleroi,Anderlecht,0,2,A
+B1,26/12/2016,Club Brugge KV,Royal Excel Mouscron,2,1,H
+B1,26/12/2016,KVC Westerlo,Kortrijk,4,1,H
+B1,27/01/2017,Charleroi,Zulte Waregem,2,1,H
+B1,27/04/2017,Anderlecht,Charleroi,0,1,A
+B1,27/08/2016,Oostende,SK Beveren,2,1,H
+B1,27/08/2016,St. Truiden,Kortrijk,1,2,A
+B1,27/08/2016,KVC Westerlo,KV Mechelen,1,2,A
+B1,27/08/2016,Lokeren,Royal Excel Mouscron,2,1,H
+B1,27/10/2016,Gent,Standard Liege,1,0,H
+B1,27/10/2016,SK Beveren,Royal Excel Mouscron,0,0,D
+B1,27/11/2016,Standard Liege,Zulte Waregem,4,1,H
+B1,27/11/2016,Anderlecht,Royal Excel Mouscron,7,0,H
+B1,27/11/2016,Oostende,Genk,6,0,H
+B1,27/11/2016,Gent,Kortrijk,3,0,H
+B1,27/12/2016,St. Truiden,Standard Liege,2,2,D
+B1,27/12/2016,Genk,Gent,2,0,H
+B1,28/01/2017,Kortrijk,Lokeren,2,1,H
+B1,28/01/2017,KV Mechelen,Genk,1,0,H
+B1,28/01/2017,SK Beveren,KVC Westerlo,0,0,D
+B1,28/01/2017,St. Truiden,Oostende,3,0,H
+B1,28/08/2016,Club Brugge KV,Standard Liege,2,2,D
+B1,28/08/2016,Genk,Zulte Waregem,1,0,H
+B1,28/08/2016,Anderlecht,Gent,2,2,D
+B1,29/01/2017,Gent,Club Brugge KV,2,0,H
+B1,29/01/2017,Anderlecht,Standard Liege,0,0,D
+B1,29/01/2017,Royal Excel Mouscron,AS Eupen,3,0,H
+B1,29/07/2016,KV Mechelen,Club Brugge KV,0,2,A
+B1,29/10/2016,Zulte Waregem,Club Brugge KV,0,0,D
+B1,29/10/2016,AS Eupen,Lokeren,2,2,D
+B1,29/10/2016,Genk,KVC Westerlo,2,1,H
+B1,29/10/2016,St. Truiden,Charleroi,2,2,D
+B1,30/04/2017,Gent,Anderlecht,0,0,D
+B1,30/04/2017,Oostende,Charleroi,1,0,H
+B1,30/07/2016,Charleroi,SK Beveren,1,0,H
+B1,30/07/2016,St. Truiden,Lokeren,1,0,H
+B1,30/07/2016,Zulte Waregem,AS Eupen,3,0,H
+B1,30/07/2016,Royal Excel Mouscron,Anderlecht,1,2,A
+B1,30/09/2016,Oostende,St. Truiden,2,2,D
+B1,30/10/2016,KV Mechelen,Gent,2,0,H
+B1,30/10/2016,SK Beveren,Anderlecht,2,1,H
+B1,30/10/2016,Oostende,Standard Liege,3,1,H
+B1,30/10/2016,Royal Excel Mouscron,Kortrijk,0,1,A
+B1,31/03/2017,Zulte Waregem,Anderlecht,1,2,A
+B1,31/07/2016,Kortrijk,Gent,1,1,D
+B1,31/07/2016,Genk,Oostende,2,1,H
+B1,31/07/2016,KVC Westerlo,Standard Liege,2,2,D

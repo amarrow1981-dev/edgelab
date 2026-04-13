@@ -1,0 +1,333 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+B1,01/04/2022,Beerschot VA,Club Brugge KV,1,3,A
+B1,01/05/2022,Anderlecht,Club Brugge KV,0,0,D
+B1,01/05/2022,Antwerp,Union St. Gilloise,0,0,D
+B1,01/08/2021,Zulte Waregem,Standard Liege,1,2,A
+B1,01/08/2021,Antwerp,Kortrijk,0,1,A
+B1,01/08/2021,Gent,Beerschot VA,2,2,D
+B1,01/08/2021,Union St. Gilloise,Club Brugge KV,0,1,A
+B1,01/10/2021,KV Mechelen,Standard Liege,3,1,H
+B1,02/02/2022,Kortrijk,Antwerp,0,2,A
+B1,02/03/2022,Standard Liege,Beerschot VA,1,0,H
+B1,02/04/2022,KV Mechelen,Kortrijk,3,2,H
+B1,02/04/2022,Oostende,Seraing United,2,2,D
+B1,02/04/2022,OH Leuven,Antwerp,0,1,A
+B1,02/04/2022,Zulte Waregem,St. Truiden,0,2,A
+B1,02/10/2021,Kortrijk,Charleroi,2,2,D
+B1,02/10/2021,St. Truiden,Oostende,1,1,D
+B1,02/10/2021,OH Leuven,Beerschot VA,0,0,D
+B1,02/10/2021,Cercle Brugge,Union St. Gilloise,0,3,A
+B1,03/04/2022,Genk,AS Eupen,5,0,H
+B1,03/04/2022,Cercle Brugge,Gent,2,2,D
+B1,03/04/2022,Standard Liege,Union St. Gilloise,1,3,A
+B1,03/04/2022,Anderlecht,Charleroi,4,0,H
+B1,03/10/2021,Anderlecht,Club Brugge KV,1,1,D
+B1,03/10/2021,Seraing United,Zulte Waregem,5,1,H
+B1,03/10/2021,Antwerp,Gent,1,0,H
+B1,03/10/2021,AS Eupen,Genk,3,2,H
+B1,03/12/2021,St. Truiden,Union St. Gilloise,1,2,A
+B1,04/02/2022,Charleroi,Seraing United,2,0,H
+B1,04/03/2022,St. Truiden,KV Mechelen,1,1,D
+B1,04/12/2021,Club Brugge KV,Seraing United,3,2,H
+B1,04/12/2021,Kortrijk,Cercle Brugge,0,2,A
+B1,04/12/2021,OH Leuven,Gent,0,1,A
+B1,04/12/2021,Oostende,AS Eupen,2,1,H
+B1,05/02/2022,Oostende,OH Leuven,1,3,A
+B1,05/02/2022,Antwerp,Union St. Gilloise,0,2,A
+B1,05/02/2022,Standard Liege,Cercle Brugge,1,1,D
+B1,05/02/2022,Kortrijk,St. Truiden,1,3,A
+B1,05/03/2022,Cercle Brugge,Genk,2,2,D
+B1,05/03/2022,Kortrijk,Union St. Gilloise,2,3,A
+B1,05/03/2022,Seraing United,Club Brugge KV,0,5,A
+B1,05/11/2021,OH Leuven,Oostende,1,0,H
+B1,05/12/2021,Beerschot VA,Antwerp,0,1,A
+B1,05/12/2021,Anderlecht,Zulte Waregem,3,2,H
+B1,05/12/2021,Standard Liege,Charleroi,0,3,A
+B1,05/12/2021,KV Mechelen,Genk,1,1,D
+B1,06/02/2022,Anderlecht,AS Eupen,4,1,H
+B1,06/02/2022,Genk,Zulte Waregem,2,0,H
+B1,06/02/2022,Club Brugge KV,Gent,1,2,A
+B1,06/02/2022,KV Mechelen,Beerschot VA,3,2,H
+B1,06/03/2022,AS Eupen,OH Leuven,3,1,H
+B1,06/03/2022,Charleroi,Standard Liege,0,0,D
+B1,06/03/2022,Anderlecht,Oostende,3,0,H
+B1,06/03/2022,Antwerp,Beerschot VA,2,1,H
+B1,06/03/2022,Gent,Zulte Waregem,2,1,H
+B1,06/05/2022,Charleroi,Genk,2,2,D
+B1,06/08/2021,Club Brugge KV,Cercle Brugge,1,1,D
+B1,06/11/2021,AS Eupen,Zulte Waregem,1,1,D
+B1,06/11/2021,Union St. Gilloise,Charleroi,4,0,H
+B1,06/11/2021,KV Mechelen,St. Truiden,0,1,A
+B1,06/11/2021,Kortrijk,Beerschot VA,1,1,D
+B1,07/05/2022,Gent,KV Mechelen,1,0,H
+B1,07/08/2021,Beerschot VA,Union St. Gilloise,0,3,A
+B1,07/08/2021,KV Mechelen,AS Eupen,1,3,A
+B1,07/08/2021,St. Truiden,Zulte Waregem,1,3,A
+B1,07/08/2021,Kortrijk,Genk,1,2,A
+B1,07/11/2021,Club Brugge KV,Standard Liege,2,2,D
+B1,07/11/2021,Antwerp,Anderlecht,2,0,H
+B1,07/11/2021,Genk,Cercle Brugge,1,1,D
+B1,07/11/2021,Seraing United,Gent,0,0,D
+B1,08/05/2022,Antwerp,Anderlecht,0,4,A
+B1,08/05/2022,Union St. Gilloise,Club Brugge KV,0,2,A
+B1,08/08/2021,Anderlecht,Seraing United,3,0,H
+B1,08/08/2021,OH Leuven,Charleroi,1,1,D
+B1,08/08/2021,Standard Liege,Antwerp,2,5,A
+B1,08/08/2021,Oostende,Gent,1,0,H
+B1,09/02/2022,Zulte Waregem,Oostende,0,0,D
+B1,09/02/2022,OH Leuven,Genk,2,1,H
+B1,09/04/2022,AS Eupen,Oostende,0,2,A
+B1,09/04/2022,Antwerp,Cercle Brugge,1,1,D
+B1,10/04/2022,Union St. Gilloise,Beerschot VA,5,0,H
+B1,10/04/2022,Charleroi,Zulte Waregem,3,0,H
+B1,10/04/2022,Seraing United,Genk,0,2,A
+B1,10/04/2022,Kortrijk,Anderlecht,2,3,A
+B1,10/04/2022,Gent,OH Leuven,5,0,H
+B1,10/04/2022,Club Brugge KV,KV Mechelen,2,0,H
+B1,10/04/2022,St. Truiden,Standard Liege,3,0,H
+B1,10/05/2022,Genk,Charleroi,3,2,H
+B1,10/05/2022,KV Mechelen,Gent,1,2,A
+B1,10/09/2021,Club Brugge KV,Oostende,3,0,H
+B1,10/12/2021,Charleroi,Oostende,1,0,H
+B1,11/02/2022,Seraing United,Antwerp,0,1,A
+B1,11/03/2022,OH Leuven,Union St. Gilloise,1,4,A
+B1,11/05/2022,Club Brugge KV,Union St. Gilloise,1,0,H
+B1,11/09/2021,Zulte Waregem,Cercle Brugge,2,4,A
+B1,11/09/2021,AS Eupen,Antwerp,0,1,A
+B1,11/12/2021,Kortrijk,OH Leuven,2,1,H
+B1,11/12/2021,St. Truiden,Cercle Brugge,1,2,A
+B1,11/12/2021,AS Eupen,Beerschot VA,1,0,H
+B1,11/12/2021,Seraing United,Anderlecht,0,5,A
+B1,12/02/2022,AS Eupen,Gent,0,1,A
+B1,12/02/2022,KV Mechelen,Oostende,3,0,H
+B1,12/02/2022,Zulte Waregem,Anderlecht,1,2,A
+B1,12/02/2022,OH Leuven,Cercle Brugge,3,2,H
+B1,12/03/2022,KV Mechelen,Charleroi,2,2,D
+B1,12/03/2022,Oostende,Club Brugge KV,1,3,A
+B1,12/03/2022,Cercle Brugge,Kortrijk,2,0,H
+B1,12/03/2022,Zulte Waregem,AS Eupen,3,0,H
+B1,12/05/2022,Anderlecht,Antwerp,2,1,H
+B1,12/09/2021,OH Leuven,Kortrijk,2,1,H
+B1,12/09/2021,Anderlecht,KV Mechelen,7,2,H
+B1,12/09/2021,Gent,Charleroi,2,3,A
+B1,12/09/2021,Seraing United,Standard Liege,0,1,A
+B1,12/09/2021,Genk,Union St. Gilloise,1,1,D
+B1,12/12/2021,Antwerp,Standard Liege,2,3,A
+B1,12/12/2021,Union St. Gilloise,KV Mechelen,2,0,H
+B1,12/12/2021,Gent,Genk,1,0,H
+B1,12/12/2021,Club Brugge KV,Zulte Waregem,3,0,H
+B1,13/02/2022,Genk,Standard Liege,2,0,H
+B1,13/02/2022,Union St. Gilloise,St. Truiden,0,1,A
+B1,13/02/2022,Club Brugge KV,Charleroi,2,0,H
+B1,13/02/2022,Beerschot VA,Kortrijk,2,1,H
+B1,13/03/2022,Anderlecht,Antwerp,2,1,H
+B1,13/03/2022,Beerschot VA,Gent,0,2,A
+B1,13/03/2022,Genk,St. Truiden,0,1,A
+B1,13/03/2022,Standard Liege,Seraing United,0,1,A
+B1,13/08/2021,Charleroi,Antwerp,1,1,D
+B1,13/09/2021,Beerschot VA,St. Truiden,0,1,A
+B1,14/01/2022,Gent,Kortrijk,2,2,D
+B1,14/05/2022,Charleroi,KV Mechelen,3,2,H
+B1,14/08/2021,Genk,OH Leuven,4,0,H
+B1,14/08/2021,Seraing United,Oostende,2,3,A
+B1,14/08/2021,Union St. Gilloise,Kortrijk,2,0,H
+B1,14/08/2021,AS Eupen,St. Truiden,2,1,H
+B1,14/12/2021,Cercle Brugge,Seraing United,2,0,H
+B1,14/12/2021,Anderlecht,St. Truiden,2,0,H
+B1,14/12/2021,Oostende,Kortrijk,0,2,A
+B1,15/01/2022,Club Brugge KV,St. Truiden,2,0,H
+B1,15/01/2022,OH Leuven,KV Mechelen,5,0,H
+B1,15/05/2022,Antwerp,Club Brugge KV,1,3,A
+B1,15/05/2022,Genk,Gent,0,2,A
+B1,15/05/2022,Anderlecht,Union St. Gilloise,0,2,A
+B1,15/08/2021,Gent,KV Mechelen,2,0,H
+B1,15/08/2021,Zulte Waregem,Club Brugge KV,0,4,A
+B1,15/08/2021,Cercle Brugge,Anderlecht,1,2,A
+B1,15/08/2021,Beerschot VA,Standard Liege,0,1,A
+B1,15/10/2021,Club Brugge KV,Kortrijk,2,0,H
+B1,15/12/2021,Zulte Waregem,Union St. Gilloise,0,2,A
+B1,15/12/2021,OH Leuven,Club Brugge KV,1,4,A
+B1,15/12/2021,KV Mechelen,Gent,4,3,H
+B1,16/01/2022,Genk,Beerschot VA,4,1,H
+B1,16/01/2022,Anderlecht,Standard Liege,1,1,D
+B1,16/01/2022,AS Eupen,Cercle Brugge,0,2,A
+B1,16/01/2022,Antwerp,Charleroi,3,0,H
+B1,16/02/2022,Genk,KV Mechelen,4,1,H
+B1,16/10/2021,Zulte Waregem,Antwerp,2,1,H
+B1,16/10/2021,Union St. Gilloise,Seraing United,4,2,H
+B1,16/10/2021,Oostende,Cercle Brugge,2,1,H
+B1,16/10/2021,Standard Liege,OH Leuven,2,2,D
+B1,16/12/2021,Genk,Charleroi,4,2,H
+B1,16/12/2021,Antwerp,AS Eupen,4,2,H
+B1,17/09/2021,Cercle Brugge,AS Eupen,1,2,A
+B1,17/10/2021,Gent,AS Eupen,2,0,H
+B1,17/10/2021,Charleroi,Genk,2,0,H
+B1,17/10/2021,St. Truiden,Anderlecht,2,2,D
+B1,17/10/2021,Beerschot VA,KV Mechelen,0,1,A
+B1,17/12/2021,Seraing United,Kortrijk,0,2,A
+B1,18/01/2022,Seraing United,Union St. Gilloise,0,4,A
+B1,18/03/2022,Union St. Gilloise,Oostende,1,1,D
+B1,18/09/2021,KV Mechelen,OH Leuven,2,0,H
+B1,18/09/2021,Union St. Gilloise,Zulte Waregem,2,1,H
+B1,18/09/2021,Charleroi,Club Brugge KV,0,1,A
+B1,18/09/2021,Oostende,Beerschot VA,3,1,H
+B1,18/12/2021,Beerschot VA,Oostende,0,2,A
+B1,18/12/2021,Zulte Waregem,KV Mechelen,3,2,H
+B1,18/12/2021,Union St. Gilloise,Cercle Brugge,3,2,H
+B1,18/12/2021,Gent,St. Truiden,2,1,H
+B1,19/02/2022,Oostende,Standard Liege,1,0,H
+B1,19/02/2022,Kortrijk,Zulte Waregem,5,0,H
+B1,19/02/2022,Charleroi,Union St. Gilloise,0,3,A
+B1,19/02/2022,Cercle Brugge,Beerschot VA,2,0,H
+B1,19/03/2022,Charleroi,Cercle Brugge,5,0,H
+B1,19/03/2022,Seraing United,OH Leuven,1,1,D
+B1,19/03/2022,Antwerp,Zulte Waregem,1,0,H
+B1,19/03/2022,AS Eupen,KV Mechelen,1,1,D
+B1,19/09/2021,St. Truiden,Genk,1,2,A
+B1,19/09/2021,Antwerp,Seraing United,2,1,H
+B1,19/09/2021,Standard Liege,Anderlecht,0,1,A
+B1,19/09/2021,Kortrijk,Gent,1,0,H
+B1,19/11/2021,KV Mechelen,Club Brugge KV,2,1,H
+B1,19/12/2021,OH Leuven,Standard Liege,2,1,H
+B1,19/12/2021,Genk,Antwerp,1,1,D
+B1,19/12/2021,AS Eupen,Charleroi,0,4,A
+B1,19/12/2021,Club Brugge KV,Anderlecht,2,2,D
+B1,20/02/2022,St. Truiden,OH Leuven,2,0,H
+B1,20/02/2022,Anderlecht,Genk,2,0,H
+B1,20/02/2022,AS Eupen,Club Brugge KV,1,3,A
+B1,20/02/2022,Antwerp,KV Mechelen,1,2,A
+B1,20/03/2022,Gent,Anderlecht,1,0,H
+B1,20/03/2022,Kortrijk,Standard Liege,0,1,A
+B1,20/03/2022,Club Brugge KV,Genk,3,1,H
+B1,20/03/2022,St. Truiden,Beerschot VA,3,2,H
+B1,20/08/2021,Standard Liege,Oostende,1,0,H
+B1,20/11/2021,Zulte Waregem,Gent,1,2,A
+B1,20/11/2021,Cercle Brugge,Charleroi,1,2,A
+B1,20/11/2021,OH Leuven,Seraing United,1,3,A
+B1,20/11/2021,Standard Liege,AS Eupen,1,0,H
+B1,21/01/2022,Oostende,Antwerp,1,2,A
+B1,21/05/2022,Gent,Charleroi,1,2,A
+B1,21/05/2022,KV Mechelen,Genk,0,0,D
+B1,21/08/2021,St. Truiden,Kortrijk,0,2,A
+B1,21/08/2021,Seraing United,Cercle Brugge,2,1,H
+B1,21/08/2021,OH Leuven,AS Eupen,1,4,A
+B1,21/11/2021,Anderlecht,Kortrijk,1,1,D
+B1,21/11/2021,St. Truiden,Antwerp,2,1,H
+B1,21/11/2021,Beerschot VA,Genk,2,0,H
+B1,21/11/2021,Oostende,Union St. Gilloise,1,7,A
+B1,22/01/2022,Beerschot VA,OH Leuven,3,1,H
+B1,22/01/2022,Kortrijk,AS Eupen,1,1,D
+B1,22/01/2022,St. Truiden,Seraing United,3,1,H
+B1,22/01/2022,Charleroi,Gent,0,0,D
+B1,22/05/2022,Club Brugge KV,Anderlecht,1,1,D
+B1,22/05/2022,Union St. Gilloise,Antwerp,0,1,A
+B1,22/08/2021,Zulte Waregem,Charleroi,2,2,D
+B1,22/08/2021,Club Brugge KV,Beerschot VA,3,2,H
+B1,22/08/2021,KV Mechelen,Union St. Gilloise,3,1,H
+B1,22/09/2021,Antwerp,Genk,4,2,H
+B1,22/10/2021,Seraing United,Charleroi,1,3,A
+B1,23/01/2022,KV Mechelen,Anderlecht,0,1,A
+B1,23/01/2022,Cercle Brugge,Zulte Waregem,3,1,H
+B1,23/01/2022,Union St. Gilloise,Genk,2,1,H
+B1,23/01/2022,Standard Liege,Club Brugge KV,2,2,D
+B1,23/02/2022,Gent,Seraing United,4,0,H
+B1,23/04/2022,RWDM,Seraing United,0,1,A
+B1,23/04/2022,KV Mechelen,Charleroi,1,0,H
+B1,23/07/2021,Standard Liege,Genk,1,1,D
+B1,23/09/2021,Anderlecht,Gent,1,1,D
+B1,23/10/2021,AS Eupen,Union St. Gilloise,2,3,A
+B1,23/10/2021,Kortrijk,Oostende,1,0,H
+B1,23/10/2021,Cercle Brugge,Standard Liege,1,1,D
+B1,23/10/2021,KV Mechelen,Zulte Waregem,2,2,D
+B1,24/04/2022,Union St. Gilloise,Anderlecht,3,1,H
+B1,24/04/2022,Club Brugge KV,Antwerp,1,0,H
+B1,24/04/2022,Gent,Genk,0,1,A
+B1,24/07/2021,OH Leuven,Zulte Waregem,1,1,D
+B1,24/07/2021,Oostende,Charleroi,0,3,A
+B1,24/07/2021,Kortrijk,Seraing United,2,0,H
+B1,24/09/2021,Club Brugge KV,OH Leuven,1,1,D
+B1,24/10/2021,Anderlecht,Beerschot VA,4,2,H
+B1,24/10/2021,Antwerp,Club Brugge KV,1,1,D
+B1,24/10/2021,OH Leuven,St. Truiden,4,1,H
+B1,24/10/2021,Genk,Gent,0,3,A
+B1,25/01/2022,Charleroi,Kortrijk,1,1,D
+B1,25/01/2022,Antwerp,St. Truiden,1,1,D
+B1,25/01/2022,Gent,Oostende,1,1,D
+B1,25/02/2022,Beerschot VA,Charleroi,2,3,A
+B1,25/07/2021,St. Truiden,Gent,2,1,H
+B1,25/07/2021,Anderlecht,Union St. Gilloise,1,3,A
+B1,25/07/2021,Club Brugge KV,AS Eupen,2,2,D
+B1,25/07/2021,KV Mechelen,Antwerp,3,2,H
+B1,25/09/2021,Beerschot VA,AS Eupen,0,3,A
+B1,25/09/2021,Zulte Waregem,Kortrijk,2,2,D
+B1,25/09/2021,Standard Liege,St. Truiden,1,2,A
+B1,26/01/2022,Seraing United,Beerschot VA,2,1,H
+B1,26/01/2022,AS Eupen,Standard Liege,0,2,A
+B1,26/01/2022,Anderlecht,Cercle Brugge,0,2,A
+B1,26/01/2022,Zulte Waregem,OH Leuven,1,1,D
+B1,26/02/2022,KV Mechelen,Cercle Brugge,2,2,D
+B1,26/02/2022,OH Leuven,Anderlecht,0,0,D
+B1,26/02/2022,Union St. Gilloise,AS Eupen,0,0,D
+B1,26/02/2022,Oostende,St. Truiden,0,0,D
+B1,26/09/2021,Charleroi,KV Mechelen,0,2,A
+B1,26/09/2021,Genk,Seraing United,3,0,H
+B1,26/09/2021,Union St. Gilloise,Antwerp,1,2,A
+B1,26/09/2021,Gent,Cercle Brugge,2,1,H
+B1,26/09/2021,Oostende,Anderlecht,2,2,D
+B1,26/11/2021,Union St. Gilloise,OH Leuven,1,3,A
+B1,26/12/2021,Cercle Brugge,Club Brugge KV,2,0,H
+B1,26/12/2021,Standard Liege,Zulte Waregem,0,1,A
+B1,26/12/2021,Union St. Gilloise,Gent,0,0,D
+B1,26/12/2021,Oostende,Genk,0,4,A
+B1,27/01/2022,Club Brugge KV,Union St. Gilloise,0,0,D
+B1,27/02/2022,Standard Liege,Gent,0,1,A
+B1,27/02/2022,Genk,Kortrijk,2,0,H
+B1,27/02/2022,Club Brugge KV,Antwerp,4,1,H
+B1,27/02/2022,Zulte Waregem,Seraing United,1,0,H
+B1,27/07/2021,Beerschot VA,Cercle Brugge,0,1,A
+B1,27/08/2021,Kortrijk,KV Mechelen,2,2,D
+B1,27/11/2021,Seraing United,St. Truiden,2,0,H
+B1,27/11/2021,Cercle Brugge,KV Mechelen,3,1,H
+B1,27/11/2021,Charleroi,Anderlecht,1,3,A
+B1,27/11/2021,AS Eupen,Kortrijk,2,2,D
+B1,27/12/2021,St. Truiden,AS Eupen,2,0,H
+B1,27/12/2021,Beerschot VA,Anderlecht,0,7,A
+B1,27/12/2021,Charleroi,OH Leuven,0,3,A
+B1,27/12/2021,KV Mechelen,Seraing United,2,0,H
+B1,28/01/2022,St. Truiden,Charleroi,0,1,A
+B1,28/08/2021,Union St. Gilloise,Standard Liege,4,0,H
+B1,28/08/2021,Cercle Brugge,St. Truiden,0,1,A
+B1,28/08/2021,AS Eupen,Seraing United,1,2,A
+B1,28/08/2021,Charleroi,Beerschot VA,5,2,H
+B1,28/11/2021,Gent,Standard Liege,3,1,H
+B1,28/11/2021,Zulte Waregem,Beerschot VA,2,0,H
+B1,28/11/2021,Genk,Club Brugge KV,2,3,A
+B1,28/11/2021,Antwerp,Oostende,3,0,H
+B1,29/01/2022,Seraing United,AS Eupen,0,0,D
+B1,29/01/2022,Beerschot VA,Zulte Waregem,3,3,D
+B1,29/01/2022,Cercle Brugge,Oostende,0,1,A
+B1,29/04/2022,Genk,KV Mechelen,4,2,H
+B1,29/08/2021,Genk,Anderlecht,1,0,H
+B1,29/08/2021,Oostende,Zulte Waregem,0,2,A
+B1,29/08/2021,Gent,Club Brugge KV,6,1,H
+B1,29/08/2021,Antwerp,OH Leuven,2,2,D
+B1,29/10/2021,Oostende,KV Mechelen,2,4,A
+B1,30/01/2022,Standard Liege,KV Mechelen,1,2,A
+B1,30/01/2022,Kortrijk,Club Brugge KV,0,1,A
+B1,30/01/2022,Gent,Antwerp,0,1,A
+B1,30/01/2022,Union St. Gilloise,Anderlecht,1,0,H
+B1,30/04/2022,Charleroi,Gent,1,3,A
+B1,30/04/2022,Seraing United,RWDM,0,0,D
+B1,30/07/2021,Genk,Oostende,3,4,A
+B1,30/10/2021,St. Truiden,Club Brugge KV,1,2,A
+B1,30/10/2021,Beerschot VA,Seraing United,3,0,H
+B1,30/10/2021,Charleroi,AS Eupen,3,0,H
+B1,30/10/2021,Standard Liege,Kortrijk,1,1,D
+B1,31/07/2021,Cercle Brugge,OH Leuven,1,1,D
+B1,31/07/2021,Charleroi,St. Truiden,0,0,D
+B1,31/07/2021,AS Eupen,Anderlecht,1,1,D
+B1,31/07/2021,Seraing United,KV Mechelen,1,0,H
+B1,31/10/2021,Zulte Waregem,Genk,2,6,A
+B1,31/10/2021,Cercle Brugge,Antwerp,0,1,A
+B1,31/10/2021,Anderlecht,OH Leuven,2,2,D
+B1,31/10/2021,Gent,Union St. Gilloise,0,2,A

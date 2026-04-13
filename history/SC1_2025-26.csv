@@ -1,0 +1,164 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/08/2025,Arbroath,Ayr Utd,1,1,D
+SC1,01/11/2025,ST Johnstone,Airdrie United,3,0,H
+SC1,01/11/2025,Partick,Queen's Park,5,0,H
+SC1,01/11/2025,Raith Rovers,Morton,1,1,D
+SC1,01/11/2025,Arbroath,Ross County,3,0,H
+SC1,02/08/2025,ST Johnstone,Partick,5,1,H
+SC1,02/08/2025,Morton,Dunfermline,0,0,D
+SC1,02/08/2025,Raith Rovers,Queen's Park,1,1,D
+SC1,02/08/2025,Airdrie United,Ross County,2,2,D
+SC1,03/01/2026,Partick,Morton,3,2,H
+SC1,03/01/2026,Airdrie United,Raith Rovers,0,0,D
+SC1,03/01/2026,ST Johnstone,Arbroath,1,0,H
+SC1,03/02/2026,Queen's Park,Ross County,0,1,A
+SC1,03/03/2026,Dunfermline,Ross County,3,0,H
+SC1,03/03/2026,Arbroath,Ayr Utd,1,1,D
+SC1,04/04/2026,Arbroath,ST Johnstone,2,4,A
+SC1,04/04/2026,Dunfermline,Morton,3,1,H
+SC1,04/04/2026,Ross County,Airdrie United,0,4,A
+SC1,04/04/2026,Ayr Utd,Partick,1,1,D
+SC1,04/10/2025,Ross County,Raith Rovers,2,0,H
+SC1,04/10/2025,Dunfermline,Queen's Park,0,0,D
+SC1,04/10/2025,Airdrie United,Morton,1,2,A
+SC1,04/10/2025,ST Johnstone,Ayr Utd,0,0,D
+SC1,04/10/2025,Partick,Arbroath,1,1,D
+SC1,05/12/2025,Morton,Queen's Park,2,1,H
+SC1,06/09/2025,Morton,Raith Rovers,0,1,A
+SC1,06/09/2025,Ross County,Arbroath,1,2,A
+SC1,06/12/2025,ST Johnstone,Raith Rovers,0,0,D
+SC1,06/12/2025,Ayr Utd,Partick,0,0,D
+SC1,06/12/2025,Dunfermline,Arbroath,1,2,A
+SC1,06/12/2025,Ross County,Airdrie United,1,2,A
+SC1,07/03/2026,Arbroath,Ross County,0,0,D
+SC1,07/03/2026,Morton,ST Johnstone,0,2,A
+SC1,07/03/2026,Queen's Park,Airdrie United,1,0,H
+SC1,07/04/2026,Ayr Utd,Dunfermline,0,3,A
+SC1,07/11/2025,Airdrie United,Partick,1,1,D
+SC1,08/08/2025,Ross County,ST Johnstone,0,1,A
+SC1,08/11/2025,Queen's Park,Raith Rovers,2,1,H
+SC1,08/11/2025,Dunfermline,ST Johnstone,2,2,D
+SC1,08/11/2025,Morton,Arbroath,1,0,H
+SC1,08/11/2025,Ross County,Ayr Utd,3,3,D
+SC1,09/01/2026,Ross County,Partick,2,0,H
+SC1,09/08/2025,Dunfermline,Airdrie United,2,0,H
+SC1,09/08/2025,Queen's Park,Arbroath,1,3,A
+SC1,09/08/2025,Ayr Utd,Raith Rovers,0,1,A
+SC1,09/08/2025,Partick,Morton,1,1,D
+SC1,10/01/2026,Raith Rovers,Arbroath,2,3,A
+SC1,10/01/2026,Ayr Utd,Airdrie United,1,1,D
+SC1,10/03/2026,Ayr Utd,Queen's Park,1,2,A
+SC1,10/04/2026,Queen's Park,Ross County,1,0,H
+SC1,11/04/2026,ST Johnstone,Airdrie United,4,0,H
+SC1,11/04/2026,Partick,Dunfermline,2,0,H
+SC1,11/04/2026,Raith Rovers,Morton,3,2,H
+SC1,11/04/2026,Ayr Utd,Arbroath,1,0,H
+SC1,11/10/2025,Morton,Partick,1,1,D
+SC1,11/10/2025,Arbroath,Queen's Park,4,1,H
+SC1,11/10/2025,Raith Rovers,Ayr Utd,0,2,A
+SC1,11/10/2025,ST Johnstone,Ross County,0,0,D
+SC1,12/09/2025,Partick,Airdrie United,2,1,H
+SC1,12/12/2025,Ayr Utd,ST Johnstone,2,4,A
+SC1,13/02/2026,Airdrie United,ST Johnstone,0,1,A
+SC1,13/03/2026,Morton,Partick,1,2,A
+SC1,13/09/2025,Ayr Utd,Ross County,1,1,D
+SC1,13/09/2025,Raith Rovers,ST Johnstone,0,2,A
+SC1,13/09/2025,Queen's Park,Morton,0,0,D
+SC1,13/09/2025,Arbroath,Dunfermline,0,5,A
+SC1,13/12/2025,Arbroath,Partick,2,1,H
+SC1,13/12/2025,Raith Rovers,Ross County,6,0,H
+SC1,13/12/2025,Morton,Airdrie United,0,1,A
+SC1,13/12/2025,Queen's Park,Dunfermline,1,1,D
+SC1,14/02/2026,Ross County,Queen's Park,0,1,A
+SC1,14/02/2026,Morton,Raith Rovers,0,0,D
+SC1,14/03/2026,Queen's Park,Ayr Utd,1,1,D
+SC1,14/03/2026,ST Johnstone,Ross County,1,0,H
+SC1,14/03/2026,Dunfermline,Raith Rovers,3,0,H
+SC1,14/03/2026,Airdrie United,Arbroath,0,0,D
+SC1,15/11/2025,ST Johnstone,Queen's Park,4,3,H
+SC1,15/11/2025,Ayr Utd,Arbroath,1,1,D
+SC1,15/11/2025,Ross County,Morton,0,3,A
+SC1,15/11/2025,Raith Rovers,Airdrie United,0,3,A
+SC1,17/02/2026,Morton,Dunfermline,2,0,H
+SC1,17/10/2025,Dunfermline,Raith Rovers,2,0,H
+SC1,18/10/2025,Queen's Park,Airdrie United,0,0,D
+SC1,18/10/2025,Arbroath,ST Johnstone,3,1,H
+SC1,18/10/2025,Ayr Utd,Morton,2,1,H
+SC1,18/10/2025,Partick,Ross County,1,0,H
+SC1,19/09/2025,ST Johnstone,Dunfermline,2,1,H
+SC1,20/02/2026,Raith Rovers,ST Johnstone,0,0,D
+SC1,20/03/2026,Partick,ST Johnstone,0,0,D
+SC1,20/09/2025,Arbroath,Morton,1,1,D
+SC1,20/09/2025,Ross County,Queen's Park,1,2,A
+SC1,20/09/2025,Airdrie United,Raith Rovers,0,0,D
+SC1,20/12/2025,Airdrie United,Queen's Park,0,3,A
+SC1,20/12/2025,Dunfermline,Ayr Utd,2,3,A
+SC1,20/12/2025,Ross County,Arbroath,0,2,A
+SC1,20/12/2025,Partick,Raith Rovers,0,0,D
+SC1,20/12/2025,ST Johnstone,Morton,5,0,H
+SC1,21/02/2026,Partick,Airdrie United,1,0,H
+SC1,21/02/2026,Ayr Utd,Ross County,0,0,D
+SC1,21/02/2026,Arbroath,Dunfermline,4,2,H
+SC1,21/02/2026,Queen's Park,Morton,3,2,H
+SC1,21/03/2026,Ross County,Dunfermline,2,2,D
+SC1,21/03/2026,Raith Rovers,Airdrie United,3,1,H
+SC1,21/03/2026,Ayr Utd,Morton,0,1,A
+SC1,21/03/2026,Arbroath,Queen's Park,1,0,H
+SC1,21/10/2025,Airdrie United,Dunfermline,0,4,A
+SC1,21/10/2025,Partick,Ayr Utd,2,1,H
+SC1,22/08/2025,Raith Rovers,Dunfermline,2,0,H
+SC1,22/11/2025,Arbroath,Raith Rovers,0,0,D
+SC1,22/11/2025,Airdrie United,Ayr Utd,0,1,A
+SC1,22/11/2025,Partick,ST Johnstone,2,1,H
+SC1,22/11/2025,Dunfermline,Morton,1,0,H
+SC1,23/01/2026,Arbroath,Morton,1,1,D
+SC1,23/08/2025,Ross County,Partick,1,3,A
+SC1,23/08/2025,Morton,Ayr Utd,2,2,D
+SC1,23/08/2025,Airdrie United,Queen's Park,1,1,D
+SC1,23/08/2025,ST Johnstone,Arbroath,3,0,H
+SC1,23/09/2025,Dunfermline,Ayr Utd,0,1,A
+SC1,23/09/2025,Airdrie United,ST Johnstone,1,2,A
+SC1,24/01/2026,ST Johnstone,Dunfermline,0,1,A
+SC1,24/01/2026,Airdrie United,Ross County,0,1,A
+SC1,24/01/2026,Raith Rovers,Queen's Park,4,1,H
+SC1,24/01/2026,Partick,Ayr Utd,2,1,H
+SC1,24/02/2026,Queen's Park,ST Johnstone,1,1,D
+SC1,24/02/2026,Dunfermline,Partick,2,2,D
+SC1,24/03/2026,Raith Rovers,Partick,0,2,A
+SC1,25/10/2025,Ross County,Dunfermline,3,2,H
+SC1,25/10/2025,Queen's Park,Ayr Utd,0,0,D
+SC1,25/10/2025,Airdrie United,Arbroath,1,0,H
+SC1,25/10/2025,Morton,ST Johnstone,0,4,A
+SC1,25/10/2025,Raith Rovers,Partick,2,0,H
+SC1,25/11/2025,Partick,Dunfermline,1,0,H
+SC1,27/03/2026,Raith Rovers,Ayr Utd,3,0,H
+SC1,27/03/2026,Partick,Ross County,3,1,H
+SC1,27/09/2025,Queen's Park,ST Johnstone,1,2,A
+SC1,27/09/2025,Raith Rovers,Arbroath,3,0,H
+SC1,27/09/2025,Dunfermline,Partick,0,2,A
+SC1,27/09/2025,Morton,Ross County,1,1,D
+SC1,27/09/2025,Ayr Utd,Airdrie United,4,2,H
+SC1,27/12/2025,Raith Rovers,Dunfermline,1,2,A
+SC1,27/12/2025,Arbroath,Airdrie United,1,1,D
+SC1,27/12/2025,Morton,Ayr Utd,1,1,D
+SC1,27/12/2025,Queen's Park,Partick,2,2,D
+SC1,27/12/2025,Ross County,ST Johnstone,0,0,D
+SC1,28/02/2026,Airdrie United,Morton,3,1,H
+SC1,28/02/2026,Dunfermline,Queen's Park,1,0,H
+SC1,28/02/2026,Ross County,Raith Rovers,2,0,H
+SC1,28/02/2026,Partick,Arbroath,0,0,D
+SC1,28/02/2026,ST Johnstone,Ayr Utd,3,1,H
+SC1,28/03/2026,Morton,Arbroath,2,1,H
+SC1,28/03/2026,ST Johnstone,Queen's Park,1,1,D
+SC1,30/01/2026,ST Johnstone,Partick,2,2,D
+SC1,30/08/2025,Dunfermline,Ross County,2,2,D
+SC1,30/08/2025,Arbroath,Airdrie United,1,0,H
+SC1,30/08/2025,Ayr Utd,Queen's Park,1,1,D
+SC1,30/08/2025,Partick,Raith Rovers,3,2,H
+SC1,30/08/2025,ST Johnstone,Morton,1,1,D
+SC1,30/09/2025,Queen's Park,Partick,0,1,A
+SC1,31/01/2026,Queen's Park,Arbroath,2,1,H
+SC1,31/01/2026,Morton,Ross County,2,1,H
+SC1,31/01/2026,Ayr Utd,Raith Rovers,2,1,H
+SC1,31/01/2026,Dunfermline,Airdrie United,0,2,A
+SC1,31/10/2025,Ayr Utd,Dunfermline,0,1,A

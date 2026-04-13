@@ -1,0 +1,557 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2012,Tamworth,Alfreton Town,2,2,D
+EC,01/01/2012,Stockport,Barrow,3,2,H
+EC,01/01/2012,Wrexham,AFC Telford United,4,0,H
+EC,01/01/2012,Braintree,Cambridge,3,2,H
+EC,01/01/2012,York,Mansfield,2,2,D
+EC,01/01/2012,Southport,Fleetwood Town,0,6,A
+EC,01/01/2012,Forest Green,Kidderminster,1,1,D
+EC,01/01/2012,Grimsby,Lincoln,3,1,H
+EC,01/01/2012,Darlington,Gateshead,0,1,A
+EC,01/01/2012,Kettering Town,Luton,0,5,A
+EC,01/10/2011,Gateshead,Tamworth,1,1,D
+EC,01/10/2011,Kettering Town,Kidderminster,0,1,A
+EC,01/10/2011,Darlington,Newport County,2,0,H
+EC,01/10/2011,Stockport,York,1,2,A
+EC,01/10/2011,Wrexham,Ebbsfleet,1,0,H
+EC,01/10/2011,Braintree,Fleetwood Town,1,2,A
+EC,01/10/2011,Southport,Cambridge,1,0,H
+EC,01/10/2011,Luton,Barrow,5,1,H
+EC,01/10/2011,Grimsby,Alfreton Town,5,2,H
+EC,01/10/2011,Forest Green,Mansfield,1,1,D
+EC,01/10/2011,AFC Telford United,Hayes & Yeading United,1,1,D
+EC,01/10/2011,Lincoln,Bath City,2,0,H
+EC,02/05/2012,York,Mansfield,1,1,D
+EC,02/09/2011,Stockport,Luton,1,1,D
+EC,03/01/2012,Bath City,Newport County,3,2,H
+EC,03/03/2012,Luton,Bath City,2,0,H
+EC,03/03/2012,Kettering Town,Wrexham,0,1,A
+EC,03/03/2012,Kidderminster,Barrow,1,2,A
+EC,03/03/2012,Alfreton Town,AFC Telford United,0,0,D
+EC,03/03/2012,York,Hayes & Yeading United,2,0,H
+EC,03/03/2012,Southport,Newport County,1,1,D
+EC,03/03/2012,Gateshead,Ebbsfleet,2,3,A
+EC,03/03/2012,Forest Green,Cambridge,2,1,H
+EC,03/03/2012,Mansfield,Lincoln,2,1,H
+EC,03/03/2012,Grimsby,Braintree,1,1,D
+EC,03/03/2012,Tamworth,Fleetwood Town,0,3,A
+EC,03/03/2012,Darlington,Stockport,0,1,A
+EC,03/04/2012,Newport County,York,2,1,H
+EC,03/04/2012,Lincoln,Cambridge,0,1,A
+EC,03/05/2012,Luton,Wrexham,2,0,H
+EC,03/09/2011,Braintree,Lincoln,1,0,H
+EC,03/09/2011,Newport County,Cambridge,0,1,A
+EC,03/09/2011,Forest Green,Grimsby,0,1,A
+EC,03/09/2011,Southport,AFC Telford United,3,2,H
+EC,03/09/2011,Wrexham,Kidderminster,2,0,H
+EC,03/09/2011,Ebbsfleet,Barrow,1,2,A
+EC,03/09/2011,Darlington,Mansfield,0,2,A
+EC,03/09/2011,Kettering Town,Fleetwood Town,2,3,A
+EC,03/09/2011,Gateshead,Alfreton Town,2,0,H
+EC,03/12/2011,Southport,Alfreton Town,2,1,H
+EC,03/12/2011,Bath City,AFC Telford United,3,1,H
+EC,03/12/2011,Darlington,Forest Green,0,0,D
+EC,03/12/2011,York,Kettering Town,7,0,H
+EC,03/12/2011,Barrow,Ebbsfleet,1,1,D
+EC,03/12/2011,Mansfield,Braintree,4,1,H
+EC,03/12/2011,Newport County,Lincoln,1,0,H
+EC,04/02/2012,Fleetwood Town,Tamworth,2,2,D
+EC,04/09/2011,Hayes & Yeading United,Tamworth,1,0,H
+EC,04/10/2011,Gateshead,Wrexham,1,4,A
+EC,05/01/2012,Cambridge,Southport,3,0,H
+EC,05/11/2011,Forest Green,Alfreton Town,4,1,H
+EC,05/11/2011,Lincoln,Barrow,2,1,H
+EC,05/11/2011,Gateshead,Braintree,2,2,D
+EC,05/11/2011,York,Wrexham,0,0,D
+EC,05/11/2011,Stockport,Hayes & Yeading United,3,3,D
+EC,05/11/2011,Kidderminster,Tamworth,2,0,H
+EC,05/11/2011,Darlington,AFC Telford United,1,0,H
+EC,05/11/2011,Kettering Town,Southport,2,3,A
+EC,05/11/2011,Bath City,Grimsby,2,2,D
+EC,05/11/2011,Newport County,Ebbsfleet,0,1,A
+EC,05/11/2011,Luton,Fleetwood Town,1,2,A
+EC,05/11/2011,Mansfield,Cambridge,1,2,A
+EC,06/03/2012,Fleetwood Town,Grimsby,2,1,H
+EC,06/03/2012,Cambridge,Mansfield,1,2,A
+EC,06/03/2012,Newport County,Braintree,3,4,A
+EC,06/03/2012,Gateshead,Hayes & Yeading United,2,0,H
+EC,06/03/2012,Alfreton Town,Stockport,6,1,H
+EC,06/03/2012,York,Tamworth,0,0,D
+EC,06/03/2012,Barrow,Bath City,0,1,A
+EC,06/04/2012,Newport County,AFC Telford United,0,0,D
+EC,06/04/2012,Forest Green,Ebbsfleet,3,1,H
+EC,06/04/2012,Wrexham,Alfreton Town,0,1,A
+EC,06/04/2012,Tamworth,Bath City,0,1,A
+EC,06/10/2011,Cambridge,Stockport,2,2,D
+EC,06/12/2011,Grimsby,Mansfield,0,0,D
+EC,06/12/2011,Kettering Town,Darlington,0,0,D
+EC,06/12/2011,Stockport,Gateshead,0,1,A
+EC,06/12/2011,AFC Telford United,York,0,0,D
+EC,06/12/2011,Ebbsfleet,Cambridge,0,0,D
+EC,06/12/2011,Wrexham,Southport,2,0,H
+EC,06/12/2011,Braintree,Hayes & Yeading United,0,3,A
+EC,06/12/2011,Lincoln,Luton,1,1,D
+EC,06/12/2011,Kidderminster,Bath City,4,1,H
+EC,06/12/2011,Forest Green,Tamworth,3,1,H
+EC,06/12/2011,Alfreton Town,Newport County,3,2,H
+EC,07/01/2012,Luton,Newport County,2,0,H
+EC,07/01/2012,Bath City,Braintree,1,1,D
+EC,07/01/2012,Kidderminster,Hayes & Yeading United,3,1,H
+EC,07/01/2012,Lincoln,York,0,2,A
+EC,07/01/2012,Barrow,Darlington,3,0,H
+EC,07/01/2012,Gateshead,Stockport,2,0,H
+EC,07/01/2012,Alfreton Town,Grimsby,2,5,A
+EC,07/01/2012,AFC Telford United,Kettering Town,3,1,H
+EC,07/01/2012,Mansfield,Forest Green,1,0,H
+EC,07/03/2012,Wrexham,Luton,2,0,H
+EC,07/04/2012,Gateshead,Barrow,2,0,H
+EC,07/04/2012,Hayes & Yeading United,Cambridge,0,0,D
+EC,07/04/2012,Stockport,Lincoln,4,0,H
+EC,07/04/2012,Braintree,Luton,3,1,H
+EC,07/04/2012,York,Fleetwood Town,0,1,A
+EC,07/04/2012,Southport,Kidderminster,1,2,A
+EC,07/04/2012,Kettering Town,Mansfield,0,3,A
+EC,07/04/2012,Darlington,Grimsby,0,0,D
+EC,07/05/2012,Wrexham,Luton,2,1,H
+EC,08/10/2011,Fleetwood Town,Forest Green,0,0,D
+EC,08/10/2011,Newport County,Southport,0,3,A
+EC,08/10/2011,Mansfield,Grimsby,2,1,H
+EC,08/10/2011,Bath City,Darlington,2,0,H
+EC,08/10/2011,Tamworth,Lincoln,4,0,H
+EC,08/10/2011,Kidderminster,Luton,1,2,A
+EC,08/10/2011,Alfreton Town,Kettering Town,1,1,D
+EC,08/10/2011,Ebbsfleet,Gateshead,0,1,A
+EC,08/10/2011,York,Braintree,6,2,H
+EC,08/10/2011,Barrow,AFC Telford United,2,1,H
+EC,09/03/2012,Kidderminster,Fleetwood Town,0,2,A
+EC,09/04/2012,Luton,Hayes & Yeading United,4,2,H
+EC,09/04/2012,Grimsby,Gateshead,2,0,H
+EC,09/04/2012,Lincoln,Darlington,5,0,H
+EC,09/04/2012,Mansfield,Stockport,2,1,H
+EC,09/04/2012,Barrow,Southport,2,2,D
+EC,09/04/2012,Ebbsfleet,Braintree,1,1,D
+EC,09/04/2012,Alfreton Town,York,0,2,A
+EC,09/04/2012,Kidderminster,Newport County,3,2,H
+EC,09/04/2012,Bath City,Forest Green,0,2,A
+EC,09/04/2012,Cambridge,Kettering Town,2,0,H
+EC,09/10/2011,Hayes & Yeading United,Wrexham,0,2,A
+EC,10/01/2012,Fleetwood Town,Barrow,4,1,H
+EC,10/01/2012,Cambridge,Grimsby,0,1,A
+EC,10/01/2012,Gateshead,Kidderminster,2,1,H
+EC,10/01/2012,Luton,Stockport,1,0,H
+EC,10/03/2012,Hayes & Yeading United,Kettering Town,1,0,H
+EC,10/03/2012,Lincoln,Alfreton Town,0,1,A
+EC,10/03/2012,Braintree,Gateshead,3,1,H
+EC,10/03/2012,Wrexham,Barrow,2,0,H
+EC,10/03/2012,Stockport,Cambridge,0,1,A
+EC,10/03/2012,AFC Telford United,Southport,0,1,A
+EC,10/03/2012,Tamworth,Mansfield,0,1,A
+EC,10/03/2012,Grimsby,Forest Green,2,1,H
+EC,10/04/2012,Fleetwood Town,Wrexham,1,1,D
+EC,10/09/2011,Cambridge,Forest Green,1,1,D
+EC,10/09/2011,AFC Telford United,Stockport,1,1,D
+EC,10/09/2011,Fleetwood Town,Gateshead,3,1,H
+EC,10/09/2011,Luton,Darlington,2,0,H
+EC,10/09/2011,Grimsby,Hayes & Yeading United,3,0,H
+EC,10/09/2011,Mansfield,Newport County,5,0,H
+EC,10/09/2011,Bath City,Southport,1,2,A
+EC,10/09/2011,Tamworth,York,2,1,H
+EC,10/09/2011,Kidderminster,Ebbsfleet,2,2,D
+EC,10/09/2011,Alfreton Town,Braintree,0,1,A
+EC,10/09/2011,Barrow,Wrexham,3,1,H
+EC,10/09/2011,Lincoln,Kettering Town,0,2,A
+EC,11/02/2012,Stockport,Newport County,2,2,D
+EC,11/10/2011,Fleetwood Town,Newport County,1,4,A
+EC,11/10/2011,Grimsby,Barrow,5,2,H
+EC,11/10/2011,Alfreton Town,Lincoln,1,3,A
+EC,11/10/2011,Bath City,Cambridge,3,4,A
+EC,11/10/2011,Kettering Town,Braintree,2,1,H
+EC,11/10/2011,Hayes & Yeading United,Forest Green,2,0,H
+EC,11/10/2011,Kidderminster,AFC Telford United,2,2,D
+EC,11/10/2011,Stockport,Darlington,3,4,A
+EC,11/10/2011,Ebbsfleet,Luton,2,2,D
+EC,11/10/2011,Southport,York,1,1,D
+EC,12/08/2011,Forest Green,Stockport,1,1,D
+EC,12/11/2011,Ebbsfleet,Stockport,2,1,H
+EC,13/03/2012,Ebbsfleet,Wrexham,0,5,A
+EC,13/03/2012,AFC Telford United,Kidderminster,2,1,H
+EC,13/03/2012,Darlington,Luton,1,1,D
+EC,13/03/2012,Southport,Kettering Town,0,0,D
+EC,13/03/2012,Mansfield,Fleetwood Town,1,1,D
+EC,13/03/2012,Cambridge,Barrow,1,0,H
+EC,13/03/2012,Grimsby,York,2,3,A
+EC,13/04/2012,Fleetwood Town,Lincoln,2,2,D
+EC,13/08/2011,Southport,Lincoln,2,2,D
+EC,13/08/2011,Kidderminster,Gateshead,2,3,A
+EC,13/08/2011,Barrow,Tamworth,1,1,D
+EC,13/08/2011,Hayes & Yeading United,Alfreton Town,3,1,H
+EC,13/08/2011,Darlington,Braintree,1,0,H
+EC,13/08/2011,Kettering Town,Newport County,3,2,H
+EC,13/08/2011,Wrexham,Cambridge,1,1,D
+EC,13/08/2011,Ebbsfleet,York,1,2,A
+EC,13/08/2011,Grimsby,Fleetwood Town,0,2,A
+EC,13/08/2011,Mansfield,Bath City,1,1,D
+EC,13/09/2011,AFC Telford United,Luton,0,2,A
+EC,13/09/2011,York,Bath City,1,0,H
+EC,14/01/2012,Tamworth,Wrexham,1,2,A
+EC,14/02/2012,Lincoln,Braintree,3,3,D
+EC,14/02/2012,Newport County,Bath City,1,0,H
+EC,14/02/2012,Southport,Darlington,2,0,H
+EC,14/04/2012,Ebbsfleet,AFC Telford United,3,2,H
+EC,14/04/2012,Wrexham,Grimsby,2,2,D
+EC,14/04/2012,York,Newport County,1,1,D
+EC,14/04/2012,Barrow,Cambridge,1,3,A
+EC,14/04/2012,Gateshead,Forest Green,1,0,H
+EC,14/04/2012,Hayes & Yeading United,Mansfield,1,3,A
+EC,14/04/2012,Stockport,Braintree,1,1,D
+EC,14/04/2012,Tamworth,Southport,2,2,D
+EC,14/04/2012,Darlington,Bath City,2,2,D
+EC,14/04/2012,Kidderminster,Kettering Town,6,1,H
+EC,14/04/2012,Alfreton Town,Luton,0,0,D
+EC,14/10/2011,Lincoln,Fleetwood Town,1,3,A
+EC,15/10/2011,Newport County,Tamworth,1,2,A
+EC,15/10/2011,Luton,Gateshead,5,1,H
+EC,15/10/2011,Mansfield,Southport,1,3,A
+EC,15/10/2011,Barrow,Hayes & Yeading United,3,1,H
+EC,15/10/2011,Forest Green,Kettering Town,0,1,A
+EC,15/10/2011,Cambridge,Alfreton Town,3,0,H
+EC,15/10/2011,York,Grimsby,2,1,H
+EC,15/10/2011,Darlington,Kidderminster,1,0,H
+EC,15/10/2011,AFC Telford United,Ebbsfleet,0,2,A
+EC,15/10/2011,Braintree,Bath City,3,3,D
+EC,15/10/2011,Wrexham,Stockport,4,0,H
+EC,16/08/2011,Luton,Forest Green,1,1,D
+EC,16/08/2011,Gateshead,Mansfield,3,0,H
+EC,16/08/2011,Lincoln,Kidderminster,0,1,A
+EC,16/08/2011,Cambridge,AFC Telford United,1,0,H
+EC,16/08/2011,Bath City,Wrexham,0,2,A
+EC,16/08/2011,Tamworth,Ebbsfleet,1,0,H
+EC,16/08/2011,Braintree,Grimsby,5,0,H
+EC,16/08/2011,York,Barrow,3,1,H
+EC,16/08/2011,Fleetwood Town,Darlington,0,0,D
+EC,16/08/2011,Newport County,Hayes & Yeading United,4,0,H
+EC,16/08/2011,Alfreton Town,Southport,0,0,D
+EC,16/08/2011,Stockport,Kettering Town,1,0,H
+EC,17/01/2012,Hayes & Yeading United,Ebbsfleet,1,2,A
+EC,17/02/2012,Southport,Grimsby,1,2,A
+EC,17/03/2012,Kettering Town,Alfreton Town,0,2,A
+EC,17/03/2012,Grimsby,Tamworth,0,0,D
+EC,17/03/2012,Cambridge,Gateshead,0,1,A
+EC,17/03/2012,Mansfield,Barrow,7,0,H
+EC,17/03/2012,Forest Green,Hayes & Yeading United,1,3,A
+EC,17/03/2012,Southport,Stockport,5,0,H
+EC,17/03/2012,Braintree,Kidderminster,1,4,A
+EC,17/03/2012,AFC Telford United,Fleetwood Town,1,4,A
+EC,17/03/2012,Darlington,Ebbsfleet,0,2,A
+EC,17/03/2012,Bath City,Lincoln,2,1,H
+EC,17/04/2012,Newport County,Darlington,0,0,D
+EC,17/04/2012,Luton,Ebbsfleet,3,0,H
+EC,17/04/2012,AFC Telford United,Tamworth,1,0,H
+EC,17/04/2012,Cambridge,York,0,1,A
+EC,17/09/2011,AFC Telford United,Bath City,2,1,H
+EC,17/09/2011,Stockport,Grimsby,2,0,H
+EC,17/09/2011,Ebbsfleet,Fleetwood Town,1,3,A
+EC,17/09/2011,Wrexham,York,0,3,A
+EC,17/09/2011,Braintree,Newport County,1,0,H
+EC,17/09/2011,Darlington,Hayes & Yeading United,1,1,D
+EC,17/09/2011,Gateshead,Cambridge,1,1,D
+EC,17/09/2011,Barrow,Mansfield,2,3,A
+EC,17/09/2011,Kettering Town,Tamworth,0,2,A
+EC,17/09/2011,Kidderminster,Alfreton Town,3,1,H
+EC,17/09/2011,Luton,Lincoln,1,0,H
+EC,17/09/2011,Forest Green,Southport,2,3,A
+EC,17/12/2011,Stockport,Alfreton Town,0,0,D
+EC,17/12/2011,Kettering Town,Bath City,1,1,D
+EC,17/12/2011,Darlington,Cambridge,2,0,H
+EC,17/12/2011,Tamworth,Luton,1,3,A
+EC,17/12/2011,Hayes & Yeading United,Barrow,1,1,D
+EC,17/12/2011,Wrexham,Gateshead,2,1,H
+EC,17/12/2011,Braintree,AFC Telford United,2,1,H
+EC,17/12/2011,Southport,Mansfield,3,1,H
+EC,17/12/2011,Forest Green,Lincoln,0,2,A
+EC,17/12/2011,Newport County,Fleetwood Town,0,1,A
+EC,17/12/2011,Grimsby,Ebbsfleet,4,3,H
+EC,18/02/2012,Fleetwood Town,Cambridge,1,0,H
+EC,18/02/2012,Bath City,Ebbsfleet,2,3,A
+EC,18/02/2012,Luton,Tamworth,3,0,H
+EC,18/02/2012,Newport County,Mansfield,1,0,H
+EC,18/02/2012,Forest Green,Gateshead,2,1,H
+EC,18/02/2012,Barrow,Kettering Town,3,0,H
+EC,18/02/2012,York,Stockport,2,1,H
+EC,18/02/2012,Wrexham,Hayes & Yeading United,4,1,H
+EC,18/02/2012,Alfreton Town,Darlington,3,1,H
+EC,18/02/2012,AFC Telford United,Braintree,1,0,H
+EC,18/02/2012,Kidderminster,Lincoln,1,1,D
+EC,18/10/2011,Darlington,Barrow,0,1,A
+EC,18/10/2011,Alfreton Town,Fleetwood Town,1,4,A
+EC,18/10/2011,Ebbsfleet,Grimsby,3,1,H
+EC,18/10/2011,York,Cambridge,2,2,D
+EC,18/10/2011,Gateshead,Southport,2,3,A
+EC,18/10/2011,Tamworth,Hayes & Yeading United,2,1,H
+EC,18/10/2011,Lincoln,Mansfield,1,1,D
+EC,18/10/2011,Forest Green,AFC Telford United,2,1,H
+EC,18/10/2011,Newport County,Kettering Town,3,1,H
+EC,18/10/2011,Luton,Wrexham,0,1,A
+EC,18/10/2011,Kidderminster,Braintree,5,4,H
+EC,18/10/2011,Bath City,Stockport,0,2,A
+EC,18/11/2011,Tamworth,Kettering Town,2,2,D
+EC,19/08/2011,Lincoln,Wrexham,1,2,A
+EC,19/11/2011,Grimsby,Newport County,2,2,D
+EC,19/11/2011,Alfreton Town,Gateshead,1,1,D
+EC,19/11/2011,Ebbsfleet,Darlington,1,3,A
+EC,19/11/2011,Wrexham,Lincoln,2,0,H
+EC,19/11/2011,Braintree,Forest Green,1,5,A
+EC,19/11/2011,Southport,Bath City,2,1,H
+EC,19/11/2011,Barrow,York,0,0,D
+EC,19/11/2011,Cambridge,Luton,1,1,D
+EC,19/11/2011,AFC Telford United,Mansfield,0,0,D
+EC,19/11/2011,Hayes & Yeading United,Kidderminster,1,3,A
+EC,19/11/2011,Fleetwood Town,Stockport,2,1,H
+EC,19/12/2011,York,Kidderminster,2,3,A
+EC,20/03/2012,Cambridge,Newport County,1,1,D
+EC,20/03/2012,Kettering Town,AFC Telford United,2,1,H
+EC,20/03/2012,Tamworth,Kidderminster,0,0,D
+EC,20/03/2012,Hayes & Yeading United,Grimsby,1,2,A
+EC,20/03/2012,Alfreton Town,Mansfield,3,6,A
+EC,20/03/2012,Gateshead,Bath City,1,0,H
+EC,20/03/2012,Forest Green,Luton,3,0,H
+EC,20/04/2012,Mansfield,Wrexham,2,0,H
+EC,20/05/2012,Luton,York,1,2,A
+EC,20/08/2011,Cambridge,Kidderminster,1,2,A
+EC,20/08/2011,Newport County,Grimsby,0,0,D
+EC,20/08/2011,Bath City,Barrow,0,1,A
+EC,20/08/2011,Stockport,Ebbsfleet,1,1,D
+EC,20/08/2011,Alfreton Town,Forest Green,1,6,A
+EC,20/08/2011,Tamworth,Darlington,1,0,H
+EC,20/08/2011,York,AFC Telford United,0,1,A
+EC,20/08/2011,Gateshead,Kettering Town,1,1,D
+EC,20/08/2011,Fleetwood Town,Hayes & Yeading United,1,0,H
+EC,20/08/2011,Luton,Southport,5,1,H
+EC,20/08/2011,Braintree,Mansfield,1,1,D
+EC,20/09/2011,Alfreton Town,Barrow,2,1,H
+EC,20/09/2011,Mansfield,AFC Telford United,1,1,D
+EC,20/09/2011,Lincoln,Gateshead,1,0,H
+EC,20/09/2011,Southport,Wrexham,0,0,D
+EC,20/09/2011,York,Darlington,2,2,D
+EC,20/09/2011,Hayes & Yeading United,Braintree,1,2,A
+EC,20/09/2011,Fleetwood Town,Kidderminster,5,2,H
+EC,20/09/2011,Bath City,Luton,1,1,D
+EC,20/09/2011,Newport County,Stockport,1,1,D
+EC,20/09/2011,Grimsby,Kettering Town,2,1,H
+EC,20/09/2011,Cambridge,Ebbsfleet,2,0,H
+EC,20/09/2011,Tamworth,Forest Green,0,1,A
+EC,20/12/2011,Hayes & Yeading United,Fleetwood Town,1,3,A
+EC,21/01/2012,Darlington,Fleetwood Town,0,1,A
+EC,21/01/2012,Tamworth,Barrow,2,3,A
+EC,21/01/2012,AFC Telford United,Cambridge,1,2,A
+EC,21/01/2012,Grimsby,Bath City,6,0,H
+EC,21/01/2012,Newport County,Forest Green,0,0,D
+EC,21/01/2012,Mansfield,Hayes & Yeading United,3,2,H
+EC,21/01/2012,Gateshead,Lincoln,3,3,D
+EC,21/01/2012,Southport,Luton,3,3,D
+EC,21/01/2012,York,Ebbsfleet,3,2,H
+EC,21/01/2012,Braintree,Stockport,2,2,D
+EC,21/01/2012,Wrexham,Kettering Town,4,1,H
+EC,21/01/2012,Alfreton Town,Kidderminster,0,2,A
+EC,21/02/2012,Barrow,Luton,1,0,H
+EC,21/02/2012,Mansfield,Darlington,5,2,H
+EC,21/02/2012,Tamworth,Newport County,2,1,H
+EC,21/02/2012,Kettering Town,Forest Green,1,3,A
+EC,21/02/2012,Bath City,Hayes & Yeading United,0,1,A
+EC,21/02/2012,Fleetwood Town,Ebbsfleet,6,2,H
+EC,21/02/2012,Kidderminster,Wrexham,0,1,A
+EC,21/04/2012,Newport County,Alfreton Town,1,0,H
+EC,21/04/2012,Kettering Town,Barrow,1,1,D
+EC,21/04/2012,AFC Telford United,Grimsby,0,0,D
+EC,21/04/2012,Stockport,Tamworth,2,0,H
+EC,21/04/2012,Braintree,York,0,1,A
+EC,21/04/2012,Southport,Ebbsfleet,3,3,D
+EC,21/04/2012,Lincoln,Hayes & Yeading United,0,1,A
+EC,21/04/2012,Cambridge,Fleetwood Town,2,0,H
+EC,21/04/2012,Luton,Kidderminster,1,0,H
+EC,21/04/2012,Forest Green,Darlington,2,0,H
+EC,21/04/2012,Bath City,Gateshead,4,2,H
+EC,21/10/2011,Cambridge,Lincoln,2,0,H
+EC,21/10/2011,Grimsby,Luton,0,1,A
+EC,22/02/2012,York,Gateshead,1,2,A
+EC,22/10/2011,Stockport,Forest Green,0,1,A
+EC,22/10/2011,Mansfield,Alfreton Town,3,2,H
+EC,22/10/2011,Fleetwood Town,Bath City,4,1,H
+EC,22/10/2011,Kettering Town,Ebbsfleet,2,2,D
+EC,22/10/2011,Hayes & Yeading United,York,2,4,A
+EC,22/10/2011,AFC Telford United,Gateshead,1,2,A
+EC,22/10/2011,Wrexham,Newport County,0,0,D
+EC,22/10/2011,Braintree,Darlington,3,1,H
+EC,22/10/2011,Barrow,Kidderminster,3,1,H
+EC,22/10/2011,Southport,Tamworth,1,1,D
+EC,23/08/2011,Grimsby,Cambridge,2,1,H
+EC,23/08/2011,Forest Green,Braintree,0,2,A
+EC,23/08/2011,Barrow,Fleetwood Town,4,0,H
+EC,23/08/2011,Southport,Gateshead,1,3,A
+EC,23/08/2011,Wrexham,Tamworth,3,0,H
+EC,23/08/2011,Ebbsfleet,Newport County,1,1,D
+EC,23/08/2011,AFC Telford United,Lincoln,1,2,A
+EC,23/08/2011,Kidderminster,Stockport,1,1,D
+EC,23/08/2011,Hayes & Yeading United,Bath City,1,1,D
+EC,23/08/2011,Darlington,Alfreton Town,1,1,D
+EC,23/08/2011,Kettering Town,York,1,5,A
+EC,23/08/2011,Mansfield,Luton,1,1,D
+EC,24/01/2012,Fleetwood Town,Braintree,3,1,H
+EC,24/01/2012,Forest Green,Wrexham,1,0,H
+EC,24/01/2012,Lincoln,Southport,2,0,H
+EC,24/01/2012,Barrow,Grimsby,2,2,D
+EC,24/01/2012,Ebbsfleet,Tamworth,3,0,H
+EC,24/01/2012,Kettering Town,Gateshead,2,1,H
+EC,24/01/2012,Kidderminster,York,1,1,D
+EC,24/01/2012,Stockport,AFC Telford United,2,2,D
+EC,24/01/2012,Bath City,Alfreton Town,0,3,A
+EC,24/01/2012,Hayes & Yeading United,Darlington,3,2,H
+EC,24/03/2012,York,Southport,1,2,A
+EC,24/03/2012,Luton,Grimsby,1,1,D
+EC,24/03/2012,Wrexham,Forest Green,1,2,A
+EC,24/03/2012,Fleetwood Town,Mansfield,2,0,H
+EC,24/03/2012,Barrow,Braintree,0,4,A
+EC,24/03/2012,Ebbsfleet,Kettering Town,1,0,H
+EC,24/03/2012,Alfreton Town,Cambridge,2,1,H
+EC,24/03/2012,Stockport,Bath City,4,0,H
+EC,24/03/2012,Kidderminster,Darlington,3,1,H
+EC,24/03/2012,Lincoln,Newport County,2,0,H
+EC,24/03/2012,Tamworth,Gateshead,1,1,D
+EC,24/03/2012,Hayes & Yeading United,AFC Telford United,0,0,D
+EC,24/04/2012,Newport County,Wrexham,0,1,A
+EC,24/04/2012,Gateshead,Luton,0,0,D
+EC,24/09/2011,York,Luton,3,0,H
+EC,24/09/2011,Alfreton Town,Ebbsfleet,2,2,D
+EC,24/09/2011,Mansfield,Kidderminster,0,3,A
+EC,24/09/2011,Tamworth,Stockport,1,1,D
+EC,24/09/2011,Bath City,Kettering Town,0,1,A
+EC,24/09/2011,Cambridge,Darlington,2,0,H
+EC,24/09/2011,Fleetwood Town,AFC Telford United,2,2,D
+EC,24/09/2011,Grimsby,Wrexham,1,3,A
+EC,24/09/2011,Southport,Braintree,0,4,A
+EC,24/09/2011,Newport County,Barrow,2,2,D
+EC,24/09/2011,Hayes & Yeading United,Gateshead,2,3,A
+EC,24/09/2011,Lincoln,Forest Green,1,1,D
+EC,25/01/2012,Luton,Mansfield,0,0,D
+EC,25/02/2012,Bath City,Kidderminster,1,2,A
+EC,25/02/2012,Lincoln,AFC Telford United,1,1,D
+EC,25/02/2012,Braintree,Kettering Town,2,1,H
+EC,25/02/2012,Stockport,Wrexham,1,0,H
+EC,25/02/2012,Mansfield,Tamworth,2,1,H
+EC,25/02/2012,Fleetwood Town,Alfreton Town,4,0,H
+EC,25/02/2012,Ebbsfleet,Southport,1,2,A
+EC,25/02/2012,Barrow,Forest Green,1,1,D
+EC,26/08/2011,Fleetwood Town,York,0,0,D
+EC,26/08/2011,Lincoln,Stockport,1,1,D
+EC,26/11/2011,Braintree,Wrexham,0,0,D
+EC,26/11/2011,Forest Green,York,1,1,D
+EC,26/11/2011,Newport County,Luton,0,1,A
+EC,26/11/2011,Kidderminster,Cambridge,0,0,D
+EC,26/11/2011,Darlington,Tamworth,2,0,H
+EC,26/11/2011,Kettering Town,Grimsby,1,2,A
+EC,26/11/2011,Bath City,Mansfield,1,1,D
+EC,26/11/2011,Alfreton Town,Hayes & Yeading United,3,2,H
+EC,26/11/2011,Stockport,Southport,0,1,A
+EC,26/11/2011,AFC Telford United,Barrow,1,0,H
+EC,26/11/2011,Gateshead,Fleetwood Town,1,1,D
+EC,26/11/2011,Lincoln,Ebbsfleet,3,0,H
+EC,26/12/2011,Alfreton Town,Tamworth,5,2,H
+EC,26/12/2011,Barrow,Stockport,1,0,H
+EC,26/12/2011,Mansfield,York,1,1,D
+EC,26/12/2011,Luton,Kettering Town,5,0,H
+EC,26/12/2011,Fleetwood Town,Southport,2,2,D
+EC,26/12/2011,Cambridge,Braintree,2,0,H
+EC,26/12/2011,Ebbsfleet,Hayes & Yeading United,3,1,H
+EC,26/12/2011,Lincoln,Grimsby,1,2,A
+EC,26/12/2011,AFC Telford United,Wrexham,0,2,A
+EC,26/12/2011,Gateshead,Darlington,1,1,D
+EC,26/12/2011,Kidderminster,Forest Green,1,0,H
+EC,27/03/2012,Bath City,York,0,1,A
+EC,27/03/2012,Darlington,Wrexham,2,4,A
+EC,27/03/2012,Tamworth,Grimsby,1,1,D
+EC,27/03/2012,AFC Telford United,Forest Green,2,0,H
+EC,27/03/2012,Ebbsfleet,Alfreton Town,1,2,A
+EC,27/03/2012,Braintree,Southport,0,0,D
+EC,27/03/2012,Hayes & Yeading United,Lincoln,1,2,A
+EC,27/08/2011,Bath City,Tamworth,0,2,A
+EC,27/08/2011,Kidderminster,Southport,2,0,H
+EC,27/08/2011,Luton,Braintree,3,1,H
+EC,27/08/2011,Grimsby,Darlington,1,2,A
+EC,27/08/2011,Cambridge,Hayes & Yeading United,2,1,H
+EC,27/08/2011,Mansfield,Kettering Town,3,0,H
+EC,27/08/2011,Barrow,Gateshead,1,2,A
+EC,27/08/2011,Ebbsfleet,Forest Green,1,1,D
+EC,27/08/2011,Alfreton Town,Wrexham,1,4,A
+EC,27/08/2011,AFC Telford United,Newport County,2,1,H
+EC,27/09/2011,Darlington,Southport,0,3,A
+EC,27/09/2011,Braintree,Tamworth,3,1,H
+EC,27/09/2011,Kidderminster,Grimsby,1,1,D
+EC,27/09/2011,AFC Telford United,Alfreton Town,1,0,H
+EC,27/09/2011,Luton,Cambridge,0,1,A
+EC,27/09/2011,Forest Green,Newport County,1,1,D
+EC,27/09/2011,Stockport,Fleetwood Town,2,4,A
+EC,27/09/2011,Ebbsfleet,Bath City,3,0,H
+EC,27/09/2011,Wrexham,Mansfield,1,3,A
+EC,27/09/2011,Kettering Town,Hayes & Yeading United,3,5,A
+EC,27/09/2011,Gateshead,York,3,2,H
+EC,27/09/2011,Barrow,Lincoln,1,0,H
+EC,28/01/2012,Cambridge,Tamworth,0,1,A
+EC,28/01/2012,Stockport,Kidderminster,2,1,H
+EC,28/01/2012,Luton,Alfreton Town,1,0,H
+EC,28/01/2012,Forest Green,Fleetwood Town,1,2,A
+EC,28/01/2012,Grimsby,AFC Telford United,2,0,H
+EC,28/01/2012,Gateshead,Newport County,2,3,A
+EC,28/01/2012,Hayes & Yeading United,Southport,0,2,A
+EC,28/01/2012,Wrexham,Bath City,2,0,H
+EC,28/01/2012,Ebbsfleet,Mansfield,0,3,A
+EC,28/01/2012,Darlington,York,2,2,D
+EC,28/01/2012,Kettering Town,Lincoln,1,0,H
+EC,28/01/2012,Braintree,Barrow,1,0,H
+EC,28/04/2012,York,Forest Green,1,0,H
+EC,28/04/2012,Fleetwood Town,Luton,0,2,A
+EC,28/04/2012,Grimsby,Southport,0,1,A
+EC,28/04/2012,Barrow,Newport County,3,1,H
+EC,28/04/2012,Gateshead,AFC Telford United,3,0,H
+EC,28/04/2012,Darlington,Kettering Town,3,1,H
+EC,28/04/2012,Tamworth,Cambridge,2,2,D
+EC,28/04/2012,Hayes & Yeading United,Stockport,1,2,A
+EC,28/04/2012,Kidderminster,Mansfield,0,3,A
+EC,28/04/2012,Alfreton Town,Bath City,2,1,H
+EC,28/04/2012,Ebbsfleet,Lincoln,2,3,A
+EC,28/04/2012,Wrexham,Braintree,5,1,H
+EC,29/08/2011,York,Alfreton Town,0,1,A
+EC,29/08/2011,Stockport,Mansfield,0,1,A
+EC,29/08/2011,Newport County,Kidderminster,1,3,A
+EC,29/08/2011,Southport,Barrow,2,1,H
+EC,29/08/2011,Braintree,Ebbsfleet,2,3,A
+EC,29/08/2011,Gateshead,Grimsby,1,0,H
+EC,29/08/2011,Wrexham,Fleetwood Town,2,0,H
+EC,29/08/2011,Tamworth,AFC Telford United,2,2,D
+EC,29/08/2011,Darlington,Lincoln,3,1,H
+EC,29/08/2011,Kettering Town,Cambridge,0,0,D
+EC,29/08/2011,Forest Green,Bath City,3,0,H
+EC,29/11/2011,Southport,Forest Green,1,3,A
+EC,29/11/2011,York,Lincoln,2,0,H
+EC,29/11/2011,Cambridge,Bath City,1,1,D
+EC,29/11/2011,Hayes & Yeading United,Newport County,0,4,A
+EC,29/11/2011,Fleetwood Town,Kettering Town,3,0,H
+EC,29/11/2011,Luton,AFC Telford United,1,1,D
+EC,29/11/2011,Grimsby,Stockport,7,0,H
+EC,29/11/2011,Ebbsfleet,Kidderminster,3,3,D
+EC,29/11/2011,Mansfield,Gateshead,1,1,D
+EC,29/11/2011,Barrow,Alfreton Town,1,0,H
+EC,29/11/2011,Tamworth,Braintree,1,0,H
+EC,30/03/2012,Luton,York,1,2,A
+EC,30/08/2011,Hayes & Yeading United,Luton,2,2,D
+EC,30/11/2011,Wrexham,Darlington,2,1,H
+EC,31/03/2012,Grimsby,Kidderminster,1,2,A
+EC,31/03/2012,Newport County,Gateshead,1,0,H
+EC,31/03/2012,Cambridge,Wrexham,1,1,D
+EC,31/03/2012,Mansfield,Ebbsfleet,1,0,H
+EC,31/03/2012,Forest Green,Barrow,3,0,H
+EC,31/03/2012,Lincoln,Tamworth,4,0,H
+EC,31/03/2012,Southport,Hayes & Yeading United,1,2,A
+EC,31/03/2012,Braintree,Alfreton Town,1,2,A
+EC,31/03/2012,AFC Telford United,Darlington,3,3,D
+EC,31/03/2012,Bath City,Fleetwood Town,1,4,A
+EC,31/03/2012,Kettering Town,Stockport,1,3,A

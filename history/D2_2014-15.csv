@@ -1,0 +1,307 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+D2,01/03/2015,FC St. Pauli,Erzgebirge AUE,0,0,D
+D2,01/03/2015,FC Heidenheim,Fortuna Dusseldorf,1,2,A
+D2,01/03/2015,RB Leipzig,Union Berlin,3,2,H
+D2,01/08/2014,Fortuna Dusseldorf,Eintracht Braunschweig,2,2,D
+D2,01/09/2014,SpVgg Greuther Furth,FC St. Pauli,3,0,H
+D2,01/11/2014,FC Nurnberg,FC St. Pauli,2,2,D
+D2,01/11/2014,FC Heidenheim,SV Darmstadt 98,1,1,D
+D2,01/12/2014,Eintracht Braunschweig,FC Nurnberg,1,0,H
+D2,02/03/2015,FC Ingolstadt 04,TSV 1860 Munich,1,1,D
+D2,02/05/2015,Eintracht Braunschweig,FSV Frankfurt,2,0,H
+D2,02/05/2015,SV Darmstadt 98,FC Kaiserslautern,3,2,H
+D2,02/08/2014,Vfl Bochum,SpVgg Greuther Furth,1,1,D
+D2,02/08/2014,FC St. Pauli,FC Ingolstadt 04,1,1,D
+D2,02/08/2014,RB Leipzig,VfR Aalen,0,0,D
+D2,02/11/2014,FSV Frankfurt,Erzgebirge AUE,1,1,D
+D2,02/11/2014,Eintracht Braunschweig,VfR Aalen,2,1,H
+D2,02/11/2014,Vfl Bochum,TSV 1860 Munich,0,3,A
+D2,03/05/2015,VfR Aalen,Vfl Bochum,2,4,A
+D2,03/05/2015,SV Sandhausen,FC Heidenheim,2,2,D
+D2,03/05/2015,FC St. Pauli,RB Leipzig,1,0,H
+D2,03/05/2015,SpVgg Greuther Furth,Fortuna Dusseldorf,3,0,H
+D2,03/05/2015,Erzgebirge AUE,Karlsruher SC,3,1,H
+D2,03/05/2015,TSV 1860 Munich,Union Berlin,0,3,A
+D2,03/08/2014,FC Heidenheim,FSV Frankfurt,2,1,H
+D2,03/08/2014,FC Nurnberg,Erzgebirge AUE,1,0,H
+D2,03/08/2014,SV Darmstadt 98,SV Sandhausen,1,0,H
+D2,03/08/2014,Karlsruher SC,Union Berlin,0,0,D
+D2,03/10/2014,VfR Aalen,TSV 1860 Munich,2,0,H
+D2,03/10/2014,Vfl Bochum,FC Nurnberg,1,1,D
+D2,03/10/2014,SpVgg Greuther Furth,Erzgebirge AUE,2,0,H
+D2,03/11/2014,RB Leipzig,FC Kaiserslautern,0,0,D
+D2,04/04/2015,FC Kaiserslautern,FC Heidenheim,4,0,H
+D2,04/04/2015,SpVgg Greuther Furth,Eintracht Braunschweig,1,2,A
+D2,04/05/2015,FC Ingolstadt 04,FC Nurnberg,1,1,D
+D2,04/08/2014,FC Kaiserslautern,TSV 1860 Munich,3,2,H
+D2,04/10/2014,FC St. Pauli,Union Berlin,3,0,H
+D2,04/10/2014,FC Kaiserslautern,Karlsruher SC,2,0,H
+D2,05/04/2015,SV Darmstadt 98,Vfl Bochum,2,0,H
+D2,05/04/2015,FC Ingolstadt 04,FSV Frankfurt,2,0,H
+D2,05/04/2015,SV Sandhausen,Union Berlin,1,1,D
+D2,05/04/2015,RB Leipzig,FC Nurnberg,2,1,H
+D2,05/04/2015,VfR Aalen,Karlsruher SC,2,2,D
+D2,05/04/2015,TSV 1860 Munich,Erzgebirge AUE,0,1,A
+D2,05/10/2014,FC Ingolstadt 04,Eintracht Braunschweig,1,0,H
+D2,05/10/2014,SV Sandhausen,FSV Frankfurt,0,3,A
+D2,05/10/2014,SV Darmstadt 98,Fortuna Dusseldorf,1,4,A
+D2,05/12/2014,FC Heidenheim,VfR Aalen,0,1,A
+D2,05/12/2014,Fortuna Dusseldorf,SV Sandhausen,1,3,A
+D2,05/12/2014,Vfl Bochum,FC St. Pauli,3,3,D
+D2,06/02/2015,SpVgg Greuther Furth,FC Ingolstadt 04,0,1,A
+D2,06/02/2015,Erzgebirge AUE,RB Leipzig,2,0,H
+D2,06/02/2015,VfR Aalen,SV Darmstadt 98,0,0,D
+D2,06/03/2015,FC Nurnberg,FC Heidenheim,0,1,A
+D2,06/03/2015,Fortuna Dusseldorf,Vfl Bochum,2,2,D
+D2,06/03/2015,Erzgebirge AUE,FC Ingolstadt 04,0,3,A
+D2,06/04/2015,FC St. Pauli,Fortuna Dusseldorf,4,0,H
+D2,06/10/2014,RB Leipzig,FC Heidenheim,1,1,D
+D2,06/12/2014,SV Darmstadt 98,SpVgg Greuther Furth,0,0,D
+D2,06/12/2014,FC Kaiserslautern,Erzgebirge AUE,3,0,H
+D2,07/02/2015,Union Berlin,Vfl Bochum,2,1,H
+D2,07/02/2015,SV Sandhausen,FC St. Pauli,0,0,D
+D2,07/03/2015,VfR Aalen,SpVgg Greuther Furth,1,1,D
+D2,07/03/2015,Eintracht Braunschweig,FC St. Pauli,0,2,A
+D2,07/11/2014,FC Kaiserslautern,Vfl Bochum,2,2,D
+D2,07/11/2014,SV Sandhausen,FC Nurnberg,2,1,H
+D2,07/11/2014,VfR Aalen,FSV Frankfurt,0,1,A
+D2,07/12/2014,Union Berlin,FSV Frankfurt,2,1,H
+D2,07/12/2014,RB Leipzig,FC Ingolstadt 04,0,1,A
+D2,07/12/2014,Karlsruher SC,Eintracht Braunschweig,1,0,H
+D2,08/02/2015,Karlsruher SC,Fortuna Dusseldorf,1,1,D
+D2,08/02/2015,FSV Frankfurt,FC Nurnberg,2,1,H
+D2,08/02/2015,Eintracht Braunschweig,FC Kaiserslautern,0,2,A
+D2,08/03/2015,FSV Frankfurt,SV Darmstadt 98,1,1,D
+D2,08/03/2015,TSV 1860 Munich,SV Sandhausen,2,3,A
+D2,08/03/2015,Union Berlin,FC Kaiserslautern,0,0,D
+D2,08/05/2015,FSV Frankfurt,TSV 1860 Munich,0,1,A
+D2,08/05/2015,RB Leipzig,SV Sandhausen,0,4,A
+D2,08/05/2015,Fortuna Dusseldorf,VfR Aalen,0,2,A
+D2,08/08/2014,Union Berlin,Fortuna Dusseldorf,1,1,D
+D2,08/08/2014,FSV Frankfurt,Karlsruher SC,2,3,A
+D2,08/08/2014,VfR Aalen,FC St. Pauli,2,0,H
+D2,08/11/2014,SV Darmstadt 98,RB Leipzig,1,0,H
+D2,08/11/2014,FC St. Pauli,FC Heidenheim,0,3,A
+D2,08/12/2014,FC Nurnberg,TSV 1860 Munich,2,1,H
+D2,09/02/2015,TSV 1860 Munich,FC Heidenheim,1,2,A
+D2,09/03/2015,Karlsruher SC,RB Leipzig,0,0,D
+D2,09/05/2015,FC Kaiserslautern,FC St. Pauli,0,2,A
+D2,09/05/2015,Union Berlin,Erzgebirge AUE,1,2,A
+D2,09/08/2014,Erzgebirge AUE,Vfl Bochum,1,5,A
+D2,09/08/2014,Eintracht Braunschweig,FC Heidenheim,3,0,H
+D2,09/11/2014,SpVgg Greuther Furth,Karlsruher SC,0,3,A
+D2,09/11/2014,FC Ingolstadt 04,Union Berlin,3,3,D
+D2,09/11/2014,Erzgebirge AUE,Eintracht Braunschweig,1,2,A
+D2,10/04/2015,Karlsruher SC,FC St. Pauli,3,0,H
+D2,10/04/2015,FC Heidenheim,FC Ingolstadt 04,0,1,A
+D2,10/04/2015,FC Nurnberg,SV Darmstadt 98,1,1,D
+D2,10/05/2015,Vfl Bochum,FC Ingolstadt 04,3,1,H
+D2,10/05/2015,FC Heidenheim,SpVgg Greuther Furth,3,0,H
+D2,10/05/2015,FC Nurnberg,Eintracht Braunschweig,3,1,H
+D2,10/08/2014,SV Sandhausen,FC Kaiserslautern,1,1,D
+D2,10/08/2014,FC Ingolstadt 04,SV Darmstadt 98,2,2,D
+D2,10/08/2014,TSV 1860 Munich,RB Leipzig,0,3,A
+D2,10/11/2014,TSV 1860 Munich,Fortuna Dusseldorf,0,1,A
+D2,11/04/2015,FSV Frankfurt,SpVgg Greuther Furth,1,1,D
+D2,11/04/2015,Eintracht Braunschweig,TSV 1860 Munich,2,0,H
+D2,11/05/2015,Karlsruher SC,SV Darmstadt 98,0,1,A
+D2,11/08/2014,SpVgg Greuther Furth,FC Nurnberg,5,1,H
+D2,12/04/2015,Vfl Bochum,RB Leipzig,1,2,A
+D2,12/04/2015,Union Berlin,VfR Aalen,1,1,D
+D2,12/04/2015,Erzgebirge AUE,SV Sandhausen,0,1,A
+D2,12/09/2014,Vfl Bochum,Karlsruher SC,1,1,D
+D2,12/09/2014,FC Ingolstadt 04,VfR Aalen,4,1,H
+D2,12/09/2014,FC Kaiserslautern,FSV Frankfurt,1,0,H
+D2,12/12/2014,SpVgg Greuther Furth,RB Leipzig,0,1,A
+D2,12/12/2014,SV Sandhausen,Vfl Bochum,0,0,D
+D2,12/12/2014,Erzgebirge AUE,FC Heidenheim,1,1,D
+D2,13/02/2015,Vfl Bochum,Eintracht Braunschweig,3,2,H
+D2,13/02/2015,Fortuna Dusseldorf,Erzgebirge AUE,2,3,A
+D2,13/02/2015,FC Heidenheim,Karlsruher SC,0,1,A
+D2,13/03/2015,SV Darmstadt 98,Union Berlin,5,0,H
+D2,13/03/2015,SpVgg Greuther Furth,TSV 1860 Munich,0,3,A
+D2,13/03/2015,Vfl Bochum,FC Heidenheim,4,1,H
+D2,13/04/2015,Fortuna Dusseldorf,FC Kaiserslautern,1,1,D
+D2,13/09/2014,SV Darmstadt 98,Erzgebirge AUE,2,0,H
+D2,13/09/2014,RB Leipzig,Eintracht Braunschweig,3,1,H
+D2,13/12/2014,FSV Frankfurt,Fortuna Dusseldorf,0,2,A
+D2,13/12/2014,TSV 1860 Munich,Karlsruher SC,2,3,A
+D2,13/12/2014,Eintracht Braunschweig,Union Berlin,1,1,D
+D2,14/02/2015,FC Kaiserslautern,VfR Aalen,1,0,H
+D2,14/02/2015,FC Ingolstadt 04,SV Sandhausen,1,3,A
+D2,14/03/2015,FC Kaiserslautern,FC Nurnberg,2,1,H
+D2,14/03/2015,FC St. Pauli,FSV Frankfurt,1,1,D
+D2,14/09/2014,FC Heidenheim,Union Berlin,3,1,H
+D2,14/09/2014,FC St. Pauli,TSV 1860 Munich,1,2,A
+D2,14/09/2014,SV Sandhausen,SpVgg Greuther Furth,1,0,H
+D2,14/12/2014,FC St. Pauli,SV Darmstadt 98,0,1,A
+D2,14/12/2014,FC Ingolstadt 04,FC Kaiserslautern,2,0,H
+D2,14/12/2014,VfR Aalen,FC Nurnberg,1,2,A
+D2,15/02/2015,RB Leipzig,FSV Frankfurt,0,1,A
+D2,15/02/2015,FC Nurnberg,Union Berlin,3,1,H
+D2,15/02/2015,SV Darmstadt 98,TSV 1860 Munich,1,1,D
+D2,15/03/2015,FC Ingolstadt 04,Karlsruher SC,1,3,A
+D2,15/03/2015,VfR Aalen,Erzgebirge AUE,3,0,H
+D2,15/03/2015,SV Sandhausen,Eintracht Braunschweig,0,1,A
+D2,15/09/2014,FC Nurnberg,Fortuna Dusseldorf,0,2,A
+D2,16/02/2015,FC St. Pauli,SpVgg Greuther Furth,0,1,A
+D2,16/03/2015,RB Leipzig,Fortuna Dusseldorf,3,1,H
+D2,16/12/2014,Eintracht Braunschweig,Fortuna Dusseldorf,2,1,H
+D2,16/12/2014,FSV Frankfurt,FC Heidenheim,2,0,H
+D2,16/12/2014,Union Berlin,Karlsruher SC,2,0,H
+D2,16/12/2014,SpVgg Greuther Furth,Vfl Bochum,0,0,D
+D2,17/04/2015,FC Ingolstadt 04,Fortuna Dusseldorf,3,2,H
+D2,17/04/2015,FC St. Pauli,FC Nurnberg,1,0,H
+D2,17/04/2015,SV Sandhausen,Karlsruher SC,0,0,D
+D2,17/05/2015,FC St. Pauli,Vfl Bochum,5,1,H
+D2,17/05/2015,FC Ingolstadt 04,RB Leipzig,2,1,H
+D2,17/05/2015,SpVgg Greuther Furth,SV Darmstadt 98,1,0,H
+D2,17/05/2015,SV Sandhausen,Fortuna Dusseldorf,0,2,A
+D2,17/05/2015,Erzgebirge AUE,FC Kaiserslautern,0,0,D
+D2,17/05/2015,Eintracht Braunschweig,Karlsruher SC,0,2,A
+D2,17/05/2015,TSV 1860 Munich,FC Nurnberg,2,1,H
+D2,17/05/2015,VfR Aalen,FC Heidenheim,2,4,A
+D2,17/05/2015,FSV Frankfurt,Union Berlin,1,3,A
+D2,17/10/2014,FC Nurnberg,RB Leipzig,1,0,H
+D2,17/10/2014,Vfl Bochum,SV Darmstadt 98,1,1,D
+D2,17/10/2014,FC Heidenheim,FC Kaiserslautern,1,1,D
+D2,17/12/2014,FC Ingolstadt 04,FC St. Pauli,2,1,H
+D2,17/12/2014,SV Sandhausen,SV Darmstadt 98,1,2,A
+D2,17/12/2014,Erzgebirge AUE,FC Nurnberg,0,1,A
+D2,17/12/2014,VfR Aalen,RB Leipzig,0,0,D
+D2,17/12/2014,TSV 1860 Munich,FC Kaiserslautern,1,1,D
+D2,18/04/2015,TSV 1860 Munich,Vfl Bochum,2,1,H
+D2,18/04/2015,VfR Aalen,Eintracht Braunschweig,2,1,H
+D2,18/10/2014,Union Berlin,SV Sandhausen,3,1,H
+D2,18/10/2014,Eintracht Braunschweig,SpVgg Greuther Furth,2,2,D
+D2,19/04/2015,Erzgebirge AUE,FSV Frankfurt,1,0,H
+D2,19/04/2015,SV Darmstadt 98,FC Heidenheim,1,1,D
+D2,19/04/2015,SpVgg Greuther Furth,Union Berlin,2,2,D
+D2,19/09/2014,VfR Aalen,SV Sandhausen,0,1,A
+D2,19/09/2014,Erzgebirge AUE,FC St. Pauli,3,0,H
+D2,19/09/2014,Eintracht Braunschweig,SV Darmstadt 98,2,0,H
+D2,19/10/2014,Erzgebirge AUE,TSV 1860 Munich,4,1,H
+D2,19/10/2014,Karlsruher SC,VfR Aalen,0,0,D
+D2,19/10/2014,FSV Frankfurt,FC Ingolstadt 04,0,1,A
+D2,19/12/2014,Karlsruher SC,FSV Frankfurt,4,1,H
+D2,19/12/2014,Fortuna Dusseldorf,Union Berlin,1,0,H
+D2,19/12/2014,FC Heidenheim,Eintracht Braunschweig,0,1,A
+D2,20/02/2015,Erzgebirge AUE,SV Darmstadt 98,0,1,A
+D2,20/02/2015,SpVgg Greuther Furth,SV Sandhausen,0,0,D
+D2,20/02/2015,VfR Aalen,FC Ingolstadt 04,1,1,D
+D2,20/03/2015,Union Berlin,FC St. Pauli,1,0,H
+D2,20/03/2015,FSV Frankfurt,SV Sandhausen,1,1,D
+D2,20/03/2015,TSV 1860 Munich,VfR Aalen,1,1,D
+D2,20/04/2015,FC Kaiserslautern,RB Leipzig,1,1,D
+D2,20/09/2014,FSV Frankfurt,Vfl Bochum,1,5,A
+D2,20/09/2014,TSV 1860 Munich,FC Ingolstadt 04,1,1,D
+D2,20/09/2014,SpVgg Greuther Furth,FC Kaiserslautern,2,1,H
+D2,20/10/2014,Fortuna Dusseldorf,FC St. Pauli,1,0,H
+D2,20/12/2014,FC Nurnberg,SpVgg Greuther Furth,0,0,D
+D2,20/12/2014,FC St. Pauli,VfR Aalen,3,1,H
+D2,21/02/2015,Karlsruher SC,Vfl Bochum,0,0,D
+D2,21/02/2015,TSV 1860 Munich,FC St. Pauli,2,1,H
+D2,21/03/2015,Fortuna Dusseldorf,SV Darmstadt 98,2,0,H
+D2,21/03/2015,Eintracht Braunschweig,FC Ingolstadt 04,0,0,D
+D2,21/09/2014,Fortuna Dusseldorf,FC Heidenheim,3,2,H
+D2,21/09/2014,Karlsruher SC,FC Nurnberg,3,0,H
+D2,21/09/2014,Union Berlin,RB Leipzig,2,1,H
+D2,21/11/2014,Vfl Bochum,VfR Aalen,4,0,H
+D2,21/11/2014,FC Heidenheim,SV Sandhausen,3,0,H
+D2,21/11/2014,FC Kaiserslautern,SV Darmstadt 98,0,0,D
+D2,21/12/2014,FC Kaiserslautern,SV Sandhausen,1,0,H
+D2,21/12/2014,SV Darmstadt 98,FC Ingolstadt 04,2,2,D
+D2,21/12/2014,Vfl Bochum,Erzgebirge AUE,1,1,D
+D2,22/02/2015,FSV Frankfurt,FC Kaiserslautern,2,0,H
+D2,22/02/2015,Union Berlin,FC Heidenheim,3,1,H
+D2,22/02/2015,Fortuna Dusseldorf,FC Nurnberg,1,3,A
+D2,22/03/2015,Karlsruher SC,FC Kaiserslautern,0,0,D
+D2,22/03/2015,Erzgebirge AUE,SpVgg Greuther Furth,0,0,D
+D2,22/03/2015,FC Heidenheim,RB Leipzig,1,0,H
+D2,22/08/2014,FC St. Pauli,SV Sandhausen,2,1,H
+D2,22/08/2014,RB Leipzig,Erzgebirge AUE,1,0,H
+D2,22/08/2014,FC Heidenheim,TSV 1860 Munich,2,2,D
+D2,22/11/2014,FSV Frankfurt,Eintracht Braunschweig,0,3,A
+D2,22/11/2014,Union Berlin,TSV 1860 Munich,1,4,A
+D2,22/12/2014,RB Leipzig,TSV 1860 Munich,1,1,D
+D2,23/02/2015,Eintracht Braunschweig,RB Leipzig,1,1,D
+D2,23/03/2015,FC Nurnberg,Vfl Bochum,1,2,A
+D2,23/08/2014,Fortuna Dusseldorf,Karlsruher SC,0,2,A
+D2,23/08/2014,FC Nurnberg,FSV Frankfurt,0,1,A
+D2,23/09/2014,SpVgg Greuther Furth,VfR Aalen,1,1,D
+D2,23/09/2014,FC Ingolstadt 04,Erzgebirge AUE,1,1,D
+D2,23/09/2014,FC St. Pauli,Eintracht Braunschweig,1,0,H
+D2,23/09/2014,SV Sandhausen,TSV 1860 Munich,1,0,H
+D2,23/11/2014,FC Nurnberg,FC Ingolstadt 04,2,1,H
+D2,23/11/2014,RB Leipzig,FC St. Pauli,4,1,H
+D2,23/11/2014,Karlsruher SC,Erzgebirge AUE,1,0,H
+D2,24/04/2015,RB Leipzig,SV Darmstadt 98,2,1,H
+D2,24/04/2015,FC Nurnberg,SV Sandhausen,2,0,H
+D2,24/04/2015,Vfl Bochum,FC Kaiserslautern,0,2,A
+D2,24/05/2015,Union Berlin,Eintracht Braunschweig,2,0,H
+D2,24/05/2015,SV Darmstadt 98,FC St. Pauli,1,0,H
+D2,24/05/2015,FC Heidenheim,Erzgebirge AUE,2,2,D
+D2,24/05/2015,Vfl Bochum,SV Sandhausen,0,0,D
+D2,24/05/2015,RB Leipzig,SpVgg Greuther Furth,2,0,H
+D2,24/05/2015,FC Nurnberg,VfR Aalen,2,1,H
+D2,24/05/2015,Fortuna Dusseldorf,FSV Frankfurt,2,3,A
+D2,24/05/2015,Karlsruher SC,TSV 1860 Munich,2,0,H
+D2,24/05/2015,FC Kaiserslautern,FC Ingolstadt 04,1,1,D
+D2,24/08/2014,FC Ingolstadt 04,SpVgg Greuther Furth,2,0,H
+D2,24/08/2014,FC Kaiserslautern,Eintracht Braunschweig,2,1,H
+D2,24/08/2014,SV Darmstadt 98,VfR Aalen,2,0,H
+D2,24/09/2014,RB Leipzig,Karlsruher SC,3,1,H
+D2,24/09/2014,FC Heidenheim,FC Nurnberg,3,0,H
+D2,24/09/2014,FC Kaiserslautern,Union Berlin,1,0,H
+D2,24/09/2014,SV Darmstadt 98,FSV Frankfurt,4,0,H
+D2,24/10/2014,RB Leipzig,Vfl Bochum,2,0,H
+D2,24/10/2014,VfR Aalen,Union Berlin,1,2,A
+D2,24/10/2014,SpVgg Greuther Furth,FSV Frankfurt,2,5,A
+D2,24/11/2014,Fortuna Dusseldorf,SpVgg Greuther Furth,3,3,D
+D2,25/04/2015,Karlsruher SC,SpVgg Greuther Furth,2,1,H
+D2,25/04/2015,Fortuna Dusseldorf,TSV 1860 Munich,1,1,D
+D2,25/08/2014,Vfl Bochum,Union Berlin,1,1,D
+D2,25/09/2014,Vfl Bochum,Fortuna Dusseldorf,1,1,D
+D2,25/10/2014,FC St. Pauli,Karlsruher SC,0,4,A
+D2,25/10/2014,FC Kaiserslautern,Fortuna Dusseldorf,1,1,D
+D2,26/04/2015,Union Berlin,FC Ingolstadt 04,2,2,D
+D2,26/04/2015,FC Heidenheim,FC St. Pauli,2,1,H
+D2,26/04/2015,FSV Frankfurt,VfR Aalen,1,1,D
+D2,26/09/2014,Erzgebirge AUE,VfR Aalen,1,0,H
+D2,26/09/2014,Eintracht Braunschweig,SV Sandhausen,2,1,H
+D2,26/09/2014,TSV 1860 Munich,SpVgg Greuther Furth,2,0,H
+D2,26/10/2014,TSV 1860 Munich,Eintracht Braunschweig,1,2,A
+D2,26/10/2014,SV Sandhausen,Erzgebirge AUE,1,1,D
+D2,26/10/2014,FC Ingolstadt 04,FC Heidenheim,1,0,H
+D2,27/02/2015,SV Darmstadt 98,Eintracht Braunschweig,1,0,H
+D2,27/02/2015,Vfl Bochum,FSV Frankfurt,3,3,D
+D2,27/02/2015,FC Kaiserslautern,SpVgg Greuther Furth,2,1,H
+D2,27/04/2015,Eintracht Braunschweig,Erzgebirge AUE,4,2,H
+D2,27/09/2014,Union Berlin,SV Darmstadt 98,1,1,D
+D2,27/09/2014,Karlsruher SC,FC Ingolstadt 04,0,1,A
+D2,27/10/2014,SV Darmstadt 98,FC Nurnberg,3,0,H
+D2,28/02/2015,FC Nurnberg,Karlsruher SC,1,1,D
+D2,28/02/2015,SV Sandhausen,VfR Aalen,2,0,H
+D2,28/09/2014,FSV Frankfurt,FC St. Pauli,3,3,D
+D2,28/09/2014,Fortuna Dusseldorf,RB Leipzig,2,2,D
+D2,28/09/2014,FC Heidenheim,Vfl Bochum,5,0,H
+D2,28/11/2014,SV Darmstadt 98,Karlsruher SC,0,0,D
+D2,28/11/2014,SpVgg Greuther Furth,FC Heidenheim,0,0,D
+D2,28/11/2014,Erzgebirge AUE,Union Berlin,1,2,A
+D2,29/08/2014,FSV Frankfurt,RB Leipzig,0,0,D
+D2,29/08/2014,VfR Aalen,FC Kaiserslautern,2,2,D
+D2,29/08/2014,Union Berlin,FC Nurnberg,0,4,A
+D2,29/09/2014,FC Nurnberg,FC Kaiserslautern,3,2,H
+D2,29/11/2014,FC Ingolstadt 04,Vfl Bochum,3,0,H
+D2,29/11/2014,VfR Aalen,Fortuna Dusseldorf,2,0,H
+D2,30/08/2014,Erzgebirge AUE,Fortuna Dusseldorf,0,3,A
+D2,30/08/2014,Karlsruher SC,FC Heidenheim,1,1,D
+D2,30/11/2014,TSV 1860 Munich,FSV Frankfurt,0,2,A
+D2,30/11/2014,FC St. Pauli,FC Kaiserslautern,1,3,A
+D2,30/11/2014,SV Sandhausen,RB Leipzig,0,0,D
+D2,31/08/2014,SV Sandhausen,FC Ingolstadt 04,0,3,A
+D2,31/08/2014,Eintracht Braunschweig,Vfl Bochum,1,2,A
+D2,31/08/2014,TSV 1860 Munich,SV Darmstadt 98,1,1,D
+D2,31/10/2014,Fortuna Dusseldorf,FC Ingolstadt 04,0,0,D
+D2,31/10/2014,Union Berlin,SpVgg Greuther Furth,0,1,A
+D2,31/10/2014,Karlsruher SC,SV Sandhausen,1,1,D

@@ -1,0 +1,313 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+N1,01/02/2013,Waalwijk,Heerenveen,0,1,A
+N1,01/03/2013,Vitesse,Utrecht,2,0,H
+N1,01/09/2012,Waalwijk,Heracles,1,1,D
+N1,01/09/2012,NAC Breda,Utrecht,1,1,D
+N1,01/09/2012,PEC Zwolle,NEC Nijmegen,0,4,A
+N1,01/09/2012,Roda,Willem II,3,0,H
+N1,01/12/2012,Ajax,PSV Eindhoven,3,1,H
+N1,01/12/2012,Feyenoord,Waalwijk,2,0,H
+N1,01/12/2012,Willem II,Heerenveen,3,1,H
+N1,01/12/2012,Twente,ADO Den Haag,2,0,H
+N1,02/02/2013,Roda,Heracles,3,3,D
+N1,02/02/2013,AZ Alkmaar,Groningen,0,1,A
+N1,02/02/2013,PSV Eindhoven,ADO Den Haag,7,0,H
+N1,02/02/2013,NAC Breda,PEC Zwolle,3,0,H
+N1,02/03/2013,NAC Breda,Heerenveen,1,2,A
+N1,02/03/2013,Twente,Ajax,0,2,A
+N1,02/03/2013,PSV Eindhoven,VVV Venlo,2,0,H
+N1,02/03/2013,PEC Zwolle,Willem II,2,0,H
+N1,02/09/2012,Vitesse,Feyenoord,1,0,H
+N1,02/09/2012,Twente,VVV Venlo,1,0,H
+N1,02/09/2012,Heerenveen,Ajax,2,2,D
+N1,02/09/2012,PSV Eindhoven,AZ Alkmaar,5,1,H
+N1,02/11/2012,Roda,ADO Den Haag,0,0,D
+N1,02/12/2012,NEC Nijmegen,NAC Breda,1,1,D
+N1,02/12/2012,Utrecht,AZ Alkmaar,2,1,H
+N1,02/12/2012,Groningen,Heracles,2,0,H
+N1,02/12/2012,Vitesse,Roda,3,0,H
+N1,03/02/2013,Willem II,Feyenoord,1,3,A
+N1,03/02/2013,Twente,Utrecht,2,4,A
+N1,03/02/2013,VVV Venlo,Ajax,0,3,A
+N1,03/02/2013,NEC Nijmegen,Vitesse,2,1,H
+N1,03/03/2013,ADO Den Haag,Heracles,3,1,H
+N1,03/03/2013,Waalwijk,AZ Alkmaar,2,1,H
+N1,03/03/2013,Roda,Groningen,4,1,H
+N1,03/03/2013,NEC Nijmegen,Feyenoord,0,3,A
+N1,03/11/2012,Ajax,Vitesse,0,2,A
+N1,03/11/2012,PSV Eindhoven,Heracles,4,0,H
+N1,03/11/2012,Willem II,Utrecht,1,5,A
+N1,04/11/2012,AZ Alkmaar,VVV Venlo,1,2,A
+N1,04/11/2012,NAC Breda,Waalwijk,2,1,H
+N1,04/11/2012,Groningen,NEC Nijmegen,1,2,A
+N1,04/11/2012,Heerenveen,PEC Zwolle,2,1,H
+N1,04/11/2012,Twente,Feyenoord,3,0,H
+N1,05/04/2013,Feyenoord,VVV Venlo,1,0,H
+N1,05/05/2013,Ajax,Willem II,5,0,H
+N1,05/05/2013,PSV Eindhoven,NEC Nijmegen,4,2,H
+N1,05/05/2013,ADO Den Haag,Feyenoord,2,0,H
+N1,05/05/2013,AZ Alkmaar,PEC Zwolle,4,0,H
+N1,05/05/2013,NAC Breda,Roda,5,3,H
+N1,05/05/2013,VVV Venlo,Groningen,0,0,D
+N1,05/05/2013,Heracles,Twente,1,1,D
+N1,05/05/2013,Heerenveen,Utrecht,2,4,A
+N1,05/05/2013,Waalwijk,Vitesse,3,2,H
+N1,05/10/2012,NEC Nijmegen,ADO Den Haag,1,1,D
+N1,06/04/2013,Willem II,PSV Eindhoven,1,3,A
+N1,06/04/2013,Twente,Roda,2,0,H
+N1,06/04/2013,PEC Zwolle,Waalwijk,1,1,D
+N1,06/04/2013,Vitesse,NAC Breda,3,0,H
+N1,06/10/2012,Willem II,Waalwijk,1,0,H
+N1,06/10/2012,Vitesse,Heerenveen,3,3,D
+N1,06/10/2012,Roda,VVV Venlo,3,0,H
+N1,06/10/2012,PEC Zwolle,Heracles,0,3,A
+N1,07/04/2013,NEC Nijmegen,AZ Alkmaar,1,1,D
+N1,07/04/2013,Ajax,Heracles,4,0,H
+N1,07/04/2013,Utrecht,ADO Den Haag,1,0,H
+N1,07/04/2013,Groningen,Heerenveen,3,1,H
+N1,07/10/2012,Twente,AZ Alkmaar,3,0,H
+N1,07/10/2012,PSV Eindhoven,NAC Breda,4,0,H
+N1,07/10/2012,Groningen,Feyenoord,2,2,D
+N1,07/10/2012,Ajax,Utrecht,1,1,D
+N1,07/12/2012,Heracles,Utrecht,1,1,D
+N1,08/03/2013,Groningen,NAC Breda,1,1,D
+N1,08/12/2012,Waalwijk,NEC Nijmegen,2,0,H
+N1,08/12/2012,Ajax,Groningen,2,0,H
+N1,08/12/2012,AZ Alkmaar,Willem II,0,0,D
+N1,08/12/2012,ADO Den Haag,PEC Zwolle,1,1,D
+N1,09/02/2013,Vitesse,PSV Eindhoven,2,2,D
+N1,09/02/2013,Heerenveen,VVV Venlo,2,2,D
+N1,09/02/2013,Groningen,Waalwijk,2,1,H
+N1,09/02/2013,ADO Den Haag,NAC Breda,2,1,H
+N1,09/02/2013,Heracles,Willem II,4,1,H
+N1,09/03/2013,Willem II,VVV Venlo,1,0,H
+N1,09/03/2013,Heracles,NEC Nijmegen,1,0,H
+N1,09/03/2013,AZ Alkmaar,ADO Den Haag,1,1,D
+N1,09/03/2013,Heerenveen,PSV Eindhoven,2,1,H
+N1,09/11/2012,NAC Breda,Groningen,0,1,A
+N1,09/12/2012,NAC Breda,Feyenoord,2,2,D
+N1,09/12/2012,Heerenveen,Roda,4,4,D
+N1,09/12/2012,PSV Eindhoven,Twente,3,0,H
+N1,09/12/2012,VVV Venlo,Vitesse,3,1,H
+N1,10/02/2013,Feyenoord,AZ Alkmaar,3,1,H
+N1,10/02/2013,Ajax,Roda,1,1,D
+N1,10/02/2013,PEC Zwolle,Twente,1,1,D
+N1,10/02/2013,Utrecht,NEC Nijmegen,0,3,A
+N1,10/03/2013,Utrecht,Waalwijk,1,0,H
+N1,10/03/2013,Ajax,PEC Zwolle,3,0,H
+N1,10/03/2013,Roda,Feyenoord,0,1,A
+N1,10/03/2013,Twente,Vitesse,0,1,A
+N1,10/08/2012,Willem II,NAC Breda,1,1,D
+N1,10/11/2012,Waalwijk,Utrecht,4,0,H
+N1,10/11/2012,ADO Den Haag,AZ Alkmaar,2,2,D
+N1,10/11/2012,VVV Venlo,Willem II,4,1,H
+N1,10/11/2012,NEC Nijmegen,Heracles,3,2,H
+N1,11/08/2012,Heracles,VVV Venlo,1,1,D
+N1,11/08/2012,Waalwijk,PSV Eindhoven,3,2,H
+N1,11/08/2012,Roda,PEC Zwolle,1,1,D
+N1,11/11/2012,PSV Eindhoven,Heerenveen,5,1,H
+N1,11/11/2012,Vitesse,Twente,0,0,D
+N1,11/11/2012,PEC Zwolle,Ajax,2,4,A
+N1,11/11/2012,Feyenoord,Roda,5,2,H
+N1,12/04/2013,VVV Venlo,PEC Zwolle,0,2,A
+N1,12/05/2013,Willem II,AZ Alkmaar,2,0,H
+N1,12/05/2013,PEC Zwolle,ADO Den Haag,4,2,H
+N1,12/05/2013,Groningen,Ajax,0,2,A
+N1,12/05/2013,Utrecht,Heracles,3,0,H
+N1,12/05/2013,Feyenoord,NAC Breda,1,0,H
+N1,12/05/2013,Roda,Heerenveen,1,0,H
+N1,12/05/2013,Twente,PSV Eindhoven,3,1,H
+N1,12/05/2013,Vitesse,VVV Venlo,0,1,A
+N1,12/05/2013,NEC Nijmegen,Waalwijk,1,2,A
+N1,12/08/2012,Ajax,AZ Alkmaar,2,2,D
+N1,12/08/2012,Twente,Groningen,4,1,H
+N1,12/08/2012,Heerenveen,NEC Nijmegen,0,2,A
+N1,12/08/2012,Vitesse,ADO Den Haag,2,2,D
+N1,12/08/2012,Utrecht,Feyenoord,0,1,A
+N1,13/04/2013,Roda,Vitesse,3,3,D
+N1,13/04/2013,Heracles,Groningen,0,2,A
+N1,13/04/2013,ADO Den Haag,Twente,1,3,A
+N1,13/04/2013,NAC Breda,NEC Nijmegen,2,0,H
+N1,14/04/2013,PSV Eindhoven,Ajax,2,3,A
+N1,14/04/2013,Heerenveen,Willem II,3,2,H
+N1,14/04/2013,AZ Alkmaar,Utrecht,6,0,H
+N1,14/04/2013,Waalwijk,Feyenoord,1,1,D
+N1,14/12/2012,Twente,Heracles,3,2,H
+N1,15/02/2013,NEC Nijmegen,VVV Venlo,1,2,A
+N1,15/03/2013,PEC Zwolle,Roda,3,2,H
+N1,15/09/2012,Ajax,Waalwijk,2,0,H
+N1,15/09/2012,Heerenveen,ADO Den Haag,1,3,A
+N1,15/09/2012,Willem II,Twente,2,6,A
+N1,15/09/2012,VVV Venlo,NEC Nijmegen,2,2,D
+N1,15/09/2012,Feyenoord,PEC Zwolle,2,0,H
+N1,15/12/2012,Roda,NAC Breda,0,0,D
+N1,15/12/2012,PEC Zwolle,AZ Alkmaar,1,2,A
+N1,15/12/2012,Groningen,VVV Venlo,0,0,D
+N1,15/12/2012,NEC Nijmegen,PSV Eindhoven,1,1,D
+N1,16/02/2013,Twente,Willem II,1,1,D
+N1,16/02/2013,NAC Breda,Heracles,1,1,D
+N1,16/02/2013,Roda,AZ Alkmaar,2,2,D
+N1,16/02/2013,PSV Eindhoven,Utrecht,2,1,H
+N1,16/03/2013,ADO Den Haag,Vitesse,0,4,A
+N1,16/03/2013,PSV Eindhoven,Waalwijk,2,0,H
+N1,16/03/2013,VVV Venlo,Heracles,0,2,A
+N1,16/03/2013,NEC Nijmegen,Heerenveen,1,3,A
+N1,16/05/2013,Groningen,Twente,0,1,A
+N1,16/05/2013,Heerenveen,Utrecht,0,1,A
+N1,16/09/2012,Heracles,NAC Breda,2,1,H
+N1,16/09/2012,Groningen,Vitesse,0,3,A
+N1,16/09/2012,Utrecht,PSV Eindhoven,1,0,H
+N1,16/09/2012,AZ Alkmaar,Roda,4,0,H
+N1,16/12/2012,Feyenoord,ADO Den Haag,3,2,H
+N1,16/12/2012,Vitesse,Waalwijk,2,2,D
+N1,16/12/2012,Utrecht,Heerenveen,3,1,H
+N1,16/12/2012,Willem II,Ajax,2,4,A
+N1,17/02/2013,Vitesse,Groningen,2,0,H
+N1,17/02/2013,PEC Zwolle,Feyenoord,3,2,H
+N1,17/02/2013,ADO Den Haag,Heerenveen,2,1,H
+N1,17/02/2013,Waalwijk,Ajax,0,2,A
+N1,17/03/2013,NAC Breda,Willem II,4,0,H
+N1,17/03/2013,Groningen,Twente,0,3,A
+N1,17/03/2013,AZ Alkmaar,Ajax,2,3,A
+N1,17/03/2013,Feyenoord,Utrecht,2,1,H
+N1,17/11/2012,Groningen,AZ Alkmaar,1,1,D
+N1,17/11/2012,Ajax,VVV Venlo,2,0,H
+N1,17/11/2012,ADO Den Haag,PSV Eindhoven,1,6,A
+N1,17/11/2012,PEC Zwolle,NAC Breda,2,0,H
+N1,17/11/2012,Heerenveen,Waalwijk,0,2,A
+N1,18/01/2013,PSV Eindhoven,PEC Zwolle,1,3,A
+N1,18/08/2012,NAC Breda,Twente,0,1,A
+N1,18/08/2012,PEC Zwolle,Vitesse,0,1,A
+N1,18/08/2012,PSV Eindhoven,Roda,5,0,H
+N1,18/08/2012,Feyenoord,Heerenveen,1,1,D
+N1,18/08/2012,VVV Venlo,Utrecht,1,3,A
+N1,18/11/2012,Vitesse,NEC Nijmegen,4,1,H
+N1,18/11/2012,Utrecht,Twente,1,1,D
+N1,18/11/2012,Heracles,Roda,5,1,H
+N1,18/11/2012,Feyenoord,Willem II,3,0,H
+N1,19/01/2013,Heerenveen,Heracles,0,1,A
+N1,19/01/2013,NAC Breda,VVV Venlo,1,0,H
+N1,19/01/2013,Twente,Waalwijk,0,0,D
+N1,19/01/2013,AZ Alkmaar,Vitesse,4,1,H
+N1,19/04/2013,Ajax,Heerenveen,1,1,D
+N1,19/05/2013,Twente,Groningen,3,2,H
+N1,19/05/2013,Utrecht,Heerenveen,2,1,H
+N1,19/08/2012,ADO Den Haag,Waalwijk,2,2,D
+N1,19/08/2012,NEC Nijmegen,Ajax,1,6,A
+N1,19/08/2012,Groningen,Willem II,1,1,D
+N1,19/08/2012,AZ Alkmaar,Heracles,3,1,H
+N1,20/01/2013,Roda,NEC Nijmegen,2,0,H
+N1,20/01/2013,Willem II,ADO Den Haag,1,1,D
+N1,20/01/2013,Ajax,Feyenoord,3,0,H
+N1,20/01/2013,Groningen,Utrecht,0,2,A
+N1,20/04/2013,AZ Alkmaar,PSV Eindhoven,1,3,A
+N1,20/04/2013,Heracles,Waalwijk,4,0,H
+N1,20/04/2013,Willem II,Roda,2,1,H
+N1,20/04/2013,Groningen,ADO Den Haag,2,1,H
+N1,20/10/2012,PSV Eindhoven,Willem II,3,2,H
+N1,20/10/2012,AZ Alkmaar,NEC Nijmegen,0,2,A
+N1,20/10/2012,Roda,Twente,1,1,D
+N1,20/10/2012,NAC Breda,Vitesse,0,3,A
+N1,20/10/2012,Heracles,Ajax,3,3,D
+N1,21/04/2013,NEC Nijmegen,PEC Zwolle,1,3,A
+N1,21/04/2013,Utrecht,NAC Breda,3,0,H
+N1,21/04/2013,VVV Venlo,Twente,2,2,D
+N1,21/04/2013,Feyenoord,Vitesse,2,0,H
+N1,21/09/2012,Roda,Utrecht,0,1,A
+N1,21/10/2012,Waalwijk,PEC Zwolle,1,2,A
+N1,21/10/2012,VVV Venlo,Feyenoord,2,3,A
+N1,21/10/2012,ADO Den Haag,Utrecht,1,2,A
+N1,21/10/2012,Heerenveen,Groningen,3,0,H
+N1,21/12/2012,AZ Alkmaar,Twente,0,3,A
+N1,22/02/2013,Willem II,NEC Nijmegen,2,3,A
+N1,22/09/2012,Waalwijk,VVV Venlo,1,1,D
+N1,22/09/2012,Vitesse,Heracles,1,1,D
+N1,22/09/2012,PEC Zwolle,Groningen,1,2,A
+N1,22/09/2012,NEC Nijmegen,Willem II,0,0,D
+N1,22/12/2012,ADO Den Haag,NEC Nijmegen,2,0,H
+N1,22/12/2012,NAC Breda,PSV Eindhoven,1,6,A
+N1,22/12/2012,Heracles,PEC Zwolle,1,1,D
+N1,22/12/2012,Heerenveen,Vitesse,2,1,H
+N1,23/02/2013,Heerenveen,Twente,2,1,H
+N1,23/02/2013,VVV Venlo,Waalwijk,1,0,H
+N1,23/02/2013,Groningen,PEC Zwolle,1,0,H
+N1,23/02/2013,Heracles,Vitesse,3,5,A
+N1,23/05/2013,Twente,Utrecht,0,2,A
+N1,23/09/2012,PSV Eindhoven,Feyenoord,3,0,H
+N1,23/09/2012,ADO Den Haag,Ajax,1,1,D
+N1,23/09/2012,NAC Breda,AZ Alkmaar,2,1,H
+N1,23/09/2012,Twente,Heerenveen,1,0,H
+N1,23/11/2012,NAC Breda,ADO Den Haag,0,3,A
+N1,23/12/2012,VVV Venlo,Roda,2,4,A
+N1,23/12/2012,Utrecht,Ajax,0,0,D
+N1,23/12/2012,Waalwijk,Willem II,0,0,D
+N1,23/12/2012,Feyenoord,Groningen,2,1,H
+N1,24/02/2013,AZ Alkmaar,NAC Breda,0,1,A
+N1,24/02/2013,Utrecht,Roda,4,0,H
+N1,24/02/2013,Feyenoord,PSV Eindhoven,2,1,H
+N1,24/02/2013,Ajax,ADO Den Haag,1,1,D
+N1,24/08/2012,Waalwijk,Roda,1,0,H
+N1,24/11/2012,NEC Nijmegen,Utrecht,2,0,H
+N1,24/11/2012,VVV Venlo,Heerenveen,1,1,D
+N1,24/11/2012,Waalwijk,Groningen,1,1,D
+N1,24/11/2012,Willem II,Heracles,2,2,D
+N1,25/01/2013,VVV Venlo,AZ Alkmaar,1,4,A
+N1,25/08/2012,Utrecht,PEC Zwolle,1,1,D
+N1,25/08/2012,VVV Venlo,ADO Den Haag,2,4,A
+N1,25/08/2012,Ajax,NAC Breda,5,0,H
+N1,25/11/2012,Roda,Ajax,1,2,A
+N1,25/11/2012,PSV Eindhoven,Vitesse,1,2,A
+N1,25/11/2012,AZ Alkmaar,Feyenoord,0,2,A
+N1,25/11/2012,Twente,PEC Zwolle,2,2,D
+N1,26/01/2013,Heracles,PSV Eindhoven,1,5,A
+N1,26/01/2013,ADO Den Haag,Roda,2,2,D
+N1,26/01/2013,Waalwijk,NAC Breda,0,4,A
+N1,26/01/2013,PEC Zwolle,Heerenveen,1,1,D
+N1,26/04/2013,Heerenveen,AZ Alkmaar,0,4,A
+N1,26/05/2013,Utrecht,Twente,1,2,A
+N1,26/08/2012,Groningen,PSV Eindhoven,1,3,A
+N1,26/08/2012,Heracles,Feyenoord,1,2,A
+N1,26/08/2012,Willem II,Vitesse,0,2,A
+N1,26/08/2012,AZ Alkmaar,Heerenveen,0,0,D
+N1,26/08/2012,NEC Nijmegen,Twente,1,3,A
+N1,26/10/2012,Utrecht,Groningen,1,0,H
+N1,27/01/2013,NEC Nijmegen,Groningen,2,1,H
+N1,27/01/2013,Feyenoord,Twente,0,0,D
+N1,27/01/2013,Vitesse,Ajax,3,2,H
+N1,27/01/2013,Utrecht,Willem II,3,1,H
+N1,27/04/2013,PSV Eindhoven,Groningen,5,2,H
+N1,27/04/2013,ADO Den Haag,VVV Venlo,1,1,D
+N1,27/04/2013,Roda,Waalwijk,3,1,H
+N1,27/04/2013,NAC Breda,Ajax,0,2,A
+N1,27/10/2012,VVV Venlo,NAC Breda,1,4,A
+N1,27/10/2012,NEC Nijmegen,Roda,0,0,D
+N1,27/10/2012,ADO Den Haag,Willem II,2,0,H
+N1,28/04/2013,Vitesse,Willem II,3,1,H
+N1,28/04/2013,Feyenoord,Heracles,6,0,H
+N1,28/04/2013,PEC Zwolle,Utrecht,1,2,A
+N1,28/04/2013,Twente,NEC Nijmegen,5,2,H
+N1,28/10/2012,Vitesse,AZ Alkmaar,1,2,A
+N1,28/10/2012,Heracles,Heerenveen,6,3,H
+N1,28/10/2012,PEC Zwolle,PSV Eindhoven,1,2,A
+N1,28/10/2012,Feyenoord,Ajax,2,2,D
+N1,28/10/2012,Waalwijk,Twente,0,1,A
+N1,29/09/2012,Heerenveen,NAC Breda,2,0,H
+N1,29/09/2012,Ajax,Twente,1,0,H
+N1,29/09/2012,Feyenoord,NEC Nijmegen,5,1,H
+N1,29/09/2012,Utrecht,Vitesse,1,2,A
+N1,29/09/2012,Heracles,ADO Den Haag,3,3,D
+N1,30/03/2013,Utrecht,VVV Venlo,2,1,H
+N1,30/03/2013,Willem II,Groningen,1,2,A
+N1,30/03/2013,Twente,NAC Breda,1,1,D
+N1,30/03/2013,Heerenveen,Feyenoord,2,0,H
+N1,30/09/2012,Willem II,PEC Zwolle,0,1,A
+N1,30/09/2012,Groningen,Roda,3,2,H
+N1,30/09/2012,AZ Alkmaar,Waalwijk,3,3,D
+N1,30/09/2012,VVV Venlo,PSV Eindhoven,0,6,A
+N1,30/11/2012,PEC Zwolle,VVV Venlo,0,0,D
+N1,31/03/2013,Ajax,NEC Nijmegen,4,1,H
+N1,31/03/2013,Waalwijk,ADO Den Haag,4,0,H
+N1,31/03/2013,Heracles,AZ Alkmaar,1,2,A
+N1,31/03/2013,Vitesse,PEC Zwolle,2,1,H
+N1,31/03/2013,Roda,PSV Eindhoven,2,2,D
+N1,31/08/2012,ADO Den Haag,Groningen,0,1,A

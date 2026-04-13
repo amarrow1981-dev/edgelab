@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP1,01/02/2024,Getafe,Real Madrid,0,2,A
+SP1,01/03/2024,Celta Vigo,Almeria,1,0,H
+SP1,01/04/2024,Villarreal,Atletico Madrid,1,2,A
+SP1,01/09/2023,Cadiz,Villarreal,3,1,H
+SP1,01/09/2023,Almeria,Celta Vigo,2,3,A
+SP1,01/10/2023,Alaves,Osasuna,0,2,A
+SP1,01/10/2023,Atletico Madrid,Cadiz,3,2,H
+SP1,01/10/2023,Real Betis,Valencia,3,0,H
+SP1,01/10/2023,Almeria,Granada CF,3,3,D
+SP1,01/12/2023,Las Palmas,Getafe,2,0,H
+SP1,02/01/2024,Real Sociedad,Alaves,1,1,D
+SP1,02/01/2024,Valencia,Villarreal,3,1,H
+SP1,02/01/2024,Getafe,Rayo Vallecano,0,2,A
+SP1,02/02/2024,Athletic Club,Mallorca,4,0,H
+SP1,02/03/2024,Getafe,Las Palmas,3,3,D
+SP1,02/03/2024,Rayo Vallecano,Cadiz,1,1,D
+SP1,02/03/2024,Sevilla,Real Sociedad,3,2,H
+SP1,02/03/2024,Valencia,Real Madrid,2,2,D
+SP1,02/09/2023,Alaves,Valencia,1,0,H
+SP1,02/09/2023,Real Madrid,Getafe,2,1,H
+SP1,02/09/2023,Real Sociedad,Granada CF,5,3,H
+SP1,02/09/2023,Real Betis,Rayo Vallecano,1,0,H
+SP1,02/10/2023,Las Palmas,Celta Vigo,2,1,H
+SP1,02/12/2023,Osasuna,Real Sociedad,1,1,D
+SP1,02/12/2023,Real Madrid,Granada CF,2,0,H
+SP1,02/12/2023,Athletic Club,Rayo Vallecano,4,0,H
+SP1,02/12/2023,Girona,Valencia,2,1,H
+SP1,03/01/2024,Celta Vigo,Real Betis,2,1,H
+SP1,03/01/2024,Real Madrid,Mallorca,1,0,H
+SP1,03/01/2024,Granada CF,Cadiz,2,0,H
+SP1,03/01/2024,Girona,Atletico Madrid,4,3,H
+SP1,03/02/2024,Granada CF,Las Palmas,1,1,D
+SP1,03/02/2024,Alaves,Barcelona,1,3,A
+SP1,03/02/2024,Girona,Real Sociedad,0,0,D
+SP1,03/02/2024,Valencia,Almeria,2,1,H
+SP1,03/03/2024,Villarreal,Granada CF,5,1,H
+SP1,03/03/2024,Athletic Club,Barcelona,0,0,D
+SP1,03/03/2024,Mallorca,Girona,1,0,H
+SP1,03/03/2024,Atletico Madrid,Real Betis,2,1,H
+SP1,03/05/2024,Getafe,Athletic Club,0,2,A
+SP1,03/09/2023,Mallorca,Athletic Club,0,0,D
+SP1,03/09/2023,Girona,Las Palmas,1,0,H
+SP1,03/09/2023,Osasuna,Barcelona,1,2,A
+SP1,03/11/2023,Las Palmas,Atletico Madrid,2,1,H
+SP1,03/12/2023,Barcelona,Atletico Madrid,1,0,H
+SP1,03/12/2023,Sevilla,Villarreal,1,1,D
+SP1,03/12/2023,Almeria,Real Betis,0,0,D
+SP1,03/12/2023,Mallorca,Alaves,0,0,D
+SP1,04/01/2024,Las Palmas,Barcelona,1,2,A
+SP1,04/01/2024,Sevilla,Athletic Club,0,2,A
+SP1,04/01/2024,Osasuna,Almeria,1,0,H
+SP1,04/02/2024,Villarreal,Cadiz,0,0,D
+SP1,04/02/2024,Real Betis,Getafe,1,1,D
+SP1,04/02/2024,Real Madrid,Atletico Madrid,1,1,D
+SP1,04/02/2024,Osasuna,Celta Vigo,0,3,A
+SP1,04/03/2024,Osasuna,Alaves,1,0,H
+SP1,04/04/2024,Granada CF,Valencia,0,1,A
+SP1,04/05/2024,Real Madrid,Cadiz,3,0,H
+SP1,04/05/2024,Real Sociedad,Las Palmas,2,0,H
+SP1,04/05/2024,Mallorca,Atletico Madrid,0,1,A
+SP1,04/05/2024,Girona,Barcelona,4,2,H
+SP1,04/11/2023,Real Sociedad,Barcelona,0,1,A
+SP1,04/11/2023,Celta Vigo,Sevilla,1,1,D
+SP1,04/11/2023,Real Betis,Mallorca,2,0,H
+SP1,04/11/2023,Osasuna,Girona,2,4,A
+SP1,04/12/2023,Celta Vigo,Cadiz,1,1,D
+SP1,05/02/2024,Rayo Vallecano,Sevilla,1,2,A
+SP1,05/05/2024,Celta Vigo,Villarreal,3,2,H
+SP1,05/05/2024,Osasuna,Real Betis,0,2,A
+SP1,05/05/2024,Valencia,Alaves,0,1,A
+SP1,05/05/2024,Sevilla,Granada CF,3,0,H
+SP1,05/05/2024,Rayo Vallecano,Almeria,0,1,A
+SP1,05/11/2023,Alaves,Almeria,1,0,H
+SP1,05/11/2023,Valencia,Granada CF,1,0,H
+SP1,05/11/2023,Villarreal,Athletic Club,2,3,A
+SP1,05/11/2023,Real Madrid,Rayo Vallecano,0,0,D
+SP1,06/10/2023,Athletic Club,Almeria,3,0,H
+SP1,06/11/2023,Getafe,Cadiz,1,0,H
+SP1,07/10/2023,Cadiz,Girona,0,1,A
+SP1,07/10/2023,Real Madrid,Osasuna,4,0,H
+SP1,07/10/2023,Mallorca,Valencia,1,1,D
+SP1,07/10/2023,Sevilla,Rayo Vallecano,2,2,D
+SP1,08/03/2024,Barcelona,Mallorca,1,0,H
+SP1,08/10/2023,Celta Vigo,Getafe,2,2,D
+SP1,08/10/2023,Atletico Madrid,Real Sociedad,2,1,H
+SP1,08/10/2023,Alaves,Real Betis,1,1,D
+SP1,08/10/2023,Villarreal,Las Palmas,1,2,A
+SP1,08/10/2023,Granada CF,Barcelona,2,2,D
+SP1,08/12/2023,Getafe,Valencia,1,0,H
+SP1,09/02/2024,Cadiz,Real Betis,0,2,A
+SP1,09/03/2024,Cadiz,Atletico Madrid,2,0,H
+SP1,09/03/2024,Granada CF,Real Sociedad,2,3,A
+SP1,09/03/2024,Girona,Osasuna,2,0,H
+SP1,09/03/2024,Valencia,Getafe,1,0,H
+SP1,09/12/2023,Mallorca,Sevilla,1,0,H
+SP1,09/12/2023,Villarreal,Real Sociedad,0,3,A
+SP1,09/12/2023,Real Betis,Real Madrid,1,1,D
+SP1,09/12/2023,Alaves,Las Palmas,0,1,A
+SP1,10/02/2024,Real Madrid,Girona,4,0,H
+SP1,10/02/2024,Real Sociedad,Osasuna,0,1,A
+SP1,10/02/2024,Alaves,Villarreal,1,1,D
+SP1,10/02/2024,Las Palmas,Valencia,2,0,H
+SP1,10/03/2024,Real Madrid,Celta Vigo,4,0,H
+SP1,10/03/2024,Las Palmas,Athletic Club,0,2,A
+SP1,10/03/2024,Alaves,Rayo Vallecano,1,0,H
+SP1,10/03/2024,Real Betis,Villarreal,2,3,A
+SP1,10/05/2024,Alaves,Girona,2,2,D
+SP1,10/11/2023,Athletic Club,Celta Vigo,4,3,H
+SP1,10/12/2023,Atletico Madrid,Almeria,2,1,H
+SP1,10/12/2023,Cadiz,Osasuna,1,1,D
+SP1,10/12/2023,Barcelona,Girona,2,4,A
+SP1,11/02/2024,Barcelona,Granada CF,3,3,D
+SP1,11/02/2024,Sevilla,Atletico Madrid,1,0,H
+SP1,11/02/2024,Mallorca,Rayo Vallecano,2,1,H
+SP1,11/02/2024,Getafe,Celta Vigo,3,2,H
+SP1,11/03/2024,Almeria,Sevilla,2,2,D
+SP1,11/05/2024,Granada CF,Real Madrid,0,4,A
+SP1,11/05/2024,Athletic Club,Osasuna,2,2,D
+SP1,11/05/2024,Mallorca,Las Palmas,1,0,H
+SP1,11/05/2024,Villarreal,Sevilla,3,2,H
+SP1,11/08/2023,Almeria,Rayo Vallecano,0,2,A
+SP1,11/08/2023,Sevilla,Valencia,1,2,A
+SP1,11/11/2023,Almeria,Real Sociedad,1,3,A
+SP1,11/11/2023,Granada CF,Getafe,1,1,D
+SP1,11/11/2023,Osasuna,Las Palmas,1,1,D
+SP1,11/11/2023,Real Madrid,Valencia,5,1,H
+SP1,11/11/2023,Rayo Vallecano,Girona,1,2,A
+SP1,11/12/2023,Rayo Vallecano,Celta Vigo,0,0,D
+SP1,11/12/2023,Granada CF,Athletic Club,1,1,D
+SP1,12/01/2024,Sevilla,Alaves,2,3,A
+SP1,12/02/2024,Almeria,Athletic Club,0,0,D
+SP1,12/04/2024,Real Betis,Celta Vigo,2,1,H
+SP1,12/05/2024,Valencia,Rayo Vallecano,0,0,D
+SP1,12/05/2024,Atletico Madrid,Celta Vigo,1,0,H
+SP1,12/05/2024,Cadiz,Getafe,1,0,H
+SP1,12/05/2024,Real Betis,Almeria,3,2,H
+SP1,12/08/2023,Real Sociedad,Girona,1,1,D
+SP1,12/08/2023,Athletic Club,Real Madrid,0,2,A
+SP1,12/08/2023,Las Palmas,Mallorca,1,1,D
+SP1,12/11/2023,Barcelona,Alaves,2,1,H
+SP1,12/11/2023,Sevilla,Real Betis,1,1,D
+SP1,12/11/2023,Atletico Madrid,Villarreal,3,1,H
+SP1,13/01/2024,Real Betis,Granada CF,1,0,H
+SP1,13/01/2024,Athletic Club,Real Sociedad,2,1,H
+SP1,13/01/2024,Mallorca,Celta Vigo,1,1,D
+SP1,13/01/2024,Las Palmas,Villarreal,3,0,H
+SP1,13/04/2024,Atletico Madrid,Girona,3,1,H
+SP1,13/04/2024,Cadiz,Barcelona,0,1,A
+SP1,13/04/2024,Mallorca,Real Madrid,0,1,A
+SP1,13/04/2024,Rayo Vallecano,Getafe,0,0,D
+SP1,13/05/2024,Barcelona,Real Sociedad,2,0,H
+SP1,13/08/2023,Getafe,Barcelona,0,0,D
+SP1,13/08/2023,Celta Vigo,Osasuna,0,2,A
+SP1,13/08/2023,Villarreal,Real Betis,1,2,A
+SP1,14/01/2024,Almeria,Girona,0,0,D
+SP1,14/01/2024,Cadiz,Valencia,1,4,A
+SP1,14/04/2024,Real Sociedad,Almeria,2,2,D
+SP1,14/04/2024,Athletic Club,Villarreal,1,1,D
+SP1,14/04/2024,Granada CF,Alaves,2,0,H
+SP1,14/04/2024,Las Palmas,Sevilla,0,2,A
+SP1,14/05/2024,Osasuna,Mallorca,1,1,D
+SP1,14/05/2024,Girona,Villarreal,0,1,A
+SP1,14/05/2024,Real Madrid,Alaves,5,0,H
+SP1,14/08/2023,Cadiz,Alaves,1,0,H
+SP1,14/08/2023,Atletico Madrid,Granada CF,3,1,H
+SP1,15/03/2024,Real Sociedad,Cadiz,2,0,H
+SP1,15/04/2024,Osasuna,Valencia,0,1,A
+SP1,15/05/2024,Getafe,Atletico Madrid,0,3,A
+SP1,15/05/2024,Celta Vigo,Athletic Club,2,1,H
+SP1,15/05/2024,Rayo Vallecano,Granada CF,2,1,H
+SP1,15/05/2024,Sevilla,Cadiz,0,1,A
+SP1,15/09/2023,Rayo Vallecano,Alaves,2,0,H
+SP1,15/12/2023,Osasuna,Rayo Vallecano,1,0,H
+SP1,16/02/2024,Villarreal,Getafe,1,1,D
+SP1,16/03/2024,Mallorca,Granada CF,1,0,H
+SP1,16/03/2024,Osasuna,Real Madrid,2,4,A
+SP1,16/03/2024,Getafe,Girona,1,0,H
+SP1,16/03/2024,Athletic Club,Alaves,2,0,H
+SP1,16/05/2024,Real Sociedad,Valencia,1,0,H
+SP1,16/05/2024,Almeria,Barcelona,0,2,A
+SP1,16/05/2024,Las Palmas,Real Betis,2,2,D
+SP1,16/09/2023,Barcelona,Real Betis,5,0,H
+SP1,16/09/2023,Celta Vigo,Mallorca,0,1,A
+SP1,16/09/2023,Valencia,Atletico Madrid,3,0,H
+SP1,16/09/2023,Athletic Club,Cadiz,3,0,H
+SP1,16/12/2023,Celta Vigo,Granada CF,1,0,H
+SP1,16/12/2023,Athletic Club,Atletico Madrid,2,0,H
+SP1,16/12/2023,Sevilla,Getafe,0,3,A
+SP1,16/12/2023,Valencia,Barcelona,1,1,D
+SP1,17/02/2024,Atletico Madrid,Las Palmas,5,0,H
+SP1,17/02/2024,Osasuna,Cadiz,2,0,H
+SP1,17/02/2024,Celta Vigo,Barcelona,1,2,A
+SP1,17/02/2024,Valencia,Sevilla,0,0,D
+SP1,17/03/2024,Las Palmas,Almeria,0,1,A
+SP1,17/03/2024,Villarreal,Valencia,1,0,H
+SP1,17/03/2024,Atletico Madrid,Barcelona,0,3,A
+SP1,17/03/2024,Sevilla,Celta Vigo,1,2,A
+SP1,17/03/2024,Rayo Vallecano,Real Betis,2,0,H
+SP1,17/09/2023,Villarreal,Almeria,2,1,H
+SP1,17/09/2023,Sevilla,Las Palmas,1,0,H
+SP1,17/09/2023,Real Madrid,Real Sociedad,2,1,H
+SP1,17/09/2023,Getafe,Osasuna,3,2,H
+SP1,17/12/2023,Las Palmas,Cadiz,1,1,D
+SP1,17/12/2023,Almeria,Mallorca,0,0,D
+SP1,17/12/2023,Real Madrid,Villarreal,4,1,H
+SP1,17/12/2023,Real Sociedad,Real Betis,0,0,D
+SP1,18/02/2024,Rayo Vallecano,Real Madrid,1,1,D
+SP1,18/02/2024,Granada CF,Almeria,1,1,D
+SP1,18/02/2024,Mallorca,Real Sociedad,1,2,A
+SP1,18/02/2024,Real Betis,Alaves,0,0,D
+SP1,18/05/2024,Alaves,Getafe,1,0,H
+SP1,18/08/2023,Mallorca,Villarreal,0,1,A
+SP1,18/08/2023,Valencia,Las Palmas,1,0,H
+SP1,18/09/2023,Granada CF,Girona,2,4,A
+SP1,18/12/2023,Girona,Alaves,3,0,H
+SP1,19/01/2024,Alaves,Cadiz,1,0,H
+SP1,19/02/2024,Athletic Club,Girona,3,2,H
+SP1,19/04/2024,Athletic Club,Granada CF,1,1,D
+SP1,19/05/2024,Atletico Madrid,Osasuna,1,4,A
+SP1,19/05/2024,Athletic Club,Sevilla,2,0,H
+SP1,19/05/2024,Mallorca,Almeria,2,2,D
+SP1,19/05/2024,Villarreal,Real Madrid,4,4,D
+SP1,19/05/2024,Real Betis,Real Sociedad,0,2,A
+SP1,19/05/2024,Granada CF,Celta Vigo,1,2,A
+SP1,19/05/2024,Barcelona,Rayo Vallecano,3,0,H
+SP1,19/05/2024,Valencia,Girona,1,3,A
+SP1,19/05/2024,Cadiz,Las Palmas,0,0,D
+SP1,19/08/2023,Osasuna,Athletic Club,0,2,A
+SP1,19/08/2023,Almeria,Real Madrid,1,3,A
+SP1,19/08/2023,Real Sociedad,Celta Vigo,1,1,D
+SP1,19/12/2023,Rayo Vallecano,Valencia,0,1,A
+SP1,19/12/2023,Atletico Madrid,Getafe,3,3,D
+SP1,19/12/2023,Granada CF,Sevilla,0,3,A
+SP1,20/01/2024,Celta Vigo,Real Sociedad,0,1,A
+SP1,20/01/2024,Rayo Vallecano,Las Palmas,0,2,A
+SP1,20/01/2024,Villarreal,Mallorca,1,1,D
+SP1,20/01/2024,Valencia,Athletic Club,1,0,H
+SP1,20/04/2024,Celta Vigo,Las Palmas,4,1,H
+SP1,20/04/2024,Rayo Vallecano,Osasuna,2,1,H
+SP1,20/04/2024,Valencia,Real Betis,1,2,A
+SP1,20/04/2024,Girona,Cadiz,4,1,H
+SP1,20/08/2023,Girona,Getafe,3,0,H
+SP1,20/08/2023,Real Betis,Atletico Madrid,0,0,D
+SP1,20/08/2023,Barcelona,Cadiz,2,0,H
+SP1,20/10/2023,Osasuna,Granada CF,2,0,H
+SP1,20/12/2023,Athletic Club,Las Palmas,1,0,H
+SP1,20/12/2023,Villarreal,Celta Vigo,3,2,H
+SP1,20/12/2023,Barcelona,Almeria,3,2,H
+SP1,21/01/2024,Real Madrid,Almeria,3,2,H
+SP1,21/01/2024,Osasuna,Getafe,3,2,H
+SP1,21/01/2024,Real Betis,Barcelona,2,4,A
+SP1,21/01/2024,Girona,Sevilla,5,1,H
+SP1,21/04/2024,Getafe,Real Sociedad,1,1,D
+SP1,21/04/2024,Almeria,Villarreal,1,2,A
+SP1,21/04/2024,Alaves,Atletico Madrid,2,0,H
+SP1,21/04/2024,Real Madrid,Barcelona,3,2,H
+SP1,21/08/2023,Granada CF,Rayo Vallecano,0,2,A
+SP1,21/08/2023,Alaves,Sevilla,4,3,H
+SP1,21/10/2023,Sevilla,Real Madrid,1,1,D
+SP1,21/10/2023,Real Sociedad,Mallorca,1,0,H
+SP1,21/10/2023,Celta Vigo,Atletico Madrid,0,3,A
+SP1,21/10/2023,Getafe,Real Betis,1,1,D
+SP1,21/12/2023,Mallorca,Osasuna,3,2,H
+SP1,21/12/2023,Alaves,Real Madrid,0,1,A
+SP1,21/12/2023,Cadiz,Real Sociedad,0,0,D
+SP1,21/12/2023,Real Betis,Girona,1,1,D
+SP1,22/01/2024,Granada CF,Atletico Madrid,0,1,A
+SP1,22/04/2024,Sevilla,Mallorca,2,1,H
+SP1,22/09/2023,Alaves,Athletic Club,0,2,A
+SP1,22/10/2023,Barcelona,Athletic Club,1,0,H
+SP1,22/10/2023,Villarreal,Alaves,1,1,D
+SP1,22/10/2023,Girona,Almeria,5,2,H
+SP1,22/10/2023,Las Palmas,Rayo Vallecano,0,1,A
+SP1,23/02/2024,Real Sociedad,Villarreal,1,3,A
+SP1,23/09/2023,Almeria,Valencia,2,2,D
+SP1,23/09/2023,Barcelona,Celta Vigo,3,2,H
+SP1,23/09/2023,Osasuna,Sevilla,0,0,D
+SP1,23/09/2023,Girona,Mallorca,5,3,H
+SP1,23/10/2023,Valencia,Cadiz,2,0,H
+SP1,23/12/2023,Atletico Madrid,Sevilla,1,0,H
+SP1,24/02/2024,Barcelona,Getafe,4,0,H
+SP1,24/02/2024,Alaves,Mallorca,1,1,D
+SP1,24/02/2024,Almeria,Atletico Madrid,2,2,D
+SP1,24/05/2024,Girona,Granada CF,7,0,H
+SP1,24/09/2023,Real Sociedad,Getafe,4,3,H
+SP1,24/09/2023,Real Betis,Cadiz,1,1,D
+SP1,24/09/2023,Rayo Vallecano,Villarreal,1,1,D
+SP1,24/09/2023,Las Palmas,Granada CF,1,0,H
+SP1,24/09/2023,Atletico Madrid,Real Madrid,3,1,H
+SP1,24/11/2023,Alaves,Granada CF,3,1,H
+SP1,25/02/2024,Real Betis,Athletic Club,3,1,H
+SP1,25/02/2024,Las Palmas,Osasuna,1,1,D
+SP1,25/02/2024,Real Madrid,Sevilla,1,0,H
+SP1,25/02/2024,Cadiz,Celta Vigo,2,2,D
+SP1,25/05/2024,Real Madrid,Real Betis,0,0,D
+SP1,25/05/2024,Rayo Vallecano,Athletic Club,0,1,A
+SP1,25/05/2024,Almeria,Cadiz,6,1,H
+SP1,25/05/2024,Real Sociedad,Atletico Madrid,0,2,A
+SP1,25/05/2024,Osasuna,Villarreal,1,1,D
+SP1,25/08/2023,Las Palmas,Real Sociedad,0,0,D
+SP1,25/08/2023,Celta Vigo,Real Madrid,0,1,A
+SP1,25/11/2023,Atletico Madrid,Mallorca,1,0,H
+SP1,25/11/2023,Getafe,Almeria,2,1,H
+SP1,25/11/2023,Rayo Vallecano,Barcelona,1,1,D
+SP1,25/11/2023,Valencia,Celta Vigo,0,0,D
+SP1,26/01/2024,Almeria,Alaves,0,3,A
+SP1,26/02/2024,Girona,Rayo Vallecano,3,0,H
+SP1,26/04/2024,Real Sociedad,Real Madrid,0,1,A
+SP1,26/05/2024,Getafe,Mallorca,1,2,A
+SP1,26/05/2024,Celta Vigo,Valencia,2,2,D
+SP1,26/05/2024,Las Palmas,Alaves,1,1,D
+SP1,26/05/2024,Sevilla,Barcelona,1,2,A
+SP1,26/08/2023,Granada CF,Mallorca,3,2,H
+SP1,26/08/2023,Cadiz,Almeria,1,1,D
+SP1,26/08/2023,Sevilla,Girona,1,2,A
+SP1,26/09/2023,Sevilla,Almeria,5,1,H
+SP1,26/09/2023,Mallorca,Barcelona,2,2,D
+SP1,26/11/2023,Cadiz,Real Madrid,0,3,A
+SP1,26/11/2023,Real Betis,Las Palmas,1,0,H
+SP1,26/11/2023,Real Sociedad,Sevilla,2,1,H
+SP1,26/11/2023,Villarreal,Osasuna,3,1,H
+SP1,27/01/2024,Las Palmas,Real Madrid,1,2,A
+SP1,27/01/2024,Real Sociedad,Rayo Vallecano,0,0,D
+SP1,27/01/2024,Mallorca,Real Betis,0,1,A
+SP1,27/01/2024,Barcelona,Villarreal,3,5,A
+SP1,27/04/2024,Atletico Madrid,Athletic Club,3,1,H
+SP1,27/04/2024,Las Palmas,Girona,0,2,A
+SP1,27/04/2024,Alaves,Celta Vigo,3,0,H
+SP1,27/04/2024,Almeria,Getafe,1,3,A
+SP1,27/08/2023,Athletic Club,Real Betis,4,2,H
+SP1,27/08/2023,Valencia,Osasuna,1,2,A
+SP1,27/08/2023,Villarreal,Barcelona,3,4,A
+SP1,27/09/2023,Valencia,Real Sociedad,0,1,A
+SP1,27/09/2023,Athletic Club,Getafe,2,2,D
+SP1,27/09/2023,Villarreal,Girona,1,2,A
+SP1,27/09/2023,Cadiz,Rayo Vallecano,0,0,D
+SP1,27/09/2023,Real Madrid,Las Palmas,2,0,H
+SP1,27/10/2023,Girona,Celta Vigo,1,0,H
+SP1,27/11/2023,Girona,Athletic Club,1,1,D
+SP1,28/01/2024,Celta Vigo,Girona,0,1,A
+SP1,28/01/2024,Sevilla,Osasuna,1,1,D
+SP1,28/01/2024,Atletico Madrid,Valencia,2,0,H
+SP1,28/01/2024,Cadiz,Athletic Club,0,0,D
+SP1,28/04/2024,Granada CF,Osasuna,3,0,H
+SP1,28/04/2024,Cadiz,Mallorca,1,1,D
+SP1,28/04/2024,Villarreal,Rayo Vallecano,3,0,H
+SP1,28/04/2024,Real Betis,Sevilla,1,1,D
+SP1,28/08/2023,Getafe,Alaves,1,0,H
+SP1,28/08/2023,Rayo Vallecano,Atletico Madrid,0,7,A
+SP1,28/09/2023,Celta Vigo,Alaves,1,1,D
+SP1,28/09/2023,Osasuna,Atletico Madrid,0,2,A
+SP1,28/09/2023,Granada CF,Real Betis,1,1,D
+SP1,28/10/2023,Almeria,Las Palmas,1,2,A
+SP1,28/10/2023,Barcelona,Real Madrid,1,2,A
+SP1,28/10/2023,Mallorca,Getafe,0,0,D
+SP1,28/10/2023,Cadiz,Sevilla,2,2,D
+SP1,29/01/2024,Getafe,Granada CF,2,0,H
+SP1,29/03/2024,Cadiz,Granada CF,1,0,H
+SP1,29/04/2024,Barcelona,Valencia,4,2,H
+SP1,29/09/2023,Barcelona,Sevilla,1,0,H
+SP1,29/10/2023,Athletic Club,Valencia,2,2,D
+SP1,29/10/2023,Atletico Madrid,Alaves,2,1,H
+SP1,29/10/2023,Rayo Vallecano,Real Sociedad,2,2,D
+SP1,29/10/2023,Real Betis,Osasuna,2,1,H
+SP1,29/11/2023,Mallorca,Cadiz,1,1,D
+SP1,30/03/2024,Barcelona,Las Palmas,1,0,H
+SP1,30/03/2024,Getafe,Sevilla,0,1,A
+SP1,30/03/2024,Almeria,Osasuna,0,3,A
+SP1,30/03/2024,Valencia,Mallorca,0,0,D
+SP1,30/09/2023,Rayo Vallecano,Mallorca,2,2,D
+SP1,30/09/2023,Getafe,Villarreal,0,0,D
+SP1,30/09/2023,Girona,Real Madrid,0,3,A
+SP1,30/09/2023,Real Sociedad,Athletic Club,3,0,H
+SP1,30/10/2023,Granada CF,Villarreal,2,3,A
+SP1,31/01/2024,Barcelona,Osasuna,1,0,H
+SP1,31/01/2024,Atletico Madrid,Rayo Vallecano,2,1,H
+SP1,31/03/2024,Girona,Real Betis,3,2,H
+SP1,31/03/2024,Alaves,Real Sociedad,0,1,A
+SP1,31/03/2024,Real Madrid,Athletic Club,2,0,H
+SP1,31/03/2024,Celta Vigo,Rayo Vallecano,0,0,D

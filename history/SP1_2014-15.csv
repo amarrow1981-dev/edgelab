@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP1,01/02/2015,Levante,Athletic Club,0,2,A
+SP1,01/02/2015,Almeria,Getafe,1,0,H
+SP1,01/02/2015,Sevilla,Espanyol,3,2,H
+SP1,01/02/2015,Barcelona,Villarreal,3,2,H
+SP1,01/03/2015,Eibar,Athletic Club,0,1,A
+SP1,01/03/2015,Sevilla,Atletico Madrid,0,0,D
+SP1,01/03/2015,Real Madrid,Villarreal,1,1,D
+SP1,01/03/2015,Valencia,Real Sociedad,2,0,H
+SP1,01/05/2015,Real Sociedad,Levante,3,0,H
+SP1,01/11/2014,Real Sociedad,Malaga,0,1,A
+SP1,01/11/2014,Barcelona,Celta Vigo,0,1,A
+SP1,01/11/2014,Atletico Madrid,Cordoba,4,2,H
+SP1,01/11/2014,Granada CF,Real Madrid,0,4,A
+SP1,01/12/2014,Almeria,Rayo Vallecano,0,1,A
+SP1,02/02/2015,Malaga,Valencia,1,0,H
+SP1,02/03/2015,Celta Vigo,Elche,1,1,D
+SP1,02/05/2015,Deportivo La Coruna,Villarreal,1,1,D
+SP1,02/05/2015,Sevilla,Real Madrid,2,3,A
+SP1,02/05/2015,Atletico Madrid,Athletic Club,0,0,D
+SP1,02/05/2015,Cordoba,Barcelona,0,8,A
+SP1,02/11/2014,Athletic Club,Sevilla,1,0,H
+SP1,02/11/2014,Villarreal,Valencia,1,3,A
+SP1,02/11/2014,Elche,Espanyol,2,1,H
+SP1,02/11/2014,Levante,Almeria,2,1,H
+SP1,03/01/2015,Atletico Madrid,Levante,3,1,H
+SP1,03/01/2015,Deportivo La Coruna,Athletic Club,1,0,H
+SP1,03/01/2015,Malaga,Almeria,1,2,A
+SP1,03/01/2015,Elche,Villarreal,2,2,D
+SP1,03/01/2015,Sevilla,Celta Vigo,1,0,H
+SP1,03/04/2015,Eibar,Rayo Vallecano,1,2,A
+SP1,03/05/2015,Valencia,Eibar,3,1,H
+SP1,03/05/2015,Getafe,Granada CF,1,2,A
+SP1,03/05/2015,Malaga,Elche,1,2,A
+SP1,03/05/2015,Espanyol,Rayo Vallecano,1,1,D
+SP1,03/10/2014,Getafe,Cordoba,1,1,D
+SP1,03/11/2014,Rayo Vallecano,Eibar,2,3,A
+SP1,04/01/2015,Real Sociedad,Barcelona,1,0,H
+SP1,04/01/2015,Espanyol,Eibar,1,2,A
+SP1,04/01/2015,Valencia,Real Madrid,2,1,H
+SP1,04/01/2015,Getafe,Rayo Vallecano,1,2,A
+SP1,04/02/2015,Real Madrid,Sevilla,2,1,H
+SP1,04/04/2015,Malaga,Real Sociedad,1,1,D
+SP1,04/04/2015,Almeria,Levante,1,4,A
+SP1,04/04/2015,Cordoba,Atletico Madrid,0,2,A
+SP1,04/04/2015,Sevilla,Athletic Club,2,0,H
+SP1,04/05/2015,Almeria,Celta Vigo,2,2,D
+SP1,04/10/2014,Almeria,Elche,2,2,D
+SP1,04/10/2014,Rayo Vallecano,Barcelona,0,2,A
+SP1,04/10/2014,Eibar,Levante,3,3,D
+SP1,04/10/2014,Malaga,Granada CF,2,1,H
+SP1,04/10/2014,Valencia,Atletico Madrid,3,1,H
+SP1,05/01/2015,Cordoba,Granada CF,2,0,H
+SP1,05/04/2015,Real Madrid,Granada CF,9,1,H
+SP1,05/04/2015,Valencia,Villarreal,0,0,D
+SP1,05/04/2015,Celta Vigo,Barcelona,0,1,A
+SP1,05/04/2015,Getafe,Deportivo La Coruna,2,1,H
+SP1,05/10/2014,Espanyol,Real Sociedad,2,0,H
+SP1,05/10/2014,Real Madrid,Athletic Club,5,0,H
+SP1,05/10/2014,Sevilla,Deportivo La Coruna,4,1,H
+SP1,05/10/2014,Celta Vigo,Villarreal,1,3,A
+SP1,06/02/2015,Deportivo La Coruna,Eibar,2,0,H
+SP1,06/03/2015,Levante,Eibar,2,1,H
+SP1,06/04/2015,Espanyol,Elche,1,1,D
+SP1,06/12/2014,Real Madrid,Celta Vigo,3,0,H
+SP1,06/12/2014,Elche,Atletico Madrid,0,2,A
+SP1,06/12/2014,Athletic Club,Cordoba,0,1,A
+SP1,06/12/2014,Deportivo La Coruna,Malaga,0,1,A
+SP1,07/02/2015,Real Sociedad,Celta Vigo,1,1,D
+SP1,07/02/2015,Villarreal,Granada CF,2,0,H
+SP1,07/02/2015,Levante,Malaga,4,1,H
+SP1,07/02/2015,Atletico Madrid,Real Madrid,4,0,H
+SP1,07/03/2015,Deportivo La Coruna,Sevilla,3,4,A
+SP1,07/03/2015,Elche,Almeria,1,0,H
+SP1,07/03/2015,Athletic Club,Real Madrid,1,0,H
+SP1,07/03/2015,Granada CF,Malaga,1,0,H
+SP1,07/04/2015,Eibar,Malaga,1,0,H
+SP1,07/04/2015,Levante,Sevilla,1,2,A
+SP1,07/04/2015,Atletico Madrid,Real Sociedad,2,0,H
+SP1,07/11/2014,Cordoba,Deportivo La Coruna,0,0,D
+SP1,07/12/2014,Villarreal,Real Sociedad,4,0,H
+SP1,07/12/2014,Barcelona,Espanyol,5,1,H
+SP1,07/12/2014,Rayo Vallecano,Sevilla,0,1,A
+SP1,07/12/2014,Granada CF,Valencia,1,1,D
+SP1,08/02/2015,Athletic Club,Barcelona,2,5,A
+SP1,08/02/2015,Espanyol,Valencia,1,2,A
+SP1,08/02/2015,Getafe,Sevilla,2,1,H
+SP1,08/02/2015,Cordoba,Almeria,1,2,A
+SP1,08/03/2015,Atletico Madrid,Valencia,1,1,D
+SP1,08/03/2015,Villarreal,Celta Vigo,4,1,H
+SP1,08/03/2015,Real Sociedad,Espanyol,1,0,H
+SP1,08/03/2015,Barcelona,Rayo Vallecano,6,1,H
+SP1,08/04/2015,Deportivo La Coruna,Cordoba,1,1,D
+SP1,08/04/2015,Barcelona,Almeria,4,0,H
+SP1,08/04/2015,Granada CF,Celta Vigo,1,1,D
+SP1,08/04/2015,Rayo Vallecano,Real Madrid,0,2,A
+SP1,08/05/2015,Eibar,Espanyol,0,2,A
+SP1,08/11/2014,Malaga,Eibar,2,1,H
+SP1,08/11/2014,Real Madrid,Rayo Vallecano,5,1,H
+SP1,08/11/2014,Getafe,Elche,0,0,D
+SP1,08/11/2014,Almeria,Barcelona,1,2,A
+SP1,08/11/2014,Celta Vigo,Granada CF,0,0,D
+SP1,08/12/2014,Eibar,Almeria,5,2,H
+SP1,08/12/2014,Levante,Getafe,1,1,D
+SP1,09/01/2015,Levante,Deportivo La Coruna,0,0,D
+SP1,09/02/2015,Elche,Rayo Vallecano,2,0,H
+SP1,09/03/2015,Cordoba,Getafe,1,2,A
+SP1,09/04/2015,Athletic Club,Valencia,1,1,D
+SP1,09/04/2015,Villarreal,Espanyol,0,3,A
+SP1,09/04/2015,Elche,Getafe,0,1,A
+SP1,09/05/2015,Real Madrid,Valencia,2,2,D
+SP1,09/05/2015,Athletic Club,Deportivo La Coruna,1,1,D
+SP1,09/05/2015,Granada CF,Cordoba,2,0,H
+SP1,09/05/2015,Barcelona,Real Sociedad,2,0,H
+SP1,09/11/2014,Valencia,Athletic Club,0,0,D
+SP1,09/11/2014,Espanyol,Villarreal,1,1,D
+SP1,09/11/2014,Sevilla,Levante,1,1,D
+SP1,09/11/2014,Real Sociedad,Atletico Madrid,2,1,H
+SP1,10/01/2015,Celta Vigo,Valencia,1,1,D
+SP1,10/01/2015,Malaga,Villarreal,1,1,D
+SP1,10/01/2015,Real Madrid,Espanyol,3,0,H
+SP1,10/01/2015,Eibar,Getafe,2,1,H
+SP1,10/05/2015,Levante,Atletico Madrid,2,2,D
+SP1,10/05/2015,Villarreal,Elche,1,0,H
+SP1,10/05/2015,Almeria,Malaga,1,2,A
+SP1,10/05/2015,Celta Vigo,Sevilla,1,1,D
+SP1,11/01/2015,Granada CF,Real Sociedad,1,1,D
+SP1,11/01/2015,Athletic Club,Elche,1,2,A
+SP1,11/01/2015,Barcelona,Atletico Madrid,3,1,H
+SP1,11/01/2015,Almeria,Sevilla,0,2,A
+SP1,11/04/2015,Celta Vigo,Rayo Vallecano,6,1,H
+SP1,11/04/2015,Malaga,Atletico Madrid,2,2,D
+SP1,11/04/2015,Sevilla,Barcelona,2,2,D
+SP1,11/04/2015,Almeria,Granada CF,3,0,H
+SP1,11/04/2015,Real Madrid,Eibar,3,0,H
+SP1,11/05/2015,Rayo Vallecano,Getafe,2,0,H
+SP1,12/01/2015,Rayo Vallecano,Cordoba,0,1,A
+SP1,12/04/2015,Getafe,Villarreal,1,1,D
+SP1,12/04/2015,Espanyol,Athletic Club,1,0,H
+SP1,12/04/2015,Real Sociedad,Deportivo La Coruna,2,2,D
+SP1,12/04/2015,Cordoba,Elche,0,2,A
+SP1,12/09/2014,Almeria,Cordoba,1,1,D
+SP1,12/12/2014,Almeria,Real Madrid,1,4,A
+SP1,13/02/2015,Almeria,Real Sociedad,2,2,D
+SP1,13/03/2015,Valencia,Deportivo La Coruna,2,0,H
+SP1,13/04/2015,Valencia,Levante,3,0,H
+SP1,13/09/2014,Real Madrid,Atletico Madrid,1,2,A
+SP1,13/09/2014,Celta Vigo,Real Sociedad,2,2,D
+SP1,13/09/2014,Malaga,Levante,0,0,D
+SP1,13/09/2014,Barcelona,Athletic Club,2,0,H
+SP1,13/12/2014,Cordoba,Levante,0,0,D
+SP1,13/12/2014,Malaga,Celta Vigo,1,0,H
+SP1,13/12/2014,Valencia,Rayo Vallecano,3,0,H
+SP1,13/12/2014,Getafe,Barcelona,0,0,D
+SP1,14/02/2015,Malaga,Espanyol,0,2,A
+SP1,14/02/2015,Granada CF,Athletic Club,0,0,D
+SP1,14/02/2015,Real Madrid,Deportivo La Coruna,2,0,H
+SP1,14/02/2015,Sevilla,Cordoba,3,0,H
+SP1,14/03/2015,Espanyol,Atletico Madrid,0,0,D
+SP1,14/03/2015,Rayo Vallecano,Granada CF,3,1,H
+SP1,14/03/2015,Eibar,Barcelona,0,2,A
+SP1,14/03/2015,Celta Vigo,Athletic Club,1,2,A
+SP1,14/09/2014,Rayo Vallecano,Elche,2,3,A
+SP1,14/09/2014,Granada CF,Villarreal,0,0,D
+SP1,14/09/2014,Valencia,Espanyol,3,1,H
+SP1,14/09/2014,Sevilla,Getafe,2,0,H
+SP1,14/12/2014,Espanyol,Granada CF,2,1,H
+SP1,14/12/2014,Sevilla,Eibar,0,0,D
+SP1,14/12/2014,Atletico Madrid,Villarreal,0,1,A
+SP1,14/12/2014,Real Sociedad,Athletic Club,1,1,D
+SP1,15/02/2015,Barcelona,Levante,5,0,H
+SP1,15/02/2015,Valencia,Getafe,1,0,H
+SP1,15/02/2015,Celta Vigo,Atletico Madrid,2,0,H
+SP1,15/02/2015,Rayo Vallecano,Villarreal,2,0,H
+SP1,15/03/2015,Almeria,Villarreal,0,0,D
+SP1,15/03/2015,Real Madrid,Levante,2,0,H
+SP1,15/03/2015,Malaga,Cordoba,2,0,H
+SP1,15/03/2015,Sevilla,Elche,3,0,H
+SP1,15/09/2014,Eibar,Deportivo La Coruna,0,1,A
+SP1,15/12/2014,Deportivo La Coruna,Elche,1,0,H
+SP1,16/01/2015,Cordoba,Eibar,1,1,D
+SP1,16/02/2015,Eibar,Elche,0,1,A
+SP1,16/03/2015,Getafe,Real Sociedad,0,1,A
+SP1,17/01/2015,Espanyol,Celta Vigo,1,0,H
+SP1,17/01/2015,Real Sociedad,Rayo Vallecano,0,1,A
+SP1,17/01/2015,Valencia,Almeria,3,2,H
+SP1,17/01/2015,Villarreal,Athletic Club,2,0,H
+SP1,17/04/2015,Levante,Espanyol,2,2,D
+SP1,17/05/2015,Valencia,Celta Vigo,1,1,D
+SP1,17/05/2015,Atletico Madrid,Barcelona,0,1,A
+SP1,17/05/2015,Villarreal,Malaga,2,1,H
+SP1,17/05/2015,Sevilla,Almeria,2,1,H
+SP1,17/05/2015,Espanyol,Real Madrid,1,4,A
+SP1,17/05/2015,Deportivo La Coruna,Levante,2,0,H
+SP1,17/05/2015,Getafe,Eibar,1,1,D
+SP1,17/05/2015,Real Sociedad,Granada CF,0,3,A
+SP1,17/05/2015,Cordoba,Rayo Vallecano,1,2,A
+SP1,17/05/2015,Elche,Athletic Club,2,3,A
+SP1,17/10/2014,Granada CF,Rayo Vallecano,0,1,A
+SP1,18/01/2015,Getafe,Real Madrid,0,3,A
+SP1,18/01/2015,Elche,Levante,1,0,H
+SP1,18/01/2015,Sevilla,Malaga,2,0,H
+SP1,18/01/2015,Deportivo La Coruna,Barcelona,0,4,A
+SP1,18/01/2015,Atletico Madrid,Granada CF,2,0,H
+SP1,18/04/2015,Deportivo La Coruna,Atletico Madrid,1,2,A
+SP1,18/04/2015,Athletic Club,Getafe,4,0,H
+SP1,18/04/2015,Real Madrid,Malaga,3,1,H
+SP1,18/04/2015,Barcelona,Valencia,2,0,H
+SP1,18/10/2014,Barcelona,Eibar,3,0,H
+SP1,18/10/2014,Athletic Club,Celta Vigo,1,1,D
+SP1,18/10/2014,Cordoba,Malaga,1,2,A
+SP1,18/10/2014,Levante,Real Madrid,0,5,A
+SP1,19/04/2015,Eibar,Celta Vigo,0,1,A
+SP1,19/04/2015,Villarreal,Cordoba,0,0,D
+SP1,19/04/2015,Rayo Vallecano,Almeria,2,0,H
+SP1,19/04/2015,Granada CF,Sevilla,1,1,D
+SP1,19/09/2014,Elche,Eibar,0,2,A
+SP1,19/10/2014,Atletico Madrid,Espanyol,2,0,H
+SP1,19/10/2014,Deportivo La Coruna,Valencia,3,0,H
+SP1,19/10/2014,Elche,Sevilla,0,2,A
+SP1,19/10/2014,Villarreal,Almeria,2,0,H
+SP1,19/12/2014,Celta Vigo,Almeria,0,1,A
+SP1,20/02/2015,Getafe,Espanyol,2,1,H
+SP1,20/03/2015,Elche,Valencia,0,4,A
+SP1,20/04/2015,Elche,Real Sociedad,1,0,H
+SP1,20/09/2014,Deportivo La Coruna,Real Madrid,2,8,A
+SP1,20/09/2014,Espanyol,Malaga,2,2,D
+SP1,20/09/2014,Atletico Madrid,Celta Vigo,2,2,D
+SP1,20/09/2014,Athletic Club,Granada CF,0,1,A
+SP1,20/10/2014,Real Sociedad,Getafe,1,2,A
+SP1,20/12/2014,Eibar,Valencia,0,1,A
+SP1,20/12/2014,Levante,Real Sociedad,1,1,D
+SP1,20/12/2014,Barcelona,Cordoba,5,0,H
+SP1,20/12/2014,Rayo Vallecano,Espanyol,1,3,A
+SP1,21/02/2015,Barcelona,Malaga,0,1,A
+SP1,21/02/2015,Cordoba,Valencia,1,2,A
+SP1,21/02/2015,Atletico Madrid,Almeria,3,0,H
+SP1,21/02/2015,Deportivo La Coruna,Celta Vigo,0,2,A
+SP1,21/03/2015,Atletico Madrid,Getafe,2,0,H
+SP1,21/03/2015,Rayo Vallecano,Malaga,1,0,H
+SP1,21/03/2015,Granada CF,Eibar,0,0,D
+SP1,21/03/2015,Athletic Club,Almeria,2,1,H
+SP1,21/03/2015,Levante,Celta Vigo,0,1,A
+SP1,21/09/2014,Levante,Barcelona,0,5,A
+SP1,21/09/2014,Cordoba,Sevilla,1,3,A
+SP1,21/09/2014,Real Sociedad,Almeria,1,2,A
+SP1,21/09/2014,Villarreal,Rayo Vallecano,4,2,H
+SP1,21/11/2014,Athletic Club,Espanyol,3,1,H
+SP1,21/12/2014,Villarreal,Deportivo La Coruna,3,0,H
+SP1,21/12/2014,Granada CF,Getafe,1,1,D
+SP1,21/12/2014,Elche,Malaga,1,2,A
+SP1,21/12/2014,Athletic Club,Atletico Madrid,1,4,A
+SP1,22/02/2015,Real Sociedad,Sevilla,4,3,H
+SP1,22/02/2015,Athletic Club,Rayo Vallecano,1,0,H
+SP1,22/02/2015,Villarreal,Eibar,1,0,H
+SP1,22/02/2015,Elche,Real Madrid,0,2,A
+SP1,22/03/2015,Deportivo La Coruna,Espanyol,0,0,D
+SP1,22/03/2015,Villarreal,Sevilla,0,2,A
+SP1,22/03/2015,Barcelona,Real Madrid,2,1,H
+SP1,22/03/2015,Real Sociedad,Cordoba,3,1,H
+SP1,22/09/2014,Getafe,Valencia,0,3,A
+SP1,22/11/2014,Eibar,Real Madrid,0,4,A
+SP1,22/11/2014,Barcelona,Sevilla,5,1,H
+SP1,22/11/2014,Deportivo La Coruna,Real Sociedad,0,0,D
+SP1,22/11/2014,Atletico Madrid,Malaga,3,1,H
+SP1,23/02/2015,Levante,Granada CF,2,1,H
+SP1,23/05/2015,Rayo Vallecano,Real Sociedad,2,4,A
+SP1,23/05/2015,Levante,Elche,0,0,D
+SP1,23/05/2015,Barcelona,Deportivo La Coruna,2,2,D
+SP1,23/05/2015,Athletic Club,Villarreal,4,0,H
+SP1,23/05/2015,Malaga,Sevilla,2,3,A
+SP1,23/05/2015,Celta Vigo,Espanyol,3,2,H
+SP1,23/05/2015,Eibar,Cordoba,3,0,H
+SP1,23/05/2015,Granada CF,Atletico Madrid,0,0,D
+SP1,23/05/2015,Almeria,Valencia,2,3,A
+SP1,23/05/2015,Real Madrid,Getafe,7,3,H
+SP1,23/08/2014,Malaga,Athletic Club,1,0,H
+SP1,23/08/2014,Sevilla,Valencia,1,1,D
+SP1,23/08/2014,Granada CF,Deportivo La Coruna,2,1,H
+SP1,23/08/2014,Almeria,Espanyol,1,1,D
+SP1,23/09/2014,Real Madrid,Elche,5,1,H
+SP1,23/09/2014,Celta Vigo,Deportivo La Coruna,2,1,H
+SP1,23/11/2014,Levante,Valencia,2,1,H
+SP1,23/11/2014,Rayo Vallecano,Celta Vigo,1,0,H
+SP1,23/11/2014,Elche,Cordoba,2,2,D
+SP1,23/11/2014,Villarreal,Getafe,2,1,H
+SP1,24/01/2015,Elche,Barcelona,0,6,A
+SP1,24/01/2015,Atletico Madrid,Rayo Vallecano,3,1,H
+SP1,24/01/2015,Villarreal,Levante,1,0,H
+SP1,24/01/2015,Real Sociedad,Eibar,1,0,H
+SP1,24/01/2015,Cordoba,Real Madrid,1,2,A
+SP1,24/04/2015,Cordoba,Athletic Club,0,1,A
+SP1,24/08/2014,Levante,Villarreal,0,2,A
+SP1,24/08/2014,Celta Vigo,Getafe,3,1,H
+SP1,24/08/2014,Barcelona,Elche,3,0,H
+SP1,24/08/2014,Eibar,Real Sociedad,1,0,H
+SP1,24/09/2014,Sevilla,Real Sociedad,1,0,H
+SP1,24/09/2014,Granada CF,Levante,0,1,A
+SP1,24/09/2014,Malaga,Barcelona,0,0,D
+SP1,24/09/2014,Rayo Vallecano,Athletic Club,2,1,H
+SP1,24/09/2014,Eibar,Villarreal,1,1,D
+SP1,24/09/2014,Almeria,Atletico Madrid,0,1,A
+SP1,24/10/2014,Celta Vigo,Levante,3,0,H
+SP1,24/11/2014,Granada CF,Almeria,0,0,D
+SP1,25/01/2015,Deportivo La Coruna,Granada CF,2,2,D
+SP1,25/01/2015,Athletic Club,Malaga,1,1,D
+SP1,25/01/2015,Espanyol,Almeria,3,0,H
+SP1,25/01/2015,Valencia,Sevilla,3,1,H
+SP1,25/04/2015,Atletico Madrid,Elche,3,0,H
+SP1,25/04/2015,Espanyol,Barcelona,0,2,A
+SP1,25/04/2015,Real Sociedad,Villarreal,0,0,D
+SP1,25/04/2015,Getafe,Levante,0,1,A
+SP1,25/08/2014,Real Madrid,Cordoba,2,0,H
+SP1,25/08/2014,Rayo Vallecano,Atletico Madrid,0,0,D
+SP1,25/09/2014,Valencia,Cordoba,3,0,H
+SP1,25/09/2014,Espanyol,Getafe,2,0,H
+SP1,25/10/2014,Cordoba,Real Sociedad,1,1,D
+SP1,25/10/2014,Eibar,Granada CF,1,1,D
+SP1,25/10/2014,Valencia,Elche,3,1,H
+SP1,25/10/2014,Real Madrid,Barcelona,3,1,H
+SP1,25/10/2014,Almeria,Athletic Club,0,1,A
+SP1,26/01/2015,Getafe,Celta Vigo,2,1,H
+SP1,26/04/2015,Malaga,Deportivo La Coruna,1,1,D
+SP1,26/04/2015,Celta Vigo,Real Madrid,2,4,A
+SP1,26/04/2015,Almeria,Eibar,2,0,H
+SP1,26/04/2015,Sevilla,Rayo Vallecano,2,0,H
+SP1,26/09/2014,Elche,Celta Vigo,0,1,A
+SP1,26/10/2014,Malaga,Rayo Vallecano,4,0,H
+SP1,26/10/2014,Espanyol,Deportivo La Coruna,0,0,D
+SP1,26/10/2014,Sevilla,Villarreal,2,1,H
+SP1,26/10/2014,Getafe,Atletico Madrid,0,1,A
+SP1,27/02/2015,Espanyol,Cordoba,1,0,H
+SP1,27/04/2015,Valencia,Granada CF,4,0,H
+SP1,27/09/2014,Villarreal,Real Madrid,0,2,A
+SP1,27/09/2014,Barcelona,Granada CF,6,0,H
+SP1,27/09/2014,Atletico Madrid,Sevilla,4,0,H
+SP1,27/09/2014,Athletic Club,Eibar,0,0,D
+SP1,27/09/2014,Levante,Rayo Vallecano,0,2,A
+SP1,28/02/2015,Rayo Vallecano,Levante,4,2,H
+SP1,28/02/2015,Granada CF,Barcelona,1,3,A
+SP1,28/02/2015,Almeria,Deportivo La Coruna,0,0,D
+SP1,28/02/2015,Malaga,Getafe,3,2,H
+SP1,28/04/2015,Levante,Cordoba,1,0,H
+SP1,28/04/2015,Barcelona,Getafe,6,0,H
+SP1,28/04/2015,Athletic Club,Real Sociedad,1,1,D
+SP1,28/09/2014,Real Sociedad,Valencia,1,1,D
+SP1,28/09/2014,Deportivo La Coruna,Almeria,0,1,A
+SP1,28/09/2014,Getafe,Malaga,1,0,H
+SP1,28/09/2014,Cordoba,Espanyol,0,0,D
+SP1,28/11/2014,Real Sociedad,Elche,3,0,H
+SP1,29/04/2015,Elche,Deportivo La Coruna,4,0,H
+SP1,29/04/2015,Villarreal,Atletico Madrid,0,1,A
+SP1,29/04/2015,Eibar,Sevilla,1,3,A
+SP1,29/04/2015,Real Madrid,Almeria,3,0,H
+SP1,29/04/2015,Celta Vigo,Malaga,1,0,H
+SP1,29/08/2014,Getafe,Almeria,1,0,H
+SP1,29/08/2014,Valencia,Malaga,3,0,H
+SP1,29/11/2014,Getafe,Athletic Club,1,2,A
+SP1,29/11/2014,Malaga,Real Madrid,1,2,A
+SP1,29/11/2014,Espanyol,Levante,2,1,H
+SP1,29/11/2014,Celta Vigo,Eibar,0,1,A
+SP1,30/01/2015,Rayo Vallecano,Deportivo La Coruna,1,2,A
+SP1,30/04/2015,Rayo Vallecano,Valencia,1,1,D
+SP1,30/04/2015,Granada CF,Espanyol,1,2,A
+SP1,30/08/2014,Espanyol,Sevilla,1,2,A
+SP1,30/08/2014,Atletico Madrid,Eibar,2,1,H
+SP1,30/08/2014,Cordoba,Celta Vigo,1,1,D
+SP1,30/08/2014,Athletic Club,Levante,3,0,H
+SP1,30/11/2014,Valencia,Barcelona,0,1,A
+SP1,30/11/2014,Sevilla,Granada CF,5,1,H
+SP1,30/11/2014,Cordoba,Villarreal,0,2,A
+SP1,30/11/2014,Atletico Madrid,Deportivo La Coruna,2,0,H
+SP1,31/01/2015,Real Madrid,Real Sociedad,4,1,H
+SP1,31/01/2015,Eibar,Atletico Madrid,1,3,A
+SP1,31/01/2015,Granada CF,Elche,1,0,H
+SP1,31/01/2015,Celta Vigo,Cordoba,1,0,H
+SP1,31/08/2014,Villarreal,Barcelona,0,1,A
+SP1,31/08/2014,Deportivo La Coruna,Rayo Vallecano,2,2,D
+SP1,31/08/2014,Real Sociedad,Real Madrid,4,2,H
+SP1,31/08/2014,Elche,Granada CF,1,1,D
+SP1,31/10/2014,Deportivo La Coruna,Getafe,1,2,A

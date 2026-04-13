@@ -1,0 +1,181 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/03/2017,St Mirren,Hibernian,2,0,H
+SC1,01/04/2017,St Mirren,Ayr Utd,6,2,H
+SC1,01/04/2017,Dumbarton,Morton,1,0,H
+SC1,01/04/2017,Queen of the South,Dundee Utd,4,2,H
+SC1,01/04/2017,Falkirk,Raith Rovers,1,0,H
+SC1,01/04/2017,Dunfermline,Hibernian,1,1,D
+SC1,01/10/2016,Dumbarton,Queen of the South,0,0,D
+SC1,01/10/2016,St Mirren,Falkirk,1,1,D
+SC1,01/10/2016,Ayr Utd,Dunfermline,0,0,D
+SC1,01/10/2016,Morton,Raith Rovers,1,0,H
+SC1,01/11/2016,Morton,St Mirren,3,1,H
+SC1,02/01/2017,Raith Rovers,Dunfermline,0,2,A
+SC1,02/10/2016,Hibernian,Dundee Utd,1,1,D
+SC1,02/12/2016,Dundee Utd,Hibernian,1,0,H
+SC1,03/12/2016,Queen of the South,Dumbarton,1,2,A
+SC1,03/12/2016,Dunfermline,Ayr Utd,1,1,D
+SC1,03/12/2016,Falkirk,St Mirren,3,1,H
+SC1,04/02/2017,Queen of the South,Morton,3,0,H
+SC1,04/02/2017,Dumbarton,St Mirren,2,2,D
+SC1,04/02/2017,Falkirk,Dunfermline,2,0,H
+SC1,04/02/2017,Dundee Utd,Raith Rovers,3,0,H
+SC1,04/02/2017,Hibernian,Ayr Utd,1,1,D
+SC1,04/03/2017,Queen of the South,Falkirk,0,2,A
+SC1,04/03/2017,Dunfermline,Dumbarton,5,1,H
+SC1,05/11/2016,Queen of the South,Dundee Utd,1,4,A
+SC1,05/11/2016,Falkirk,Morton,1,1,D
+SC1,05/11/2016,Dunfermline,Raith Rovers,0,0,D
+SC1,05/11/2016,Ayr Utd,Hibernian,0,3,A
+SC1,05/11/2016,St Mirren,Dumbarton,0,1,A
+SC1,06/01/2017,Hibernian,Dundee Utd,3,0,H
+SC1,06/05/2017,Hibernian,St Mirren,1,1,D
+SC1,06/05/2017,Dumbarton,Falkirk,0,1,A
+SC1,06/05/2017,Morton,Dundee Utd,1,1,D
+SC1,06/05/2017,Queen of the South,Dunfermline,0,1,A
+SC1,06/05/2017,Raith Rovers,Ayr Utd,2,1,H
+SC1,06/08/2016,St Mirren,Morton,1,1,D
+SC1,06/08/2016,Falkirk,Hibernian,1,2,A
+SC1,06/08/2016,Dundee Utd,Queen of the South,1,1,D
+SC1,06/08/2016,Ayr Utd,Raith Rovers,0,2,A
+SC1,06/08/2016,Dunfermline,Dumbarton,4,3,H
+SC1,06/12/2016,Queen of the South,St Mirren,2,3,A
+SC1,07/01/2017,Morton,Dumbarton,2,1,H
+SC1,07/01/2017,Ayr Utd,Dunfermline,0,2,A
+SC1,07/01/2017,Raith Rovers,Falkirk,1,4,A
+SC1,07/01/2017,St Mirren,Queen of the South,0,3,A
+SC1,07/02/2017,Raith Rovers,Morton,0,1,A
+SC1,07/03/2017,Dunfermline,Queen of the South,1,1,D
+SC1,08/03/2017,Raith Rovers,St Mirren,2,0,H
+SC1,08/04/2017,Dundee Utd,Falkirk,1,1,D
+SC1,08/04/2017,Morton,Hibernian,1,1,D
+SC1,08/04/2017,St Mirren,Dumbarton,1,1,D
+SC1,08/04/2017,Ayr Utd,Queen of the South,0,2,A
+SC1,08/04/2017,Dunfermline,Raith Rovers,1,0,H
+SC1,08/11/2016,Dundee Utd,Dunfermline,1,0,H
+SC1,10/03/2017,Dundee Utd,Hibernian,0,1,A
+SC1,10/09/2016,Raith Rovers,Falkirk,0,2,A
+SC1,10/09/2016,St Mirren,Queen of the South,1,3,A
+SC1,10/09/2016,Dumbarton,Hibernian,0,1,A
+SC1,10/09/2016,Dunfermline,Dundee Utd,1,3,A
+SC1,10/09/2016,Ayr Utd,Morton,2,1,H
+SC1,10/12/2016,Dunfermline,Morton,2,1,H
+SC1,10/12/2016,Ayr Utd,Dundee Utd,0,1,A
+SC1,10/12/2016,St Mirren,Raith Rovers,1,0,H
+SC1,10/12/2016,Hibernian,Dumbarton,2,0,H
+SC1,10/12/2016,Falkirk,Queen of the South,2,2,D
+SC1,11/02/2017,Falkirk,Dundee Utd,3,0,H
+SC1,11/03/2017,Ayr Utd,Falkirk,1,4,A
+SC1,11/03/2017,St Mirren,Dunfermline,0,0,D
+SC1,11/03/2017,Morton,Queen of the South,1,0,H
+SC1,11/03/2017,Dumbarton,Raith Rovers,4,0,H
+SC1,11/04/2017,Dundee Utd,Dunfermline,1,0,H
+SC1,11/04/2017,Morton,St Mirren,1,4,A
+SC1,12/11/2016,Dumbarton,Morton,0,2,A
+SC1,12/11/2016,Hibernian,Falkirk,1,1,D
+SC1,13/08/2016,Morton,Falkirk,1,1,D
+SC1,13/08/2016,Hibernian,Dunfermline,2,1,H
+SC1,13/08/2016,Dumbarton,Dundee Utd,1,0,H
+SC1,13/08/2016,Raith Rovers,St Mirren,3,1,H
+SC1,13/08/2016,Queen of the South,Ayr Utd,4,1,H
+SC1,14/01/2017,Morton,Raith Rovers,2,0,H
+SC1,14/01/2017,Falkirk,Ayr Utd,1,1,D
+SC1,14/01/2017,Dunfermline,St Mirren,1,1,D
+SC1,14/01/2017,Dundee Utd,Queen of the South,3,3,D
+SC1,14/01/2017,Dumbarton,Hibernian,0,1,A
+SC1,15/03/2017,St Mirren,Dundee Utd,3,2,H
+SC1,15/04/2017,Raith Rovers,Morton,2,0,H
+SC1,15/04/2017,Dumbarton,Dunfermline,0,2,A
+SC1,15/04/2017,Falkirk,St Mirren,2,2,D
+SC1,15/04/2017,Ayr Utd,Dundee Utd,0,0,D
+SC1,15/04/2017,Hibernian,Queen of the South,3,0,H
+SC1,15/10/2016,Dumbarton,Ayr Utd,0,3,A
+SC1,15/10/2016,Queen of the South,Morton,0,5,A
+SC1,15/10/2016,Raith Rovers,Hibernian,0,0,D
+SC1,15/10/2016,St Mirren,Dundee Utd,0,2,A
+SC1,15/10/2016,Falkirk,Dunfermline,2,1,H
+SC1,17/09/2016,Dumbarton,St Mirren,1,1,D
+SC1,17/09/2016,Queen of the South,Raith Rovers,3,1,H
+SC1,17/09/2016,Falkirk,Dundee Utd,3,1,H
+SC1,17/09/2016,Morton,Dunfermline,2,1,H
+SC1,17/09/2016,Hibernian,Ayr Utd,1,2,A
+SC1,17/12/2016,Raith Rovers,Dundee Utd,0,0,D
+SC1,17/12/2016,Queen of the South,Dunfermline,2,2,D
+SC1,17/12/2016,Dumbarton,Falkirk,2,1,H
+SC1,17/12/2016,St Mirren,Ayr Utd,1,1,D
+SC1,17/12/2016,Morton,Hibernian,1,1,D
+SC1,18/02/2017,Dumbarton,Ayr Utd,2,2,D
+SC1,18/02/2017,Morton,Falkirk,2,2,D
+SC1,18/02/2017,Raith Rovers,Hibernian,1,1,D
+SC1,18/03/2017,Falkirk,Morton,0,1,A
+SC1,18/03/2017,Hibernian,Dumbarton,2,2,D
+SC1,18/03/2017,Queen of the South,St Mirren,0,2,A
+SC1,18/03/2017,Raith Rovers,Dundee Utd,2,1,H
+SC1,18/03/2017,Dunfermline,Ayr Utd,0,1,A
+SC1,19/11/2016,Dumbarton,Raith Rovers,0,0,D
+SC1,19/11/2016,Morton,Dundee Utd,0,0,D
+SC1,19/11/2016,Ayr Utd,Falkirk,0,1,A
+SC1,19/11/2016,St Mirren,Dunfermline,0,1,A
+SC1,19/11/2016,Hibernian,Queen of the South,4,0,H
+SC1,20/08/2016,Dundee Utd,Ayr Utd,3,0,H
+SC1,20/08/2016,Raith Rovers,Dunfermline,2,0,H
+SC1,20/08/2016,Queen of the South,Falkirk,2,0,H
+SC1,20/08/2016,St Mirren,Hibernian,0,2,A
+SC1,20/08/2016,Morton,Dumbarton,1,1,D
+SC1,21/01/2017,Dumbarton,Queen of the South,1,2,A
+SC1,22/04/2017,Dunfermline,Falkirk,1,2,A
+SC1,22/04/2017,Queen of the South,Dumbarton,1,2,A
+SC1,22/04/2017,Morton,Ayr Utd,1,1,D
+SC1,22/04/2017,Dundee Utd,St Mirren,3,2,H
+SC1,22/10/2016,Dundee Utd,Dumbarton,2,1,H
+SC1,22/10/2016,Dunfermline,Hibernian,1,3,A
+SC1,22/10/2016,Falkirk,Raith Rovers,2,4,A
+SC1,22/10/2016,Ayr Utd,Queen of the South,1,0,H
+SC1,22/11/2016,Raith Rovers,Ayr Utd,1,1,D
+SC1,24/09/2016,Falkirk,Ayr Utd,2,0,H
+SC1,24/09/2016,Dunfermline,St Mirren,4,3,H
+SC1,24/09/2016,Queen of the South,Hibernian,0,0,D
+SC1,24/09/2016,Raith Rovers,Dumbarton,3,2,H
+SC1,24/09/2016,Dundee Utd,Morton,2,1,H
+SC1,24/12/2016,Ayr Utd,Dumbarton,4,4,D
+SC1,24/12/2016,Hibernian,Raith Rovers,1,1,D
+SC1,24/12/2016,Dundee Utd,St Mirren,2,1,H
+SC1,24/12/2016,Morton,Queen of the South,1,0,H
+SC1,25/02/2017,Falkirk,Dumbarton,2,2,D
+SC1,25/02/2017,Hibernian,Dunfermline,2,2,D
+SC1,25/02/2017,Queen of the South,Raith Rovers,2,1,H
+SC1,25/02/2017,Dundee Utd,Morton,1,1,D
+SC1,25/02/2017,Ayr Utd,St Mirren,0,2,A
+SC1,25/03/2017,Morton,Dunfermline,0,1,A
+SC1,25/03/2017,Raith Rovers,Queen of the South,1,1,D
+SC1,25/03/2017,Ayr Utd,Dumbarton,2,1,H
+SC1,25/03/2017,Hibernian,Falkirk,2,1,H
+SC1,26/04/2017,Hibernian,Raith Rovers,3,2,H
+SC1,26/12/2016,Dunfermline,Falkirk,1,1,D
+SC1,27/08/2016,Dunfermline,Queen of the South,0,1,A
+SC1,27/08/2016,Ayr Utd,St Mirren,1,1,D
+SC1,27/08/2016,Dundee Utd,Raith Rovers,2,2,D
+SC1,27/08/2016,Hibernian,Morton,4,0,H
+SC1,27/08/2016,Falkirk,Dumbarton,1,0,H
+SC1,28/01/2017,Raith Rovers,Dumbarton,1,3,A
+SC1,28/01/2017,Ayr Utd,Morton,1,4,A
+SC1,28/01/2017,Dunfermline,Dundee Utd,1,1,D
+SC1,28/01/2017,Queen of the South,Hibernian,0,1,A
+SC1,28/01/2017,St Mirren,Falkirk,1,2,A
+SC1,28/02/2017,Ayr Utd,Raith Rovers,1,0,H
+SC1,28/03/2017,Dundee Utd,Ayr Utd,2,1,H
+SC1,29/03/2017,Hibernian,Morton,0,0,D
+SC1,29/04/2017,Dundee Utd,Dumbarton,2,2,D
+SC1,29/04/2017,St Mirren,Raith Rovers,5,0,H
+SC1,29/04/2017,Ayr Utd,Hibernian,0,4,A
+SC1,29/04/2017,Dunfermline,Morton,3,1,H
+SC1,29/04/2017,Falkirk,Queen of the South,2,2,D
+SC1,29/10/2016,Hibernian,St Mirren,2,0,H
+SC1,29/10/2016,Dumbarton,Dunfermline,2,2,D
+SC1,29/10/2016,Morton,Ayr Utd,2,1,H
+SC1,29/10/2016,Dundee Utd,Falkirk,1,0,H
+SC1,29/10/2016,Raith Rovers,Queen of the South,1,0,H
+SC1,31/12/2016,Dumbarton,Dundee Utd,1,0,H
+SC1,31/12/2016,Queen of the South,Ayr Utd,0,0,D
+SC1,31/12/2016,St Mirren,Morton,1,1,D
+SC1,31/12/2016,Falkirk,Hibernian,1,2,A

@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+I1,01/03/2019,Cagliari,Inter,2,1,H
+I1,01/09/2018,Bologna,Inter,0,3,A
+I1,01/09/2018,Parma,Juventus,1,2,A
+I1,01/10/2018,Sampdoria,Spal,2,1,H
+I1,01/12/2018,Sampdoria,Bologna,4,1,H
+I1,01/12/2018,Fiorentina,Juventus,0,3,A
+I1,01/12/2018,Spal,Empoli,2,2,D
+I1,02/02/2019,Juventus,Parma,3,3,D
+I1,02/02/2019,Napoli,Sampdoria,3,0,H
+I1,02/02/2019,Empoli,Chievo,2,2,D
+I1,02/03/2019,Empoli,Parma,3,3,D
+I1,02/03/2019,AC Milan,Sassuolo,1,0,H
+I1,02/03/2019,Lazio,AS Roma,3,0,H
+I1,02/04/2019,AC Milan,Udinese,1,1,D
+I1,02/04/2019,Cagliari,Juventus,0,2,A
+I1,02/09/2018,Atalanta,Cagliari,0,1,A
+I1,02/09/2018,Torino,Spal,1,0,H
+I1,02/09/2018,Sampdoria,Napoli,3,0,H
+I1,02/09/2018,Chievo,Empoli,0,0,D
+I1,02/09/2018,Sassuolo,Genoa,5,3,H
+I1,02/09/2018,Lazio,Frosinone,1,0,H
+I1,02/09/2018,Fiorentina,Udinese,1,0,H
+I1,02/11/2018,Napoli,Empoli,5,1,H
+I1,02/12/2018,Frosinone,Cagliari,1,1,D
+I1,02/12/2018,AC Milan,Parma,2,1,H
+I1,02/12/2018,Sassuolo,Udinese,0,0,D
+I1,02/12/2018,AS Roma,Inter,2,2,D
+I1,02/12/2018,Chievo,Lazio,1,1,D
+I1,02/12/2018,Torino,Genoa,2,1,H
+I1,03/02/2019,Genoa,Sassuolo,1,1,D
+I1,03/02/2019,Udinese,Fiorentina,1,1,D
+I1,03/02/2019,Spal,Torino,0,0,D
+I1,03/02/2019,Inter,Bologna,0,1,A
+I1,03/02/2019,AS Roma,AC Milan,1,1,D
+I1,03/03/2019,Torino,Chievo,3,0,H
+I1,03/03/2019,Spal,Sampdoria,1,2,A
+I1,03/03/2019,Atalanta,Fiorentina,3,1,H
+I1,03/03/2019,Genoa,Frosinone,0,0,D
+I1,03/03/2019,Udinese,Bologna,2,1,H
+I1,03/03/2019,Napoli,Juventus,1,2,A
+I1,03/04/2019,Empoli,Napoli,2,1,H
+I1,03/04/2019,Spal,Lazio,1,0,H
+I1,03/04/2019,Genoa,Inter,0,4,A
+I1,03/04/2019,AS Roma,Fiorentina,2,2,D
+I1,03/04/2019,Torino,Sampdoria,2,1,H
+I1,03/04/2019,Frosinone,Parma,3,2,H
+I1,03/05/2019,Juventus,Torino,1,1,D
+I1,03/11/2018,Juventus,Cagliari,3,1,H
+I1,03/11/2018,Inter,Genoa,5,0,H
+I1,03/11/2018,Fiorentina,AS Roma,1,1,D
+I1,03/12/2018,Atalanta,Napoli,1,2,A
+I1,04/02/2019,Frosinone,Lazio,0,1,A
+I1,04/02/2019,Cagliari,Atalanta,0,1,A
+I1,04/04/2019,Atalanta,Bologna,4,1,H
+I1,04/04/2019,Sassuolo,Chievo,4,0,H
+I1,04/05/2019,Chievo,Spal,0,4,A
+I1,04/05/2019,Udinese,Inter,0,0,D
+I1,04/11/2018,Lazio,Spal,4,1,H
+I1,04/11/2018,Udinese,AC Milan,0,1,A
+I1,04/11/2018,Parma,Frosinone,0,0,D
+I1,04/11/2018,Bologna,Atalanta,1,2,A
+I1,04/11/2018,Sampdoria,Torino,1,4,A
+I1,04/11/2018,Chievo,Sassuolo,0,2,A
+I1,05/05/2019,Empoli,Fiorentina,1,0,H
+I1,05/05/2019,Lazio,Atalanta,1,3,A
+I1,05/05/2019,Sassuolo,Frosinone,2,2,D
+I1,05/05/2019,Napoli,Cagliari,2,1,H
+I1,05/05/2019,Genoa,AS Roma,1,1,D
+I1,05/05/2019,Parma,Sampdoria,3,3,D
+I1,05/10/2018,Torino,Frosinone,3,2,H
+I1,06/04/2019,Parma,Torino,0,0,D
+I1,06/04/2019,Juventus,AC Milan,2,1,H
+I1,06/04/2019,Sampdoria,AS Roma,0,1,A
+I1,06/05/2019,AC Milan,Bologna,2,1,H
+I1,06/10/2018,Udinese,Juventus,0,2,A
+I1,06/10/2018,Cagliari,Bologna,2,0,H
+I1,06/10/2018,Empoli,AS Roma,0,2,A
+I1,07/02/2019,Lazio,Empoli,1,0,H
+I1,07/04/2019,Lazio,Sassuolo,2,2,D
+I1,07/04/2019,Fiorentina,Frosinone,0,1,A
+I1,07/04/2019,Cagliari,Spal,2,1,H
+I1,07/04/2019,Udinese,Empoli,3,2,H
+I1,07/04/2019,Napoli,Genoa,1,1,D
+I1,07/04/2019,Inter,Atalanta,0,0,D
+I1,07/10/2018,Spal,Inter,1,2,A
+I1,07/10/2018,Napoli,Sassuolo,2,0,H
+I1,07/10/2018,Atalanta,Sampdoria,0,1,A
+I1,07/10/2018,AC Milan,Chievo,3,1,H
+I1,07/10/2018,Lazio,Fiorentina,1,0,H
+I1,07/10/2018,Genoa,Parma,1,3,A
+I1,07/12/2018,Juventus,Inter,1,0,H
+I1,08/02/2019,Chievo,AS Roma,0,3,A
+I1,08/03/2019,Juventus,Udinese,4,1,H
+I1,08/04/2019,Bologna,Chievo,3,0,H
+I1,08/12/2018,Napoli,Frosinone,4,0,H
+I1,08/12/2018,Cagliari,AS Roma,2,2,D
+I1,08/12/2018,Lazio,Sampdoria,2,2,D
+I1,09/02/2019,Fiorentina,Napoli,0,0,D
+I1,09/02/2019,Parma,Inter,0,1,A
+I1,09/03/2019,Parma,Genoa,1,0,H
+I1,09/03/2019,Chievo,AC Milan,1,2,A
+I1,09/11/2018,Frosinone,Fiorentina,1,1,D
+I1,09/12/2018,Empoli,Bologna,2,1,H
+I1,09/12/2018,Sassuolo,Fiorentina,3,3,D
+I1,09/12/2018,AC Milan,Torino,0,0,D
+I1,09/12/2018,Parma,Chievo,1,1,D
+I1,09/12/2018,Genoa,Spal,1,1,D
+I1,09/12/2018,Udinese,Atalanta,1,3,A
+I1,10/02/2019,AC Milan,Cagliari,3,0,H
+I1,10/02/2019,Sampdoria,Frosinone,0,1,A
+I1,10/02/2019,Bologna,Genoa,1,1,D
+I1,10/02/2019,Sassuolo,Juventus,0,3,A
+I1,10/02/2019,Atalanta,Spal,2,1,H
+I1,10/02/2019,Torino,Udinese,1,0,H
+I1,10/03/2019,Sampdoria,Atalanta,1,2,A
+I1,10/03/2019,Inter,Spal,2,0,H
+I1,10/03/2019,Frosinone,Torino,1,2,A
+I1,10/03/2019,Sassuolo,Napoli,1,1,D
+I1,10/03/2019,Bologna,Cagliari,2,0,H
+I1,10/03/2019,Fiorentina,Lazio,1,1,D
+I1,10/11/2018,Genoa,Napoli,1,2,A
+I1,10/11/2018,Spal,Cagliari,2,2,D
+I1,10/11/2018,Torino,Parma,1,2,A
+I1,11/03/2019,AS Roma,Empoli,2,1,H
+I1,11/05/2019,Fiorentina,AC Milan,0,1,A
+I1,11/05/2019,Atalanta,Genoa,2,1,H
+I1,11/05/2019,Cagliari,Lazio,1,2,A
+I1,11/11/2018,Sassuolo,Lazio,1,1,D
+I1,11/11/2018,Empoli,Udinese,2,1,H
+I1,11/11/2018,AS Roma,Sampdoria,4,1,H
+I1,11/11/2018,Chievo,Bologna,2,2,D
+I1,11/11/2018,Atalanta,Inter,4,1,H
+I1,11/11/2018,AC Milan,Juventus,0,2,A
+I1,12/05/2019,Sampdoria,Empoli,1,2,A
+I1,12/05/2019,Torino,Sassuolo,3,2,H
+I1,12/05/2019,Spal,Napoli,1,2,A
+I1,12/05/2019,Frosinone,Udinese,1,3,A
+I1,12/05/2019,AS Roma,Juventus,2,0,H
+I1,13/04/2019,AS Roma,Udinese,1,0,H
+I1,13/04/2019,Spal,Juventus,2,1,H
+I1,13/04/2019,AC Milan,Lazio,1,0,H
+I1,13/05/2019,Bologna,Parma,4,1,H
+I1,13/05/2019,Inter,Chievo,2,0,H
+I1,14/04/2019,Chievo,Napoli,1,3,A
+I1,14/04/2019,Frosinone,Inter,1,3,A
+I1,14/04/2019,Fiorentina,Bologna,0,0,D
+I1,14/04/2019,Sampdoria,Genoa,2,0,H
+I1,14/04/2019,Sassuolo,Parma,0,0,D
+I1,14/04/2019,Torino,Cagliari,1,1,D
+I1,15/02/2019,Juventus,Frosinone,3,0,H
+I1,15/03/2019,Cagliari,Fiorentina,2,1,H
+I1,15/04/2019,Atalanta,Empoli,0,0,D
+I1,15/09/2018,Inter,Parma,0,1,A
+I1,15/09/2018,Frosinone,Sampdoria,0,5,A
+I1,15/09/2018,Napoli,Fiorentina,1,0,H
+I1,15/12/2018,Inter,Udinese,1,0,H
+I1,15/12/2018,Torino,Juventus,0,1,A
+I1,16/02/2019,Atalanta,AC Milan,1,3,A
+I1,16/02/2019,Cagliari,Parma,2,1,H
+I1,16/03/2019,Torino,Bologna,2,3,A
+I1,16/03/2019,Spal,AS Roma,2,1,H
+I1,16/03/2019,Sassuolo,Sampdoria,3,5,A
+I1,16/09/2018,Juventus,Sassuolo,2,1,H
+I1,16/09/2018,Empoli,Lazio,0,1,A
+I1,16/09/2018,Cagliari,AC Milan,1,1,D
+I1,16/09/2018,AS Roma,Chievo,2,2,D
+I1,16/09/2018,Udinese,Torino,1,1,D
+I1,16/09/2018,Genoa,Bologna,1,0,H
+I1,16/12/2018,Fiorentina,Empoli,3,1,H
+I1,16/12/2018,Frosinone,Sassuolo,0,2,A
+I1,16/12/2018,Cagliari,Napoli,0,1,A
+I1,16/12/2018,AS Roma,Genoa,3,2,H
+I1,16/12/2018,Sampdoria,Parma,2,0,H
+I1,16/12/2018,Spal,Chievo,0,0,D
+I1,17/02/2019,Udinese,Chievo,1,0,H
+I1,17/02/2019,Spal,Fiorentina,1,4,A
+I1,17/02/2019,Inter,Sampdoria,2,1,H
+I1,17/02/2019,Genoa,Lazio,2,1,H
+I1,17/02/2019,Napoli,Torino,0,0,D
+I1,17/02/2019,Empoli,Sassuolo,3,0,H
+I1,17/03/2019,AC Milan,Inter,2,3,A
+I1,17/03/2019,Napoli,Udinese,4,2,H
+I1,17/03/2019,Empoli,Frosinone,2,1,H
+I1,17/03/2019,Atalanta,Chievo,1,1,D
+I1,17/03/2019,Genoa,Juventus,2,0,H
+I1,17/03/2019,Lazio,Parma,4,1,H
+I1,17/04/2019,Lazio,Udinese,2,0,H
+I1,17/09/2018,Spal,Atalanta,2,0,H
+I1,17/12/2018,Atalanta,Lazio,1,0,H
+I1,18/02/2019,AS Roma,Bologna,2,1,H
+I1,18/05/2019,Udinese,Spal,3,2,H
+I1,18/05/2019,Sassuolo,AS Roma,0,0,D
+I1,18/05/2019,Genoa,Cagliari,1,1,D
+I1,18/08/2018,Chievo,Juventus,2,3,A
+I1,18/08/2018,Lazio,Napoli,1,2,A
+I1,18/12/2018,Bologna,AC Milan,0,0,D
+I1,19/01/2019,Inter,Sassuolo,0,0,D
+I1,19/01/2019,Udinese,Parma,1,2,A
+I1,19/01/2019,AS Roma,Torino,3,2,H
+I1,19/05/2019,Juventus,Atalanta,1,1,D
+I1,19/05/2019,Napoli,Inter,4,1,H
+I1,19/05/2019,AC Milan,Frosinone,2,0,H
+I1,19/05/2019,Chievo,Sampdoria,0,0,D
+I1,19/05/2019,Parma,Fiorentina,1,0,H
+I1,19/05/2019,Empoli,Torino,4,1,H
+I1,19/08/2018,Torino,AS Roma,0,1,A
+I1,19/08/2018,Sassuolo,Inter,1,0,H
+I1,19/08/2018,Bologna,Spal,0,1,A
+I1,19/08/2018,Empoli,Cagliari,2,0,H
+I1,19/08/2018,Parma,Udinese,2,2,D
+I1,19/09/2018,Sampdoria,Fiorentina,1,1,D
+I1,20/01/2019,Napoli,Lazio,2,1,H
+I1,20/01/2019,Cagliari,Empoli,2,2,D
+I1,20/01/2019,Fiorentina,Sampdoria,3,3,D
+I1,20/01/2019,Frosinone,Atalanta,0,5,A
+I1,20/01/2019,Spal,Bologna,1,1,D
+I1,20/04/2019,Bologna,Sampdoria,3,0,H
+I1,20/04/2019,Juventus,Fiorentina,2,1,H
+I1,20/04/2019,Empoli,Spal,2,4,A
+I1,20/04/2019,Genoa,Torino,0,1,A
+I1,20/04/2019,Udinese,Sassuolo,1,1,D
+I1,20/04/2019,Cagliari,Frosinone,1,0,H
+I1,20/04/2019,Lazio,Chievo,1,2,A
+I1,20/04/2019,Parma,AC Milan,1,1,D
+I1,20/04/2019,Inter,AS Roma,1,1,D
+I1,20/05/2019,Lazio,Bologna,3,3,D
+I1,20/08/2018,Atalanta,Frosinone,4,0,H
+I1,20/10/2018,AS Roma,Spal,0,2,A
+I1,20/10/2018,Juventus,Genoa,1,1,D
+I1,20/10/2018,Udinese,Napoli,0,3,A
+I1,21/01/2019,Juventus,Chievo,3,0,H
+I1,21/01/2019,Genoa,AC Milan,0,2,A
+I1,21/09/2018,Sassuolo,Empoli,3,1,H
+I1,21/10/2018,Inter,AC Milan,1,0,H
+I1,21/10/2018,Fiorentina,Cagliari,1,1,D
+I1,21/10/2018,Parma,Lazio,0,2,A
+I1,21/10/2018,Bologna,Torino,2,2,D
+I1,21/10/2018,Chievo,Atalanta,1,5,A
+I1,21/10/2018,Frosinone,Empoli,3,3,D
+I1,22/02/2019,AC Milan,Empoli,3,0,H
+I1,22/04/2019,Napoli,Atalanta,1,2,A
+I1,22/09/2018,Parma,Cagliari,2,0,H
+I1,22/09/2018,Fiorentina,Spal,3,0,H
+I1,22/09/2018,Sampdoria,Inter,0,1,A
+I1,22/10/2018,Sampdoria,Sassuolo,0,0,D
+I1,22/12/2018,Sassuolo,Torino,1,1,D
+I1,22/12/2018,Genoa,Atalanta,3,1,H
+I1,22/12/2018,Udinese,Frosinone,1,1,D
+I1,22/12/2018,Napoli,Spal,1,0,H
+I1,22/12/2018,AC Milan,Fiorentina,0,1,A
+I1,22/12/2018,Parma,Bologna,0,0,D
+I1,22/12/2018,Chievo,Inter,1,1,D
+I1,22/12/2018,Lazio,Cagliari,3,1,H
+I1,22/12/2018,Juventus,AS Roma,1,0,H
+I1,22/12/2018,Empoli,Sampdoria,2,4,A
+I1,23/02/2019,Frosinone,AS Roma,2,3,A
+I1,23/02/2019,Torino,Atalanta,2,0,H
+I1,23/09/2018,Frosinone,Juventus,0,2,A
+I1,23/09/2018,AC Milan,Atalanta,2,2,D
+I1,23/09/2018,Bologna,AS Roma,2,0,H
+I1,23/09/2018,Chievo,Udinese,0,2,A
+I1,23/09/2018,Lazio,Genoa,4,1,H
+I1,23/09/2018,Torino,Napoli,1,3,A
+I1,24/02/2019,Sassuolo,Spal,1,1,D
+I1,24/02/2019,Chievo,Genoa,0,0,D
+I1,24/02/2019,Bologna,Juventus,0,1,A
+I1,24/02/2019,Sampdoria,Cagliari,1,0,H
+I1,24/02/2019,Fiorentina,Inter,3,3,D
+I1,24/02/2019,Parma,Napoli,0,4,A
+I1,24/11/2018,Inter,Frosinone,3,0,H
+I1,24/11/2018,Juventus,Spal,2,0,H
+I1,24/11/2018,Udinese,AS Roma,1,0,H
+I1,25/05/2019,Bologna,Napoli,3,2,H
+I1,25/05/2019,Frosinone,Chievo,0,0,D
+I1,25/08/2018,Juventus,Lazio,2,0,H
+I1,25/08/2018,Napoli,AC Milan,3,2,H
+I1,25/09/2018,Inter,Fiorentina,2,1,H
+I1,25/11/2018,Napoli,Chievo,0,0,D
+I1,25/11/2018,Bologna,Fiorentina,0,0,D
+I1,25/11/2018,Lazio,AC Milan,1,1,D
+I1,25/11/2018,Parma,Sassuolo,2,1,H
+I1,25/11/2018,Empoli,Atalanta,3,2,H
+I1,25/11/2018,Genoa,Sampdoria,1,1,D
+I1,26/01/2019,AC Milan,Napoli,0,0,D
+I1,26/01/2019,Sampdoria,Udinese,4,0,H
+I1,26/01/2019,Sassuolo,Cagliari,3,0,H
+I1,26/05/2019,Sampdoria,Juventus,2,0,H
+I1,26/05/2019,AS Roma,Parma,2,1,H
+I1,26/05/2019,Cagliari,Udinese,1,2,A
+I1,26/05/2019,Torino,Lazio,3,1,H
+I1,26/05/2019,Atalanta,Sassuolo,3,1,H
+I1,26/05/2019,Spal,AC Milan,2,3,A
+I1,26/05/2019,Inter,Empoli,2,1,H
+I1,26/05/2019,Fiorentina,Genoa,0,0,D
+I1,26/08/2018,Spal,Parma,1,0,H
+I1,26/08/2018,Cagliari,Sassuolo,2,2,D
+I1,26/08/2018,Udinese,Sampdoria,1,0,H
+I1,26/08/2018,Genoa,Empoli,2,1,H
+I1,26/08/2018,Fiorentina,Chievo,6,1,H
+I1,26/08/2018,Inter,Torino,2,2,D
+I1,26/08/2018,Frosinone,Bologna,0,0,D
+I1,26/09/2018,Genoa,Chievo,2,0,H
+I1,26/09/2018,Juventus,Bologna,2,0,H
+I1,26/09/2018,Napoli,Parma,3,0,H
+I1,26/09/2018,Cagliari,Sampdoria,0,0,D
+I1,26/09/2018,Udinese,Lazio,1,2,A
+I1,26/09/2018,Atalanta,Torino,0,0,D
+I1,26/09/2018,AS Roma,Frosinone,4,0,H
+I1,26/11/2018,Cagliari,Torino,0,0,D
+I1,26/12/2018,Fiorentina,Parma,0,1,A
+I1,26/12/2018,AS Roma,Sassuolo,3,1,H
+I1,26/12/2018,Torino,Empoli,3,0,H
+I1,26/12/2018,Sampdoria,Chievo,2,0,H
+I1,26/12/2018,Cagliari,Genoa,1,0,H
+I1,26/12/2018,Frosinone,AC Milan,0,0,D
+I1,26/12/2018,Inter,Napoli,1,0,H
+I1,26/12/2018,Bologna,Lazio,0,2,A
+I1,26/12/2018,Atalanta,Juventus,2,2,D
+I1,26/12/2018,Spal,Udinese,0,0,D
+I1,27/01/2019,Lazio,Juventus,1,2,A
+I1,27/01/2019,Chievo,Fiorentina,3,4,A
+I1,27/01/2019,Atalanta,AS Roma,3,3,D
+I1,27/01/2019,Bologna,Frosinone,0,4,A
+I1,27/01/2019,Parma,Spal,2,3,A
+I1,27/01/2019,Torino,Inter,1,0,H
+I1,27/04/2019,Inter,Juventus,1,1,D
+I1,27/04/2019,AS Roma,Cagliari,3,0,H
+I1,27/04/2019,Bologna,Empoli,3,1,H
+I1,27/08/2018,AS Roma,Atalanta,3,3,D
+I1,27/09/2018,Empoli,AC Milan,1,1,D
+I1,27/09/2018,Spal,Sassuolo,0,2,A
+I1,27/10/2018,Empoli,Juventus,1,2,A
+I1,27/10/2018,Torino,Fiorentina,1,1,D
+I1,27/10/2018,Atalanta,Parma,3,0,H
+I1,28/01/2019,Empoli,Genoa,1,3,A
+I1,28/04/2019,Torino,AC Milan,2,0,H
+I1,28/04/2019,Sampdoria,Lazio,1,2,A
+I1,28/04/2019,Chievo,Parma,1,1,D
+I1,28/04/2019,Frosinone,Napoli,0,2,A
+I1,28/04/2019,Spal,Genoa,1,1,D
+I1,28/10/2018,Napoli,AS Roma,1,1,D
+I1,28/10/2018,AC Milan,Sampdoria,3,2,H
+I1,28/10/2018,Genoa,Udinese,2,2,D
+I1,28/10/2018,Spal,Frosinone,0,3,A
+I1,28/10/2018,Cagliari,Chievo,2,1,H
+I1,28/10/2018,Sassuolo,Bologna,2,2,D
+I1,29/03/2019,Chievo,Cagliari,0,3,A
+I1,29/04/2019,Atalanta,Udinese,2,0,H
+I1,29/04/2019,Fiorentina,Sassuolo,0,1,A
+I1,29/09/2018,AS Roma,Lazio,3,1,H
+I1,29/09/2018,Juventus,Napoli,3,1,H
+I1,29/09/2018,Inter,Cagliari,2,0,H
+I1,29/10/2018,Lazio,Inter,0,3,A
+I1,29/12/2018,AC Milan,Spal,2,1,H
+I1,29/12/2018,Genoa,Fiorentina,0,0,D
+I1,29/12/2018,Napoli,Bologna,3,2,H
+I1,29/12/2018,Parma,AS Roma,0,2,A
+I1,29/12/2018,Empoli,Inter,0,1,A
+I1,29/12/2018,Juventus,Sampdoria,2,1,H
+I1,29/12/2018,Lazio,Torino,1,1,D
+I1,29/12/2018,Sassuolo,Atalanta,2,6,A
+I1,29/12/2018,Chievo,Frosinone,1,0,H
+I1,29/12/2018,Udinese,Cagliari,2,0,H
+I1,30/03/2019,Sampdoria,AC Milan,1,0,H
+I1,30/03/2019,Juventus,Empoli,1,0,H
+I1,30/03/2019,Udinese,Genoa,2,0,H
+I1,30/09/2018,Fiorentina,Atalanta,2,0,H
+I1,30/09/2018,Sassuolo,AC Milan,1,4,A
+I1,30/09/2018,Parma,Empoli,1,0,H
+I1,30/09/2018,Bologna,Udinese,2,1,H
+I1,30/09/2018,Chievo,Torino,0,1,A
+I1,30/09/2018,Frosinone,Genoa,1,2,A
+I1,31/03/2019,Inter,Lazio,0,1,A
+I1,31/03/2019,Parma,Atalanta,1,3,A
+I1,31/03/2019,AS Roma,Napoli,1,4,A
+I1,31/03/2019,Fiorentina,Torino,1,1,D
+I1,31/03/2019,Frosinone,Spal,0,1,A
+I1,31/03/2019,Bologna,Sassuolo,2,1,H
+I1,31/08/2018,AC Milan,AS Roma,2,1,H
+I1,31/10/2018,AC Milan,Genoa,2,1,H

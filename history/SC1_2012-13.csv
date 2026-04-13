@@ -1,0 +1,181 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/09/2012,Airdrie United,Cowdenbeath,0,3,A
+SC1,01/09/2012,Dunfermline,Raith Rovers,3,1,H
+SC1,01/09/2012,Morton,Dumbarton,3,0,H
+SC1,01/09/2012,Partick,Hamilton Academical,4,0,H
+SC1,02/01/2013,Morton,Dumbarton,0,3,A
+SC1,02/01/2013,Dunfermline,Raith Rovers,1,0,H
+SC1,02/01/2013,Airdrie United,Cowdenbeath,1,1,D
+SC1,02/02/2013,Dumbarton,Livingston,3,4,A
+SC1,02/03/2013,Dunfermline,Partick,0,4,A
+SC1,02/03/2013,Livingston,Airdrie United,4,1,H
+SC1,02/03/2013,Dumbarton,Cowdenbeath,2,2,D
+SC1,02/04/2013,Raith Rovers,Partick,0,0,D
+SC1,02/04/2013,Livingston,Falkirk,1,2,A
+SC1,02/04/2013,Hamilton Academical,Dumbarton,2,1,H
+SC1,02/09/2012,Falkirk,Livingston,1,2,A
+SC1,04/05/2013,Dunfermline,Airdrie United,1,2,A
+SC1,04/05/2013,Falkirk,Morton,4,1,H
+SC1,04/05/2013,Dumbarton,Partick,0,0,D
+SC1,04/05/2013,Livingston,Raith Rovers,2,3,A
+SC1,04/05/2013,Hamilton Academical,Cowdenbeath,1,3,A
+SC1,05/01/2013,Cowdenbeath,Morton,1,1,D
+SC1,05/01/2013,Raith Rovers,Airdrie United,2,0,H
+SC1,05/01/2013,Hamilton Academical,Falkirk,1,1,D
+SC1,05/01/2013,Livingston,Partick,2,2,D
+SC1,05/01/2013,Dumbarton,Dunfermline,0,1,A
+SC1,05/03/2013,Falkirk,Raith Rovers,1,1,D
+SC1,05/03/2013,Hamilton Academical,Morton,2,1,H
+SC1,06/04/2013,Morton,Airdrie United,5,2,H
+SC1,06/04/2013,Falkirk,Cowdenbeath,4,0,H
+SC1,06/04/2013,Dunfermline,Hamilton Academical,2,3,A
+SC1,06/04/2013,Dumbarton,Livingston,0,3,A
+SC1,06/10/2012,Airdrie United,Hamilton Academical,0,4,A
+SC1,06/10/2012,Falkirk,Dunfermline,2,2,D
+SC1,06/10/2012,Raith Rovers,Dumbarton,2,2,D
+SC1,06/10/2012,Livingston,Cowdenbeath,1,1,D
+SC1,06/10/2012,Morton,Partick,3,1,H
+SC1,08/12/2012,Livingston,Dunfermline,2,1,H
+SC1,08/12/2012,Raith Rovers,Morton,3,3,D
+SC1,09/02/2013,Airdrie United,Morton,0,4,A
+SC1,09/02/2013,Hamilton Academical,Dunfermline,1,2,A
+SC1,09/02/2013,Livingston,Dumbarton,2,3,A
+SC1,09/02/2013,Cowdenbeath,Falkirk,4,1,H
+SC1,09/03/2013,Partick,Dumbarton,3,0,H
+SC1,09/03/2013,Raith Rovers,Livingston,0,2,A
+SC1,09/03/2013,Cowdenbeath,Hamilton Academical,1,1,D
+SC1,09/03/2013,Airdrie United,Dunfermline,3,3,D
+SC1,09/03/2013,Morton,Falkirk,2,0,H
+SC1,09/04/2013,Hamilton Academical,Airdrie United,5,0,H
+SC1,09/04/2013,Dumbarton,Raith Rovers,1,2,A
+SC1,09/04/2013,Cowdenbeath,Livingston,2,2,D
+SC1,09/11/2012,Airdrie United,Livingston,1,3,A
+SC1,10/04/2013,Partick,Morton,1,0,H
+SC1,10/11/2012,Cowdenbeath,Dumbarton,0,1,A
+SC1,10/11/2012,Partick,Dunfermline,5,1,H
+SC1,10/11/2012,Morton,Hamilton Academical,0,1,A
+SC1,10/11/2012,Raith Rovers,Falkirk,2,1,H
+SC1,11/08/2012,Partick,Falkirk,3,1,H
+SC1,11/08/2012,Morton,Livingston,2,2,D
+SC1,11/08/2012,Raith Rovers,Hamilton Academical,2,0,H
+SC1,11/08/2012,Cowdenbeath,Dunfermline,0,4,A
+SC1,11/08/2012,Airdrie United,Dumbarton,4,1,H
+SC1,12/01/2013,Livingston,Raith Rovers,2,1,H
+SC1,12/01/2013,Dunfermline,Airdrie United,1,3,A
+SC1,12/01/2013,Dumbarton,Partick,2,0,H
+SC1,12/01/2013,Hamilton Academical,Cowdenbeath,2,1,H
+SC1,12/01/2013,Falkirk,Morton,0,1,A
+SC1,12/02/2013,Cowdenbeath,Dunfermline,4,2,H
+SC1,13/04/2013,Raith Rovers,Cowdenbeath,0,1,A
+SC1,13/04/2013,Morton,Dunfermline,0,1,A
+SC1,13/04/2013,Livingston,Hamilton Academical,0,3,A
+SC1,13/04/2013,Airdrie United,Partick,1,2,A
+SC1,15/09/2012,Dumbarton,Dunfermline,0,2,A
+SC1,15/09/2012,Cowdenbeath,Morton,3,4,A
+SC1,15/09/2012,Raith Rovers,Airdrie United,2,0,H
+SC1,15/09/2012,Livingston,Partick,1,2,A
+SC1,15/09/2012,Hamilton Academical,Falkirk,1,1,D
+SC1,15/12/2012,Partick,Raith Rovers,3,2,H
+SC1,15/12/2012,Falkirk,Cowdenbeath,2,0,H
+SC1,15/12/2012,Dunfermline,Hamilton Academical,1,1,D
+SC1,15/12/2012,Morton,Airdrie United,2,0,H
+SC1,16/02/2013,Falkirk,Dunfermline,1,0,H
+SC1,16/02/2013,Livingston,Cowdenbeath,3,0,H
+SC1,16/02/2013,Morton,Partick,2,2,D
+SC1,16/02/2013,Raith Rovers,Dumbarton,3,2,H
+SC1,16/02/2013,Airdrie United,Hamilton Academical,2,2,D
+SC1,16/03/2013,Hamilton Academical,Partick,0,2,A
+SC1,16/03/2013,Cowdenbeath,Airdrie United,3,2,H
+SC1,16/03/2013,Dumbarton,Morton,0,3,A
+SC1,16/03/2013,Raith Rovers,Dunfermline,1,1,D
+SC1,16/04/2013,Livingston,Hamilton Academical,0,0,D
+SC1,16/04/2013,Partick,Raith Rovers,0,0,D
+SC1,16/04/2013,Falkirk,Dumbarton,1,3,A
+SC1,16/11/2012,Hamilton Academical,Partick,1,0,H
+SC1,17/11/2012,Livingston,Falkirk,2,1,H
+SC1,17/11/2012,Dumbarton,Morton,1,5,A
+SC1,17/11/2012,Raith Rovers,Dunfermline,1,3,A
+SC1,17/11/2012,Cowdenbeath,Airdrie United,1,1,D
+SC1,18/08/2012,Livingston,Airdrie United,0,2,A
+SC1,18/08/2012,Dumbarton,Cowdenbeath,0,3,A
+SC1,18/08/2012,Dunfermline,Partick,0,1,A
+SC1,18/08/2012,Hamilton Academical,Morton,1,1,D
+SC1,18/08/2012,Falkirk,Raith Rovers,0,2,A
+SC1,19/01/2013,Raith Rovers,Hamilton Academical,0,2,A
+SC1,19/01/2013,Airdrie United,Dumbarton,1,2,A
+SC1,19/01/2013,Partick,Falkirk,4,1,H
+SC1,19/01/2013,Morton,Livingston,2,1,H
+SC1,19/02/2013,Partick,Hamilton Academical,1,0,H
+SC1,19/02/2013,Falkirk,Livingston,2,0,H
+SC1,20/04/2013,Livingston,Morton,0,2,A
+SC1,20/04/2013,Dumbarton,Airdrie United,4,1,H
+SC1,20/04/2013,Dunfermline,Cowdenbeath,1,0,H
+SC1,20/04/2013,Falkirk,Partick,0,2,A
+SC1,20/04/2013,Hamilton Academical,Raith Rovers,2,0,H
+SC1,20/10/2012,Partick,Airdrie United,7,0,H
+SC1,20/10/2012,Dunfermline,Morton,2,2,D
+SC1,20/10/2012,Dumbarton,Falkirk,0,2,A
+SC1,20/10/2012,Hamilton Academical,Livingston,1,2,A
+SC1,20/10/2012,Cowdenbeath,Raith Rovers,4,4,D
+SC1,22/09/2012,Dumbarton,Hamilton Academical,3,3,D
+SC1,22/09/2012,Falkirk,Airdrie United,1,1,D
+SC1,22/09/2012,Dunfermline,Livingston,4,0,H
+SC1,22/09/2012,Morton,Raith Rovers,1,0,H
+SC1,22/09/2012,Partick,Cowdenbeath,2,1,H
+SC1,22/12/2012,Airdrie United,Falkirk,1,4,A
+SC1,22/12/2012,Cowdenbeath,Livingston,1,1,D
+SC1,23/02/2013,Dunfermline,Morton,1,4,A
+SC1,23/02/2013,Hamilton Academical,Livingston,1,1,D
+SC1,23/02/2013,Partick,Airdrie United,1,0,H
+SC1,23/02/2013,Dumbarton,Falkirk,0,2,A
+SC1,23/02/2013,Cowdenbeath,Raith Rovers,1,1,D
+SC1,23/03/2013,Falkirk,Hamilton Academical,0,2,A
+SC1,23/03/2013,Airdrie United,Raith Rovers,1,2,A
+SC1,23/03/2013,Partick,Livingston,6,1,H
+SC1,23/03/2013,Morton,Cowdenbeath,4,2,H
+SC1,23/03/2013,Dunfermline,Dumbarton,3,4,A
+SC1,24/11/2012,Dunfermline,Dumbarton,4,0,H
+SC1,24/11/2012,Morton,Cowdenbeath,1,0,H
+SC1,24/11/2012,Falkirk,Hamilton Academical,2,1,H
+SC1,24/11/2012,Airdrie United,Raith Rovers,0,0,D
+SC1,24/11/2012,Partick,Livingston,2,0,H
+SC1,25/08/2012,Raith Rovers,Livingston,0,0,D
+SC1,25/08/2012,Airdrie United,Dunfermline,1,2,A
+SC1,25/08/2012,Cowdenbeath,Hamilton Academical,1,0,H
+SC1,25/08/2012,Morton,Falkirk,1,2,A
+SC1,25/08/2012,Partick,Dumbarton,3,0,H
+SC1,26/01/2013,Partick,Cowdenbeath,2,1,H
+SC1,26/01/2013,Dumbarton,Hamilton Academical,3,1,H
+SC1,26/01/2013,Morton,Raith Rovers,1,0,H
+SC1,26/01/2013,Dunfermline,Livingston,0,1,A
+SC1,26/01/2013,Falkirk,Airdrie United,4,3,H
+SC1,26/12/2012,Hamilton Academical,Airdrie United,3,0,H
+SC1,26/12/2012,Dunfermline,Falkirk,0,1,A
+SC1,26/12/2012,Partick,Morton,1,2,A
+SC1,27/03/2013,Dumbarton,Raith Rovers,4,2,H
+SC1,27/03/2013,Cowdenbeath,Partick,0,3,A
+SC1,27/03/2013,Dunfermline,Falkirk,0,2,A
+SC1,27/04/2013,Airdrie United,Livingston,0,2,A
+SC1,27/04/2013,Partick,Dunfermline,3,3,D
+SC1,27/04/2013,Raith Rovers,Falkirk,0,0,D
+SC1,27/04/2013,Cowdenbeath,Dumbarton,2,3,A
+SC1,27/04/2013,Morton,Hamilton Academical,0,2,A
+SC1,27/10/2012,Dumbarton,Airdrie United,3,4,A
+SC1,27/10/2012,Hamilton Academical,Raith Rovers,0,1,A
+SC1,27/10/2012,Dunfermline,Cowdenbeath,3,0,H
+SC1,27/10/2012,Falkirk,Partick,0,0,D
+SC1,27/10/2012,Livingston,Morton,2,2,D
+SC1,29/09/2012,Raith Rovers,Partick,1,1,D
+SC1,29/09/2012,Cowdenbeath,Falkirk,1,1,D
+SC1,29/09/2012,Hamilton Academical,Dunfermline,0,3,A
+SC1,29/09/2012,Livingston,Dumbarton,5,0,H
+SC1,29/09/2012,Airdrie United,Morton,2,3,A
+SC1,29/12/2012,Morton,Dunfermline,4,2,H
+SC1,29/12/2012,Raith Rovers,Cowdenbeath,2,2,D
+SC1,29/12/2012,Falkirk,Dumbarton,3,4,A
+SC1,29/12/2012,Airdrie United,Partick,1,1,D
+SC1,30/03/2013,Airdrie United,Falkirk,0,1,A
+SC1,30/03/2013,Cowdenbeath,Partick,1,2,A
+SC1,30/03/2013,Livingston,Dunfermline,2,2,D
+SC1,30/03/2013,Hamilton Academical,Dumbarton,2,3,A
+SC1,30/03/2013,Raith Rovers,Morton,2,1,H

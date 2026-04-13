@@ -1,0 +1,472 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+I2,01/05/2018,Carpi,Empoli,0,0,D
+I2,01/05/2018,Virtus Entella,Ascoli,1,1,D
+I2,01/05/2018,Cremonese,Novara,1,1,D
+I2,01/05/2018,PRO Vercelli,Venezia,0,2,A
+I2,01/05/2018,Pescara,Cesena,0,0,D
+I2,01/05/2018,Foggia,Spezia,2,1,H
+I2,01/05/2018,Parma,Ternana,2,0,H
+I2,01/05/2018,Brescia,Frosinone,1,2,A
+I2,01/05/2018,Avellino,Cittadella,0,2,A
+I2,01/05/2018,Perugia,Salernitana,1,1,D
+I2,01/10/2017,Foggia,Novara,2,2,D
+I2,02/02/2018,Empoli,Palermo,4,0,H
+I2,02/04/2018,Foggia,Empoli,0,3,A
+I2,02/04/2018,Avellino,Bari,1,2,A
+I2,02/04/2018,Carpi,Venezia,0,0,D
+I2,02/04/2018,Parma,Palermo,3,2,H
+I2,02/09/2017,Brescia,Palermo,0,0,D
+I2,02/10/2017,Frosinone,Cremonese,0,0,D
+I2,02/12/2017,Palermo,Venezia,0,0,D
+I2,02/12/2017,Pescara,Ternana,3,3,D
+I2,02/12/2017,Parma,PRO Vercelli,3,0,H
+I2,02/12/2017,Foggia,Cittadella,1,3,A
+I2,02/12/2017,Cremonese,Spezia,1,0,H
+I2,02/12/2017,Brescia,Salernitana,2,0,H
+I2,02/12/2017,Novara,Empoli,1,1,D
+I2,02/12/2017,Frosinone,Cesena,3,3,D
+I2,03/02/2018,Venezia,Bari,3,1,H
+I2,03/02/2018,Frosinone,Pescara,3,0,H
+I2,03/02/2018,Perugia,Cittadella,1,3,A
+I2,03/02/2018,Foggia,Avellino,2,1,H
+I2,03/02/2018,Novara,Ascoli,1,2,A
+I2,03/02/2018,Brescia,Parma,2,1,H
+I2,03/02/2018,Salernitana,Carpi,1,2,A
+I2,03/02/2018,Cremonese,PRO Vercelli,2,3,A
+I2,03/03/2018,Ascoli,Salernitana,1,3,A
+I2,03/03/2018,Cittadella,Pescara,2,0,H
+I2,03/03/2018,Frosinone,Novara,1,0,H
+I2,03/03/2018,Ternana,Cremonese,2,1,H
+I2,03/03/2018,Spezia,Cesena,1,2,A
+I2,03/04/2018,Brescia,Virtus Entella,0,0,D
+I2,03/04/2018,PRO Vercelli,Perugia,0,2,A
+I2,03/06/2018,Venezia,Perugia,3,0,H
+I2,03/09/2017,Empoli,Bari,3,2,H
+I2,03/09/2017,Ascoli,PRO Vercelli,1,0,H
+I2,03/09/2017,Cesena,Venezia,0,0,D
+I2,03/09/2017,Frosinone,Cittadella,2,1,H
+I2,03/09/2017,Novara,Parma,0,1,A
+I2,03/09/2017,Spezia,Carpi,0,1,A
+I2,03/09/2017,Foggia,Virtus Entella,1,1,D
+I2,03/09/2017,Perugia,Pescara,4,2,H
+I2,03/09/2017,Cremonese,Avellino,3,1,H
+I2,03/10/2017,Ternana,Brescia,1,1,D
+I2,03/11/2017,Pescara,Palermo,2,2,D
+I2,03/12/2017,Avellino,Carpi,1,1,D
+I2,03/12/2017,Virtus Entella,Bari,3,1,H
+I2,04/02/2018,Cesena,Ternana,4,3,H
+I2,04/09/2017,Salernitana,Ternana,3,3,D
+I2,04/11/2017,Cittadella,Ternana,1,1,D
+I2,04/11/2017,Carpi,Ascoli,4,2,H
+I2,04/11/2017,Frosinone,Parma,2,1,H
+I2,04/11/2017,Novara,PRO Vercelli,0,1,A
+I2,04/11/2017,Salernitana,Bari,2,2,D
+I2,04/11/2017,Brescia,Venezia,1,2,A
+I2,04/11/2017,Foggia,Cremonese,2,3,A
+I2,04/11/2017,Virtus Entella,Cesena,2,2,D
+I2,04/12/2017,Perugia,Ascoli,1,0,H
+I2,05/02/2018,Virtus Entella,Spezia,0,1,A
+I2,05/05/2018,Cittadella,Brescia,2,2,D
+I2,05/05/2018,Frosinone,Carpi,1,0,H
+I2,05/05/2018,Novara,Pescara,1,1,D
+I2,05/05/2018,Venezia,Foggia,2,1,H
+I2,05/05/2018,Salernitana,Virtus Entella,1,0,H
+I2,05/05/2018,Ascoli,Avellino,1,1,D
+I2,05/05/2018,Spezia,PRO Vercelli,5,1,H
+I2,05/05/2018,Bari,Perugia,3,1,H
+I2,05/05/2018,Ternana,Palermo,2,3,A
+I2,05/11/2017,Empoli,Spezia,1,1,D
+I2,06/03/2018,Cesena,PRO Vercelli,2,2,D
+I2,06/03/2018,Perugia,Brescia,2,0,H
+I2,06/05/2018,Cesena,Parma,2,1,H
+I2,06/06/2018,Cittadella,Frosinone,1,1,D
+I2,06/06/2018,Venezia,Palermo,1,1,D
+I2,06/11/2017,Perugia,Avellino,1,1,D
+I2,07/04/2018,Palermo,Pescara,1,1,D
+I2,07/04/2018,Ternana,Cittadella,5,1,H
+I2,07/04/2018,Spezia,Empoli,1,1,D
+I2,07/04/2018,Bari,Salernitana,1,1,D
+I2,07/04/2018,Parma,Frosinone,2,0,H
+I2,07/04/2018,Cremonese,Foggia,0,4,A
+I2,07/04/2018,Ascoli,Carpi,2,0,H
+I2,07/05/2018,Empoli,Cremonese,1,1,D
+I2,07/10/2017,Cesena,Spezia,1,0,H
+I2,07/10/2017,Salernitana,Ascoli,0,0,D
+I2,08/04/2018,PRO Vercelli,Novara,0,0,D
+I2,08/04/2018,Cesena,Virtus Entella,3,0,H
+I2,08/04/2018,Venezia,Brescia,1,2,A
+I2,08/09/2017,Pescara,Frosinone,3,3,D
+I2,08/10/2017,Pescara,Cittadella,1,2,A
+I2,08/10/2017,Venezia,Carpi,2,0,H
+I2,08/10/2017,Bari,Avellino,2,1,H
+I2,08/10/2017,Cremonese,Ternana,3,3,D
+I2,08/10/2017,Empoli,Foggia,3,1,H
+I2,08/10/2017,Palermo,Parma,1,1,D
+I2,08/10/2017,Perugia,PRO Vercelli,1,5,A
+I2,08/10/2017,Virtus Entella,Brescia,3,0,H
+I2,08/10/2017,Novara,Frosinone,2,1,H
+I2,08/12/2017,Ternana,Parma,1,1,D
+I2,08/12/2017,Cesena,Pescara,4,2,H
+I2,08/12/2017,Spezia,Foggia,1,0,H
+I2,08/12/2017,Novara,Cremonese,1,1,D
+I2,09/04/2018,Avellino,Perugia,2,0,H
+I2,09/09/2017,Spezia,Virtus Entella,2,1,H
+I2,09/09/2017,Ascoli,Novara,1,2,A
+I2,09/09/2017,Bari,Venezia,0,2,A
+I2,09/09/2017,PRO Vercelli,Cremonese,1,4,A
+I2,09/09/2017,Avellino,Foggia,5,1,H
+I2,09/09/2017,Palermo,Empoli,3,3,D
+I2,09/09/2017,Carpi,Salernitana,1,0,H
+I2,09/09/2017,Ternana,Cesena,1,0,H
+I2,09/12/2017,Empoli,Carpi,1,0,H
+I2,09/12/2017,Cittadella,Avellino,2,2,D
+I2,09/12/2017,Frosinone,Brescia,2,0,H
+I2,09/12/2017,Salernitana,Perugia,1,1,D
+I2,09/12/2017,Ascoli,Virtus Entella,1,1,D
+I2,09/12/2017,Venezia,PRO Vercelli,1,1,D
+I2,10/02/2018,PRO Vercelli,Brescia,0,0,D
+I2,10/02/2018,Pescara,Salernitana,1,0,H
+I2,10/02/2018,Carpi,Cremonese,1,1,D
+I2,10/02/2018,Ternana,Virtus Entella,0,1,A
+I2,10/02/2018,Spezia,Venezia,1,1,D
+I2,10/02/2018,Bari,Frosinone,1,0,H
+I2,10/02/2018,Avellino,Cesena,1,1,D
+I2,10/02/2018,Ascoli,Empoli,1,2,A
+I2,10/03/2018,Bari,PRO Vercelli,2,2,D
+I2,10/03/2018,Perugia,Foggia,2,0,H
+I2,10/03/2018,Palermo,Frosinone,1,0,H
+I2,10/03/2018,Pescara,Parma,1,4,A
+I2,10/03/2018,Cesena,Carpi,0,0,D
+I2,10/03/2018,Spezia,Ternana,1,1,D
+I2,10/03/2018,Cremonese,Cittadella,1,1,D
+I2,10/03/2018,Venezia,Ascoli,1,0,H
+I2,10/06/2018,Palermo,Venezia,1,0,H
+I2,10/06/2018,Frosinone,Cittadella,1,1,D
+I2,10/09/2017,Parma,Brescia,0,1,A
+I2,10/12/2017,Bari,Palermo,0,3,A
+I2,11/02/2018,Cittadella,Novara,1,3,A
+I2,11/02/2018,Parma,Perugia,1,1,D
+I2,11/03/2018,Salernitana,Avellino,2,0,H
+I2,11/03/2018,Empoli,Virtus Entella,2,1,H
+I2,11/05/2018,Avellino,Spezia,1,0,H
+I2,11/09/2017,Cittadella,Perugia,1,1,D
+I2,11/11/2017,PRO Vercelli,Empoli,2,1,H
+I2,11/11/2017,Spezia,Frosinone,1,1,D
+I2,11/11/2017,Avellino,Virtus Entella,0,0,D
+I2,12/02/2018,Palermo,Foggia,1,2,A
+I2,12/03/2018,Novara,Brescia,2,1,H
+I2,12/05/2018,Brescia,Empoli,0,2,A
+I2,12/05/2018,Carpi,Cittadella,1,1,D
+I2,12/05/2018,Cremonese,Venezia,5,1,H
+I2,12/05/2018,Foggia,Salernitana,1,0,H
+I2,12/05/2018,Palermo,Cesena,0,0,D
+I2,12/05/2018,Parma,Bari,1,0,H
+I2,12/05/2018,Perugia,Novara,1,1,D
+I2,12/05/2018,Pescara,Ascoli,0,1,A
+I2,12/05/2018,PRO Vercelli,Ternana,2,1,H
+I2,12/05/2018,Virtus Entella,Frosinone,0,1,A
+I2,12/11/2017,Ternana,Novara,1,1,D
+I2,12/11/2017,Carpi,Brescia,1,1,D
+I2,12/11/2017,Cremonese,Palermo,1,2,A
+I2,12/11/2017,Bari,Pescara,1,0,H
+I2,12/11/2017,Cittadella,Parma,1,2,A
+I2,12/11/2017,Cesena,Salernitana,3,3,D
+I2,12/11/2017,Ascoli,Foggia,0,2,A
+I2,12/11/2017,Venezia,Perugia,1,0,H
+I2,13/03/2018,Bari,Spezia,1,1,D
+I2,13/03/2018,Pescara,Carpi,0,1,A
+I2,13/04/2018,Parma,Cittadella,0,0,D
+I2,13/04/2018,Foggia,Ascoli,3,0,H
+I2,13/06/2018,Palermo,Frosinone,2,1,H
+I2,13/10/2017,Foggia,Perugia,2,1,H
+I2,14/04/2018,Frosinone,Spezia,1,1,D
+I2,14/04/2018,Novara,Ternana,0,3,A
+I2,14/04/2018,Brescia,Carpi,1,1,D
+I2,14/04/2018,Empoli,PRO Vercelli,3,2,H
+I2,14/04/2018,Palermo,Cremonese,1,1,D
+I2,14/04/2018,Salernitana,Cesena,1,1,D
+I2,14/04/2018,Virtus Entella,Avellino,1,1,D
+I2,14/04/2018,Pescara,Bari,2,2,D
+I2,14/04/2018,Perugia,Venezia,1,1,D
+I2,14/10/2017,Cittadella,Cremonese,1,2,A
+I2,14/10/2017,Ternana,Spezia,4,2,H
+I2,14/10/2017,PRO Vercelli,Bari,2,2,D
+I2,14/10/2017,Ascoli,Venezia,3,3,D
+I2,14/10/2017,Parma,Pescara,0,1,A
+I2,14/10/2017,Carpi,Cesena,2,1,H
+I2,14/10/2017,Frosinone,Palermo,0,0,D
+I2,14/10/2017,Brescia,Novara,0,1,A
+I2,15/09/2017,Venezia,Spezia,0,0,D
+I2,15/09/2017,Cesena,Avellino,3,1,H
+I2,15/10/2017,Avellino,Salernitana,2,3,A
+I2,15/12/2017,Foggia,Venezia,2,2,D
+I2,16/02/2018,Cremonese,Bari,0,1,A
+I2,16/03/2018,Foggia,Cesena,2,1,H
+I2,16/04/2018,Ascoli,Parma,0,1,A
+I2,16/06/2018,Frosinone,Palermo,2,0,H
+I2,16/09/2017,Empoli,Ascoli,3,0,H
+I2,16/09/2017,Frosinone,Bari,3,2,H
+I2,16/09/2017,Novara,Cittadella,1,0,H
+I2,16/09/2017,Salernitana,Pescara,2,2,D
+I2,16/09/2017,Brescia,PRO Vercelli,0,0,D
+I2,16/09/2017,Cremonese,Carpi,1,1,D
+I2,16/09/2017,Foggia,Palermo,1,1,D
+I2,16/09/2017,Perugia,Parma,3,0,H
+I2,16/09/2017,Virtus Entella,Ternana,3,1,H
+I2,16/10/2017,Virtus Entella,Empoli,2,3,A
+I2,16/12/2017,PRO Vercelli,Spezia,0,2,A
+I2,16/12/2017,Virtus Entella,Salernitana,0,2,A
+I2,16/12/2017,Carpi,Frosinone,1,1,D
+I2,16/12/2017,Palermo,Ternana,1,0,H
+I2,16/12/2017,Cremonese,Empoli,1,1,D
+I2,16/12/2017,Avellino,Ascoli,1,1,D
+I2,16/12/2017,Perugia,Bari,1,3,A
+I2,16/12/2017,Parma,Cesena,0,0,D
+I2,17/02/2018,Virtus Entella,Pescara,0,0,D
+I2,17/02/2018,Perugia,Palermo,1,0,H
+I2,17/02/2018,Foggia,Carpi,3,0,H
+I2,17/02/2018,Venezia,Avellino,3,1,H
+I2,17/02/2018,Empoli,Parma,4,0,H
+I2,17/02/2018,Cesena,Cittadella,0,1,A
+I2,17/02/2018,Novara,Spezia,1,1,D
+I2,17/02/2018,Salernitana,PRO Vercelli,0,0,D
+I2,17/03/2018,Cittadella,Bari,0,0,D
+I2,17/03/2018,Empoli,Venezia,3,2,H
+I2,17/03/2018,Frosinone,Salernitana,0,0,D
+I2,17/03/2018,Novara,Palermo,2,2,D
+I2,17/03/2018,Brescia,Cremonese,1,1,D
+I2,17/03/2018,Perugia,Spezia,3,0,H
+I2,17/03/2018,Virtus Entella,Parma,2,0,H
+I2,17/03/2018,Ascoli,Ternana,2,1,H
+I2,17/04/2018,PRO Vercelli,Pescara,3,1,H
+I2,17/04/2018,Avellino,Frosinone,0,2,A
+I2,17/04/2018,Cremonese,Salernitana,1,1,D
+I2,17/04/2018,Spezia,Brescia,0,1,A
+I2,17/04/2018,Venezia,Virtus Entella,2,0,H
+I2,17/04/2018,Ternana,Foggia,2,2,D
+I2,17/04/2018,Cittadella,Palermo,0,0,D
+I2,17/04/2018,Cesena,Empoli,2,3,A
+I2,17/04/2018,Carpi,Perugia,1,2,A
+I2,17/04/2018,Bari,Novara,1,1,D
+I2,17/11/2017,Frosinone,Avellino,1,1,D
+I2,17/12/2017,Pescara,Novara,1,0,H
+I2,17/12/2017,Brescia,Cittadella,1,1,D
+I2,18/02/2018,Frosinone,Ascoli,2,0,H
+I2,18/02/2018,Brescia,Ternana,3,1,H
+I2,18/03/2018,Avellino,Pescara,2,2,D
+I2,18/05/2018,Spezia,Parma,0,2,A
+I2,18/05/2018,Ternana,Avellino,1,2,A
+I2,18/05/2018,Venezia,Pescara,0,0,D
+I2,18/05/2018,Salernitana,Palermo,0,2,A
+I2,18/05/2018,Novara,Virtus Entella,0,1,A
+I2,18/05/2018,Frosinone,Foggia,2,2,D
+I2,18/05/2018,Cittadella,PRO Vercelli,2,0,H
+I2,18/05/2018,Ascoli,Brescia,0,0,D
+I2,18/05/2018,Bari,Carpi,2,0,H
+I2,18/05/2018,Cesena,Cremonese,1,0,H
+I2,18/05/2018,Empoli,Perugia,2,1,H
+I2,18/09/2017,Avellino,Venezia,1,1,D
+I2,18/11/2017,Perugia,Carpi,5,0,H
+I2,18/11/2017,Parma,Ascoli,4,0,H
+I2,18/11/2017,Foggia,Ternana,1,1,D
+I2,18/11/2017,Brescia,Spezia,1,1,D
+I2,18/11/2017,Pescara,PRO Vercelli,3,1,H
+I2,18/11/2017,Novara,Bari,1,2,A
+I2,18/11/2017,Empoli,Cesena,5,3,H
+I2,18/11/2017,Virtus Entella,Venezia,0,0,D
+I2,19/03/2018,Carpi,PRO Vercelli,2,0,H
+I2,19/09/2017,Palermo,Perugia,1,0,H
+I2,19/09/2017,Bari,Cremonese,1,0,H
+I2,19/09/2017,Cittadella,Cesena,4,0,H
+I2,19/09/2017,Ascoli,Frosinone,0,1,A
+I2,19/09/2017,Spezia,Novara,1,0,H
+I2,19/09/2017,PRO Vercelli,Salernitana,1,1,D
+I2,19/09/2017,Pescara,Virtus Entella,2,2,D
+I2,19/09/2017,Parma,Empoli,1,2,A
+I2,19/09/2017,Carpi,Foggia,1,3,A
+I2,19/11/2017,Salernitana,Cremonese,1,1,D
+I2,20/01/2018,Salernitana,Venezia,3,2,H
+I2,20/01/2018,Foggia,Pescara,0,1,A
+I2,20/01/2018,Cesena,Bari,1,1,D
+I2,20/01/2018,Ascoli,Cittadella,1,2,A
+I2,20/01/2018,Empoli,Ternana,2,1,H
+I2,20/01/2018,Frosinone,PRO Vercelli,4,0,H
+I2,20/01/2018,Novara,Carpi,1,0,H
+I2,20/01/2018,Cremonese,Parma,1,0,H
+I2,20/01/2018,Spezia,Palermo,0,0,D
+I2,20/01/2018,Perugia,Virtus Entella,2,0,H
+I2,20/10/2017,Bari,Cittadella,4,2,H
+I2,20/10/2017,Cremonese,Brescia,2,0,H
+I2,20/11/2017,Palermo,Cittadella,0,3,A
+I2,20/12/2017,Venezia,Cremonese,1,1,D
+I2,21/01/2018,Brescia,Avellino,2,3,A
+I2,21/04/2018,Parma,Carpi,2,1,H
+I2,21/04/2018,Palermo,Avellino,3,0,H
+I2,21/04/2018,Foggia,Bari,1,1,D
+I2,21/04/2018,Virtus Entella,PRO Vercelli,3,2,H
+I2,21/04/2018,Brescia,Cesena,0,0,D
+I2,21/04/2018,Salernitana,Cittadella,1,3,A
+I2,21/04/2018,Cremonese,Ascoli,1,2,A
+I2,21/04/2018,Novara,Venezia,1,3,A
+I2,21/10/2017,Palermo,Novara,0,2,A
+I2,21/10/2017,Venezia,Empoli,1,0,H
+I2,21/10/2017,Ternana,Ascoli,1,1,D
+I2,21/10/2017,Pescara,Avellino,2,1,H
+I2,21/10/2017,Salernitana,Frosinone,1,1,D
+I2,21/10/2017,Cesena,Foggia,3,3,D
+I2,21/10/2017,PRO Vercelli,Carpi,0,0,D
+I2,21/10/2017,Parma,Virtus Entella,3,1,H
+I2,21/10/2017,Spezia,Perugia,4,2,H
+I2,21/12/2017,Ternana,PRO Vercelli,4,3,H
+I2,21/12/2017,Salernitana,Foggia,0,3,A
+I2,21/12/2017,Novara,Perugia,1,1,D
+I2,21/12/2017,Frosinone,Virtus Entella,4,3,H
+I2,21/12/2017,Empoli,Brescia,1,1,D
+I2,21/12/2017,Cittadella,Carpi,0,1,A
+I2,21/12/2017,Cesena,Palermo,1,1,D
+I2,21/12/2017,Bari,Parma,0,0,D
+I2,21/12/2017,Ascoli,Pescara,1,1,D
+I2,21/12/2017,Spezia,Avellino,1,0,H
+I2,22/04/2018,Pescara,Spezia,3,2,H
+I2,22/04/2018,Perugia,Ternana,2,3,A
+I2,23/02/2018,Parma,Venezia,1,1,D
+I2,23/02/2018,Spezia,Salernitana,3,0,H
+I2,23/04/2018,Frosinone,Empoli,2,4,A
+I2,23/09/2017,Cremonese,Pescara,0,0,D
+I2,23/09/2017,Novara,Avellino,1,2,A
+I2,23/09/2017,Salernitana,Spezia,2,0,H
+I2,23/09/2017,Venezia,Parma,0,1,A
+I2,23/09/2017,Brescia,Foggia,2,2,D
+I2,23/09/2017,Perugia,Frosinone,1,0,H
+I2,23/09/2017,Virtus Entella,Carpi,0,0,D
+I2,23/09/2017,Empoli,Cittadella,0,1,A
+I2,23/09/2017,Bari,Ternana,3,0,H
+I2,23/10/2017,Brescia,Bari,2,1,H
+I2,24/02/2018,Ternana,Bari,1,2,A
+I2,24/02/2018,Ascoli,Cesena,2,1,H
+I2,24/02/2018,Frosinone,Perugia,1,3,A
+I2,24/02/2018,Avellino,Novara,2,1,H
+I2,24/02/2018,Pescara,Cremonese,0,0,D
+I2,24/02/2018,PRO Vercelli,Palermo,0,0,D
+I2,24/02/2018,Cittadella,Empoli,1,1,D
+I2,24/02/2018,Foggia,Brescia,1,2,A
+I2,24/02/2018,Carpi,Virtus Entella,0,0,D
+I2,24/03/2018,Bari,Brescia,3,0,H
+I2,24/03/2018,Spezia,Ascoli,1,1,D
+I2,24/05/2018,Virtus Entella,Ascoli,0,0,D
+I2,24/09/2017,Cesena,Ascoli,0,2,A
+I2,24/10/2017,Perugia,Cesena,0,3,A
+I2,24/10/2017,Virtus Entella,Cremonese,1,1,D
+I2,24/10/2017,Avellino,PRO Vercelli,1,0,H
+I2,24/10/2017,Foggia,Parma,0,3,A
+I2,24/10/2017,Empoli,Pescara,3,1,H
+I2,24/10/2017,Ascoli,Spezia,3,1,H
+I2,24/10/2017,Carpi,Palermo,1,3,A
+I2,24/10/2017,Novara,Salernitana,2,3,A
+I2,24/10/2017,Frosinone,Ternana,4,2,H
+I2,24/10/2017,Cittadella,Venezia,2,1,H
+I2,24/11/2017,Empoli,Frosinone,3,3,D
+I2,25/03/2018,Cesena,Perugia,1,1,D
+I2,25/03/2018,Venezia,Cittadella,2,1,H
+I2,25/03/2018,PRO Vercelli,Avellino,0,0,D
+I2,25/03/2018,Pescara,Empoli,0,1,A
+I2,25/03/2018,Palermo,Carpi,4,0,H
+I2,25/03/2018,Cremonese,Virtus Entella,0,1,A
+I2,25/03/2018,Ternana,Frosinone,0,0,D
+I2,25/03/2018,Salernitana,Novara,1,0,H
+I2,25/03/2018,Parma,Foggia,3,1,H
+I2,25/08/2017,Parma,Cremonese,1,0,H
+I2,25/09/2017,Palermo,PRO Vercelli,2,1,H
+I2,25/11/2017,Cittadella,Salernitana,2,1,H
+I2,25/11/2017,Spezia,Pescara,4,0,H
+I2,25/11/2017,Avellino,Palermo,1,3,A
+I2,25/11/2017,Ascoli,Cremonese,0,0,D
+I2,25/11/2017,Carpi,Parma,2,1,H
+I2,25/11/2017,Venezia,Novara,1,3,A
+I2,25/11/2017,PRO Vercelli,Virtus Entella,1,1,D
+I2,26/01/2018,Pescara,Perugia,0,2,A
+I2,26/02/2018,Salernitana,Parma,0,1,A
+I2,26/08/2017,Carpi,Novara,1,0,H
+I2,26/08/2017,Cittadella,Ascoli,3,2,H
+I2,26/08/2017,Avellino,Brescia,2,1,H
+I2,26/08/2017,Virtus Entella,Perugia,1,5,A
+I2,26/08/2017,PRO Vercelli,Frosinone,0,2,A
+I2,26/08/2017,Palermo,Spezia,2,0,H
+I2,26/08/2017,Venezia,Salernitana,0,0,D
+I2,26/08/2017,Ternana,Empoli,1,1,D
+I2,26/11/2017,Bari,Foggia,1,0,H
+I2,26/11/2017,Ternana,Perugia,1,1,D
+I2,27/01/2018,Parma,Novara,3,0,H
+I2,27/01/2018,PRO Vercelli,Ascoli,2,0,H
+I2,27/01/2018,Avellino,Cremonese,0,0,D
+I2,27/01/2018,Virtus Entella,Foggia,1,2,A
+I2,27/01/2018,Bari,Empoli,0,4,A
+I2,27/01/2018,Venezia,Cesena,1,0,H
+I2,27/01/2018,Palermo,Brescia,2,0,H
+I2,27/01/2018,Carpi,Spezia,2,1,H
+I2,27/02/2018,Empoli,Avellino,1,1,D
+I2,27/02/2018,Novara,Foggia,0,1,A
+I2,27/02/2018,Venezia,Ternana,2,0,H
+I2,27/02/2018,Cremonese,Frosinone,2,2,D
+I2,27/02/2018,Palermo,Ascoli,4,1,H
+I2,27/02/2018,Virtus Entella,Cittadella,0,1,A
+I2,27/04/2018,Bari,Virtus Entella,1,0,H
+I2,27/04/2018,Venezia,Palermo,3,0,H
+I2,27/08/2017,Pescara,Foggia,5,1,H
+I2,27/11/2017,Cesena,Brescia,1,0,H
+I2,27/12/2017,Parma,Spezia,0,0,D
+I2,28/01/2018,Cittadella,Frosinone,1,2,A
+I2,28/03/2018,Ascoli,Bari,1,0,H
+I2,28/04/2018,Ascoli,Perugia,2,2,D
+I2,28/04/2018,Carpi,Avellino,0,0,D
+I2,28/04/2018,Ternana,Pescara,0,3,A
+I2,28/04/2018,Spezia,Cremonese,1,0,H
+I2,28/04/2018,Salernitana,Brescia,4,2,H
+I2,28/04/2018,Empoli,Novara,1,1,D
+I2,28/04/2018,Cittadella,Foggia,3,1,H
+I2,28/04/2018,Cesena,Frosinone,1,0,H
+I2,28/04/2018,PRO Vercelli,Parma,1,0,H
+I2,28/08/2017,Bari,Cesena,3,0,H
+I2,28/10/2017,Pescara,Brescia,0,3,A
+I2,28/10/2017,Palermo,Virtus Entella,2,0,H
+I2,28/10/2017,Cremonese,Perugia,3,3,D
+I2,28/10/2017,Bari,Ascoli,3,0,H
+I2,28/10/2017,Spezia,Cittadella,0,0,D
+I2,28/10/2017,Salernitana,Empoli,2,1,H
+I2,28/10/2017,Cesena,Novara,2,2,D
+I2,28/10/2017,Venezia,Frosinone,1,1,D
+I2,28/12/2017,Pescara,Venezia,1,0,H
+I2,28/12/2017,Foggia,Frosinone,1,2,A
+I2,28/12/2017,Carpi,Bari,0,0,D
+I2,28/12/2017,Cremonese,Cesena,1,0,H
+I2,28/12/2017,Palermo,Salernitana,3,0,H
+I2,28/12/2017,Perugia,Empoli,2,4,A
+I2,28/12/2017,PRO Vercelli,Cittadella,1,2,A
+I2,28/12/2017,Brescia,Ascoli,0,1,A
+I2,28/12/2017,Avellino,Ternana,2,1,H
+I2,28/12/2017,Virtus Entella,Novara,2,1,H
+I2,29/01/2018,Ternana,Salernitana,2,2,D
+I2,29/03/2018,Brescia,Pescara,2,1,H
+I2,29/03/2018,Carpi,Ternana,2,1,H
+I2,29/03/2018,Foggia,PRO Vercelli,2,1,H
+I2,29/03/2018,Frosinone,Venezia,2,1,H
+I2,29/03/2018,Virtus Entella,Palermo,1,2,A
+I2,29/03/2018,Avellino,Parma,1,2,A
+I2,29/03/2018,Empoli,Salernitana,2,0,H
+I2,29/03/2018,Cittadella,Spezia,1,2,A
+I2,29/09/2017,Parma,Salernitana,2,2,D
+I2,29/10/2017,Parma,Avellino,2,0,H
+I2,29/10/2017,PRO Vercelli,Foggia,1,4,A
+I2,30/03/2018,Novara,Cesena,1,0,H
+I2,30/03/2018,Perugia,Cremonese,1,0,H
+I2,30/04/2018,Palermo,Bari,1,1,D
+I2,30/09/2017,Avellino,Empoli,3,2,H
+I2,30/09/2017,Ascoli,Palermo,0,0,D
+I2,30/09/2017,Cittadella,Virtus Entella,0,1,A
+I2,30/09/2017,Spezia,Bari,1,0,H
+I2,30/09/2017,Ternana,Venezia,2,3,A
+I2,30/09/2017,Brescia,Perugia,2,1,H
+I2,30/09/2017,Carpi,Pescara,0,1,A
+I2,30/09/2017,PRO Vercelli,Cesena,5,2,H
+I2,30/10/2017,Ternana,Carpi,0,0,D
+I2,31/05/2018,Ascoli,Virtus Entella,0,0,D

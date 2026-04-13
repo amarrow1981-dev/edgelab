@@ -1,0 +1,558 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E3,01/10/2011,Burton,Bradford,2,2,D
+E3,01/10/2011,Hereford United,Oxford,0,1,A
+E3,01/10/2011,Torquay,Morecambe,1,1,D
+E3,01/10/2011,Dag and Red,Crewe,2,1,H
+E3,01/10/2011,Barnet,Northampton,1,2,A
+E3,01/10/2011,AFC Wimbledon,Gillingham,3,1,H
+E3,01/10/2011,Accrington ST,Aldershot,3,2,H
+E3,01/10/2011,Port Vale,Rotherham,2,0,H
+E3,01/10/2011,Bristol Rvs,Cheltenham,1,3,A
+E3,01/10/2011,Crawley Town,Plymouth,2,0,H
+E3,01/11/2011,Aldershot,Burton,2,0,H
+E3,02/01/2012,Barnet,Bristol Rvs,2,0,H
+E3,02/01/2012,Burton,Hereford United,0,2,A
+E3,02/01/2012,Oxford,Crawley Town,1,1,D
+E3,02/01/2012,Gillingham,Aldershot,1,0,H
+E3,02/01/2012,Port Vale,Cheltenham,1,2,A
+E3,02/01/2012,Shrewsbury,Northampton,1,1,D
+E3,02/01/2012,Swindon,AFC Wimbledon,2,0,H
+E3,02/01/2012,Plymouth,Torquay,1,2,A
+E3,02/01/2012,Accrington ST,Macclesfield,4,0,H
+E3,02/01/2012,Crewe,Morecambe,0,1,A
+E3,02/01/2012,Rotherham,Bradford,3,0,H
+E3,02/01/2012,Southend,Dag and Red,1,1,D
+E3,03/03/2012,Burton,Southend,0,2,A
+E3,03/03/2012,Crawley Town,Torquay,0,1,A
+E3,03/03/2012,Crewe,Shrewsbury,1,1,D
+E3,03/03/2012,Barnet,Rotherham,1,1,D
+E3,03/03/2012,Cheltenham,Northampton,2,2,D
+E3,03/03/2012,Aldershot,Morecambe,1,0,H
+E3,03/03/2012,Dag and Red,Bradford,1,0,H
+E3,03/03/2012,Hereford United,AFC Wimbledon,2,1,H
+E3,03/03/2012,Bristol Rvs,Macclesfield,0,0,D
+E3,03/03/2012,Oxford,Swindon,2,0,H
+E3,03/03/2012,Accrington ST,Port Vale,2,2,D
+E3,03/03/2012,Plymouth,Gillingham,0,1,A
+E3,03/04/2012,Barnet,Swindon,0,2,A
+E3,03/09/2011,Burton,Plymouth,2,1,H
+E3,03/09/2011,Gillingham,Shrewsbury,0,1,A
+E3,03/09/2011,Crawley Town,Bristol Rvs,4,1,H
+E3,03/09/2011,Crewe,Oxford,3,1,H
+E3,03/09/2011,Barnet,Accrington ST,0,0,D
+E3,03/09/2011,Morecambe,Bradford,1,1,D
+E3,03/09/2011,Aldershot,Cheltenham,1,0,H
+E3,03/09/2011,Torquay,Macclesfield,3,0,H
+E3,03/09/2011,Hereford United,Dag and Red,1,0,H
+E3,03/09/2011,Southend,Northampton,2,2,D
+E3,03/09/2011,AFC Wimbledon,Port Vale,3,2,H
+E3,03/09/2011,Swindon,Rotherham,3,2,H
+E3,04/02/2012,Plymouth,Southend,2,2,D
+E3,05/03/2012,Southend,Crawley Town,0,0,D
+E3,05/05/2012,AFC Wimbledon,Shrewsbury,3,1,H
+E3,05/05/2012,Southend,Macclesfield,2,0,H
+E3,05/05/2012,Burton,Barnet,1,2,A
+E3,05/05/2012,Gillingham,Morecambe,2,0,H
+E3,05/05/2012,Port Vale,Oxford,3,0,H
+E3,05/05/2012,Plymouth,Cheltenham,1,2,A
+E3,05/05/2012,Rotherham,Northampton,1,1,D
+E3,05/05/2012,Crewe,Aldershot,2,2,D
+E3,05/05/2012,Dag and Red,Bristol Rvs,4,0,H
+E3,05/05/2012,Hereford United,Torquay,3,2,H
+E3,05/05/2012,Accrington ST,Crawley Town,0,1,A
+E3,05/05/2012,Bradford,Swindon,0,0,D
+E3,05/11/2011,Bradford,Cheltenham,0,1,A
+E3,05/11/2011,Gillingham,Northampton,4,3,H
+E3,05/11/2011,Port Vale,Swindon,0,2,A
+E3,05/11/2011,Plymouth,Morecambe,1,1,D
+E3,05/11/2011,Accrington ST,Bristol Rvs,2,1,H
+E3,05/11/2011,Crewe,Torquay,0,3,A
+E3,05/11/2011,Dag and Red,Shrewsbury,0,2,A
+E3,05/11/2011,Hereford United,Crawley Town,1,1,D
+E3,05/11/2011,Southend,Oxford,2,1,H
+E3,05/11/2011,Burton,Macclesfield,1,0,H
+E3,05/11/2011,AFC Wimbledon,Barnet,1,1,D
+E3,05/11/2011,Rotherham,Aldershot,2,0,H
+E3,06/01/2012,Burton,Accrington ST,0,2,A
+E3,06/03/2012,Torquay,Aldershot,1,0,H
+E3,06/03/2012,Macclesfield,Hereford United,2,2,D
+E3,06/03/2012,Morecambe,Cheltenham,3,1,H
+E3,06/03/2012,Swindon,Dag and Red,4,0,H
+E3,06/03/2012,Port Vale,Burton,3,0,H
+E3,06/03/2012,Gillingham,Barnet,3,1,H
+E3,06/03/2012,Bradford,Accrington ST,1,1,D
+E3,06/03/2012,Northampton,Bristol Rvs,3,2,H
+E3,06/03/2012,AFC Wimbledon,Plymouth,1,2,A
+E3,06/03/2012,Rotherham,Crewe,1,1,D
+E3,06/03/2012,Shrewsbury,Oxford,2,2,D
+E3,06/04/2012,Crawley Town,Crewe,1,1,D
+E3,06/04/2012,Bradford,Southend,2,0,H
+E3,06/04/2012,Macclesfield,Shrewsbury,1,3,A
+E3,06/04/2012,Northampton,Oxford,2,1,H
+E3,06/04/2012,Hereford United,Plymouth,1,1,D
+E3,06/04/2012,Torquay,Accrington ST,1,0,H
+E3,06/04/2012,Dag and Red,Burton,1,1,D
+E3,06/04/2012,Aldershot,Port Vale,1,2,A
+E3,06/04/2012,Morecambe,Swindon,0,1,A
+E3,06/04/2012,Cheltenham,Barnet,2,0,H
+E3,06/04/2012,AFC Wimbledon,Rotherham,1,2,A
+E3,06/04/2012,Bristol Rvs,Gillingham,2,2,D
+E3,06/08/2011,AFC Wimbledon,Bristol Rvs,2,3,A
+E3,06/08/2011,Gillingham,Cheltenham,1,0,H
+E3,06/08/2011,Rotherham,Oxford,1,0,H
+E3,06/08/2011,Northampton,Accrington ST,0,0,D
+E3,06/08/2011,Southend,Hereford United,1,0,H
+E3,06/08/2011,Bradford,Aldershot,1,2,A
+E3,06/08/2011,Port Vale,Crawley Town,2,2,D
+E3,06/08/2011,Shrewsbury,Plymouth,1,1,D
+E3,06/08/2011,Swindon,Crewe,3,0,H
+E3,06/08/2011,Macclesfield,Dag and Red,0,1,A
+E3,06/08/2011,Torquay,Burton,2,2,D
+E3,06/08/2011,Morecambe,Barnet,0,1,A
+E3,07/01/2012,Aldershot,Oxford,0,3,A
+E3,07/01/2012,Southend,Port Vale,3,0,H
+E3,07/01/2012,Crewe,Plymouth,3,2,H
+E3,07/01/2012,Morecambe,Northampton,1,2,A
+E3,07/02/2012,Crawley Town,Cheltenham,4,2,H
+E3,08/10/2011,Oxford,Bristol Rvs,3,0,H
+E3,08/10/2011,Bradford,Torquay,1,0,H
+E3,08/10/2011,Gillingham,Port Vale,1,1,D
+E3,08/10/2011,Swindon,Hereford United,3,3,D
+E3,08/10/2011,Plymouth,Accrington ST,2,2,D
+E3,08/10/2011,Crewe,Southend,1,3,A
+E3,08/10/2011,Cheltenham,Dag and Red,2,1,H
+E3,08/10/2011,Morecambe,AFC Wimbledon,1,2,A
+E3,08/10/2011,Shrewsbury,Barnet,3,2,H
+E3,08/10/2011,Northampton,Crawley Town,0,1,A
+E3,08/10/2011,Aldershot,Macclesfield,1,2,A
+E3,08/10/2011,Rotherham,Burton,0,1,A
+E3,09/04/2012,Swindon,Northampton,1,0,H
+E3,09/04/2012,Shrewsbury,Bradford,1,0,H
+E3,09/04/2012,Port Vale,Macclesfield,1,0,H
+E3,09/04/2012,Accrington ST,Hereford United,2,1,H
+E3,09/04/2012,Gillingham,Dag and Red,1,2,A
+E3,09/04/2012,Southend,AFC Wimbledon,2,0,H
+E3,09/04/2012,Oxford,Torquay,2,2,D
+E3,09/04/2012,Plymouth,Aldershot,1,0,H
+E3,09/04/2012,Barnet,Crawley Town,1,2,A
+E3,09/04/2012,Burton,Morecambe,3,2,H
+E3,09/04/2012,Rotherham,Cheltenham,1,0,H
+E3,09/04/2012,Crewe,Bristol Rvs,3,0,H
+E3,09/12/2011,Torquay,Barnet,1,0,H
+E3,10/01/2012,Hereford United,Bristol Rvs,1,2,A
+E3,10/02/2012,Southend,Rotherham,0,2,A
+E3,10/03/2012,Shrewsbury,Burton,1,0,H
+E3,10/03/2012,Morecambe,Hereford United,0,1,A
+E3,10/03/2012,Bradford,Oxford,2,1,H
+E3,10/03/2012,Swindon,Cheltenham,1,0,H
+E3,10/03/2012,Southend,Accrington ST,2,2,D
+E3,10/03/2012,AFC Wimbledon,Dag and Red,2,1,H
+E3,10/03/2012,Macclesfield,Crawley Town,2,2,D
+E3,10/03/2012,Port Vale,Barnet,1,2,A
+E3,10/03/2012,Gillingham,Crewe,3,4,A
+E3,10/03/2012,Rotherham,Plymouth,1,0,H
+E3,10/03/2012,Northampton,Aldershot,3,1,H
+E3,10/03/2012,Torquay,Bristol Rvs,2,2,D
+E3,10/09/2011,Oxford,Burton,2,2,D
+E3,10/09/2011,Morecambe,Crawley Town,6,0,H
+E3,10/09/2011,Aldershot,AFC Wimbledon,1,1,D
+E3,10/09/2011,Gillingham,Accrington ST,1,1,D
+E3,10/09/2011,Rotherham,Dag and Red,3,1,H
+E3,10/09/2011,Swindon,Southend,2,0,H
+E3,10/09/2011,Plymouth,Port Vale,0,2,A
+E3,10/09/2011,Crewe,Barnet,3,1,H
+E3,10/09/2011,Cheltenham,Macclesfield,2,0,H
+E3,10/09/2011,Bradford,Bristol Rvs,2,2,D
+E3,10/09/2011,Shrewsbury,Hereford United,3,1,H
+E3,10/09/2011,Northampton,Torquay,0,0,D
+E3,10/12/2011,Bristol Rvs,Swindon,1,1,D
+E3,10/12/2011,Dag and Red,Port Vale,1,2,A
+E3,10/12/2011,Aldershot,Shrewsbury,1,0,H
+E3,10/12/2011,Macclesfield,Gillingham,0,0,D
+E3,10/12/2011,Morecambe,Oxford,0,0,D
+E3,10/12/2011,Cheltenham,Southend,3,0,H
+E3,10/12/2011,Crawley Town,Burton,3,0,H
+E3,10/12/2011,Bradford,Plymouth,1,1,D
+E3,10/12/2011,Northampton,Crewe,1,1,D
+E3,10/12/2011,Hereford United,Rotherham,2,3,A
+E3,10/12/2011,AFC Wimbledon,Accrington ST,0,2,A
+E3,11/02/2012,Hereford United,Cheltenham,1,1,D
+E3,11/02/2012,Bristol Rvs,Morecambe,2,1,H
+E3,11/02/2012,Torquay,Shrewsbury,1,0,H
+E3,12/05/2012,Crewe,Southend,1,0,H
+E3,13/02/2012,Gillingham,Southend,1,2,A
+E3,13/03/2012,Crawley Town,Aldershot,2,2,D
+E3,13/03/2012,Dag and Red,Northampton,0,1,A
+E3,13/03/2012,Rotherham,Torquay,0,1,A
+E3,13/03/2012,AFC Wimbledon,Bradford,3,1,H
+E3,13/04/2012,Barnet,Hereford United,1,1,D
+E3,13/05/2012,Cheltenham,Torquay,2,0,H
+E3,13/08/2011,Hereford United,Morecambe,0,3,A
+E3,13/08/2011,Bristol Rvs,Torquay,1,2,A
+E3,13/08/2011,Crewe,Gillingham,1,2,A
+E3,13/08/2011,Accrington ST,Southend,1,2,A
+E3,13/08/2011,Crawley Town,Macclesfield,2,0,H
+E3,13/08/2011,Barnet,Port Vale,1,3,A
+E3,13/08/2011,Cheltenham,Swindon,1,0,H
+E3,13/08/2011,Aldershot,Northampton,0,1,A
+E3,13/08/2011,Dag and Red,AFC Wimbledon,0,2,A
+E3,13/08/2011,Burton,Shrewsbury,1,1,D
+E3,13/08/2011,Oxford,Bradford,1,1,D
+E3,13/08/2011,Plymouth,Rotherham,1,4,A
+E3,13/09/2011,Torquay,Cheltenham,2,2,D
+E3,13/09/2011,Port Vale,Bradford,3,2,H
+E3,13/09/2011,Dag and Red,Oxford,0,1,A
+E3,13/09/2011,Macclesfield,Morecambe,1,1,D
+E3,13/09/2011,Barnet,Plymouth,2,0,H
+E3,13/09/2011,Burton,Crewe,1,0,H
+E3,13/09/2011,AFC Wimbledon,Northampton,0,3,A
+E3,13/09/2011,Bristol Rvs,Shrewsbury,1,0,H
+E3,13/09/2011,Southend,Gillingham,1,0,H
+E3,13/09/2011,Hereford United,Aldershot,0,2,A
+E3,13/09/2011,Crawley Town,Swindon,0,3,A
+E3,13/09/2011,Accrington ST,Rotherham,1,1,D
+E3,14/01/2012,Accrington ST,Barnet,0,3,A
+E3,14/01/2012,Rotherham,Swindon,1,2,A
+E3,14/01/2012,Bristol Rvs,Crawley Town,0,0,D
+E3,14/01/2012,Macclesfield,Torquay,1,2,A
+E3,14/01/2012,Dag and Red,Hereford United,0,1,A
+E3,14/01/2012,Oxford,Crewe,0,1,A
+E3,14/01/2012,Shrewsbury,Gillingham,2,0,H
+E3,14/01/2012,Bradford,Morecambe,2,2,D
+E3,14/01/2012,Port Vale,AFC Wimbledon,1,2,A
+E3,14/01/2012,Cheltenham,Aldershot,2,0,H
+E3,14/01/2012,Northampton,Southend,2,5,A
+E3,14/01/2012,Plymouth,Burton,2,1,H
+E3,14/02/2012,Northampton,AFC Wimbledon,1,0,H
+E3,14/02/2012,Oxford,Dag and Red,2,1,H
+E3,14/02/2012,Bradford,Port Vale,1,1,D
+E3,14/02/2012,Shrewsbury,Bristol Rvs,1,0,H
+E3,14/02/2012,Swindon,Crawley Town,3,0,H
+E3,14/02/2012,Plymouth,Barnet,0,0,D
+E3,14/02/2012,Crewe,Burton,3,2,H
+E3,14/02/2012,Cheltenham,Torquay,0,1,A
+E3,14/02/2012,Morecambe,Macclesfield,1,0,H
+E3,14/02/2012,Aldershot,Hereford United,1,0,H
+E3,14/02/2012,Rotherham,Accrington ST,1,0,H
+E3,14/04/2012,Crawley Town,AFC Wimbledon,1,1,D
+E3,14/04/2012,Morecambe,Port Vale,0,0,D
+E3,14/04/2012,Macclesfield,Crewe,2,2,D
+E3,14/04/2012,Aldershot,Dag and Red,1,1,D
+E3,14/04/2012,Torquay,Southend,0,0,D
+E3,14/04/2012,Swindon,Plymouth,1,0,H
+E3,14/04/2012,Cheltenham,Accrington ST,4,1,H
+E3,14/04/2012,Oxford,Gillingham,0,0,D
+E3,14/04/2012,Northampton,Bradford,1,3,A
+E3,14/04/2012,Bristol Rvs,Burton,7,1,H
+E3,14/04/2012,Shrewsbury,Rotherham,3,1,H
+E3,14/10/2011,Burton,Cheltenham,0,2,A
+E3,14/10/2011,Bristol Rvs,Rotherham,5,2,H
+E3,14/10/2011,Port Vale,Northampton,3,0,H
+E3,15/10/2011,Hereford United,Bradford,2,0,H
+E3,15/10/2011,Torquay,Gillingham,2,5,A
+E3,15/10/2011,Dag and Red,Plymouth,2,3,A
+E3,15/10/2011,Barnet,Aldershot,2,1,H
+E3,15/10/2011,Macclesfield,Oxford,1,1,D
+E3,15/10/2011,Accrington ST,Swindon,0,2,A
+E3,15/10/2011,Southend,Morecambe,1,1,D
+E3,15/10/2011,AFC Wimbledon,Crewe,1,3,A
+E3,15/10/2011,Crawley Town,Shrewsbury,2,1,H
+E3,16/05/2012,Southend,Crewe,2,2,D
+E3,16/08/2011,Crewe,Rotherham,1,2,A
+E3,16/08/2011,Oxford,Shrewsbury,2,0,H
+E3,16/08/2011,Plymouth,AFC Wimbledon,0,2,A
+E3,16/08/2011,Burton,Port Vale,1,1,D
+E3,16/08/2011,Accrington ST,Bradford,1,0,H
+E3,16/08/2011,Crawley Town,Southend,3,0,H
+E3,16/08/2011,Hereford United,Macclesfield,0,4,A
+E3,16/08/2011,Dag and Red,Swindon,1,0,H
+E3,16/08/2011,Aldershot,Torquay,0,1,A
+E3,16/08/2011,Cheltenham,Morecambe,1,2,A
+E3,16/08/2011,Barnet,Gillingham,2,2,D
+E3,16/08/2011,Bristol Rvs,Northampton,2,1,H
+E3,16/12/2011,Barnet,Cheltenham,2,2,D
+E3,16/12/2011,Southend,Bradford,0,1,A
+E3,17/03/2012,Aldershot,Bradford,1,0,H
+E3,17/03/2012,Cheltenham,Gillingham,0,3,A
+E3,17/03/2012,Barnet,Morecambe,0,2,A
+E3,17/03/2012,Crewe,Swindon,2,0,H
+E3,17/03/2012,Crawley Town,Port Vale,3,2,H
+E3,17/03/2012,Dag and Red,Macclesfield,2,0,H
+E3,17/03/2012,Hereford United,Southend,2,3,A
+E3,17/03/2012,Plymouth,Shrewsbury,1,0,H
+E3,17/03/2012,Oxford,Rotherham,2,1,H
+E3,17/03/2012,Bristol Rvs,AFC Wimbledon,1,0,H
+E3,17/03/2012,Burton,Torquay,1,4,A
+E3,17/03/2012,Accrington ST,Northampton,2,1,H
+E3,17/04/2012,Aldershot,Swindon,2,1,H
+E3,17/04/2012,Shrewsbury,Port Vale,1,0,H
+E3,17/04/2012,Crawley Town,Northampton,3,1,H
+E3,17/05/2012,Torquay,Cheltenham,1,2,A
+E3,17/09/2011,AFC Wimbledon,Cheltenham,4,1,H
+E3,17/09/2011,Burton,Swindon,2,0,H
+E3,17/09/2011,Port Vale,Shrewsbury,2,3,A
+E3,17/09/2011,Bristol Rvs,Aldershot,0,1,A
+E3,17/09/2011,Accrington ST,Crewe,0,2,A
+E3,17/09/2011,Macclesfield,Northampton,3,1,H
+E3,17/09/2011,Dag and Red,Morecambe,1,2,A
+E3,17/09/2011,Southend,Plymouth,2,0,H
+E3,17/09/2011,Torquay,Rotherham,3,3,D
+E3,17/09/2011,Hereford United,Gillingham,1,6,A
+E3,17/09/2011,Barnet,Oxford,0,2,A
+E3,17/09/2011,Crawley Town,Bradford,3,1,H
+E3,17/12/2011,Shrewsbury,Macclesfield,1,0,H
+E3,17/12/2011,Port Vale,Aldershot,4,0,H
+E3,17/12/2011,Gillingham,Bristol Rvs,4,1,H
+E3,17/12/2011,Oxford,Northampton,2,0,H
+E3,17/12/2011,Accrington ST,Torquay,3,1,H
+E3,17/12/2011,Rotherham,AFC Wimbledon,1,0,H
+E3,17/12/2011,Burton,Dag and Red,1,1,D
+E3,17/12/2011,Crewe,Crawley Town,1,1,D
+E3,17/12/2011,Swindon,Morecambe,3,0,H
+E3,17/12/2011,Plymouth,Hereford United,1,1,D
+E3,18/02/2012,Dag and Red,Cheltenham,0,5,A
+E3,18/02/2012,Torquay,Bradford,1,2,A
+E3,18/02/2012,Hereford United,Swindon,1,2,A
+E3,18/02/2012,Burton,Rotherham,1,1,D
+E3,18/02/2012,AFC Wimbledon,Morecambe,1,1,D
+E3,18/02/2012,Bristol Rvs,Oxford,0,0,D
+E3,18/02/2012,Southend,Crewe,1,0,H
+E3,18/02/2012,Port Vale,Gillingham,2,1,H
+E3,18/02/2012,Accrington ST,Plymouth,0,4,A
+E3,18/02/2012,Barnet,Shrewsbury,1,2,A
+E3,18/02/2012,Macclesfield,Aldershot,0,1,A
+E3,19/11/2011,Hereford United,Burton,2,3,A
+E3,19/11/2011,Torquay,Plymouth,3,1,H
+E3,19/11/2011,Crawley Town,Oxford,4,1,H
+E3,19/11/2011,Aldershot,Gillingham,1,2,A
+E3,19/11/2011,Macclesfield,Accrington ST,1,1,D
+E3,19/11/2011,Morecambe,Crewe,1,2,A
+E3,19/11/2011,Cheltenham,Port Vale,2,0,H
+E3,19/11/2011,Bradford,Rotherham,2,3,A
+E3,19/11/2011,Northampton,Shrewsbury,2,7,A
+E3,19/11/2011,Bristol Rvs,Barnet,0,2,A
+E3,19/11/2011,Dag and Red,Southend,2,3,A
+E3,19/11/2011,AFC Wimbledon,Swindon,1,1,D
+E3,20/03/2012,Southend,Aldershot,0,1,A
+E3,20/03/2012,Gillingham,Crawley Town,0,1,A
+E3,20/03/2012,Barnet,Dag and Red,2,2,D
+E3,20/03/2012,Crewe,Bradford,1,0,H
+E3,20/03/2012,Accrington ST,Morecambe,1,1,D
+E3,20/03/2012,Burton,Northampton,0,1,A
+E3,20/03/2012,Plymouth,Bristol Rvs,1,1,D
+E3,20/03/2012,Swindon,Torquay,2,0,H
+E3,20/03/2012,Shrewsbury,Cheltenham,2,0,H
+E3,20/03/2012,Port Vale,Hereford United,1,0,H
+E3,20/03/2012,Oxford,AFC Wimbledon,1,0,H
+E3,20/03/2012,Rotherham,Macclesfield,4,2,H
+E3,20/04/2012,Southend,Barnet,3,0,H
+E3,20/08/2011,Bradford,Dag and Red,0,1,A
+E3,20/08/2011,Southend,Burton,0,1,A
+E3,20/08/2011,Northampton,Cheltenham,2,3,A
+E3,20/08/2011,AFC Wimbledon,Hereford United,1,1,D
+E3,20/08/2011,Rotherham,Barnet,2,2,D
+E3,20/08/2011,Shrewsbury,Crewe,2,0,H
+E3,20/08/2011,Morecambe,Aldershot,2,0,H
+E3,20/08/2011,Gillingham,Plymouth,3,0,H
+E3,20/08/2011,Port Vale,Accrington ST,4,1,H
+E3,20/08/2011,Torquay,Crawley Town,1,3,A
+E3,20/08/2011,Macclesfield,Bristol Rvs,0,0,D
+E3,21/01/2012,Oxford,Hereford United,2,2,D
+E3,21/01/2012,Aldershot,Accrington ST,0,0,D
+E3,21/01/2012,Morecambe,Torquay,1,2,A
+E3,21/01/2012,Cheltenham,Bristol Rvs,0,2,A
+E3,21/01/2012,Crewe,Dag and Red,4,1,H
+E3,21/01/2012,Plymouth,Crawley Town,1,1,D
+E3,21/01/2012,Swindon,Macclesfield,1,0,H
+E3,21/01/2012,Shrewsbury,Southend,2,1,H
+E3,21/01/2012,Gillingham,AFC Wimbledon,3,4,A
+E3,21/01/2012,Bradford,Burton,1,1,D
+E3,21/01/2012,Northampton,Barnet,1,2,A
+E3,21/01/2012,Rotherham,Port Vale,0,1,A
+E3,21/02/2012,Aldershot,Southend,2,0,H
+E3,21/02/2012,Cheltenham,AFC Wimbledon,0,0,D
+E3,21/02/2012,Crewe,Accrington ST,2,0,H
+E3,21/02/2012,Swindon,Shrewsbury,2,1,H
+E3,21/02/2012,Gillingham,Rotherham,0,0,D
+E3,21/02/2012,Oxford,Barnet,2,1,H
+E3,21/02/2012,Northampton,Macclesfield,3,2,H
+E3,21/04/2012,Bradford,Macclesfield,1,0,H
+E3,21/04/2012,Burton,Aldershot,0,4,A
+E3,21/04/2012,Crewe,Cheltenham,1,0,H
+E3,21/04/2012,Dag and Red,Crawley Town,1,1,D
+E3,21/04/2012,Port Vale,Bristol Rvs,1,0,H
+E3,21/04/2012,AFC Wimbledon,Torquay,2,0,H
+E3,21/04/2012,Gillingham,Swindon,3,1,H
+E3,21/04/2012,Accrington ST,Shrewsbury,1,1,D
+E3,21/04/2012,Plymouth,Oxford,1,1,D
+E3,21/04/2012,Rotherham,Morecambe,3,2,H
+E3,21/04/2012,Hereford United,Northampton,0,0,D
+E3,21/08/2011,Swindon,Oxford,1,2,A
+E3,21/10/2011,Accrington ST,Cheltenham,0,1,A
+E3,22/02/2012,Crawley Town,Morecambe,1,1,D
+E3,22/10/2011,Bradford,Northampton,2,1,H
+E3,22/10/2011,Gillingham,Oxford,1,0,H
+E3,22/10/2011,AFC Wimbledon,Crawley Town,2,5,A
+E3,22/10/2011,Plymouth,Swindon,0,1,A
+E3,22/10/2011,Burton,Bristol Rvs,2,1,H
+E3,22/10/2011,Crewe,Macclesfield,0,1,A
+E3,22/10/2011,Dag and Red,Aldershot,2,5,A
+E3,22/10/2011,Rotherham,Shrewsbury,1,1,D
+E3,22/10/2011,Southend,Torquay,4,1,H
+E3,22/10/2011,Port Vale,Morecambe,0,4,A
+E3,22/10/2011,Hereford United,Barnet,1,0,H
+E3,23/03/2012,Macclesfield,Barnet,0,0,D
+E3,24/01/2012,Torquay,Dag and Red,1,0,H
+E3,24/01/2012,AFC Wimbledon,Macclesfield,2,1,H
+E3,24/03/2012,Bristol Rvs,Southend,1,0,H
+E3,24/03/2012,Northampton,Plymouth,0,0,D
+E3,24/03/2012,Bradford,Gillingham,2,2,D
+E3,24/03/2012,Crawley Town,Rotherham,3,0,H
+E3,24/03/2012,Cheltenham,Oxford,0,0,D
+E3,24/03/2012,AFC Wimbledon,Burton,4,0,H
+E3,24/03/2012,Dag and Red,Accrington ST,2,1,H
+E3,24/03/2012,Torquay,Port Vale,2,1,H
+E3,24/03/2012,Hereford United,Crewe,0,1,A
+E3,24/03/2012,Morecambe,Shrewsbury,0,1,A
+E3,24/09/2011,Rotherham,Southend,0,4,A
+E3,24/09/2011,Oxford,Accrington ST,1,1,D
+E3,24/09/2011,Aldershot,Crawley Town,0,1,A
+E3,24/09/2011,Morecambe,Bristol Rvs,2,3,A
+E3,24/09/2011,Cheltenham,Hereford United,0,0,D
+E3,24/09/2011,Crewe,Port Vale,1,1,D
+E3,24/09/2011,Plymouth,Macclesfield,2,0,H
+E3,24/09/2011,Swindon,Barnet,4,0,H
+E3,24/09/2011,Shrewsbury,Torquay,2,0,H
+E3,24/09/2011,Gillingham,Burton,3,1,H
+E3,24/09/2011,Bradford,AFC Wimbledon,1,2,A
+E3,24/09/2011,Northampton,Dag and Red,2,1,H
+E3,25/02/2012,Plymouth,Dag and Red,0,0,D
+E3,25/02/2012,Cheltenham,Burton,2,0,H
+E3,25/02/2012,Morecambe,Southend,1,0,H
+E3,25/02/2012,Aldershot,Barnet,4,1,H
+E3,25/02/2012,Swindon,Accrington ST,2,0,H
+E3,25/02/2012,Gillingham,Torquay,2,0,H
+E3,25/02/2012,Bradford,Hereford United,1,1,D
+E3,25/02/2012,Crewe,AFC Wimbledon,3,3,D
+E3,25/02/2012,Northampton,Port Vale,1,2,A
+E3,25/02/2012,Rotherham,Bristol Rvs,0,1,A
+E3,25/02/2012,Oxford,Macclesfield,1,1,D
+E3,25/10/2011,Oxford,Plymouth,5,1,H
+E3,25/10/2011,Macclesfield,Bradford,1,0,H
+E3,25/10/2011,Northampton,Hereford United,1,3,A
+E3,25/10/2011,Bristol Rvs,Port Vale,0,3,A
+E3,25/10/2011,Shrewsbury,Accrington ST,1,0,H
+E3,25/10/2011,Swindon,Gillingham,2,0,H
+E3,25/10/2011,Crawley Town,Dag and Red,3,1,H
+E3,25/10/2011,Barnet,Southend,0,3,A
+E3,25/10/2011,Cheltenham,Crewe,0,1,A
+E3,25/10/2011,Morecambe,Rotherham,3,3,D
+E3,25/10/2011,Torquay,AFC Wimbledon,4,0,H
+E3,25/11/2011,Barnet,Macclesfield,2,1,H
+E3,25/11/2011,Port Vale,Torquay,0,0,D
+E3,26/11/2011,Oxford,Cheltenham,1,3,A
+E3,26/11/2011,Rotherham,Crawley Town,1,2,A
+E3,26/11/2011,Burton,AFC Wimbledon,3,2,H
+E3,26/11/2011,Southend,Bristol Rvs,1,1,D
+E3,26/11/2011,Gillingham,Bradford,0,0,D
+E3,26/11/2011,Shrewsbury,Morecambe,2,0,H
+E3,26/11/2011,Swindon,Aldershot,2,0,H
+E3,26/11/2011,Plymouth,Northampton,4,1,H
+E3,26/11/2011,Accrington ST,Dag and Red,3,0,H
+E3,26/11/2011,Crewe,Hereford United,1,0,H
+E3,26/12/2011,Macclesfield,Rotherham,0,0,D
+E3,26/12/2011,Bristol Rvs,Plymouth,2,3,A
+E3,26/12/2011,Torquay,Swindon,1,0,H
+E3,26/12/2011,AFC Wimbledon,Oxford,0,2,A
+E3,26/12/2011,Dag and Red,Barnet,3,0,H
+E3,26/12/2011,Hereford United,Port Vale,1,2,A
+E3,26/12/2011,Northampton,Burton,2,3,A
+E3,26/12/2011,Bradford,Crewe,3,0,H
+E3,26/12/2011,Crawley Town,Gillingham,1,2,A
+E3,26/12/2011,Cheltenham,Shrewsbury,0,0,D
+E3,26/12/2011,Morecambe,Accrington ST,1,2,A
+E3,27/02/2012,Shrewsbury,Crawley Town,2,1,H
+E3,27/03/2012,Accrington ST,Oxford,0,2,A
+E3,27/03/2012,Bradford,Crawley Town,1,2,A
+E3,27/03/2012,Burton,Gillingham,1,0,H
+E3,27/03/2012,Aldershot,Bristol Rvs,1,0,H
+E3,27/05/2012,Cheltenham,Crewe,0,2,A
+E3,27/08/2011,Oxford,Aldershot,1,1,D
+E3,27/08/2011,Bristol Rvs,Hereford United,0,0,D
+E3,27/08/2011,Rotherham,Gillingham,3,0,H
+E3,27/08/2011,Bradford,Barnet,4,2,H
+E3,27/08/2011,Port Vale,Southend,2,3,A
+E3,27/08/2011,Shrewsbury,Swindon,2,1,H
+E3,27/08/2011,Northampton,Morecambe,0,2,A
+E3,27/08/2011,Accrington ST,Burton,2,1,H
+E3,27/08/2011,Cheltenham,Crawley Town,3,1,H
+E3,27/08/2011,Macclesfield,AFC Wimbledon,4,0,H
+E3,27/08/2011,Dag and Red,Torquay,1,1,D
+E3,27/08/2011,Plymouth,Crewe,0,1,A
+E3,28/01/2012,Dag and Red,Rotherham,3,2,H
+E3,28/01/2012,AFC Wimbledon,Aldershot,1,2,A
+E3,28/01/2012,Bristol Rvs,Bradford,2,1,H
+E3,28/01/2012,Port Vale,Plymouth,1,0,H
+E3,28/01/2012,Accrington ST,Gillingham,4,3,H
+E3,28/01/2012,Barnet,Crewe,2,0,H
+E3,28/01/2012,Macclesfield,Cheltenham,1,3,A
+E3,28/01/2012,Hereford United,Shrewsbury,0,2,A
+E3,28/01/2012,Torquay,Northampton,1,0,H
+E3,28/02/2012,Gillingham,Hereford United,5,4,H
+E3,28/02/2012,Port Vale,Crewe,1,1,D
+E3,28/02/2012,Swindon,Burton,2,0,H
+E3,28/02/2012,Barnet,Bradford,0,4,A
+E3,28/02/2012,Morecambe,Dag and Red,1,2,A
+E3,28/02/2012,Macclesfield,Plymouth,1,1,D
+E3,28/04/2012,Aldershot,Rotherham,2,2,D
+E3,28/04/2012,Northampton,Gillingham,1,1,D
+E3,28/04/2012,Oxford,Southend,0,2,A
+E3,28/04/2012,Shrewsbury,Dag and Red,1,0,H
+E3,28/04/2012,Swindon,Port Vale,5,0,H
+E3,28/04/2012,Cheltenham,Bradford,3,1,H
+E3,28/04/2012,Barnet,AFC Wimbledon,4,0,H
+E3,28/04/2012,Macclesfield,Burton,0,2,A
+E3,28/04/2012,Bristol Rvs,Accrington ST,5,1,H
+E3,28/04/2012,Morecambe,Plymouth,2,2,D
+E3,28/04/2012,Crawley Town,Hereford United,0,3,A
+E3,28/04/2012,Torquay,Crewe,1,1,D
+E3,29/01/2012,Burton,Oxford,1,1,D
+E3,29/10/2011,Cheltenham,Plymouth,2,1,H
+E3,29/10/2011,Morecambe,Gillingham,2,1,H
+E3,29/10/2011,Macclesfield,Southend,0,2,A
+E3,29/10/2011,Aldershot,Crewe,3,1,H
+E3,29/10/2011,Torquay,Hereford United,2,0,H
+E3,29/10/2011,Crawley Town,Accrington ST,1,1,D
+E3,29/10/2011,Swindon,Bradford,0,0,D
+E3,29/10/2011,Shrewsbury,AFC Wimbledon,0,0,D
+E3,29/10/2011,Barnet,Burton,3,6,A
+E3,29/10/2011,Bristol Rvs,Dag and Red,2,0,H
+E3,29/10/2011,Northampton,Rotherham,1,1,D
+E3,29/10/2011,Oxford,Port Vale,2,1,H
+E3,30/03/2012,Southend,Cheltenham,4,0,H
+E3,30/03/2012,Barnet,Torquay,0,1,A
+E3,30/09/2011,Macclesfield,Swindon,2,0,H
+E3,30/09/2011,Southend,Shrewsbury,3,0,H
+E3,30/12/2011,Dag and Red,Gillingham,2,1,H
+E3,30/12/2011,Hereford United,Accrington ST,1,1,D
+E3,30/12/2011,Crawley Town,Barnet,1,0,H
+E3,30/12/2011,Cheltenham,Rotherham,1,0,H
+E3,31/01/2012,Southend,Swindon,1,4,A
+E3,31/03/2012,Accrington ST,AFC Wimbledon,2,1,H
+E3,31/03/2012,Burton,Crawley Town,0,0,D
+E3,31/03/2012,Plymouth,Bradford,1,0,H
+E3,31/03/2012,Swindon,Bristol Rvs,0,0,D
+E3,31/03/2012,Shrewsbury,Aldershot,1,1,D
+E3,31/03/2012,Port Vale,Dag and Red,0,1,A
+E3,31/03/2012,Gillingham,Macclesfield,2,0,H
+E3,31/03/2012,Crewe,Northampton,1,1,D
+E3,31/03/2012,Rotherham,Hereford United,1,0,H
+E3,31/03/2012,Oxford,Morecambe,1,2,A
+E3,31/12/2011,Aldershot,Plymouth,0,0,D
+E3,31/12/2011,Northampton,Swindon,1,2,A
+E3,31/12/2011,Bristol Rvs,Crewe,2,5,A
+E3,31/12/2011,AFC Wimbledon,Southend,1,4,A
+E3,31/12/2011,Macclesfield,Port Vale,2,1,H
+E3,31/12/2011,Torquay,Oxford,0,0,D
+E3,31/12/2011,Morecambe,Burton,2,2,D
+E3,31/12/2011,Bradford,Shrewsbury,3,1,H

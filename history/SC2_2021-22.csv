@@ -1,0 +1,114 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC2,07/12/2021,Queen of the South,Cove Rangers,0,3,A
+SC2,12/02/2022,Annan Athletic,Rangers,0,3,A
+SC2,12/02/2022,Partick,Dundee Utd,0,1,A
+SC2,12/02/2022,Motherwell,Aberdeen,2,1,H
+SC2,12/02/2022,ST Mirren,Kelty Hearts,4,0,H
+SC2,12/03/2022,Heart Of Midlothian,ST Mirren,4,2,H
+SC2,13/02/2022,Celtic,Raith Rovers,4,0,H
+SC2,13/02/2022,Arbroath,Hibernian,1,3,A
+SC2,13/03/2022,Dundee,Rangers,0,3,A
+SC2,13/03/2022,Motherwell,Hibernian,1,2,A
+SC2,14/02/2022,Peterhead,Dundee,0,3,A
+SC2,14/03/2022,Dundee Utd,Celtic,0,3,A
+SC2,16/04/2022,Heart Of Midlothian,Hibernian,2,1,H
+SC2,17/09/2021,Cumbernauld Colts,Buckie Thistle,1,1,D
+SC2,17/09/2021,East Stirlingshire,Fort William,3,0,H
+SC2,18/09/2021,Irvine Meadow,Auchinleck Talbot,1,3,A
+SC2,18/09/2021,Dunbar United,Camelon Juniors,2,0,H
+SC2,18/09/2021,Clydebank,Dalkeith Thistle,7,0,H
+SC2,18/09/2021,Newtongrange Star,Dalbeattie Star,1,1,D
+SC2,18/09/2021,Huntly,Hill Of Beath Hawthorn,3,0,H
+SC2,18/09/2021,Wick Academy,Bo'ness United,2,2,D
+SC2,18/09/2021,Nairn County,Strathspey Thistle,4,0,H
+SC2,18/09/2021,Lossiemouth,Preston,0,3,A
+SC2,18/09/2021,Keith,Darvel,1,2,A
+SC2,18/09/2021,Forres Mechanics,Bonnyrigg Rose Athletic,0,2,A
+SC2,18/09/2021,Deveronvale,Haddington Athletic,2,2,D
+SC2,18/09/2021,Inverurie Loco Works,Jeanfield Swifts,0,3,A
+SC2,18/09/2021,Caledonian Braves,Stirling University,0,1,A
+SC2,18/09/2021,Clachnacuddin,Dunipace,1,2,A
+SC2,18/09/2021,Brechin,Vale of Leithen,5,0,H
+SC2,18/09/2021,Banks O' Dee,Turriff United,1,0,H
+SC2,18/09/2021,Blackburn,Rothes,1,2,A
+SC2,18/09/2021,Golspie Sutherland,Civil Service Strollers,0,3,A
+SC2,18/09/2021,Tynecastle,Brora Rangers,0,6,A
+SC2,18/09/2021,Coldstream,East Kilbride,1,10,A
+SC2,18/09/2021,BSC Glasgow,Glasgow University,6,0,H
+SC2,18/09/2021,Formartine United,Cumnock Juniors,2,2,D
+SC2,18/09/2021,Fraserburgh,Sauchie Juniors,1,2,A
+SC2,18/09/2021,Penicuik Athletic,Tranent Juniors,1,3,A
+SC2,18/09/2021,Spartans,Gala Fairydean Rovers,0,1,A
+SC2,18/09/2021,Wigtown & Bladnoch,St. Cuthbert Wanderers,0,8,A
+SC2,19/09/2021,Lothian Hutchison,Edinburgh University,2,2,D
+SC2,20/09/2021,Berwick Rangers,Gretna 2008,2,1,H
+SC2,21/01/2022,Rangers,Stirling Albion,4,0,H
+SC2,22/01/2022,Aberdeen,Edinburgh City,3,0,H
+SC2,22/01/2022,Auchinleck Talbot,Heart Of Midlothian,0,5,A
+SC2,22/01/2022,Livingston,Ross County,1,0,H
+SC2,22/01/2022,Banks O' Dee,Raith Rovers,0,3,A
+SC2,22/01/2022,Dumbarton,Dundee,0,1,A
+SC2,22/01/2022,Ayr Utd,ST Mirren,0,2,A
+SC2,22/01/2022,Arbroath,Darvel,3,0,H
+SC2,22/01/2022,Alloa Athletic,Celtic,1,2,A
+SC2,22/01/2022,Partick,Airdrie United,1,0,H
+SC2,23/10/2021,Sauchie Juniors,Dunipace,2,1,H
+SC2,23/10/2021,Dunbar United,Lothian Hutchison,1,1,D
+SC2,23/10/2021,East Stirlingshire,Bonnyrigg Rose Athletic,0,3,A
+SC2,23/10/2021,Dalbeattie Star,Rothes,0,0,D
+SC2,23/10/2021,Stranraer,Darvel,0,1,A
+SC2,23/10/2021,Stenhousemuir,Huntly,4,1,H
+SC2,23/10/2021,Edinburgh City,Bo'ness United,2,1,H
+SC2,23/10/2021,Formartine United,Forfar Athletic,0,2,A
+SC2,23/10/2021,Kelty Hearts,Buckie Thistle,4,1,H
+SC2,23/10/2021,Annan Athletic,Jeanfield Swifts,3,1,H
+SC2,23/10/2021,St. Cuthbert Wanderers,Gala Fairydean Rovers,1,3,A
+SC2,23/10/2021,Preston,Auchinleck Talbot,0,2,A
+SC2,23/10/2021,Banks O' Dee,Nairn County,5,0,H
+SC2,23/10/2021,Cowdenbeath,Civil Service Strollers,2,4,A
+SC2,23/10/2021,Brechin,Haddington Athletic,2,1,H
+SC2,23/10/2021,BSC Glasgow,Tranent Juniors,0,2,A
+SC2,23/10/2021,Berwick Rangers,Stirling Albion,1,2,A
+SC2,23/10/2021,Brora Rangers,Albion Rovers,0,0,D
+SC2,23/10/2021,East Kilbride,Stirling University,4,0,H
+SC2,25/09/2021,Edinburgh University,Lothian Hutchison,0,3,A
+SC2,25/09/2021,Cumnock Juniors,Formartine United,1,5,A
+SC2,25/09/2021,Buckie Thistle,Cumbernauld Colts,4,1,H
+SC2,25/09/2021,Dalbeattie Star,Newtongrange Star,3,2,H
+SC2,25/10/2021,Clydebank,Elgin City,1,1,D
+SC2,26/11/2021,Partick,Dunfermline,1,0,H
+SC2,27/11/2021,Stenhousemuir,Airdrie United,0,2,A
+SC2,27/11/2021,Clydebank,Clyde,2,0,H
+SC2,27/11/2021,Gala Fairydean Rovers,Annan Athletic,0,1,A
+SC2,27/11/2021,Civil Service Strollers,Peterhead,0,3,A
+SC2,27/11/2021,Queen's Park,Kilmarnock,0,1,A
+SC2,27/11/2021,Dalbeattie Star,East Kilbride,1,2,A
+SC2,27/11/2021,Cove Rangers,Queen of the South,2,2,D
+SC2,27/11/2021,Kelty Hearts,Montrose,0,0,D
+SC2,27/11/2021,Inverness CT,Morton,1,1,D
+SC2,27/11/2021,Dumbarton,Sauchie Juniors,3,1,H
+SC2,27/11/2021,Falkirk,Raith Rovers,1,2,A
+SC2,27/11/2021,Alloa Athletic,Bonnyrigg Rose Athletic,5,0,H
+SC2,27/11/2021,Ayr Utd,Albion Rovers,2,1,H
+SC2,27/11/2021,Stirling Albion,Tranent Juniors,4,0,H
+SC2,27/11/2021,Auchinleck Talbot,Hamilton Academical,1,0,H
+SC2,27/11/2021,Banks O' Dee,East Fife,2,1,H
+SC2,27/11/2021,Lothian Hutchison,Edinburgh City,1,2,A
+SC2,27/11/2021,Arbroath,Forfar Athletic,3,0,H
+SC2,28/08/2021,Burntisland Shipyard,Dalkeith Thistle,1,1,D
+SC2,28/08/2021,Newton Stewart,Coldstream,1,3,A
+SC2,28/08/2021,Dundonald Bluebell,Penicuik Athletic,1,3,A
+SC2,28/08/2021,Hawick Royal Albert,Golspie Sutherland,0,2,A
+SC2,28/08/2021,Jeanfield Swifts,Whitehill Welfare,4,1,H
+SC2,28/08/2021,Linlithgow Rose,Banks O' Dee,1,2,A
+SC2,28/08/2021,Preston,Threave Rovers,2,0,H
+SC2,28/08/2021,Blackburn,Easthouses Lily,2,1,H
+SC2,28/08/2021,Dunbar United,Broxburn Athletic,3,1,H
+SC2,28/08/2021,Irvine Meadow,Musselburgh Athletic,2,1,H
+SC2,28/08/2021,Tynecastle,Girvan,4,2,H
+SC2,28/09/2021,Bo'ness United,Wick Academy,4,1,H
+SC2,29/11/2021,Brechin,Darvel,1,1,D
+SC2,30/10/2021,Lothian Hutchison,Dunbar United,2,1,H
+SC2,30/10/2021,Albion Rovers,Brora Rangers,1,0,H
+SC2,30/10/2021,Rothes,Dalbeattie Star,0,1,A
+SC2,30/10/2021,Elgin City,Clydebank,1,2,A

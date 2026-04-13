@@ -1,0 +1,187 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/03/2024,Arbroath,Raith Rovers,3,2,H
+SC1,02/01/2024,Airdrie United,Inverness CT,2,0,H
+SC1,02/01/2024,Morton,Ayr Utd,3,0,H
+SC1,02/01/2024,Dunfermline,Raith Rovers,1,2,A
+SC1,02/01/2024,Arbroath,Dundee Utd,0,3,A
+SC1,02/01/2024,Partick,Queen's Park,3,2,H
+SC1,02/03/2024,Airdrie United,Queen's Park,1,1,D
+SC1,02/03/2024,Dunfermline,Ayr Utd,2,0,H
+SC1,02/03/2024,Morton,Inverness CT,0,2,A
+SC1,02/03/2024,Partick,Dundee Utd,1,1,D
+SC1,02/04/2024,Arbroath,Airdrie United,1,2,A
+SC1,02/09/2023,Arbroath,Ayr Utd,2,1,H
+SC1,02/09/2023,Dundee Utd,Airdrie United,2,0,H
+SC1,02/09/2023,Raith Rovers,Queen's Park,3,2,H
+SC1,02/09/2023,Morton,Partick,1,4,A
+SC1,02/09/2023,Inverness CT,Dunfermline,1,1,D
+SC1,02/12/2023,Inverness CT,Raith Rovers,1,2,A
+SC1,02/12/2023,Partick,Airdrie United,2,1,H
+SC1,03/02/2024,Inverness CT,Queen's Park,0,1,A
+SC1,03/02/2024,Ayr Utd,Dundee Utd,1,2,A
+SC1,03/02/2024,Dunfermline,Morton,0,5,A
+SC1,03/05/2024,Inverness CT,Morton,3,1,H
+SC1,03/05/2024,Raith Rovers,Arbroath,5,0,H
+SC1,03/05/2024,Dundee Utd,Partick,4,1,H
+SC1,03/05/2024,Ayr Utd,Dunfermline,3,3,D
+SC1,03/05/2024,Queen's Park,Airdrie United,2,0,H
+SC1,03/11/2023,Morton,Dunfermline,1,2,A
+SC1,04/08/2023,Arbroath,Dundee Utd,0,4,A
+SC1,04/11/2023,Arbroath,Partick,1,3,A
+SC1,04/11/2023,Ayr Utd,Queen's Park,2,2,D
+SC1,04/11/2023,Dundee Utd,Inverness CT,1,1,D
+SC1,04/11/2023,Raith Rovers,Airdrie United,1,1,D
+SC1,05/01/2024,Queen's Park,Dunfermline,2,1,H
+SC1,05/03/2024,Dunfermline,Airdrie United,0,2,A
+SC1,05/03/2024,Morton,Dundee Utd,0,1,A
+SC1,05/08/2023,Dunfermline,Airdrie United,2,1,H
+SC1,05/08/2023,Morton,Ayr Utd,3,1,H
+SC1,05/08/2023,Inverness CT,Queen's Park,1,2,A
+SC1,05/08/2023,Partick,Raith Rovers,2,2,D
+SC1,06/01/2024,Airdrie United,Raith Rovers,1,0,H
+SC1,06/01/2024,Ayr Utd,Inverness CT,1,3,A
+SC1,06/01/2024,Dundee Utd,Morton,2,3,A
+SC1,06/01/2024,Partick,Arbroath,4,0,H
+SC1,06/04/2024,Queen's Park,Dundee Utd,0,5,A
+SC1,06/04/2024,Airdrie United,Morton,3,1,H
+SC1,06/04/2024,Dunfermline,Partick,1,1,D
+SC1,06/04/2024,Inverness CT,Arbroath,2,1,H
+SC1,06/04/2024,Raith Rovers,Ayr Utd,2,1,H
+SC1,07/05/2024,Alloa Athletic,Hamilton Academical,2,2,D
+SC1,07/05/2024,Montrose,Inverness CT,0,0,D
+SC1,07/10/2023,Queen's Park,Morton,0,0,D
+SC1,07/10/2023,Airdrie United,Ayr Utd,1,2,A
+SC1,07/10/2023,Raith Rovers,Dundee Utd,1,1,D
+SC1,07/10/2023,Inverness CT,Partick,0,0,D
+SC1,08/12/2023,Raith Rovers,Partick,4,3,H
+SC1,09/03/2024,Raith Rovers,Dunfermline,2,0,H
+SC1,09/03/2024,Inverness CT,Airdrie United,0,0,D
+SC1,09/03/2024,Queen's Park,Partick,2,2,D
+SC1,09/03/2024,Dundee Utd,Arbroath,4,0,H
+SC1,09/04/2024,Ayr Utd,Morton,1,1,D
+SC1,09/04/2024,Raith Rovers,Airdrie United,1,3,A
+SC1,09/12/2023,Dundee Utd,Ayr Utd,1,0,H
+SC1,09/12/2023,Arbroath,Morton,1,2,A
+SC1,09/12/2023,Airdrie United,Dunfermline,1,2,A
+SC1,09/12/2023,Queen's Park,Inverness CT,1,4,A
+SC1,10/02/2024,Dunfermline,Queen's Park,0,3,A
+SC1,10/11/2023,Dunfermline,Dundee Utd,1,2,A
+SC1,11/05/2024,Hamilton Academical,Alloa Athletic,3,2,H
+SC1,11/05/2024,Inverness CT,Montrose,1,0,H
+SC1,11/11/2023,Airdrie United,Arbroath,2,0,H
+SC1,11/11/2023,Queen's Park,Raith Rovers,2,3,A
+SC1,11/11/2023,Partick,Morton,2,1,H
+SC1,11/11/2023,Inverness CT,Ayr Utd,3,1,H
+SC1,12/01/2024,Inverness CT,Dundee Utd,0,1,A
+SC1,12/03/2024,Partick,Raith Rovers,0,1,A
+SC1,12/04/2024,Morton,Dundee Utd,1,4,A
+SC1,12/08/2023,Queen's Park,Arbroath,2,1,H
+SC1,12/08/2023,Airdrie United,Partick,2,1,H
+SC1,12/08/2023,Ayr Utd,Inverness CT,1,0,H
+SC1,12/08/2023,Raith Rovers,Morton,3,2,H
+SC1,12/08/2023,Dundee Utd,Dunfermline,1,1,D
+SC1,12/12/2023,Morton,Inverness CT,2,1,H
+SC1,13/01/2024,Morton,Partick,1,1,D
+SC1,13/01/2024,Raith Rovers,Queen's Park,1,2,A
+SC1,13/01/2024,Arbroath,Ayr Utd,0,0,D
+SC1,13/04/2024,Queen's Park,Inverness CT,0,1,A
+SC1,13/04/2024,Raith Rovers,Partick,0,0,D
+SC1,13/04/2024,Ayr Utd,Arbroath,5,0,H
+SC1,13/04/2024,Airdrie United,Dunfermline,2,1,H
+SC1,13/12/2023,Arbroath,Raith Rovers,1,2,A
+SC1,15/03/2024,Dunfermline,Dundee Utd,3,1,H
+SC1,15/05/2024,Hamilton Academical,Inverness CT,2,1,H
+SC1,15/09/2023,Ayr Utd,Partick,0,4,A
+SC1,16/02/2024,Raith Rovers,Dundee Utd,2,1,H
+SC1,16/03/2024,Partick,Morton,2,1,H
+SC1,16/03/2024,Inverness CT,Ayr Utd,1,2,A
+SC1,16/03/2024,Airdrie United,Arbroath,5,2,H
+SC1,16/03/2024,Queen's Park,Raith Rovers,0,0,D
+SC1,16/09/2023,Arbroath,Airdrie United,4,0,H
+SC1,16/09/2023,Dundee Utd,Morton,1,1,D
+SC1,16/09/2023,Queen's Park,Dunfermline,0,2,A
+SC1,16/09/2023,Raith Rovers,Inverness CT,1,0,H
+SC1,16/12/2023,Inverness CT,Arbroath,1,2,A
+SC1,16/12/2023,Morton,Queen's Park,1,0,H
+SC1,16/12/2023,Dundee Utd,Raith Rovers,0,1,A
+SC1,16/12/2023,Dunfermline,Partick,1,2,A
+SC1,16/12/2023,Ayr Utd,Airdrie United,1,0,H
+SC1,17/02/2024,Queen's Park,Morton,0,0,D
+SC1,17/02/2024,Airdrie United,Ayr Utd,2,3,A
+SC1,17/02/2024,Dunfermline,Arbroath,1,1,D
+SC1,17/02/2024,Inverness CT,Partick,3,3,D
+SC1,18/05/2024,Inverness CT,Hamilton Academical,2,3,A
+SC1,18/11/2023,Dunfermline,Inverness CT,1,1,D
+SC1,19/04/2024,Inverness CT,Raith Rovers,0,1,A
+SC1,19/08/2023,Arbroath,Queen's Park,0,1,A
+SC1,20/04/2024,Arbroath,Morton,1,2,A
+SC1,20/04/2024,Dunfermline,Queen's Park,0,0,D
+SC1,20/04/2024,Dundee Utd,Ayr Utd,1,0,H
+SC1,20/04/2024,Partick,Airdrie United,4,0,H
+SC1,20/10/2023,Airdrie United,Queen's Park,1,1,D
+SC1,21/10/2023,Partick,Dundee Utd,0,5,A
+SC1,21/10/2023,Dunfermline,Ayr Utd,0,1,A
+SC1,22/09/2023,Queen's Park,Ayr Utd,2,5,A
+SC1,22/12/2023,Raith Rovers,Ayr Utd,4,4,D
+SC1,22/12/2023,Queen's Park,Dundee Utd,0,0,D
+SC1,23/01/2024,Ayr Utd,Arbroath,2,0,H
+SC1,23/02/2024,Partick,Dunfermline,1,3,A
+SC1,23/03/2024,Dundee Utd,Inverness CT,1,1,D
+SC1,23/03/2024,Morton,Dunfermline,0,1,A
+SC1,23/03/2024,Arbroath,Partick,0,1,A
+SC1,23/03/2024,Ayr Utd,Queen's Park,1,2,A
+SC1,23/09/2023,Airdrie United,Raith Rovers,1,0,H
+SC1,23/09/2023,Dunfermline,Morton,3,1,H
+SC1,23/09/2023,Inverness CT,Dundee Utd,0,1,A
+SC1,23/09/2023,Partick,Arbroath,0,3,A
+SC1,23/12/2023,Airdrie United,Morton,0,0,D
+SC1,23/12/2023,Arbroath,Dunfermline,1,1,D
+SC1,23/12/2023,Partick,Inverness CT,1,1,D
+SC1,24/02/2024,Morton,Airdrie United,2,1,H
+SC1,24/02/2024,Dundee Utd,Queen's Park,3,1,H
+SC1,24/02/2024,Ayr Utd,Raith Rovers,1,2,A
+SC1,24/02/2024,Arbroath,Inverness CT,1,1,D
+SC1,26/04/2024,Airdrie United,Dundee Utd,0,0,D
+SC1,26/08/2023,Morton,Arbroath,0,3,A
+SC1,26/08/2023,Partick,Queen's Park,3,1,H
+SC1,26/08/2023,Airdrie United,Inverness CT,2,1,H
+SC1,26/08/2023,Dunfermline,Raith Rovers,0,1,A
+SC1,26/08/2023,Ayr Utd,Dundee Utd,0,3,A
+SC1,27/01/2024,Dundee Utd,Dunfermline,0,0,D
+SC1,27/01/2024,Morton,Arbroath,3,0,H
+SC1,27/01/2024,Raith Rovers,Inverness CT,2,3,A
+SC1,27/01/2024,Airdrie United,Partick,1,1,D
+SC1,27/01/2024,Queen's Park,Ayr Utd,1,2,A
+SC1,27/02/2024,Queen's Park,Arbroath,6,0,H
+SC1,27/02/2024,Ayr Utd,Partick,4,3,H
+SC1,27/02/2024,Raith Rovers,Morton,0,0,D
+SC1,27/02/2024,Dundee Utd,Airdrie United,0,2,A
+SC1,27/02/2024,Inverness CT,Dunfermline,0,0,D
+SC1,27/04/2024,Dunfermline,Inverness CT,1,1,D
+SC1,27/04/2024,Morton,Raith Rovers,0,0,D
+SC1,27/04/2024,Partick,Ayr Utd,0,0,D
+SC1,27/04/2024,Arbroath,Queen's Park,0,5,A
+SC1,27/10/2023,Queen's Park,Partick,2,2,D
+SC1,27/10/2023,Dundee Utd,Arbroath,6,0,H
+SC1,28/10/2023,Raith Rovers,Dunfermline,1,0,H
+SC1,28/10/2023,Inverness CT,Airdrie United,1,0,H
+SC1,28/10/2023,Ayr Utd,Morton,0,1,A
+SC1,28/11/2023,Dunfermline,Arbroath,3,0,H
+SC1,29/03/2024,Ayr Utd,Airdrie United,2,1,H
+SC1,29/12/2023,Dundee Utd,Partick,3,0,H
+SC1,30/03/2024,Partick,Inverness CT,1,0,H
+SC1,30/03/2024,Morton,Queen's Park,2,0,H
+SC1,30/03/2024,Dundee Utd,Raith Rovers,2,0,H
+SC1,30/03/2024,Arbroath,Dunfermline,2,3,A
+SC1,30/09/2023,Arbroath,Inverness CT,2,3,A
+SC1,30/09/2023,Ayr Utd,Raith Rovers,1,2,A
+SC1,30/09/2023,Dundee Utd,Queen's Park,4,1,H
+SC1,30/09/2023,Partick,Dunfermline,3,0,H
+SC1,30/09/2023,Morton,Airdrie United,0,1,A
+SC1,30/12/2023,Inverness CT,Morton,0,0,D
+SC1,30/12/2023,Raith Rovers,Arbroath,2,2,D
+SC1,30/12/2023,Queen's Park,Airdrie United,1,2,A
+SC1,30/12/2023,Ayr Utd,Dunfermline,2,2,D
+SC1,31/10/2023,Morton,Raith Rovers,1,2,A
+SC1,31/10/2023,Airdrie United,Dundee Utd,0,2,A
+SC1,31/10/2023,Partick,Ayr Utd,2,2,D

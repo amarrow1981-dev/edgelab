@@ -1,0 +1,185 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/02/2022,Partick,Ayr Utd,1,0,H
+SC1,01/02/2022,Raith Rovers,Queen of the South,3,3,D
+SC1,01/03/2022,Arbroath,Partick,1,1,D
+SC1,01/04/2022,Ayr Utd,Hamilton Academical,1,1,D
+SC1,01/04/2022,Morton,Kilmarnock,1,1,D
+SC1,02/01/2022,Queen of the South,Hamilton Academical,0,3,A
+SC1,02/01/2022,Arbroath,Inverness CT,0,0,D
+SC1,02/01/2022,Raith Rovers,Dunfermline,0,0,D
+SC1,02/04/2022,Partick,Arbroath,0,0,D
+SC1,02/08/2021,Kilmarnock,Ayr Utd,2,0,H
+SC1,02/10/2021,Kilmarnock,Raith Rovers,1,3,A
+SC1,02/10/2021,Queen of the South,Dunfermline,1,0,H
+SC1,02/10/2021,Morton,Arbroath,2,2,D
+SC1,02/10/2021,Partick,Ayr Utd,4,0,H
+SC1,02/10/2021,Hamilton Academical,Inverness CT,2,1,H
+SC1,03/05/2022,Montrose,Airdrie United,1,0,H
+SC1,03/12/2021,Inverness CT,Kilmarnock,1,0,H
+SC1,04/02/2022,Arbroath,Kilmarnock,1,0,H
+SC1,04/03/2022,Partick,Inverness CT,1,0,H
+SC1,04/05/2022,Queen's Park,Dunfermline,0,0,D
+SC1,04/12/2021,Arbroath,Raith Rovers,0,0,D
+SC1,04/12/2021,Morton,Ayr Utd,2,2,D
+SC1,04/12/2021,Hamilton Academical,Dunfermline,1,0,H
+SC1,04/12/2021,Queen of the South,Partick,0,0,D
+SC1,05/02/2022,Ayr Utd,Dunfermline,1,1,D
+SC1,05/02/2022,Inverness CT,Morton,0,1,A
+SC1,05/02/2022,Raith Rovers,Hamilton Academical,0,0,D
+SC1,05/03/2022,Kilmarnock,Hamilton Academical,2,0,H
+SC1,05/03/2022,Raith Rovers,Ayr Utd,0,4,A
+SC1,05/03/2022,Arbroath,Dunfermline,1,0,H
+SC1,05/03/2022,Queen of the South,Morton,3,0,H
+SC1,06/04/2022,Dunfermline,Raith Rovers,2,0,H
+SC1,06/11/2021,Dunfermline,Morton,1,3,A
+SC1,06/11/2021,Ayr Utd,Inverness CT,2,2,D
+SC1,06/11/2021,Queen of the South,Raith Rovers,1,1,D
+SC1,06/11/2021,Kilmarnock,Partick,0,1,A
+SC1,06/11/2021,Hamilton Academical,Arbroath,1,1,D
+SC1,07/05/2022,Dunfermline,Queen's Park,0,1,A
+SC1,07/08/2021,Ayr Utd,Arbroath,2,2,D
+SC1,07/08/2021,Dunfermline,Partick,0,3,A
+SC1,07/08/2021,Hamilton Academical,Morton,0,1,A
+SC1,07/08/2021,Queen of the South,Kilmarnock,0,1,A
+SC1,07/08/2021,Inverness CT,Raith Rovers,1,0,H
+SC1,07/09/2021,Ayr Utd,Raith Rovers,0,2,A
+SC1,08/01/2022,Morton,Dunfermline,5,0,H
+SC1,08/01/2022,Inverness CT,Raith Rovers,1,1,D
+SC1,08/01/2022,Queen of the South,Kilmarnock,0,2,A
+SC1,08/01/2022,Hamilton Academical,Partick,2,2,D
+SC1,08/01/2022,Ayr Utd,Arbroath,1,0,H
+SC1,08/03/2022,Partick,Queen of the South,1,0,H
+SC1,08/04/2022,Queen of the South,Partick,0,1,A
+SC1,09/02/2022,Inverness CT,Partick,3,3,D
+SC1,09/02/2022,Kilmarnock,Ayr Utd,1,2,A
+SC1,09/02/2022,Arbroath,Hamilton Academical,2,2,D
+SC1,09/04/2022,Kilmarnock,Dunfermline,2,0,H
+SC1,09/04/2022,Ayr Utd,Inverness CT,2,2,D
+SC1,09/04/2022,Raith Rovers,Morton,0,1,A
+SC1,09/04/2022,Hamilton Academical,Arbroath,0,1,A
+SC1,10/12/2021,Ayr Utd,Hamilton Academical,1,1,D
+SC1,11/03/2022,Ayr Utd,Kilmarnock,1,3,A
+SC1,11/09/2021,Kilmarnock,Morton,1,0,H
+SC1,11/09/2021,Inverness CT,Partick,3,1,H
+SC1,11/09/2021,Raith Rovers,Queen of the South,0,1,A
+SC1,11/09/2021,Ayr Utd,Dunfermline,3,1,H
+SC1,11/09/2021,Arbroath,Hamilton Academical,4,0,H
+SC1,11/12/2021,Morton,Inverness CT,1,6,A
+SC1,11/12/2021,Raith Rovers,Kilmarnock,1,0,H
+SC1,11/12/2021,Dunfermline,Queen of the South,3,3,D
+SC1,11/12/2021,Partick,Arbroath,0,2,A
+SC1,12/02/2022,Morton,Queen of the South,2,1,H
+SC1,12/02/2022,Kilmarnock,Dunfermline,2,1,H
+SC1,12/03/2022,Queen of the South,Raith Rovers,0,1,A
+SC1,12/03/2022,Inverness CT,Arbroath,3,0,H
+SC1,12/03/2022,Morton,Partick,2,1,H
+SC1,12/03/2022,Hamilton Academical,Dunfermline,2,2,D
+SC1,12/05/2022,Queen's Park,Airdrie United,1,1,D
+SC1,13/11/2021,Hamilton Academical,Raith Rovers,0,3,A
+SC1,13/11/2021,Inverness CT,Dunfermline,1,2,A
+SC1,13/11/2021,Morton,Kilmarnock,0,2,A
+SC1,13/11/2021,Ayr Utd,Partick,0,4,A
+SC1,13/11/2021,Arbroath,Queen of the South,1,1,D
+SC1,14/01/2022,Partick,Kilmarnock,1,1,D
+SC1,15/01/2022,Inverness CT,Queen of the South,2,2,D
+SC1,15/01/2022,Dunfermline,Hamilton Academical,1,0,H
+SC1,15/01/2022,Ayr Utd,Morton,0,2,A
+SC1,15/01/2022,Raith Rovers,Arbroath,1,2,A
+SC1,15/04/2022,Inverness CT,Kilmarnock,2,1,H
+SC1,15/10/2021,Hamilton Academical,Partick,1,6,A
+SC1,16/04/2022,Partick,Raith Rovers,0,1,A
+SC1,16/04/2022,Morton,Hamilton Academical,0,1,A
+SC1,16/04/2022,Dunfermline,Ayr Utd,2,1,H
+SC1,16/04/2022,Arbroath,Queen of the South,5,1,H
+SC1,16/10/2021,Inverness CT,Morton,2,0,H
+SC1,16/10/2021,Raith Rovers,Arbroath,2,1,H
+SC1,16/10/2021,Ayr Utd,Queen of the South,2,1,H
+SC1,16/10/2021,Dunfermline,Kilmarnock,2,2,D
+SC1,18/03/2022,Dunfermline,Morton,1,1,D
+SC1,18/09/2021,Hamilton Academical,Ayr Utd,0,2,A
+SC1,18/09/2021,Dunfermline,Inverness CT,0,0,D
+SC1,18/09/2021,Queen of the South,Arbroath,0,2,A
+SC1,18/09/2021,Morton,Raith Rovers,0,1,A
+SC1,18/09/2021,Partick,Kilmarnock,0,2,A
+SC1,18/12/2021,Queen of the South,Ayr Utd,3,0,H
+SC1,18/12/2021,Arbroath,Morton,2,1,H
+SC1,18/12/2021,Inverness CT,Hamilton Academical,1,2,A
+SC1,18/12/2021,Partick,Raith Rovers,1,0,H
+SC1,19/02/2022,Queen of the South,Arbroath,0,0,D
+SC1,19/02/2022,Inverness CT,Ayr Utd,1,2,A
+SC1,19/02/2022,Kilmarnock,Raith Rovers,3,0,H
+SC1,19/02/2022,Hamilton Academical,Morton,1,0,H
+SC1,19/03/2022,Arbroath,Ayr Utd,1,0,H
+SC1,19/03/2022,Raith Rovers,Inverness CT,2,3,A
+SC1,19/03/2022,Kilmarnock,Queen of the South,2,1,H
+SC1,19/03/2022,Partick,Hamilton Academical,0,4,A
+SC1,19/04/2022,Queen of the South,Inverness CT,2,1,H
+SC1,19/11/2021,Queen of the South,Inverness CT,1,2,A
+SC1,20/11/2021,Dunfermline,Ayr Utd,3,0,H
+SC1,20/11/2021,Raith Rovers,Morton,2,1,H
+SC1,20/11/2021,Partick,Hamilton Academical,1,0,H
+SC1,20/11/2021,Kilmarnock,Arbroath,0,1,A
+SC1,21/08/2021,Arbroath,Partick,3,1,H
+SC1,21/08/2021,Morton,Queen of the South,2,3,A
+SC1,21/08/2021,Inverness CT,Ayr Utd,1,0,H
+SC1,21/08/2021,Hamilton Academical,Kilmarnock,0,2,A
+SC1,22/01/2022,Dunfermline,Inverness CT,1,1,D
+SC1,22/02/2022,Partick,Morton,0,1,A
+SC1,22/03/2022,Dunfermline,Partick,4,1,H
+SC1,22/04/2022,Kilmarnock,Arbroath,2,1,H
+SC1,23/04/2022,Queen of the South,Ayr Utd,1,1,D
+SC1,23/04/2022,Hamilton Academical,Raith Rovers,0,2,A
+SC1,23/04/2022,Partick,Dunfermline,1,0,H
+SC1,23/04/2022,Morton,Inverness CT,0,1,A
+SC1,23/10/2021,Partick,Dunfermline,0,0,D
+SC1,23/10/2021,Kilmarnock,Hamilton Academical,2,1,H
+SC1,23/10/2021,Queen of the South,Morton,0,0,D
+SC1,23/10/2021,Raith Rovers,Inverness CT,1,1,D
+SC1,23/10/2021,Arbroath,Ayr Utd,1,1,D
+SC1,24/09/2021,Arbroath,Kilmarnock,0,0,D
+SC1,25/02/2022,Hamilton Academical,Inverness CT,1,1,D
+SC1,25/09/2021,Dunfermline,Hamilton Academical,0,0,D
+SC1,25/09/2021,Ayr Utd,Morton,0,0,D
+SC1,25/09/2021,Inverness CT,Queen of the South,2,1,H
+SC1,26/02/2022,Raith Rovers,Partick,0,0,D
+SC1,26/02/2022,Ayr Utd,Queen of the South,0,1,A
+SC1,26/02/2022,Morton,Arbroath,0,0,D
+SC1,26/02/2022,Dunfermline,Kilmarnock,0,0,D
+SC1,26/03/2022,Hamilton Academical,Queen of the South,1,0,H
+SC1,26/03/2022,Kilmarnock,Partick,2,1,H
+SC1,26/03/2022,Inverness CT,Dunfermline,2,0,H
+SC1,26/03/2022,Morton,Ayr Utd,1,1,D
+SC1,26/03/2022,Arbroath,Raith Rovers,3,3,D
+SC1,26/09/2021,Raith Rovers,Partick,3,2,H
+SC1,26/10/2021,Hamilton Academical,Queen of the South,1,0,H
+SC1,26/10/2021,Inverness CT,Arbroath,0,1,A
+SC1,26/10/2021,Ayr Utd,Kilmarnock,0,1,A
+SC1,26/10/2021,Dunfermline,Raith Rovers,1,1,D
+SC1,26/10/2021,Morton,Partick,0,0,D
+SC1,26/12/2021,Dunfermline,Arbroath,0,3,A
+SC1,26/12/2021,Ayr Utd,Raith Rovers,2,0,H
+SC1,26/12/2021,Hamilton Academical,Kilmarnock,2,3,A
+SC1,28/01/2022,Morton,Raith Rovers,2,2,D
+SC1,28/08/2021,Dunfermline,Arbroath,0,3,A
+SC1,28/08/2021,Kilmarnock,Inverness CT,0,1,A
+SC1,28/08/2021,Partick,Morton,3,0,H
+SC1,28/08/2021,Queen of the South,Hamilton Academical,1,2,A
+SC1,29/01/2022,Queen of the South,Dunfermline,0,2,A
+SC1,29/01/2022,Kilmarnock,Inverness CT,1,0,H
+SC1,29/01/2022,Hamilton Academical,Ayr Utd,1,1,D
+SC1,29/04/2022,Inverness CT,Hamilton Academical,4,0,H
+SC1,29/04/2022,Arbroath,Morton,3,0,H
+SC1,29/04/2022,Dunfermline,Queen of the South,1,2,A
+SC1,29/04/2022,Ayr Utd,Partick,3,1,H
+SC1,29/04/2022,Raith Rovers,Kilmarnock,1,1,D
+SC1,29/09/2021,Raith Rovers,Dunfermline,1,1,D
+SC1,29/12/2021,Kilmarnock,Morton,1,1,D
+SC1,30/10/2021,Partick,Inverness CT,0,0,D
+SC1,30/10/2021,Arbroath,Dunfermline,4,2,H
+SC1,30/10/2021,Raith Rovers,Ayr Utd,2,1,H
+SC1,30/10/2021,Kilmarnock,Queen of the South,4,0,H
+SC1,30/10/2021,Morton,Hamilton Academical,1,1,D
+SC1,31/07/2021,Arbroath,Inverness CT,0,1,A
+SC1,31/07/2021,Raith Rovers,Hamilton Academical,4,4,D
+SC1,31/07/2021,Morton,Dunfermline,2,2,D
+SC1,31/07/2021,Partick,Queen of the South,3,2,H

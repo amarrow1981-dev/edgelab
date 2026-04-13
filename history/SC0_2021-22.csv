@@ -1,0 +1,234 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/02/2022,Hibernian,Heart Of Midlothian,0,0,D
+SC0,01/02/2022,ST Mirren,Motherwell,1,1,D
+SC0,01/02/2022,Dundee,Dundee Utd,0,0,D
+SC0,01/02/2022,Livingston,ST Johnstone,1,2,A
+SC0,01/02/2022,Ross County,Aberdeen,1,1,D
+SC0,01/05/2022,Celtic,Rangers,1,1,D
+SC0,01/08/2021,Aberdeen,Dundee Utd,2,0,H
+SC0,01/08/2021,Motherwell,Hibernian,2,3,A
+SC0,01/12/2021,ST Mirren,Ross County,0,0,D
+SC0,01/12/2021,Hibernian,Rangers,0,1,A
+SC0,01/12/2021,Dundee,ST Johnstone,1,0,H
+SC0,01/12/2021,Aberdeen,Livingston,2,0,H
+SC0,02/02/2022,Celtic,Rangers,3,0,H
+SC0,02/03/2022,Celtic,ST Mirren,2,0,H
+SC0,02/03/2022,Dundee,Hibernian,0,0,D
+SC0,02/03/2022,Heart Of Midlothian,Aberdeen,2,0,H
+SC0,02/03/2022,Livingston,Dundee Utd,2,1,H
+SC0,02/03/2022,Motherwell,Ross County,0,1,A
+SC0,02/03/2022,ST Johnstone,Rangers,0,1,A
+SC0,02/04/2022,Dundee,Aberdeen,2,2,D
+SC0,02/04/2022,Ross County,Heart Of Midlothian,1,1,D
+SC0,02/04/2022,ST Johnstone,Livingston,1,0,H
+SC0,02/04/2022,Motherwell,ST Mirren,4,2,H
+SC0,02/04/2022,Hibernian,Dundee Utd,1,1,D
+SC0,02/10/2021,Livingston,ST Mirren,0,1,A
+SC0,02/10/2021,Dundee Utd,Ross County,1,0,H
+SC0,02/10/2021,ST Johnstone,Dundee,3,1,H
+SC0,02/10/2021,Heart Of Midlothian,Motherwell,2,0,H
+SC0,02/12/2021,Celtic,Heart Of Midlothian,1,0,H
+SC0,03/04/2022,Rangers,Celtic,1,2,A
+SC0,03/05/2022,Partick,Inverness CT,1,2,A
+SC0,03/10/2021,Rangers,Hibernian,2,1,H
+SC0,03/10/2021,Aberdeen,Celtic,1,2,A
+SC0,04/12/2021,Hibernian,Motherwell,1,1,D
+SC0,04/12/2021,Rangers,Dundee,3,0,H
+SC0,04/12/2021,Aberdeen,ST Mirren,4,1,H
+SC0,05/02/2022,Livingston,Aberdeen,2,1,H
+SC0,05/02/2022,Hibernian,ST Mirren,0,1,A
+SC0,05/02/2022,Dundee,Ross County,1,2,A
+SC0,05/02/2022,ST Johnstone,Dundee Utd,0,0,D
+SC0,05/03/2022,Ross County,ST Mirren,1,0,H
+SC0,05/03/2022,Rangers,Aberdeen,1,0,H
+SC0,05/03/2022,Dundee Utd,Heart Of Midlothian,2,2,D
+SC0,05/03/2022,Motherwell,Dundee,1,1,D
+SC0,05/03/2022,Hibernian,ST Johnstone,0,0,D
+SC0,05/12/2021,Dundee Utd,Celtic,0,3,A
+SC0,05/12/2021,Livingston,Heart Of Midlothian,0,1,A
+SC0,06/02/2022,Rangers,Heart Of Midlothian,5,0,H
+SC0,06/02/2022,Motherwell,Celtic,0,4,A
+SC0,06/03/2022,Livingston,Celtic,1,3,A
+SC0,06/05/2022,Inverness CT,Partick,1,0,H
+SC0,06/11/2021,Aberdeen,Motherwell,0,2,A
+SC0,06/11/2021,Heart Of Midlothian,Dundee Utd,5,2,H
+SC0,06/11/2021,ST Johnstone,ST Mirren,0,0,D
+SC0,07/05/2022,Celtic,Heart Of Midlothian,4,1,H
+SC0,07/05/2022,Hibernian,Aberdeen,1,1,D
+SC0,07/05/2022,ST Mirren,Dundee,2,0,H
+SC0,07/05/2022,Ross County,Motherwell,0,1,A
+SC0,07/05/2022,Livingston,ST Johnstone,1,1,D
+SC0,07/08/2021,ST Mirren,Heart Of Midlothian,1,2,A
+SC0,07/08/2021,Dundee Utd,Rangers,1,0,H
+SC0,07/11/2021,Rangers,Ross County,4,2,H
+SC0,07/11/2021,Dundee,Celtic,2,4,A
+SC0,08/05/2022,Rangers,Dundee Utd,2,0,H
+SC0,08/08/2021,ST Johnstone,Motherwell,1,1,D
+SC0,08/08/2021,Hibernian,Ross County,3,0,H
+SC0,08/08/2021,Livingston,Aberdeen,1,2,A
+SC0,08/08/2021,Celtic,Dundee,6,0,H
+SC0,08/12/2021,Livingston,Hibernian,1,0,H
+SC0,09/02/2022,ST Mirren,ST Johnstone,2,1,H
+SC0,09/02/2022,Aberdeen,Celtic,2,3,A
+SC0,09/02/2022,Heart Of Midlothian,Dundee,1,2,A
+SC0,09/02/2022,Rangers,Hibernian,2,0,H
+SC0,09/02/2022,Dundee Utd,Motherwell,2,0,H
+SC0,09/02/2022,Ross County,Livingston,1,1,D
+SC0,09/03/2022,Dundee,ST Mirren,0,1,A
+SC0,09/04/2022,Aberdeen,Ross County,0,1,A
+SC0,09/04/2022,Dundee Utd,Dundee,2,2,D
+SC0,09/04/2022,Heart Of Midlothian,Hibernian,3,1,H
+SC0,09/04/2022,Celtic,ST Johnstone,7,0,H
+SC0,09/04/2022,Livingston,Motherwell,2,2,D
+SC0,10/04/2022,ST Mirren,Rangers,0,4,A
+SC0,10/05/2022,Dundee,Hibernian,3,1,H
+SC0,10/05/2022,Inverness CT,Arbroath,0,0,D
+SC0,11/05/2022,ST Mirren,Livingston,0,0,D
+SC0,11/05/2022,Dundee Utd,Celtic,1,1,D
+SC0,11/05/2022,ST Johnstone,Aberdeen,1,0,H
+SC0,11/05/2022,Rangers,Ross County,4,1,H
+SC0,11/05/2022,Motherwell,Heart Of Midlothian,2,1,H
+SC0,11/09/2021,ST Mirren,Dundee Utd,0,0,D
+SC0,11/09/2021,Celtic,Ross County,3,0,H
+SC0,11/09/2021,Motherwell,Aberdeen,2,0,H
+SC0,11/09/2021,ST Johnstone,Rangers,1,2,A
+SC0,11/09/2021,Dundee,Livingston,0,0,D
+SC0,11/12/2021,Ross County,Dundee,3,2,H
+SC0,11/12/2021,Dundee Utd,Livingston,0,1,A
+SC0,11/12/2021,ST Johnstone,Aberdeen,0,1,A
+SC0,11/12/2021,ST Mirren,Hibernian,1,1,D
+SC0,12/09/2021,Heart Of Midlothian,Hibernian,0,0,D
+SC0,12/12/2021,Heart Of Midlothian,Rangers,0,2,A
+SC0,12/12/2021,Celtic,Motherwell,1,0,H
+SC0,14/05/2022,Celtic,Motherwell,6,0,H
+SC0,14/05/2022,Ross County,Dundee Utd,1,2,A
+SC0,14/05/2022,Heart Of Midlothian,Rangers,1,3,A
+SC0,14/12/2021,Hibernian,Dundee,1,0,H
+SC0,15/02/2022,Aberdeen,ST Johnstone,1,1,D
+SC0,15/05/2022,Livingston,Dundee,2,1,H
+SC0,15/05/2022,Aberdeen,ST Mirren,0,0,D
+SC0,15/05/2022,Hibernian,ST Johnstone,4,0,H
+SC0,15/12/2021,Rangers,ST Johnstone,2,0,H
+SC0,15/12/2021,Ross County,Celtic,1,2,A
+SC0,16/10/2021,Motherwell,Celtic,0,2,A
+SC0,16/10/2021,Hibernian,Dundee Utd,0,3,A
+SC0,16/10/2021,Ross County,ST Mirren,2,3,A
+SC0,16/10/2021,ST Johnstone,Livingston,0,3,A
+SC0,16/10/2021,Dundee,Aberdeen,2,1,H
+SC0,16/10/2021,Rangers,Heart Of Midlothian,1,1,D
+SC0,17/01/2022,Celtic,Hibernian,2,0,H
+SC0,18/01/2022,Aberdeen,Rangers,1,1,D
+SC0,18/01/2022,Heart Of Midlothian,ST Johnstone,2,0,H
+SC0,18/01/2022,Livingston,Dundee,2,0,H
+SC0,18/01/2022,Ross County,Motherwell,3,1,H
+SC0,18/01/2022,Dundee Utd,ST Mirren,1,2,A
+SC0,18/09/2021,Hibernian,ST Mirren,2,2,D
+SC0,18/09/2021,Aberdeen,ST Johnstone,0,1,A
+SC0,18/09/2021,Ross County,Heart Of Midlothian,2,2,D
+SC0,18/12/2021,Rangers,Dundee Utd,1,0,H
+SC0,18/12/2021,Motherwell,ST Johnstone,2,0,H
+SC0,18/12/2021,Livingston,Ross County,1,1,D
+SC0,18/12/2021,Dundee,Heart Of Midlothian,0,1,A
+SC0,19/02/2022,Hibernian,Ross County,2,0,H
+SC0,19/02/2022,Livingston,ST Mirren,1,1,D
+SC0,19/02/2022,Motherwell,Aberdeen,1,1,D
+SC0,19/02/2022,ST Johnstone,Heart Of Midlothian,2,1,H
+SC0,19/03/2022,Heart Of Midlothian,Livingston,2,0,H
+SC0,19/03/2022,ST Mirren,Dundee Utd,1,2,A
+SC0,19/03/2022,Aberdeen,Hibernian,3,1,H
+SC0,19/03/2022,ST Johnstone,Motherwell,2,1,H
+SC0,19/03/2022,Celtic,Ross County,4,0,H
+SC0,19/09/2021,Livingston,Celtic,1,0,H
+SC0,19/09/2021,Dundee Utd,Dundee,1,0,H
+SC0,19/09/2021,Rangers,Motherwell,1,1,D
+SC0,20/02/2022,Dundee Utd,Rangers,1,1,D
+SC0,20/02/2022,Celtic,Dundee,3,2,H
+SC0,20/03/2022,Dundee,Rangers,1,2,A
+SC0,20/05/2022,Inverness CT,ST Johnstone,2,2,D
+SC0,20/11/2021,Dundee Utd,Aberdeen,1,0,H
+SC0,20/11/2021,Motherwell,Heart Of Midlothian,2,0,H
+SC0,20/11/2021,ST Mirren,Livingston,1,1,D
+SC0,21/08/2021,Celtic,ST Mirren,6,0,H
+SC0,21/08/2021,Livingston,Motherwell,1,2,A
+SC0,22/08/2021,ST Johnstone,Dundee Utd,0,1,A
+SC0,22/08/2021,Heart Of Midlothian,Aberdeen,1,1,D
+SC0,22/08/2021,Dundee,Hibernian,2,2,D
+SC0,22/08/2021,Ross County,Rangers,2,4,A
+SC0,22/12/2021,ST Johnstone,Ross County,1,2,A
+SC0,22/12/2021,ST Mirren,Celtic,0,0,D
+SC0,22/12/2021,Hibernian,Aberdeen,1,0,H
+SC0,23/04/2022,Dundee,ST Johnstone,1,1,D
+SC0,23/04/2022,Motherwell,Rangers,1,3,A
+SC0,23/04/2022,Aberdeen,Livingston,1,2,A
+SC0,23/04/2022,ST Mirren,Hibernian,0,1,A
+SC0,23/05/2022,ST Johnstone,Inverness CT,4,0,H
+SC0,23/10/2021,Celtic,ST Johnstone,2,0,H
+SC0,23/10/2021,Aberdeen,Hibernian,1,0,H
+SC0,23/10/2021,Heart Of Midlothian,Dundee,1,1,D
+SC0,23/10/2021,Ross County,Livingston,2,3,A
+SC0,23/10/2021,Dundee Utd,Motherwell,2,1,H
+SC0,24/04/2022,Ross County,Celtic,0,2,A
+SC0,24/04/2022,Dundee Utd,Heart Of Midlothian,2,3,A
+SC0,24/10/2021,ST Mirren,Rangers,1,2,A
+SC0,24/11/2021,Ross County,Hibernian,1,0,H
+SC0,25/01/2022,ST Mirren,Aberdeen,1,0,H
+SC0,25/09/2021,Heart Of Midlothian,Livingston,3,0,H
+SC0,25/09/2021,Motherwell,Ross County,2,1,H
+SC0,25/09/2021,Dundee,Rangers,0,1,A
+SC0,26/01/2022,Heart Of Midlothian,Celtic,1,2,A
+SC0,26/01/2022,Motherwell,Hibernian,0,0,D
+SC0,26/01/2022,Rangers,Livingston,1,0,H
+SC0,26/01/2022,ST Johnstone,Dundee,0,0,D
+SC0,26/01/2022,Dundee Utd,Ross County,2,1,H
+SC0,26/02/2022,ST Mirren,Heart Of Midlothian,0,2,A
+SC0,26/02/2022,Ross County,ST Johnstone,3,1,H
+SC0,26/02/2022,Aberdeen,Dundee Utd,1,1,D
+SC0,26/02/2022,Dundee,Livingston,0,4,A
+SC0,26/09/2021,Hibernian,ST Johnstone,1,0,H
+SC0,26/09/2021,Celtic,Dundee Utd,1,1,D
+SC0,26/09/2021,ST Mirren,Aberdeen,3,2,H
+SC0,26/12/2021,Heart Of Midlothian,Ross County,2,1,H
+SC0,26/12/2021,Dundee Utd,Hibernian,1,3,A
+SC0,26/12/2021,Rangers,ST Mirren,2,0,H
+SC0,26/12/2021,Motherwell,Livingston,2,1,H
+SC0,26/12/2021,Aberdeen,Dundee,2,1,H
+SC0,26/12/2021,ST Johnstone,Celtic,1,3,A
+SC0,27/02/2022,Hibernian,Celtic,0,0,D
+SC0,27/02/2022,Rangers,Motherwell,2,2,D
+SC0,27/10/2021,Hibernian,Celtic,1,3,A
+SC0,27/10/2021,Dundee,Ross County,0,5,A
+SC0,27/10/2021,Livingston,Dundee Utd,1,1,D
+SC0,27/10/2021,Motherwell,ST Mirren,2,2,D
+SC0,27/10/2021,Rangers,Aberdeen,2,2,D
+SC0,27/10/2021,ST Johnstone,Heart Of Midlothian,1,1,D
+SC0,27/11/2021,Heart Of Midlothian,ST Mirren,2,0,H
+SC0,27/11/2021,Dundee,Motherwell,3,0,H
+SC0,27/11/2021,Ross County,Dundee Utd,1,1,D
+SC0,27/11/2021,ST Johnstone,Hibernian,1,2,A
+SC0,28/08/2021,Hibernian,Livingston,2,0,H
+SC0,28/08/2021,Motherwell,Dundee,1,0,H
+SC0,28/08/2021,Dundee Utd,Heart Of Midlothian,0,2,A
+SC0,28/11/2021,Livingston,Rangers,1,3,A
+SC0,28/11/2021,Celtic,Aberdeen,2,1,H
+SC0,29/01/2022,Ross County,Rangers,3,3,D
+SC0,29/01/2022,Heart Of Midlothian,Motherwell,2,0,H
+SC0,29/01/2022,Hibernian,Livingston,2,3,A
+SC0,29/01/2022,Celtic,Dundee Utd,1,0,H
+SC0,29/08/2021,Rangers,Celtic,1,0,H
+SC0,29/08/2021,ST Mirren,ST Johnstone,0,0,D
+SC0,29/08/2021,Aberdeen,Ross County,1,1,D
+SC0,30/04/2022,Aberdeen,Dundee,1,0,H
+SC0,30/04/2022,Dundee Utd,Motherwell,1,0,H
+SC0,30/04/2022,ST Johnstone,ST Mirren,0,1,A
+SC0,30/04/2022,Livingston,Hibernian,1,0,H
+SC0,30/04/2022,Heart Of Midlothian,Ross County,0,0,D
+SC0,30/10/2021,Celtic,Livingston,0,0,D
+SC0,30/10/2021,ST Mirren,Dundee,0,1,A
+SC0,30/10/2021,Aberdeen,Heart Of Midlothian,2,1,H
+SC0,30/10/2021,Dundee Utd,ST Johnstone,0,1,A
+SC0,30/11/2021,Motherwell,Dundee Utd,1,0,H
+SC0,31/07/2021,Heart Of Midlothian,Celtic,2,1,H
+SC0,31/07/2021,Ross County,ST Johnstone,0,0,D
+SC0,31/07/2021,Dundee,ST Mirren,2,2,D
+SC0,31/07/2021,Rangers,Livingston,3,0,H
+SC0,31/10/2021,Motherwell,Rangers,1,6,A

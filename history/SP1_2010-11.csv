@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP1,01/03/2011,Espanyol,Mallorca,1,2,A
+SP1,01/03/2011,Sevilla,Sporting Gijon,3,0,H
+SP1,01/05/2011,Osasuna,Valencia,1,0,H
+SP1,01/05/2011,Villarreal,Getafe,2,1,H
+SP1,01/05/2011,Racing Santander,Mallorca,2,0,H
+SP1,01/05/2011,Levante,Sporting Gijon,0,0,D
+SP1,01/05/2011,Almeria,Sevilla,0,1,A
+SP1,01/05/2011,Malaga,Hércules,3,1,H
+SP1,01/11/2010,Mallorca,Levante,2,1,H
+SP1,02/01/2011,Barcelona,Levante,2,1,H
+SP1,02/01/2011,Athletic Club,Deportivo La Coruna,1,2,A
+SP1,02/01/2011,Sporting Gijon,Malaga,1,2,A
+SP1,02/01/2011,Valencia,Espanyol,2,1,H
+SP1,02/01/2011,Sevilla,Osasuna,1,0,H
+SP1,02/03/2011,Real Sociedad,Levante,1,1,D
+SP1,02/03/2011,Osasuna,Deportivo La Coruna,0,0,D
+SP1,02/03/2011,Getafe,Atletico Madrid,1,1,D
+SP1,02/03/2011,Zaragoza,Athletic Club,2,1,H
+SP1,02/03/2011,Villarreal,Hércules,1,0,H
+SP1,02/03/2011,Valencia,Barcelona,0,1,A
+SP1,02/04/2011,Villarreal,Barcelona,0,1,A
+SP1,02/04/2011,Getafe,Valencia,2,4,A
+SP1,02/04/2011,Real Madrid,Sporting Gijon,0,1,A
+SP1,02/05/2011,Espanyol,Athletic Club,2,1,H
+SP1,02/10/2010,Valencia,Athletic Club,2,1,H
+SP1,02/10/2010,Real Sociedad,Espanyol,1,0,H
+SP1,02/10/2010,Zaragoza,Sporting Gijon,2,2,D
+SP1,03/01/2011,Villarreal,Almeria,2,0,H
+SP1,03/01/2011,Zaragoza,Real Sociedad,2,1,H
+SP1,03/01/2011,Atletico Madrid,Racing Santander,0,0,D
+SP1,03/01/2011,Getafe,Real Madrid,2,3,A
+SP1,03/01/2011,Mallorca,Hércules,3,0,H
+SP1,03/03/2011,Real Madrid,Malaga,7,0,H
+SP1,03/03/2011,Almeria,Racing Santander,1,1,D
+SP1,03/04/2011,Real Sociedad,Hércules,1,3,A
+SP1,03/04/2011,Osasuna,Atletico Madrid,2,3,A
+SP1,03/04/2011,Sevilla,Zaragoza,3,1,H
+SP1,03/04/2011,Deportivo La Coruna,Mallorca,2,1,H
+SP1,03/04/2011,Levante,Malaga,3,1,H
+SP1,03/04/2011,Espanyol,Racing Santander,1,2,A
+SP1,03/10/2010,Real Madrid,Deportivo La Coruna,6,1,H
+SP1,03/10/2010,Barcelona,Mallorca,1,1,D
+SP1,03/10/2010,Osasuna,Levante,1,1,D
+SP1,03/10/2010,Almeria,Malaga,1,1,D
+SP1,03/10/2010,Getafe,Hércules,3,0,H
+SP1,03/10/2010,Villarreal,Racing Santander,2,0,H
+SP1,03/10/2010,Sevilla,Atletico Madrid,3,1,H
+SP1,04/04/2011,Almeria,Athletic Club,1,3,A
+SP1,04/12/2010,Levante,Atletico Madrid,2,0,H
+SP1,04/12/2010,Osasuna,Barcelona,0,3,A
+SP1,04/12/2010,Real Madrid,Valencia,2,0,H
+SP1,05/02/2011,Zaragoza,Racing Santander,1,1,D
+SP1,05/02/2011,Getafe,Deportivo La Coruna,4,1,H
+SP1,05/02/2011,Almeria,Espanyol,3,2,H
+SP1,05/02/2011,Osasuna,Mallorca,1,1,D
+SP1,05/02/2011,Villarreal,Levante,0,1,A
+SP1,05/02/2011,Barcelona,Atletico Madrid,3,0,H
+SP1,05/02/2011,Athletic Club,Sporting Gijon,3,0,H
+SP1,05/03/2011,Atletico Madrid,Villarreal,3,1,H
+SP1,05/03/2011,Barcelona,Zaragoza,1,0,H
+SP1,05/03/2011,Mallorca,Valencia,1,2,A
+SP1,05/12/2010,Real Sociedad,Athletic Club,2,0,H
+SP1,05/12/2010,Getafe,Mallorca,3,0,H
+SP1,05/12/2010,Espanyol,Sporting Gijon,1,0,H
+SP1,05/12/2010,Malaga,Racing Santander,4,1,H
+SP1,05/12/2010,Villarreal,Sevilla,1,0,H
+SP1,05/12/2010,Almeria,Zaragoza,1,1,D
+SP1,06/02/2011,Valencia,Hércules,2,0,H
+SP1,06/02/2011,Real Madrid,Real Sociedad,4,1,H
+SP1,06/02/2011,Sevilla,Malaga,0,0,D
+SP1,06/03/2011,Sporting Gijon,Getafe,2,0,H
+SP1,06/03/2011,Malaga,Osasuna,0,1,A
+SP1,06/03/2011,Levante,Espanyol,1,0,H
+SP1,06/03/2011,Athletic Club,Sevilla,2,0,H
+SP1,06/03/2011,Racing Santander,Real Madrid,1,3,A
+SP1,06/03/2011,Hércules,Almeria,1,2,A
+SP1,06/11/2010,Espanyol,Malaga,1,0,H
+SP1,06/11/2010,Real Sociedad,Racing Santander,1,0,H
+SP1,06/12/2010,Deportivo La Coruna,Hércules,1,0,H
+SP1,07/03/2011,Deportivo La Coruna,Real Sociedad,2,1,H
+SP1,07/05/2011,Athletic Club,Levante,3,2,H
+SP1,07/05/2011,Valencia,Real Sociedad,3,0,H
+SP1,07/05/2011,Getafe,Almeria,2,0,H
+SP1,07/05/2011,Atletico Madrid,Malaga,0,3,A
+SP1,07/05/2011,Sevilla,Real Madrid,2,6,A
+SP1,07/05/2011,Hércules,Racing Santander,2,3,A
+SP1,07/05/2011,Sporting Gijon,Deportivo La Coruna,2,2,D
+SP1,07/11/2010,Villarreal,Athletic Club,4,1,H
+SP1,07/11/2010,Zaragoza,Mallorca,3,2,H
+SP1,07/11/2010,Levante,Deportivo La Coruna,1,2,A
+SP1,07/11/2010,Real Madrid,Atletico Madrid,2,0,H
+SP1,07/11/2010,Osasuna,Hércules,3,0,H
+SP1,07/11/2010,Almeria,Sporting Gijon,1,1,D
+SP1,07/11/2010,Getafe,Barcelona,1,3,A
+SP1,08/01/2011,Real Sociedad,Sevilla,2,3,A
+SP1,08/01/2011,Malaga,Athletic Club,1,1,D
+SP1,08/01/2011,Deportivo La Coruna,Barcelona,0,4,A
+SP1,08/05/2011,Barcelona,Espanyol,2,0,H
+SP1,08/05/2011,Mallorca,Villarreal,0,0,D
+SP1,08/05/2011,Zaragoza,Osasuna,1,3,A
+SP1,08/11/2010,Sevilla,Valencia,2,0,H
+SP1,09/01/2011,Racing Santander,Sporting Gijon,1,1,D
+SP1,09/01/2011,Espanyol,Zaragoza,4,0,H
+SP1,09/01/2011,Osasuna,Getafe,0,0,D
+SP1,09/01/2011,Levante,Valencia,0,1,A
+SP1,09/01/2011,Real Madrid,Villarreal,4,2,H
+SP1,09/01/2011,Mallorca,Almeria,4,1,H
+SP1,09/04/2011,Mallorca,Sevilla,2,2,D
+SP1,09/04/2011,Barcelona,Almeria,3,1,H
+SP1,09/04/2011,Athletic Club,Real Madrid,0,3,A
+SP1,10/01/2011,Hércules,Atletico Madrid,4,1,H
+SP1,10/04/2011,Malaga,Deportivo La Coruna,0,0,D
+SP1,10/04/2011,Atletico Madrid,Real Sociedad,3,0,H
+SP1,10/04/2011,Valencia,Villarreal,5,0,H
+SP1,10/04/2011,Hércules,Espanyol,0,0,D
+SP1,10/04/2011,Sporting Gijon,Osasuna,1,0,H
+SP1,10/04/2011,Racing Santander,Levante,1,1,D
+SP1,10/05/2011,Deportivo La Coruna,Athletic Club,2,1,H
+SP1,10/05/2011,Racing Santander,Atletico Madrid,2,1,H
+SP1,10/05/2011,Malaga,Sporting Gijon,2,0,H
+SP1,10/05/2011,Real Madrid,Getafe,4,0,H
+SP1,11/04/2011,Zaragoza,Getafe,2,1,H
+SP1,11/05/2011,Levante,Barcelona,1,1,D
+SP1,11/05/2011,Real Sociedad,Zaragoza,2,1,H
+SP1,11/05/2011,Osasuna,Sevilla,3,2,H
+SP1,11/05/2011,Hércules,Mallorca,2,2,D
+SP1,11/05/2011,Espanyol,Valencia,2,2,D
+SP1,11/05/2011,Almeria,Villarreal,0,0,D
+SP1,11/09/2010,Valencia,Racing Santander,1,0,H
+SP1,11/09/2010,Real Madrid,Osasuna,1,0,H
+SP1,11/09/2010,Athletic Club,Atletico Madrid,1,2,A
+SP1,11/09/2010,Barcelona,Hércules,0,2,A
+SP1,11/12/2010,Atletico Madrid,Deportivo La Coruna,2,0,H
+SP1,11/12/2010,Sevilla,Almeria,1,3,A
+SP1,11/12/2010,Getafe,Villarreal,1,0,H
+SP1,12/02/2011,Atletico Madrid,Valencia,1,2,A
+SP1,12/02/2011,Racing Santander,Sevilla,3,2,H
+SP1,12/02/2011,Sporting Gijon,Barcelona,1,1,D
+SP1,12/03/2011,Real Madrid,Hércules,2,0,H
+SP1,12/03/2011,Almeria,Atletico Madrid,2,2,D
+SP1,12/03/2011,Zaragoza,Valencia,4,0,H
+SP1,12/09/2010,Villarreal,Espanyol,4,0,H
+SP1,12/09/2010,Getafe,Levante,4,1,H
+SP1,12/09/2010,Sevilla,Deportivo La Coruna,0,0,D
+SP1,12/09/2010,Zaragoza,Malaga,3,5,A
+SP1,12/09/2010,Sporting Gijon,Mallorca,2,0,H
+SP1,12/12/2010,Hércules,Malaga,4,1,H
+SP1,12/12/2010,Athletic Club,Espanyol,2,1,H
+SP1,12/12/2010,Sporting Gijon,Levante,1,1,D
+SP1,12/12/2010,Mallorca,Racing Santander,0,1,A
+SP1,12/12/2010,Zaragoza,Real Madrid,1,3,A
+SP1,12/12/2010,Barcelona,Real Sociedad,5,0,H
+SP1,13/02/2011,Real Sociedad,Osasuna,1,0,H
+SP1,13/02/2011,Malaga,Getafe,2,2,D
+SP1,13/02/2011,Espanyol,Real Madrid,0,1,A
+SP1,13/02/2011,Levante,Almeria,1,0,H
+SP1,13/02/2011,Hércules,Zaragoza,2,1,H
+SP1,13/02/2011,Deportivo La Coruna,Villarreal,1,0,H
+SP1,13/03/2011,Sevilla,Barcelona,1,1,D
+SP1,13/03/2011,Villarreal,Sporting Gijon,1,1,D
+SP1,13/03/2011,Espanyol,Deportivo La Coruna,2,0,H
+SP1,13/03/2011,Real Sociedad,Malaga,0,2,A
+SP1,13/03/2011,Osasuna,Racing Santander,3,1,H
+SP1,13/03/2011,Levante,Mallorca,1,1,D
+SP1,13/09/2010,Almeria,Real Sociedad,2,2,D
+SP1,13/11/2010,Barcelona,Villarreal,3,1,H
+SP1,13/11/2010,Atletico Madrid,Osasuna,3,0,H
+SP1,13/11/2010,Athletic Club,Almeria,1,0,H
+SP1,13/12/2010,Valencia,Osasuna,3,3,D
+SP1,14/02/2011,Mallorca,Athletic Club,1,0,H
+SP1,14/03/2011,Getafe,Athletic Club,2,2,D
+SP1,14/11/2010,Sporting Gijon,Real Madrid,0,1,A
+SP1,14/11/2010,Zaragoza,Sevilla,1,2,A
+SP1,14/11/2010,Racing Santander,Espanyol,0,0,D
+SP1,14/11/2010,Malaga,Levante,1,0,H
+SP1,14/11/2010,Mallorca,Deportivo La Coruna,0,0,D
+SP1,14/11/2010,Hércules,Real Sociedad,2,1,H
+SP1,14/11/2010,Valencia,Getafe,2,0,H
+SP1,15/01/2011,Sporting Gijon,Hércules,2,0,H
+SP1,15/01/2011,Sevilla,Espanyol,1,2,A
+SP1,15/01/2011,Athletic Club,Racing Santander,2,1,H
+SP1,15/01/2011,Zaragoza,Levante,1,0,H
+SP1,15/01/2011,Villarreal,Osasuna,4,2,H
+SP1,15/01/2011,Getafe,Real Sociedad,0,4,A
+SP1,15/05/2011,Zaragoza,Espanyol,1,0,H
+SP1,15/05/2011,Sporting Gijon,Racing Santander,2,1,H
+SP1,15/05/2011,Atletico Madrid,Hércules,2,1,H
+SP1,15/05/2011,Athletic Club,Malaga,1,1,D
+SP1,15/05/2011,Almeria,Mallorca,3,1,H
+SP1,15/05/2011,Barcelona,Deportivo La Coruna,0,0,D
+SP1,15/05/2011,Villarreal,Real Madrid,1,3,A
+SP1,15/05/2011,Getafe,Osasuna,2,0,H
+SP1,15/05/2011,Sevilla,Real Sociedad,3,1,H
+SP1,15/05/2011,Valencia,Levante,0,0,D
+SP1,16/01/2011,Almeria,Real Madrid,1,1,D
+SP1,16/01/2011,Valencia,Deportivo La Coruna,2,0,H
+SP1,16/01/2011,Barcelona,Malaga,4,1,H
+SP1,16/04/2011,Real Madrid,Barcelona,1,1,D
+SP1,16/04/2011,Almeria,Valencia,0,3,A
+SP1,16/04/2011,Malaga,Mallorca,3,0,H
+SP1,16/04/2011,Getafe,Sevilla,1,0,H
+SP1,16/10/2010,Malaga,Real Madrid,1,4,A
+SP1,16/10/2010,Barcelona,Valencia,2,1,H
+SP1,16/10/2010,Atletico Madrid,Getafe,2,0,H
+SP1,17/01/2011,Atletico Madrid,Mallorca,3,0,H
+SP1,17/04/2011,Espanyol,Atletico Madrid,2,2,D
+SP1,17/04/2011,Levante,Hércules,2,1,H
+SP1,17/04/2011,Real Sociedad,Sporting Gijon,2,1,H
+SP1,17/04/2011,Deportivo La Coruna,Racing Santander,2,0,H
+SP1,17/04/2011,Osasuna,Athletic Club,1,2,A
+SP1,17/10/2010,Racing Santander,Almeria,1,0,H
+SP1,17/10/2010,Deportivo La Coruna,Osasuna,0,0,D
+SP1,17/10/2010,Sporting Gijon,Sevilla,2,0,H
+SP1,17/10/2010,Athletic Club,Zaragoza,2,1,H
+SP1,17/10/2010,Mallorca,Espanyol,0,1,A
+SP1,17/10/2010,Levante,Real Sociedad,2,1,H
+SP1,18/04/2011,Villarreal,Zaragoza,1,0,H
+SP1,18/09/2010,Mallorca,Osasuna,2,0,H
+SP1,18/09/2010,Espanyol,Almeria,1,0,H
+SP1,18/09/2010,Real Sociedad,Real Madrid,1,2,A
+SP1,18/09/2010,Sporting Gijon,Athletic Club,2,2,D
+SP1,18/10/2010,Hércules,Villarreal,2,2,D
+SP1,18/12/2010,Villarreal,Mallorca,3,1,H
+SP1,18/12/2010,Espanyol,Barcelona,1,5,A
+SP1,18/12/2010,Levante,Athletic Club,1,2,A
+SP1,18/12/2010,Deportivo La Coruna,Sporting Gijon,1,1,D
+SP1,18/12/2010,Real Sociedad,Valencia,1,2,A
+SP1,19/02/2011,Valencia,Sporting Gijon,0,0,D
+SP1,19/02/2011,Real Madrid,Levante,2,0,H
+SP1,19/02/2011,Zaragoza,Atletico Madrid,0,1,A
+SP1,19/03/2011,Barcelona,Getafe,2,1,H
+SP1,19/03/2011,Atletico Madrid,Real Madrid,1,2,A
+SP1,19/03/2011,Mallorca,Zaragoza,1,0,H
+SP1,19/09/2010,Hércules,Valencia,1,2,A
+SP1,19/09/2010,Atletico Madrid,Barcelona,1,2,A
+SP1,19/09/2010,Levante,Villarreal,1,2,A
+SP1,19/09/2010,Racing Santander,Zaragoza,2,0,H
+SP1,19/09/2010,Malaga,Sevilla,1,2,A
+SP1,19/12/2010,Real Madrid,Sevilla,1,0,H
+SP1,19/12/2010,Osasuna,Zaragoza,0,0,D
+SP1,19/12/2010,Malaga,Atletico Madrid,0,3,A
+SP1,19/12/2010,Almeria,Getafe,2,3,A
+SP1,20/02/2011,Osasuna,Espanyol,4,0,H
+SP1,20/02/2011,Sevilla,Hércules,1,0,H
+SP1,20/02/2011,Barcelona,Athletic Club,2,1,H
+SP1,20/02/2011,Almeria,Deportivo La Coruna,1,1,D
+SP1,20/02/2011,Villarreal,Malaga,1,1,D
+SP1,20/02/2011,Getafe,Racing Santander,0,1,A
+SP1,20/03/2011,Malaga,Espanyol,2,0,H
+SP1,20/03/2011,Deportivo La Coruna,Levante,0,1,A
+SP1,20/03/2011,Athletic Club,Villarreal,0,1,A
+SP1,20/03/2011,Valencia,Sevilla,0,1,A
+SP1,20/03/2011,Sporting Gijon,Almeria,1,0,H
+SP1,20/03/2011,Racing Santander,Real Sociedad,2,1,H
+SP1,20/03/2011,Hércules,Osasuna,0,4,A
+SP1,20/09/2010,Deportivo La Coruna,Getafe,2,2,D
+SP1,20/11/2010,Almeria,Barcelona,0,8,A
+SP1,20/11/2010,Villarreal,Valencia,1,1,D
+SP1,20/11/2010,Real Madrid,Athletic Club,5,1,H
+SP1,20/12/2010,Racing Santander,Hércules,0,0,D
+SP1,21/02/2011,Real Sociedad,Mallorca,1,0,H
+SP1,21/05/2011,Malaga,Barcelona,1,3,A
+SP1,21/05/2011,Real Madrid,Almeria,8,1,H
+SP1,21/05/2011,Osasuna,Villarreal,1,0,H
+SP1,21/05/2011,Real Sociedad,Getafe,1,1,D
+SP1,21/05/2011,Espanyol,Sevilla,2,3,A
+SP1,21/05/2011,Levante,Zaragoza,1,2,A
+SP1,21/05/2011,Deportivo La Coruna,Valencia,0,2,A
+SP1,21/05/2011,Racing Santander,Athletic Club,1,2,A
+SP1,21/05/2011,Hércules,Sporting Gijon,0,0,D
+SP1,21/05/2011,Mallorca,Atletico Madrid,3,4,A
+SP1,21/09/2010,Athletic Club,Mallorca,3,0,H
+SP1,21/09/2010,Osasuna,Real Sociedad,3,1,H
+SP1,21/09/2010,Real Madrid,Espanyol,3,0,H
+SP1,21/11/2010,Espanyol,Hércules,3,0,H
+SP1,21/11/2010,Osasuna,Sporting Gijon,1,0,H
+SP1,21/11/2010,Levante,Racing Santander,3,1,H
+SP1,21/11/2010,Deportivo La Coruna,Malaga,3,0,H
+SP1,21/11/2010,Sevilla,Mallorca,1,2,A
+SP1,21/11/2010,Real Sociedad,Atletico Madrid,2,4,A
+SP1,22/01/2011,Valencia,Malaga,4,3,H
+SP1,22/01/2011,Barcelona,Racing Santander,3,0,H
+SP1,22/01/2011,Sevilla,Levante,4,1,H
+SP1,22/09/2010,Almeria,Levante,0,1,A
+SP1,22/09/2010,Valencia,Atletico Madrid,1,1,D
+SP1,22/09/2010,Barcelona,Sporting Gijon,1,0,H
+SP1,22/09/2010,Zaragoza,Hércules,0,0,D
+SP1,22/11/2010,Getafe,Zaragoza,1,1,D
+SP1,23/01/2011,Getafe,Espanyol,1,3,A
+SP1,23/01/2011,Sporting Gijon,Atletico Madrid,1,0,H
+SP1,23/01/2011,Almeria,Osasuna,3,2,H
+SP1,23/01/2011,Zaragoza,Deportivo La Coruna,1,0,H
+SP1,23/01/2011,Villarreal,Real Sociedad,2,1,H
+SP1,23/01/2011,Real Madrid,Mallorca,1,0,H
+SP1,23/04/2011,Barcelona,Osasuna,2,0,H
+SP1,23/04/2011,Valencia,Real Madrid,3,6,A
+SP1,23/04/2011,Athletic Club,Real Sociedad,2,1,H
+SP1,23/09/2010,Sevilla,Racing Santander,1,1,D
+SP1,23/09/2010,Villarreal,Deportivo La Coruna,1,0,H
+SP1,23/09/2010,Getafe,Malaga,0,2,A
+SP1,23/10/2010,Real Madrid,Racing Santander,6,1,H
+SP1,23/10/2010,Valencia,Mallorca,1,2,A
+SP1,23/10/2010,Zaragoza,Barcelona,0,2,A
+SP1,24/01/2011,Athletic Club,Hércules,3,0,H
+SP1,24/04/2011,Sporting Gijon,Espanyol,1,0,H
+SP1,24/04/2011,Racing Santander,Malaga,1,2,A
+SP1,24/04/2011,Atletico Madrid,Levante,4,1,H
+SP1,24/04/2011,Sevilla,Villarreal,3,2,H
+SP1,24/04/2011,Hércules,Deportivo La Coruna,1,0,H
+SP1,24/04/2011,Mallorca,Getafe,2,0,H
+SP1,24/10/2010,Villarreal,Atletico Madrid,2,0,H
+SP1,24/10/2010,Almeria,Hércules,1,1,D
+SP1,24/10/2010,Espanyol,Levante,2,1,H
+SP1,24/10/2010,Getafe,Sporting Gijon,3,0,H
+SP1,24/10/2010,Osasuna,Malaga,3,0,H
+SP1,24/10/2010,Sevilla,Athletic Club,4,3,H
+SP1,25/04/2011,Zaragoza,Almeria,1,0,H
+SP1,25/09/2010,Athletic Club,Barcelona,1,3,A
+SP1,25/09/2010,Levante,Real Madrid,0,0,D
+SP1,25/09/2010,Sporting Gijon,Valencia,0,2,A
+SP1,25/10/2010,Real Sociedad,Deportivo La Coruna,3,0,H
+SP1,26/02/2011,Sporting Gijon,Zaragoza,0,0,D
+SP1,26/02/2011,Atletico Madrid,Sevilla,2,2,D
+SP1,26/02/2011,Espanyol,Real Sociedad,4,1,H
+SP1,26/02/2011,Mallorca,Barcelona,0,3,A
+SP1,26/02/2011,Deportivo La Coruna,Real Madrid,0,0,D
+SP1,26/09/2010,Atletico Madrid,Zaragoza,1,0,H
+SP1,26/09/2010,Mallorca,Real Sociedad,2,0,H
+SP1,26/09/2010,Espanyol,Osasuna,1,0,H
+SP1,26/09/2010,Deportivo La Coruna,Almeria,0,2,A
+SP1,26/09/2010,Hércules,Sevilla,2,0,H
+SP1,26/09/2010,Racing Santander,Getafe,0,1,A
+SP1,27/02/2011,Hércules,Getafe,0,0,D
+SP1,27/02/2011,Athletic Club,Valencia,1,2,A
+SP1,27/02/2011,Racing Santander,Villarreal,2,2,D
+SP1,27/02/2011,Levante,Osasuna,2,1,H
+SP1,27/09/2010,Malaga,Villarreal,2,3,A
+SP1,27/11/2010,Zaragoza,Villarreal,0,3,A
+SP1,27/11/2010,Sevilla,Getafe,1,3,A
+SP1,27/11/2010,Atletico Madrid,Espanyol,2,3,A
+SP1,28/02/2011,Malaga,Almeria,3,1,H
+SP1,28/08/2010,Malaga,Valencia,1,3,A
+SP1,28/08/2010,Levante,Sevilla,1,4,A
+SP1,28/08/2010,Hércules,Athletic Club,0,1,A
+SP1,28/11/2010,Athletic Club,Osasuna,1,0,H
+SP1,28/11/2010,Mallorca,Malaga,2,0,H
+SP1,28/11/2010,Racing Santander,Deportivo La Coruna,1,0,H
+SP1,28/11/2010,Sporting Gijon,Real Sociedad,1,3,A
+SP1,28/11/2010,Hércules,Levante,3,1,H
+SP1,28/11/2010,Valencia,Almeria,2,1,H
+SP1,29/01/2011,Real Sociedad,Almeria,2,0,H
+SP1,29/01/2011,Deportivo La Coruna,Sevilla,3,3,D
+SP1,29/01/2011,Hércules,Barcelona,0,3,A
+SP1,29/01/2011,Malaga,Zaragoza,1,2,A
+SP1,29/01/2011,Levante,Getafe,2,0,H
+SP1,29/01/2011,Mallorca,Sporting Gijon,0,4,A
+SP1,29/08/2010,Deportivo La Coruna,Zaragoza,0,0,D
+SP1,29/08/2010,Espanyol,Getafe,3,1,H
+SP1,29/08/2010,Real Sociedad,Villarreal,1,0,H
+SP1,29/08/2010,Osasuna,Almeria,0,0,D
+SP1,29/08/2010,Racing Santander,Barcelona,0,3,A
+SP1,29/08/2010,Mallorca,Real Madrid,0,0,D
+SP1,29/11/2010,Barcelona,Real Madrid,5,0,H
+SP1,30/01/2011,Atletico Madrid,Athletic Club,0,2,A
+SP1,30/01/2011,Osasuna,Real Madrid,1,0,H
+SP1,30/01/2011,Espanyol,Villarreal,0,1,A
+SP1,30/04/2011,Deportivo La Coruna,Atletico Madrid,0,1,A
+SP1,30/04/2011,Real Madrid,Zaragoza,2,3,A
+SP1,30/04/2011,Real Sociedad,Barcelona,2,1,H
+SP1,30/08/2010,Atletico Madrid,Sporting Gijon,4,0,H
+SP1,30/10/2010,Barcelona,Sevilla,5,0,H
+SP1,30/10/2010,Valencia,Zaragoza,1,1,D
+SP1,30/10/2010,Hércules,Real Madrid,1,3,A
+SP1,31/01/2011,Racing Santander,Valencia,1,1,D
+SP1,31/10/2010,Deportivo La Coruna,Espanyol,3,0,H
+SP1,31/10/2010,Atletico Madrid,Almeria,1,1,D
+SP1,31/10/2010,Athletic Club,Getafe,3,0,H
+SP1,31/10/2010,Sporting Gijon,Villarreal,1,1,D
+SP1,31/10/2010,Racing Santander,Osasuna,4,1,H
+SP1,31/10/2010,Malaga,Real Sociedad,1,2,A

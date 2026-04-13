@@ -1,0 +1,313 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+N1,01/02/2019,De Graafschap,NAC Breda,3,0,H
+N1,01/03/2019,De Graafschap,ADO Den Haag,1,1,D
+N1,01/09/2018,PSV Eindhoven,Willem II,6,1,H
+N1,01/09/2018,Excelsior,ADO Den Haag,2,4,A
+N1,01/09/2018,Fortuna Sittard,Utrecht,1,1,D
+N1,01/09/2018,VVV Venlo,Heerenveen,1,1,D
+N1,01/12/2018,Heerenveen,Fortuna Sittard,3,1,H
+N1,01/12/2018,De Graafschap,PEC Zwolle,0,2,A
+N1,01/12/2018,AZ Alkmaar,Willem II,0,2,A
+N1,01/12/2018,Vitesse,Emmen,1,1,D
+N1,02/02/2019,AZ Alkmaar,Emmen,5,0,H
+N1,02/02/2019,Willem II,Groningen,1,2,A
+N1,02/02/2019,Vitesse,Heerenveen,2,2,D
+N1,02/02/2019,Ajax,VVV Venlo,6,0,H
+N1,02/03/2019,Heracles,Utrecht,1,5,A
+N1,02/03/2019,Excelsior,PSV Eindhoven,0,2,A
+N1,02/03/2019,Vitesse,NAC Breda,4,1,H
+N1,02/04/2019,Groningen,De Graafschap,1,0,H
+N1,02/04/2019,Heracles,Willem II,3,4,A
+N1,02/04/2019,Vitesse,AZ Alkmaar,2,2,D
+N1,02/09/2018,Vitesse,Ajax,0,4,A
+N1,02/09/2018,Feyenoord,NAC Breda,4,2,H
+N1,02/09/2018,Heracles,AZ Alkmaar,3,2,H
+N1,02/09/2018,Groningen,PEC Zwolle,0,1,A
+N1,02/11/2018,Excelsior,Groningen,2,4,A
+N1,02/12/2018,Ajax,ADO Den Haag,5,1,H
+N1,02/12/2018,Heracles,VVV Venlo,4,1,H
+N1,02/12/2018,Feyenoord,PSV Eindhoven,2,1,H
+N1,02/12/2018,Groningen,NAC Breda,5,2,H
+N1,03/02/2019,Excelsior,Feyenoord,2,1,H
+N1,03/02/2019,PEC Zwolle,Utrecht,4,3,H
+N1,03/02/2019,PSV Eindhoven,Fortuna Sittard,5,0,H
+N1,03/02/2019,ADO Den Haag,Heracles,2,0,H
+N1,03/03/2019,Groningen,VVV Venlo,3,2,H
+N1,03/03/2019,Feyenoord,Emmen,4,0,H
+N1,03/03/2019,AZ Alkmaar,Fortuna Sittard,4,2,H
+N1,03/03/2019,Heerenveen,Willem II,4,2,H
+N1,03/04/2019,Fortuna Sittard,ADO Den Haag,0,0,D
+N1,03/04/2019,Excelsior,NAC Breda,1,2,A
+N1,03/04/2019,VVV Venlo,Utrecht,2,6,A
+N1,03/04/2019,Emmen,Ajax,2,5,A
+N1,03/11/2018,AZ Alkmaar,De Graafschap,1,0,H
+N1,03/11/2018,Ajax,Willem II,2,0,H
+N1,03/11/2018,NAC Breda,Heracles,2,1,H
+N1,03/11/2018,PSV Eindhoven,Vitesse,1,0,H
+N1,04/04/2019,PSV Eindhoven,PEC Zwolle,4,0,H
+N1,04/04/2019,Feyenoord,Heerenveen,3,0,H
+N1,04/11/2018,Heerenveen,Emmen,1,1,D
+N1,04/11/2018,Fortuna Sittard,PEC Zwolle,3,0,H
+N1,04/11/2018,Utrecht,ADO Den Haag,3,0,H
+N1,05/10/2018,Utrecht,NAC Breda,2,1,H
+N1,06/04/2019,Willem II,Ajax,1,4,A
+N1,06/04/2019,ADO Den Haag,Utrecht,5,0,H
+N1,06/04/2019,Groningen,Excelsior,1,0,H
+N1,06/04/2019,De Graafschap,AZ Alkmaar,1,1,D
+N1,06/04/2019,Heracles,NAC Breda,1,0,H
+N1,06/10/2018,PSV Eindhoven,VVV Venlo,4,0,H
+N1,06/10/2018,PEC Zwolle,Excelsior,2,0,H
+N1,06/10/2018,ADO Den Haag,Groningen,1,0,H
+N1,06/10/2018,De Graafschap,Heerenveen,0,5,A
+N1,06/12/2018,Feyenoord,VVV Venlo,4,1,H
+N1,07/04/2019,Emmen,Heerenveen,2,0,H
+N1,07/04/2019,Vitesse,PSV Eindhoven,3,3,D
+N1,07/04/2019,VVV Venlo,Feyenoord,0,3,A
+N1,07/04/2019,PEC Zwolle,Fortuna Sittard,5,0,H
+N1,07/10/2018,Emmen,Fortuna Sittard,3,3,D
+N1,07/10/2018,Vitesse,Heracles,4,0,H
+N1,07/10/2018,Ajax,AZ Alkmaar,5,0,H
+N1,07/10/2018,Willem II,Feyenoord,1,1,D
+N1,07/12/2018,PSV Eindhoven,Excelsior,6,0,H
+N1,07/12/2018,Fortuna Sittard,AZ Alkmaar,0,3,A
+N1,08/02/2019,NAC Breda,AZ Alkmaar,0,3,A
+N1,08/03/2019,Utrecht,Groningen,0,0,D
+N1,08/12/2018,PEC Zwolle,Ajax,1,4,A
+N1,08/12/2018,Willem II,Heerenveen,1,5,A
+N1,08/12/2018,ADO Den Haag,De Graafschap,0,0,D
+N1,09/02/2019,Feyenoord,De Graafschap,4,0,H
+N1,09/02/2019,VVV Venlo,Willem II,2,1,H
+N1,09/02/2019,Heerenveen,PEC Zwolle,1,1,D
+N1,09/02/2019,Heracles,Ajax,1,0,H
+N1,09/03/2019,VVV Venlo,Excelsior,1,0,H
+N1,09/03/2019,Willem II,De Graafschap,3,2,H
+N1,09/03/2019,ADO Den Haag,Heerenveen,2,3,A
+N1,09/03/2019,PSV Eindhoven,NAC Breda,2,0,H
+N1,09/11/2018,PEC Zwolle,Willem II,2,3,A
+N1,09/12/2018,VVV Venlo,Groningen,0,0,D
+N1,09/12/2018,Emmen,Feyenoord,1,4,A
+N1,09/12/2018,NAC Breda,Vitesse,2,1,H
+N1,09/12/2018,Utrecht,Heracles,3,1,H
+N1,10/02/2019,Utrecht,PSV Eindhoven,2,2,D
+N1,10/02/2019,Emmen,ADO Den Haag,3,2,H
+N1,10/02/2019,Groningen,Vitesse,2,1,H
+N1,10/02/2019,Fortuna Sittard,Excelsior,4,1,H
+N1,10/03/2019,Vitesse,Feyenoord,1,1,D
+N1,10/03/2019,PEC Zwolle,AZ Alkmaar,0,0,D
+N1,10/03/2019,Emmen,Heracles,1,1,D
+N1,10/03/2019,Ajax,Fortuna Sittard,4,0,H
+N1,10/08/2018,PEC Zwolle,Heerenveen,2,3,A
+N1,10/11/2018,Emmen,NAC Breda,2,0,H
+N1,10/11/2018,De Graafschap,PSV Eindhoven,1,4,A
+N1,10/11/2018,Vitesse,Utrecht,2,1,H
+N1,10/11/2018,VVV Venlo,Fortuna Sittard,3,2,H
+N1,11/08/2018,Ajax,Heracles,1,1,D
+N1,11/08/2018,PSV Eindhoven,Utrecht,4,0,H
+N1,11/08/2018,Excelsior,Fortuna Sittard,1,1,D
+N1,11/08/2018,Willem II,VVV Venlo,0,1,A
+N1,11/11/2018,ADO Den Haag,AZ Alkmaar,0,1,A
+N1,11/11/2018,Excelsior,Ajax,1,7,A
+N1,11/11/2018,Groningen,Heerenveen,2,0,H
+N1,11/11/2018,Heracles,Feyenoord,0,2,A
+N1,12/04/2019,NAC Breda,Emmen,1,1,D
+N1,12/05/2019,PEC Zwolle,VVV Venlo,2,4,A
+N1,12/05/2019,AZ Alkmaar,PSV Eindhoven,1,0,H
+N1,12/05/2019,Vitesse,De Graafschap,6,1,H
+N1,12/05/2019,Willem II,Emmen,2,3,A
+N1,12/05/2019,Ajax,Utrecht,4,1,H
+N1,12/05/2019,Groningen,Fortuna Sittard,3,0,H
+N1,12/05/2019,Heerenveen,NAC Breda,2,1,H
+N1,12/05/2019,Heracles,Excelsior,4,5,A
+N1,12/05/2019,Feyenoord,ADO Den Haag,0,2,A
+N1,12/08/2018,De Graafschap,Feyenoord,2,0,H
+N1,12/08/2018,ADO Den Haag,Emmen,1,2,A
+N1,12/08/2018,Vitesse,Groningen,5,1,H
+N1,12/08/2018,AZ Alkmaar,NAC Breda,5,0,H
+N1,13/03/2019,Ajax,PEC Zwolle,2,1,H
+N1,13/04/2019,Ajax,Excelsior,6,2,H
+N1,13/04/2019,Feyenoord,Heracles,2,1,H
+N1,13/04/2019,AZ Alkmaar,ADO Den Haag,2,3,A
+N1,13/04/2019,Fortuna Sittard,VVV Venlo,1,1,D
+N1,14/04/2019,PSV Eindhoven,De Graafschap,2,1,H
+N1,14/04/2019,Willem II,PEC Zwolle,2,0,H
+N1,14/04/2019,Heerenveen,Groningen,1,1,D
+N1,14/04/2019,Utrecht,Vitesse,0,0,D
+N1,14/12/2018,Willem II,ADO Den Haag,0,3,A
+N1,15/02/2019,ADO Den Haag,PEC Zwolle,1,0,H
+N1,15/03/2019,Fortuna Sittard,Emmen,3,1,H
+N1,15/05/2019,Utrecht,Heerenveen,3,1,H
+N1,15/05/2019,Excelsior,AZ Alkmaar,4,2,H
+N1,15/05/2019,PSV Eindhoven,Heracles,3,1,H
+N1,15/05/2019,ADO Den Haag,Willem II,6,2,H
+N1,15/05/2019,NAC Breda,PEC Zwolle,0,0,D
+N1,15/05/2019,VVV Venlo,Vitesse,1,3,A
+N1,15/05/2019,Fortuna Sittard,Feyenoord,1,4,A
+N1,15/05/2019,Emmen,Groningen,1,0,H
+N1,15/05/2019,De Graafschap,Ajax,1,4,A
+N1,15/09/2018,Willem II,Excelsior,2,2,D
+N1,15/09/2018,De Graafschap,VVV Venlo,1,2,A
+N1,15/09/2018,ADO Den Haag,PSV Eindhoven,0,7,A
+N1,15/09/2018,Ajax,Groningen,3,0,H
+N1,15/12/2018,Vitesse,VVV Venlo,2,1,H
+N1,15/12/2018,Heracles,PSV Eindhoven,0,4,A
+N1,15/12/2018,AZ Alkmaar,Excelsior,2,1,H
+N1,15/12/2018,PEC Zwolle,NAC Breda,0,0,D
+N1,16/02/2019,AZ Alkmaar,VVV Venlo,3,0,H
+N1,16/02/2019,Heracles,Fortuna Sittard,6,0,H
+N1,16/02/2019,Heerenveen,PSV Eindhoven,2,2,D
+N1,16/02/2019,Vitesse,Willem II,3,2,H
+N1,16/03/2019,Heracles,Vitesse,3,2,H
+N1,16/03/2019,Feyenoord,Willem II,2,3,A
+N1,16/03/2019,NAC Breda,Utrecht,0,4,A
+N1,16/03/2019,Heerenveen,De Graafschap,0,3,A
+N1,16/09/2018,NAC Breda,Fortuna Sittard,2,3,A
+N1,16/09/2018,Heerenveen,Heracles,3,5,A
+N1,16/09/2018,PEC Zwolle,Vitesse,0,2,A
+N1,16/09/2018,Utrecht,Emmen,1,2,A
+N1,16/09/2018,AZ Alkmaar,Feyenoord,1,1,D
+N1,16/12/2018,Feyenoord,Fortuna Sittard,0,2,A
+N1,16/12/2018,Groningen,Emmen,1,2,A
+N1,16/12/2018,Ajax,De Graafschap,8,0,H
+N1,16/12/2018,Heerenveen,Utrecht,2,3,A
+N1,17/02/2019,Excelsior,Emmen,2,1,H
+N1,17/02/2019,De Graafschap,Utrecht,0,1,A
+N1,17/02/2019,Ajax,NAC Breda,5,0,H
+N1,17/02/2019,Groningen,Feyenoord,1,0,H
+N1,17/03/2019,AZ Alkmaar,Ajax,1,0,H
+N1,17/03/2019,VVV Venlo,PSV Eindhoven,0,1,A
+N1,17/03/2019,Excelsior,PEC Zwolle,0,2,A
+N1,17/03/2019,Groningen,ADO Den Haag,1,0,H
+N1,17/08/2018,Groningen,Willem II,0,1,A
+N1,18/01/2019,Vitesse,Excelsior,3,2,H
+N1,18/05/2019,Groningen,Vitesse,2,1,H
+N1,18/05/2019,Heracles,Utrecht,0,2,A
+N1,18/08/2018,NAC Breda,De Graafschap,3,0,H
+N1,18/08/2018,Fortuna Sittard,PSV Eindhoven,1,2,A
+N1,18/08/2018,Heracles,ADO Den Haag,4,2,H
+N1,18/08/2018,VVV Venlo,Ajax,0,1,A
+N1,19/01/2019,PEC Zwolle,Feyenoord,3,1,H
+N1,19/01/2019,ADO Den Haag,VVV Venlo,2,4,A
+N1,19/01/2019,AZ Alkmaar,Utrecht,3,0,H
+N1,19/01/2019,Groningen,Heracles,3,0,H
+N1,19/04/2019,Heracles,Heerenveen,2,1,H
+N1,19/08/2018,Utrecht,PEC Zwolle,2,0,H
+N1,19/08/2018,Emmen,AZ Alkmaar,1,4,A
+N1,19/08/2018,Heerenveen,Vitesse,1,1,D
+N1,19/08/2018,Feyenoord,Excelsior,3,0,H
+N1,20/01/2019,Ajax,Heerenveen,4,4,D
+N1,20/01/2019,Emmen,PSV Eindhoven,2,2,D
+N1,20/01/2019,De Graafschap,Fortuna Sittard,5,1,H
+N1,20/01/2019,Willem II,NAC Breda,2,0,H
+N1,20/04/2019,Groningen,Ajax,0,1,A
+N1,20/04/2019,Emmen,Utrecht,2,0,H
+N1,20/04/2019,Vitesse,PEC Zwolle,4,1,H
+N1,20/04/2019,VVV Venlo,De Graafschap,4,1,H
+N1,20/04/2019,Feyenoord,AZ Alkmaar,2,1,H
+N1,20/10/2018,PSV Eindhoven,Emmen,6,0,H
+N1,20/10/2018,Utrecht,AZ Alkmaar,2,1,H
+N1,20/10/2018,Heerenveen,Ajax,0,4,A
+N1,20/10/2018,Excelsior,Vitesse,2,0,H
+N1,21/04/2019,Excelsior,Willem II,1,1,D
+N1,21/04/2019,PSV Eindhoven,ADO Den Haag,3,1,H
+N1,21/04/2019,Fortuna Sittard,NAC Breda,2,1,H
+N1,21/05/2019,Vitesse,Groningen,3,1,H
+N1,21/05/2019,Utrecht,Heracles,3,0,H
+N1,21/09/2018,Heracles,De Graafschap,4,0,H
+N1,21/10/2018,Fortuna Sittard,De Graafschap,3,1,H
+N1,21/10/2018,NAC Breda,Willem II,2,2,D
+N1,21/10/2018,VVV Venlo,ADO Den Haag,2,0,H
+N1,21/10/2018,Heracles,Groningen,4,1,H
+N1,21/10/2018,Feyenoord,PEC Zwolle,3,0,H
+N1,21/12/2018,VVV Venlo,PEC Zwolle,2,0,H
+N1,22/02/2019,VVV Venlo,Heracles,0,1,A
+N1,22/09/2018,Vitesse,ADO Den Haag,1,1,D
+N1,22/09/2018,VVV Venlo,NAC Breda,3,0,H
+N1,22/09/2018,Excelsior,Heerenveen,3,3,D
+N1,22/09/2018,Fortuna Sittard,Willem II,4,4,D
+N1,22/12/2018,NAC Breda,Heerenveen,4,2,H
+N1,22/12/2018,PSV Eindhoven,AZ Alkmaar,3,1,H
+N1,22/12/2018,Excelsior,Heracles,0,3,A
+N1,22/12/2018,Fortuna Sittard,Groningen,0,0,D
+N1,23/02/2019,Fortuna Sittard,Heerenveen,2,4,A
+N1,23/02/2019,PEC Zwolle,De Graafschap,0,3,A
+N1,23/02/2019,Utrecht,Excelsior,0,0,D
+N1,23/02/2019,NAC Breda,Groningen,0,0,D
+N1,23/04/2019,Heerenveen,VVV Venlo,2,2,D
+N1,23/04/2019,Ajax,Vitesse,4,2,H
+N1,23/04/2019,De Graafschap,Emmen,1,0,H
+N1,23/04/2019,AZ Alkmaar,Heracles,2,1,H
+N1,23/09/2018,PSV Eindhoven,Ajax,3,0,H
+N1,23/09/2018,Emmen,PEC Zwolle,0,1,A
+N1,23/09/2018,Groningen,AZ Alkmaar,1,3,A
+N1,23/09/2018,Feyenoord,Utrecht,1,0,H
+N1,23/12/2018,ADO Den Haag,Feyenoord,2,2,D
+N1,23/12/2018,Utrecht,Ajax,1,3,A
+N1,23/12/2018,De Graafschap,Vitesse,2,2,D
+N1,23/12/2018,Emmen,Willem II,0,2,A
+N1,24/02/2019,Emmen,Vitesse,0,3,A
+N1,24/02/2019,Willem II,AZ Alkmaar,2,1,H
+N1,24/02/2019,PSV Eindhoven,Feyenoord,1,1,D
+N1,24/02/2019,ADO Den Haag,Ajax,1,5,A
+N1,24/04/2019,Utrecht,Fortuna Sittard,2,1,H
+N1,24/04/2019,NAC Breda,Feyenoord,0,4,A
+N1,24/05/2019,Utrecht,Vitesse,1,1,D
+N1,24/08/2018,ADO Den Haag,Fortuna Sittard,3,1,H
+N1,24/11/2018,Fortuna Sittard,Heracles,3,0,H
+N1,24/11/2018,PSV Eindhoven,Heerenveen,3,0,H
+N1,24/11/2018,NAC Breda,Ajax,0,3,A
+N1,24/11/2018,PEC Zwolle,ADO Den Haag,2,3,A
+N1,25/01/2019,NAC Breda,ADO Den Haag,1,1,D
+N1,25/04/2019,Willem II,PSV Eindhoven,0,3,A
+N1,25/04/2019,ADO Den Haag,Excelsior,3,1,H
+N1,25/08/2018,Ajax,Emmen,5,0,H
+N1,25/08/2018,PEC Zwolle,PSV Eindhoven,1,2,A
+N1,25/08/2018,NAC Breda,Excelsior,0,2,A
+N1,25/08/2018,De Graafschap,Groningen,0,1,A
+N1,25/11/2018,Emmen,Excelsior,1,2,A
+N1,25/11/2018,Utrecht,De Graafschap,5,0,H
+N1,25/11/2018,Feyenoord,Groningen,1,0,H
+N1,25/11/2018,VVV Venlo,AZ Alkmaar,2,2,D
+N1,25/11/2018,Willem II,Vitesse,1,3,A
+N1,26/01/2019,Heracles,PEC Zwolle,0,2,A
+N1,26/01/2019,Excelsior,De Graafschap,2,0,H
+N1,26/01/2019,PSV Eindhoven,Groningen,2,1,H
+N1,26/01/2019,VVV Venlo,Emmen,2,3,A
+N1,26/08/2018,Utrecht,VVV Venlo,1,1,D
+N1,26/08/2018,AZ Alkmaar,Vitesse,0,0,D
+N1,26/08/2018,Willem II,Heracles,5,0,H
+N1,26/08/2018,Heerenveen,Feyenoord,3,5,A
+N1,26/10/2018,Emmen,VVV Venlo,1,1,D
+N1,27/01/2019,Feyenoord,Ajax,6,2,H
+N1,27/01/2019,Utrecht,Willem II,0,1,A
+N1,27/01/2019,Fortuna Sittard,Vitesse,2,1,H
+N1,27/01/2019,Heerenveen,AZ Alkmaar,0,2,A
+N1,27/10/2018,ADO Den Haag,NAC Breda,1,1,D
+N1,27/10/2018,De Graafschap,Excelsior,4,1,H
+N1,27/10/2018,Groningen,PSV Eindhoven,1,2,A
+N1,27/10/2018,PEC Zwolle,Heracles,1,1,D
+N1,28/05/2019,Vitesse,Utrecht,0,2,A
+N1,28/10/2018,AZ Alkmaar,Heerenveen,2,3,A
+N1,28/10/2018,Willem II,Utrecht,0,1,A
+N1,28/10/2018,Ajax,Feyenoord,3,0,H
+N1,28/10/2018,Vitesse,Fortuna Sittard,2,1,H
+N1,29/04/2019,PEC Zwolle,Groningen,3,2,H
+N1,29/09/2018,NAC Breda,PSV Eindhoven,0,2,A
+N1,29/09/2018,Heerenveen,ADO Den Haag,1,1,D
+N1,29/09/2018,Excelsior,VVV Venlo,1,0,H
+N1,29/09/2018,Fortuna Sittard,Ajax,0,2,A
+N1,30/03/2019,ADO Den Haag,Vitesse,3,3,D
+N1,30/03/2019,Heerenveen,Excelsior,1,0,H
+N1,30/03/2019,AZ Alkmaar,Groningen,1,0,H
+N1,30/03/2019,De Graafschap,Heracles,1,2,A
+N1,30/03/2019,Willem II,Fortuna Sittard,3,2,H
+N1,30/09/2018,Groningen,Utrecht,1,1,D
+N1,30/09/2018,Feyenoord,Vitesse,2,1,H
+N1,30/09/2018,AZ Alkmaar,PEC Zwolle,2,2,D
+N1,30/09/2018,De Graafschap,Willem II,2,1,H
+N1,30/09/2018,Heracles,Emmen,2,1,H
+N1,30/11/2018,Excelsior,Utrecht,3,3,D
+N1,31/03/2019,Ajax,PSV Eindhoven,3,1,H
+N1,31/03/2019,PEC Zwolle,Emmen,3,0,H
+N1,31/03/2019,Utrecht,Feyenoord,3,2,H
+N1,31/03/2019,NAC Breda,VVV Venlo,1,1,D
+N1,31/08/2018,Emmen,De Graafschap,1,1,D

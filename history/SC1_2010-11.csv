@@ -1,0 +1,171 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/03/2011,Morton,Falkirk,0,0,D
+SC1,01/03/2011,Cowdenbeath,Queen of the South,2,2,D
+SC1,01/03/2011,Stirling Albion,Ross County,0,0,D
+SC1,02/01/2011,Dundee,Ross County,2,0,H
+SC1,02/01/2011,Falkirk,Stirling Albion,4,2,H
+SC1,02/01/2011,Raith Rovers,Dunfermline,2,1,H
+SC1,02/04/2011,Morton,Falkirk,2,2,D
+SC1,02/04/2011,Partick,Queen of the South,0,0,D
+SC1,02/04/2011,Raith Rovers,Dundee,2,1,H
+SC1,02/04/2011,Stirling Albion,Ross County,0,2,A
+SC1,02/04/2011,Cowdenbeath,Dunfermline,0,1,A
+SC1,02/10/2010,Queen of the South,Dunfermline,2,0,H
+SC1,02/10/2010,Falkirk,Cowdenbeath,5,1,H
+SC1,02/10/2010,Dundee,Morton,2,1,H
+SC1,02/10/2010,Ross County,Partick,0,2,A
+SC1,02/10/2010,Raith Rovers,Stirling Albion,0,2,A
+SC1,05/02/2011,Stirling Albion,Raith Rovers,1,3,A
+SC1,05/02/2011,Ross County,Cowdenbeath,1,1,D
+SC1,05/02/2011,Queen of the South,Dundee,1,2,A
+SC1,05/03/2011,Dunfermline,Morton,1,3,A
+SC1,05/03/2011,Partick,Dundee,0,0,D
+SC1,05/03/2011,Queen of the South,Raith Rovers,0,2,A
+SC1,05/03/2011,Ross County,Falkirk,2,1,H
+SC1,05/03/2011,Stirling Albion,Cowdenbeath,3,4,A
+SC1,05/04/2011,Morton,Stirling Albion,2,0,H
+SC1,05/04/2011,Cowdenbeath,Ross County,2,1,H
+SC1,06/11/2010,Morton,Dunfermline,2,1,H
+SC1,06/11/2010,Dundee,Partick,2,1,H
+SC1,06/11/2010,Cowdenbeath,Stirling Albion,5,1,H
+SC1,06/11/2010,Falkirk,Ross County,0,1,A
+SC1,06/11/2010,Raith Rovers,Queen of the South,0,1,A
+SC1,07/08/2010,Cowdenbeath,Ross County,0,2,A
+SC1,07/08/2010,Raith Rovers,Partick,4,0,H
+SC1,07/08/2010,Dundee,Queen of the South,1,0,H
+SC1,07/08/2010,Falkirk,Dunfermline,0,1,A
+SC1,07/08/2010,Morton,Stirling Albion,0,0,D
+SC1,08/03/2011,Dunfermline,Ross County,1,1,D
+SC1,08/03/2011,Partick,Queen of the South,3,1,H
+SC1,08/03/2011,Cowdenbeath,Dundee,1,3,A
+SC1,09/04/2011,Falkirk,Partick,2,3,A
+SC1,09/04/2011,Raith Rovers,Cowdenbeath,2,2,D
+SC1,10/04/2011,Dundee,Stirling Albion,1,1,D
+SC1,11/09/2010,Falkirk,Queen of the South,3,1,H
+SC1,11/09/2010,Ross County,Raith Rovers,0,0,D
+SC1,11/09/2010,Partick,Stirling Albion,1,2,A
+SC1,11/09/2010,Dunfermline,Dundee,3,1,H
+SC1,11/09/2010,Morton,Cowdenbeath,1,2,A
+SC1,11/12/2010,Dunfermline,Queen of the South,1,0,H
+SC1,11/12/2010,Partick,Ross County,1,1,D
+SC1,11/12/2010,Morton,Dundee,0,1,A
+SC1,12/02/2011,Dundee,Raith Rovers,2,1,H
+SC1,12/02/2011,Queen of the South,Partick,3,3,D
+SC1,12/02/2011,Ross County,Stirling Albion,0,0,D
+SC1,12/02/2011,Cowdenbeath,Dunfermline,0,4,A
+SC1,12/02/2011,Falkirk,Morton,1,0,H
+SC1,12/03/2011,Raith Rovers,Partick,0,2,A
+SC1,12/03/2011,Falkirk,Dunfermline,1,2,A
+SC1,12/03/2011,Dundee,Queen of the South,2,1,H
+SC1,12/04/2011,Partick,Falkirk,1,2,A
+SC1,13/04/2011,Queen of the South,Morton,1,4,A
+SC1,13/11/2010,Stirling Albion,Falkirk,0,5,A
+SC1,13/11/2010,Ross County,Dundee,0,3,A
+SC1,13/11/2010,Queen of the South,Cowdenbeath,3,0,H
+SC1,13/11/2010,Partick,Morton,0,0,D
+SC1,13/11/2010,Dunfermline,Raith Rovers,2,2,D
+SC1,14/08/2010,Stirling Albion,Cowdenbeath,1,3,A
+SC1,14/08/2010,Partick,Dundee,1,0,H
+SC1,14/08/2010,Dunfermline,Morton,2,0,H
+SC1,14/08/2010,Ross County,Falkirk,0,1,A
+SC1,14/08/2010,Queen of the South,Raith Rovers,1,3,A
+SC1,14/12/2010,Dundee,Cowdenbeath,3,0,H
+SC1,14/12/2010,Ross County,Morton,2,2,D
+SC1,14/12/2010,Dunfermline,Partick,0,0,D
+SC1,15/01/2011,Partick,Stirling Albion,6,1,H
+SC1,15/01/2011,Ross County,Raith Rovers,0,1,A
+SC1,15/01/2011,Falkirk,Queen of the South,0,3,A
+SC1,15/01/2011,Morton,Cowdenbeath,3,0,H
+SC1,15/01/2011,Dunfermline,Dundee,0,0,D
+SC1,15/02/2011,Stirling Albion,Morton,0,1,A
+SC1,15/02/2011,Cowdenbeath,Partick,1,1,D
+SC1,15/02/2011,Dunfermline,Falkirk,1,1,D
+SC1,15/03/2011,Raith Rovers,Cowdenbeath,2,1,H
+SC1,15/03/2011,Stirling Albion,Dunfermline,1,1,D
+SC1,16/03/2011,Queen of the South,Morton,2,0,H
+SC1,16/04/2011,Cowdenbeath,Falkirk,1,2,A
+SC1,16/04/2011,Morton,Dundee,1,3,A
+SC1,16/04/2011,Stirling Albion,Raith Rovers,1,2,A
+SC1,16/04/2011,Partick,Ross County,1,1,D
+SC1,16/04/2011,Dunfermline,Queen of the South,6,1,H
+SC1,16/10/2010,Dunfermline,Ross County,3,2,H
+SC1,16/10/2010,Cowdenbeath,Raith Rovers,1,2,A
+SC1,16/10/2010,Morton,Queen of the South,2,0,H
+SC1,16/10/2010,Partick,Falkirk,1,0,H
+SC1,16/10/2010,Stirling Albion,Dundee,1,1,D
+SC1,18/09/2010,Ross County,Stirling Albion,3,1,H
+SC1,18/09/2010,Queen of the South,Partick,2,1,H
+SC1,18/09/2010,Falkirk,Morton,2,1,H
+SC1,18/09/2010,Dunfermline,Cowdenbeath,2,1,H
+SC1,18/09/2010,Dundee,Raith Rovers,0,0,D
+SC1,18/12/2010,Dundee,Stirling Albion,2,0,H
+SC1,19/02/2011,Stirling Albion,Dundee,0,1,A
+SC1,19/02/2011,Morton,Queen of the South,0,4,A
+SC1,19/02/2011,Cowdenbeath,Raith Rovers,0,3,A
+SC1,19/03/2011,Dunfermline,Stirling Albion,4,1,H
+SC1,19/03/2011,Ross County,Queen of the South,1,2,A
+SC1,19/03/2011,Morton,Raith Rovers,0,0,D
+SC1,19/03/2011,Falkirk,Dundee,2,2,D
+SC1,19/03/2011,Partick,Cowdenbeath,0,1,A
+SC1,19/04/2011,Falkirk,Partick,2,0,H
+SC1,21/08/2010,Raith Rovers,Dunfermline,2,0,H
+SC1,21/08/2010,Morton,Partick,2,0,H
+SC1,21/08/2010,Falkirk,Stirling Albion,3,0,H
+SC1,21/08/2010,Dundee,Ross County,0,0,D
+SC1,22/01/2011,Dundee,Falkirk,1,0,H
+SC1,22/01/2011,Raith Rovers,Morton,2,2,D
+SC1,22/02/2011,Raith Rovers,Dundee,1,2,A
+SC1,22/02/2011,Queen of the South,Stirling Albion,2,2,D
+SC1,22/02/2011,Ross County,Dunfermline,0,0,D
+SC1,22/02/2011,Morton,Partick,1,0,H
+SC1,22/03/2011,Queen of the South,Falkirk,0,1,A
+SC1,22/03/2011,Stirling Albion,Partick,0,3,A
+SC1,22/03/2011,Dundee,Dunfermline,1,1,D
+SC1,22/03/2011,Cowdenbeath,Morton,0,2,A
+SC1,22/03/2011,Raith Rovers,Ross County,1,1,D
+SC1,22/08/2010,Cowdenbeath,Queen of the South,1,3,A
+SC1,23/04/2011,Stirling Albion,Falkirk,1,2,A
+SC1,23/04/2011,Ross County,Dundee,0,1,A
+SC1,23/04/2011,Queen of the South,Cowdenbeath,2,2,D
+SC1,23/04/2011,Partick,Morton,2,0,H
+SC1,23/04/2011,Dunfermline,Raith Rovers,2,1,H
+SC1,23/10/2010,Dundee,Dunfermline,2,2,D
+SC1,23/10/2010,Stirling Albion,Partick,4,2,H
+SC1,23/10/2010,Raith Rovers,Ross County,1,0,H
+SC1,23/10/2010,Queen of the South,Falkirk,1,5,A
+SC1,23/10/2010,Cowdenbeath,Morton,2,2,D
+SC1,25/09/2010,Cowdenbeath,Dundee,2,1,H
+SC1,25/09/2010,Stirling Albion,Queen of the South,0,0,D
+SC1,25/09/2010,Partick,Dunfermline,0,2,A
+SC1,25/09/2010,Raith Rovers,Falkirk,2,1,H
+SC1,25/09/2010,Morton,Ross County,0,0,D
+SC1,26/02/2011,Dundee,Morton,1,1,D
+SC1,26/02/2011,Ross County,Partick,0,0,D
+SC1,26/02/2011,Falkirk,Cowdenbeath,2,0,H
+SC1,26/02/2011,Raith Rovers,Stirling Albion,2,1,H
+SC1,26/02/2011,Queen of the South,Dunfermline,1,3,A
+SC1,26/03/2011,Queen of the South,Stirling Albion,4,1,H
+SC1,26/03/2011,Falkirk,Raith Rovers,2,1,H
+SC1,26/03/2011,Dunfermline,Partick,0,0,D
+SC1,26/03/2011,Dundee,Cowdenbeath,2,2,D
+SC1,26/03/2011,Ross County,Morton,2,0,H
+SC1,26/04/2011,Queen of the South,Ross County,0,1,A
+SC1,26/12/2010,Partick,Raith Rovers,0,0,D
+SC1,28/08/2010,Queen of the South,Ross County,3,0,H
+SC1,28/08/2010,Stirling Albion,Dunfermline,1,5,A
+SC1,28/08/2010,Raith Rovers,Morton,1,0,H
+SC1,28/08/2010,Cowdenbeath,Partick,2,1,H
+SC1,28/08/2010,Dundee,Falkirk,2,0,H
+SC1,29/01/2011,Morton,Ross County,2,1,H
+SC1,29/01/2011,Partick,Dunfermline,2,0,H
+SC1,29/01/2011,Raith Rovers,Falkirk,1,2,A
+SC1,29/03/2011,Stirling Albion,Queen of the South,0,2,A
+SC1,29/03/2011,Cowdenbeath,Falkirk,0,0,D
+SC1,29/03/2011,Ross County,Dunfermline,0,1,A
+SC1,29/12/2010,Dunfermline,Cowdenbeath,5,0,H
+SC1,29/12/2010,Falkirk,Raith Rovers,0,0,D
+SC1,30/10/2010,Dunfermline,Stirling Albion,3,0,H
+SC1,30/10/2010,Falkirk,Dundee,3,3,D
+SC1,30/10/2010,Morton,Raith Rovers,0,1,A
+SC1,30/10/2010,Ross County,Queen of the South,1,1,D
+SC1,30/10/2010,Partick,Cowdenbeath,1,0,H

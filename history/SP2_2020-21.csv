@@ -1,0 +1,469 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP2,01/02/2021,Leganes,Lugo,3,2,H
+SP2,01/02/2021,Sabadell,UD Logroñés,0,0,D
+SP2,01/03/2021,Mirandes,Malaga,1,0,H
+SP2,01/04/2021,Espanyol,Fuenlabrada,4,0,H
+SP2,01/04/2021,Mallorca,Leganes,1,0,H
+SP2,01/04/2021,Las Palmas,Lugo,6,1,H
+SP2,01/04/2021,Zaragoza,FC Cartagena,0,0,D
+SP2,01/05/2021,Girona,Tenerife,1,0,H
+SP2,01/05/2021,Mallorca,Mirandes,2,1,H
+SP2,01/05/2021,Almeria,Oviedo,2,2,D
+SP2,01/11/2020,Leganes,Mirandes,1,0,H
+SP2,01/11/2020,Zaragoza,Mallorca,0,0,D
+SP2,01/11/2020,Fuenlabrada,Tenerife,1,1,D
+SP2,01/11/2020,Ponferradina,Sabadell,0,3,A
+SP2,01/11/2020,Lugo,Rayo Vallecano,1,0,H
+SP2,01/11/2020,Almeria,Girona,0,0,D
+SP2,01/12/2020,Fuenlabrada,Malaga,0,2,A
+SP2,01/12/2020,Girona,Mirandes,1,0,H
+SP2,02/01/2021,Fuenlabrada,Leganes,0,0,D
+SP2,02/01/2021,Rayo Vallecano,Alcorcon,2,1,H
+SP2,02/01/2021,UD Logroñés,Mirandes,2,1,H
+SP2,02/01/2021,FC Cartagena,Zaragoza,1,1,D
+SP2,02/04/2021,Almeria,Rayo Vallecano,0,1,A
+SP2,02/05/2021,Fuenlabrada,FC Cartagena,2,1,H
+SP2,02/05/2021,Espanyol,Malaga,3,0,H
+SP2,02/05/2021,Castellón,UD Logroñés,0,0,D
+SP2,02/05/2021,Leganes,Sporting Gijon,0,0,D
+SP2,02/05/2021,Las Palmas,Ponferradina,2,0,H
+SP2,02/06/2021,Girona,Almeria,3,0,H
+SP2,02/11/2020,UD Logroñés,Alcorcon,1,0,H
+SP2,02/11/2020,Sporting Gijon,Castellón,1,0,H
+SP2,02/11/2020,Malaga,Espanyol,0,3,A
+SP2,02/12/2020,FC Cartagena,Espanyol,1,3,A
+SP2,02/12/2020,UD Logroñés,Ponferradina,1,2,A
+SP2,02/12/2020,Leganes,Rayo Vallecano,1,0,H
+SP2,02/12/2020,Lugo,Las Palmas,1,1,D
+SP2,02/12/2020,Castellón,Zaragoza,1,0,H
+SP2,03/01/2021,Castellón,Tenerife,0,1,A
+SP2,03/01/2021,Las Palmas,Espanyol,1,0,H
+SP2,03/01/2021,Albacete,Malaga,1,1,D
+SP2,03/01/2021,Almeria,Ponferradina,3,1,H
+SP2,03/01/2021,Oviedo,Mallorca,2,2,D
+SP2,03/04/2021,UD Logroñés,Tenerife,1,0,H
+SP2,03/04/2021,Castellón,Oviedo,1,0,H
+SP2,03/04/2021,Girona,Ponferradina,3,1,H
+SP2,03/05/2021,Albacete,Alcorcon,0,1,A
+SP2,03/05/2021,Sabadell,Rayo Vallecano,2,0,H
+SP2,03/06/2021,Rayo Vallecano,Leganes,3,0,H
+SP2,03/10/2020,Mallorca,Tenerife,2,0,H
+SP2,03/10/2020,Rayo Vallecano,Malaga,4,0,H
+SP2,03/10/2020,Las Palmas,UD Logroñés,2,1,H
+SP2,03/10/2020,Albacete,Oviedo,1,1,D
+SP2,03/10/2020,Mirandes,Ponferradina,0,1,A
+SP2,03/10/2020,Alcorcon,Zaragoza,0,0,D
+SP2,03/12/2020,Tenerife,Sabadell,1,2,A
+SP2,03/12/2020,Oviedo,Alcorcon,1,1,D
+SP2,03/12/2020,Sporting Gijon,Albacete,0,0,D
+SP2,03/12/2020,Almeria,Mallorca,0,1,A
+SP2,04/01/2021,Lugo,Sporting Gijon,0,0,D
+SP2,04/01/2021,Girona,Sabadell,0,0,D
+SP2,04/04/2021,Lugo,Malaga,0,1,A
+SP2,04/04/2021,Leganes,Sabadell,2,1,H
+SP2,04/04/2021,Albacete,Espanyol,0,3,A
+SP2,04/04/2021,Las Palmas,Mallorca,1,1,D
+SP2,04/04/2021,Sporting Gijon,Mirandes,1,2,A
+SP2,04/10/2020,Sabadell,Espanyol,0,1,A
+SP2,04/10/2020,FC Cartagena,Lugo,2,1,H
+SP2,04/10/2020,Castellón,Leganes,2,0,H
+SP2,04/10/2020,Almeria,Sporting Gijon,0,1,A
+SP2,04/10/2020,Girona,Fuenlabrada,0,1,A
+SP2,04/11/2020,Zaragoza,Girona,2,2,D
+SP2,05/02/2021,Albacete,Mallorca,0,1,A
+SP2,05/03/2021,Espanyol,Oviedo,1,1,D
+SP2,05/04/2021,Fuenlabrada,Zaragoza,0,1,A
+SP2,05/04/2021,FC Cartagena,Alcorcon,2,1,H
+SP2,05/06/2021,Almeria,Girona,0,0,D
+SP2,05/11/2020,Sabadell,Almeria,1,2,A
+SP2,05/11/2020,Alcorcon,Ponferradina,0,1,A
+SP2,05/12/2020,Rayo Vallecano,UD Logroñés,2,1,H
+SP2,05/12/2020,Ponferradina,Las Palmas,0,0,D
+SP2,05/12/2020,Mirandes,Lugo,0,0,D
+SP2,05/12/2020,Malaga,FC Cartagena,1,2,A
+SP2,06/02/2021,UD Logroñés,Sporting Gijon,0,4,A
+SP2,06/02/2021,Fuenlabrada,Almeria,1,1,D
+SP2,06/02/2021,FC Cartagena,Oviedo,2,0,H
+SP2,06/03/2021,Leganes,Castellón,0,0,D
+SP2,06/03/2021,Albacete,UD Logroñés,1,1,D
+SP2,06/03/2021,Las Palmas,Rayo Vallecano,1,1,D
+SP2,06/03/2021,Zaragoza,Tenerife,1,0,H
+SP2,06/06/2021,Leganes,Rayo Vallecano,1,2,A
+SP2,06/11/2020,Albacete,Leganes,0,0,D
+SP2,06/12/2020,Alcorcon,Almeria,0,1,A
+SP2,06/12/2020,Sabadell,Oviedo,0,1,A
+SP2,06/12/2020,Zaragoza,Fuenlabrada,1,0,H
+SP2,06/12/2020,Albacete,Girona,0,2,A
+SP2,06/12/2020,Espanyol,Sporting Gijon,2,0,H
+SP2,07/02/2021,Castellón,Mirandes,0,1,A
+SP2,07/02/2021,Las Palmas,Sabadell,0,1,A
+SP2,07/02/2021,Rayo Vallecano,Tenerife,0,1,A
+SP2,07/02/2021,Malaga,Zaragoza,1,2,A
+SP2,07/02/2021,Girona,Leganes,0,2,A
+SP2,07/03/2021,Malaga,Sabadell,2,0,H
+SP2,07/03/2021,Girona,Almeria,0,1,A
+SP2,07/03/2021,Ponferradina,Sporting Gijon,2,2,D
+SP2,07/03/2021,Mallorca,FC Cartagena,2,1,H
+SP2,07/05/2021,Tenerife,Almeria,0,1,A
+SP2,07/11/2020,FC Cartagena,UD Logroñés,0,1,A
+SP2,07/11/2020,Mirandes,Sporting Gijon,1,0,H
+SP2,07/11/2020,Espanyol,Lugo,2,1,H
+SP2,07/12/2020,Tenerife,Leganes,0,0,D
+SP2,07/12/2020,Mallorca,Castellón,3,1,H
+SP2,08/01/2021,Zaragoza,UD Logroñés,2,0,H
+SP2,08/02/2021,Ponferradina,Alcorcon,2,0,H
+SP2,08/02/2021,Lugo,Espanyol,1,1,D
+SP2,08/03/2021,Alcorcon,Mirandes,4,0,H
+SP2,08/03/2021,Lugo,Fuenlabrada,0,0,D
+SP2,08/05/2021,Ponferradina,Albacete,0,1,A
+SP2,08/05/2021,Malaga,Mallorca,1,1,D
+SP2,08/05/2021,Zaragoza,Espanyol,0,0,D
+SP2,08/05/2021,Alcorcon,Las Palmas,0,0,D
+SP2,08/11/2020,Mallorca,Ponferradina,3,0,H
+SP2,08/11/2020,Alcorcon,Fuenlabrada,0,3,A
+SP2,08/11/2020,Oviedo,Castellón,4,0,H
+SP2,08/11/2020,Rayo Vallecano,Almeria,0,1,A
+SP2,08/11/2020,Sabadell,Malaga,1,2,A
+SP2,08/11/2020,Tenerife,Zaragoza,1,0,H
+SP2,09/01/2021,Malaga,Oviedo,1,1,D
+SP2,09/04/2021,Tenerife,Sporting Gijon,1,0,H
+SP2,09/05/2021,UD Logroñés,Girona,1,4,A
+SP2,09/05/2021,Oviedo,Sabadell,2,1,H
+SP2,09/05/2021,FC Cartagena,Castellón,1,0,H
+SP2,09/05/2021,Mirandes,Fuenlabrada,2,1,H
+SP2,09/11/2020,Girona,Las Palmas,1,1,D
+SP2,09/12/2020,Sabadell,Alcorcon,1,1,D
+SP2,09/12/2020,Almeria,Zaragoza,1,0,H
+SP2,10/01/2021,Tenerife,FC Cartagena,3,0,H
+SP2,10/01/2021,Espanyol,Castellón,2,0,H
+SP2,10/01/2021,Mallorca,Las Palmas,0,1,A
+SP2,10/04/2021,Rayo Vallecano,Girona,2,1,H
+SP2,10/04/2021,Oviedo,Las Palmas,0,0,D
+SP2,10/04/2021,Ponferradina,Fuenlabrada,0,0,D
+SP2,10/05/2021,Sporting Gijon,Lugo,1,0,H
+SP2,10/05/2021,Rayo Vallecano,Leganes,1,1,D
+SP2,10/10/2020,Espanyol,Alcorcon,1,0,H
+SP2,10/10/2020,Tenerife,Rayo Vallecano,1,0,H
+SP2,10/10/2020,Sabadell,Mirandes,0,2,A
+SP2,10/10/2020,UD Logroñés,Almeria,1,0,H
+SP2,10/12/2020,Girona,UD Logroñés,2,0,H
+SP2,11/01/2021,Sporting Gijon,Fuenlabrada,2,1,H
+SP2,11/01/2021,Sabadell,Lugo,1,1,D
+SP2,11/01/2021,Ponferradina,Girona,1,1,D
+SP2,11/04/2021,Sabadell,FC Cartagena,1,1,D
+SP2,11/04/2021,Zaragoza,Almeria,2,1,H
+SP2,11/04/2021,Mallorca,Lugo,2,0,H
+SP2,11/04/2021,Mirandes,UD Logroñés,0,1,A
+SP2,11/04/2021,Espanyol,Leganes,2,1,H
+SP2,11/04/2021,Malaga,Albacete,2,0,H
+SP2,11/10/2020,Oviedo,Sporting Gijon,1,0,H
+SP2,11/10/2020,Ponferradina,FC Cartagena,0,2,A
+SP2,11/10/2020,Zaragoza,Albacete,1,0,H
+SP2,11/10/2020,Leganes,Girona,0,1,A
+SP2,11/10/2020,Malaga,Las Palmas,0,0,D
+SP2,11/10/2020,Fuenlabrada,Castellón,1,1,D
+SP2,11/10/2020,Lugo,Mallorca,0,1,A
+SP2,11/12/2020,Lugo,Ponferradina,1,0,H
+SP2,11/12/2020,Oviedo,Tenerife,4,2,H
+SP2,12/02/2021,Sabadell,Zaragoza,1,1,D
+SP2,12/03/2021,FC Cartagena,Ponferradina,1,1,D
+SP2,12/03/2021,Rayo Vallecano,Zaragoza,3,2,H
+SP2,12/04/2021,Alcorcon,Castellón,2,1,H
+SP2,12/09/2020,Espanyol,Albacete,3,0,H
+SP2,12/09/2020,Sporting Gijon,UD Logroñés,1,0,H
+SP2,12/09/2020,Leganes,Las Palmas,1,0,H
+SP2,12/09/2020,Ponferradina,Castellón,1,2,A
+SP2,12/12/2020,Fuenlabrada,Mirandes,0,1,A
+SP2,12/12/2020,Castellón,Albacete,3,0,H
+SP2,12/12/2020,Leganes,Mallorca,0,1,A
+SP2,13/02/2021,Mirandes,Girona,3,3,D
+SP2,13/02/2021,Tenerife,Ponferradina,1,0,H
+SP2,13/02/2021,FC Cartagena,Rayo Vallecano,2,2,D
+SP2,13/03/2021,Mirandes,Espanyol,2,2,D
+SP2,13/03/2021,Castellón,Sabadell,2,1,H
+SP2,13/03/2021,Girona,Lugo,1,1,D
+SP2,13/03/2021,Fuenlabrada,Las Palmas,1,2,A
+SP2,13/06/2021,Rayo Vallecano,Girona,1,2,A
+SP2,13/09/2020,Tenerife,Malaga,2,0,H
+SP2,13/09/2020,Fuenlabrada,Lugo,2,0,H
+SP2,13/09/2020,Oviedo,FC Cartagena,0,0,D
+SP2,13/09/2020,Mallorca,Rayo Vallecano,0,1,A
+SP2,13/09/2020,Mirandes,Alcorcon,0,0,D
+SP2,13/11/2020,Zaragoza,Oviedo,1,2,A
+SP2,13/12/2020,UD Logroñés,Espanyol,0,3,A
+SP2,13/12/2020,Almeria,Malaga,3,1,H
+SP2,13/12/2020,Las Palmas,Alcorcon,0,0,D
+SP2,13/12/2020,FC Cartagena,Sabadell,1,2,A
+SP2,13/12/2020,Sporting Gijon,Zaragoza,1,0,H
+SP2,14/02/2021,Mallorca,Espanyol,1,2,A
+SP2,14/02/2021,Leganes,Albacete,3,1,H
+SP2,14/02/2021,Alcorcon,UD Logroñés,1,0,H
+SP2,14/02/2021,Almeria,Las Palmas,3,1,H
+SP2,14/02/2021,Sporting Gijon,Malaga,1,0,H
+SP2,14/03/2021,Sporting Gijon,Mallorca,2,0,H
+SP2,14/03/2021,Tenerife,Albacete,2,0,H
+SP2,14/03/2021,UD Logroñés,Malaga,0,1,A
+SP2,14/03/2021,Oviedo,Leganes,1,3,A
+SP2,14/04/2021,Rayo Vallecano,Mirandes,0,1,A
+SP2,14/05/2021,Espanyol,FC Cartagena,0,2,A
+SP2,14/11/2020,Fuenlabrada,Espanyol,1,1,D
+SP2,14/11/2020,Girona,Mallorca,0,1,A
+SP2,14/11/2020,Almeria,Mirandes,2,1,H
+SP2,14/11/2020,Lugo,Albacete,1,0,H
+SP2,14/12/2020,Girona,Rayo Vallecano,0,0,D
+SP2,15/02/2021,Castellón,Fuenlabrada,1,2,A
+SP2,15/02/2021,Oviedo,Lugo,3,1,H
+SP2,15/03/2021,Almeria,Alcorcon,0,0,D
+SP2,15/05/2021,Almeria,Albacete,1,1,D
+SP2,15/05/2021,Las Palmas,Zaragoza,0,2,A
+SP2,15/05/2021,Lugo,Mirandes,2,1,H
+SP2,15/05/2021,Castellón,Ponferradina,0,2,A
+SP2,15/11/2020,Leganes,Alcorcon,1,0,H
+SP2,15/11/2020,UD Logroñés,Sabadell,1,0,H
+SP2,15/11/2020,Las Palmas,Tenerife,1,0,H
+SP2,15/11/2020,Ponferradina,Malaga,1,1,D
+SP2,15/11/2020,Castellón,FC Cartagena,2,1,H
+SP2,16/04/2021,Fuenlabrada,Sabadell,2,2,D
+SP2,16/04/2021,Girona,Zaragoza,3,0,H
+SP2,16/05/2021,Fuenlabrada,Rayo Vallecano,1,2,A
+SP2,16/05/2021,Sabadell,Tenerife,0,2,A
+SP2,16/05/2021,Leganes,UD Logroñés,3,0,H
+SP2,16/05/2021,Mallorca,Alcorcon,2,0,H
+SP2,16/11/2020,Sporting Gijon,Rayo Vallecano,1,1,D
+SP2,17/02/2021,Leganes,Almeria,2,1,H
+SP2,17/04/2021,Las Palmas,Malaga,1,1,D
+SP2,17/04/2021,Sporting Gijon,Oviedo,0,1,A
+SP2,17/04/2021,Castellón,Mallorca,1,0,H
+SP2,17/04/2021,Lugo,Alcorcon,1,3,A
+SP2,17/05/2021,Girona,Sporting Gijon,1,0,H
+SP2,17/05/2021,Oviedo,Malaga,1,0,H
+SP2,17/10/2020,Castellón,Lugo,0,1,A
+SP2,17/10/2020,Albacete,Sabadell,3,0,H
+SP2,17/10/2020,Las Palmas,Almeria,2,0,H
+SP2,17/10/2020,UD Logroñés,Leganes,0,1,A
+SP2,17/10/2020,FC Cartagena,Fuenlabrada,1,1,D
+SP2,18/04/2021,FC Cartagena,Tenerife,0,0,D
+SP2,18/04/2021,Albacete,Mirandes,1,0,H
+SP2,18/04/2021,UD Logroñés,Rayo Vallecano,0,0,D
+SP2,18/05/2021,FC Cartagena,Almeria,3,2,H
+SP2,18/05/2021,Albacete,Lugo,1,1,D
+SP2,18/05/2021,Ponferradina,Espanyol,1,4,A
+SP2,18/10/2020,Sporting Gijon,Tenerife,1,1,D
+SP2,18/10/2020,Girona,Oviedo,1,0,H
+SP2,18/10/2020,Mirandes,Mallorca,0,0,D
+SP2,18/10/2020,Rayo Vallecano,Espanyol,1,0,H
+SP2,18/10/2020,Zaragoza,Malaga,1,2,A
+SP2,18/12/2020,Ponferradina,Oviedo,1,0,H
+SP2,19/01/2021,Mirandes,Rayo Vallecano,0,2,A
+SP2,19/02/2021,Ponferradina,Mirandes,1,0,H
+SP2,19/03/2021,Las Palmas,Girona,1,2,A
+SP2,19/04/2021,Leganes,Ponferradina,1,1,D
+SP2,19/04/2021,Almeria,Espanyol,1,1,D
+SP2,19/05/2021,UD Logroñés,Fuenlabrada,1,0,H
+SP2,19/05/2021,Tenerife,Mallorca,0,1,A
+SP2,19/05/2021,Mirandes,Leganes,0,0,D
+SP2,19/05/2021,Alcorcon,Sabadell,2,0,H
+SP2,19/09/2020,Castellón,Malaga,0,1,A
+SP2,19/09/2020,Alcorcon,Tenerife,2,0,H
+SP2,19/09/2020,Rayo Vallecano,Sabadell,2,1,H
+SP2,19/09/2020,Mirandes,Oviedo,1,1,D
+SP2,19/12/2020,Zaragoza,Lugo,1,0,H
+SP2,19/12/2020,Mallorca,Fuenlabrada,2,3,A
+SP2,19/12/2020,Sabadell,Castellón,1,1,D
+SP2,20/02/2021,Espanyol,Sabadell,1,0,H
+SP2,20/02/2021,Albacete,Sporting Gijon,0,1,A
+SP2,20/02/2021,Las Palmas,FC Cartagena,2,0,H
+SP2,20/03/2021,Mallorca,Oviedo,0,0,D
+SP2,20/03/2021,Espanyol,UD Logroñés,4,0,H
+SP2,20/03/2021,Sabadell,Sporting Gijon,1,1,D
+SP2,20/03/2021,Leganes,Fuenlabrada,0,2,A
+SP2,20/05/2021,Malaga,Girona,0,1,A
+SP2,20/05/2021,Sporting Gijon,Las Palmas,1,0,H
+SP2,20/05/2021,Rayo Vallecano,Oviedo,4,1,H
+SP2,20/05/2021,Zaragoza,Castellón,3,0,H
+SP2,20/06/2021,Girona,Rayo Vallecano,0,2,A
+SP2,20/09/2020,Lugo,Leganes,2,1,H
+SP2,20/09/2020,Espanyol,Mallorca,0,0,D
+SP2,20/09/2020,Albacete,Ponferradina,0,2,A
+SP2,20/09/2020,FC Cartagena,Sporting Gijon,0,1,A
+SP2,20/09/2020,Las Palmas,Fuenlabrada,3,3,D
+SP2,20/11/2020,Espanyol,Girona,1,2,A
+SP2,20/11/2020,Alcorcon,Lugo,1,0,H
+SP2,20/12/2020,Malaga,UD Logroñés,0,0,D
+SP2,20/12/2020,Espanyol,Almeria,2,1,H
+SP2,20/12/2020,Alcorcon,FC Cartagena,2,1,H
+SP2,20/12/2020,Rayo Vallecano,Las Palmas,2,0,H
+SP2,21/02/2021,Lugo,UD Logroñés,1,1,D
+SP2,21/02/2021,Leganes,Tenerife,1,0,H
+SP2,21/02/2021,Malaga,Rayo Vallecano,2,0,H
+SP2,21/02/2021,Girona,Castellón,2,1,H
+SP2,21/02/2021,Mallorca,Almeria,2,0,H
+SP2,21/03/2021,Alcorcon,Rayo Vallecano,0,3,A
+SP2,21/03/2021,Lugo,Castellón,0,0,D
+SP2,21/03/2021,Malaga,Tenerife,1,1,D
+SP2,21/03/2021,Ponferradina,Almeria,2,1,H
+SP2,21/04/2021,Mirandes,Tenerife,0,0,D
+SP2,21/10/2020,Fuenlabrada,UD Logroñés,0,0,D
+SP2,21/10/2020,Almeria,FC Cartagena,1,1,D
+SP2,21/10/2020,Ponferradina,Tenerife,1,0,H
+SP2,21/10/2020,Lugo,Girona,3,0,H
+SP2,21/10/2020,Las Palmas,Castellón,2,1,H
+SP2,21/10/2020,Espanyol,Mirandes,2,0,H
+SP2,21/11/2020,Malaga,Leganes,1,2,A
+SP2,21/11/2020,Mirandes,FC Cartagena,4,1,H
+SP2,21/11/2020,Rayo Vallecano,Castellón,2,1,H
+SP2,21/11/2020,Oviedo,Fuenlabrada,1,1,D
+SP2,21/12/2020,Tenerife,Girona,2,0,H
+SP2,21/12/2020,Sporting Gijon,Leganes,1,1,D
+SP2,21/12/2020,Mirandes,Albacete,0,2,A
+SP2,22/01/2021,Albacete,Zaragoza,1,0,H
+SP2,22/01/2021,Fuenlabrada,Alcorcon,0,0,D
+SP2,22/02/2021,Fuenlabrada,Oviedo,2,2,D
+SP2,22/02/2021,Zaragoza,Alcorcon,0,1,A
+SP2,22/03/2021,Zaragoza,Mirandes,1,0,H
+SP2,22/03/2021,Albacete,FC Cartagena,2,0,H
+SP2,22/10/2020,Leganes,Zaragoza,1,0,H
+SP2,22/10/2020,Oviedo,Rayo Vallecano,0,0,D
+SP2,22/10/2020,Mallorca,Albacete,0,0,D
+SP2,22/10/2020,Malaga,Sporting Gijon,1,0,H
+SP2,22/11/2020,Ponferradina,Zaragoza,2,1,H
+SP2,22/11/2020,Sabadell,Las Palmas,3,1,H
+SP2,22/11/2020,Tenerife,UD Logroñés,0,1,A
+SP2,22/11/2020,Mallorca,Sporting Gijon,0,0,D
+SP2,23/01/2021,Malaga,Ponferradina,0,2,A
+SP2,23/01/2021,Lugo,Tenerife,2,0,H
+SP2,23/01/2021,Girona,Espanyol,1,0,H
+SP2,23/01/2021,Rayo Vallecano,Mallorca,1,3,A
+SP2,23/04/2021,Zaragoza,Sporting Gijon,0,0,D
+SP2,23/05/2021,Espanyol,Tenerife,1,1,D
+SP2,23/05/2021,Mallorca,Zaragoza,2,1,H
+SP2,23/11/2020,Albacete,Almeria,1,2,A
+SP2,24/01/2021,Castellón,Sporting Gijon,2,0,H
+SP2,24/01/2021,UD Logroñés,Oviedo,0,0,D
+SP2,24/01/2021,Las Palmas,Leganes,2,1,H
+SP2,24/01/2021,Almeria,Sabadell,2,2,D
+SP2,24/04/2021,Malaga,Fuenlabrada,0,1,A
+SP2,24/04/2021,UD Logroñés,FC Cartagena,0,1,A
+SP2,24/04/2021,Espanyol,Las Palmas,4,0,H
+SP2,24/04/2021,Ponferradina,Lugo,2,0,H
+SP2,24/05/2021,Las Palmas,Albacete,3,2,H
+SP2,24/05/2021,Oviedo,Mirandes,1,1,D
+SP2,24/05/2021,Sabadell,Ponferradina,2,0,H
+SP2,24/05/2021,Castellón,Rayo Vallecano,0,2,A
+SP2,24/05/2021,Almeria,UD Logroñés,2,1,H
+SP2,24/05/2021,Lugo,FC Cartagena,2,1,H
+SP2,24/05/2021,Fuenlabrada,Sporting Gijon,0,0,D
+SP2,24/05/2021,Leganes,Malaga,1,0,H
+SP2,24/05/2021,Girona,Alcorcon,1,0,H
+SP2,24/10/2020,Almeria,Fuenlabrada,3,0,H
+SP2,24/10/2020,FC Cartagena,Las Palmas,3,0,H
+SP2,24/10/2020,UD Logroñés,Lugo,2,3,A
+SP2,24/10/2020,Castellón,Girona,0,1,A
+SP2,24/11/2020,Castellón,Alcorcon,0,2,A
+SP2,24/11/2020,Girona,Malaga,0,1,A
+SP2,24/11/2020,Lugo,Oviedo,0,0,D
+SP2,25/01/2021,FC Cartagena,Mirandes,0,2,A
+SP2,25/04/2021,Oviedo,Girona,0,1,A
+SP2,25/04/2021,Mirandes,Almeria,1,1,D
+SP2,25/04/2021,Alcorcon,Leganes,1,2,A
+SP2,25/04/2021,Tenerife,Castellón,1,1,D
+SP2,25/10/2020,Leganes,Oviedo,2,1,H
+SP2,25/10/2020,Malaga,Mirandes,1,1,D
+SP2,25/10/2020,Albacete,Rayo Vallecano,2,1,H
+SP2,25/10/2020,Zaragoza,Sabadell,0,0,D
+SP2,25/10/2020,Sporting Gijon,Ponferradina,2,1,H
+SP2,25/10/2020,Tenerife,Espanyol,0,0,D
+SP2,25/11/2020,Las Palmas,Mirandes,0,2,A
+SP2,25/11/2020,Sporting Gijon,Sabadell,3,1,H
+SP2,25/11/2020,Zaragoza,Rayo Vallecano,1,2,A
+SP2,25/11/2020,Fuenlabrada,Ponferradina,1,1,D
+SP2,25/11/2020,FC Cartagena,Mallorca,1,2,A
+SP2,26/01/2021,Alcorcon,Albacete,1,2,A
+SP2,26/02/2021,FC Cartagena,Leganes,1,0,H
+SP2,26/02/2021,Sabadell,Albacete,0,0,D
+SP2,26/03/2021,Sporting Gijon,Alcorcon,0,0,D
+SP2,26/03/2021,Castellón,Espanyol,1,3,A
+SP2,26/04/2021,Rayo Vallecano,Albacete,2,2,D
+SP2,26/04/2021,Sabadell,Mallorca,1,0,H
+SP2,26/09/2020,Fuenlabrada,Albacete,1,0,H
+SP2,26/09/2020,UD Logroñés,Castellón,1,1,D
+SP2,26/09/2020,Sporting Gijon,Girona,2,0,H
+SP2,26/09/2020,Malaga,Alcorcon,1,0,H
+SP2,26/09/2020,Zaragoza,Las Palmas,2,2,D
+SP2,26/10/2020,Alcorcon,Mallorca,0,2,A
+SP2,26/11/2020,UD Logroñés,Albacete,2,0,H
+SP2,26/11/2020,Leganes,Espanyol,2,0,H
+SP2,26/11/2020,Almeria,Tenerife,2,0,H
+SP2,27/02/2021,Almeria,Lugo,4,1,H
+SP2,27/02/2021,Castellón,Las Palmas,4,0,H
+SP2,27/02/2021,UD Logroñés,Mallorca,0,1,A
+SP2,27/02/2021,Rayo Vallecano,Ponferradina,1,1,D
+SP2,27/03/2021,Oviedo,Ponferradina,1,1,D
+SP2,27/03/2021,Almeria,Leganes,1,1,D
+SP2,27/03/2021,FC Cartagena,Malaga,1,1,D
+SP2,27/03/2021,UD Logroñés,Zaragoza,1,1,D
+SP2,27/09/2020,Ponferradina,Rayo Vallecano,3,0,H
+SP2,27/09/2020,Tenerife,Mirandes,1,2,A
+SP2,27/09/2020,Oviedo,Espanyol,0,2,A
+SP2,27/09/2020,Mallorca,Sabadell,1,0,H
+SP2,27/09/2020,Lugo,Almeria,0,2,A
+SP2,27/09/2020,Leganes,FC Cartagena,3,1,H
+SP2,27/10/2020,Girona,FC Cartagena,2,1,H
+SP2,27/11/2020,Alcorcon,Girona,1,0,H
+SP2,27/11/2020,Malaga,Lugo,2,2,D
+SP2,28/02/2021,Tenerife,Alcorcon,3,1,H
+SP2,28/02/2021,Fuenlabrada,Girona,1,1,D
+SP2,28/02/2021,Sporting Gijon,Espanyol,1,1,D
+SP2,28/02/2021,Oviedo,Zaragoza,1,0,H
+SP2,28/03/2021,Girona,Albacete,2,1,H
+SP2,28/03/2021,Lugo,Sabadell,0,1,A
+SP2,28/03/2021,Tenerife,Las Palmas,1,1,D
+SP2,28/10/2020,Espanyol,Ponferradina,2,0,H
+SP2,28/10/2020,Albacete,Las Palmas,1,1,D
+SP2,28/10/2020,Castellón,Almeria,1,2,A
+SP2,28/10/2020,Oviedo,UD Logroñés,2,3,A
+SP2,28/11/2020,Sabadell,Fuenlabrada,1,2,A
+SP2,28/11/2020,Rayo Vallecano,FC Cartagena,0,0,D
+SP2,28/11/2020,Mirandes,Castellón,1,1,D
+SP2,29/01/2021,Zaragoza,Ponferradina,1,0,H
+SP2,29/03/2021,Fuenlabrada,Mallorca,4,1,H
+SP2,29/05/2021,Tenerife,Oviedo,2,2,D
+SP2,29/10/2020,Mallorca,Malaga,3,1,H
+SP2,29/10/2020,Alcorcon,Sporting Gijon,1,2,A
+SP2,29/10/2020,Tenerife,Lugo,1,1,D
+SP2,29/10/2020,Mirandes,Zaragoza,1,0,H
+SP2,29/10/2020,Rayo Vallecano,Fuenlabrada,2,0,H
+SP2,29/10/2020,Sabadell,Leganes,1,0,H
+SP2,29/11/2020,Albacete,Tenerife,0,2,A
+SP2,29/11/2020,Espanyol,Zaragoza,2,0,H
+SP2,29/11/2020,Mallorca,UD Logroñés,4,0,H
+SP2,29/11/2020,Ponferradina,Leganes,3,2,H
+SP2,29/11/2020,Las Palmas,Sporting Gijon,3,2,H
+SP2,30/01/2021,Mallorca,Girona,1,0,H
+SP2,30/01/2021,Oviedo,Albacete,0,1,A
+SP2,30/01/2021,Almeria,Castellón,3,1,H
+SP2,30/01/2021,Alcorcon,Malaga,0,1,A
+SP2,30/03/2021,Rayo Vallecano,Sporting Gijon,0,1,A
+SP2,30/03/2021,Ponferradina,UD Logroñés,2,2,D
+SP2,30/03/2021,Malaga,Almeria,0,3,A
+SP2,30/03/2021,Alcorcon,Oviedo,1,1,D
+SP2,30/04/2021,Lugo,Zaragoza,2,2,D
+SP2,30/05/2021,Rayo Vallecano,Lugo,0,1,A
+SP2,30/05/2021,Ponferradina,Mallorca,2,2,D
+SP2,30/05/2021,Mirandes,Sabadell,0,2,A
+SP2,30/05/2021,Zaragoza,Leganes,0,5,A
+SP2,30/05/2021,Sporting Gijon,Almeria,0,2,A
+SP2,30/05/2021,Albacete,Fuenlabrada,1,2,A
+SP2,30/05/2021,Malaga,Castellón,3,0,H
+SP2,30/05/2021,FC Cartagena,Girona,1,1,D
+SP2,30/05/2021,Alcorcon,Espanyol,1,0,H
+SP2,30/05/2021,UD Logroñés,Las Palmas,0,1,A
+SP2,30/11/2020,Oviedo,Almeria,1,2,A
+SP2,31/01/2021,Espanyol,Rayo Vallecano,2,3,A
+SP2,31/01/2021,Sporting Gijon,FC Cartagena,0,0,D
+SP2,31/01/2021,Tenerife,Fuenlabrada,1,1,D
+SP2,31/01/2021,Mirandes,Las Palmas,2,0,H
+SP2,31/03/2021,Albacete,Castellón,0,1,A
+SP2,31/03/2021,Sabadell,Girona,2,2,D
+SP2,31/10/2020,FC Cartagena,Albacete,3,1,H
+SP2,31/10/2020,Las Palmas,Oviedo,1,2,A

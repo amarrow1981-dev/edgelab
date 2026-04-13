@@ -1,0 +1,552 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2014,Hyde United,Macclesfield,0,3,A
+EC,01/01/2014,Alfreton Town,Wrexham,1,0,H
+EC,01/01/2014,FC Halifax Town,Gateshead,3,3,D
+EC,01/01/2014,Grimsby,Lincoln,1,1,D
+EC,01/01/2014,Luton,Barnet,2,1,H
+EC,01/02/2014,Lincoln,FC Halifax Town,3,1,H
+EC,01/02/2014,Chester,Welling United,1,3,A
+EC,01/02/2014,Gateshead,Kidderminster,3,1,H
+EC,01/02/2014,Salisbury City,Nuneaton Town,2,1,H
+EC,01/03/2014,Cambridge,Kidderminster,5,1,H
+EC,01/03/2014,Hereford United,Wrexham,0,2,A
+EC,01/03/2014,Braintree,Hyde United,2,1,H
+EC,01/03/2014,Southport,Dartford,3,0,H
+EC,01/03/2014,Gateshead,Forest Green,1,1,D
+EC,01/03/2014,Luton,Alfreton Town,3,0,H
+EC,01/03/2014,Aldershot,Lincoln,2,3,A
+EC,01/03/2014,Barnet,Woking,1,3,A
+EC,01/03/2014,Grimsby,Salisbury City,2,0,H
+EC,01/03/2014,Welling United,Macclesfield,1,0,H
+EC,01/03/2014,Chester,Nuneaton Town,3,3,D
+EC,01/03/2014,FC Halifax Town,Tamworth,2,0,H
+EC,01/04/2014,Macclesfield,Cambridge,0,1,A
+EC,01/04/2014,Southport,Braintree,0,4,A
+EC,01/04/2014,Woking,Forest Green,2,1,H
+EC,01/04/2014,Wrexham,Grimsby,0,1,A
+EC,01/04/2014,Dartford,Luton,1,2,A
+EC,02/11/2013,Welling United,Lincoln,1,0,H
+EC,02/11/2013,Tamworth,Braintree,0,0,D
+EC,02/11/2013,Hyde United,Nuneaton Town,2,2,D
+EC,02/11/2013,Alfreton Town,FC Halifax Town,3,0,H
+EC,02/11/2013,Woking,Grimsby,1,2,A
+EC,02/11/2013,Southport,Cambridge,1,0,H
+EC,02/11/2013,Barnet,Kidderminster,1,0,H
+EC,02/11/2013,Forest Green,Dartford,1,0,H
+EC,02/11/2013,Macclesfield,Wrexham,3,2,H
+EC,02/11/2013,Chester,Aldershot,1,1,D
+EC,02/11/2013,Gateshead,Luton,0,0,D
+EC,03/02/2014,Woking,Hereford United,3,0,H
+EC,03/04/2014,FC Halifax Town,Braintree,0,0,D
+EC,04/01/2014,Gateshead,Hyde United,4,0,H
+EC,04/01/2014,Lincoln,Luton,0,0,D
+EC,04/01/2014,Tamworth,FC Halifax Town,2,0,H
+EC,04/01/2014,Wrexham,Aldershot,2,1,H
+EC,04/01/2014,Southport,Nuneaton Town,1,0,H
+EC,04/01/2014,Barnet,Alfreton Town,1,0,H
+EC,04/02/2014,Lincoln,Nuneaton Town,1,2,A
+EC,04/02/2014,Macclesfield,Chester,3,2,H
+EC,04/02/2014,FC Halifax Town,Salisbury City,5,1,H
+EC,05/04/2014,Braintree,Salisbury City,0,1,A
+EC,05/04/2014,Gateshead,Tamworth,5,0,H
+EC,05/04/2014,Wrexham,Macclesfield,1,0,H
+EC,05/04/2014,Alfreton Town,Welling United,2,2,D
+EC,05/04/2014,Kidderminster,Grimsby,0,1,A
+EC,05/04/2014,Hereford United,Woking,0,2,A
+EC,05/04/2014,Nuneaton Town,FC Halifax Town,0,1,A
+EC,05/04/2014,Luton,Aldershot,1,0,H
+EC,05/04/2014,Chester,Hyde United,3,2,H
+EC,05/04/2014,Lincoln,Dartford,0,0,D
+EC,05/04/2014,Cambridge,Southport,3,1,H
+EC,05/04/2014,Barnet,Forest Green,2,1,H
+EC,05/10/2013,Luton,FC Halifax Town,4,3,H
+EC,05/10/2013,Nuneaton Town,Lincoln,2,2,D
+EC,05/10/2013,Welling United,Barnet,1,1,D
+EC,05/10/2013,Tamworth,Macclesfield,1,0,H
+EC,05/10/2013,Hyde United,Braintree,0,3,A
+EC,05/10/2013,Salisbury City,Wrexham,2,1,H
+EC,05/10/2013,Alfreton Town,Forest Green,3,2,H
+EC,05/10/2013,Southport,Woking,1,1,D
+EC,05/10/2013,Gateshead,Dartford,2,0,H
+EC,05/10/2013,Chester,Kidderminster,0,0,D
+EC,05/10/2013,Aldershot,Grimsby,0,3,A
+EC,05/10/2013,Cambridge,Hereford United,1,0,H
+EC,07/01/2014,Lincoln,Alfreton Town,4,1,H
+EC,07/03/2014,Dartford,Chester,0,1,A
+EC,07/09/2013,Luton,Grimsby,0,0,D
+EC,07/09/2013,Nuneaton Town,Wrexham,2,0,H
+EC,07/09/2013,Welling United,Kidderminster,1,2,A
+EC,07/09/2013,Tamworth,Southport,4,1,H
+EC,07/09/2013,Hyde United,Cambridge,0,1,A
+EC,07/09/2013,FC Halifax Town,Barnet,2,1,H
+EC,07/09/2013,Braintree,Forest Green,1,1,D
+EC,07/09/2013,Gateshead,Hereford United,2,1,H
+EC,07/09/2013,Chester,Dartford,0,0,D
+EC,07/09/2013,Aldershot,Macclesfield,1,0,H
+EC,07/09/2013,Lincoln,Salisbury City,0,1,A
+EC,07/09/2013,Alfreton Town,Woking,3,1,H
+EC,07/12/2013,Barnet,Dartford,1,0,H
+EC,07/12/2013,FC Halifax Town,Woking,3,4,A
+EC,07/12/2013,Alfreton Town,Luton,0,5,A
+EC,07/12/2013,Chester,Braintree,0,2,A
+EC,07/12/2013,Hereford United,Nuneaton Town,0,1,A
+EC,08/02/2014,Hyde United,Lincoln,3,4,A
+EC,08/02/2014,Grimsby,Southport,0,0,D
+EC,08/02/2014,Salisbury City,Alfreton Town,0,0,D
+EC,08/02/2014,Wrexham,Dartford,1,2,A
+EC,08/03/2014,Salisbury City,Luton,0,0,D
+EC,08/03/2014,Nuneaton Town,Welling United,2,0,H
+EC,08/03/2014,Tamworth,Aldershot,1,0,H
+EC,08/03/2014,Alfreton Town,Lincoln,1,1,D
+EC,08/03/2014,Wrexham,Kidderminster,0,0,D
+EC,08/03/2014,Hyde United,FC Halifax Town,1,5,A
+EC,08/03/2014,Braintree,Hereford United,1,1,D
+EC,08/03/2014,Macclesfield,Grimsby,1,1,D
+EC,08/03/2014,Forest Green,Cambridge,3,2,H
+EC,08/03/2014,Barnet,Gateshead,0,1,A
+EC,08/03/2014,Woking,Southport,2,0,H
+EC,08/04/2014,Alfreton Town,Aldershot,1,4,A
+EC,08/04/2014,Hyde United,Salisbury City,0,2,A
+EC,08/04/2014,Luton,Tamworth,2,0,H
+EC,08/04/2014,Grimsby,Woking,2,2,D
+EC,08/04/2014,Welling United,Hereford United,0,1,A
+EC,08/04/2014,Forest Green,Kidderminster,1,1,D
+EC,08/04/2014,Southport,Barnet,1,1,D
+EC,08/04/2014,Braintree,Macclesfield,0,1,A
+EC,08/10/2013,Grimsby,Cambridge,0,1,A
+EC,08/10/2013,Lincoln,Tamworth,0,0,D
+EC,08/10/2013,Alfreton Town,Chester,0,1,A
+EC,08/10/2013,Aldershot,Luton,3,3,D
+EC,08/10/2013,Braintree,Welling United,2,3,A
+EC,08/10/2013,Woking,Barnet,0,0,D
+EC,08/10/2013,Wrexham,Southport,1,0,H
+EC,08/10/2013,FC Halifax Town,Nuneaton Town,2,2,D
+EC,08/10/2013,Dartford,Salisbury City,1,1,D
+EC,08/10/2013,Hyde United,Gateshead,0,2,A
+EC,08/10/2013,Macclesfield,Hereford United,1,0,H
+EC,08/10/2013,Kidderminster,Forest Green,4,1,H
+EC,09/01/2014,Forest Green,Hereford United,1,1,D
+EC,09/11/2013,Hyde United,Chester,1,2,A
+EC,10/01/2014,Welling United,Dartford,1,1,D
+EC,10/04/2014,Woking,Cambridge,0,3,A
+EC,10/04/2014,Dartford,Grimsby,1,0,H
+EC,10/08/2013,Grimsby,Aldershot,1,1,D
+EC,10/08/2013,Woking,Lincoln,0,0,D
+EC,10/08/2013,Southport,Luton,1,0,H
+EC,10/08/2013,Macclesfield,Nuneaton Town,0,1,A
+EC,10/08/2013,Forest Green,Hyde United,8,0,H
+EC,10/08/2013,Barnet,Chester,3,0,H
+EC,10/08/2013,Hereford United,Braintree,1,1,D
+EC,10/08/2013,Dartford,Alfreton Town,1,0,H
+EC,10/08/2013,Wrexham,Welling United,2,1,H
+EC,10/08/2013,Kidderminster,Gateshead,3,1,H
+EC,10/08/2013,Salisbury City,Tamworth,0,1,A
+EC,10/12/2013,Woking,Kidderminster,1,0,H
+EC,10/12/2013,Grimsby,Welling United,1,1,D
+EC,10/12/2013,Cambridge,Macclesfield,3,0,H
+EC,10/12/2013,Lincoln,Gateshead,0,1,A
+EC,11/01/2014,Southport,Hyde United,1,1,D
+EC,11/01/2014,Woking,Braintree,1,0,H
+EC,11/01/2014,Wrexham,FC Halifax Town,0,0,D
+EC,11/01/2014,Kidderminster,Salisbury City,3,0,H
+EC,11/01/2014,Gateshead,Nuneaton Town,2,1,H
+EC,11/02/2014,Tamworth,Hyde United,1,1,D
+EC,11/02/2014,Salisbury City,Woking,2,0,H
+EC,11/02/2014,Cambridge,Alfreton Town,0,1,A
+EC,11/02/2014,Macclesfield,Luton,1,2,A
+EC,11/03/2014,Kidderminster,Macclesfield,2,1,H
+EC,11/03/2014,Nuneaton Town,Tamworth,1,0,H
+EC,11/03/2014,Alfreton Town,Hyde United,3,0,H
+EC,11/03/2014,Braintree,Wrexham,3,0,H
+EC,11/03/2014,Aldershot,Chester,2,0,H
+EC,11/03/2014,Lincoln,Welling United,1,2,A
+EC,11/03/2014,Grimsby,Hereford United,1,1,D
+EC,11/03/2014,Forest Green,Salisbury City,4,0,H
+EC,11/03/2014,Cambridge,Luton,1,1,D
+EC,11/08/2013,Cambridge,FC Halifax Town,5,1,H
+EC,12/04/2014,Luton,Braintree,2,3,A
+EC,12/04/2014,Grimsby,Chester,2,1,H
+EC,12/04/2014,Barnet,FC Halifax Town,0,4,A
+EC,12/04/2014,Salisbury City,Lincoln,1,2,A
+EC,12/04/2014,Hereford United,Gateshead,0,1,A
+EC,12/04/2014,Kidderminster,Welling United,2,0,H
+EC,12/04/2014,Dartford,Forest Green,0,1,A
+EC,12/04/2014,Cambridge,Hyde United,7,2,H
+EC,12/04/2014,Wrexham,Nuneaton Town,3,0,H
+EC,12/04/2014,Woking,Alfreton Town,2,1,H
+EC,12/04/2014,Southport,Tamworth,2,0,H
+EC,12/04/2014,Macclesfield,Aldershot,1,1,D
+EC,12/10/2013,Hereford United,Dartford,2,2,D
+EC,12/10/2013,Welling United,Tamworth,2,0,H
+EC,12/10/2013,Woking,FC Halifax Town,0,0,D
+EC,12/10/2013,Southport,Kidderminster,1,2,A
+EC,12/10/2013,Gateshead,Alfreton Town,3,0,H
+EC,12/10/2013,Chester,Cambridge,0,0,D
+EC,12/10/2013,Lincoln,Aldershot,0,1,A
+EC,12/10/2013,Forest Green,Macclesfield,2,3,A
+EC,12/10/2013,Luton,Hyde United,4,1,H
+EC,12/10/2013,Nuneaton Town,Braintree,1,1,D
+EC,12/10/2013,Salisbury City,Grimsby,1,0,H
+EC,12/11/2013,Forest Green,Nuneaton Town,1,0,H
+EC,12/11/2013,Macclesfield,Kidderminster,1,1,D
+EC,12/11/2013,Wrexham,Gateshead,3,2,H
+EC,12/11/2013,Southport,Lincoln,0,1,A
+EC,12/11/2013,Braintree,Luton,1,2,A
+EC,12/11/2013,Woking,Dartford,3,0,H
+EC,12/11/2013,Cambridge,Aldershot,4,0,H
+EC,12/11/2013,FC Halifax Town,Hyde United,4,0,H
+EC,12/11/2013,Tamworth,Alfreton Town,1,0,H
+EC,12/11/2013,Hereford United,Chester,2,2,D
+EC,12/11/2013,Barnet,Welling United,0,0,D
+EC,13/02/2014,Chester,FC Halifax Town,2,1,H
+EC,13/03/2014,Forest Green,Braintree,0,2,A
+EC,13/08/2013,Luton,Salisbury City,2,0,H
+EC,13/08/2013,Nuneaton Town,Forest Green,1,1,D
+EC,13/08/2013,FC Halifax Town,Wrexham,3,2,H
+EC,13/08/2013,Chester,Hereford United,0,2,A
+EC,13/08/2013,Gateshead,Grimsby,1,2,A
+EC,13/08/2013,Braintree,Woking,2,0,H
+EC,13/08/2013,Alfreton Town,Kidderminster,3,1,H
+EC,13/08/2013,Hyde United,Southport,1,2,A
+EC,13/08/2013,Aldershot,Dartford,3,0,H
+EC,13/08/2013,Tamworth,Barnet,0,0,D
+EC,13/08/2013,Lincoln,Macclesfield,1,0,H
+EC,13/09/2013,Hereford United,Aldershot,0,2,A
+EC,13/09/2013,Woking,Tamworth,2,2,D
+EC,13/09/2013,Wrexham,Luton,2,0,H
+EC,13/10/2013,Barnet,Wrexham,1,1,D
+EC,14/01/2014,Welling United,Hyde United,0,2,A
+EC,14/01/2014,Gateshead,Aldershot,0,0,D
+EC,14/08/2013,Welling United,Cambridge,2,2,D
+EC,14/09/2013,Kidderminster,Hyde United,2,1,H
+EC,14/09/2013,Dartford,Nuneaton Town,1,2,A
+EC,14/09/2013,Southport,Welling United,2,2,D
+EC,14/09/2013,Macclesfield,Alfreton Town,0,1,A
+EC,14/09/2013,Grimsby,Braintree,1,0,H
+EC,14/09/2013,Cambridge,Gateshead,1,0,H
+EC,14/09/2013,Salisbury City,Chester,3,1,H
+EC,14/09/2013,Forest Green,FC Halifax Town,2,1,H
+EC,14/09/2013,Barnet,Lincoln,1,1,D
+EC,14/12/2013,Kidderminster,Alfreton Town,1,3,A
+EC,14/12/2013,Dartford,FC Halifax Town,1,2,A
+EC,14/12/2013,Macclesfield,Salisbury City,1,0,H
+EC,15/02/2014,Luton,Hereford United,7,0,H
+EC,15/02/2014,Nuneaton Town,Hyde United,1,0,H
+EC,15/02/2014,Southport,Salisbury City,3,1,H
+EC,15/02/2014,Gateshead,Woking,0,2,A
+EC,15/02/2014,Lincoln,Kidderminster,2,0,H
+EC,15/02/2014,Barnet,Tamworth,1,0,H
+EC,15/03/2014,Lincoln,Braintree,2,0,H
+EC,15/03/2014,Aldershot,Nuneaton Town,2,2,D
+EC,15/03/2014,Hereford United,Hyde United,0,0,D
+EC,15/03/2014,Southport,Macclesfield,4,1,H
+EC,15/03/2014,Welling United,FC Halifax Town,0,1,A
+EC,15/03/2014,Tamworth,Forest Green,1,2,A
+EC,15/03/2014,Grimsby,Wrexham,3,1,H
+EC,15/03/2014,Cambridge,Dartford,1,1,D
+EC,15/03/2014,Salisbury City,Gateshead,0,0,D
+EC,15/03/2014,Chester,Alfreton Town,0,1,A
+EC,15/03/2014,Kidderminster,Barnet,1,0,H
+EC,15/04/2014,Macclesfield,Forest Green,1,2,A
+EC,15/04/2014,Braintree,Gateshead,0,0,D
+EC,15/04/2014,Kidderminster,Cambridge,2,0,H
+EC,15/04/2014,Grimsby,FC Halifax Town,0,1,A
+EC,16/11/2013,Tamworth,Grimsby,0,2,A
+EC,16/11/2013,Southport,Hereford United,0,3,A
+EC,16/11/2013,Forest Green,Lincoln,4,1,H
+EC,16/11/2013,Macclesfield,Dartford,3,1,H
+EC,16/11/2013,Gateshead,Salisbury City,3,2,H
+EC,16/11/2013,Woking,Hyde United,3,2,H
+EC,16/11/2013,FC Halifax Town,Aldershot,4,0,H
+EC,16/11/2013,Alfreton Town,Braintree,3,1,H
+EC,16/11/2013,Kidderminster,Wrexham,3,1,H
+EC,16/11/2013,Chester,Luton,1,1,D
+EC,16/11/2013,Barnet,Cambridge,2,2,D
+EC,16/11/2013,Welling United,Nuneaton Town,1,2,A
+EC,17/03/2014,Luton,Woking,0,1,A
+EC,17/08/2013,FC Halifax Town,Dartford,2,0,H
+EC,17/08/2013,Gateshead,Barnet,1,2,A
+EC,17/08/2013,Luton,Macclesfield,1,1,D
+EC,17/08/2013,Braintree,Kidderminster,0,1,A
+EC,17/08/2013,Alfreton Town,Salisbury City,3,2,H
+EC,17/08/2013,Aldershot,Cambridge,0,1,A
+EC,17/08/2013,Lincoln,Forest Green,2,1,H
+EC,17/08/2013,Nuneaton Town,Southport,3,1,H
+EC,17/08/2013,Chester,Woking,0,2,A
+EC,17/08/2013,Tamworth,Wrexham,2,2,D
+EC,17/08/2013,Hyde United,Hereford United,2,2,D
+EC,17/08/2013,Welling United,Grimsby,1,0,H
+EC,17/09/2013,Hyde United,Woking,0,2,A
+EC,17/09/2013,Salisbury City,Braintree,1,1,D
+EC,17/09/2013,Nuneaton Town,Hereford United,2,1,H
+EC,17/09/2013,Welling United,Forest Green,5,2,H
+EC,17/09/2013,Alfreton Town,Cambridge,1,1,D
+EC,17/09/2013,Tamworth,Kidderminster,0,3,A
+EC,17/09/2013,Gateshead,Wrexham,0,3,A
+EC,17/09/2013,Chester,Macclesfield,2,1,H
+EC,17/09/2013,Aldershot,Barnet,3,3,D
+EC,17/09/2013,Lincoln,Southport,1,0,H
+EC,17/09/2013,Luton,Dartford,3,0,H
+EC,17/09/2013,FC Halifax Town,Grimsby,4,0,H
+EC,17/10/2013,Macclesfield,Southport,2,2,D
+EC,18/01/2014,Welling United,Woking,3,0,H
+EC,18/01/2014,Grimsby,Gateshead,2,2,D
+EC,18/01/2014,Chester,Barnet,2,1,H
+EC,18/01/2014,Nuneaton Town,Macclesfield,1,0,H
+EC,18/01/2014,Hyde United,Forest Green,2,6,A
+EC,18/01/2014,Salisbury City,Dartford,1,0,H
+EC,18/01/2014,FC Halifax Town,Cambridge,1,1,D
+EC,18/01/2014,Hereford United,Southport,4,1,H
+EC,18/02/2014,Cambridge,Wrexham,0,0,D
+EC,18/02/2014,Aldershot,Forest Green,2,2,D
+EC,18/02/2014,Dartford,Woking,5,1,H
+EC,18/02/2014,Tamworth,Salisbury City,1,2,A
+EC,18/02/2014,Barnet,Grimsby,2,1,H
+EC,18/03/2014,Aldershot,Kidderminster,0,0,D
+EC,18/03/2014,Chester,Southport,2,2,D
+EC,18/03/2014,Braintree,Lincoln,0,2,A
+EC,18/03/2014,Macclesfield,Barnet,2,0,H
+EC,18/03/2014,Alfreton Town,Tamworth,4,2,H
+EC,18/03/2014,Forest Green,Grimsby,2,1,H
+EC,18/03/2014,Cambridge,Welling United,2,1,H
+EC,18/03/2014,Wrexham,Hereford United,2,0,H
+EC,18/04/2014,Aldershot,Salisbury City,3,2,H
+EC,18/04/2014,Gateshead,Southport,2,2,D
+EC,18/04/2014,Braintree,Dartford,1,0,H
+EC,18/04/2014,Hyde United,Kidderminster,1,3,A
+EC,18/04/2014,Alfreton Town,Grimsby,3,3,D
+EC,18/04/2014,Tamworth,Hereford United,1,0,H
+EC,18/04/2014,Lincoln,Cambridge,1,0,H
+EC,19/04/2014,Welling United,Luton,1,2,A
+EC,19/04/2014,Chester,Wrexham,0,0,D
+EC,19/04/2014,Forest Green,Woking,2,2,D
+EC,19/04/2014,FC Halifax Town,Macclesfield,2,1,H
+EC,19/04/2014,Nuneaton Town,Barnet,0,1,A
+EC,19/10/2013,Tamworth,Luton,3,4,A
+EC,19/10/2013,Hereford United,Barnet,0,1,A
+EC,19/10/2013,Nuneaton Town,Gateshead,1,4,A
+EC,19/10/2013,Kidderminster,Lincoln,4,1,H
+EC,19/10/2013,Dartford,Hyde United,4,3,H
+EC,19/10/2013,FC Halifax Town,Welling United,3,0,H
+EC,19/10/2013,Wrexham,Woking,2,0,H
+EC,19/10/2013,Braintree,Chester,3,0,H
+EC,19/10/2013,Cambridge,Salisbury City,2,0,H
+EC,19/10/2013,Grimsby,Forest Green,3,1,H
+EC,19/10/2013,Aldershot,Alfreton Town,2,3,A
+EC,19/11/2013,Dartford,Wrexham,1,5,A
+EC,19/12/2013,Grimsby,Kidderminster,3,1,H
+EC,21/01/2014,Tamworth,Cambridge,0,1,A
+EC,21/01/2014,Kidderminster,Dartford,1,2,A
+EC,21/01/2014,Woking,Chester,0,1,A
+EC,21/01/2014,Southport,Wrexham,1,2,A
+EC,21/01/2014,Gateshead,Welling United,1,1,D
+EC,21/01/2014,Macclesfield,Lincoln,3,1,H
+EC,21/01/2014,Barnet,Aldershot,1,3,A
+EC,21/04/2014,Barnet,Braintree,1,1,D
+EC,21/04/2014,Salisbury City,Welling United,3,0,H
+EC,21/04/2014,Hereford United,Alfreton Town,3,2,H
+EC,21/04/2014,Kidderminster,Nuneaton Town,0,0,D
+EC,21/04/2014,Dartford,Tamworth,2,3,A
+EC,21/04/2014,Wrexham,Lincoln,0,1,A
+EC,21/04/2014,Southport,FC Halifax Town,2,1,H
+EC,21/04/2014,Macclesfield,Gateshead,0,2,A
+EC,21/04/2014,Cambridge,Chester,0,1,A
+EC,21/04/2014,Grimsby,Hyde United,1,0,H
+EC,21/04/2014,Luton,Forest Green,4,1,H
+EC,21/04/2014,Woking,Aldershot,1,2,A
+EC,21/09/2013,Aldershot,Wrexham,2,0,H
+EC,21/09/2013,Luton,Lincoln,3,2,H
+EC,21/09/2013,Macclesfield,Woking,3,2,H
+EC,21/09/2013,Chester,Grimsby,0,0,D
+EC,21/09/2013,Braintree,Southport,1,0,H
+EC,21/09/2013,FC Halifax Town,Hereford United,1,1,D
+EC,21/09/2013,Alfreton Town,Barnet,3,1,H
+EC,21/09/2013,Dartford,Kidderminster,3,0,H
+EC,21/09/2013,Hyde United,Welling United,0,1,A
+EC,21/09/2013,Tamworth,Gateshead,0,1,A
+EC,21/09/2013,Nuneaton Town,Salisbury City,1,2,A
+EC,21/09/2013,Cambridge,Forest Green,2,1,H
+EC,21/12/2013,Hyde United,Barnet,0,1,A
+EC,21/12/2013,FC Halifax Town,Forest Green,1,0,H
+EC,21/12/2013,Alfreton Town,Dartford,2,1,H
+EC,21/12/2013,Hereford United,Cambridge,1,0,H
+EC,21/12/2013,Chester,Lincoln,3,3,D
+EC,21/12/2013,Aldershot,Tamworth,6,0,H
+EC,21/12/2013,Luton,Gateshead,4,2,H
+EC,21/12/2013,Welling United,Wrexham,1,1,D
+EC,21/12/2013,Salisbury City,Southport,1,1,D
+EC,21/12/2013,Nuneaton Town,Woking,0,2,A
+EC,22/02/2014,Nuneaton Town,Luton,0,5,A
+EC,22/02/2014,Forest Green,Southport,3,1,H
+EC,22/02/2014,Kidderminster,Braintree,2,2,D
+EC,22/02/2014,Lincoln,Chester,1,1,D
+EC,22/02/2014,Tamworth,Welling United,1,1,D
+EC,22/02/2014,Wrexham,Barnet,0,1,A
+EC,22/02/2014,Alfreton Town,Gateshead,1,1,D
+EC,22/02/2014,Woking,Macclesfield,3,2,H
+EC,22/02/2014,Dartford,Hereford United,2,0,H
+EC,22/02/2014,Hyde United,Aldershot,2,2,D
+EC,22/03/2014,Forest Green,Welling United,0,0,D
+EC,22/03/2014,Macclesfield,Tamworth,2,1,H
+EC,22/03/2014,Gateshead,Lincoln,3,1,H
+EC,22/03/2014,Braintree,Aldershot,1,0,H
+EC,22/03/2014,Wrexham,Salisbury City,1,1,D
+EC,22/03/2014,Hyde United,Dartford,0,2,A
+EC,22/03/2014,Kidderminster,Southport,1,1,D
+EC,22/03/2014,Nuneaton Town,Grimsby,0,1,A
+EC,22/03/2014,Luton,Chester,3,0,H
+EC,22/03/2014,Barnet,Hereford United,2,0,H
+EC,23/11/2013,Lincoln,Hereford United,1,1,D
+EC,23/11/2013,Braintree,FC Halifax Town,1,0,H
+EC,23/11/2013,Dartford,Gateshead,0,1,A
+EC,23/11/2013,Hyde United,Alfreton Town,1,2,A
+EC,23/11/2013,Kidderminster,Tamworth,5,3,H
+EC,23/11/2013,Nuneaton Town,Chester,1,0,H
+EC,23/11/2013,Salisbury City,Macclesfield,3,2,H
+EC,23/11/2013,Aldershot,Southport,5,1,H
+EC,23/11/2013,Luton,Welling United,2,1,H
+EC,23/11/2013,Wrexham,Forest Green,2,0,H
+EC,23/11/2013,Grimsby,Barnet,2,1,H
+EC,23/11/2013,Cambridge,Woking,2,0,H
+EC,24/03/2014,FC Halifax Town,Alfreton Town,2,0,H
+EC,24/08/2013,Kidderminster,Chester,3,1,H
+EC,24/08/2013,Dartford,Braintree,0,2,A
+EC,24/08/2013,Wrexham,Hyde United,2,2,D
+EC,24/08/2013,Woking,Welling United,2,4,A
+EC,24/08/2013,Southport,Gateshead,2,1,H
+EC,24/08/2013,Macclesfield,FC Halifax Town,2,2,D
+EC,24/08/2013,Forest Green,Luton,0,0,D
+EC,24/08/2013,Cambridge,Lincoln,1,0,H
+EC,24/08/2013,Barnet,Nuneaton Town,1,1,D
+EC,24/08/2013,Grimsby,Alfreton Town,3,1,H
+EC,24/08/2013,Hereford United,Tamworth,1,0,H
+EC,24/08/2013,Salisbury City,Aldershot,1,0,H
+EC,24/09/2013,Salisbury City,Hyde United,2,0,H
+EC,24/09/2013,Woking,Luton,0,4,A
+EC,24/09/2013,Wrexham,Braintree,2,3,A
+EC,24/09/2013,Kidderminster,FC Halifax Town,2,0,H
+EC,24/09/2013,Welling United,Aldershot,1,0,H
+EC,24/09/2013,Hereford United,Lincoln,1,0,H
+EC,24/09/2013,Grimsby,Dartford,5,2,H
+EC,24/09/2013,Barnet,Macclesfield,1,2,A
+EC,24/09/2013,Cambridge,Nuneaton Town,3,0,H
+EC,24/09/2013,Forest Green,Tamworth,1,2,A
+EC,24/09/2013,Gateshead,Chester,3,2,H
+EC,24/09/2013,Southport,Alfreton Town,2,1,H
+EC,25/01/2014,Barnet,Southport,1,0,H
+EC,25/01/2014,Forest Green,Chester,3,0,H
+EC,25/01/2014,Lincoln,Woking,2,2,D
+EC,25/01/2014,Dartford,Cambridge,3,3,D
+EC,25/01/2014,Hyde United,Tamworth,0,3,A
+EC,25/01/2014,Welling United,Alfreton Town,1,2,A
+EC,25/01/2014,Hereford United,Salisbury City,1,0,H
+EC,25/01/2014,Luton,Nuneaton Town,3,0,H
+EC,25/01/2014,Aldershot,FC Halifax Town,2,2,D
+EC,25/02/2014,Welling United,Gateshead,2,0,H
+EC,25/02/2014,Hereford United,Macclesfield,1,2,A
+EC,25/02/2014,Luton,Wrexham,5,0,H
+EC,25/02/2014,Forest Green,Barnet,1,2,A
+EC,25/02/2014,Southport,Grimsby,2,1,H
+EC,25/02/2014,Braintree,Cambridge,1,0,H
+EC,25/02/2014,Dartford,Aldershot,1,1,D
+EC,25/02/2014,Kidderminster,Woking,2,0,H
+EC,25/02/2014,Tamworth,Chester,3,4,A
+EC,25/03/2014,Aldershot,Gateshead,1,2,A
+EC,25/03/2014,Grimsby,Luton,1,2,A
+EC,25/03/2014,Welling United,Braintree,0,2,A
+EC,25/03/2014,Chester,Tamworth,2,0,H
+EC,26/03/2014,Salisbury City,Cambridge,0,3,A
+EC,26/04/2014,Braintree,Grimsby,0,0,D
+EC,26/04/2014,Lincoln,Barnet,3,3,D
+EC,26/04/2014,Chester,Salisbury City,2,2,D
+EC,26/04/2014,FC Halifax Town,Kidderminster,1,1,D
+EC,26/04/2014,Alfreton Town,Macclesfield,0,1,A
+EC,26/04/2014,Hyde United,Luton,0,1,A
+EC,26/04/2014,Tamworth,Woking,2,4,A
+EC,26/04/2014,Forest Green,Wrexham,1,1,D
+EC,26/04/2014,Aldershot,Hereford United,1,2,A
+EC,26/04/2014,Nuneaton Town,Dartford,3,1,H
+EC,26/04/2014,Welling United,Southport,4,3,H
+EC,26/08/2013,Luton,Cambridge,0,0,D
+EC,26/08/2013,Lincoln,Wrexham,2,0,H
+EC,26/08/2013,Aldershot,Woking,2,1,H
+EC,26/08/2013,Chester,Forest Green,1,2,A
+EC,26/08/2013,Gateshead,Macclesfield,2,2,D
+EC,26/08/2013,Braintree,Barnet,0,3,A
+EC,26/08/2013,FC Halifax Town,Southport,1,0,H
+EC,26/08/2013,Alfreton Town,Hereford United,2,1,H
+EC,26/08/2013,Tamworth,Dartford,0,2,A
+EC,26/08/2013,Welling United,Salisbury City,0,0,D
+EC,26/08/2013,Nuneaton Town,Kidderminster,2,1,H
+EC,26/08/2013,Hyde United,Grimsby,0,1,A
+EC,26/11/2013,Nuneaton Town,Alfreton Town,3,0,H
+EC,26/11/2013,Salisbury City,Forest Green,1,4,A
+EC,26/11/2013,Hereford United,FC Halifax Town,3,2,H
+EC,26/11/2013,Luton,Southport,3,0,H
+EC,26/11/2013,Aldershot,Braintree,2,1,H
+EC,26/11/2013,Dartford,Barnet,0,2,A
+EC,26/12/2013,Cambridge,Braintree,1,0,H
+EC,26/12/2013,Dartford,Welling United,1,2,A
+EC,26/12/2013,Tamworth,Nuneaton Town,1,1,D
+EC,26/12/2013,Lincoln,Grimsby,0,2,A
+EC,26/12/2013,Barnet,Luton,1,2,A
+EC,26/12/2013,Southport,Chester,0,0,D
+EC,26/12/2013,Macclesfield,Hyde United,3,0,H
+EC,26/12/2013,Gateshead,FC Halifax Town,1,1,D
+EC,26/12/2013,Woking,Salisbury City,1,3,A
+EC,26/12/2013,Forest Green,Aldershot,3,1,H
+EC,26/12/2013,Kidderminster,Hereford United,2,1,H
+EC,26/12/2013,Wrexham,Alfreton Town,2,3,A
+EC,27/03/2014,Braintree,Nuneaton Town,2,1,H
+EC,27/03/2014,Southport,Forest Green,2,0,H
+EC,27/09/2013,Kidderminster,Aldershot,0,0,D
+EC,28/01/2014,Hereford United,Kidderminster,1,1,D
+EC,28/01/2014,Nuneaton Town,Aldershot,2,1,H
+EC,28/01/2014,Wrexham,Tamworth,2,0,H
+EC,28/01/2014,Cambridge,Grimsby,1,2,A
+EC,28/09/2013,Wrexham,Cambridge,1,1,D
+EC,28/09/2013,Woking,Nuneaton Town,2,0,H
+EC,28/09/2013,Lincoln,Hyde United,3,0,H
+EC,28/09/2013,Macclesfield,Welling United,2,1,H
+EC,28/09/2013,FC Halifax Town,Chester,2,1,H
+EC,28/09/2013,Forest Green,Gateshead,1,0,H
+EC,28/09/2013,Barnet,Salisbury City,3,1,H
+EC,28/09/2013,Braintree,Alfreton Town,3,1,H
+EC,28/09/2013,Dartford,Southport,1,0,H
+EC,28/09/2013,Grimsby,Tamworth,3,1,H
+EC,28/09/2013,Hereford United,Luton,0,0,D
+EC,28/12/2013,Aldershot,Welling United,3,1,H
+EC,28/12/2013,Luton,Kidderminster,6,0,H
+EC,28/12/2013,Hereford United,Forest Green,1,0,H
+EC,28/12/2013,Alfreton Town,Southport,2,1,H
+EC,28/12/2013,Salisbury City,Barnet,2,1,H
+EC,28/12/2013,Nuneaton Town,Cambridge,0,0,D
+EC,28/12/2013,Hyde United,Wrexham,2,5,A
+EC,28/12/2013,FC Halifax Town,Lincoln,5,1,H
+EC,28/12/2013,Braintree,Tamworth,2,0,H
+EC,28/12/2013,Chester,Gateshead,1,1,D
+EC,28/12/2013,Grimsby,Macclesfield,2,3,A
+EC,29/03/2014,Cambridge,Barnet,1,1,D
+EC,29/03/2014,Aldershot,Hyde United,1,0,H
+EC,29/03/2014,Gateshead,Braintree,1,0,H
+EC,29/03/2014,Dartford,Macclesfield,2,1,H
+EC,29/03/2014,FC Halifax Town,Luton,2,0,H
+EC,29/03/2014,Salisbury City,Kidderminster,1,1,D
+EC,29/03/2014,Hereford United,Grimsby,0,1,A
+EC,29/03/2014,Tamworth,Lincoln,0,0,D
+EC,29/03/2014,Alfreton Town,Nuneaton Town,1,1,D
+EC,29/03/2014,Woking,Wrexham,2,1,H
+EC,29/03/2014,Welling United,Chester,2,0,H
+EC,31/08/2013,Forest Green,Alfreton Town,3,1,H
+EC,31/08/2013,Grimsby,Nuneaton Town,1,2,A
+EC,31/08/2013,Barnet,Hyde United,3,2,H
+EC,31/08/2013,Cambridge,Tamworth,3,0,H
+EC,31/08/2013,Macclesfield,Braintree,0,1,A
+EC,31/08/2013,Southport,Aldershot,1,0,H
+EC,31/08/2013,Woking,Gateshead,1,2,A
+EC,31/08/2013,Dartford,Lincoln,1,2,A
+EC,31/08/2013,Kidderminster,Luton,0,2,A
+EC,31/08/2013,Hereford United,Welling United,2,1,H
+EC,31/08/2013,Salisbury City,FC Halifax Town,3,1,H
+EC,31/08/2013,Wrexham,Chester,0,2,A
+EC,31/10/2013,Salisbury City,Hereford United,4,1,H

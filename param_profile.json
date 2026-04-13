@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "tool": "edgelab_param_evolution",
+    "pass2_mover_threshold": 0.003,
+    "pass3_min_improvement": 0.002,
+    "params_tested": [
+      "w_form",
+      "w_gd",
+      "home_adv",
+      "dti_edge_scale",
+      "dti_ha_scale",
+      "draw_margin",
+      "coin_dti_thresh",
+      "draw_pull",
+      "dti_draw_lock",
+      "w_draw_odds",
+      "w_draw_tendency",
+      "w_h2h_draw",
+      "draw_score_thresh",
+      "w_xg_draw",
+      "composite_draw_boost",
+      "w_score_margin",
+      "w_btts"
+    ],
+    "reintroduced_params": [
+      "draw_pull",
+      "dti_draw_lock",
+      "w_btts"
+    ],
+    "pass2b_teacher_layer": true
+  },
+  "baseline": {
+    "E0": {
+      "accuracy": 0.5112034325410338,
+      "n": 14683
+    }
+  },
+  "pass2_movers": {
+    "E0": []
+  },
+  "pass2_best_values": {
+    "E0": {}
+  },
+  "pass2b_teacher": {
+    "E0": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "w_h2h_draw",
+        "w_btts"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_gd",
+          "w_h2h_draw",
+          "w_btts",
+          "w_score_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_gd"
+        ]
+      }
+    }
+  },
+  "pass3_results": {
+    "E0": {
+      "baseline_acc": 0.5112,
+      "n_tested": 20,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_gd": 0.3,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.5122,
+          "delta": 0.001,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.512,
+          "delta": 0.0008,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_score_margin": 0.3,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.512,
+          "delta": 0.0008,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_score_margin": 0.3,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.512,
+          "delta": 0.0008,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0007,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0007,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_h2h_draw": 0.0,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0007,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_gd": 0.3,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.5117,
+          "delta": 0.0005,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5117,
+          "delta": 0.0005,
+          "n": 14683,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_btts"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5117,
+          "delta": 0.0005,
+          "n": 14683,
+          "improvement": false
+        }
+      ]
+    }
+  }
+}

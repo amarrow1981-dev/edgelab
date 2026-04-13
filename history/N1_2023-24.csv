@@ -1,0 +1,321 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+N1,01/03/2024,FC Volendam,NEC Nijmegen,2,5,A
+N1,01/09/2023,Sparta Rotterdam,NEC Nijmegen,1,1,D
+N1,01/10/2023,Excelsior,Sparta Rotterdam,2,1,H
+N1,01/10/2023,AZ Alkmaar,Fortuna Sittard,4,0,H
+N1,01/10/2023,Heracles,PEC Zwolle,2,1,H
+N1,01/10/2023,NEC Nijmegen,Vitesse,1,3,A
+N1,01/12/2023,Heerenveen,Almere City FC,3,0,H
+N1,02/02/2024,Almere City FC,Excelsior,2,1,H
+N1,02/03/2024,GO Ahead Eagles,Waalwijk,1,0,H
+N1,02/03/2024,Vitesse,Twente,1,2,A
+N1,02/03/2024,Sparta Rotterdam,AZ Alkmaar,1,1,D
+N1,02/04/2024,Vitesse,Sparta Rotterdam,1,4,A
+N1,02/04/2024,Excelsior,PSV Eindhoven,0,2,A
+N1,02/04/2024,Fortuna Sittard,NEC Nijmegen,1,1,D
+N1,02/06/2024,Excelsior,NAC Breda,4,1,H
+N1,02/09/2023,Almere City FC,PEC Zwolle,1,2,A
+N1,02/09/2023,GO Ahead Eagles,Heerenveen,3,2,H
+N1,02/09/2023,Waalwijk,PSV Eindhoven,0,4,A
+N1,02/09/2023,Heracles,Excelsior,3,1,H
+N1,02/11/2023,Ajax,FC Volendam,2,0,H
+N1,02/12/2023,FC Volendam,PEC Zwolle,0,5,A
+N1,02/12/2023,Fortuna Sittard,Vitesse,3,1,H
+N1,02/12/2023,Waalwijk,Excelsior,2,2,D
+N1,02/12/2023,Heracles,Sparta Rotterdam,0,1,A
+N1,03/02/2024,NEC Nijmegen,Heracles,3,1,H
+N1,03/02/2024,Twente,Waalwijk,3,0,H
+N1,03/02/2024,Fortuna Sittard,Heerenveen,3,3,D
+N1,03/02/2024,Ajax,PSV Eindhoven,1,1,D
+N1,03/03/2024,Heerenveen,PEC Zwolle,2,0,H
+N1,03/03/2024,PSV Eindhoven,Feyenoord,2,2,D
+N1,03/03/2024,Ajax,Utrecht,2,0,H
+N1,03/03/2024,Fortuna Sittard,Excelsior,5,2,H
+N1,03/03/2024,Heracles,Almere City FC,2,2,D
+N1,03/04/2024,Utrecht,PEC Zwolle,5,1,H
+N1,03/04/2024,Heracles,AZ Alkmaar,5,0,H
+N1,03/04/2024,Heerenveen,Twente,3,3,D
+N1,03/05/2024,Almere City FC,Heerenveen,1,1,D
+N1,03/05/2024,Fortuna Sittard,GO Ahead Eagles,0,0,D
+N1,03/09/2023,FC Volendam,Twente,0,2,A
+N1,03/09/2023,Fortuna Sittard,Ajax,0,0,D
+N1,03/09/2023,Utrecht,Feyenoord,1,5,A
+N1,03/09/2023,Vitesse,AZ Alkmaar,0,2,A
+N1,03/12/2023,GO Ahead Eagles,Twente,1,3,A
+N1,03/12/2023,NEC Nijmegen,Ajax,1,2,A
+N1,03/12/2023,Utrecht,AZ Alkmaar,1,1,D
+N1,03/12/2023,Feyenoord,PSV Eindhoven,1,2,A
+N1,04/02/2024,Vitesse,GO Ahead Eagles,0,2,A
+N1,04/02/2024,AZ Alkmaar,Feyenoord,0,1,A
+N1,04/02/2024,Sparta Rotterdam,PEC Zwolle,0,2,A
+N1,04/02/2024,Utrecht,FC Volendam,4,2,H
+N1,04/04/2024,Ajax,GO Ahead Eagles,1,1,D
+N1,04/04/2024,Waalwijk,Almere City FC,0,0,D
+N1,04/04/2024,FC Volendam,Feyenoord,0,0,D
+N1,04/11/2023,Excelsior,AZ Alkmaar,1,1,D
+N1,04/11/2023,Waalwijk,Feyenoord,1,2,A
+N1,04/11/2023,GO Ahead Eagles,Vitesse,5,1,H
+N1,04/11/2023,Heracles,PSV Eindhoven,0,6,A
+N1,05/05/2024,Feyenoord,PEC Zwolle,5,0,H
+N1,05/05/2024,AZ Alkmaar,Twente,2,1,H
+N1,05/05/2024,FC Volendam,Ajax,1,4,A
+N1,05/05/2024,Heracles,Waalwijk,0,5,A
+N1,05/05/2024,PSV Eindhoven,Sparta Rotterdam,4,2,H
+N1,05/05/2024,Utrecht,Vitesse,1,0,H
+N1,05/11/2023,NEC Nijmegen,FC Volendam,3,3,D
+N1,05/11/2023,Ajax,Heerenveen,4,1,H
+N1,05/11/2023,Sparta Rotterdam,Almere City FC,1,2,A
+N1,05/11/2023,PEC Zwolle,Fortuna Sittard,2,0,H
+N1,05/11/2023,Utrecht,Twente,1,1,D
+N1,06/04/2024,Twente,Fortuna Sittard,2,0,H
+N1,06/04/2024,PEC Zwolle,Excelsior,2,1,H
+N1,06/04/2024,PSV Eindhoven,AZ Alkmaar,5,1,H
+N1,06/04/2024,Sparta Rotterdam,Heracles,1,2,A
+N1,06/05/2024,Excelsior,NEC Nijmegen,0,3,A
+N1,06/10/2023,FC Volendam,Utrecht,1,0,H
+N1,06/12/2023,Waalwijk,Ajax,2,3,A
+N1,06/12/2023,AZ Alkmaar,NEC Nijmegen,1,2,A
+N1,07/04/2024,Feyenoord,Ajax,6,0,H
+N1,07/04/2024,GO Ahead Eagles,Almere City FC,1,1,D
+N1,07/04/2024,FC Volendam,Waalwijk,3,2,H
+N1,07/04/2024,Heerenveen,Utrecht,2,3,A
+N1,07/04/2024,Vitesse,NEC Nijmegen,0,3,A
+N1,07/10/2023,Heerenveen,NEC Nijmegen,1,1,D
+N1,07/10/2023,Vitesse,Excelsior,0,0,D
+N1,07/10/2023,GO Ahead Eagles,Heracles,4,0,H
+N1,07/10/2023,Almere City FC,Waalwijk,1,0,H
+N1,07/12/2023,PSV Eindhoven,Heerenveen,2,0,H
+N1,07/12/2023,Feyenoord,FC Volendam,3,1,H
+N1,08/03/2024,GO Ahead Eagles,PSV Eindhoven,0,1,A
+N1,08/10/2023,Fortuna Sittard,Twente,0,3,A
+N1,08/10/2023,Sparta Rotterdam,PSV Eindhoven,0,4,A
+N1,08/10/2023,Ajax,AZ Alkmaar,1,2,A
+N1,08/10/2023,PEC Zwolle,Feyenoord,0,2,A
+N1,08/12/2023,Twente,Excelsior,4,2,H
+N1,09/02/2024,Waalwijk,NEC Nijmegen,2,0,H
+N1,09/03/2024,Twente,Sparta Rotterdam,2,1,H
+N1,09/03/2024,Almere City FC,Utrecht,1,1,D
+N1,09/03/2024,Waalwijk,Vitesse,3,1,H
+N1,09/12/2023,AZ Alkmaar,Almere City FC,4,1,H
+N1,09/12/2023,PEC Zwolle,NEC Nijmegen,1,3,A
+N1,09/12/2023,Ajax,Sparta Rotterdam,2,1,H
+N1,10/02/2024,Heracles,Vitesse,3,2,H
+N1,10/02/2024,Almere City FC,AZ Alkmaar,0,0,D
+N1,10/02/2024,Excelsior,Twente,0,3,A
+N1,10/03/2024,Feyenoord,Heracles,3,0,H
+N1,10/03/2024,NEC Nijmegen,Heerenveen,2,0,H
+N1,10/03/2024,PEC Zwolle,FC Volendam,1,1,D
+N1,10/03/2024,Ajax,Fortuna Sittard,2,2,D
+N1,10/03/2024,AZ Alkmaar,Excelsior,4,0,H
+N1,10/11/2023,Fortuna Sittard,Heracles,4,1,H
+N1,10/12/2023,Vitesse,Heracles,2,0,H
+N1,10/12/2023,GO Ahead Eagles,Utrecht,0,2,A
+N1,10/12/2023,Fortuna Sittard,Waalwijk,1,0,H
+N1,11/02/2024,Feyenoord,Sparta Rotterdam,2,0,H
+N1,11/02/2024,GO Ahead Eagles,PEC Zwolle,1,1,D
+N1,11/02/2024,Utrecht,Fortuna Sittard,4,0,H
+N1,11/02/2024,Heerenveen,Ajax,3,2,H
+N1,11/02/2024,FC Volendam,PSV Eindhoven,1,5,A
+N1,11/08/2023,FC Volendam,Vitesse,1,2,A
+N1,11/11/2023,Waalwijk,GO Ahead Eagles,0,1,A
+N1,11/11/2023,Twente,NEC Nijmegen,3,3,D
+N1,11/11/2023,Vitesse,Heerenveen,1,3,A
+N1,12/01/2024,Waalwijk,Heracles,1,2,A
+N1,12/04/2024,Excelsior,FC Volendam,4,0,H
+N1,12/05/2024,Twente,FC Volendam,7,2,H
+N1,12/05/2024,NEC Nijmegen,Feyenoord,2,3,A
+N1,12/05/2024,GO Ahead Eagles,AZ Alkmaar,0,3,A
+N1,12/05/2024,Heerenveen,Vitesse,1,3,A
+N1,12/05/2024,Utrecht,Sparta Rotterdam,0,1,A
+N1,12/05/2024,Fortuna Sittard,PSV Eindhoven,1,1,D
+N1,12/05/2024,Excelsior,Heracles,4,0,H
+N1,12/05/2024,Ajax,Almere City FC,3,0,H
+N1,12/05/2024,Waalwijk,PEC Zwolle,1,1,D
+N1,12/08/2023,PSV Eindhoven,Utrecht,2,0,H
+N1,12/08/2023,Heerenveen,Waalwijk,3,1,H
+N1,12/08/2023,PEC Zwolle,Sparta Rotterdam,1,2,A
+N1,12/08/2023,Ajax,Heracles,4,1,H
+N1,12/11/2023,FC Volendam,Sparta Rotterdam,1,4,A
+N1,12/11/2023,Almere City FC,Ajax,2,2,D
+N1,12/11/2023,Utrecht,Excelsior,2,2,D
+N1,12/11/2023,Feyenoord,AZ Alkmaar,1,0,H
+N1,12/11/2023,PSV Eindhoven,PEC Zwolle,4,0,H
+N1,13/01/2024,PSV Eindhoven,Excelsior,3,1,H
+N1,13/01/2024,Fortuna Sittard,Sparta Rotterdam,0,2,A
+N1,13/01/2024,Twente,AZ Alkmaar,2,1,H
+N1,13/01/2024,PEC Zwolle,Heerenveen,2,2,D
+N1,13/04/2024,PSV Eindhoven,Vitesse,6,0,H
+N1,13/04/2024,AZ Alkmaar,Waalwijk,3,2,H
+N1,13/04/2024,Almere City FC,Sparta Rotterdam,2,3,A
+N1,13/05/2024,NAC Breda,Roda,3,1,H
+N1,13/08/2023,Almere City FC,Twente,1,4,A
+N1,13/08/2023,NEC Nijmegen,Excelsior,3,4,A
+N1,13/08/2023,Feyenoord,Fortuna Sittard,0,0,D
+N1,13/08/2023,AZ Alkmaar,GO Ahead Eagles,5,1,H
+N1,14/01/2024,FC Volendam,Almere City FC,0,1,A
+N1,14/01/2024,GO Ahead Eagles,Ajax,2,3,A
+N1,14/01/2024,Vitesse,Utrecht,0,0,D
+N1,14/01/2024,Feyenoord,NEC Nijmegen,2,2,D
+N1,14/04/2024,NEC Nijmegen,PEC Zwolle,2,2,D
+N1,14/04/2024,Fortuna Sittard,Feyenoord,0,1,A
+N1,14/04/2024,Heracles,Heerenveen,0,2,A
+N1,14/04/2024,Ajax,Twente,2,1,H
+N1,14/04/2024,Utrecht,GO Ahead Eagles,2,1,H
+N1,14/05/2024,Emmen,Dordrecht,2,2,D
+N1,14/05/2024,De Graafschap,ADO Den Haag,2,3,A
+N1,15/03/2024,Heracles,GO Ahead Eagles,2,0,H
+N1,15/12/2023,NEC Nijmegen,Fortuna Sittard,4,1,H
+N1,16/02/2024,PSV Eindhoven,Heracles,2,0,H
+N1,16/03/2024,Fortuna Sittard,PEC Zwolle,3,1,H
+N1,16/03/2024,Vitesse,Almere City FC,1,1,D
+N1,16/03/2024,Excelsior,Waalwijk,1,1,D
+N1,16/09/2023,Fortuna Sittard,FC Volendam,3,1,H
+N1,16/09/2023,Heracles,Utrecht,1,3,A
+N1,16/09/2023,PSV Eindhoven,NEC Nijmegen,4,0,H
+N1,16/09/2023,Vitesse,Waalwijk,0,2,A
+N1,16/09/2023,Feyenoord,Heerenveen,6,1,H
+N1,16/12/2023,Utrecht,Waalwijk,1,1,D
+N1,16/12/2023,Heerenveen,FC Volendam,1,2,A
+N1,16/12/2023,Excelsior,GO Ahead Eagles,1,1,D
+N1,17/02/2024,Fortuna Sittard,AZ Alkmaar,1,2,A
+N1,17/02/2024,PEC Zwolle,Almere City FC,0,1,A
+N1,17/02/2024,Heerenveen,GO Ahead Eagles,0,2,A
+N1,17/02/2024,Sparta Rotterdam,Excelsior,4,2,H
+N1,17/03/2024,FC Volendam,AZ Alkmaar,0,4,A
+N1,17/03/2024,Sparta Rotterdam,Ajax,2,2,D
+N1,17/03/2024,Heerenveen,Feyenoord,2,3,A
+N1,17/03/2024,PSV Eindhoven,Twente,1,0,H
+N1,17/03/2024,Utrecht,NEC Nijmegen,1,0,H
+N1,17/05/2024,Roda,NAC Breda,0,5,A
+N1,17/09/2023,Excelsior,Almere City FC,0,0,D
+N1,17/09/2023,AZ Alkmaar,Sparta Rotterdam,2,0,H
+N1,17/09/2023,Twente,Ajax,3,1,H
+N1,17/09/2023,PEC Zwolle,GO Ahead Eagles,1,1,D
+N1,17/12/2023,Heracles,Feyenoord,0,4,A
+N1,17/12/2023,Almere City FC,Vitesse,5,0,H
+N1,17/12/2023,AZ Alkmaar,PSV Eindhoven,0,4,A
+N1,17/12/2023,Ajax,PEC Zwolle,2,2,D
+N1,17/12/2023,Sparta Rotterdam,Twente,2,2,D
+N1,18/02/2024,Twente,Utrecht,0,1,A
+N1,18/02/2024,Ajax,NEC Nijmegen,2,2,D
+N1,18/02/2024,Vitesse,FC Volendam,1,1,D
+N1,18/02/2024,Feyenoord,Waalwijk,1,0,H
+N1,18/05/2024,Dordrecht,Emmen,0,1,A
+N1,18/05/2024,ADO Den Haag,De Graafschap,2,2,D
+N1,18/08/2023,Heracles,NEC Nijmegen,2,1,H
+N1,19/01/2024,Excelsior,Heerenveen,3,0,H
+N1,19/05/2024,FC Volendam,GO Ahead Eagles,1,2,A
+N1,19/05/2024,Almere City FC,NEC Nijmegen,1,4,A
+N1,19/05/2024,Vitesse,Ajax,2,2,D
+N1,19/05/2024,Sparta Rotterdam,Heerenveen,2,1,H
+N1,19/05/2024,Feyenoord,Excelsior,4,0,H
+N1,19/05/2024,AZ Alkmaar,Utrecht,3,3,D
+N1,19/05/2024,PEC Zwolle,Twente,1,2,A
+N1,19/05/2024,PSV Eindhoven,Waalwijk,3,1,H
+N1,19/05/2024,Heracles,Fortuna Sittard,0,0,D
+N1,19/08/2023,Fortuna Sittard,Almere City FC,2,1,H
+N1,19/08/2023,Vitesse,PSV Eindhoven,1,3,A
+N1,19/08/2023,GO Ahead Eagles,FC Volendam,4,1,H
+N1,19/08/2023,Excelsior,Ajax,2,2,D
+N1,20/01/2024,Heracles,FC Volendam,1,1,D
+N1,20/01/2024,AZ Alkmaar,PEC Zwolle,2,2,D
+N1,20/01/2024,NEC Nijmegen,Twente,1,0,H
+N1,20/08/2023,Utrecht,Heerenveen,0,2,A
+N1,20/08/2023,Twente,PEC Zwolle,3,1,H
+N1,20/08/2023,Waalwijk,AZ Alkmaar,1,3,A
+N1,20/08/2023,Sparta Rotterdam,Feyenoord,2,2,D
+N1,21/01/2024,Sparta Rotterdam,GO Ahead Eagles,0,2,A
+N1,21/01/2024,Ajax,Waalwijk,4,1,H
+N1,21/01/2024,Vitesse,Feyenoord,1,2,A
+N1,21/01/2024,Utrecht,PSV Eindhoven,1,1,D
+N1,21/05/2024,NAC Breda,Emmen,1,1,D
+N1,21/10/2023,PSV Eindhoven,Fortuna Sittard,3,1,H
+N1,21/10/2023,Waalwijk,FC Volendam,2,1,H
+N1,21/10/2023,NEC Nijmegen,Almere City FC,1,1,D
+N1,21/10/2023,AZ Alkmaar,Heerenveen,3,0,H
+N1,21/10/2023,Feyenoord,Vitesse,4,0,H
+N1,22/05/2024,ADO Den Haag,Excelsior,1,2,A
+N1,22/09/2023,GO Ahead Eagles,Fortuna Sittard,3,0,H
+N1,22/10/2023,GO Ahead Eagles,Sparta Rotterdam,0,0,D
+N1,22/10/2023,Excelsior,PEC Zwolle,2,4,A
+N1,22/10/2023,Utrecht,Ajax,4,3,H
+N1,22/10/2023,Heracles,Twente,2,2,D
+N1,23/02/2024,Utrecht,Heracles,1,0,H
+N1,23/05/2024,NEC Nijmegen,GO Ahead Eagles,1,2,A
+N1,23/05/2024,Utrecht,Sparta Rotterdam,3,1,H
+N1,23/09/2023,NEC Nijmegen,Utrecht,3,0,H
+N1,23/09/2023,Almere City FC,PSV Eindhoven,0,4,A
+N1,23/09/2023,Heerenveen,Excelsior,0,3,A
+N1,23/09/2023,FC Volendam,Heracles,2,2,D
+N1,24/01/2024,Almere City FC,Fortuna Sittard,0,0,D
+N1,24/02/2024,NEC Nijmegen,Sparta Rotterdam,2,0,H
+N1,24/02/2024,PEC Zwolle,PSV Eindhoven,1,7,A
+N1,24/02/2024,Waalwijk,Fortuna Sittard,0,1,A
+N1,24/04/2024,Ajax,Excelsior,2,2,D
+N1,24/04/2024,Twente,Almere City FC,3,1,H
+N1,24/09/2023,Waalwijk,Twente,1,0,H
+N1,24/09/2023,PEC Zwolle,AZ Alkmaar,0,3,A
+N1,24/09/2023,Sparta Rotterdam,Vitesse,1,0,H
+N1,25/02/2024,Twente,GO Ahead Eagles,3,0,H
+N1,25/02/2024,Excelsior,Vitesse,1,2,A
+N1,25/02/2024,AZ Alkmaar,Ajax,2,0,H
+N1,25/02/2024,Almere City FC,Feyenoord,0,2,A
+N1,25/02/2024,FC Volendam,Heerenveen,0,4,A
+N1,25/04/2024,Heerenveen,PSV Eindhoven,0,8,A
+N1,25/04/2024,GO Ahead Eagles,Feyenoord,1,3,A
+N1,25/05/2024,Emmen,NAC Breda,0,3,A
+N1,25/05/2024,Excelsior,ADO Den Haag,7,1,H
+N1,25/11/2023,Excelsior,Feyenoord,2,4,A
+N1,25/11/2023,Heerenveen,Fortuna Sittard,3,0,H
+N1,25/11/2023,Twente,PSV Eindhoven,0,3,A
+N1,25/11/2023,PEC Zwolle,Waalwijk,1,2,A
+N1,25/11/2023,Ajax,Vitesse,5,0,H
+N1,26/01/2024,PEC Zwolle,Vitesse,1,0,H
+N1,26/08/2023,NEC Nijmegen,Waalwijk,3,0,H
+N1,26/08/2023,Excelsior,Fortuna Sittard,2,2,D
+N1,26/11/2023,Almere City FC,Heracles,0,5,A
+N1,26/11/2023,AZ Alkmaar,FC Volendam,3,0,H
+N1,26/11/2023,NEC Nijmegen,GO Ahead Eagles,1,1,D
+N1,26/11/2023,Sparta Rotterdam,Utrecht,1,2,A
+N1,27/01/2024,PSV Eindhoven,Almere City FC,2,0,H
+N1,27/01/2024,Waalwijk,Sparta Rotterdam,1,1,D
+N1,27/01/2024,Excelsior,Utrecht,1,1,D
+N1,27/01/2024,Heracles,Ajax,2,4,A
+N1,27/08/2023,Heerenveen,Sparta Rotterdam,1,3,A
+N1,27/08/2023,Feyenoord,Almere City FC,6,1,H
+N1,27/08/2023,PEC Zwolle,Utrecht,1,0,H
+N1,27/09/2023,Twente,Vitesse,1,0,H
+N1,27/09/2023,PSV Eindhoven,GO Ahead Eagles,3,0,H
+N1,27/09/2023,Ajax,Feyenoord,0,4,A
+N1,27/10/2023,Vitesse,PEC Zwolle,1,1,D
+N1,28/01/2024,Feyenoord,Twente,0,0,D
+N1,28/01/2024,GO Ahead Eagles,NEC Nijmegen,2,2,D
+N1,28/01/2024,Heerenveen,AZ Alkmaar,2,2,D
+N1,28/01/2024,FC Volendam,Fortuna Sittard,0,1,A
+N1,28/04/2024,Waalwijk,Utrecht,2,2,D
+N1,28/04/2024,Sparta Rotterdam,FC Volendam,1,0,H
+N1,28/04/2024,Vitesse,Fortuna Sittard,3,2,H
+N1,28/04/2024,NEC Nijmegen,AZ Alkmaar,0,3,A
+N1,28/04/2024,PEC Zwolle,Heracles,3,1,H
+N1,28/05/2024,NAC Breda,Excelsior,6,2,H
+N1,28/09/2023,AZ Alkmaar,Heracles,1,1,D
+N1,28/10/2023,Sparta Rotterdam,Waalwijk,2,0,H
+N1,28/10/2023,Almere City FC,GO Ahead Eagles,0,0,D
+N1,28/10/2023,Heerenveen,Heracles,3,0,H
+N1,28/10/2023,Fortuna Sittard,Utrecht,0,0,D
+N1,29/10/2023,FC Volendam,Excelsior,3,1,H
+N1,29/10/2023,Twente,Feyenoord,2,1,H
+N1,29/10/2023,PSV Eindhoven,Ajax,5,2,H
+N1,30/03/2024,NEC Nijmegen,PSV Eindhoven,3,1,H
+N1,30/03/2024,Sparta Rotterdam,Fortuna Sittard,4,0,H
+N1,30/03/2024,GO Ahead Eagles,Excelsior,3,0,H
+N1,30/03/2024,Waalwijk,Heerenveen,1,1,D
+N1,30/03/2024,AZ Alkmaar,Vitesse,2,0,H
+N1,30/09/2023,Feyenoord,GO Ahead Eagles,3,1,H
+N1,30/09/2023,Utrecht,Almere City FC,0,2,A
+N1,30/09/2023,Twente,Heerenveen,1,0,H
+N1,30/09/2023,PSV Eindhoven,FC Volendam,3,1,H
+N1,31/03/2024,PEC Zwolle,Ajax,1,3,A
+N1,31/03/2024,Feyenoord,Utrecht,4,2,H
+N1,31/03/2024,Almere City FC,FC Volendam,1,1,D
+N1,31/03/2024,Twente,Heracles,1,0,H

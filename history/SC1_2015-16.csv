@@ -1,0 +1,181 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/03/2016,Livingston,Morton,0,0,D
+SC1,01/03/2016,Queen of the South,Hibernian,1,0,H
+SC1,01/03/2016,ST Mirren,Falkirk,0,0,D
+SC1,01/03/2016,Rangers,Raith Rovers,2,0,H
+SC1,01/05/2016,Falkirk,Morton,1,0,H
+SC1,01/05/2016,Alloa Athletic,Dumbarton,1,1,D
+SC1,01/05/2016,Hibernian,Queen of the South,2,0,H
+SC1,01/05/2016,ST Mirren,Rangers,2,2,D
+SC1,01/05/2016,Livingston,Raith Rovers,0,1,A
+SC1,01/11/2015,Hibernian,Rangers,2,1,H
+SC1,01/12/2015,Rangers,Dumbarton,4,0,H
+SC1,02/01/2016,Hibernian,Raith Rovers,1,0,H
+SC1,02/01/2016,Dumbarton,Rangers,0,6,A
+SC1,02/01/2016,Morton,ST Mirren,0,1,A
+SC1,02/01/2016,Alloa Athletic,Falkirk,0,1,A
+SC1,02/01/2016,Livingston,Queen of the South,0,2,A
+SC1,02/02/2016,Morton,Hibernian,0,1,A
+SC1,02/02/2016,Raith Rovers,Rangers,0,1,A
+SC1,02/04/2016,Dumbarton,Morton,0,0,D
+SC1,02/04/2016,Raith Rovers,Rangers,3,3,D
+SC1,02/04/2016,Queen of the South,Falkirk,2,2,D
+SC1,02/04/2016,Livingston,Alloa Athletic,0,0,D
+SC1,02/04/2016,ST Mirren,Hibernian,2,2,D
+SC1,03/10/2015,Dumbarton,Livingston,2,1,H
+SC1,03/10/2015,Queen of the South,Hibernian,0,3,A
+SC1,03/10/2015,Raith Rovers,Morton,2,1,H
+SC1,03/10/2015,ST Mirren,Alloa Athletic,1,1,D
+SC1,03/10/2015,Rangers,Falkirk,3,1,H
+SC1,05/03/2016,Raith Rovers,ST Mirren,4,3,H
+SC1,05/03/2016,Livingston,Dumbarton,2,0,H
+SC1,05/03/2016,Falkirk,Alloa Athletic,2,0,H
+SC1,05/04/2016,Hibernian,Livingston,2,1,H
+SC1,05/04/2016,Rangers,Dumbarton,1,0,H
+SC1,05/09/2015,Queen of the South,ST Mirren,0,2,A
+SC1,05/09/2015,Dumbarton,Alloa Athletic,0,2,A
+SC1,05/09/2015,Rangers,Raith Rovers,5,0,H
+SC1,05/09/2015,Livingston,Morton,2,4,A
+SC1,05/12/2015,Alloa Athletic,Dumbarton,0,2,A
+SC1,06/02/2016,ST Mirren,Queen of the South,1,0,H
+SC1,07/08/2015,Rangers,ST Mirren,3,1,H
+SC1,07/11/2015,Morton,Livingston,1,0,H
+SC1,07/11/2015,Raith Rovers,Falkirk,1,2,A
+SC1,07/11/2015,Queen of the South,Dumbarton,1,0,H
+SC1,07/11/2015,Rangers,Alloa Athletic,4,0,H
+SC1,07/11/2015,ST Mirren,Hibernian,1,4,A
+SC1,08/03/2016,Raith Rovers,Queen of the South,2,0,H
+SC1,08/03/2016,Dumbarton,Alloa Athletic,3,1,H
+SC1,08/08/2015,Raith Rovers,Livingston,3,0,H
+SC1,08/08/2015,Queen of the South,Alloa Athletic,3,1,H
+SC1,08/08/2015,Morton,Falkirk,1,1,D
+SC1,08/08/2015,Dumbarton,Hibernian,2,1,H
+SC1,09/02/2016,Alloa Athletic,Morton,2,2,D
+SC1,09/04/2016,Morton,Livingston,2,1,H
+SC1,09/04/2016,Falkirk,ST Mirren,3,2,H
+SC1,09/04/2016,Alloa Athletic,Hibernian,1,0,H
+SC1,09/04/2016,Queen of the South,Raith Rovers,1,2,A
+SC1,10/10/2015,Queen of the South,Morton,1,0,H
+SC1,11/03/2016,Rangers,Morton,3,1,H
+SC1,11/12/2015,Queen of the South,Raith Rovers,1,1,D
+SC1,12/01/2016,Raith Rovers,Alloa Athletic,0,1,A
+SC1,12/03/2016,ST Mirren,Queen of the South,2,1,H
+SC1,12/03/2016,Alloa Athletic,Raith Rovers,1,1,D
+SC1,12/03/2016,Dumbarton,Falkirk,1,1,D
+SC1,12/04/2016,Dumbarton,Queen of the South,4,2,H
+SC1,12/04/2016,Hibernian,Falkirk,2,2,D
+SC1,12/09/2015,Morton,Dumbarton,0,0,D
+SC1,12/09/2015,Rangers,Livingston,3,0,H
+SC1,12/09/2015,ST Mirren,Falkirk,2,3,A
+SC1,12/09/2015,Hibernian,Alloa Athletic,3,0,H
+SC1,12/09/2015,Raith Rovers,Queen of the South,1,0,H
+SC1,12/12/2015,Hibernian,Falkirk,1,1,D
+SC1,12/12/2015,Dumbarton,ST Mirren,1,0,H
+SC1,12/12/2015,Rangers,Morton,2,2,D
+SC1,12/12/2015,Livingston,Alloa Athletic,0,1,A
+SC1,13/02/2016,Alloa Athletic,Rangers,1,1,D
+SC1,13/02/2016,Queen of the South,ST Mirren,1,0,H
+SC1,13/02/2016,Morton,Dumbarton,2,0,H
+SC1,13/02/2016,Falkirk,Raith Rovers,2,2,D
+SC1,13/02/2016,Livingston,Hibernian,0,0,D
+SC1,14/11/2015,Morton,Queen of the South,2,0,H
+SC1,14/11/2015,Falkirk,Alloa Athletic,5,0,H
+SC1,15/03/2016,Morton,Queen of the South,3,2,H
+SC1,15/08/2015,Hibernian,Morton,1,0,H
+SC1,15/08/2015,Falkirk,Raith Rovers,1,0,H
+SC1,15/08/2015,Livingston,Queen of the South,0,1,A
+SC1,15/08/2015,ST Mirren,Dumbarton,1,2,A
+SC1,16/01/2016,Rangers,Livingston,4,1,H
+SC1,16/04/2016,Alloa Athletic,Queen of the South,2,2,D
+SC1,16/04/2016,Dumbarton,Raith Rovers,2,3,A
+SC1,16/04/2016,ST Mirren,Morton,3,1,H
+SC1,16/08/2015,Alloa Athletic,Rangers,1,5,A
+SC1,17/01/2016,Falkirk,Hibernian,1,1,D
+SC1,17/10/2015,Hibernian,Dumbarton,4,2,H
+SC1,17/10/2015,Alloa Athletic,Raith Rovers,0,1,A
+SC1,17/10/2015,Falkirk,Morton,1,0,H
+SC1,17/10/2015,Rangers,Queen of the South,2,1,H
+SC1,17/10/2015,Livingston,ST Mirren,0,1,A
+SC1,17/11/2015,Hibernian,Livingston,2,1,H
+SC1,18/03/2016,Falkirk,Rangers,3,2,H
+SC1,18/09/2015,ST Mirren,Raith Rovers,1,2,A
+SC1,18/12/2015,Morton,Raith Rovers,1,2,A
+SC1,19/03/2016,Livingston,ST Mirren,2,3,A
+SC1,19/03/2016,Queen of the South,Dumbarton,6,0,H
+SC1,19/03/2016,Morton,Alloa Athletic,4,1,H
+SC1,19/03/2016,Raith Rovers,Hibernian,2,1,H
+SC1,19/09/2015,Alloa Athletic,Falkirk,1,1,D
+SC1,19/09/2015,Livingston,Hibernian,0,1,A
+SC1,19/09/2015,Dumbarton,Rangers,1,2,A
+SC1,19/09/2015,Queen of the South,Morton,2,2,D
+SC1,19/12/2015,Livingston,Dumbarton,1,1,D
+SC1,19/12/2015,Hibernian,Queen of the South,1,0,H
+SC1,19/12/2015,Falkirk,Rangers,2,1,H
+SC1,19/12/2015,Alloa Athletic,ST Mirren,0,2,A
+SC1,20/02/2016,Morton,Falkirk,0,1,A
+SC1,20/02/2016,ST Mirren,Dumbarton,1,0,H
+SC1,20/02/2016,Raith Rovers,Livingston,2,0,H
+SC1,20/04/2016,Hibernian,Rangers,3,2,H
+SC1,20/10/2015,Falkirk,Hibernian,0,1,A
+SC1,20/11/2015,ST Mirren,Morton,1,1,D
+SC1,21/02/2016,Hibernian,Alloa Athletic,3,0,H
+SC1,21/02/2016,Queen of the South,Rangers,0,1,A
+SC1,21/08/2015,Morton,ST Mirren,0,0,D
+SC1,21/11/2015,Alloa Athletic,Hibernian,0,1,A
+SC1,21/11/2015,Queen of the South,Falkirk,2,2,D
+SC1,21/11/2015,Dumbarton,Raith Rovers,3,3,D
+SC1,21/11/2015,Livingston,Rangers,1,1,D
+SC1,22/03/2016,ST Mirren,Raith Rovers,1,2,A
+SC1,22/08/2015,Dumbarton,Queen of the South,0,2,A
+SC1,22/08/2015,Raith Rovers,Alloa Athletic,3,0,H
+SC1,22/08/2015,Livingston,Falkirk,1,2,A
+SC1,23/01/2016,Raith Rovers,Dumbarton,0,0,D
+SC1,23/01/2016,Queen of the South,Alloa Athletic,1,0,H
+SC1,23/01/2016,Livingston,Falkirk,1,1,D
+SC1,23/01/2016,Hibernian,ST Mirren,3,1,H
+SC1,23/04/2016,Rangers,Alloa Athletic,1,1,D
+SC1,23/04/2016,Morton,Hibernian,0,0,D
+SC1,23/04/2016,Raith Rovers,Falkirk,2,2,D
+SC1,23/04/2016,Queen of the South,Livingston,3,1,H
+SC1,23/04/2016,Dumbarton,ST Mirren,2,1,H
+SC1,23/08/2015,Rangers,Hibernian,1,0,H
+SC1,24/02/2016,Hibernian,Morton,0,3,A
+SC1,24/10/2015,Dumbarton,Falkirk,0,5,A
+SC1,24/10/2015,Morton,Alloa Athletic,1,0,H
+SC1,24/10/2015,Raith Rovers,Hibernian,1,2,A
+SC1,24/10/2015,Queen of the South,Livingston,1,4,A
+SC1,24/11/2015,Raith Rovers,ST Mirren,1,1,D
+SC1,25/01/2016,Morton,Rangers,0,2,A
+SC1,25/09/2015,Falkirk,Queen of the South,0,0,D
+SC1,25/10/2015,ST Mirren,Rangers,0,1,A
+SC1,26/03/2016,Rangers,Queen of the South,4,3,H
+SC1,26/03/2016,Morton,Raith Rovers,0,1,A
+SC1,26/03/2016,Falkirk,Livingston,1,2,A
+SC1,26/03/2016,Alloa Athletic,ST Mirren,0,1,A
+SC1,26/04/2016,Livingston,Rangers,1,0,H
+SC1,26/04/2016,Hibernian,Dumbarton,4,0,H
+SC1,26/09/2015,Raith Rovers,Dumbarton,1,0,H
+SC1,26/09/2015,Hibernian,ST Mirren,1,1,D
+SC1,26/09/2015,Alloa Athletic,Livingston,0,3,A
+SC1,26/12/2015,Falkirk,Dumbarton,1,0,H
+SC1,26/12/2015,ST Mirren,Livingston,1,4,A
+SC1,27/02/2016,Rangers,ST Mirren,1,0,H
+SC1,27/02/2016,Dumbarton,Hibernian,3,2,H
+SC1,27/02/2016,Raith Rovers,Morton,3,2,H
+SC1,27/02/2016,Falkirk,Queen of the South,3,1,H
+SC1,27/02/2016,Alloa Athletic,Livingston,1,3,A
+SC1,27/09/2015,Morton,Rangers,0,4,A
+SC1,28/08/2015,Falkirk,Dumbarton,2,1,H
+SC1,28/12/2015,Rangers,Hibernian,4,2,H
+SC1,29/08/2015,ST Mirren,Livingston,1,1,D
+SC1,29/08/2015,Hibernian,Raith Rovers,2,0,H
+SC1,29/08/2015,Alloa Athletic,Morton,0,1,A
+SC1,29/12/2015,Falkirk,Livingston,2,0,H
+SC1,30/01/2016,Dumbarton,Livingston,1,0,H
+SC1,30/01/2016,Rangers,Falkirk,1,0,H
+SC1,30/01/2016,ST Mirren,Alloa Athletic,3,1,H
+SC1,30/08/2015,Queen of the South,Rangers,1,5,A
+SC1,31/10/2015,Alloa Athletic,Queen of the South,1,2,A
+SC1,31/10/2015,Falkirk,ST Mirren,3,0,H
+SC1,31/10/2015,Dumbarton,Morton,1,2,A
+SC1,31/10/2015,Livingston,Raith Rovers,3,0,H

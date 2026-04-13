@@ -1,0 +1,307 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+D2,01/02/2019,FC Ingolstadt 04,FC Magdeburg,0,1,A
+D2,01/02/2019,MSV Duisburg,SV Darmstadt 98,3,2,H
+D2,01/03/2019,MSV Duisburg,FC Magdeburg,1,0,H
+D2,01/03/2019,Holstein Kiel,Union Berlin,0,2,A
+D2,01/04/2019,Erzgebirge AUE,Dynamo Dresden,1,3,A
+D2,01/09/2018,Arminia Bielefeld,Jahn Regensburg,5,3,H
+D2,01/09/2018,MSV Duisburg,SpVgg Greuther Furth,0,1,A
+D2,01/10/2018,FC Ingolstadt 04,Union Berlin,1,2,A
+D2,01/12/2018,1. FC Köln,SpVgg Greuther Furth,4,0,H
+D2,01/12/2018,FC St. Pauli,Dynamo Dresden,1,1,D
+D2,01/12/2018,FC Ingolstadt 04,Hamburger SV,1,2,A
+D2,01/12/2018,Union Berlin,SV Darmstadt 98,3,1,H
+D2,02/02/2019,FC Heidenheim,Dynamo Dresden,1,0,H
+D2,02/02/2019,SC Paderborn 07,SpVgg Greuther Furth,6,0,H
+D2,02/02/2019,Arminia Bielefeld,Hamburger SV,2,0,H
+D2,02/03/2019,SV Sandhausen,Erzgebirge AUE,0,3,A
+D2,02/03/2019,SC Paderborn 07,FC St. Pauli,0,1,A
+D2,02/03/2019,FC Heidenheim,Jahn Regensburg,1,2,A
+D2,02/09/2018,SV Sandhausen,Union Berlin,0,0,D
+D2,02/09/2018,FC Heidenheim,SV Darmstadt 98,0,1,A
+D2,02/09/2018,FC St. Pauli,1. FC Köln,3,5,A
+D2,02/11/2018,Dynamo Dresden,SV Sandhausen,3,1,H
+D2,02/11/2018,SpVgg Greuther Furth,Vfl Bochum,2,2,D
+D2,02/12/2018,FC Magdeburg,Vfl Bochum,0,0,D
+D2,02/12/2018,MSV Duisburg,Holstein Kiel,0,4,A
+D2,02/12/2018,SV Sandhausen,FC Heidenheim,1,2,A
+D2,03/02/2019,Holstein Kiel,Jahn Regensburg,2,0,H
+D2,03/02/2019,SV Sandhausen,Vfl Bochum,3,0,H
+D2,03/03/2019,Dynamo Dresden,Vfl Bochum,2,2,D
+D2,03/03/2019,FC Ingolstadt 04,1. FC Köln,1,2,A
+D2,03/03/2019,Arminia Bielefeld,SV Darmstadt 98,1,0,H
+D2,03/05/2019,Dynamo Dresden,FC St. Pauli,2,1,H
+D2,03/05/2019,Arminia Bielefeld,SC Paderborn 07,2,0,H
+D2,03/08/2018,Hamburger SV,Holstein Kiel,0,3,A
+D2,03/09/2018,Holstein Kiel,FC Magdeburg,2,1,H
+D2,03/11/2018,MSV Duisburg,SC Paderborn 07,2,0,H
+D2,03/11/2018,SV Darmstadt 98,FC Magdeburg,3,1,H
+D2,03/11/2018,Holstein Kiel,FC Ingolstadt 04,2,2,D
+D2,04/02/2019,FC St. Pauli,Union Berlin,3,2,H
+D2,04/03/2019,Hamburger SV,SpVgg Greuther Furth,1,0,H
+D2,04/04/2019,SpVgg Greuther Furth,Dynamo Dresden,0,0,D
+D2,04/05/2019,FC Heidenheim,SV Sandhausen,2,3,A
+D2,04/05/2019,Vfl Bochum,FC Magdeburg,4,2,H
+D2,04/05/2019,Hamburger SV,FC Ingolstadt 04,0,3,A
+D2,04/08/2018,Vfl Bochum,1. FC Köln,0,2,A
+D2,04/08/2018,Jahn Regensburg,FC Ingolstadt 04,2,1,H
+D2,04/08/2018,SpVgg Greuther Furth,SV Sandhausen,3,1,H
+D2,04/11/2018,FC Heidenheim,Erzgebirge AUE,1,0,H
+D2,04/11/2018,Arminia Bielefeld,FC St. Pauli,1,2,A
+D2,04/11/2018,Jahn Regensburg,Union Berlin,1,1,D
+D2,05/04/2019,Jahn Regensburg,Vfl Bochum,2,1,H
+D2,05/04/2019,Arminia Bielefeld,Erzgebirge AUE,2,1,H
+D2,05/05/2019,Jahn Regensburg,Erzgebirge AUE,1,3,A
+D2,05/05/2019,Holstein Kiel,MSV Duisburg,0,2,A
+D2,05/05/2019,SV Darmstadt 98,Union Berlin,2,1,H
+D2,05/08/2018,FC Magdeburg,FC St. Pauli,1,2,A
+D2,05/08/2018,SV Darmstadt 98,SC Paderborn 07,1,0,H
+D2,05/08/2018,Union Berlin,Erzgebirge AUE,1,0,H
+D2,05/08/2018,FC Heidenheim,Arminia Bielefeld,1,1,D
+D2,05/10/2018,Vfl Bochum,Arminia Bielefeld,1,0,H
+D2,05/10/2018,SV Darmstadt 98,Hamburger SV,1,2,A
+D2,05/11/2018,Hamburger SV,1. FC Köln,1,0,H
+D2,06/04/2019,Holstein Kiel,FC St. Pauli,2,1,H
+D2,06/04/2019,SV Sandhausen,SC Paderborn 07,1,1,D
+D2,06/04/2019,MSV Duisburg,FC Ingolstadt 04,2,4,A
+D2,06/05/2019,SpVgg Greuther Furth,1. FC Köln,0,4,A
+D2,06/08/2018,Dynamo Dresden,MSV Duisburg,1,0,H
+D2,06/10/2018,FC Magdeburg,Dynamo Dresden,2,2,D
+D2,06/10/2018,Erzgebirge AUE,Holstein Kiel,2,1,H
+D2,06/10/2018,SpVgg Greuther Furth,Jahn Regensburg,1,1,D
+D2,07/04/2019,SpVgg Greuther Furth,SV Darmstadt 98,2,1,H
+D2,07/04/2019,FC Heidenheim,1. FC Köln,0,2,A
+D2,07/04/2019,Dynamo Dresden,Union Berlin,0,0,D
+D2,07/10/2018,Union Berlin,FC Heidenheim,1,1,D
+D2,07/10/2018,FC Ingolstadt 04,SC Paderborn 07,1,2,A
+D2,07/10/2018,FC St. Pauli,SV Sandhausen,3,1,H
+D2,07/12/2018,Jahn Regensburg,1. FC Köln,1,3,A
+D2,07/12/2018,Hamburger SV,SC Paderborn 07,1,0,H
+D2,08/02/2019,Jahn Regensburg,Arminia Bielefeld,0,3,A
+D2,08/02/2019,1. FC Köln,FC St. Pauli,4,1,H
+D2,08/03/2019,Union Berlin,FC Ingolstadt 04,2,0,H
+D2,08/03/2019,Vfl Bochum,FC Heidenheim,1,0,H
+D2,08/04/2019,Hamburger SV,FC Magdeburg,1,2,A
+D2,08/10/2018,1. FC Köln,MSV Duisburg,1,2,A
+D2,08/12/2018,SpVgg Greuther Furth,Erzgebirge AUE,0,5,A
+D2,08/12/2018,SV Darmstadt 98,FC Ingolstadt 04,1,1,D
+D2,08/12/2018,FC Heidenheim,MSV Duisburg,4,1,H
+D2,09/02/2019,SpVgg Greuther Furth,MSV Duisburg,1,0,H
+D2,09/02/2019,Union Berlin,SV Sandhausen,2,0,H
+D2,09/02/2019,Vfl Bochum,SC Paderborn 07,1,2,A
+D2,09/03/2019,Jahn Regensburg,MSV Duisburg,1,1,D
+D2,09/03/2019,Erzgebirge AUE,SC Paderborn 07,2,1,H
+D2,09/03/2019,SV Darmstadt 98,Holstein Kiel,3,2,H
+D2,09/03/2019,1. FC Köln,Arminia Bielefeld,5,1,H
+D2,09/11/2018,SV Sandhausen,MSV Duisburg,0,0,D
+D2,09/11/2018,SC Paderborn 07,Holstein Kiel,4,4,D
+D2,09/12/2018,Arminia Bielefeld,SV Sandhausen,1,1,D
+D2,09/12/2018,Dynamo Dresden,Holstein Kiel,0,2,A
+D2,09/12/2018,FC Magdeburg,Union Berlin,1,1,D
+D2,10/02/2019,FC Magdeburg,Holstein Kiel,1,1,D
+D2,10/02/2019,SV Darmstadt 98,FC Heidenheim,1,2,A
+D2,10/02/2019,Erzgebirge AUE,FC Ingolstadt 04,0,3,A
+D2,10/03/2019,FC Magdeburg,SV Sandhausen,0,1,A
+D2,10/03/2019,FC St. Pauli,Hamburger SV,0,4,A
+D2,10/04/2019,MSV Duisburg,1. FC Köln,4,4,D
+D2,10/08/2018,FC St. Pauli,SV Darmstadt 98,2,0,H
+D2,10/08/2018,SC Paderborn 07,Jahn Regensburg,2,0,H
+D2,10/08/2018,FC Ingolstadt 04,SpVgg Greuther Furth,1,1,D
+D2,10/11/2018,FC St. Pauli,FC Heidenheim,1,1,D
+D2,10/11/2018,Erzgebirge AUE,Hamburger SV,1,3,A
+D2,10/11/2018,1. FC Köln,Dynamo Dresden,8,1,H
+D2,10/12/2018,Vfl Bochum,FC St. Pauli,1,3,A
+D2,11/02/2019,Hamburger SV,Dynamo Dresden,1,0,H
+D2,11/08/2018,Arminia Bielefeld,Dynamo Dresden,2,1,H
+D2,11/08/2018,MSV Duisburg,Vfl Bochum,0,2,A
+D2,11/11/2018,FC Magdeburg,Jahn Regensburg,2,3,A
+D2,11/11/2018,Union Berlin,SpVgg Greuther Furth,4,0,H
+D2,11/11/2018,FC Ingolstadt 04,Arminia Bielefeld,1,1,D
+D2,12/04/2019,Union Berlin,Jahn Regensburg,2,2,D
+D2,12/04/2019,Erzgebirge AUE,FC Heidenheim,0,1,A
+D2,12/05/2019,Union Berlin,FC Magdeburg,3,0,H
+D2,12/05/2019,1. FC Köln,Jahn Regensburg,3,5,A
+D2,12/05/2019,MSV Duisburg,FC Heidenheim,3,4,A
+D2,12/05/2019,Holstein Kiel,Dynamo Dresden,3,0,H
+D2,12/05/2019,SV Sandhausen,Arminia Bielefeld,0,3,A
+D2,12/05/2019,FC Ingolstadt 04,SV Darmstadt 98,3,0,H
+D2,12/05/2019,SC Paderborn 07,Hamburger SV,4,1,H
+D2,12/05/2019,FC St. Pauli,Vfl Bochum,0,0,D
+D2,12/05/2019,Erzgebirge AUE,SpVgg Greuther Furth,1,1,D
+D2,12/08/2018,SV Sandhausen,Hamburger SV,0,3,A
+D2,12/08/2018,Erzgebirge AUE,FC Magdeburg,0,0,D
+D2,12/08/2018,Holstein Kiel,FC Heidenheim,1,1,D
+D2,12/11/2018,Vfl Bochum,SV Darmstadt 98,1,0,H
+D2,13/04/2019,SC Paderborn 07,MSV Duisburg,4,0,H
+D2,13/04/2019,SV Sandhausen,Dynamo Dresden,3,1,H
+D2,13/04/2019,FC Magdeburg,SV Darmstadt 98,0,1,A
+D2,13/08/2018,1. FC Köln,Union Berlin,1,1,D
+D2,14/04/2019,Vfl Bochum,SpVgg Greuther Furth,3,2,H
+D2,14/04/2019,FC Ingolstadt 04,Holstein Kiel,1,1,D
+D2,14/04/2019,FC St. Pauli,Arminia Bielefeld,1,1,D
+D2,14/09/2018,Jahn Regensburg,Dynamo Dresden,0,2,A
+D2,14/09/2018,Union Berlin,MSV Duisburg,2,2,D
+D2,14/12/2018,MSV Duisburg,Hamburger SV,1,2,A
+D2,14/12/2018,Holstein Kiel,Arminia Bielefeld,1,2,A
+D2,15/02/2019,SC Paderborn 07,1. FC Köln,3,2,H
+D2,15/02/2019,SV Sandhausen,SV Darmstadt 98,1,1,D
+D2,15/03/2019,Holstein Kiel,Erzgebirge AUE,5,1,H
+D2,15/03/2019,FC Heidenheim,Union Berlin,2,1,H
+D2,15/04/2019,1. FC Köln,Hamburger SV,1,1,D
+D2,15/09/2018,SpVgg Greuther Furth,Holstein Kiel,4,1,H
+D2,15/09/2018,SV Darmstadt 98,SV Sandhausen,1,1,D
+D2,15/09/2018,Hamburger SV,FC Heidenheim,3,2,H
+D2,15/12/2018,FC St. Pauli,SpVgg Greuther Furth,2,0,H
+D2,15/12/2018,SC Paderborn 07,Dynamo Dresden,3,0,H
+D2,15/12/2018,Union Berlin,Vfl Bochum,2,0,H
+D2,16/02/2019,FC St. Pauli,Erzgebirge AUE,1,2,A
+D2,16/02/2019,FC Ingolstadt 04,Vfl Bochum,2,1,H
+D2,16/02/2019,FC Heidenheim,Hamburger SV,2,2,D
+D2,16/02/2019,MSV Duisburg,Union Berlin,2,3,A
+D2,16/03/2019,Hamburger SV,SV Darmstadt 98,2,3,A
+D2,16/03/2019,Dynamo Dresden,FC Magdeburg,1,1,D
+D2,16/03/2019,SV Sandhausen,FC St. Pauli,4,0,H
+D2,16/09/2018,Vfl Bochum,FC Ingolstadt 04,6,0,H
+D2,16/09/2018,Erzgebirge AUE,FC St. Pauli,3,1,H
+D2,16/09/2018,1. FC Köln,SC Paderborn 07,3,5,A
+D2,16/12/2018,SV Sandhausen,Jahn Regensburg,2,2,D
+D2,16/12/2018,FC Ingolstadt 04,FC Heidenheim,1,1,D
+D2,16/12/2018,Erzgebirge AUE,SV Darmstadt 98,2,2,D
+D2,17/02/2019,Arminia Bielefeld,FC Magdeburg,1,3,A
+D2,17/02/2019,Dynamo Dresden,Jahn Regensburg,0,0,D
+D2,17/02/2019,Holstein Kiel,SpVgg Greuther Furth,2,2,D
+D2,17/03/2019,Arminia Bielefeld,Vfl Bochum,3,1,H
+D2,17/03/2019,SC Paderborn 07,FC Ingolstadt 04,3,1,H
+D2,17/09/2018,FC Magdeburg,Arminia Bielefeld,0,0,D
+D2,17/12/2018,1. FC Köln,FC Magdeburg,3,0,H
+D2,18/03/2019,Jahn Regensburg,SpVgg Greuther Furth,0,2,A
+D2,18/09/2018,Dynamo Dresden,Hamburger SV,0,1,A
+D2,19/05/2019,Arminia Bielefeld,Holstein Kiel,1,0,H
+D2,19/05/2019,SV Darmstadt 98,Erzgebirge AUE,1,0,H
+D2,19/05/2019,FC Heidenheim,FC Ingolstadt 04,4,2,H
+D2,19/05/2019,FC Magdeburg,1. FC Köln,1,1,D
+D2,19/05/2019,SpVgg Greuther Furth,FC St. Pauli,2,1,H
+D2,19/05/2019,Jahn Regensburg,SV Sandhausen,2,2,D
+D2,19/05/2019,Vfl Bochum,Union Berlin,2,2,D
+D2,19/05/2019,Hamburger SV,MSV Duisburg,3,0,H
+D2,19/05/2019,Dynamo Dresden,SC Paderborn 07,3,1,H
+D2,19/10/2018,SV Sandhausen,FC Ingolstadt 04,4,0,H
+D2,19/10/2018,Dynamo Dresden,Erzgebirge AUE,1,1,D
+D2,20/04/2019,Holstein Kiel,SC Paderborn 07,1,2,A
+D2,20/04/2019,Hamburger SV,Erzgebirge AUE,1,1,D
+D2,20/04/2019,SpVgg Greuther Furth,Union Berlin,1,1,D
+D2,20/04/2019,MSV Duisburg,SV Sandhausen,2,2,D
+D2,20/10/2018,Holstein Kiel,1. FC Köln,1,1,D
+D2,20/10/2018,Arminia Bielefeld,SpVgg Greuther Furth,2,3,A
+D2,20/10/2018,FC Heidenheim,FC Magdeburg,3,0,H
+D2,21/04/2019,Arminia Bielefeld,FC Ingolstadt 04,1,3,A
+D2,21/04/2019,Dynamo Dresden,1. FC Köln,3,0,H
+D2,21/04/2019,SV Darmstadt 98,Vfl Bochum,0,0,D
+D2,21/04/2019,FC Heidenheim,FC St. Pauli,3,0,H
+D2,21/04/2019,Jahn Regensburg,FC Magdeburg,1,0,H
+D2,21/09/2018,FC Ingolstadt 04,FC St. Pauli,0,1,A
+D2,21/09/2018,SV Sandhausen,1. FC Köln,0,2,A
+D2,21/10/2018,Hamburger SV,Vfl Bochum,0,0,D
+D2,21/10/2018,Jahn Regensburg,SV Darmstadt 98,1,1,D
+D2,21/10/2018,SC Paderborn 07,Union Berlin,0,0,D
+D2,21/12/2018,SV Sandhausen,SpVgg Greuther Furth,0,0,D
+D2,21/12/2018,1. FC Köln,Vfl Bochum,2,3,A
+D2,22/02/2019,Union Berlin,Arminia Bielefeld,1,1,D
+D2,22/02/2019,SpVgg Greuther Furth,FC Heidenheim,0,0,D
+D2,22/09/2018,Holstein Kiel,Vfl Bochum,2,2,D
+D2,22/09/2018,Dynamo Dresden,SV Darmstadt 98,4,1,H
+D2,22/09/2018,Arminia Bielefeld,Union Berlin,1,1,D
+D2,22/10/2018,MSV Duisburg,FC St. Pauli,0,1,A
+D2,22/12/2018,Arminia Bielefeld,FC Heidenheim,1,2,A
+D2,22/12/2018,FC St. Pauli,FC Magdeburg,4,1,H
+D2,22/12/2018,FC Ingolstadt 04,Jahn Regensburg,1,2,A
+D2,23/02/2019,SV Darmstadt 98,Dynamo Dresden,2,0,H
+D2,23/02/2019,Vfl Bochum,Holstein Kiel,1,3,A
+D2,23/02/2019,1. FC Köln,SV Sandhausen,3,1,H
+D2,23/02/2019,FC St. Pauli,FC Ingolstadt 04,1,0,H
+D2,23/09/2018,Hamburger SV,Jahn Regensburg,0,5,A
+D2,23/09/2018,MSV Duisburg,Erzgebirge AUE,1,2,A
+D2,23/09/2018,FC Heidenheim,SpVgg Greuther Furth,2,0,H
+D2,23/09/2018,SC Paderborn 07,FC Magdeburg,4,4,D
+D2,23/11/2018,Arminia Bielefeld,MSV Duisburg,0,1,A
+D2,23/11/2018,SpVgg Greuther Furth,FC Magdeburg,3,2,H
+D2,23/12/2018,SC Paderborn 07,SV Darmstadt 98,6,2,H
+D2,23/12/2018,Holstein Kiel,Hamburger SV,3,1,H
+D2,23/12/2018,MSV Duisburg,Dynamo Dresden,1,3,A
+D2,23/12/2018,Erzgebirge AUE,Union Berlin,3,0,H
+D2,24/02/2019,Jahn Regensburg,Hamburger SV,2,1,H
+D2,24/02/2019,FC Magdeburg,SC Paderborn 07,1,1,D
+D2,24/02/2019,Erzgebirge AUE,MSV Duisburg,0,0,D
+D2,24/08/2018,SV Darmstadt 98,MSV Duisburg,3,0,H
+D2,24/08/2018,Vfl Bochum,SV Sandhausen,1,0,H
+D2,24/11/2018,SV Darmstadt 98,1. FC Köln,0,3,A
+D2,24/11/2018,Vfl Bochum,Erzgebirge AUE,2,1,H
+D2,24/11/2018,Holstein Kiel,SV Sandhausen,2,1,H
+D2,25/08/2018,1. FC Köln,Erzgebirge AUE,3,1,H
+D2,25/08/2018,SpVgg Greuther Furth,SC Paderborn 07,2,2,D
+D2,25/08/2018,FC Magdeburg,FC Ingolstadt 04,1,1,D
+D2,25/09/2018,Vfl Bochum,Dynamo Dresden,0,1,A
+D2,25/09/2018,SV Darmstadt 98,Arminia Bielefeld,1,2,A
+D2,25/09/2018,Union Berlin,Holstein Kiel,2,0,H
+D2,25/09/2018,1. FC Köln,FC Ingolstadt 04,2,1,H
+D2,25/11/2018,FC Heidenheim,SC Paderborn 07,1,5,A
+D2,25/11/2018,Jahn Regensburg,FC St. Pauli,1,1,D
+D2,25/11/2018,Dynamo Dresden,FC Ingolstadt 04,2,0,H
+D2,26/04/2019,FC Ingolstadt 04,Dynamo Dresden,1,0,H
+D2,26/04/2019,1. FC Köln,SV Darmstadt 98,1,2,A
+D2,26/08/2018,Jahn Regensburg,Holstein Kiel,0,0,D
+D2,26/08/2018,Union Berlin,FC St. Pauli,4,1,H
+D2,26/08/2018,Dynamo Dresden,FC Heidenheim,1,3,A
+D2,26/09/2018,FC St. Pauli,SC Paderborn 07,2,1,H
+D2,26/09/2018,FC Magdeburg,MSV Duisburg,3,3,D
+D2,26/09/2018,Erzgebirge AUE,SV Sandhausen,0,2,A
+D2,26/09/2018,Jahn Regensburg,FC Heidenheim,2,1,H
+D2,26/10/2018,SV Darmstadt 98,SpVgg Greuther Furth,2,0,H
+D2,26/10/2018,FC Magdeburg,Hamburger SV,0,1,A
+D2,26/11/2018,Hamburger SV,Union Berlin,2,2,D
+D2,27/02/2019,Erzgebirge AUE,1. FC Köln,0,1,A
+D2,27/04/2019,FC St. Pauli,Jahn Regensburg,4,3,H
+D2,27/04/2019,SV Sandhausen,Holstein Kiel,3,2,H
+D2,27/04/2019,FC Magdeburg,SpVgg Greuther Furth,2,1,H
+D2,27/08/2018,Hamburger SV,Arminia Bielefeld,3,0,H
+D2,27/09/2018,SpVgg Greuther Furth,Hamburger SV,0,0,D
+D2,27/10/2018,Erzgebirge AUE,Arminia Bielefeld,1,0,H
+D2,27/10/2018,1. FC Köln,FC Heidenheim,1,1,D
+D2,27/10/2018,SC Paderborn 07,SV Sandhausen,3,3,D
+D2,28/04/2019,Erzgebirge AUE,Vfl Bochum,3,2,H
+D2,28/04/2019,SC Paderborn 07,FC Heidenheim,3,1,H
+D2,28/04/2019,Union Berlin,Hamburger SV,2,0,H
+D2,28/09/2018,Arminia Bielefeld,1. FC Köln,1,3,A
+D2,28/09/2018,Holstein Kiel,SV Darmstadt 98,4,2,H
+D2,28/10/2018,Union Berlin,Dynamo Dresden,0,0,D
+D2,28/10/2018,FC Ingolstadt 04,MSV Duisburg,1,1,D
+D2,28/10/2018,FC St. Pauli,Holstein Kiel,0,1,A
+D2,29/01/2019,SpVgg Greuther Furth,FC Ingolstadt 04,0,1,A
+D2,29/01/2019,Vfl Bochum,MSV Duisburg,2,1,H
+D2,29/01/2019,SV Darmstadt 98,FC St. Pauli,2,1,H
+D2,29/01/2019,FC Magdeburg,Erzgebirge AUE,1,0,H
+D2,29/03/2019,FC St. Pauli,MSV Duisburg,0,0,D
+D2,29/03/2019,FC Magdeburg,FC Heidenheim,0,0,D
+D2,29/04/2019,MSV Duisburg,Arminia Bielefeld,2,2,D
+D2,29/09/2018,FC Heidenheim,Vfl Bochum,3,2,H
+D2,29/09/2018,MSV Duisburg,Jahn Regensburg,1,3,A
+D2,29/09/2018,SC Paderborn 07,Erzgebirge AUE,1,0,H
+D2,29/10/2018,Vfl Bochum,Jahn Regensburg,3,3,D
+D2,30/01/2019,FC Heidenheim,Holstein Kiel,2,2,D
+D2,30/01/2019,Hamburger SV,SV Sandhausen,2,1,H
+D2,30/01/2019,Jahn Regensburg,SC Paderborn 07,2,0,H
+D2,30/01/2019,Dynamo Dresden,Arminia Bielefeld,3,4,A
+D2,30/03/2019,SV Darmstadt 98,Jahn Regensburg,1,1,D
+D2,30/03/2019,Vfl Bochum,Hamburger SV,0,0,D
+D2,30/03/2019,Union Berlin,SC Paderborn 07,1,3,A
+D2,30/09/2018,SV Sandhausen,FC Magdeburg,0,1,A
+D2,30/09/2018,Dynamo Dresden,SpVgg Greuther Furth,0,1,A
+D2,30/09/2018,Hamburger SV,FC St. Pauli,0,0,D
+D2,30/11/2018,SC Paderborn 07,Arminia Bielefeld,2,2,D
+D2,30/11/2018,Erzgebirge AUE,Jahn Regensburg,1,1,D
+D2,31/01/2019,Union Berlin,1. FC Köln,2,0,H
+D2,31/03/2019,1. FC Köln,Holstein Kiel,4,0,H
+D2,31/03/2019,FC Ingolstadt 04,SV Sandhausen,1,2,A
+D2,31/03/2019,SpVgg Greuther Furth,Arminia Bielefeld,2,2,D
+D2,31/08/2018,FC Ingolstadt 04,Erzgebirge AUE,3,2,H
+D2,31/08/2018,SC Paderborn 07,Vfl Bochum,2,2,D

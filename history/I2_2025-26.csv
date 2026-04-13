@@ -1,0 +1,337 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+I2,01/02/2026,Padova,Monza,1,2,A
+I2,01/02/2026,Reggiana,Juve Stabia,1,1,D
+I2,01/03/2026,Catanzaro,Frosinone,2,2,D
+I2,01/03/2026,Mantova,Carrarese,1,1,D
+I2,01/03/2026,Pescara,Palermo,2,1,H
+I2,01/10/2025,Sampdoria,Catanzaro,0,0,D
+I2,01/10/2025,Empoli,Monza,1,1,D
+I2,01/10/2025,Pescara,Sudtirol,1,1,D
+I2,01/10/2025,Carrarese,Modena,0,0,D
+I2,01/11/2025,Avellino,Reggiana,4,3,H
+I2,01/11/2025,Padova,Sudtirol,1,1,D
+I2,01/11/2025,Virtus Entella,Empoli,1,0,H
+I2,01/11/2025,Palermo,Pescara,5,0,H
+I2,01/11/2025,Carrarese,Frosinone,0,2,A
+I2,02/11/2025,Catanzaro,Venezia,2,1,H
+I2,02/11/2025,Sampdoria,Mantova,0,1,A
+I2,02/11/2025,Bari,Cesena,1,0,H
+I2,02/11/2025,Monza,Spezia,1,0,H
+I2,02/11/2025,Modena,Juve Stabia,3,0,H
+I2,03/03/2026,Reggiana,Sudtirol,0,4,A
+I2,03/03/2026,Virtus Entella,Modena,2,1,H
+I2,03/03/2026,Venezia,Avellino,4,0,H
+I2,03/03/2026,Cesena,Monza,1,3,A
+I2,03/03/2026,Padova,Spezia,2,2,D
+I2,04/03/2026,Juve Stabia,Sampdoria,1,1,D
+I2,04/03/2026,Palermo,Mantova,2,1,H
+I2,04/03/2026,Frosinone,Pescara,2,2,D
+I2,04/03/2026,Bari,Empoli,2,1,H
+I2,04/03/2026,Carrarese,Catanzaro,3,3,D
+I2,04/10/2025,Spezia,Palermo,1,2,A
+I2,04/10/2025,Cesena,Reggiana,1,2,A
+I2,04/10/2025,Avellino,Mantova,0,0,D
+I2,04/10/2025,Venezia,Frosinone,3,0,H
+I2,04/10/2025,Bari,Padova,2,1,H
+I2,04/10/2025,Monza,Catanzaro,2,1,H
+I2,04/12/2025,Juve Stabia,Bari,0,0,D
+I2,05/04/2026,Palermo,Avellino,2,0,H
+I2,05/04/2026,Frosinone,Padova,2,0,H
+I2,05/10/2025,Sudtirol,Empoli,1,2,A
+I2,05/10/2025,Modena,Virtus Entella,2,0,H
+I2,05/10/2025,Sampdoria,Pescara,4,1,H
+I2,05/10/2025,Carrarese,Juve Stabia,3,0,H
+I2,06/02/2026,Cesena,Pescara,2,0,H
+I2,06/04/2026,Catanzaro,Monza,1,1,D
+I2,06/04/2026,Carrarese,Spezia,3,1,H
+I2,06/04/2026,Bari,Modena,3,1,H
+I2,06/04/2026,Venezia,Juve Stabia,3,1,H
+I2,06/04/2026,Reggiana,Pescara,1,3,A
+I2,06/04/2026,Cesena,Sudtirol,1,1,D
+I2,06/04/2026,Mantova,Virtus Entella,1,0,H
+I2,06/04/2026,Sampdoria,Empoli,1,0,H
+I2,07/02/2026,Carrarese,Sudtirol,0,0,D
+I2,07/02/2026,Catanzaro,Reggiana,2,0,H
+I2,07/02/2026,Mantova,Bari,2,1,H
+I2,07/02/2026,Palermo,Empoli,3,2,H
+I2,07/02/2026,Juve Stabia,Padova,3,3,D
+I2,07/02/2026,Frosinone,Venezia,1,2,A
+I2,07/02/2026,Modena,Sampdoria,1,2,A
+I2,07/02/2026,Spezia,Virtus Entella,1,1,D
+I2,07/03/2026,Modena,Cesena,0,0,D
+I2,07/03/2026,Sudtirol,Virtus Entella,0,1,A
+I2,07/03/2026,Avellino,Padova,1,0,H
+I2,07/03/2026,Spezia,Monza,4,2,H
+I2,07/03/2026,Venezia,Reggiana,2,0,H
+I2,07/11/2025,Spezia,Bari,1,1,D
+I2,07/12/2025,Empoli,Palermo,1,3,A
+I2,07/12/2025,Sampdoria,Carrarese,3,2,H
+I2,08/02/2026,Monza,Avellino,2,1,H
+I2,08/03/2026,Frosinone,Sampdoria,3,0,H
+I2,08/03/2026,Catanzaro,Empoli,3,2,H
+I2,08/03/2026,Pescara,Bari,4,0,H
+I2,08/03/2026,Carrarese,Palermo,0,1,A
+I2,08/03/2026,Mantova,Juve Stabia,2,0,H
+I2,08/11/2025,Frosinone,Modena,2,2,D
+I2,08/11/2025,Empoli,Catanzaro,1,0,H
+I2,08/11/2025,Sudtirol,Carrarese,1,1,D
+I2,08/11/2025,Juve Stabia,Palermo,1,0,H
+I2,08/11/2025,Mantova,Padova,1,0,H
+I2,08/11/2025,Reggiana,Virtus Entella,0,0,D
+I2,08/11/2025,Venezia,Sampdoria,3,1,H
+I2,08/12/2025,Frosinone,Juve Stabia,3,0,H
+I2,08/12/2025,Monza,Sudtirol,1,1,D
+I2,08/12/2025,Mantova,Reggiana,0,1,A
+I2,08/12/2025,Bari,Pescara,1,1,D
+I2,08/12/2025,Virtus Entella,Spezia,0,1,A
+I2,08/12/2025,Padova,Cesena,1,1,D
+I2,08/12/2025,Modena,Catanzaro,1,2,A
+I2,08/12/2025,Avellino,Venezia,1,1,D
+I2,09/11/2025,Cesena,Avellino,3,0,H
+I2,09/11/2025,Pescara,Monza,0,2,A
+I2,10/01/2026,Frosinone,Catanzaro,2,0,H
+I2,10/01/2026,Cesena,Empoli,0,1,A
+I2,10/01/2026,Juve Stabia,Pescara,2,2,D
+I2,10/01/2026,Carrarese,Bari,1,0,H
+I2,10/01/2026,Sudtirol,Spezia,2,1,H
+I2,10/01/2026,Reggiana,Venezia,1,3,A
+I2,10/01/2026,Avellino,Sampdoria,2,1,H
+I2,10/01/2026,Virtus Entella,Monza,1,0,H
+I2,10/02/2026,Venezia,Modena,0,2,A
+I2,10/02/2026,Pescara,Catanzaro,0,2,A
+I2,10/02/2026,Sampdoria,Palermo,3,3,D
+I2,10/02/2026,Reggiana,Mantova,1,0,H
+I2,10/02/2026,Padova,Carrarese,1,0,H
+I2,10/02/2026,Virtus Entella,Cesena,3,1,H
+I2,10/04/2026,Frosinone,Palermo,1,1,D
+I2,11/01/2026,Mantova,Palermo,1,1,D
+I2,11/01/2026,Padova,Modena,2,0,H
+I2,11/02/2026,Bari,Spezia,0,0,D
+I2,11/02/2026,Empoli,Juve Stabia,1,2,A
+I2,11/02/2026,Avellino,Frosinone,1,3,A
+I2,11/02/2026,Sudtirol,Monza,0,0,D
+I2,11/04/2026,Avellino,Catanzaro,1,1,D
+I2,11/04/2026,Monza,Bari,2,0,H
+I2,11/04/2026,Pescara,Sampdoria,1,2,A
+I2,11/04/2026,Sudtirol,Modena,1,1,D
+I2,11/04/2026,Juve Stabia,Cesena,2,0,H
+I2,11/04/2026,Virtus Entella,Venezia,1,1,D
+I2,12/09/2025,Avellino,Monza,2,1,H
+I2,12/12/2025,Palermo,Sampdoria,1,0,H
+I2,13/03/2026,Modena,Spezia,3,0,H
+I2,13/09/2025,Pescara,Venezia,2,2,D
+I2,13/09/2025,Catanzaro,Carrarese,1,1,D
+I2,13/09/2025,Modena,Bari,3,0,H
+I2,13/09/2025,Sampdoria,Cesena,1,2,A
+I2,13/09/2025,Padova,Frosinone,0,1,A
+I2,13/09/2025,Juve Stabia,Reggiana,0,0,D
+I2,13/12/2025,Juve Stabia,Empoli,2,0,H
+I2,13/12/2025,Reggiana,Padova,1,2,A
+I2,13/12/2025,Sudtirol,Bari,0,0,D
+I2,13/12/2025,Catanzaro,Avellino,1,0,H
+I2,13/12/2025,Cesena,Mantova,3,2,H
+I2,13/12/2025,Spezia,Modena,0,2,A
+I2,13/12/2025,Venezia,Monza,2,0,H
+I2,14/02/2026,Catanzaro,Mantova,2,0,H
+I2,14/02/2026,Palermo,Virtus Entella,3,0,H
+I2,14/02/2026,Modena,Carrarese,2,0,H
+I2,14/02/2026,Cesena,Venezia,0,4,A
+I2,14/02/2026,Sampdoria,Padova,1,0,H
+I2,14/03/2026,Sampdoria,Venezia,0,0,D
+I2,14/03/2026,Monza,Palermo,3,0,H
+I2,14/03/2026,Empoli,Mantova,2,2,D
+I2,14/03/2026,Juve Stabia,Carrarese,1,1,D
+I2,14/03/2026,Padova,Catanzaro,1,3,A
+I2,14/03/2026,Bari,Reggiana,4,1,H
+I2,14/03/2026,Cesena,Frosinone,2,2,D
+I2,14/09/2025,Virtus Entella,Mantova,1,0,H
+I2,14/09/2025,Empoli,Spezia,1,1,D
+I2,14/09/2025,Sudtirol,Palermo,0,2,A
+I2,14/12/2025,Carrarese,Virtus Entella,3,1,H
+I2,14/12/2025,Pescara,Frosinone,1,2,A
+I2,15/02/2026,Bari,Sudtirol,1,2,A
+I2,15/02/2026,Monza,Juve Stabia,2,1,H
+I2,15/02/2026,Empoli,Reggiana,1,1,D
+I2,15/02/2026,Avellino,Pescara,0,1,A
+I2,15/02/2026,Spezia,Frosinone,0,2,A
+I2,15/03/2026,Sudtirol,Pescara,0,0,D
+I2,15/03/2026,Virtus Entella,Avellino,1,2,A
+I2,16/01/2026,Sampdoria,Virtus Entella,1,1,D
+I2,17/01/2026,Bari,Juve Stabia,0,1,A
+I2,17/01/2026,Reggiana,Cesena,1,2,A
+I2,17/01/2026,Monza,Frosinone,2,2,D
+I2,17/01/2026,Empoli,Sudtirol,0,1,A
+I2,17/01/2026,Venezia,Catanzaro,3,1,H
+I2,17/01/2026,Padova,Mantova,1,2,A
+I2,17/01/2026,Avellino,Carrarese,1,2,A
+I2,17/03/2026,Palermo,Juve Stabia,2,2,D
+I2,17/03/2026,Spezia,Empoli,1,1,D
+I2,17/03/2026,Venezia,Padova,3,1,H
+I2,17/03/2026,Reggiana,Monza,0,0,D
+I2,17/03/2026,Mantova,Cesena,3,0,H
+I2,17/10/2025,Virtus Entella,Sampdoria,3,1,H
+I2,18/01/2026,Pescara,Modena,0,2,A
+I2,18/01/2026,Palermo,Spezia,1,0,H
+I2,18/03/2026,Carrarese,Sampdoria,2,0,H
+I2,18/03/2026,Frosinone,Bari,2,1,H
+I2,18/03/2026,Pescara,Virtus Entella,3,0,H
+I2,18/03/2026,Avellino,Sudtirol,3,2,H
+I2,18/10/2025,Spezia,Cesena,1,2,A
+I2,18/10/2025,Mantova,Sudtirol,1,1,D
+I2,18/10/2025,Frosinone,Monza,0,1,A
+I2,18/10/2025,Pescara,Carrarese,2,2,D
+I2,18/10/2025,Juve Stabia,Avellino,2,0,H
+I2,18/10/2025,Reggiana,Bari,3,1,H
+I2,19/09/2025,Frosinone,Sudtirol,2,2,D
+I2,19/09/2025,Palermo,Bari,2,0,H
+I2,19/10/2025,Palermo,Modena,1,1,D
+I2,19/10/2025,Empoli,Venezia,1,1,D
+I2,19/10/2025,Catanzaro,Padova,0,1,A
+I2,19/12/2025,Bari,Catanzaro,1,2,A
+I2,20/02/2026,Frosinone,Empoli,2,2,D
+I2,20/09/2025,Venezia,Cesena,1,2,A
+I2,20/09/2025,Mantova,Modena,1,3,A
+I2,20/09/2025,Monza,Sampdoria,1,0,H
+I2,20/09/2025,Reggiana,Catanzaro,2,2,D
+I2,20/09/2025,Spezia,Juve Stabia,1,3,A
+I2,20/12/2025,Pescara,Reggiana,2,1,H
+I2,20/12/2025,Monza,Carrarese,4,1,H
+I2,20/12/2025,Modena,Venezia,1,2,A
+I2,20/12/2025,Padova,Sampdoria,1,1,D
+I2,20/12/2025,Frosinone,Spezia,2,1,H
+I2,20/12/2025,Cesena,Juve Stabia,1,1,D
+I2,20/12/2025,Avellino,Palermo,2,2,D
+I2,21/02/2026,Carrarese,Monza,0,1,A
+I2,21/02/2026,Cesena,Spezia,2,3,A
+I2,21/02/2026,Mantova,Sampdoria,2,1,H
+I2,21/02/2026,Padova,Bari,1,1,D
+I2,21/02/2026,Virtus Entella,Catanzaro,1,3,A
+I2,21/02/2026,Palermo,Sudtirol,3,0,H
+I2,21/02/2026,Venezia,Pescara,3,2,H
+I2,21/03/2026,Modena,Mantova,2,1,H
+I2,21/03/2026,Monza,Venezia,1,1,D
+I2,21/03/2026,Padova,Palermo,0,1,A
+I2,21/03/2026,Cesena,Catanzaro,3,1,H
+I2,21/03/2026,Juve Stabia,Spezia,3,1,H
+I2,21/09/2025,Carrarese,Avellino,3,4,A
+I2,21/09/2025,Padova,Virtus Entella,2,1,H
+I2,21/09/2025,Pescara,Empoli,4,0,H
+I2,21/11/2025,Catanzaro,Pescara,3,3,D
+I2,21/12/2025,Mantova,Empoli,0,1,A
+I2,21/12/2025,Virtus Entella,Sudtirol,1,1,D
+I2,22/02/2026,Juve Stabia,Modena,1,2,A
+I2,22/02/2026,Reggiana,Avellino,1,1,D
+I2,22/03/2026,Virtus Entella,Reggiana,3,0,H
+I2,22/03/2026,Sampdoria,Avellino,2,1,H
+I2,22/03/2026,Sudtirol,Frosinone,1,3,A
+I2,22/03/2026,Empoli,Pescara,4,2,H
+I2,22/03/2026,Bari,Carrarese,0,3,A
+I2,22/08/2025,Pescara,Cesena,1,3,A
+I2,22/11/2025,Carrarese,Reggiana,0,0,D
+I2,22/11/2025,Bari,Frosinone,2,3,A
+I2,22/11/2025,Virtus Entella,Palermo,1,1,D
+I2,22/11/2025,Avellino,Empoli,0,3,A
+I2,22/11/2025,Padova,Venezia,0,2,A
+I2,23/01/2026,Carrarese,Empoli,3,0,H
+I2,23/08/2025,Palermo,Reggiana,2,1,H
+I2,23/08/2025,Monza,Mantova,1,0,H
+I2,23/08/2025,Virtus Entella,Juve Stabia,1,1,D
+I2,23/08/2025,Empoli,Padova,3,1,H
+I2,23/11/2025,Monza,Cesena,1,0,H
+I2,23/11/2025,Modena,Sudtirol,0,0,D
+I2,23/11/2025,Mantova,Spezia,4,1,H
+I2,24/01/2026,Modena,Palermo,0,0,D
+I2,24/01/2026,Mantova,Venezia,2,5,A
+I2,24/01/2026,Juve Stabia,Virtus Entella,1,0,H
+I2,24/01/2026,Monza,Pescara,3,0,H
+I2,24/01/2026,Cesena,Bari,1,2,A
+I2,24/01/2026,Spezia,Avellino,1,0,H
+I2,24/01/2026,Frosinone,Reggiana,1,0,H
+I2,24/08/2025,Spezia,Carrarese,0,2,A
+I2,24/08/2025,Venezia,Bari,2,1,H
+I2,24/08/2025,Frosinone,Avellino,2,0,H
+I2,24/08/2025,Catanzaro,Sudtirol,1,1,D
+I2,24/10/2025,Modena,Empoli,2,1,H
+I2,24/11/2025,Sampdoria,Juve Stabia,1,0,H
+I2,25/01/2026,Sudtirol,Padova,3,0,H
+I2,25/01/2026,Catanzaro,Sampdoria,0,0,D
+I2,25/08/2025,Sampdoria,Modena,0,2,A
+I2,25/10/2025,Catanzaro,Palermo,1,0,H
+I2,25/10/2025,Carrarese,Venezia,3,2,H
+I2,25/10/2025,Monza,Reggiana,3,1,H
+I2,25/10/2025,Sudtirol,Cesena,0,1,A
+I2,25/10/2025,Avellino,Spezia,0,4,A
+I2,25/10/2025,Sampdoria,Frosinone,1,1,D
+I2,25/10/2025,Virtus Entella,Pescara,1,1,D
+I2,26/09/2025,Catanzaro,Juve Stabia,2,2,D
+I2,26/10/2025,Bari,Mantova,1,0,H
+I2,26/10/2025,Padova,Juve Stabia,2,2,D
+I2,26/12/2025,Modena,Monza,1,2,A
+I2,27/02/2026,Monza,Virtus Entella,2,0,H
+I2,27/02/2026,Sampdoria,Bari,0,2,A
+I2,27/09/2025,Venezia,Spezia,2,0,H
+I2,27/09/2025,Mantova,Frosinone,1,5,A
+I2,27/09/2025,Sudtirol,Reggiana,3,1,H
+I2,27/09/2025,Avellino,Virtus Entella,2,0,H
+I2,27/09/2025,Cesena,Palermo,1,1,D
+I2,27/09/2025,Monza,Padova,0,1,A
+I2,27/09/2025,Bari,Sampdoria,1,1,D
+I2,27/12/2025,Palermo,Padova,1,0,H
+I2,27/12/2025,Catanzaro,Cesena,2,0,H
+I2,27/12/2025,Carrarese,Mantova,0,0,D
+I2,27/12/2025,Juve Stabia,Sudtirol,1,0,H
+I2,27/12/2025,Venezia,Virtus Entella,1,0,H
+I2,27/12/2025,Empoli,Frosinone,1,1,D
+I2,27/12/2025,Sampdoria,Reggiana,2,1,H
+I2,27/12/2025,Spezia,Pescara,2,1,H
+I2,27/12/2025,Bari,Avellino,1,1,D
+I2,28/02/2026,Spezia,Reggiana,0,1,A
+I2,28/02/2026,Empoli,Cesena,1,1,D
+I2,28/02/2026,Modena,Padova,1,2,A
+I2,28/02/2026,Sudtirol,Venezia,1,1,D
+I2,28/02/2026,Avellino,Juve Stabia,0,0,D
+I2,28/09/2025,Empoli,Carrarese,2,2,D
+I2,28/09/2025,Modena,Pescara,2,1,H
+I2,28/10/2025,Cesena,Carrarese,2,1,H
+I2,28/10/2025,Empoli,Sampdoria,1,1,D
+I2,28/10/2025,Reggiana,Modena,1,0,H
+I2,28/10/2025,Frosinone,Virtus Entella,4,0,H
+I2,28/10/2025,Palermo,Monza,0,3,A
+I2,28/10/2025,Pescara,Avellino,1,1,D
+I2,28/11/2025,Cesena,Modena,1,0,H
+I2,29/08/2025,Reggiana,Empoli,3,1,H
+I2,29/10/2025,Venezia,Sudtirol,3,0,H
+I2,29/10/2025,Mantova,Catanzaro,1,3,A
+I2,29/10/2025,Spezia,Padova,1,1,D
+I2,29/11/2025,Sudtirol,Avellino,0,1,A
+I2,29/11/2025,Pescara,Padova,0,1,A
+I2,29/11/2025,Catanzaro,Virtus Entella,3,2,H
+I2,29/11/2025,Palermo,Carrarese,5,0,H
+I2,29/11/2025,Venezia,Mantova,3,0,H
+I2,29/11/2025,Empoli,Bari,5,0,H
+I2,29/11/2025,Reggiana,Frosinone,0,1,A
+I2,30/01/2026,Bari,Palermo,0,3,A
+I2,30/08/2025,Palermo,Frosinone,0,0,D
+I2,30/08/2025,Juve Stabia,Venezia,0,0,D
+I2,30/08/2025,Mantova,Pescara,2,1,H
+I2,30/08/2025,Cesena,Virtus Entella,1,1,D
+I2,30/08/2025,Spezia,Catanzaro,0,0,D
+I2,30/09/2025,Palermo,Venezia,0,0,D
+I2,30/09/2025,Frosinone,Cesena,3,1,H
+I2,30/09/2025,Virtus Entella,Bari,2,2,D
+I2,30/09/2025,Juve Stabia,Mantova,2,1,H
+I2,30/09/2025,Reggiana,Spezia,1,1,D
+I2,30/09/2025,Padova,Avellino,2,2,D
+I2,30/11/2025,Spezia,Sampdoria,1,0,H
+I2,30/11/2025,Juve Stabia,Monza,2,2,D
+I2,31/01/2026,Pescara,Mantova,2,2,D
+I2,31/01/2026,Empoli,Modena,0,0,D
+I2,31/01/2026,Venezia,Carrarese,2,1,H
+I2,31/01/2026,Avellino,Cesena,3,1,H
+I2,31/01/2026,Sampdoria,Spezia,1,0,H
+I2,31/01/2026,Sudtirol,Catanzaro,2,1,H
+I2,31/01/2026,Virtus Entella,Frosinone,1,1,D
+I2,31/08/2025,Modena,Avellino,1,1,D
+I2,31/08/2025,Carrarese,Padova,0,0,D
+I2,31/08/2025,Sudtirol,Sampdoria,3,1,H
+I2,31/08/2025,Bari,Monza,1,1,D

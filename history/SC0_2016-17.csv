@@ -1,0 +1,229 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/02/2017,Partick,ST Johnstone,0,1,A
+SC0,01/02/2017,Heart Of Midlothian,Rangers,4,1,H
+SC0,01/02/2017,Celtic,Aberdeen,1,0,H
+SC0,01/03/2017,Dundee,Partick,0,1,A
+SC0,01/03/2017,Heart Of Midlothian,Ross County,0,1,A
+SC0,01/03/2017,Rangers,ST Johnstone,3,2,H
+SC0,01/03/2017,Inverness CT,Celtic,0,4,A
+SC0,01/04/2017,Inverness CT,Kilmarnock,1,1,D
+SC0,01/04/2017,Partick,Ross County,2,1,H
+SC0,01/04/2017,Rangers,Motherwell,1,1,D
+SC0,01/04/2017,Hamilton Academical,ST Johnstone,1,0,H
+SC0,01/10/2016,Dundee,Celtic,0,1,A
+SC0,01/10/2016,Rangers,Partick,2,0,H
+SC0,01/10/2016,Ross County,ST Johnstone,0,2,A
+SC0,01/10/2016,Hamilton Academical,Inverness CT,1,1,D
+SC0,01/10/2016,Kilmarnock,Aberdeen,0,4,A
+SC0,02/04/2017,Heart Of Midlothian,Celtic,0,5,A
+SC0,03/12/2016,Motherwell,Celtic,3,4,A
+SC0,03/12/2016,Hamilton Academical,Partick,1,1,D
+SC0,03/12/2016,Kilmarnock,Dundee,2,0,H
+SC0,03/12/2016,Rangers,Aberdeen,2,1,H
+SC0,03/12/2016,ST Johnstone,Inverness CT,3,0,H
+SC0,03/12/2016,Ross County,Heart Of Midlothian,2,2,D
+SC0,04/02/2017,Inverness CT,Dundee,2,2,D
+SC0,04/02/2017,Rangers,Ross County,1,1,D
+SC0,04/02/2017,Motherwell,Heart Of Midlothian,0,3,A
+SC0,04/02/2017,Aberdeen,Partick,2,0,H
+SC0,04/02/2017,Hamilton Academical,Kilmarnock,1,1,D
+SC0,04/03/2017,Kilmarnock,Motherwell,1,2,A
+SC0,04/04/2017,Ross County,Dundee,2,1,H
+SC0,04/04/2017,Aberdeen,Inverness CT,1,0,H
+SC0,04/11/2016,Partick,Aberdeen,1,2,A
+SC0,05/02/2017,ST Johnstone,Celtic,2,5,A
+SC0,05/04/2017,ST Johnstone,Heart Of Midlothian,1,0,H
+SC0,05/04/2017,Motherwell,Hamilton Academical,0,0,D
+SC0,05/04/2017,Celtic,Partick,1,1,D
+SC0,05/04/2017,Kilmarnock,Rangers,0,0,D
+SC0,05/11/2016,Kilmarnock,Hamilton Academical,0,0,D
+SC0,05/11/2016,Dundee,Motherwell,2,0,H
+SC0,05/11/2016,Heart Of Midlothian,ST Johnstone,2,2,D
+SC0,05/11/2016,Celtic,Inverness CT,3,0,H
+SC0,06/05/2017,Inverness CT,Hamilton Academical,2,1,H
+SC0,06/05/2017,Celtic,ST Johnstone,4,1,H
+SC0,06/05/2017,Kilmarnock,Dundee,0,1,A
+SC0,06/05/2017,Motherwell,Ross County,0,1,A
+SC0,06/08/2016,Rangers,Hamilton Academical,1,1,D
+SC0,06/08/2016,Kilmarnock,Motherwell,1,2,A
+SC0,06/08/2016,Partick,Inverness CT,2,0,H
+SC0,06/08/2016,Ross County,Dundee,1,3,A
+SC0,06/11/2016,Ross County,Rangers,1,1,D
+SC0,06/12/2016,Aberdeen,Kilmarnock,5,1,H
+SC0,07/05/2017,Heart Of Midlothian,Aberdeen,1,2,A
+SC0,07/05/2017,Partick,Rangers,1,2,A
+SC0,07/08/2016,ST Johnstone,Aberdeen,0,0,D
+SC0,07/08/2016,Heart Of Midlothian,Celtic,1,2,A
+SC0,08/04/2017,Inverness CT,ST Johnstone,0,3,A
+SC0,08/04/2017,Partick,Motherwell,1,0,H
+SC0,08/04/2017,Heart Of Midlothian,Dundee,1,0,H
+SC0,08/04/2017,Hamilton Academical,Ross County,1,1,D
+SC0,08/04/2017,Celtic,Kilmarnock,3,1,H
+SC0,09/04/2017,Aberdeen,Rangers,0,3,A
+SC0,09/12/2016,Partick,Celtic,1,4,A
+SC0,10/09/2016,Ross County,Motherwell,1,1,D
+SC0,10/09/2016,Partick,ST Johnstone,0,2,A
+SC0,10/09/2016,Heart Of Midlothian,Hamilton Academical,3,1,H
+SC0,10/09/2016,Celtic,Rangers,5,1,H
+SC0,10/09/2016,Aberdeen,Inverness CT,1,1,D
+SC0,10/09/2016,Dundee,Kilmarnock,1,1,D
+SC0,10/12/2016,Aberdeen,ST Johnstone,0,0,D
+SC0,10/12/2016,Dundee,Ross County,0,0,D
+SC0,10/12/2016,Motherwell,Kilmarnock,0,0,D
+SC0,10/12/2016,Rangers,Heart Of Midlothian,2,0,H
+SC0,10/12/2016,Inverness CT,Hamilton Academical,1,1,D
+SC0,11/02/2017,Dundee,Kilmarnock,1,1,D
+SC0,11/03/2017,Ross County,Kilmarnock,1,2,A
+SC0,11/03/2017,Partick,Inverness CT,1,1,D
+SC0,11/03/2017,ST Johnstone,Dundee,2,0,H
+SC0,11/03/2017,Heart Of Midlothian,Hamilton Academical,4,0,H
+SC0,11/03/2017,Aberdeen,Motherwell,1,0,H
+SC0,12/03/2017,Celtic,Rangers,1,1,D
+SC0,12/05/2017,Aberdeen,Celtic,1,3,A
+SC0,13/05/2017,ST Johnstone,Partick,1,0,H
+SC0,13/05/2017,Rangers,Heart Of Midlothian,2,1,H
+SC0,13/05/2017,Hamilton Academical,Motherwell,0,1,A
+SC0,13/05/2017,Kilmarnock,Inverness CT,2,1,H
+SC0,13/05/2017,Dundee,Ross County,1,1,D
+SC0,13/08/2016,Inverness CT,Ross County,2,3,A
+SC0,13/08/2016,Motherwell,ST Johnstone,1,2,A
+SC0,13/08/2016,Aberdeen,Heart Of Midlothian,0,0,D
+SC0,13/08/2016,Hamilton Academical,Kilmarnock,1,2,A
+SC0,13/08/2016,Dundee,Rangers,1,2,A
+SC0,13/12/2016,Celtic,Hamilton Academical,1,0,H
+SC0,14/04/2017,Kilmarnock,Heart Of Midlothian,0,0,D
+SC0,14/10/2016,Inverness CT,Rangers,0,1,A
+SC0,15/02/2017,Aberdeen,Motherwell,7,2,H
+SC0,15/04/2017,Dundee,Hamilton Academical,0,2,A
+SC0,15/04/2017,Motherwell,Inverness CT,4,2,H
+SC0,15/04/2017,Rangers,Partick,2,0,H
+SC0,15/04/2017,ST Johnstone,Aberdeen,1,2,A
+SC0,15/10/2016,Celtic,Motherwell,2,0,H
+SC0,15/10/2016,Heart Of Midlothian,Dundee,2,0,H
+SC0,15/10/2016,ST Johnstone,Kilmarnock,0,1,A
+SC0,15/10/2016,Partick,Hamilton Academical,2,2,D
+SC0,15/10/2016,Aberdeen,Ross County,4,0,H
+SC0,16/04/2017,Ross County,Celtic,2,2,D
+SC0,16/05/2017,Ross County,Hamilton Academical,3,2,H
+SC0,16/05/2017,Motherwell,Kilmarnock,3,1,H
+SC0,16/12/2016,Hamilton Academical,Rangers,1,2,A
+SC0,17/05/2017,Dundee,Inverness CT,0,2,A
+SC0,17/05/2017,Rangers,Aberdeen,1,2,A
+SC0,17/05/2017,ST Johnstone,Heart Of Midlothian,1,0,H
+SC0,17/09/2016,ST Johnstone,Heart Of Midlothian,1,0,H
+SC0,17/09/2016,Rangers,Ross County,0,0,D
+SC0,17/09/2016,Kilmarnock,Partick,2,2,D
+SC0,17/09/2016,Motherwell,Hamilton Academical,4,2,H
+SC0,17/12/2016,Ross County,Aberdeen,2,1,H
+SC0,17/12/2016,ST Johnstone,Motherwell,1,1,D
+SC0,17/12/2016,Heart Of Midlothian,Partick,1,1,D
+SC0,17/12/2016,Kilmarnock,Inverness CT,1,1,D
+SC0,17/12/2016,Celtic,Dundee,2,1,H
+SC0,18/02/2017,Celtic,Motherwell,2,0,H
+SC0,18/02/2017,Heart Of Midlothian,Inverness CT,1,1,D
+SC0,18/02/2017,Partick,Hamilton Academical,2,0,H
+SC0,18/02/2017,Ross County,ST Johnstone,1,2,A
+SC0,18/03/2017,Kilmarnock,Partick,1,1,D
+SC0,18/03/2017,Aberdeen,Heart Of Midlothian,2,0,H
+SC0,18/03/2017,Motherwell,ST Johnstone,1,2,A
+SC0,18/03/2017,Rangers,Hamilton Academical,4,0,H
+SC0,18/03/2017,Inverness CT,Ross County,1,1,D
+SC0,18/05/2017,Partick,Celtic,0,5,A
+SC0,18/09/2016,Inverness CT,Celtic,2,2,D
+SC0,18/09/2016,Dundee,Aberdeen,1,3,A
+SC0,18/11/2016,Kilmarnock,Celtic,0,1,A
+SC0,19/02/2017,Kilmarnock,Aberdeen,1,2,A
+SC0,19/02/2017,Dundee,Rangers,2,1,H
+SC0,19/03/2017,Dundee,Celtic,1,2,A
+SC0,19/08/2016,Dundee,Hamilton Academical,1,1,D
+SC0,19/11/2016,Inverness CT,Aberdeen,1,3,A
+SC0,19/11/2016,ST Johnstone,Ross County,2,4,A
+SC0,19/11/2016,Rangers,Dundee,1,0,H
+SC0,19/11/2016,Motherwell,Partick,2,0,H
+SC0,20/05/2017,Kilmarnock,Ross County,1,2,A
+SC0,20/05/2017,Hamilton Academical,Dundee,4,0,H
+SC0,20/05/2017,Inverness CT,Motherwell,3,2,H
+SC0,20/08/2016,Ross County,Kilmarnock,2,0,H
+SC0,20/08/2016,Rangers,Motherwell,2,1,H
+SC0,20/08/2016,Heart Of Midlothian,Inverness CT,5,1,H
+SC0,20/08/2016,ST Johnstone,Celtic,2,4,A
+SC0,20/08/2016,Aberdeen,Partick,2,1,H
+SC0,20/12/2016,Celtic,Partick,1,0,H
+SC0,21/05/2017,Celtic,Heart Of Midlothian,2,0,H
+SC0,21/05/2017,Partick,Aberdeen,0,6,A
+SC0,21/05/2017,ST Johnstone,Rangers,1,2,A
+SC0,21/11/2016,Hamilton Academical,Heart Of Midlothian,3,3,D
+SC0,22/10/2016,Inverness CT,Kilmarnock,1,1,D
+SC0,22/10/2016,Partick,Ross County,1,1,D
+SC0,23/10/2016,ST Johnstone,Dundee,2,1,H
+SC0,23/12/2016,Dundee,Heart Of Midlothian,3,2,H
+SC0,23/12/2016,Kilmarnock,ST Johnstone,0,1,A
+SC0,23/12/2016,Ross County,Partick,1,3,A
+SC0,23/12/2016,Motherwell,Aberdeen,1,3,A
+SC0,24/02/2017,Inverness CT,Rangers,2,1,H
+SC0,24/09/2016,Heart Of Midlothian,Ross County,0,0,D
+SC0,24/09/2016,Inverness CT,Dundee,3,1,H
+SC0,24/09/2016,Celtic,Kilmarnock,6,1,H
+SC0,24/09/2016,Partick,Motherwell,1,1,D
+SC0,24/12/2016,Rangers,Inverness CT,1,0,H
+SC0,24/12/2016,Hamilton Academical,Celtic,0,3,A
+SC0,25/01/2017,Celtic,ST Johnstone,1,0,H
+SC0,25/02/2017,Celtic,Hamilton Academical,2,0,H
+SC0,25/02/2017,Aberdeen,Ross County,1,0,H
+SC0,25/02/2017,Partick,Heart Of Midlothian,2,0,H
+SC0,25/02/2017,ST Johnstone,Kilmarnock,0,2,A
+SC0,25/02/2017,Motherwell,Dundee,1,5,A
+SC0,25/09/2016,Hamilton Academical,ST Johnstone,1,1,D
+SC0,25/09/2016,Aberdeen,Rangers,2,1,H
+SC0,25/10/2016,Hamilton Academical,Aberdeen,1,0,H
+SC0,26/08/2016,Kilmarnock,Rangers,1,1,D
+SC0,26/10/2016,Motherwell,Inverness CT,0,3,A
+SC0,26/10/2016,Rangers,ST Johnstone,1,1,D
+SC0,26/10/2016,Ross County,Celtic,0,4,A
+SC0,26/10/2016,Kilmarnock,Heart Of Midlothian,2,0,H
+SC0,26/10/2016,Dundee,Partick,0,2,A
+SC0,26/11/2016,Partick,Rangers,1,2,A
+SC0,26/11/2016,Heart Of Midlothian,Motherwell,3,0,H
+SC0,26/11/2016,Ross County,Hamilton Academical,1,1,D
+SC0,26/11/2016,Dundee,Inverness CT,2,1,H
+SC0,27/01/2017,Aberdeen,Dundee,3,0,H
+SC0,27/08/2016,Celtic,Aberdeen,4,1,H
+SC0,27/08/2016,Hamilton Academical,Ross County,1,0,H
+SC0,27/08/2016,Motherwell,Dundee,0,0,D
+SC0,27/08/2016,Partick,Heart Of Midlothian,1,2,A
+SC0,27/08/2016,Inverness CT,ST Johnstone,2,1,H
+SC0,27/12/2016,Aberdeen,Hamilton Academical,2,1,H
+SC0,27/12/2016,Heart Of Midlothian,Kilmarnock,4,0,H
+SC0,28/01/2017,Motherwell,Rangers,0,2,A
+SC0,28/01/2017,ST Johnstone,Hamilton Academical,3,0,H
+SC0,28/01/2017,Inverness CT,Partick,0,0,D
+SC0,28/01/2017,Kilmarnock,Ross County,3,2,H
+SC0,28/02/2017,Hamilton Academical,Aberdeen,1,0,H
+SC0,28/04/2017,Ross County,Inverness CT,4,0,H
+SC0,28/12/2016,Celtic,Ross County,2,0,H
+SC0,28/12/2016,Partick,Dundee,2,0,H
+SC0,28/12/2016,Inverness CT,Motherwell,1,2,A
+SC0,28/12/2016,ST Johnstone,Rangers,1,1,D
+SC0,29/01/2017,Celtic,Heart Of Midlothian,4,0,H
+SC0,29/04/2017,Motherwell,Dundee,2,3,A
+SC0,29/04/2017,Aberdeen,ST Johnstone,0,2,A
+SC0,29/04/2017,Hamilton Academical,Kilmarnock,0,2,A
+SC0,29/04/2017,Rangers,Celtic,1,5,A
+SC0,29/04/2017,Heart Of Midlothian,Partick,2,2,D
+SC0,29/10/2016,Inverness CT,Heart Of Midlothian,3,3,D
+SC0,29/10/2016,Motherwell,Ross County,4,1,H
+SC0,29/10/2016,ST Johnstone,Partick,1,2,A
+SC0,29/10/2016,Rangers,Kilmarnock,3,0,H
+SC0,29/10/2016,Aberdeen,Celtic,0,1,A
+SC0,29/10/2016,Hamilton Academical,Dundee,0,1,A
+SC0,30/09/2016,Motherwell,Heart Of Midlothian,1,3,A
+SC0,30/11/2016,Heart Of Midlothian,Rangers,2,0,H
+SC0,30/12/2016,Heart Of Midlothian,Aberdeen,0,1,A
+SC0,31/01/2017,Hamilton Academical,Inverness CT,3,0,H
+SC0,31/01/2017,Ross County,Motherwell,1,2,A
+SC0,31/03/2017,Dundee,Aberdeen,0,7,A
+SC0,31/12/2016,Ross County,Inverness CT,3,2,H
+SC0,31/12/2016,Partick,Kilmarnock,0,0,D
+SC0,31/12/2016,Dundee,ST Johnstone,3,0,H
+SC0,31/12/2016,Rangers,Celtic,1,2,A
+SC0,31/12/2016,Hamilton Academical,Motherwell,1,1,D

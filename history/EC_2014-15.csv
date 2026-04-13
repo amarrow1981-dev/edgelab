@@ -1,0 +1,551 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2015,Braintree,Dartford,3,0,H
+EC,01/01/2015,Kidderminster,Forest Green,2,4,A
+EC,01/01/2015,AFC Telford United,Nuneaton Town,0,0,D
+EC,01/01/2015,Woking,Eastleigh,1,1,D
+EC,01/01/2015,Barnet,Aldershot,1,0,H
+EC,01/01/2015,Grimsby,Macclesfield,1,2,A
+EC,01/01/2015,Bristol Rvs,Torquay,1,1,D
+EC,01/01/2015,Altrincham,Chester,4,1,H
+EC,01/01/2015,Welling United,Dover,0,2,A
+EC,01/11/2014,Kidderminster,Torquay,2,1,H
+EC,01/11/2014,Altrincham,Alfreton Town,0,1,A
+EC,01/11/2014,Welling United,Barnet,1,2,A
+EC,01/11/2014,Nuneaton Town,Macclesfield,1,1,D
+EC,01/11/2014,Wrexham,FC Halifax Town,0,0,D
+EC,01/11/2014,Grimsby,Dartford,3,0,H
+EC,01/11/2014,Forest Green,Lincoln,3,3,D
+EC,01/11/2014,Aldershot,Gateshead,1,2,A
+EC,01/11/2014,Eastleigh,Chester,3,2,H
+EC,01/11/2014,AFC Telford United,Bristol Rvs,0,1,A
+EC,01/11/2014,Southport,Dover,2,2,D
+EC,01/11/2014,Braintree,Woking,0,0,D
+EC,02/12/2014,Alfreton Town,Gateshead,1,2,A
+EC,02/12/2014,FC Halifax Town,Forest Green,1,0,H
+EC,02/12/2014,Wrexham,Bristol Rvs,0,0,D
+EC,02/12/2014,Dover,Torquay,2,2,D
+EC,02/12/2014,Eastleigh,Dartford,2,0,H
+EC,02/12/2014,Kidderminster,Nuneaton Town,3,1,H
+EC,02/12/2014,Chester,AFC Telford United,2,0,H
+EC,02/12/2014,Woking,Altrincham,2,0,H
+EC,03/03/2015,Aldershot,Dover,3,1,H
+EC,03/03/2015,Dartford,Woking,1,3,A
+EC,03/03/2015,Braintree,Macclesfield,0,1,A
+EC,03/03/2015,Southport,FC Halifax Town,1,0,H
+EC,03/03/2015,Gateshead,Wrexham,3,1,H
+EC,03/04/2015,Bristol Rvs,Chester,5,1,H
+EC,03/04/2015,Braintree,Lincoln,1,3,A
+EC,03/04/2015,FC Halifax Town,Macclesfield,2,2,D
+EC,03/04/2015,Forest Green,Aldershot,1,3,A
+EC,03/04/2015,Altrincham,Southport,2,0,H
+EC,04/01/2015,Torquay,Alfreton Town,1,1,D
+EC,04/01/2015,Dartford,Kidderminster,1,2,A
+EC,04/01/2015,Nuneaton Town,Bristol Rvs,0,2,A
+EC,04/01/2015,Lincoln,Barnet,4,1,H
+EC,04/01/2015,Forest Green,Welling United,4,1,H
+EC,04/01/2015,Aldershot,AFC Telford United,1,2,A
+EC,04/01/2015,Eastleigh,Altrincham,0,2,A
+EC,04/01/2015,Chester,Braintree,2,3,A
+EC,04/04/2015,AFC Telford United,Kidderminster,1,1,D
+EC,04/04/2015,Wrexham,Alfreton Town,4,0,H
+EC,04/04/2015,Woking,Welling United,2,2,D
+EC,04/04/2015,Torquay,Dartford,1,1,D
+EC,04/04/2015,Eastleigh,Dover,0,1,A
+EC,04/04/2015,Barnet,Nuneaton Town,1,0,H
+EC,04/04/2015,Grimsby,Gateshead,2,2,D
+EC,04/10/2014,Barnet,Eastleigh,1,0,H
+EC,04/10/2014,Bristol Rvs,Dover,1,1,D
+EC,04/10/2014,Macclesfield,Forest Green,2,2,D
+EC,04/10/2014,Aldershot,Alfreton Town,2,0,H
+EC,04/10/2014,Chester,Welling United,1,1,D
+EC,04/10/2014,Gateshead,Braintree,3,1,H
+EC,04/10/2014,Southport,Woking,2,5,A
+EC,04/10/2014,Torquay,Wrexham,2,1,H
+EC,04/10/2014,FC Halifax Town,Altrincham,1,3,A
+EC,04/10/2014,Nuneaton Town,Lincoln,2,1,H
+EC,04/10/2014,Kidderminster,AFC Telford United,1,1,D
+EC,04/10/2014,Dartford,Grimsby,1,1,D
+EC,04/11/2014,Braintree,Grimsby,0,1,A
+EC,04/11/2014,Lincoln,Altrincham,1,2,A
+EC,06/04/2015,Dover,Woking,2,1,H
+EC,06/04/2015,Dartford,Barnet,0,1,A
+EC,06/04/2015,Macclesfield,Wrexham,2,2,D
+EC,06/04/2015,Aldershot,Torquay,2,0,H
+EC,06/04/2015,Nuneaton Town,Braintree,0,1,A
+EC,06/04/2015,Welling United,Eastleigh,1,2,A
+EC,06/04/2015,Kidderminster,Bristol Rvs,0,3,A
+EC,06/04/2015,Chester,Forest Green,1,4,A
+EC,06/04/2015,Gateshead,Altrincham,1,0,H
+EC,06/04/2015,Southport,AFC Telford United,0,3,A
+EC,06/04/2015,Alfreton Town,Grimsby,0,2,A
+EC,06/04/2015,Lincoln,FC Halifax Town,1,1,D
+EC,06/09/2014,Altrincham,Dartford,2,1,H
+EC,06/09/2014,Kidderminster,Gateshead,2,1,H
+EC,06/09/2014,Torquay,Nuneaton Town,4,0,H
+EC,06/09/2014,FC Halifax Town,Aldershot,1,0,H
+EC,06/09/2014,Woking,Lincoln,3,1,H
+EC,06/09/2014,Braintree,Bristol Rvs,2,0,H
+EC,06/09/2014,AFC Telford United,Dover,1,4,A
+EC,06/09/2014,Eastleigh,Southport,2,1,H
+EC,06/09/2014,Chester,Macclesfield,1,0,H
+EC,06/09/2014,Forest Green,Wrexham,0,1,A
+EC,06/09/2014,Barnet,Alfreton Town,2,1,H
+EC,06/09/2014,Grimsby,Welling United,2,0,H
+EC,06/12/2014,Nuneaton Town,Alfreton Town,0,1,A
+EC,06/12/2014,Welling United,Bristol Rvs,0,0,D
+EC,06/12/2014,Forest Green,Altrincham,1,1,D
+EC,06/12/2014,Macclesfield,Woking,2,1,H
+EC,06/12/2014,Torquay,Barnet,1,2,A
+EC,07/01/2015,Gateshead,Woking,0,0,D
+EC,07/02/2015,Alfreton Town,Southport,4,2,H
+EC,07/02/2015,Eastleigh,AFC Telford United,3,3,D
+EC,07/02/2015,Altrincham,Aldershot,1,0,H
+EC,07/02/2015,Forest Green,Grimsby,2,1,H
+EC,07/02/2015,Macclesfield,Welling United,3,2,H
+EC,07/02/2015,Bristol Rvs,Lincoln,2,0,H
+EC,07/02/2015,Barnet,Woking,2,1,H
+EC,07/03/2015,Dover,Lincoln,1,2,A
+EC,07/03/2015,Torquay,AFC Telford United,0,1,A
+EC,07/03/2015,Southport,Nuneaton Town,0,0,D
+EC,07/03/2015,Macclesfield,Aldershot,0,0,D
+EC,07/03/2015,Barnet,Forest Green,1,3,A
+EC,07/03/2015,Bristol Rvs,Eastleigh,1,2,A
+EC,07/03/2015,Wrexham,Chester,1,0,H
+EC,07/03/2015,Woking,Grimsby,1,2,A
+EC,07/03/2015,Alfreton Town,Kidderminster,2,0,H
+EC,07/03/2015,Braintree,Gateshead,1,0,H
+EC,07/03/2015,FC Halifax Town,Dartford,0,0,D
+EC,07/10/2014,Macclesfield,Barnet,2,1,H
+EC,07/10/2014,Chester,Aldershot,1,0,H
+EC,07/10/2014,Gateshead,Alfreton Town,2,0,H
+EC,07/10/2014,Southport,Lincoln,3,3,D
+EC,07/10/2014,FC Halifax Town,Wrexham,2,2,D
+EC,07/10/2014,AFC Telford United,Forest Green,0,1,A
+EC,07/10/2014,Nuneaton Town,Dover,3,2,H
+EC,07/10/2014,Grimsby,Altrincham,0,0,D
+EC,07/10/2014,Bristol Rvs,Dartford,1,0,H
+EC,08/03/2015,Welling United,Altrincham,0,1,A
+EC,08/10/2014,Kidderminster,Welling United,2,1,H
+EC,09/08/2014,Bristol Rvs,Grimsby,0,0,D
+EC,09/08/2014,Lincoln,Kidderminster,0,0,D
+EC,09/08/2014,Nuneaton Town,Eastleigh,0,3,A
+EC,09/08/2014,Welling United,AFC Telford United,1,1,D
+EC,09/08/2014,Dartford,Wrexham,1,2,A
+EC,09/08/2014,Macclesfield,Braintree,1,0,H
+EC,09/08/2014,Aldershot,Altrincham,3,1,H
+EC,09/08/2014,Chester,Barnet,0,5,A
+EC,09/08/2014,Alfreton Town,Woking,1,3,A
+EC,09/08/2014,Southport,Forest Green,0,1,A
+EC,09/08/2014,Dover,FC Halifax Town,0,1,A
+EC,09/08/2014,Gateshead,Torquay,3,1,H
+EC,09/09/2014,Nuneaton Town,Forest Green,1,0,H
+EC,09/09/2014,Lincoln,Grimsby,3,2,H
+EC,09/09/2014,Bristol Rvs,Wrexham,1,0,H
+EC,09/09/2014,Southport,Kidderminster,1,0,H
+EC,09/09/2014,Gateshead,AFC Telford United,4,1,H
+EC,09/09/2014,Chester,Torquay,0,2,A
+EC,09/09/2014,Alfreton Town,Altrincham,1,1,D
+EC,09/09/2014,Dartford,Eastleigh,2,2,D
+EC,09/09/2014,Welling United,Braintree,2,1,H
+EC,09/09/2014,Macclesfield,FC Halifax Town,1,1,D
+EC,09/09/2014,Aldershot,Woking,0,1,A
+EC,09/12/2014,AFC Telford United,Welling United,1,2,A
+EC,09/12/2014,Torquay,FC Halifax Town,2,1,H
+EC,09/12/2014,Lincoln,Nuneaton Town,3,1,H
+EC,09/12/2014,Forest Green,Woking,2,1,H
+EC,10/01/2015,Eastleigh,Lincoln,4,0,H
+EC,10/02/2015,Southport,Eastleigh,1,2,A
+EC,10/02/2015,Macclesfield,Altrincham,2,1,H
+EC,10/02/2015,Alfreton Town,Forest Green,2,2,D
+EC,10/03/2015,Torquay,Chester,0,1,A
+EC,10/03/2015,Wrexham,Southport,0,0,D
+EC,10/03/2015,Kidderminster,Eastleigh,1,3,A
+EC,10/03/2015,Gateshead,Welling United,1,1,D
+EC,10/03/2015,Aldershot,FC Halifax Town,1,1,D
+EC,10/03/2015,Macclesfield,AFC Telford United,1,0,H
+EC,10/09/2014,Dover,Barnet,0,3,A
+EC,10/12/2014,Gateshead,Southport,1,1,D
+EC,10/12/2014,Aldershot,Macclesfield,0,1,A
+EC,10/12/2014,Alfreton Town,Eastleigh,3,2,H
+EC,11/04/2015,Torquay,Altrincham,2,0,H
+EC,11/04/2015,Forest Green,Macclesfield,3,1,H
+EC,11/04/2015,Chester,Dover,3,1,H
+EC,11/04/2015,Braintree,Aldershot,1,1,D
+EC,11/04/2015,Welling United,Kidderminster,3,0,H
+EC,11/04/2015,Barnet,FC Halifax Town,3,0,H
+EC,11/04/2015,Eastleigh,Alfreton Town,3,1,H
+EC,11/04/2015,Bristol Rvs,Southport,2,0,H
+EC,11/04/2015,Dartford,Nuneaton Town,3,1,H
+EC,11/04/2015,AFC Telford United,Lincoln,1,0,H
+EC,11/04/2015,Woking,Gateshead,3,0,H
+EC,11/04/2015,Grimsby,Wrexham,0,1,A
+EC,11/10/2014,Alfreton Town,Torquay,4,2,H
+EC,11/10/2014,Welling United,Nuneaton Town,4,1,H
+EC,11/10/2014,Altrincham,Woking,0,3,A
+EC,11/10/2014,Dartford,Macclesfield,1,1,D
+EC,11/10/2014,Wrexham,Grimsby,0,1,A
+EC,11/10/2014,Dover,Chester,2,0,H
+EC,11/10/2014,Eastleigh,FC Halifax Town,4,1,H
+EC,11/10/2014,Aldershot,Bristol Rvs,2,2,D
+EC,11/10/2014,Lincoln,AFC Telford United,2,0,H
+EC,11/10/2014,Forest Green,Gateshead,1,1,D
+EC,11/10/2014,Barnet,Kidderminster,3,3,D
+EC,11/10/2014,Braintree,Southport,0,2,A
+EC,11/11/2014,Forest Green,Eastleigh,1,1,D
+EC,11/11/2014,Grimsby,FC Halifax Town,1,0,H
+EC,11/11/2014,Macclesfield,Chester,3,1,H
+EC,11/11/2014,Gateshead,Lincoln,3,3,D
+EC,11/11/2014,Alfreton Town,Bristol Rvs,0,0,D
+EC,11/11/2014,Dartford,Welling United,2,1,H
+EC,11/11/2014,Barnet,Torquay,2,3,A
+EC,11/11/2014,Dover,Braintree,1,0,H
+EC,12/08/2014,Braintree,Dover,3,0,H
+EC,12/08/2014,Grimsby,Nuneaton Town,0,0,D
+EC,12/08/2014,Barnet,Bristol Rvs,2,0,H
+EC,12/08/2014,Torquay,Welling United,3,0,H
+EC,12/08/2014,Kidderminster,Alfreton Town,3,0,H
+EC,12/08/2014,AFC Telford United,Macclesfield,2,3,A
+EC,12/08/2014,FC Halifax Town,Southport,3,1,H
+EC,12/08/2014,Wrexham,Gateshead,0,3,A
+EC,12/08/2014,Altrincham,Lincoln,1,2,A
+EC,12/08/2014,Forest Green,Chester,2,1,H
+EC,12/08/2014,Woking,Dartford,1,1,D
+EC,12/11/2014,Kidderminster,Aldershot,0,2,A
+EC,12/11/2014,AFC Telford United,Altrincham,2,1,H
+EC,12/11/2014,Woking,Wrexham,1,1,D
+EC,13/01/2015,Dartford,FC Halifax Town,1,2,A
+EC,13/09/2014,Gateshead,Dartford,1,0,H
+EC,13/09/2014,Altrincham,Eastleigh,3,3,D
+EC,13/09/2014,AFC Telford United,Barnet,2,2,D
+EC,13/09/2014,Lincoln,Bristol Rvs,2,3,A
+EC,13/09/2014,Woking,Chester,1,0,H
+EC,13/09/2014,Braintree,Kidderminster,2,0,H
+EC,13/09/2014,Dover,Macclesfield,0,1,A
+EC,13/09/2014,Southport,Alfreton Town,0,2,A
+EC,13/09/2014,Grimsby,Torquay,0,2,A
+EC,13/09/2014,Forest Green,FC Halifax Town,2,0,H
+EC,13/09/2014,Wrexham,Welling United,2,1,H
+EC,13/09/2014,Nuneaton Town,Aldershot,1,1,D
+EC,14/02/2015,Altrincham,Forest Green,2,2,D
+EC,14/02/2015,Grimsby,Bristol Rvs,0,1,A
+EC,14/02/2015,Lincoln,Chester,0,1,A
+EC,14/02/2015,Kidderminster,Woking,1,1,D
+EC,14/02/2015,AFC Telford United,Dartford,2,3,A
+EC,14/02/2015,Aldershot,Welling United,2,1,H
+EC,14/02/2015,Braintree,Alfreton Town,2,1,H
+EC,14/02/2015,Gateshead,Nuneaton Town,1,2,A
+EC,14/02/2015,Eastleigh,Torquay,1,2,A
+EC,14/02/2015,Southport,Macclesfield,1,1,D
+EC,14/02/2015,Wrexham,Barnet,1,0,H
+EC,14/02/2015,FC Halifax Town,Dover,3,2,H
+EC,14/03/2015,Dartford,Alfreton Town,0,1,A
+EC,14/03/2015,Gateshead,Macclesfield,2,1,H
+EC,14/03/2015,Kidderminster,Dover,0,2,A
+EC,14/03/2015,Altrincham,Wrexham,1,4,A
+EC,14/03/2015,Nuneaton Town,Torquay,0,0,D
+EC,14/03/2015,Eastleigh,Barnet,1,2,A
+EC,14/03/2015,FC Halifax Town,Bristol Rvs,2,2,D
+EC,14/03/2015,AFC Telford United,Woking,1,3,A
+EC,14/03/2015,Chester,Grimsby,2,2,D
+EC,14/03/2015,Forest Green,Braintree,1,1,D
+EC,14/03/2015,Lincoln,Welling United,0,2,A
+EC,14/03/2015,Aldershot,Southport,1,2,A
+EC,14/04/2015,FC Halifax Town,Eastleigh,0,2,A
+EC,14/04/2015,Welling United,Wrexham,2,1,H
+EC,14/04/2015,Southport,Braintree,0,2,A
+EC,14/04/2015,Torquay,Lincoln,1,0,H
+EC,14/08/2014,Eastleigh,Aldershot,1,0,H
+EC,15/11/2014,Alfreton Town,Dover,2,3,A
+EC,15/11/2014,Dartford,Southport,1,1,D
+EC,15/11/2014,Altrincham,Grimsby,1,1,D
+EC,15/11/2014,Welling United,Macclesfield,0,0,D
+EC,15/11/2014,Bristol Rvs,Kidderminster,1,1,D
+EC,15/11/2014,Barnet,AFC Telford United,3,1,H
+EC,15/11/2014,Torquay,Forest Green,3,3,D
+EC,15/11/2014,Chester,Gateshead,1,0,H
+EC,15/11/2014,Aldershot,Nuneaton Town,1,0,H
+EC,15/11/2014,Braintree,Wrexham,1,0,H
+EC,16/08/2014,FC Halifax Town,Welling United,3,0,H
+EC,16/08/2014,Barnet,Lincoln,1,2,A
+EC,16/08/2014,Forest Green,Alfreton Town,2,0,H
+EC,16/08/2014,Eastleigh,Gateshead,2,2,D
+EC,16/08/2014,Torquay,Southport,0,0,D
+EC,16/08/2014,Braintree,Chester,1,3,A
+EC,16/08/2014,Woking,Macclesfield,0,0,D
+EC,16/08/2014,Altrincham,Bristol Rvs,2,1,H
+EC,16/08/2014,Kidderminster,Dartford,1,0,H
+EC,16/08/2014,Grimsby,Dover,1,1,D
+EC,16/08/2014,Wrexham,Nuneaton Town,1,0,H
+EC,16/09/2014,Welling United,Lincoln,2,0,H
+EC,16/09/2014,Eastleigh,Forest Green,2,2,D
+EC,16/09/2014,Chester,Southport,2,0,H
+EC,16/09/2014,Aldershot,Braintree,1,3,A
+EC,16/09/2014,Macclesfield,Gateshead,1,1,D
+EC,16/09/2014,Bristol Rvs,Nuneaton Town,3,1,H
+EC,16/09/2014,Kidderminster,Altrincham,4,0,H
+EC,16/09/2014,Dartford,Dover,2,1,H
+EC,16/09/2014,Alfreton Town,AFC Telford United,3,2,H
+EC,16/09/2014,FC Halifax Town,Grimsby,1,1,D
+EC,16/09/2014,Barnet,Wrexham,0,1,A
+EC,16/09/2014,Torquay,Woking,1,0,H
+EC,16/11/2014,FC Halifax Town,Woking,1,3,A
+EC,17/01/2015,Nuneaton Town,Gateshead,0,2,A
+EC,17/01/2015,Kidderminster,Macclesfield,0,2,A
+EC,17/01/2015,Altrincham,Torquay,2,1,H
+EC,17/01/2015,Wrexham,AFC Telford United,0,4,A
+EC,17/01/2015,Woking,Bristol Rvs,0,0,D
+EC,17/01/2015,Braintree,Forest Green,1,2,A
+EC,17/01/2015,Dover,Dartford,6,1,H
+EC,17/01/2015,Grimsby,Barnet,3,1,H
+EC,17/01/2015,Welling United,Alfreton Town,2,3,A
+EC,17/01/2015,Lincoln,Aldershot,3,0,H
+EC,17/01/2015,Southport,Chester,0,0,D
+EC,17/03/2015,Dover,Altrincham,2,1,H
+EC,17/03/2015,Alfreton Town,Lincoln,0,0,D
+EC,17/03/2015,AFC Telford United,Gateshead,0,1,A
+EC,17/03/2015,Torquay,Braintree,1,5,A
+EC,17/03/2015,Eastleigh,Wrexham,2,2,D
+EC,17/03/2015,Chester,Dartford,1,2,A
+EC,17/03/2015,FC Halifax Town,Barnet,1,1,D
+EC,17/08/2014,AFC Telford United,Aldershot,0,2,A
+EC,18/04/2015,FC Halifax Town,Torquay,0,2,A
+EC,18/04/2015,Wrexham,Braintree,3,0,H
+EC,18/04/2015,Dover,Bristol Rvs,1,1,D
+EC,18/04/2015,Southport,Grimsby,2,2,D
+EC,18/04/2015,Gateshead,Forest Green,2,4,A
+EC,18/04/2015,Aldershot,Chester,0,1,A
+EC,18/04/2015,Macclesfield,Dartford,2,0,H
+EC,18/04/2015,Lincoln,Eastleigh,1,2,A
+EC,18/04/2015,Kidderminster,Barnet,1,1,D
+EC,18/04/2015,Altrincham,AFC Telford United,1,2,A
+EC,18/04/2015,Nuneaton Town,Woking,1,1,D
+EC,18/04/2015,Alfreton Town,Welling United,2,2,D
+EC,18/10/2014,Dartford,Aldershot,1,1,D
+EC,18/10/2014,FC Halifax Town,Kidderminster,2,0,H
+EC,18/10/2014,Woking,AFC Telford United,1,3,A
+EC,18/10/2014,Torquay,Grimsby,2,3,A
+EC,18/10/2014,Southport,Welling United,1,0,H
+EC,18/10/2014,Gateshead,Barnet,0,2,A
+EC,18/10/2014,Altrincham,Braintree,1,0,H
+EC,18/10/2014,Chester,Alfreton Town,2,1,H
+EC,18/10/2014,Lincoln,Wrexham,1,1,D
+EC,18/10/2014,Bristol Rvs,Forest Green,0,1,A
+EC,18/10/2014,Eastleigh,Nuneaton Town,2,1,H
+EC,18/10/2014,Macclesfield,Dover,1,0,H
+EC,19/12/2014,Bristol Rvs,Gateshead,3,2,H
+EC,19/12/2014,Grimsby,Forest Green,2,1,H
+EC,20/01/2015,Aldershot,Kidderminster,0,1,A
+EC,20/01/2015,Dover,Wrexham,2,0,H
+EC,20/03/2015,Bristol Rvs,Aldershot,3,1,H
+EC,20/09/2014,Aldershot,Lincoln,1,0,H
+EC,20/09/2014,FC Halifax Town,AFC Telford United,5,0,H
+EC,20/09/2014,Torquay,Dover,2,0,H
+EC,20/09/2014,Bristol Rvs,Woking,2,0,H
+EC,20/09/2014,Eastleigh,Braintree,1,0,H
+EC,20/09/2014,Barnet,Altrincham,5,0,H
+EC,20/09/2014,Welling United,Gateshead,1,1,D
+EC,20/09/2014,Kidderminster,Grimsby,0,1,A
+EC,20/09/2014,Macclesfield,Southport,3,0,H
+EC,20/09/2014,Dartford,Forest Green,1,2,A
+EC,20/09/2014,Alfreton Town,Nuneaton Town,1,0,H
+EC,20/12/2014,Barnet,Chester,3,0,H
+EC,20/12/2014,Braintree,Torquay,2,0,H
+EC,20/12/2014,Woking,Southport,1,2,A
+EC,20/12/2014,Wrexham,Dartford,1,3,A
+EC,20/12/2014,FC Halifax Town,Nuneaton Town,2,0,H
+EC,20/12/2014,Alfreton Town,Macclesfield,1,5,A
+EC,20/12/2014,AFC Telford United,Eastleigh,3,4,A
+EC,20/12/2014,Kidderminster,Lincoln,2,1,H
+EC,20/12/2014,Altrincham,Dover,2,2,D
+EC,20/12/2014,Welling United,Aldershot,3,1,H
+EC,21/02/2015,Chester,Eastleigh,0,1,A
+EC,21/02/2015,Alfreton Town,Aldershot,2,3,A
+EC,21/02/2015,Forest Green,AFC Telford United,3,0,H
+EC,21/02/2015,Bristol Rvs,Altrincham,1,0,H
+EC,21/02/2015,FC Halifax Town,Braintree,1,0,H
+EC,21/02/2015,Nuneaton Town,Kidderminster,0,0,D
+EC,21/02/2015,Barnet,Grimsby,1,3,A
+EC,21/02/2015,Dover,Southport,2,2,D
+EC,21/03/2015,Grimsby,Eastleigh,2,1,H
+EC,21/03/2015,Altrincham,FC Halifax Town,0,0,D
+EC,21/03/2015,Alfreton Town,Chester,1,1,D
+EC,21/03/2015,Barnet,Welling United,5,0,H
+EC,21/03/2015,Wrexham,Lincoln,1,1,D
+EC,21/03/2015,Macclesfield,Nuneaton Town,0,1,A
+EC,21/03/2015,Woking,Forest Green,1,0,H
+EC,21/03/2015,Dover,Gateshead,1,0,H
+EC,21/03/2015,Torquay,Kidderminster,2,1,H
+EC,21/03/2015,Southport,Dartford,2,0,H
+EC,21/04/2015,Aldershot,Wrexham,1,1,D
+EC,21/10/2014,Barnet,Braintree,3,0,H
+EC,22/08/2014,Aldershot,Forest Green,1,1,D
+EC,22/09/2014,Chester,Wrexham,2,1,H
+EC,22/11/2014,AFC Telford United,Braintree,1,3,A
+EC,22/11/2014,Chester,Bristol Rvs,2,2,D
+EC,22/11/2014,Dover,Forest Green,0,0,D
+EC,22/11/2014,Wrexham,Altrincham,2,3,A
+EC,22/11/2014,Woking,Barnet,1,1,D
+EC,22/11/2014,Torquay,Gateshead,2,2,D
+EC,22/11/2014,Aldershot,Eastleigh,0,2,A
+EC,22/11/2014,Grimsby,Kidderminster,0,2,A
+EC,22/11/2014,Lincoln,Dartford,1,0,H
+EC,22/11/2014,Nuneaton Town,Southport,2,3,A
+EC,22/11/2014,Macclesfield,Alfreton Town,2,0,H
+EC,22/11/2014,Welling United,FC Halifax Town,2,1,H
+EC,23/08/2014,Dartford,Torquay,0,0,D
+EC,23/08/2014,Gateshead,Grimsby,1,6,A
+EC,23/08/2014,Lincoln,Braintree,3,2,H
+EC,23/08/2014,Bristol Rvs,AFC Telford United,1,0,H
+EC,23/08/2014,Alfreton Town,Wrexham,2,3,A
+EC,23/08/2014,Dover,Eastleigh,2,1,H
+EC,23/08/2014,Southport,Altrincham,2,1,H
+EC,23/08/2014,Chester,FC Halifax Town,0,3,A
+EC,23/08/2014,Macclesfield,Kidderminster,0,0,D
+EC,23/08/2014,Nuneaton Town,Barnet,0,2,A
+EC,23/08/2014,Welling United,Woking,1,1,D
+EC,24/01/2015,Barnet,Southport,4,0,H
+EC,24/01/2015,Macclesfield,Lincoln,3,0,H
+EC,24/01/2015,Chester,Kidderminster,1,0,H
+EC,24/01/2015,Nuneaton Town,Grimsby,0,2,A
+EC,24/02/2015,Grimsby,AFC Telford United,1,0,H
+EC,24/02/2015,Gateshead,Kidderminster,2,0,H
+EC,24/02/2015,Wrexham,Forest Green,0,0,D
+EC,24/02/2015,Bristol Rvs,Braintree,2,1,H
+EC,24/03/2015,Braintree,AFC Telford United,0,2,A
+EC,24/03/2015,Woking,Torquay,3,2,H
+EC,24/03/2015,FC Halifax Town,Gateshead,2,2,D
+EC,24/03/2015,Alfreton Town,Dartford,0,0,D
+EC,24/03/2015,Nuneaton Town,Wrexham,2,0,H
+EC,24/03/2015,Dover,Grimsby,0,1,A
+EC,25/04/2015,Forest Green,Dover,0,0,D
+EC,25/04/2015,Braintree,Altrincham,4,2,H
+EC,25/04/2015,Eastleigh,Kidderminster,2,1,H
+EC,25/04/2015,Chester,Nuneaton Town,5,3,H
+EC,25/04/2015,Barnet,Gateshead,2,0,H
+EC,25/04/2015,Bristol Rvs,Alfreton Town,7,0,H
+EC,25/04/2015,AFC Telford United,Wrexham,1,2,A
+EC,25/04/2015,Grimsby,Aldershot,3,1,H
+EC,25/04/2015,Welling United,Southport,0,1,A
+EC,25/04/2015,Dartford,Lincoln,0,0,D
+EC,25/08/2014,Eastleigh,Welling United,3,1,H
+EC,25/08/2014,Braintree,Nuneaton Town,2,0,H
+EC,25/08/2014,Woking,Dover,6,1,H
+EC,25/08/2014,Wrexham,Macclesfield,2,2,D
+EC,25/08/2014,FC Halifax Town,Lincoln,3,2,H
+EC,25/08/2014,AFC Telford United,Southport,3,3,D
+EC,25/08/2014,Kidderminster,Chester,2,2,D
+EC,25/08/2014,Altrincham,Gateshead,0,1,A
+EC,25/08/2014,Barnet,Dartford,4,0,H
+EC,25/08/2014,Torquay,Aldershot,1,1,D
+EC,25/08/2014,Forest Green,Bristol Rvs,1,1,D
+EC,25/08/2014,Grimsby,Alfreton Town,7,0,H
+EC,25/11/2014,Kidderminster,Wrexham,1,1,D
+EC,25/11/2014,Dartford,Chester,2,4,A
+EC,25/11/2014,Braintree,Welling United,0,1,A
+EC,25/11/2014,Dover,Nuneaton Town,5,0,H
+EC,25/11/2014,Southport,Aldershot,1,3,A
+EC,25/11/2014,Macclesfield,Torquay,1,0,H
+EC,25/11/2014,Grimsby,Woking,3,1,H
+EC,25/11/2014,Bristol Rvs,Barnet,2,1,H
+EC,26/12/2014,Chester,Altrincham,0,2,A
+EC,26/12/2014,Southport,Wrexham,0,1,A
+EC,26/12/2014,Gateshead,FC Halifax Town,2,2,D
+EC,26/12/2014,Eastleigh,Woking,2,2,D
+EC,26/12/2014,Dartford,Braintree,0,2,A
+EC,26/12/2014,Macclesfield,Grimsby,0,1,A
+EC,26/12/2014,Lincoln,Alfreton Town,3,2,H
+EC,26/12/2014,Aldershot,Barnet,1,3,A
+EC,26/12/2014,Forest Green,Kidderminster,2,3,A
+EC,26/12/2014,Torquay,Bristol Rvs,1,2,A
+EC,26/12/2014,Nuneaton Town,AFC Telford United,4,4,D
+EC,26/12/2014,Dover,Welling United,4,0,H
+EC,27/01/2015,Chester,Lincoln,4,0,H
+EC,27/01/2015,Eastleigh,Grimsby,0,1,A
+EC,27/01/2015,AFC Telford United,FC Halifax Town,0,1,A
+EC,27/09/2014,Nuneaton Town,Dartford,1,2,A
+EC,27/09/2014,Braintree,FC Halifax Town,0,0,D
+EC,27/09/2014,Woking,Kidderminster,2,3,A
+EC,27/09/2014,Wrexham,Eastleigh,3,0,H
+EC,27/09/2014,AFC Telford United,Torquay,4,3,H
+EC,27/09/2014,Altrincham,Welling United,0,4,A
+EC,27/09/2014,Gateshead,Aldershot,1,1,D
+EC,27/09/2014,Dover,Alfreton Town,1,0,H
+EC,27/09/2014,Southport,Bristol Rvs,0,1,A
+EC,27/09/2014,Lincoln,Macclesfield,2,0,H
+EC,27/09/2014,Forest Green,Barnet,1,2,A
+EC,27/09/2014,Grimsby,Chester,3,0,H
+EC,28/02/2015,AFC Telford United,Alfreton Town,0,1,A
+EC,28/02/2015,Gateshead,Bristol Rvs,0,1,A
+EC,28/02/2015,Aldershot,Dartford,1,1,D
+EC,28/02/2015,Lincoln,Woking,0,2,A
+EC,28/02/2015,Forest Green,Southport,5,3,H
+EC,28/02/2015,Grimsby,Braintree,1,0,H
+EC,28/02/2015,Eastleigh,Macclesfield,4,0,H
+EC,28/02/2015,Nuneaton Town,Welling United,1,0,H
+EC,28/02/2015,Kidderminster,FC Halifax Town,0,0,D
+EC,28/02/2015,Altrincham,Barnet,1,3,A
+EC,28/03/2015,Nuneaton Town,FC Halifax Town,1,2,A
+EC,28/03/2015,Welling United,Grimsby,0,2,A
+EC,28/03/2015,Kidderminster,Braintree,3,1,H
+EC,28/03/2015,Dartford,Altrincham,1,2,A
+EC,28/03/2015,Alfreton Town,Barnet,1,1,D
+EC,28/03/2015,Dover,AFC Telford United,1,0,H
+EC,28/03/2015,Southport,Torquay,2,1,H
+EC,28/03/2015,Gateshead,Eastleigh,2,3,A
+EC,28/03/2015,Chester,Woking,2,3,A
+EC,28/03/2015,Lincoln,Forest Green,1,2,A
+EC,28/03/2015,Macclesfield,Bristol Rvs,0,0,D
+EC,28/12/2014,Welling United,Torquay,0,0,D
+EC,28/12/2014,Altrincham,Nuneaton Town,0,1,A
+EC,28/12/2014,Kidderminster,Southport,0,1,A
+EC,28/12/2014,FC Halifax Town,Chester,0,2,A
+EC,28/12/2014,Bristol Rvs,Macclesfield,4,0,H
+EC,28/12/2014,Barnet,Dover,2,2,D
+EC,28/12/2014,Grimsby,Lincoln,1,3,A
+EC,28/12/2014,Woking,Aldershot,1,2,A
+EC,28/12/2014,Braintree,Eastleigh,1,5,A
+EC,29/11/2014,Lincoln,Southport,1,0,H
+EC,29/11/2014,Bristol Rvs,Welling United,2,0,H
+EC,29/11/2014,Barnet,Macclesfield,3,1,H
+EC,29/11/2014,Forest Green,Dartford,2,1,H
+EC,29/11/2014,Gateshead,Dover,1,2,A
+EC,29/11/2014,Nuneaton Town,Chester,3,2,H
+EC,29/11/2014,Woking,Braintree,1,0,H
+EC,29/11/2014,Wrexham,Aldershot,3,1,H
+EC,29/11/2014,FC Halifax Town,Alfreton Town,2,0,H
+EC,29/11/2014,AFC Telford United,Grimsby,1,1,D
+EC,29/11/2014,Altrincham,Kidderminster,2,1,H
+EC,29/11/2014,Torquay,Eastleigh,2,0,H
+EC,30/08/2014,Gateshead,Chester,2,1,H
+EC,30/08/2014,Southport,Barnet,0,2,A
+EC,30/08/2014,Dover,Kidderminster,0,1,A
+EC,30/08/2014,Lincoln,Torquay,1,3,A
+EC,30/08/2014,Bristol Rvs,FC Halifax Town,2,1,H
+EC,30/08/2014,Aldershot,Grimsby,2,1,H
+EC,30/08/2014,Dartford,AFC Telford United,2,1,H
+EC,30/08/2014,Nuneaton Town,Altrincham,2,1,H
+EC,30/08/2014,Macclesfield,Eastleigh,2,0,H
+EC,30/08/2014,Wrexham,Woking,1,2,A
+EC,30/08/2014,Alfreton Town,Braintree,0,2,A
+EC,30/08/2014,Welling United,Forest Green,1,1,D
+EC,30/09/2014,Grimsby,Southport,0,1,A
+EC,30/09/2014,Forest Green,Torquay,2,1,H
+EC,30/09/2014,Lincoln,Gateshead,1,1,D
+EC,30/09/2014,Braintree,Barnet,1,1,D
+EC,30/09/2014,Woking,Nuneaton Town,1,0,H
+EC,30/09/2014,Wrexham,Kidderminster,1,0,H
+EC,30/09/2014,Alfreton Town,FC Halifax Town,0,2,A
+EC,30/09/2014,AFC Telford United,Chester,1,2,A
+EC,30/09/2014,Altrincham,Macclesfield,1,0,H
+EC,30/09/2014,Welling United,Dartford,2,2,D
+EC,30/09/2014,Dover,Aldershot,3,0,H
+EC,30/09/2014,Eastleigh,Bristol Rvs,1,1,D
+EC,31/01/2015,Welling United,Chester,1,3,A
+EC,31/01/2015,Dartford,Bristol Rvs,2,2,D
+EC,31/01/2015,Forest Green,Nuneaton Town,1,0,H
+EC,31/01/2015,Lincoln,Dover,1,0,H
+EC,31/01/2015,Southport,Gateshead,0,1,A
+EC,31/01/2015,Woking,Alfreton Town,3,0,H
+EC,31/01/2015,Wrexham,Torquay,0,0,D
+EC,31/03/2015,Wrexham,Dover,1,1,D
+EC,31/03/2015,Dartford,Gateshead,1,1,D

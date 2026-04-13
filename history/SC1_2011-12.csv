@@ -1,0 +1,181 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/10/2011,Hamilton Academical,Falkirk,0,1,A
+SC1,01/10/2011,Ross County,Ayr Utd,4,0,H
+SC1,01/10/2011,Queen of the South,Dundee,0,0,D
+SC1,01/10/2011,Livingston,Raith Rovers,1,1,D
+SC1,02/01/2012,Livingston,Falkirk,1,2,A
+SC1,02/01/2012,Morton,Ayr Utd,3,1,H
+SC1,02/01/2012,Raith Rovers,Dundee,0,1,A
+SC1,02/01/2012,Queen of the South,Hamilton Academical,1,2,A
+SC1,03/03/2012,Livingston,Dundee,2,3,A
+SC1,03/03/2012,Ross County,Queen of the South,2,1,H
+SC1,03/03/2012,Raith Rovers,Morton,5,0,H
+SC1,03/03/2012,Ayr Utd,Falkirk,1,0,H
+SC1,03/03/2012,Partick,Hamilton Academical,2,0,H
+SC1,03/12/2011,Falkirk,Morton,1,0,H
+SC1,03/12/2011,Queen of the South,Ayr Utd,4,1,H
+SC1,03/12/2011,Ross County,Raith Rovers,4,2,H
+SC1,03/12/2011,Partick,Livingston,2,1,H
+SC1,03/12/2011,Hamilton Academical,Dundee,1,6,A
+SC1,05/05/2012,Hamilton Academical,Partick,2,2,D
+SC1,05/05/2012,Dundee,Livingston,1,0,H
+SC1,05/05/2012,Morton,Raith Rovers,1,3,A
+SC1,05/05/2012,Queen of the South,Ross County,3,5,A
+SC1,05/05/2012,Falkirk,Ayr Utd,3,2,H
+SC1,05/11/2011,Hamilton Academical,Queen of the South,3,1,H
+SC1,05/11/2011,Partick,Ross County,0,1,A
+SC1,05/11/2011,Ayr Utd,Morton,0,1,A
+SC1,05/11/2011,Falkirk,Livingston,4,3,H
+SC1,05/11/2011,Dundee,Raith Rovers,1,0,H
+SC1,06/03/2012,Livingston,Ayr Utd,1,2,A
+SC1,06/03/2012,Ross County,Partick,3,0,H
+SC1,06/08/2011,Ayr Utd,Hamilton Academical,1,2,A
+SC1,06/08/2011,Livingston,Queen of the South,2,2,D
+SC1,06/08/2011,Partick,Dundee,0,1,A
+SC1,06/08/2011,Ross County,Morton,0,0,D
+SC1,06/08/2011,Raith Rovers,Falkirk,1,0,H
+SC1,07/04/2012,Raith Rovers,Hamilton Academical,2,1,H
+SC1,07/04/2012,Ayr Utd,Partick,1,3,A
+SC1,07/04/2012,Dundee,Falkirk,3,1,H
+SC1,07/04/2012,Livingston,Ross County,1,3,A
+SC1,07/04/2012,Morton,Queen of the South,2,2,D
+SC1,10/03/2012,Morton,Livingston,1,3,A
+SC1,10/03/2012,Hamilton Academical,Ross County,0,2,A
+SC1,10/03/2012,Falkirk,Partick,1,1,D
+SC1,10/03/2012,Queen of the South,Raith Rovers,1,0,H
+SC1,10/04/2012,Raith Rovers,Livingston,0,3,A
+SC1,10/04/2012,Falkirk,Hamilton Academical,3,0,H
+SC1,10/04/2012,Morton,Partick,1,0,H
+SC1,10/04/2012,Dundee,Queen of the South,1,1,D
+SC1,10/09/2011,Morton,Ayr Utd,4,1,H
+SC1,10/09/2011,Queen of the South,Hamilton Academical,1,0,H
+SC1,10/09/2011,Raith Rovers,Dundee,0,1,A
+SC1,10/09/2011,Ross County,Partick,2,2,D
+SC1,10/09/2011,Livingston,Falkirk,1,1,D
+SC1,10/12/2011,Dundee,Queen of the South,2,1,H
+SC1,10/12/2011,Falkirk,Hamilton Academical,0,0,D
+SC1,10/12/2011,Raith Rovers,Livingston,0,1,A
+SC1,10/12/2011,Morton,Partick,1,2,A
+SC1,11/02/2012,Livingston,Partick,3,1,H
+SC1,11/02/2012,Dundee,Hamilton Academical,2,2,D
+SC1,11/02/2012,Raith Rovers,Ross County,1,1,D
+SC1,11/02/2012,Morton,Falkirk,0,0,D
+SC1,11/02/2012,Ayr Utd,Queen of the South,1,1,D
+SC1,11/04/2012,Ayr Utd,Ross County,1,3,A
+SC1,12/11/2011,Livingston,Hamilton Academical,1,0,H
+SC1,12/11/2011,Ross County,Falkirk,3,1,H
+SC1,12/11/2011,Morton,Dundee,1,2,A
+SC1,12/11/2011,Queen of the South,Partick,0,0,D
+SC1,12/11/2011,Raith Rovers,Ayr Utd,0,1,A
+SC1,13/01/2012,Hamilton Academical,Partick,1,0,H
+SC1,13/03/2012,Ross County,Morton,2,2,D
+SC1,13/08/2011,Morton,Livingston,2,1,H
+SC1,13/08/2011,Queen of the South,Raith Rovers,1,3,A
+SC1,13/08/2011,Dundee,Ayr Utd,1,1,D
+SC1,13/08/2011,Hamilton Academical,Ross County,5,1,H
+SC1,13/08/2011,Falkirk,Partick,2,1,H
+SC1,14/01/2012,Falkirk,Ayr Utd,0,0,D
+SC1,14/01/2012,Queen of the South,Ross County,0,0,D
+SC1,14/01/2012,Morton,Raith Rovers,1,1,D
+SC1,14/01/2012,Dundee,Livingston,3,0,H
+SC1,14/02/2012,Hamilton Academical,Morton,1,2,A
+SC1,14/04/2012,Queen of the South,Falkirk,0,0,D
+SC1,14/04/2012,Ross County,Dundee,3,0,H
+SC1,14/04/2012,Partick,Raith Rovers,1,1,D
+SC1,14/04/2012,Hamilton Academical,Morton,4,3,H
+SC1,14/04/2012,Livingston,Ayr Utd,0,1,A
+SC1,15/10/2011,Falkirk,Queen of the South,1,0,H
+SC1,15/10/2011,Raith Rovers,Partick,2,0,H
+SC1,15/10/2011,Morton,Hamilton Academical,0,2,A
+SC1,15/10/2011,Dundee,Ross County,1,2,A
+SC1,15/10/2011,Ayr Utd,Livingston,0,0,D
+SC1,17/03/2012,Raith Rovers,Ayr Utd,2,2,D
+SC1,17/03/2012,Queen of the South,Partick,0,5,A
+SC1,17/03/2012,Morton,Dundee,0,2,A
+SC1,17/03/2012,Ross County,Falkirk,2,1,H
+SC1,17/03/2012,Livingston,Hamilton Academical,0,4,A
+SC1,17/09/2011,Falkirk,Dundee,2,1,H
+SC1,17/09/2011,Partick,Ayr Utd,4,0,H
+SC1,17/09/2011,Queen of the South,Morton,4,1,H
+SC1,17/09/2011,Ross County,Livingston,1,1,D
+SC1,17/09/2011,Hamilton Academical,Raith Rovers,2,2,D
+SC1,17/12/2011,Queen of the South,Falkirk,1,5,A
+SC1,17/12/2011,Partick,Raith Rovers,0,1,A
+SC1,17/12/2011,Ross County,Dundee,1,1,D
+SC1,18/02/2012,Queen of the South,Dundee,1,1,D
+SC1,18/02/2012,Partick,Morton,0,0,D
+SC1,18/02/2012,Ross County,Ayr Utd,1,1,D
+SC1,18/02/2012,Hamilton Academical,Falkirk,0,1,A
+SC1,18/02/2012,Livingston,Raith Rovers,4,0,H
+SC1,20/03/2012,Hamilton Academical,Dundee,3,1,H
+SC1,20/03/2012,Falkirk,Morton,0,2,A
+SC1,20/08/2011,Ayr Utd,Falkirk,2,2,D
+SC1,20/08/2011,Raith Rovers,Morton,1,1,D
+SC1,20/08/2011,Livingston,Dundee,4,2,H
+SC1,20/08/2011,Partick,Hamilton Academical,1,1,D
+SC1,20/08/2011,Ross County,Queen of the South,2,0,H
+SC1,21/01/2012,Raith Rovers,Falkirk,2,2,D
+SC1,21/01/2012,Partick,Dundee,0,0,D
+SC1,21/01/2012,Livingston,Queen of the South,2,2,D
+SC1,21/01/2012,Ayr Utd,Hamilton Academical,2,2,D
+SC1,21/02/2012,Hamilton Academical,Raith Rovers,2,1,H
+SC1,21/02/2012,Partick,Ayr Utd,4,2,H
+SC1,21/02/2012,Falkirk,Dundee,1,1,D
+SC1,21/04/2012,Dundee,Partick,0,3,A
+SC1,21/04/2012,Morton,Ross County,1,1,D
+SC1,21/04/2012,Queen of the South,Livingston,0,4,A
+SC1,21/04/2012,Falkirk,Raith Rovers,2,3,A
+SC1,21/04/2012,Hamilton Academical,Ayr Utd,3,2,H
+SC1,22/10/2011,Ross County,Hamilton Academical,1,0,H
+SC1,22/10/2011,Raith Rovers,Queen of the South,0,2,A
+SC1,22/10/2011,Livingston,Morton,1,1,D
+SC1,22/10/2011,Partick,Falkirk,2,2,D
+SC1,22/10/2011,Ayr Utd,Dundee,1,3,A
+SC1,24/03/2012,Falkirk,Livingston,2,5,A
+SC1,24/03/2012,Ayr Utd,Morton,0,0,D
+SC1,24/03/2012,Partick,Ross County,0,1,A
+SC1,24/03/2012,Dundee,Raith Rovers,1,1,D
+SC1,24/03/2012,Hamilton Academical,Queen of the South,3,0,H
+SC1,24/09/2011,Raith Rovers,Ross County,0,1,A
+SC1,24/09/2011,Dundee,Hamilton Academical,0,1,A
+SC1,24/09/2011,Morton,Falkirk,3,2,H
+SC1,24/09/2011,Ayr Utd,Queen of the South,1,0,H
+SC1,24/09/2011,Livingston,Partick,2,1,H
+SC1,25/02/2012,Morton,Hamilton Academical,1,2,A
+SC1,25/02/2012,Ayr Utd,Livingston,3,1,H
+SC1,25/02/2012,Falkirk,Queen of the South,3,0,H
+SC1,25/02/2012,Raith Rovers,Partick,2,1,H
+SC1,25/02/2012,Dundee,Ross County,1,1,D
+SC1,26/11/2011,Livingston,Ross County,0,3,A
+SC1,26/11/2011,Dundee,Falkirk,4,2,H
+SC1,26/11/2011,Morton,Queen of the South,2,2,D
+SC1,26/11/2011,Raith Rovers,Hamilton Academical,3,2,H
+SC1,26/12/2011,Partick,Queen of the South,1,0,H
+SC1,26/12/2011,Hamilton Academical,Livingston,0,1,A
+SC1,26/12/2011,Dundee,Morton,0,1,A
+SC1,26/12/2011,Falkirk,Ross County,1,1,D
+SC1,26/12/2011,Ayr Utd,Raith Rovers,1,1,D
+SC1,27/03/2012,Dundee,Ayr Utd,4,1,H
+SC1,27/08/2011,Falkirk,Ross County,1,1,D
+SC1,27/08/2011,Ayr Utd,Raith Rovers,2,1,H
+SC1,27/08/2011,Partick,Queen of the South,2,1,H
+SC1,27/08/2011,Dundee,Morton,0,1,A
+SC1,27/08/2011,Hamilton Academical,Livingston,1,1,D
+SC1,28/01/2012,Queen of the South,Morton,2,1,H
+SC1,28/01/2012,Ross County,Livingston,3,0,H
+SC1,28/04/2012,Partick,Falkirk,1,1,D
+SC1,28/04/2012,Ayr Utd,Dundee,3,2,H
+SC1,28/04/2012,Livingston,Morton,0,0,D
+SC1,28/04/2012,Raith Rovers,Queen of the South,3,1,H
+SC1,28/04/2012,Ross County,Hamilton Academical,5,1,H
+SC1,29/02/2012,Ayr Utd,Ross County,2,3,A
+SC1,29/10/2011,Dundee,Partick,0,1,A
+SC1,29/10/2011,Morton,Ross County,0,2,A
+SC1,29/10/2011,Queen of the South,Livingston,0,2,A
+SC1,29/10/2011,Hamilton Academical,Ayr Utd,2,3,A
+SC1,29/10/2011,Falkirk,Raith Rovers,2,0,H
+SC1,30/09/2011,Partick,Morton,5,0,H
+SC1,30/11/2011,Ayr Utd,Partick,0,0,D
+SC1,31/03/2012,Partick,Livingston,2,3,A
+SC1,31/03/2012,Ross County,Raith Rovers,1,1,D
+SC1,31/03/2012,Queen of the South,Ayr Utd,2,1,H

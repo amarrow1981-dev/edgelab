@@ -1,0 +1,303 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+B1,01/04/2012,Anderlecht,Kortrijk,1,1,D
+B1,01/05/2012,Club Brugge KV,Standard Liege,2,0,H
+B1,01/10/2011,Kortrijk,KV Mechelen,1,0,H
+B1,01/10/2011,Cercle Brugge,St. Truiden,2,2,D
+B1,01/10/2011,Mons,Lokeren,3,3,D
+B1,01/10/2011,Gent,OH Leuven,6,1,H
+B1,01/10/2011,KVC Westerlo,Zulte Waregem,1,1,D
+B1,02/05/2012,Anderlecht,Gent,1,0,H
+B1,02/05/2012,Kortrijk,Genk,3,4,A
+B1,02/10/2011,Genk,Anderlecht,0,1,A
+B1,02/10/2011,Beerschot,Club Brugge KV,1,1,D
+B1,02/10/2011,Standard Liege,Lierse,2,0,H
+B1,02/12/2011,Beerschot,Genk,2,0,H
+B1,03/03/2012,OH Leuven,Lierse,0,0,D
+B1,03/03/2012,Kortrijk,Genk,3,2,H
+B1,03/03/2012,St. Truiden,Zulte Waregem,1,0,H
+B1,03/03/2012,Lokeren,KVC Westerlo,4,0,H
+B1,03/03/2012,Mons,Beerschot,4,2,H
+B1,03/03/2012,KV Mechelen,Gent,0,2,A
+B1,03/12/2011,Lierse,KV Mechelen,2,2,D
+B1,03/12/2011,Cercle Brugge,Kortrijk,1,2,A
+B1,03/12/2011,Zulte Waregem,Lokeren,1,1,D
+B1,03/12/2011,KVC Westerlo,Club Brugge KV,0,1,A
+B1,03/12/2011,St. Truiden,Mons,2,3,A
+B1,04/02/2012,St. Truiden,Cercle Brugge,0,1,A
+B1,04/02/2012,Lokeren,Mons,3,1,H
+B1,04/02/2012,OH Leuven,Gent,2,3,A
+B1,04/02/2012,Lierse,Standard Liege,0,2,A
+B1,04/02/2012,KV Mechelen,Kortrijk,0,0,D
+B1,04/02/2012,Zulte Waregem,KVC Westerlo,3,1,H
+B1,04/03/2012,Club Brugge KV,Standard Liege,1,0,H
+B1,04/03/2012,Anderlecht,Cercle Brugge,4,0,H
+B1,04/11/2011,Gent,KV Mechelen,6,2,H
+B1,04/12/2011,Standard Liege,Gent,0,0,D
+B1,04/12/2011,Anderlecht,OH Leuven,0,0,D
+B1,05/02/2012,Anderlecht,Genk,4,2,H
+B1,05/02/2012,Club Brugge KV,Beerschot,5,1,H
+B1,05/05/2012,Lierse,OH Leuven,1,2,A
+B1,05/05/2012,Cercle Brugge,KV Mechelen,3,1,H
+B1,05/05/2012,Zulte Waregem,Lokeren,2,2,D
+B1,05/05/2012,Gent,Kortrijk,2,3,A
+B1,05/05/2012,Beerschot,Mons,1,1,D
+B1,05/08/2011,Anderlecht,KV Mechelen,3,1,H
+B1,05/11/2011,Lierse,OH Leuven,3,1,H
+B1,05/11/2011,KVC Westerlo,Lokeren,2,4,A
+B1,05/11/2011,Zulte Waregem,St. Truiden,0,0,D
+B1,05/11/2011,Genk,Kortrijk,2,2,D
+B1,05/11/2011,Beerschot,Mons,2,0,H
+B1,06/04/2012,Standard Liege,Anderlecht,0,0,D
+B1,06/04/2012,Beerschot,Lokeren,4,1,H
+B1,06/05/2012,Anderlecht,Club Brugge KV,1,1,D
+B1,06/05/2012,Standard Liege,Genk,2,3,A
+B1,06/08/2011,Lierse,Genk,0,0,D
+B1,06/08/2011,Beerschot,Gent,2,2,D
+B1,06/08/2011,Zulte Waregem,OH Leuven,2,1,H
+B1,06/08/2011,Cercle Brugge,Mons,1,1,D
+B1,06/11/2011,Cercle Brugge,Anderlecht,1,0,H
+B1,06/11/2011,Standard Liege,Club Brugge KV,2,1,H
+B1,07/04/2012,Zulte Waregem,Mons,0,2,A
+B1,07/04/2012,St. Truiden,KVC Westerlo,3,1,H
+B1,07/04/2012,Cercle Brugge,OH Leuven,6,4,H
+B1,07/04/2012,Genk,Gent,2,0,H
+B1,07/08/2011,St. Truiden,Club Brugge KV,3,3,D
+B1,07/08/2011,Standard Liege,Lokeren,3,1,H
+B1,07/08/2011,KVC Westerlo,Kortrijk,0,0,D
+B1,08/04/2012,Kortrijk,Club Brugge KV,3,1,H
+B1,09/04/2012,Lierse,KV Mechelen,2,1,H
+B1,09/09/2011,St. Truiden,Genk,3,4,A
+B1,09/12/2011,KV Mechelen,Anderlecht,2,1,H
+B1,10/05/2012,Kortrijk,Anderlecht,2,0,H
+B1,10/05/2012,Genk,Club Brugge KV,1,2,A
+B1,10/05/2012,Standard Liege,Gent,2,1,H
+B1,10/05/2012,Mons,Cercle Brugge,0,1,A
+B1,10/09/2011,Lierse,Lokeren,1,1,D
+B1,10/09/2011,OH Leuven,Mons,3,1,H
+B1,10/09/2011,Standard Liege,KVC Westerlo,1,0,H
+B1,10/09/2011,Cercle Brugge,Beerschot,2,1,H
+B1,10/12/2011,Kortrijk,KVC Westerlo,1,0,H
+B1,10/12/2011,OH Leuven,Zulte Waregem,2,2,D
+B1,10/12/2011,Gent,Beerschot,0,1,A
+B1,10/12/2011,Genk,Lierse,4,0,H
+B1,10/12/2011,Mons,Cercle Brugge,0,2,A
+B1,10/12/2011,Lokeren,Standard Liege,1,1,D
+B1,11/02/2012,Cercle Brugge,KV Mechelen,1,0,H
+B1,11/02/2012,Genk,Lokeren,0,1,A
+B1,11/02/2012,KVC Westerlo,OH Leuven,1,3,A
+B1,11/02/2012,Kortrijk,Mons,2,2,D
+B1,11/02/2012,Beerschot,St. Truiden,3,2,H
+B1,11/02/2012,Lierse,Zulte Waregem,2,1,H
+B1,11/04/2012,Genk,Kortrijk,2,0,H
+B1,11/04/2012,Gent,Anderlecht,1,4,A
+B1,11/09/2011,Anderlecht,Kortrijk,2,0,H
+B1,11/09/2011,KV Mechelen,Club Brugge KV,1,2,A
+B1,11/09/2011,Zulte Waregem,Gent,1,3,A
+B1,11/12/2011,Club Brugge KV,St. Truiden,1,0,H
+B1,12/02/2012,Gent,Club Brugge KV,1,3,A
+B1,12/02/2012,Standard Liege,Anderlecht,1,2,A
+B1,12/04/2012,Standard Liege,Club Brugge KV,1,1,D
+B1,13/04/2012,KVC Westerlo,St. Truiden,4,0,H
+B1,13/04/2012,Cercle Brugge,Lierse,0,0,D
+B1,13/05/2012,Club Brugge KV,Kortrijk,3,2,H
+B1,13/05/2012,Gent,Genk,3,1,H
+B1,13/05/2012,Anderlecht,Standard Liege,3,0,H
+B1,13/08/2011,Genk,Zulte Waregem,2,2,D
+B1,13/08/2011,Kortrijk,Cercle Brugge,2,0,H
+B1,13/08/2011,Club Brugge KV,OH Leuven,1,0,H
+B1,13/08/2011,Gent,Standard Liege,3,1,H
+B1,13/08/2011,Beerschot,KVC Westerlo,3,1,H
+B1,13/08/2011,Mons,St. Truiden,4,2,H
+B1,14/01/2012,OH Leuven,Lokeren,1,1,D
+B1,14/01/2012,KV Mechelen,Mons,4,1,H
+B1,14/01/2012,St. Truiden,Kortrijk,0,0,D
+B1,14/01/2012,Cercle Brugge,KVC Westerlo,3,1,H
+B1,14/01/2012,Lierse,Gent,2,1,H
+B1,14/01/2012,Standard Liege,Beerschot,6,1,H
+B1,14/04/2012,Zulte Waregem,Beerschot,2,0,H
+B1,14/04/2012,Mons,Lokeren,1,1,D
+B1,14/04/2012,Anderlecht,Genk,1,3,A
+B1,14/04/2012,KV Mechelen,OH Leuven,2,1,H
+B1,14/05/2012,Cercle Brugge,Mons,3,2,H
+B1,14/08/2011,KV Mechelen,Lierse,2,1,H
+B1,14/08/2011,Lokeren,Anderlecht,0,1,A
+B1,15/01/2012,Zulte Waregem,Genk,1,1,D
+B1,15/01/2012,Anderlecht,Club Brugge KV,3,0,H
+B1,15/04/2012,Club Brugge KV,Gent,1,0,H
+B1,15/04/2012,Kortrijk,Standard Liege,1,1,D
+B1,15/10/2011,St. Truiden,Beerschot,2,4,A
+B1,15/10/2011,Zulte Waregem,Lierse,1,2,A
+B1,15/10/2011,KV Mechelen,Cercle Brugge,1,2,A
+B1,15/10/2011,OH Leuven,KVC Westerlo,1,1,D
+B1,15/10/2011,Lokeren,Genk,3,1,H
+B1,15/10/2011,Mons,Kortrijk,3,1,H
+B1,16/10/2011,Anderlecht,Standard Liege,5,0,H
+B1,16/10/2011,Club Brugge KV,Gent,2,0,H
+B1,17/05/2012,Cercle Brugge,Gent,1,5,A
+B1,17/09/2011,KVC Westerlo,St. Truiden,2,0,H
+B1,17/09/2011,Kortrijk,OH Leuven,2,0,H
+B1,17/09/2011,Beerschot,Zulte Waregem,2,0,H
+B1,17/09/2011,Mons,KV Mechelen,5,1,H
+B1,17/09/2011,Cercle Brugge,Lierse,0,0,D
+B1,17/12/2011,Lierse,Kortrijk,2,0,H
+B1,17/12/2011,Zulte Waregem,Mons,2,3,A
+B1,17/12/2011,KVC Westerlo,Beerschot,3,1,H
+B1,17/12/2011,St. Truiden,KV Mechelen,0,0,D
+B1,18/02/2012,KV Mechelen,Beerschot,2,1,H
+B1,18/02/2012,Mons,Genk,1,2,A
+B1,18/02/2012,St. Truiden,Lierse,1,1,D
+B1,18/02/2012,Lokeren,Gent,1,1,D
+B1,18/02/2012,OH Leuven,Cercle Brugge,2,3,A
+B1,18/03/2012,KVC Westerlo,Genk,3,2,H
+B1,18/03/2012,Zulte Waregem,KV Mechelen,2,0,H
+B1,18/03/2012,Gent,Kortrijk,3,1,H
+B1,18/03/2012,Lierse,Mons,1,1,D
+B1,18/03/2012,Standard Liege,OH Leuven,4,0,H
+B1,18/03/2012,St. Truiden,Anderlecht,2,2,D
+B1,18/03/2012,Cercle Brugge,Club Brugge KV,1,2,A
+B1,18/03/2012,Beerschot,Lokeren,2,2,D
+B1,18/09/2011,Lokeren,Club Brugge KV,1,2,A
+B1,18/09/2011,Genk,Standard Liege,3,0,H
+B1,18/09/2011,Gent,Anderlecht,0,1,A
+B1,18/11/2011,OH Leuven,Standard Liege,1,3,A
+B1,18/12/2011,OH Leuven,Club Brugge KV,3,1,H
+B1,18/12/2011,Standard Liege,Genk,0,0,D
+B1,18/12/2011,Anderlecht,Lokeren,3,2,H
+B1,18/12/2011,Cercle Brugge,Gent,0,1,A
+B1,19/02/2012,Zulte Waregem,Standard Liege,4,2,H
+B1,19/02/2012,Club Brugge KV,Kortrijk,2,1,H
+B1,19/02/2012,Anderlecht,KVC Westerlo,3,1,H
+B1,19/08/2011,Lierse,Beerschot,1,1,D
+B1,19/11/2011,KV Mechelen,Zulte Waregem,1,1,D
+B1,19/11/2011,Kortrijk,Gent,0,4,A
+B1,19/11/2011,Lokeren,Beerschot,1,1,D
+B1,19/11/2011,Mons,Lierse,2,1,H
+B1,19/11/2011,Genk,KVC Westerlo,3,0,H
+B1,20/01/2012,Genk,St. Truiden,2,1,H
+B1,20/05/2012,Gent,Cercle Brugge,2,1,H
+B1,20/08/2011,OH Leuven,KV Mechelen,1,2,A
+B1,20/08/2011,KVC Westerlo,Gent,2,3,A
+B1,20/08/2011,St. Truiden,Lokeren,0,2,A
+B1,20/08/2011,Cercle Brugge,Genk,3,2,H
+B1,20/11/2011,Club Brugge KV,Cercle Brugge,1,0,H
+B1,20/11/2011,Anderlecht,St. Truiden,3,1,H
+B1,21/01/2012,Lokeren,Lierse,2,0,H
+B1,21/01/2012,Club Brugge KV,KV Mechelen,0,1,A
+B1,21/01/2012,Gent,Zulte Waregem,0,0,D
+B1,21/01/2012,Mons,OH Leuven,2,2,D
+B1,21/01/2012,Beerschot,Cercle Brugge,4,0,H
+B1,21/01/2012,Kortrijk,Anderlecht,0,1,A
+B1,21/03/2012,OH Leuven,St. Truiden,3,1,H
+B1,21/03/2012,KV Mechelen,Standard Liege,1,2,A
+B1,21/03/2012,Anderlecht,Zulte Waregem,2,1,H
+B1,21/03/2012,Kortrijk,Beerschot,2,0,H
+B1,21/03/2012,Lokeren,Cercle Brugge,1,0,H
+B1,21/03/2012,Genk,Gent,3,1,H
+B1,21/03/2012,Mons,KVC Westerlo,2,1,H
+B1,21/03/2012,Club Brugge KV,Lierse,1,0,H
+B1,21/04/2012,Lierse,Cercle Brugge,2,2,D
+B1,21/04/2012,St. Truiden,KVC Westerlo,1,4,A
+B1,21/04/2012,Kortrijk,Gent,1,4,A
+B1,21/04/2012,OH Leuven,KV Mechelen,4,2,H
+B1,21/04/2012,Lokeren,Mons,1,2,A
+B1,21/04/2012,Beerschot,Zulte Waregem,3,1,H
+B1,21/08/2011,Standard Liege,Kortrijk,3,1,H
+B1,21/08/2011,Zulte Waregem,Club Brugge KV,1,1,D
+B1,21/08/2011,Anderlecht,Mons,2,2,D
+B1,22/01/2012,KVC Westerlo,Standard Liege,0,0,D
+B1,22/04/2012,Genk,Standard Liege,3,2,H
+B1,22/04/2012,Club Brugge KV,Anderlecht,0,1,A
+B1,22/10/2011,Lierse,St. Truiden,0,2,A
+B1,22/10/2011,Genk,Mons,2,0,H
+B1,22/10/2011,Beerschot,KV Mechelen,2,2,D
+B1,22/10/2011,Gent,Lokeren,3,1,H
+B1,22/10/2011,Cercle Brugge,OH Leuven,2,0,H
+B1,23/10/2011,KVC Westerlo,Anderlecht,1,2,A
+B1,23/10/2011,Kortrijk,Club Brugge KV,2,1,H
+B1,23/10/2011,Standard Liege,Zulte Waregem,1,0,H
+B1,24/01/2012,Anderlecht,Gent,3,1,H
+B1,24/09/2011,KV Mechelen,Lokeren,0,2,A
+B1,24/09/2011,OH Leuven,Genk,1,1,D
+B1,24/09/2011,Lierse,KVC Westerlo,0,0,D
+B1,24/09/2011,St. Truiden,Gent,3,4,A
+B1,24/09/2011,Zulte Waregem,Kortrijk,1,0,H
+B1,24/09/2011,Club Brugge KV,Mons,2,1,H
+B1,25/01/2012,KV Mechelen,Genk,3,2,H
+B1,25/01/2012,Club Brugge KV,Lokeren,3,0,H
+B1,25/01/2012,Zulte Waregem,Beerschot,1,0,H
+B1,25/01/2012,St. Truiden,KVC Westerlo,0,3,A
+B1,25/01/2012,Lierse,Cercle Brugge,2,2,D
+B1,25/01/2012,OH Leuven,Kortrijk,0,2,A
+B1,25/02/2012,KVC Westerlo,KV Mechelen,1,3,A
+B1,25/02/2012,Beerschot,OH Leuven,2,1,H
+B1,25/02/2012,Cercle Brugge,Zulte Waregem,1,0,H
+B1,25/02/2012,Kortrijk,Lokeren,2,5,A
+B1,25/02/2012,Gent,Mons,2,0,H
+B1,25/09/2011,Standard Liege,Cercle Brugge,0,0,D
+B1,25/09/2011,Anderlecht,Beerschot,3,2,H
+B1,25/11/2011,Standard Liege,KV Mechelen,3,2,H
+B1,26/01/2012,Standard Liege,Mons,2,1,H
+B1,26/02/2012,Standard Liege,St. Truiden,0,0,D
+B1,26/02/2012,Lierse,Anderlecht,0,0,D
+B1,26/02/2012,Genk,Club Brugge KV,3,0,H
+B1,26/11/2011,Cercle Brugge,Lokeren,1,1,D
+B1,26/11/2011,St. Truiden,OH Leuven,2,1,H
+B1,26/11/2011,KVC Westerlo,Mons,2,1,H
+B1,26/11/2011,Zulte Waregem,Anderlecht,2,3,A
+B1,26/11/2011,Beerschot,Kortrijk,0,1,A
+B1,26/11/2011,Lierse,Club Brugge KV,0,1,A
+B1,26/12/2011,Beerschot,Lierse,0,0,D
+B1,26/12/2011,Lokeren,St. Truiden,0,0,D
+B1,26/12/2011,Club Brugge KV,Zulte Waregem,1,0,H
+B1,26/12/2011,Kortrijk,Standard Liege,2,0,H
+B1,26/12/2011,KV Mechelen,OH Leuven,2,2,D
+B1,26/12/2011,Gent,KVC Westerlo,3,1,H
+B1,26/12/2011,Genk,Cercle Brugge,4,2,H
+B1,27/04/2012,Genk,Anderlecht,0,4,A
+B1,27/08/2011,Lokeren,OH Leuven,0,1,A
+B1,27/08/2011,Mons,Zulte Waregem,3,1,H
+B1,27/08/2011,Genk,KV Mechelen,0,0,D
+B1,27/08/2011,KVC Westerlo,Cercle Brugge,1,3,A
+B1,27/08/2011,Gent,Lierse,1,0,H
+B1,27/08/2011,Kortrijk,St. Truiden,4,0,H
+B1,27/11/2011,Gent,Genk,2,0,H
+B1,27/12/2011,Mons,Anderlecht,1,1,D
+B1,28/01/2012,KVC Westerlo,Lierse,0,2,A
+B1,28/01/2012,Beerschot,Anderlecht,0,0,D
+B1,28/01/2012,Gent,St. Truiden,6,0,H
+B1,28/01/2012,Kortrijk,Zulte Waregem,0,0,D
+B1,28/01/2012,Lokeren,KV Mechelen,3,2,H
+B1,28/01/2012,Genk,OH Leuven,5,0,H
+B1,28/04/2012,OH Leuven,Cercle Brugge,3,2,H
+B1,28/04/2012,Gent,Club Brugge KV,2,1,H
+B1,28/04/2012,Lokeren,Beerschot,3,1,H
+B1,28/04/2012,KV Mechelen,Lierse,1,1,D
+B1,28/04/2012,Standard Liege,Kortrijk,2,0,H
+B1,28/04/2012,Mons,Zulte Waregem,0,1,A
+B1,28/08/2011,Beerschot,Standard Liege,1,1,D
+B1,28/08/2011,Club Brugge KV,Anderlecht,1,1,D
+B1,29/01/2012,Cercle Brugge,Standard Liege,0,1,A
+B1,29/01/2012,Mons,Club Brugge KV,0,2,A
+B1,29/07/2011,OH Leuven,Anderlecht,2,1,H
+B1,29/10/2011,OH Leuven,Beerschot,3,2,H
+B1,29/10/2011,Club Brugge KV,Genk,4,5,A
+B1,29/10/2011,Zulte Waregem,Cercle Brugge,1,1,D
+B1,29/10/2011,Lokeren,Kortrijk,1,4,A
+B1,29/10/2011,Mons,Gent,1,1,D
+B1,29/10/2011,KV Mechelen,KVC Westerlo,1,0,H
+B1,30/03/2012,Club Brugge KV,Genk,2,0,H
+B1,30/07/2011,Mons,Standard Liege,1,1,D
+B1,30/07/2011,KV Mechelen,St. Truiden,2,1,H
+B1,30/07/2011,Gent,Cercle Brugge,0,1,A
+B1,30/07/2011,Kortrijk,Lierse,1,1,D
+B1,30/07/2011,Genk,Beerschot,3,1,H
+B1,30/07/2011,Lokeren,Zulte Waregem,0,0,D
+B1,30/10/2011,Anderlecht,Lierse,4,0,H
+B1,30/10/2011,St. Truiden,Standard Liege,1,1,D
+B1,31/03/2012,Mons,Beerschot,2,0,H
+B1,31/03/2012,KV Mechelen,Cercle Brugge,0,3,A
+B1,31/03/2012,KVC Westerlo,St. Truiden,3,2,H
+B1,31/03/2012,OH Leuven,Lierse,1,1,D
+B1,31/03/2012,Gent,Standard Liege,3,0,H
+B1,31/03/2012,Lokeren,Zulte Waregem,1,1,D
+B1,31/07/2011,Club Brugge KV,KVC Westerlo,5,0,H

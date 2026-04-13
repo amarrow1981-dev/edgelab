@@ -1,0 +1,14 @@
+*.db
+*.db-shm
+*.db-wal
+weather_cache.csv
+Briefings archive/
+__pycache__/
+*.pyc
+databot_output/
+predictions/
+history/
+harvester_logs/
+harvester_tasks/
+harvester_checkpoints/
+upset_picks/

@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP1,01/03/2017,Granada CF,Alaves,2,1,H
+SP1,01/03/2017,Barcelona,Sporting Gijon,6,1,H
+SP1,01/03/2017,Osasuna,Villarreal,1,4,A
+SP1,01/03/2017,Celta Vigo,Espanyol,2,2,D
+SP1,01/03/2017,Real Madrid,Las Palmas,3,3,D
+SP1,01/04/2017,Real Sociedad,Leganes,1,1,D
+SP1,01/04/2017,Malaga,Atletico Madrid,0,2,A
+SP1,01/04/2017,Osasuna,Athletic Club,1,2,A
+SP1,01/04/2017,Villarreal,Eibar,2,3,A
+SP1,01/05/2017,Malaga,Sevilla,4,2,H
+SP1,01/10/2016,Deportivo La Coruna,Sporting Gijon,2,1,H
+SP1,01/10/2016,Granada CF,Leganes,0,1,A
+SP1,01/10/2016,Osasuna,Las Palmas,2,2,D
+SP1,01/10/2016,Sevilla,Alaves,2,1,H
+SP1,02/03/2017,Sevilla,Athletic Club,1,0,H
+SP1,02/03/2017,Deportivo La Coruna,Atletico Madrid,1,1,D
+SP1,02/04/2017,Real Madrid,Alaves,3,0,H
+SP1,02/04/2017,Valencia,Deportivo La Coruna,3,0,H
+SP1,02/04/2017,Granada CF,Barcelona,1,4,A
+SP1,02/04/2017,Sevilla,Sporting Gijon,0,0,D
+SP1,02/10/2016,Valencia,Atletico Madrid,0,2,A
+SP1,02/10/2016,Real Madrid,Eibar,1,1,D
+SP1,02/10/2016,Malaga,Athletic Club,2,1,H
+SP1,02/10/2016,Espanyol,Villarreal,0,0,D
+SP1,02/10/2016,Celta Vigo,Barcelona,4,3,H
+SP1,03/03/2017,Real Betis,Real Sociedad,2,3,A
+SP1,03/04/2017,Celta Vigo,Las Palmas,3,1,H
+SP1,03/12/2016,Granada CF,Sevilla,2,1,H
+SP1,03/12/2016,Barcelona,Real Madrid,1,1,D
+SP1,03/12/2016,Atletico Madrid,Espanyol,0,0,D
+SP1,03/12/2016,Leganes,Villarreal,0,0,D
+SP1,04/02/2017,Barcelona,Athletic Club,3,0,H
+SP1,04/02/2017,Malaga,Espanyol,0,1,A
+SP1,04/02/2017,Valencia,Eibar,0,4,A
+SP1,04/02/2017,Atletico Madrid,Leganes,2,0,H
+SP1,04/03/2017,Leganes,Granada CF,1,0,H
+SP1,04/03/2017,Barcelona,Celta Vigo,5,0,H
+SP1,04/03/2017,Villarreal,Espanyol,2,0,H
+SP1,04/03/2017,Eibar,Real Madrid,1,4,A
+SP1,04/04/2017,Athletic Club,Espanyol,2,0,H
+SP1,04/04/2017,Atletico Madrid,Real Sociedad,1,0,H
+SP1,04/04/2017,Real Betis,Villarreal,0,1,A
+SP1,04/11/2016,Malaga,Sporting Gijon,3,2,H
+SP1,04/12/2016,Athletic Club,Eibar,3,1,H
+SP1,04/12/2016,Alaves,Las Palmas,1,1,D
+SP1,04/12/2016,Real Betis,Celta Vigo,3,3,D
+SP1,04/12/2016,Valencia,Malaga,2,2,D
+SP1,04/12/2016,Sporting Gijon,Osasuna,3,1,H
+SP1,05/02/2017,Real Sociedad,Osasuna,3,2,H
+SP1,05/02/2017,Sporting Gijon,Alaves,2,4,A
+SP1,05/02/2017,Sevilla,Villarreal,0,0,D
+SP1,05/03/2017,Athletic Club,Malaga,1,0,H
+SP1,05/03/2017,Sporting Gijon,Deportivo La Coruna,0,1,A
+SP1,05/03/2017,Las Palmas,Osasuna,5,2,H
+SP1,05/03/2017,Atletico Madrid,Valencia,3,0,H
+SP1,05/04/2017,Barcelona,Sevilla,3,0,H
+SP1,05/04/2017,Alaves,Osasuna,0,1,A
+SP1,05/04/2017,Deportivo La Coruna,Granada CF,0,0,D
+SP1,05/04/2017,Leganes,Real Madrid,2,4,A
+SP1,05/04/2017,Sporting Gijon,Malaga,0,1,A
+SP1,05/05/2017,Sevilla,Real Sociedad,1,1,D
+SP1,05/11/2016,Granada CF,Deportivo La Coruna,1,1,D
+SP1,05/11/2016,Real Sociedad,Atletico Madrid,2,0,H
+SP1,05/11/2016,Osasuna,Alaves,0,1,A
+SP1,05/11/2016,Las Palmas,Eibar,1,0,H
+SP1,05/12/2016,Deportivo La Coruna,Real Sociedad,5,1,H
+SP1,06/01/2017,Espanyol,Deportivo La Coruna,1,1,D
+SP1,06/02/2017,Granada CF,Las Palmas,1,0,H
+SP1,06/03/2017,Alaves,Sevilla,1,1,D
+SP1,06/04/2017,Eibar,Las Palmas,3,1,H
+SP1,06/04/2017,Valencia,Celta Vigo,3,2,H
+SP1,06/05/2017,Sporting Gijon,Las Palmas,1,0,H
+SP1,06/05/2017,Granada CF,Real Madrid,0,4,A
+SP1,06/05/2017,Barcelona,Villarreal,4,1,H
+SP1,06/05/2017,Atletico Madrid,Eibar,1,0,H
+SP1,06/11/2016,Espanyol,Athletic Club,0,0,D
+SP1,06/11/2016,Villarreal,Real Betis,2,0,H
+SP1,06/11/2016,Sevilla,Barcelona,1,2,A
+SP1,06/11/2016,Celta Vigo,Valencia,2,1,H
+SP1,06/11/2016,Real Madrid,Leganes,3,0,H
+SP1,07/01/2017,Real Sociedad,Sevilla,0,4,A
+SP1,07/01/2017,Las Palmas,Sporting Gijon,1,0,H
+SP1,07/01/2017,Eibar,Atletico Madrid,0,2,A
+SP1,07/01/2017,Real Madrid,Granada CF,5,0,H
+SP1,07/04/2017,Villarreal,Athletic Club,3,1,H
+SP1,07/05/2017,Valencia,Osasuna,4,1,H
+SP1,07/05/2017,Deportivo La Coruna,Espanyol,1,2,A
+SP1,07/05/2017,Malaga,Celta Vigo,3,0,H
+SP1,07/05/2017,Alaves,Athletic Club,1,0,H
+SP1,08/01/2017,Celta Vigo,Malaga,3,1,H
+SP1,08/01/2017,Villarreal,Barcelona,1,1,D
+SP1,08/01/2017,Real Betis,Leganes,2,0,H
+SP1,08/01/2017,Athletic Club,Alaves,0,0,D
+SP1,08/03/2017,Deportivo La Coruna,Real Betis,1,1,D
+SP1,08/04/2017,Malaga,Barcelona,2,0,H
+SP1,08/04/2017,Sevilla,Deportivo La Coruna,4,2,H
+SP1,08/04/2017,Real Madrid,Atletico Madrid,1,1,D
+SP1,08/04/2017,Espanyol,Alaves,1,0,H
+SP1,08/05/2017,Leganes,Real Betis,4,0,H
+SP1,09/01/2017,Osasuna,Valencia,3,3,D
+SP1,09/04/2017,Osasuna,Leganes,2,1,H
+SP1,09/04/2017,Las Palmas,Real Betis,4,1,H
+SP1,09/04/2017,Celta Vigo,Eibar,0,2,A
+SP1,09/04/2017,Granada CF,Valencia,1,3,A
+SP1,09/09/2016,Real Sociedad,Espanyol,1,1,D
+SP1,09/12/2016,Malaga,Granada CF,1,1,D
+SP1,10/02/2017,Espanyol,Real Sociedad,1,2,A
+SP1,10/03/2017,Espanyol,Las Palmas,4,3,H
+SP1,10/04/2017,Real Sociedad,Sporting Gijon,3,1,H
+SP1,10/09/2016,Barcelona,Alaves,1,2,A
+SP1,10/09/2016,Celta Vigo,Atletico Madrid,0,4,A
+SP1,10/09/2016,Sevilla,Las Palmas,2,1,H
+SP1,10/09/2016,Real Madrid,Osasuna,5,2,H
+SP1,10/09/2016,Malaga,Villarreal,0,2,A
+SP1,10/12/2016,Real Madrid,Deportivo La Coruna,3,2,H
+SP1,10/12/2016,Las Palmas,Leganes,1,1,D
+SP1,10/12/2016,Osasuna,Barcelona,0,3,A
+SP1,10/12/2016,Real Sociedad,Valencia,3,2,H
+SP1,11/02/2017,Osasuna,Real Madrid,1,3,A
+SP1,11/02/2017,Athletic Club,Deportivo La Coruna,2,1,H
+SP1,11/02/2017,Alaves,Barcelona,0,6,A
+SP1,11/02/2017,Real Betis,Valencia,0,0,D
+SP1,11/03/2017,Granada CF,Atletico Madrid,0,1,A
+SP1,11/03/2017,Malaga,Alaves,1,2,A
+SP1,11/03/2017,Sevilla,Leganes,1,1,D
+SP1,11/03/2017,Valencia,Sporting Gijon,1,1,D
+SP1,11/09/2016,Valencia,Real Betis,2,3,A
+SP1,11/09/2016,Deportivo La Coruna,Athletic Club,0,1,A
+SP1,11/09/2016,Sporting Gijon,Leganes,2,1,H
+SP1,11/09/2016,Granada CF,Eibar,1,2,A
+SP1,11/12/2016,Eibar,Alaves,0,0,D
+SP1,11/12/2016,Celta Vigo,Sevilla,0,3,A
+SP1,11/12/2016,Espanyol,Sporting Gijon,2,1,H
+SP1,11/12/2016,Real Betis,Athletic Club,1,0,H
+SP1,12/02/2017,Atletico Madrid,Celta Vigo,3,2,H
+SP1,12/02/2017,Villarreal,Malaga,1,1,D
+SP1,12/02/2017,Las Palmas,Sevilla,0,1,A
+SP1,12/02/2017,Leganes,Sporting Gijon,0,2,A
+SP1,12/03/2017,Deportivo La Coruna,Barcelona,2,1,H
+SP1,12/03/2017,Real Madrid,Real Betis,2,1,H
+SP1,12/03/2017,Celta Vigo,Villarreal,0,1,A
+SP1,12/03/2017,Real Sociedad,Athletic Club,0,2,A
+SP1,12/12/2016,Villarreal,Atletico Madrid,3,0,H
+SP1,13/02/2017,Eibar,Granada CF,4,0,H
+SP1,13/03/2017,Osasuna,Eibar,1,1,D
+SP1,13/05/2017,Espanyol,Valencia,0,1,A
+SP1,13/05/2017,Osasuna,Granada CF,2,1,H
+SP1,14/01/2017,Atletico Madrid,Real Betis,1,0,H
+SP1,14/01/2017,Deportivo La Coruna,Villarreal,0,0,D
+SP1,14/01/2017,Leganes,Athletic Club,0,0,D
+SP1,14/01/2017,Barcelona,Las Palmas,5,0,H
+SP1,14/04/2017,Athletic Club,Las Palmas,5,1,H
+SP1,14/05/2017,Villarreal,Deportivo La Coruna,0,0,D
+SP1,14/05/2017,Las Palmas,Barcelona,1,4,A
+SP1,14/05/2017,Real Madrid,Sevilla,4,1,H
+SP1,14/05/2017,Eibar,Sporting Gijon,0,1,A
+SP1,14/05/2017,Athletic Club,Leganes,1,1,D
+SP1,14/05/2017,Real Betis,Atletico Madrid,1,1,D
+SP1,14/05/2017,Alaves,Celta Vigo,3,1,H
+SP1,14/05/2017,Real Sociedad,Malaga,2,2,D
+SP1,14/10/2016,Las Palmas,Espanyol,0,0,D
+SP1,15/01/2017,Sevilla,Real Madrid,2,1,H
+SP1,15/01/2017,Sporting Gijon,Eibar,2,3,A
+SP1,15/01/2017,Granada CF,Osasuna,1,1,D
+SP1,15/01/2017,Celta Vigo,Alaves,1,0,H
+SP1,15/01/2017,Valencia,Espanyol,2,1,H
+SP1,15/04/2017,Atletico Madrid,Osasuna,3,0,H
+SP1,15/04/2017,Barcelona,Real Sociedad,3,2,H
+SP1,15/04/2017,Deportivo La Coruna,Malaga,2,0,H
+SP1,15/04/2017,Sporting Gijon,Real Madrid,2,3,A
+SP1,15/10/2016,Leganes,Sevilla,2,3,A
+SP1,15/10/2016,Real Betis,Real Madrid,1,6,A
+SP1,15/10/2016,Atletico Madrid,Granada CF,7,1,H
+SP1,15/10/2016,Barcelona,Deportivo La Coruna,4,0,H
+SP1,16/01/2017,Malaga,Real Sociedad,0,2,A
+SP1,16/04/2017,Real Betis,Eibar,2,0,H
+SP1,16/04/2017,Valencia,Sevilla,0,0,D
+SP1,16/04/2017,Leganes,Espanyol,0,1,A
+SP1,16/04/2017,Granada CF,Celta Vigo,0,3,A
+SP1,16/09/2016,Real Betis,Granada CF,2,2,D
+SP1,16/10/2016,Alaves,Malaga,1,1,D
+SP1,16/10/2016,Athletic Club,Real Sociedad,3,2,H
+SP1,16/10/2016,Sporting Gijon,Valencia,1,2,A
+SP1,16/10/2016,Villarreal,Celta Vigo,5,0,H
+SP1,16/12/2016,Alaves,Real Betis,1,0,H
+SP1,17/02/2017,Granada CF,Real Betis,4,1,H
+SP1,17/03/2017,Las Palmas,Villarreal,1,0,H
+SP1,17/04/2017,Alaves,Villarreal,2,1,H
+SP1,17/05/2017,Celta Vigo,Real Madrid,1,4,A
+SP1,17/09/2016,Las Palmas,Malaga,1,0,H
+SP1,17/09/2016,Eibar,Sevilla,1,1,D
+SP1,17/09/2016,Atletico Madrid,Sporting Gijon,5,0,H
+SP1,17/09/2016,Leganes,Barcelona,1,5,A
+SP1,17/10/2016,Eibar,Osasuna,2,3,A
+SP1,17/12/2016,Sevilla,Malaga,4,1,H
+SP1,17/12/2016,Sporting Gijon,Villarreal,1,3,A
+SP1,17/12/2016,Atletico Madrid,Las Palmas,1,0,H
+SP1,17/12/2016,Granada CF,Real Sociedad,0,2,A
+SP1,18/02/2017,Deportivo La Coruna,Alaves,0,1,A
+SP1,18/02/2017,Sporting Gijon,Atletico Madrid,1,4,A
+SP1,18/02/2017,Real Madrid,Espanyol,2,0,H
+SP1,18/02/2017,Sevilla,Eibar,2,0,H
+SP1,18/03/2017,Alaves,Real Sociedad,1,0,H
+SP1,18/03/2017,Real Betis,Osasuna,2,0,H
+SP1,18/03/2017,Eibar,Espanyol,1,1,D
+SP1,18/03/2017,Athletic Club,Real Madrid,1,2,A
+SP1,18/09/2016,Osasuna,Celta Vigo,0,0,D
+SP1,18/09/2016,Espanyol,Real Madrid,0,2,A
+SP1,18/09/2016,Villarreal,Real Sociedad,2,1,H
+SP1,18/09/2016,Athletic Club,Valencia,2,1,H
+SP1,18/11/2016,Real Betis,Las Palmas,2,0,H
+SP1,18/12/2016,Barcelona,Espanyol,4,1,H
+SP1,18/12/2016,Deportivo La Coruna,Osasuna,2,0,H
+SP1,18/12/2016,Leganes,Eibar,1,1,D
+SP1,19/02/2017,Real Sociedad,Villarreal,0,1,A
+SP1,19/02/2017,Barcelona,Leganes,2,1,H
+SP1,19/02/2017,Valencia,Athletic Club,2,0,H
+SP1,19/02/2017,Celta Vigo,Osasuna,3,0,H
+SP1,19/03/2017,Leganes,Malaga,0,0,D
+SP1,19/03/2017,Barcelona,Valencia,4,2,H
+SP1,19/03/2017,Sporting Gijon,Granada CF,3,1,H
+SP1,19/03/2017,Deportivo La Coruna,Celta Vigo,0,1,A
+SP1,19/03/2017,Atletico Madrid,Sevilla,3,1,H
+SP1,19/05/2017,Granada CF,Espanyol,1,2,A
+SP1,19/08/2016,Malaga,Osasuna,1,1,D
+SP1,19/08/2016,Deportivo La Coruna,Eibar,2,1,H
+SP1,19/09/2016,Alaves,Deportivo La Coruna,0,0,D
+SP1,19/11/2016,Deportivo La Coruna,Sevilla,2,3,A
+SP1,19/11/2016,Barcelona,Malaga,0,0,D
+SP1,19/11/2016,Atletico Madrid,Real Madrid,0,3,A
+SP1,19/11/2016,Eibar,Celta Vigo,1,0,H
+SP1,19/12/2016,Athletic Club,Celta Vigo,2,1,H
+SP1,20/01/2017,Las Palmas,Deportivo La Coruna,1,1,D
+SP1,20/02/2017,Malaga,Las Palmas,2,1,H
+SP1,20/05/2017,Sevilla,Osasuna,5,0,H
+SP1,20/05/2017,Deportivo La Coruna,Las Palmas,3,0,H
+SP1,20/05/2017,Leganes,Alaves,1,1,D
+SP1,20/05/2017,Sporting Gijon,Real Betis,2,2,D
+SP1,20/08/2016,Barcelona,Real Betis,6,2,H
+SP1,20/08/2016,Granada CF,Villarreal,1,1,D
+SP1,20/08/2016,Sevilla,Espanyol,6,4,H
+SP1,20/09/2016,Sevilla,Real Betis,1,0,H
+SP1,20/09/2016,Malaga,Eibar,2,1,H
+SP1,20/11/2016,Athletic Club,Villarreal,1,0,H
+SP1,20/11/2016,Alaves,Espanyol,0,1,A
+SP1,20/11/2016,Valencia,Granada CF,1,1,D
+SP1,20/11/2016,Sporting Gijon,Real Sociedad,1,3,A
+SP1,21/01/2017,Espanyol,Granada CF,3,1,H
+SP1,21/01/2017,Villarreal,Valencia,0,2,A
+SP1,21/01/2017,Real Madrid,Malaga,2,1,H
+SP1,21/01/2017,Alaves,Leganes,2,2,D
+SP1,21/04/2017,Sevilla,Granada CF,2,0,H
+SP1,21/05/2017,Valencia,Villarreal,1,3,A
+SP1,21/05/2017,Celta Vigo,Real Sociedad,2,2,D
+SP1,21/05/2017,Atletico Madrid,Athletic Club,3,1,H
+SP1,21/05/2017,Malaga,Real Madrid,0,2,A
+SP1,21/05/2017,Barcelona,Eibar,4,2,H
+SP1,21/08/2016,Sporting Gijon,Athletic Club,2,1,H
+SP1,21/08/2016,Atletico Madrid,Alaves,1,1,D
+SP1,21/08/2016,Real Sociedad,Real Madrid,0,3,A
+SP1,21/09/2016,Real Sociedad,Las Palmas,4,1,H
+SP1,21/09/2016,Barcelona,Atletico Madrid,1,1,D
+SP1,21/09/2016,Real Madrid,Villarreal,1,1,D
+SP1,21/09/2016,Celta Vigo,Sporting Gijon,2,1,H
+SP1,21/09/2016,Granada CF,Athletic Club,1,2,A
+SP1,21/10/2016,Osasuna,Real Betis,1,2,A
+SP1,21/11/2016,Leganes,Osasuna,2,0,H
+SP1,22/01/2017,Eibar,Barcelona,0,4,A
+SP1,22/01/2017,Real Sociedad,Celta Vigo,1,0,H
+SP1,22/01/2017,Real Betis,Sporting Gijon,0,0,D
+SP1,22/01/2017,Athletic Club,Atletico Madrid,2,2,D
+SP1,22/01/2017,Osasuna,Sevilla,3,4,A
+SP1,22/02/2017,Valencia,Real Madrid,2,1,H
+SP1,22/04/2017,Espanyol,Atletico Madrid,0,1,A
+SP1,22/04/2017,Malaga,Valencia,2,0,H
+SP1,22/04/2017,Villarreal,Leganes,2,1,H
+SP1,22/04/2017,Osasuna,Sporting Gijon,2,2,D
+SP1,22/08/2016,Celta Vigo,Leganes,0,1,A
+SP1,22/08/2016,Valencia,Las Palmas,2,4,A
+SP1,22/09/2016,Deportivo La Coruna,Leganes,1,2,A
+SP1,22/09/2016,Valencia,Alaves,2,1,H
+SP1,22/09/2016,Osasuna,Espanyol,1,2,A
+SP1,22/10/2016,Granada CF,Sporting Gijon,0,0,D
+SP1,22/10/2016,Real Sociedad,Alaves,3,0,H
+SP1,22/10/2016,Valencia,Barcelona,2,3,A
+SP1,22/10/2016,Espanyol,Eibar,3,3,D
+SP1,23/04/2017,Celta Vigo,Real Betis,0,1,A
+SP1,23/04/2017,Las Palmas,Alaves,1,1,D
+SP1,23/04/2017,Real Madrid,Barcelona,2,3,A
+SP1,23/04/2017,Real Sociedad,Deportivo La Coruna,1,0,H
+SP1,23/09/2016,Real Betis,Malaga,1,0,H
+SP1,23/10/2016,Villarreal,Las Palmas,2,1,H
+SP1,23/10/2016,Sevilla,Atletico Madrid,1,0,H
+SP1,23/10/2016,Celta Vigo,Deportivo La Coruna,4,1,H
+SP1,23/10/2016,Real Madrid,Athletic Club,2,1,H
+SP1,23/10/2016,Malaga,Leganes,4,0,H
+SP1,24/02/2017,Las Palmas,Real Sociedad,0,1,A
+SP1,24/04/2017,Eibar,Athletic Club,0,1,A
+SP1,24/09/2016,Eibar,Real Sociedad,2,0,H
+SP1,24/09/2016,Sporting Gijon,Barcelona,0,5,A
+SP1,24/09/2016,Las Palmas,Real Madrid,2,2,D
+SP1,24/09/2016,Athletic Club,Sevilla,3,1,H
+SP1,25/02/2017,Eibar,Malaga,3,0,H
+SP1,25/02/2017,Leganes,Deportivo La Coruna,4,0,H
+SP1,25/02/2017,Real Betis,Sevilla,1,2,A
+SP1,25/02/2017,Alaves,Valencia,2,1,H
+SP1,25/04/2017,Atletico Madrid,Villarreal,0,1,A
+SP1,25/04/2017,Granada CF,Malaga,0,2,A
+SP1,25/04/2017,Sporting Gijon,Espanyol,1,1,D
+SP1,25/09/2016,Atletico Madrid,Deportivo La Coruna,1,0,H
+SP1,25/09/2016,Leganes,Valencia,1,2,A
+SP1,25/09/2016,Espanyol,Celta Vigo,0,2,A
+SP1,25/09/2016,Villarreal,Osasuna,3,1,H
+SP1,25/11/2016,Eibar,Real Betis,3,1,H
+SP1,26/02/2017,Espanyol,Osasuna,3,0,H
+SP1,26/02/2017,Atletico Madrid,Barcelona,1,2,A
+SP1,26/02/2017,Athletic Club,Granada CF,3,1,H
+SP1,26/02/2017,Sporting Gijon,Celta Vigo,1,1,D
+SP1,26/02/2017,Villarreal,Real Madrid,2,3,A
+SP1,26/04/2017,Valencia,Real Sociedad,2,3,A
+SP1,26/04/2017,Leganes,Las Palmas,3,0,H
+SP1,26/04/2017,Deportivo La Coruna,Real Madrid,2,6,A
+SP1,26/04/2017,Barcelona,Osasuna,7,1,H
+SP1,26/08/2016,Real Betis,Deportivo La Coruna,0,0,D
+SP1,26/08/2016,Espanyol,Malaga,2,2,D
+SP1,26/09/2016,Alaves,Granada CF,3,1,H
+SP1,26/11/2016,Espanyol,Leganes,3,0,H
+SP1,26/11/2016,Sevilla,Valencia,2,1,H
+SP1,26/11/2016,Malaga,Deportivo La Coruna,4,3,H
+SP1,26/11/2016,Real Madrid,Sporting Gijon,2,1,H
+SP1,27/01/2017,Osasuna,Malaga,1,1,D
+SP1,27/04/2017,Alaves,Eibar,0,0,D
+SP1,27/04/2017,Sevilla,Celta Vigo,2,1,H
+SP1,27/04/2017,Athletic Club,Real Betis,2,1,H
+SP1,27/08/2016,Real Madrid,Celta Vigo,2,1,H
+SP1,27/08/2016,Eibar,Valencia,1,0,H
+SP1,27/08/2016,Osasuna,Real Sociedad,0,2,A
+SP1,27/08/2016,Leganes,Atletico Madrid,0,0,D
+SP1,27/11/2016,Celta Vigo,Granada CF,3,1,H
+SP1,27/11/2016,Real Sociedad,Barcelona,1,1,D
+SP1,27/11/2016,Osasuna,Atletico Madrid,0,3,A
+SP1,27/11/2016,Villarreal,Alaves,0,2,A
+SP1,28/01/2017,Eibar,Deportivo La Coruna,3,1,H
+SP1,28/01/2017,Alaves,Atletico Madrid,0,0,D
+SP1,28/01/2017,Villarreal,Granada CF,2,0,H
+SP1,28/01/2017,Leganes,Celta Vigo,0,2,A
+SP1,28/02/2017,Real Sociedad,Eibar,2,2,D
+SP1,28/02/2017,Malaga,Real Betis,1,2,A
+SP1,28/02/2017,Valencia,Leganes,1,0,H
+SP1,28/04/2017,Villarreal,Sporting Gijon,3,1,H
+SP1,28/08/2016,Athletic Club,Barcelona,0,1,A
+SP1,28/08/2016,Las Palmas,Granada CF,5,1,H
+SP1,28/08/2016,Alaves,Sporting Gijon,0,0,D
+SP1,28/08/2016,Villarreal,Sevilla,0,0,D
+SP1,28/10/2016,Leganes,Real Sociedad,0,2,A
+SP1,28/11/2016,Las Palmas,Athletic Club,3,1,H
+SP1,29/01/2017,Espanyol,Sevilla,3,1,H
+SP1,29/01/2017,Real Betis,Barcelona,1,1,D
+SP1,29/01/2017,Athletic Club,Sporting Gijon,2,1,H
+SP1,29/01/2017,Real Madrid,Real Sociedad,3,0,H
+SP1,29/04/2017,Las Palmas,Atletico Madrid,0,5,A
+SP1,29/04/2017,Real Madrid,Valencia,2,1,H
+SP1,29/04/2017,Real Sociedad,Granada CF,2,1,H
+SP1,29/04/2017,Espanyol,Barcelona,0,3,A
+SP1,29/10/2016,Sporting Gijon,Sevilla,1,1,D
+SP1,29/10/2016,Barcelona,Granada CF,1,0,H
+SP1,29/10/2016,Atletico Madrid,Malaga,4,2,H
+SP1,29/10/2016,Alaves,Real Madrid,1,4,A
+SP1,30/01/2017,Las Palmas,Valencia,3,1,H
+SP1,30/04/2017,Real Betis,Alaves,1,4,A
+SP1,30/04/2017,Eibar,Leganes,2,0,H
+SP1,30/04/2017,Celta Vigo,Athletic Club,0,3,A
+SP1,30/04/2017,Osasuna,Deportivo La Coruna,2,2,D
+SP1,30/09/2016,Real Sociedad,Real Betis,1,0,H
+SP1,30/10/2016,Las Palmas,Celta Vigo,3,3,D
+SP1,30/10/2016,Real Betis,Espanyol,0,1,A
+SP1,30/10/2016,Athletic Club,Osasuna,1,1,D
+SP1,30/10/2016,Eibar,Villarreal,2,1,H
+SP1,31/03/2017,Espanyol,Real Betis,2,1,H
+SP1,31/10/2016,Deportivo La Coruna,Valencia,1,1,D

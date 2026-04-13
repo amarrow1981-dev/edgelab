@@ -1,0 +1,312 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+N1,01/02/2011,De Graafschap,Utrecht,0,0,D
+N1,01/05/2011,ADO Den Haag,Groningen,2,4,A
+N1,01/05/2011,Excelsior,Utrecht,3,1,H
+N1,01/05/2011,Twente,Willem II,4,0,H
+N1,01/05/2011,NEC Nijmegen,Roda,5,0,H
+N1,01/05/2011,AZ Alkmaar,De Graafschap,5,1,H
+N1,01/05/2011,PSV Eindhoven,Vitesse,2,1,H
+N1,01/05/2011,NAC Breda,Heracles,1,2,A
+N1,01/05/2011,VVV Venlo,Feyenoord,3,2,H
+N1,01/05/2011,Heerenveen,Ajax,1,2,A
+N1,01/10/2010,Vitesse,Willem II,0,0,D
+N1,02/04/2011,Twente,PSV Eindhoven,2,0,H
+N1,02/04/2011,De Graafschap,NAC Breda,1,3,A
+N1,02/04/2011,Heerenveen,Excelsior,2,3,A
+N1,02/04/2011,Willem II,Roda,4,5,A
+N1,02/04/2011,Feyenoord,AZ Alkmaar,0,1,A
+N1,02/10/2010,NAC Breda,NEC Nijmegen,2,0,H
+N1,02/10/2010,Excelsior,Roda,1,2,A
+N1,03/04/2011,Utrecht,ADO Den Haag,2,3,A
+N1,03/04/2011,Groningen,VVV Venlo,3,2,H
+N1,03/04/2011,Vitesse,NEC Nijmegen,2,1,H
+N1,03/04/2011,Ajax,Heracles,3,0,H
+N1,03/10/2010,De Graafschap,Feyenoord,1,1,D
+N1,03/10/2010,Twente,Groningen,4,2,H
+N1,03/10/2010,AZ Alkmaar,Heracles,2,1,H
+N1,03/10/2010,Heerenveen,ADO Den Haag,0,0,D
+N1,03/10/2010,PSV Eindhoven,VVV Venlo,3,0,H
+N1,03/10/2010,Ajax,Utrecht,1,2,A
+N1,03/12/2010,Groningen,Vitesse,4,1,H
+N1,04/02/2011,Ajax,De Graafschap,2,0,H
+N1,04/03/2011,De Graafschap,Willem II,2,1,H
+N1,04/12/2010,Twente,De Graafschap,2,0,H
+N1,04/12/2010,PSV Eindhoven,Heracles,5,2,H
+N1,04/12/2010,Ajax,NEC Nijmegen,1,1,D
+N1,05/02/2011,Heerenveen,NEC Nijmegen,0,0,D
+N1,05/02/2011,Excelsior,AZ Alkmaar,2,1,H
+N1,05/02/2011,PSV Eindhoven,ADO Den Haag,0,1,A
+N1,05/02/2011,VVV Venlo,NAC Breda,3,0,H
+N1,05/03/2011,Twente,NAC Breda,2,0,H
+N1,05/03/2011,Excelsior,PSV Eindhoven,2,3,A
+N1,05/03/2011,Vitesse,VVV Venlo,2,0,H
+N1,05/03/2011,ADO Den Haag,NEC Nijmegen,5,1,H
+N1,05/11/2010,Willem II,VVV Venlo,1,4,A
+N1,05/12/2010,ADO Den Haag,AZ Alkmaar,0,2,A
+N1,05/12/2010,Utrecht,Heerenveen,2,1,H
+N1,05/12/2010,Willem II,Feyenoord,1,1,D
+N1,06/02/2011,Vitesse,Feyenoord,1,1,D
+N1,06/02/2011,Groningen,Willem II,7,1,H
+N1,06/02/2011,Utrecht,Twente,1,1,D
+N1,06/02/2011,Heracles,Roda,1,0,H
+N1,06/03/2011,Utrecht,Roda,1,1,D
+N1,06/03/2011,Groningen,Heracles,1,4,A
+N1,06/03/2011,Ajax,AZ Alkmaar,4,0,H
+N1,06/03/2011,Heerenveen,Feyenoord,0,1,A
+N1,06/08/2010,Roda,Twente,0,0,D
+N1,06/11/2010,Groningen,NAC Breda,2,1,H
+N1,06/11/2010,Heerenveen,Heracles,3,2,H
+N1,06/11/2010,De Graafschap,NEC Nijmegen,1,4,A
+N1,06/11/2010,Twente,Excelsior,2,1,H
+N1,07/08/2010,De Graafschap,Excelsior,3,0,H
+N1,07/08/2010,NEC Nijmegen,VVV Venlo,1,0,H
+N1,07/08/2010,Heracles,Willem II,3,0,H
+N1,07/08/2010,Heerenveen,PSV Eindhoven,1,3,A
+N1,07/11/2010,Ajax,ADO Den Haag,0,1,A
+N1,07/11/2010,Utrecht,PSV Eindhoven,1,2,A
+N1,07/11/2010,Feyenoord,Roda,1,1,D
+N1,07/11/2010,Vitesse,AZ Alkmaar,1,1,D
+N1,08/04/2011,AZ Alkmaar,NAC Breda,1,1,D
+N1,08/08/2010,NAC Breda,AZ Alkmaar,1,1,D
+N1,08/08/2010,Vitesse,ADO Den Haag,3,1,H
+N1,08/08/2010,Feyenoord,Utrecht,3,1,H
+N1,08/08/2010,Groningen,Ajax,2,2,D
+N1,09/04/2011,Willem II,Heracles,2,6,A
+N1,09/04/2011,Excelsior,De Graafschap,0,0,D
+N1,09/04/2011,ADO Den Haag,Vitesse,1,0,H
+N1,09/04/2011,VVV Venlo,NEC Nijmegen,1,4,A
+N1,10/04/2011,PSV Eindhoven,Heerenveen,2,2,D
+N1,10/04/2011,Twente,Roda,1,1,D
+N1,10/04/2011,Ajax,Groningen,2,0,H
+N1,10/04/2011,Utrecht,Feyenoord,0,4,A
+N1,10/12/2010,Heracles,VVV Venlo,2,2,D
+N1,11/03/2011,Utrecht,Groningen,1,0,H
+N1,11/09/2010,Heerenveen,Vitesse,2,1,H
+N1,11/09/2010,VVV Venlo,Twente,1,2,A
+N1,11/09/2010,Excelsior,Heracles,2,1,H
+N1,11/09/2010,AZ Alkmaar,Roda,1,2,A
+N1,11/09/2010,PSV Eindhoven,NEC Nijmegen,3,1,H
+N1,11/09/2010,Ajax,Willem II,2,0,H
+N1,11/12/2010,NAC Breda,Utrecht,3,1,H
+N1,11/12/2010,NEC Nijmegen,Willem II,3,1,H
+N1,11/12/2010,Roda,ADO Den Haag,1,1,D
+N1,11/12/2010,De Graafschap,PSV Eindhoven,0,0,D
+N1,12/02/2011,Twente,Vitesse,1,0,H
+N1,12/02/2011,ADO Den Haag,VVV Venlo,3,0,H
+N1,12/02/2011,Willem II,Utrecht,3,3,D
+N1,12/02/2011,Feyenoord,Heracles,2,1,H
+N1,12/02/2011,AZ Alkmaar,PSV Eindhoven,0,4,A
+N1,12/03/2011,Heracles,Excelsior,4,1,H
+N1,12/03/2011,Vitesse,Heerenveen,1,1,D
+N1,12/03/2011,Roda,AZ Alkmaar,1,2,A
+N1,12/09/2010,NAC Breda,Feyenoord,2,0,H
+N1,12/09/2010,ADO Den Haag,De Graafschap,2,2,D
+N1,12/09/2010,Groningen,Utrecht,1,0,H
+N1,12/12/2010,Feyenoord,Excelsior,1,0,H
+N1,12/12/2010,Heerenveen,Twente,6,2,H
+N1,12/12/2010,Vitesse,Ajax,0,1,A
+N1,12/12/2010,Groningen,AZ Alkmaar,2,0,H
+N1,13/02/2011,De Graafschap,Groningen,1,1,D
+N1,13/02/2011,NEC Nijmegen,Excelsior,2,0,H
+N1,13/02/2011,Roda,Ajax,2,2,D
+N1,13/02/2011,NAC Breda,Heerenveen,0,2,A
+N1,13/03/2011,NEC Nijmegen,PSV Eindhoven,2,2,D
+N1,13/03/2011,De Graafschap,ADO Den Haag,1,0,H
+N1,13/03/2011,Twente,VVV Venlo,2,1,H
+N1,13/03/2011,Feyenoord,NAC Breda,2,1,H
+N1,13/03/2011,Willem II,Ajax,1,3,A
+N1,13/11/2010,PSV Eindhoven,Excelsior,4,2,H
+N1,13/11/2010,NAC Breda,Twente,2,1,H
+N1,14/08/2010,AZ Alkmaar,Groningen,1,1,D
+N1,14/08/2010,PSV Eindhoven,De Graafschap,6,0,H
+N1,14/08/2010,Ajax,Vitesse,4,2,H
+N1,14/08/2010,Twente,Heerenveen,0,0,D
+N1,14/08/2010,VVV Venlo,Heracles,1,0,H
+N1,14/11/2010,VVV Venlo,Vitesse,1,5,A
+N1,14/11/2010,Heracles,Groningen,3,0,H
+N1,14/11/2010,AZ Alkmaar,Ajax,2,0,H
+N1,14/11/2010,NEC Nijmegen,ADO Den Haag,1,1,D
+N1,14/11/2010,Feyenoord,Heerenveen,2,2,D
+N1,14/12/2010,VVV Venlo,Roda,0,4,A
+N1,15/04/2011,Heerenveen,Utrecht,3,0,H
+N1,15/05/2011,Heracles,ADO Den Haag,3,0,H
+N1,15/05/2011,Roda,Heerenveen,0,0,D
+N1,15/05/2011,Willem II,NAC Breda,0,1,A
+N1,15/05/2011,Utrecht,AZ Alkmaar,5,1,H
+N1,15/05/2011,De Graafschap,VVV Venlo,1,0,H
+N1,15/05/2011,Vitesse,Excelsior,1,4,A
+N1,15/05/2011,Groningen,PSV Eindhoven,0,0,D
+N1,15/05/2011,Ajax,Twente,3,1,H
+N1,15/05/2011,Feyenoord,NEC Nijmegen,1,1,D
+N1,15/08/2010,Utrecht,NAC Breda,3,1,H
+N1,15/08/2010,Willem II,NEC Nijmegen,3,5,A
+N1,15/08/2010,ADO Den Haag,Roda,1,3,A
+N1,15/08/2010,Excelsior,Feyenoord,3,2,H
+N1,15/12/2010,Excelsior,NAC Breda,1,3,A
+N1,16/04/2011,NAC Breda,Excelsior,1,2,A
+N1,16/04/2011,Roda,VVV Venlo,5,2,H
+N1,16/04/2011,AZ Alkmaar,ADO Den Haag,3,1,H
+N1,16/04/2011,Vitesse,Groningen,2,1,H
+N1,16/10/2010,Ajax,NAC Breda,3,0,H
+N1,16/10/2010,ADO Den Haag,Excelsior,2,1,H
+N1,16/10/2010,Utrecht,De Graafschap,2,2,D
+N1,16/10/2010,Feyenoord,Twente,0,1,A
+N1,16/10/2010,VVV Venlo,AZ Alkmaar,0,1,A
+N1,17/04/2011,De Graafschap,Twente,1,1,D
+N1,17/04/2011,Heracles,PSV Eindhoven,0,2,A
+N1,17/04/2011,Feyenoord,Willem II,6,1,H
+N1,17/04/2011,NEC Nijmegen,Ajax,1,2,A
+N1,17/09/2010,De Graafschap,Heerenveen,3,2,H
+N1,17/10/2010,Willem II,PSV Eindhoven,2,4,A
+N1,17/10/2010,Groningen,Heerenveen,1,0,H
+N1,17/10/2010,Roda,Vitesse,4,1,H
+N1,17/10/2010,Heracles,NEC Nijmegen,3,2,H
+N1,18/02/2011,Utrecht,Heracles,1,1,D
+N1,18/03/2011,AZ Alkmaar,Vitesse,3,1,H
+N1,18/09/2010,Willem II,ADO Den Haag,2,4,A
+N1,18/09/2010,Vitesse,NAC Breda,0,0,D
+N1,18/09/2010,Groningen,Excelsior,2,0,H
+N1,18/12/2010,Heerenveen,De Graafschap,4,0,H
+N1,18/12/2010,Excelsior,Groningen,2,2,D
+N1,18/12/2010,NAC Breda,Vitesse,1,1,D
+N1,18/12/2010,ADO Den Haag,Willem II,2,1,H
+N1,19/01/2011,VVV Venlo,Utrecht,1,2,A
+N1,19/01/2011,Ajax,Feyenoord,2,0,H
+N1,19/01/2011,Twente,Heracles,5,0,H
+N1,19/01/2011,AZ Alkmaar,NEC Nijmegen,2,2,D
+N1,19/02/2011,Excelsior,Willem II,4,0,H
+N1,19/02/2011,Heerenveen,AZ Alkmaar,0,2,A
+N1,19/02/2011,Groningen,Roda,1,4,A
+N1,19/03/2011,NEC Nijmegen,De Graafschap,1,0,H
+N1,19/03/2011,Heracles,Heerenveen,4,2,H
+N1,19/03/2011,VVV Venlo,Willem II,0,0,D
+N1,19/03/2011,NAC Breda,Groningen,0,1,A
+N1,19/05/2011,Heracles,Groningen,3,2,H
+N1,19/05/2011,ADO Den Haag,Roda,4,2,H
+N1,19/09/2010,Utrecht,VVV Venlo,3,2,H
+N1,19/09/2010,Heracles,Twente,0,0,D
+N1,19/09/2010,Roda,PSV Eindhoven,0,0,D
+N1,19/09/2010,NEC Nijmegen,AZ Alkmaar,0,1,A
+N1,19/09/2010,Feyenoord,Ajax,1,2,A
+N1,19/12/2010,PSV Eindhoven,Roda,3,1,H
+N1,20/02/2011,ADO Den Haag,Feyenoord,2,2,D
+N1,20/02/2011,Twente,NEC Nijmegen,1,1,D
+N1,20/02/2011,Vitesse,De Graafschap,2,0,H
+N1,20/02/2011,PSV Eindhoven,NAC Breda,4,1,H
+N1,20/02/2011,Ajax,VVV Venlo,1,0,H
+N1,20/03/2011,PSV Eindhoven,Utrecht,1,0,H
+N1,20/03/2011,Excelsior,Twente,0,2,A
+N1,20/03/2011,Roda,Feyenoord,3,0,H
+N1,20/03/2011,ADO Den Haag,Ajax,3,2,H
+N1,20/08/2010,Excelsior,NEC Nijmegen,4,2,H
+N1,20/11/2010,Ajax,PSV Eindhoven,0,0,D
+N1,20/11/2010,Twente,AZ Alkmaar,1,2,A
+N1,20/11/2010,De Graafschap,Roda,3,1,H
+N1,20/11/2010,Excelsior,VVV Venlo,1,0,H
+N1,20/11/2010,Vitesse,Heracles,2,0,H
+N1,21/01/2011,ADO Den Haag,Heerenveen,3,1,H
+N1,21/08/2010,Groningen,De Graafschap,2,1,H
+N1,21/08/2010,Heerenveen,NAC Breda,3,1,H
+N1,21/08/2010,Vitesse,Twente,0,3,A
+N1,21/08/2010,Ajax,Roda,3,0,H
+N1,21/11/2010,ADO Den Haag,NAC Breda,3,0,H
+N1,21/11/2010,Heerenveen,Willem II,5,0,H
+N1,21/11/2010,Utrecht,NEC Nijmegen,4,0,H
+N1,21/11/2010,Groningen,Feyenoord,2,0,H
+N1,22/01/2011,Willem II,Vitesse,1,0,H
+N1,22/01/2011,Heracles,AZ Alkmaar,0,0,D
+N1,22/01/2011,NEC Nijmegen,NAC Breda,2,2,D
+N1,22/01/2011,Feyenoord,De Graafschap,0,1,A
+N1,22/04/2011,ADO Den Haag,Twente,1,2,A
+N1,22/05/2011,Groningen,Heracles,2,1,H
+N1,22/05/2011,Roda,ADO Den Haag,1,2,A
+N1,22/08/2010,Heracles,Feyenoord,1,1,D
+N1,22/08/2010,Utrecht,Willem II,3,0,H
+N1,22/08/2010,VVV Venlo,ADO Den Haag,2,3,A
+N1,22/08/2010,PSV Eindhoven,AZ Alkmaar,3,1,H
+N1,22/10/2010,NAC Breda,Roda,1,2,A
+N1,23/01/2011,VVV Venlo,PSV Eindhoven,0,3,A
+N1,23/01/2011,Groningen,Twente,1,2,A
+N1,23/01/2011,Roda,Excelsior,3,0,H
+N1,23/01/2011,Utrecht,Ajax,3,0,H
+N1,23/04/2011,Willem II,AZ Alkmaar,2,1,H
+N1,23/04/2011,Heracles,De Graafschap,2,0,H
+N1,23/04/2011,Roda,NAC Breda,5,1,H
+N1,23/04/2011,VVV Venlo,Heerenveen,2,2,D
+N1,23/10/2010,Heerenveen,VVV Venlo,2,0,H
+N1,23/10/2010,NEC Nijmegen,Groningen,3,2,H
+N1,23/10/2010,De Graafschap,Heracles,1,1,D
+N1,24/04/2011,Groningen,NEC Nijmegen,3,1,H
+N1,24/04/2011,Utrecht,Vitesse,4,2,H
+N1,24/04/2011,Feyenoord,PSV Eindhoven,3,1,H
+N1,24/04/2011,Ajax,Excelsior,4,1,H
+N1,24/10/2010,Excelsior,Ajax,2,2,D
+N1,24/10/2010,Vitesse,Utrecht,1,4,A
+N1,24/10/2010,AZ Alkmaar,Willem II,3,0,H
+N1,24/10/2010,Twente,ADO Den Haag,3,2,H
+N1,24/10/2010,PSV Eindhoven,Feyenoord,10,0,H
+N1,24/11/2010,Roda,Utrecht,1,1,D
+N1,24/11/2010,Willem II,De Graafschap,0,1,A
+N1,25/02/2011,VVV Venlo,Excelsior,1,0,H
+N1,25/09/2010,Heerenveen,Roda,2,2,D
+N1,25/09/2010,AZ Alkmaar,Utrecht,1,0,H
+N1,25/09/2010,Twente,Ajax,2,2,D
+N1,25/09/2010,ADO Den Haag,Heracles,3,2,H
+N1,25/09/2010,PSV Eindhoven,Groningen,1,1,D
+N1,26/02/2011,NAC Breda,ADO Den Haag,3,2,H
+N1,26/02/2011,Roda,De Graafschap,1,1,D
+N1,26/02/2011,Heracles,Vitesse,6,1,H
+N1,26/02/2011,Willem II,Heerenveen,4,3,H
+N1,26/05/2011,ADO Den Haag,Groningen,5,1,H
+N1,26/09/2010,VVV Venlo,De Graafschap,1,0,H
+N1,26/09/2010,NEC Nijmegen,Feyenoord,3,0,H
+N1,26/09/2010,NAC Breda,Willem II,2,1,H
+N1,26/09/2010,Excelsior,Vitesse,0,2,A
+N1,26/10/2010,Roda,NEC Nijmegen,1,1,D
+N1,26/10/2010,Heracles,NAC Breda,4,1,H
+N1,26/11/2010,NAC Breda,PSV Eindhoven,4,2,H
+N1,27/02/2011,NEC Nijmegen,Utrecht,1,1,D
+N1,27/02/2011,PSV Eindhoven,Ajax,0,0,D
+N1,27/02/2011,AZ Alkmaar,Twente,2,1,H
+N1,27/02/2011,Feyenoord,Groningen,5,1,H
+N1,27/08/2010,Willem II,Groningen,0,3,A
+N1,27/10/2010,Vitesse,PSV Eindhoven,0,2,A
+N1,27/10/2010,Feyenoord,VVV Venlo,3,0,H
+N1,27/10/2010,Ajax,Heerenveen,3,1,H
+N1,27/10/2010,Willem II,Twente,1,3,A
+N1,27/10/2010,Utrecht,Excelsior,2,0,H
+N1,27/10/2010,De Graafschap,AZ Alkmaar,2,1,H
+N1,27/10/2010,Groningen,ADO Den Haag,3,1,H
+N1,27/11/2010,AZ Alkmaar,Heerenveen,2,2,D
+N1,27/11/2010,Willem II,Excelsior,1,1,D
+N1,27/11/2010,Roda,Groningen,1,0,H
+N1,27/11/2010,NEC Nijmegen,Twente,2,4,A
+N1,28/01/2011,NEC Nijmegen,Heracles,1,1,D
+N1,28/08/2010,Roda,Heracles,4,2,H
+N1,28/08/2010,NAC Breda,VVV Venlo,2,0,H
+N1,28/08/2010,NEC Nijmegen,Heerenveen,2,2,D
+N1,28/11/2010,VVV Venlo,Ajax,0,2,A
+N1,28/11/2010,Heracles,Utrecht,2,1,H
+N1,28/11/2010,De Graafschap,Vitesse,1,1,D
+N1,28/11/2010,Feyenoord,ADO Den Haag,2,1,H
+N1,29/01/2011,AZ Alkmaar,VVV Venlo,6,1,H
+N1,29/01/2011,PSV Eindhoven,Willem II,2,1,H
+N1,29/01/2011,Vitesse,Roda,5,2,H
+N1,29/08/2010,De Graafschap,Ajax,0,5,A
+N1,29/08/2010,Twente,Utrecht,4,0,H
+N1,29/08/2010,Feyenoord,Vitesse,4,0,H
+N1,29/08/2010,ADO Den Haag,PSV Eindhoven,2,2,D
+N1,29/08/2010,AZ Alkmaar,Excelsior,1,1,D
+N1,30/01/2011,Excelsior,ADO Den Haag,1,5,A
+N1,30/01/2011,NAC Breda,Ajax,0,3,A
+N1,30/01/2011,Heerenveen,Groningen,1,4,A
+N1,30/01/2011,Twente,Feyenoord,2,1,H
+N1,30/10/2010,Heracles,Ajax,1,4,A
+N1,30/10/2010,NAC Breda,De Graafschap,2,0,H
+N1,30/10/2010,Excelsior,Heerenveen,0,2,A
+N1,30/10/2010,PSV Eindhoven,Twente,0,1,A
+N1,30/10/2010,VVV Venlo,Groningen,3,5,A
+N1,31/10/2010,NEC Nijmegen,Vitesse,0,0,D
+N1,31/10/2010,Roda,Willem II,2,2,D
+N1,31/10/2010,AZ Alkmaar,Feyenoord,2,1,H
+N1,31/10/2010,ADO Den Haag,Utrecht,1,0,H

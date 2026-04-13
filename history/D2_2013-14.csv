@@ -1,0 +1,307 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+D2,01/03/2014,SV Sandhausen,TSV 1860 Munich,0,0,D
+D2,01/03/2014,Erzgebirge AUE,1. FC Köln,2,2,D
+D2,01/09/2013,Dynamo Dresden,FC Ingolstadt 04,1,1,D
+D2,01/09/2013,Karlsruher SC,VfR Aalen,1,1,D
+D2,01/09/2013,1. FC Köln,Erzgebirge AUE,4,1,H
+D2,01/11/2013,VfR Aalen,Fortuna Dusseldorf,1,0,H
+D2,01/11/2013,Energie Cottbus,Vfl Bochum,0,1,A
+D2,01/11/2013,SC Paderborn 07,FC Ingolstadt 04,1,1,D
+D2,01/12/2013,SpVgg Greuther Furth,Energie Cottbus,1,0,H
+D2,01/12/2013,SC Paderborn 07,Erzgebirge AUE,1,1,D
+D2,01/12/2013,Vfl Bochum,TSV 1860 Munich,1,2,A
+D2,02/03/2014,SpVgg Greuther Furth,FSV Frankfurt,3,2,H
+D2,02/03/2014,VfR Aalen,Karlsruher SC,1,0,H
+D2,02/03/2014,FC Ingolstadt 04,Dynamo Dresden,1,1,D
+D2,02/09/2013,FC Kaiserslautern,Energie Cottbus,2,2,D
+D2,02/11/2013,Erzgebirge AUE,SpVgg Greuther Furth,2,6,A
+D2,02/11/2013,FC Kaiserslautern,FC St. Pauli,4,1,H
+D2,02/12/2013,FSV Frankfurt,Arminia Bielefeld,1,2,A
+D2,03/03/2014,FC St. Pauli,Union Berlin,2,1,H
+D2,03/11/2013,SV Sandhausen,FSV Frankfurt,2,0,H
+D2,03/11/2013,Karlsruher SC,Arminia Bielefeld,3,1,H
+D2,03/11/2013,TSV 1860 Munich,Dynamo Dresden,1,3,A
+D2,04/04/2014,SC Paderborn 07,Fortuna Dusseldorf,1,2,A
+D2,04/04/2014,Energie Cottbus,Dynamo Dresden,0,0,D
+D2,04/04/2014,VfR Aalen,FSV Frankfurt,2,1,H
+D2,04/05/2014,SV Sandhausen,FC Ingolstadt 04,0,2,A
+D2,04/05/2014,Energie Cottbus,SpVgg Greuther Furth,0,6,A
+D2,04/05/2014,TSV 1860 Munich,Vfl Bochum,2,0,H
+D2,04/05/2014,Karlsruher SC,Fortuna Dusseldorf,2,2,D
+D2,04/05/2014,FC Kaiserslautern,Dynamo Dresden,4,0,H
+D2,04/05/2014,1. FC Köln,FC St. Pauli,4,0,H
+D2,04/05/2014,Arminia Bielefeld,FSV Frankfurt,0,0,D
+D2,04/05/2014,Erzgebirge AUE,SC Paderborn 07,0,2,A
+D2,04/05/2014,VfR Aalen,Union Berlin,3,0,H
+D2,04/10/2013,Arminia Bielefeld,FC Kaiserslautern,0,3,A
+D2,04/10/2013,FC St. Pauli,SC Paderborn 07,1,2,A
+D2,04/10/2013,Union Berlin,SV Sandhausen,3,0,H
+D2,04/11/2013,1. FC Köln,Union Berlin,4,0,H
+D2,05/04/2014,1. FC Köln,Arminia Bielefeld,2,0,H
+D2,05/04/2014,SV Sandhausen,FC St. Pauli,2,3,A
+D2,05/10/2013,Dynamo Dresden,VfR Aalen,2,0,H
+D2,05/10/2013,Karlsruher SC,1. FC Köln,1,2,A
+D2,06/04/2014,FC Kaiserslautern,Vfl Bochum,1,1,D
+D2,06/04/2014,TSV 1860 Munich,Karlsruher SC,0,3,A
+D2,06/04/2014,Erzgebirge AUE,Union Berlin,3,2,H
+D2,06/10/2013,TSV 1860 Munich,Energie Cottbus,0,0,D
+D2,06/10/2013,FSV Frankfurt,Erzgebirge AUE,3,1,H
+D2,06/10/2013,Vfl Bochum,FC Ingolstadt 04,0,1,A
+D2,06/12/2013,Karlsruher SC,Vfl Bochum,0,0,D
+D2,06/12/2013,Arminia Bielefeld,Dynamo Dresden,1,1,D
+D2,06/12/2013,Erzgebirge AUE,FC St. Pauli,0,2,A
+D2,07/02/2014,Energie Cottbus,SV Sandhausen,0,1,A
+D2,07/02/2014,Vfl Bochum,FSV Frankfurt,1,2,A
+D2,07/02/2014,VfR Aalen,Erzgebirge AUE,2,2,D
+D2,07/03/2014,FC Kaiserslautern,SV Sandhausen,2,1,H
+D2,07/03/2014,TSV 1860 Munich,VfR Aalen,4,0,H
+D2,07/03/2014,1. FC Köln,Energie Cottbus,2,1,H
+D2,07/04/2014,FC Ingolstadt 04,SpVgg Greuther Furth,0,0,D
+D2,07/10/2013,Fortuna Dusseldorf,SpVgg Greuther Furth,2,1,H
+D2,07/12/2013,TSV 1860 Munich,Union Berlin,2,1,H
+D2,07/12/2013,1. FC Köln,FSV Frankfurt,2,0,H
+D2,08/02/2014,FC Kaiserslautern,SpVgg Greuther Furth,2,1,H
+D2,08/02/2014,Union Berlin,Dynamo Dresden,0,0,D
+D2,08/03/2014,Arminia Bielefeld,Erzgebirge AUE,1,0,H
+D2,08/03/2014,Union Berlin,FC Ingolstadt 04,1,1,D
+D2,08/11/2013,FSV Frankfurt,FC Kaiserslautern,0,4,A
+D2,08/11/2013,FC Ingolstadt 04,VfR Aalen,2,0,H
+D2,08/11/2013,SpVgg Greuther Furth,SC Paderborn 07,3,0,H
+D2,08/12/2013,VfR Aalen,SC Paderborn 07,2,4,A
+D2,08/12/2013,Energie Cottbus,FC Ingolstadt 04,1,2,A
+D2,08/12/2013,SV Sandhausen,SpVgg Greuther Furth,1,3,A
+D2,09/02/2014,Karlsruher SC,FC Ingolstadt 04,1,1,D
+D2,09/02/2014,Arminia Bielefeld,FC St. Pauli,2,2,D
+D2,09/02/2014,1. FC Köln,SC Paderborn 07,0,1,A
+D2,09/03/2014,FSV Frankfurt,FC St. Pauli,1,0,H
+D2,09/03/2014,Karlsruher SC,SC Paderborn 07,4,0,H
+D2,09/03/2014,Dynamo Dresden,Fortuna Dusseldorf,1,1,D
+D2,09/08/2013,Fortuna Dusseldorf,TSV 1860 Munich,1,2,A
+D2,09/08/2013,Dynamo Dresden,Union Berlin,1,3,A
+D2,09/08/2013,FSV Frankfurt,Vfl Bochum,1,0,H
+D2,09/11/2013,Arminia Bielefeld,TSV 1860 Munich,0,1,A
+D2,09/11/2013,Union Berlin,Karlsruher SC,0,0,D
+D2,09/12/2013,FC Kaiserslautern,Fortuna Dusseldorf,0,1,A
+D2,10/02/2014,TSV 1860 Munich,Fortuna Dusseldorf,1,1,D
+D2,10/03/2014,Vfl Bochum,SpVgg Greuther Furth,0,2,A
+D2,10/08/2013,FC Ingolstadt 04,Karlsruher SC,0,2,A
+D2,10/08/2013,SC Paderborn 07,1. FC Köln,1,1,D
+D2,10/11/2013,Vfl Bochum,1. FC Köln,1,0,H
+D2,10/11/2013,Fortuna Dusseldorf,SV Sandhausen,1,0,H
+D2,10/11/2013,Dynamo Dresden,Erzgebirge AUE,1,1,D
+D2,11/04/2014,Union Berlin,1. FC Köln,1,2,A
+D2,11/04/2014,FC Ingolstadt 04,SC Paderborn 07,1,2,A
+D2,11/04/2014,FC St. Pauli,FC Kaiserslautern,2,3,A
+D2,11/05/2014,FC St. Pauli,Erzgebirge AUE,2,2,D
+D2,11/05/2014,Vfl Bochum,Karlsruher SC,1,0,H
+D2,11/05/2014,SpVgg Greuther Furth,SV Sandhausen,2,0,H
+D2,11/05/2014,Union Berlin,TSV 1860 Munich,1,1,D
+D2,11/05/2014,Dynamo Dresden,Arminia Bielefeld,2,3,A
+D2,11/05/2014,FC Ingolstadt 04,Energie Cottbus,2,0,H
+D2,11/05/2014,SC Paderborn 07,VfR Aalen,2,1,H
+D2,11/05/2014,Fortuna Dusseldorf,FC Kaiserslautern,4,2,H
+D2,11/05/2014,FSV Frankfurt,1. FC Köln,2,0,H
+D2,11/08/2013,Erzgebirge AUE,VfR Aalen,0,1,A
+D2,11/08/2013,SV Sandhausen,Energie Cottbus,2,2,D
+D2,11/08/2013,FC St. Pauli,Arminia Bielefeld,0,1,A
+D2,11/11/2013,FC St. Pauli,Energie Cottbus,3,0,H
+D2,12/04/2014,SpVgg Greuther Furth,Erzgebirge AUE,2,1,H
+D2,12/04/2014,Arminia Bielefeld,Karlsruher SC,0,0,D
+D2,12/08/2013,SpVgg Greuther Furth,FC Kaiserslautern,2,1,H
+D2,13/04/2014,Fortuna Dusseldorf,VfR Aalen,3,1,H
+D2,13/04/2014,Vfl Bochum,Energie Cottbus,2,1,H
+D2,13/04/2014,FSV Frankfurt,SV Sandhausen,0,3,A
+D2,13/09/2013,SC Paderborn 07,Karlsruher SC,1,0,H
+D2,13/09/2013,VfR Aalen,TSV 1860 Munich,0,0,D
+D2,13/09/2013,Erzgebirge AUE,Arminia Bielefeld,0,2,A
+D2,13/12/2013,1. FC Köln,Dynamo Dresden,3,1,H
+D2,13/12/2013,VfR Aalen,SV Sandhausen,0,0,D
+D2,13/12/2013,FC Kaiserslautern,SC Paderborn 07,0,1,A
+D2,14/02/2014,SpVgg Greuther Furth,Karlsruher SC,1,1,D
+D2,14/02/2014,FC Ingolstadt 04,TSV 1860 Munich,2,0,H
+D2,14/02/2014,Fortuna Dusseldorf,Union Berlin,1,1,D
+D2,14/03/2014,SC Paderborn 07,Dynamo Dresden,2,1,H
+D2,14/03/2014,VfR Aalen,Vfl Bochum,0,2,A
+D2,14/03/2014,FC Ingolstadt 04,FSV Frankfurt,0,1,A
+D2,14/04/2014,Dynamo Dresden,TSV 1860 Munich,4,2,H
+D2,14/09/2013,SV Sandhausen,FC Kaiserslautern,1,0,H
+D2,14/09/2013,FC St. Pauli,FSV Frankfurt,2,1,H
+D2,14/12/2013,Vfl Bochum,Union Berlin,0,4,A
+D2,14/12/2013,Energie Cottbus,Fortuna Dusseldorf,1,3,A
+D2,15/02/2014,FSV Frankfurt,Dynamo Dresden,3,2,H
+D2,15/02/2014,FC St. Pauli,Vfl Bochum,0,1,A
+D2,15/03/2014,Energie Cottbus,Karlsruher SC,1,0,H
+D2,15/03/2014,Erzgebirge AUE,TSV 1860 Munich,2,2,D
+D2,15/09/2013,SpVgg Greuther Furth,Vfl Bochum,0,2,A
+D2,15/09/2013,Fortuna Dusseldorf,Dynamo Dresden,1,1,D
+D2,15/09/2013,FC Ingolstadt 04,Union Berlin,0,1,A
+D2,15/12/2013,Karlsruher SC,FSV Frankfurt,3,3,D
+D2,15/12/2013,Arminia Bielefeld,SpVgg Greuther Furth,4,1,H
+D2,15/12/2013,Erzgebirge AUE,FC Ingolstadt 04,0,0,D
+D2,16/02/2014,SC Paderborn 07,Arminia Bielefeld,4,0,H
+D2,16/02/2014,SV Sandhausen,1. FC Köln,0,1,A
+D2,16/02/2014,VfR Aalen,Energie Cottbus,2,2,D
+D2,16/03/2014,Fortuna Dusseldorf,FC St. Pauli,0,2,A
+D2,16/03/2014,SpVgg Greuther Furth,Union Berlin,1,1,D
+D2,16/03/2014,SV Sandhausen,Arminia Bielefeld,1,0,H
+D2,16/08/2013,Karlsruher SC,SpVgg Greuther Furth,1,2,A
+D2,16/08/2013,Vfl Bochum,FC St. Pauli,2,2,D
+D2,16/08/2013,Arminia Bielefeld,SC Paderborn 07,3,3,D
+D2,16/09/2013,Energie Cottbus,1. FC Köln,0,4,A
+D2,16/12/2013,TSV 1860 Munich,FC St. Pauli,0,2,A
+D2,17/02/2014,Erzgebirge AUE,FC Kaiserslautern,1,0,H
+D2,17/03/2014,FC Kaiserslautern,1. FC Köln,0,0,D
+D2,17/04/2014,Energie Cottbus,FC St. Pauli,1,1,D
+D2,17/04/2014,Erzgebirge AUE,Dynamo Dresden,2,0,H
+D2,17/04/2014,SV Sandhausen,Fortuna Dusseldorf,0,3,A
+D2,17/08/2013,1. FC Köln,SV Sandhausen,2,0,H
+D2,17/08/2013,FC Kaiserslautern,Erzgebirge AUE,2,1,H
+D2,18/08/2013,Dynamo Dresden,FSV Frankfurt,0,3,A
+D2,18/08/2013,Energie Cottbus,VfR Aalen,5,1,H
+D2,18/08/2013,TSV 1860 Munich,FC Ingolstadt 04,1,0,H
+D2,18/10/2013,SC Paderborn 07,FSV Frankfurt,4,2,H
+D2,18/10/2013,Energie Cottbus,Union Berlin,0,0,D
+D2,18/10/2013,VfR Aalen,Arminia Bielefeld,3,0,H
+D2,19/04/2014,TSV 1860 Munich,Arminia Bielefeld,2,1,H
+D2,19/04/2014,Karlsruher SC,Union Berlin,3,2,H
+D2,19/07/2013,FC Ingolstadt 04,Erzgebirge AUE,1,2,A
+D2,19/07/2013,SV Sandhausen,VfR Aalen,0,0,D
+D2,19/07/2013,FC St. Pauli,TSV 1860 Munich,1,0,H
+D2,19/08/2013,Union Berlin,Fortuna Dusseldorf,2,1,H
+D2,19/10/2013,SV Sandhausen,Dynamo Dresden,0,0,D
+D2,19/10/2013,Erzgebirge AUE,Vfl Bochum,2,1,H
+D2,20/04/2014,SC Paderborn 07,SpVgg Greuther Furth,2,2,D
+D2,20/04/2014,FC Kaiserslautern,FSV Frankfurt,3,2,H
+D2,20/04/2014,VfR Aalen,FC Ingolstadt 04,0,0,D
+D2,20/07/2013,Dynamo Dresden,1. FC Köln,1,1,D
+D2,20/07/2013,SC Paderborn 07,FC Kaiserslautern,0,1,A
+D2,20/09/2013,Union Berlin,SpVgg Greuther Furth,2,4,A
+D2,20/09/2013,Karlsruher SC,Energie Cottbus,2,0,H
+D2,20/09/2013,1. FC Köln,FC Kaiserslautern,0,0,D
+D2,20/10/2013,FC Kaiserslautern,Karlsruher SC,2,2,D
+D2,20/10/2013,FC Ingolstadt 04,Fortuna Dusseldorf,1,2,A
+D2,20/10/2013,SpVgg Greuther Furth,FC St. Pauli,2,4,A
+D2,20/12/2013,Dynamo Dresden,Vfl Bochum,0,0,D
+D2,20/12/2013,FC St. Pauli,Karlsruher SC,0,2,A
+D2,20/12/2013,SV Sandhausen,Erzgebirge AUE,1,0,H
+D2,21/02/2014,Arminia Bielefeld,FC Ingolstadt 04,0,2,A
+D2,21/02/2014,Union Berlin,FSV Frankfurt,2,0,H
+D2,21/02/2014,Energie Cottbus,Erzgebirge AUE,2,3,A
+D2,21/03/2014,Dynamo Dresden,SpVgg Greuther Furth,1,1,D
+D2,21/03/2014,Vfl Bochum,SV Sandhausen,0,1,A
+D2,21/03/2014,Union Berlin,SC Paderborn 07,1,1,D
+D2,21/04/2014,1. FC Köln,Vfl Bochum,3,1,H
+D2,21/07/2013,Union Berlin,Vfl Bochum,1,2,A
+D2,21/07/2013,FSV Frankfurt,Karlsruher SC,0,1,A
+D2,21/07/2013,SpVgg Greuther Furth,Arminia Bielefeld,2,0,H
+D2,21/09/2013,Arminia Bielefeld,SV Sandhausen,2,1,H
+D2,21/09/2013,Vfl Bochum,VfR Aalen,1,2,A
+D2,21/09/2013,TSV 1860 Munich,Erzgebirge AUE,3,1,H
+D2,21/10/2013,1. FC Köln,TSV 1860 Munich,0,0,D
+D2,21/12/2013,Union Berlin,Arminia Bielefeld,4,2,H
+D2,21/12/2013,FSV Frankfurt,TSV 1860 Munich,2,2,D
+D2,22/02/2014,TSV 1860 Munich,SC Paderborn 07,2,2,D
+D2,22/02/2014,Karlsruher SC,SV Sandhausen,2,1,H
+D2,22/03/2014,FSV Frankfurt,Fortuna Dusseldorf,0,0,D
+D2,22/03/2014,FC St. Pauli,FC Ingolstadt 04,0,0,D
+D2,22/03/2014,1. FC Köln,VfR Aalen,0,0,D
+D2,22/07/2013,Fortuna Dusseldorf,Energie Cottbus,1,0,H
+D2,22/09/2013,Dynamo Dresden,SC Paderborn 07,2,2,D
+D2,22/09/2013,FSV Frankfurt,FC Ingolstadt 04,4,1,H
+D2,22/11/2013,Arminia Bielefeld,Vfl Bochum,0,2,A
+D2,22/11/2013,SV Sandhausen,SC Paderborn 07,3,2,H
+D2,22/11/2013,Energie Cottbus,FSV Frankfurt,1,4,A
+D2,22/12/2013,SC Paderborn 07,Energie Cottbus,1,0,H
+D2,22/12/2013,SpVgg Greuther Furth,VfR Aalen,1,0,H
+D2,22/12/2013,Fortuna Dusseldorf,1. FC Köln,2,3,A
+D2,23/02/2014,FC Kaiserslautern,VfR Aalen,1,2,A
+D2,23/02/2014,Vfl Bochum,Fortuna Dusseldorf,0,0,D
+D2,23/02/2014,Dynamo Dresden,FC St. Pauli,1,2,A
+D2,23/03/2014,TSV 1860 Munich,FC Kaiserslautern,0,1,A
+D2,23/03/2014,Karlsruher SC,Erzgebirge AUE,1,1,D
+D2,23/03/2014,Arminia Bielefeld,Energie Cottbus,1,3,A
+D2,23/08/2013,Erzgebirge AUE,Energie Cottbus,2,1,H
+D2,23/08/2013,FC Ingolstadt 04,Arminia Bielefeld,3,2,H
+D2,23/08/2013,SV Sandhausen,Karlsruher SC,1,1,D
+D2,23/09/2013,FC St. Pauli,Fortuna Dusseldorf,1,1,D
+D2,23/11/2013,FC Kaiserslautern,Union Berlin,3,0,H
+D2,23/11/2013,1. FC Köln,FC Ingolstadt 04,0,1,A
+D2,23/12/2013,FC Ingolstadt 04,FC Kaiserslautern,1,2,A
+D2,24/02/2014,1. FC Köln,SpVgg Greuther Furth,1,1,D
+D2,24/08/2013,SpVgg Greuther Furth,1. FC Köln,0,0,D
+D2,24/08/2013,VfR Aalen,FC Kaiserslautern,4,0,H
+D2,24/11/2013,Karlsruher SC,Dynamo Dresden,3,0,H
+D2,24/11/2013,Erzgebirge AUE,Fortuna Dusseldorf,3,0,H
+D2,24/11/2013,VfR Aalen,FC St. Pauli,0,1,A
+D2,25/03/2014,VfR Aalen,Dynamo Dresden,1,1,D
+D2,25/03/2014,SpVgg Greuther Furth,Fortuna Dusseldorf,4,1,H
+D2,25/03/2014,FC Ingolstadt 04,Vfl Bochum,3,0,H
+D2,25/03/2014,SC Paderborn 07,FC St. Pauli,3,0,H
+D2,25/03/2014,SV Sandhausen,Union Berlin,2,1,H
+D2,25/04/2014,Vfl Bochum,Arminia Bielefeld,1,4,A
+D2,25/04/2014,SpVgg Greuther Furth,TSV 1860 Munich,1,2,A
+D2,25/04/2014,FC Ingolstadt 04,1. FC Köln,1,1,D
+D2,25/08/2013,FSV Frankfurt,Union Berlin,1,1,D
+D2,25/08/2013,SC Paderborn 07,TSV 1860 Munich,1,0,H
+D2,25/08/2013,Fortuna Dusseldorf,Vfl Bochum,1,0,H
+D2,25/10/2013,Arminia Bielefeld,1. FC Köln,0,1,A
+D2,25/10/2013,SpVgg Greuther Furth,FC Ingolstadt 04,0,1,A
+D2,25/10/2013,FC St. Pauli,SV Sandhausen,0,0,D
+D2,25/11/2013,TSV 1860 Munich,SpVgg Greuther Furth,1,0,H
+D2,26/03/2014,1. FC Köln,Karlsruher SC,2,0,H
+D2,26/03/2014,Erzgebirge AUE,FSV Frankfurt,2,1,H
+D2,26/03/2014,Energie Cottbus,TSV 1860 Munich,1,2,A
+D2,26/03/2014,FC Kaiserslautern,Arminia Bielefeld,1,1,D
+D2,26/04/2014,Fortuna Dusseldorf,Erzgebirge AUE,4,0,H
+D2,26/04/2014,FSV Frankfurt,Energie Cottbus,3,1,H
+D2,26/07/2013,FC Kaiserslautern,FC Ingolstadt 04,3,1,H
+D2,26/07/2013,VfR Aalen,SpVgg Greuther Furth,0,2,A
+D2,26/07/2013,Arminia Bielefeld,Union Berlin,1,1,D
+D2,26/08/2013,FC St. Pauli,Dynamo Dresden,2,1,H
+D2,26/10/2013,Fortuna Dusseldorf,SC Paderborn 07,1,6,A
+D2,26/10/2013,FSV Frankfurt,VfR Aalen,0,0,D
+D2,27/04/2014,Dynamo Dresden,Karlsruher SC,2,2,D
+D2,27/04/2014,FC St. Pauli,VfR Aalen,0,3,A
+D2,27/04/2014,SC Paderborn 07,SV Sandhausen,2,0,H
+D2,27/07/2013,Karlsruher SC,FC St. Pauli,0,0,D
+D2,27/07/2013,Erzgebirge AUE,SV Sandhausen,1,0,H
+D2,27/09/2013,VfR Aalen,1. FC Köln,0,1,A
+D2,27/09/2013,Energie Cottbus,Arminia Bielefeld,4,2,H
+D2,27/09/2013,Erzgebirge AUE,Karlsruher SC,3,0,H
+D2,27/10/2013,Dynamo Dresden,Energie Cottbus,1,0,H
+D2,27/10/2013,Union Berlin,Erzgebirge AUE,1,0,H
+D2,27/10/2013,Karlsruher SC,TSV 1860 Munich,2,1,H
+D2,28/02/2014,Energie Cottbus,FC Kaiserslautern,1,0,H
+D2,28/02/2014,SC Paderborn 07,Vfl Bochum,4,1,H
+D2,28/02/2014,Fortuna Dusseldorf,Arminia Bielefeld,2,0,H
+D2,28/03/2014,Dynamo Dresden,SV Sandhausen,0,0,D
+D2,28/03/2014,FC St. Pauli,SpVgg Greuther Furth,2,2,D
+D2,28/03/2014,Fortuna Dusseldorf,FC Ingolstadt 04,0,0,D
+D2,28/04/2014,Union Berlin,FC Kaiserslautern,1,1,D
+D2,28/07/2013,1. FC Köln,Fortuna Dusseldorf,1,1,D
+D2,28/07/2013,Energie Cottbus,SC Paderborn 07,4,0,H
+D2,28/07/2013,TSV 1860 Munich,FSV Frankfurt,2,1,H
+D2,28/09/2013,Fortuna Dusseldorf,FSV Frankfurt,0,0,D
+D2,28/09/2013,SC Paderborn 07,Union Berlin,0,3,A
+D2,28/10/2013,Vfl Bochum,FC Kaiserslautern,0,0,D
+D2,29/03/2014,Vfl Bochum,Erzgebirge AUE,1,0,H
+D2,29/03/2014,Karlsruher SC,FC Kaiserslautern,2,2,D
+D2,29/07/2013,Vfl Bochum,Dynamo Dresden,1,1,D
+D2,29/09/2013,FC Ingolstadt 04,FC St. Pauli,1,2,A
+D2,29/09/2013,SV Sandhausen,Vfl Bochum,1,0,H
+D2,29/09/2013,FC Kaiserslautern,TSV 1860 Munich,3,0,H
+D2,29/11/2013,Fortuna Dusseldorf,Karlsruher SC,0,2,A
+D2,29/11/2013,FC St. Pauli,1. FC Köln,0,3,A
+D2,29/11/2013,Union Berlin,VfR Aalen,1,3,A
+D2,30/03/2014,FSV Frankfurt,SC Paderborn 07,1,3,A
+D2,30/03/2014,Arminia Bielefeld,VfR Aalen,0,0,D
+D2,30/03/2014,TSV 1860 Munich,1. FC Köln,0,1,A
+D2,30/08/2013,FSV Frankfurt,SpVgg Greuther Furth,1,1,D
+D2,30/08/2013,Arminia Bielefeld,Fortuna Dusseldorf,4,2,H
+D2,30/08/2013,TSV 1860 Munich,SV Sandhausen,0,2,A
+D2,30/09/2013,SpVgg Greuther Furth,Dynamo Dresden,4,0,H
+D2,30/11/2013,Dynamo Dresden,FC Kaiserslautern,3,2,H
+D2,30/11/2013,FC Ingolstadt 04,SV Sandhausen,0,2,A
+D2,31/03/2014,Union Berlin,Energie Cottbus,2,0,H
+D2,31/08/2013,Union Berlin,FC St. Pauli,3,2,H
+D2,31/08/2013,Vfl Bochum,SC Paderborn 07,4,2,H

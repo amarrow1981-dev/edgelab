@@ -1,0 +1,229 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/02/2019,Kilmarnock,Heart Of Midlothian,1,2,A
+SC0,01/09/2018,Hamilton Academical,ST Johnstone,1,2,A
+SC0,01/09/2018,Heart Of Midlothian,ST Mirren,4,1,H
+SC0,01/09/2018,Livingston,Hibernian,2,1,H
+SC0,01/09/2018,Aberdeen,Kilmarnock,0,2,A
+SC0,01/09/2018,Dundee,Motherwell,1,3,A
+SC0,01/12/2018,Livingston,Motherwell,2,0,H
+SC0,01/12/2018,ST Mirren,Hamilton Academical,1,3,A
+SC0,01/12/2018,Kilmarnock,Hibernian,3,0,H
+SC0,02/02/2019,Hamilton Academical,Dundee,1,1,D
+SC0,02/02/2019,Rangers,ST Mirren,4,0,H
+SC0,02/02/2019,Motherwell,Livingston,3,0,H
+SC0,02/02/2019,Hibernian,Aberdeen,1,2,A
+SC0,02/03/2019,ST Mirren,Livingston,1,0,H
+SC0,02/09/2018,Celtic,Rangers,1,0,H
+SC0,02/12/2018,Heart Of Midlothian,Rangers,1,2,A
+SC0,03/02/2019,ST Johnstone,Celtic,0,2,A
+SC0,03/04/2019,Rangers,Heart Of Midlothian,3,0,H
+SC0,03/04/2019,Livingston,Hamilton Academical,2,0,H
+SC0,03/04/2019,Aberdeen,Motherwell,3,1,H
+SC0,03/04/2019,ST Johnstone,Dundee,2,0,H
+SC0,03/04/2019,Hibernian,Kilmarnock,0,0,D
+SC0,03/04/2019,ST Mirren,Celtic,0,2,A
+SC0,03/11/2018,ST Mirren,Rangers,0,2,A
+SC0,03/11/2018,Celtic,Heart Of Midlothian,5,0,H
+SC0,03/11/2018,Hamilton Academical,Livingston,1,0,H
+SC0,03/11/2018,Hibernian,ST Johnstone,0,1,A
+SC0,03/11/2018,Motherwell,Dundee,1,0,H
+SC0,04/05/2019,Motherwell,ST Mirren,1,1,D
+SC0,04/05/2019,Aberdeen,Celtic,0,3,A
+SC0,04/05/2019,Dundee,Hamilton Academical,0,1,A
+SC0,04/05/2019,Heart Of Midlothian,Kilmarnock,0,1,A
+SC0,04/05/2019,ST Johnstone,Livingston,1,1,D
+SC0,04/08/2018,Celtic,Livingston,3,1,H
+SC0,04/08/2018,Hamilton Academical,Heart Of Midlothian,1,4,A
+SC0,04/08/2018,Kilmarnock,ST Johnstone,2,0,H
+SC0,04/08/2018,ST Mirren,Dundee,2,1,H
+SC0,04/11/2018,Kilmarnock,Aberdeen,1,2,A
+SC0,05/05/2019,Rangers,Hibernian,1,0,H
+SC0,05/08/2018,Aberdeen,Rangers,1,1,D
+SC0,05/08/2018,Hibernian,Motherwell,3,0,H
+SC0,05/12/2018,ST Johnstone,Heart Of Midlothian,2,2,D
+SC0,05/12/2018,Rangers,Aberdeen,0,1,A
+SC0,05/12/2018,Dundee,Hamilton Academical,4,0,H
+SC0,05/12/2018,Kilmarnock,Livingston,2,0,H
+SC0,05/12/2018,Hibernian,ST Mirren,2,2,D
+SC0,05/12/2018,Motherwell,Celtic,1,1,D
+SC0,06/02/2019,Aberdeen,Rangers,2,4,A
+SC0,06/02/2019,Heart Of Midlothian,Livingston,0,0,D
+SC0,06/02/2019,Dundee,Kilmarnock,2,2,D
+SC0,06/02/2019,Hamilton Academical,ST Johnstone,2,1,H
+SC0,06/02/2019,ST Mirren,Motherwell,1,2,A
+SC0,06/02/2019,Celtic,Hibernian,2,0,H
+SC0,06/04/2019,Celtic,Livingston,0,0,D
+SC0,06/04/2019,Hamilton Academical,ST Mirren,1,1,D
+SC0,06/04/2019,Kilmarnock,ST Johnstone,2,0,H
+SC0,06/04/2019,Dundee,Aberdeen,0,2,A
+SC0,06/04/2019,Heart Of Midlothian,Hibernian,1,2,A
+SC0,06/10/2018,Hibernian,Hamilton Academical,6,0,H
+SC0,06/10/2018,Motherwell,Livingston,1,1,D
+SC0,06/10/2018,Dundee,Kilmarnock,1,2,A
+SC0,06/10/2018,Aberdeen,ST Mirren,4,1,H
+SC0,07/04/2019,Motherwell,Rangers,0,3,A
+SC0,07/10/2018,ST Johnstone,Celtic,0,6,A
+SC0,07/10/2018,Rangers,Heart Of Midlothian,3,1,H
+SC0,08/03/2019,Hibernian,Rangers,1,1,D
+SC0,08/12/2018,Celtic,Kilmarnock,5,1,H
+SC0,08/12/2018,Aberdeen,ST Johnstone,0,2,A
+SC0,08/12/2018,Heart Of Midlothian,Motherwell,1,0,H
+SC0,08/12/2018,Livingston,ST Mirren,3,1,H
+SC0,08/12/2018,Hamilton Academical,Hibernian,0,1,A
+SC0,09/03/2019,Livingston,ST Johnstone,3,1,H
+SC0,09/03/2019,Celtic,Aberdeen,0,0,D
+SC0,09/03/2019,Motherwell,Hamilton Academical,3,0,H
+SC0,09/03/2019,Dundee,Heart Of Midlothian,0,1,A
+SC0,09/11/2018,Aberdeen,Hibernian,1,0,H
+SC0,09/12/2018,Dundee,Rangers,1,1,D
+SC0,10/05/2019,Aberdeen,Heart Of Midlothian,2,1,H
+SC0,10/11/2018,ST Johnstone,Hamilton Academical,4,0,H
+SC0,10/11/2018,Heart Of Midlothian,Kilmarnock,0,1,A
+SC0,10/11/2018,Dundee,ST Mirren,1,1,D
+SC0,11/03/2019,ST Mirren,Kilmarnock,0,1,A
+SC0,11/05/2019,ST Johnstone,Motherwell,2,0,H
+SC0,11/05/2019,Livingston,Dundee,0,1,A
+SC0,11/05/2019,Kilmarnock,Hibernian,1,0,H
+SC0,11/08/2018,Dundee,Aberdeen,0,1,A
+SC0,11/08/2018,Livingston,Kilmarnock,0,0,D
+SC0,11/08/2018,Motherwell,Hamilton Academical,0,1,A
+SC0,11/08/2018,Heart Of Midlothian,Celtic,1,0,H
+SC0,11/11/2018,Rangers,Motherwell,7,1,H
+SC0,11/11/2018,Livingston,Celtic,0,0,D
+SC0,11/12/2018,Aberdeen,Livingston,3,2,H
+SC0,12/05/2019,Rangers,Celtic,2,0,H
+SC0,12/08/2018,Rangers,ST Mirren,2,0,H
+SC0,12/08/2018,ST Johnstone,Hibernian,1,1,D
+SC0,13/05/2019,ST Mirren,Hamilton Academical,2,0,H
+SC0,14/09/2018,ST Mirren,Celtic,0,0,D
+SC0,14/12/2018,Livingston,Heart Of Midlothian,5,0,H
+SC0,15/09/2018,Livingston,Hamilton Academical,1,0,H
+SC0,15/09/2018,Rangers,Dundee,4,0,H
+SC0,15/09/2018,ST Johnstone,Aberdeen,1,1,D
+SC0,15/09/2018,Hibernian,Kilmarnock,3,2,H
+SC0,15/09/2018,Motherwell,Heart Of Midlothian,0,1,A
+SC0,15/12/2018,Kilmarnock,Dundee,3,1,H
+SC0,15/12/2018,ST Mirren,Aberdeen,1,2,A
+SC0,15/12/2018,ST Johnstone,Motherwell,1,2,A
+SC0,16/02/2019,Rangers,ST Johnstone,0,0,D
+SC0,16/02/2019,Livingston,Dundee,1,2,A
+SC0,16/02/2019,Aberdeen,ST Mirren,2,2,D
+SC0,16/02/2019,Hibernian,Hamilton Academical,2,0,H
+SC0,16/03/2019,Hamilton Academical,Heart Of Midlothian,1,0,H
+SC0,16/03/2019,Aberdeen,Livingston,1,1,D
+SC0,16/03/2019,Rangers,Kilmarnock,1,1,D
+SC0,16/03/2019,Hibernian,Motherwell,2,0,H
+SC0,16/12/2018,Hibernian,Celtic,2,0,H
+SC0,16/12/2018,Rangers,Hamilton Academical,1,0,H
+SC0,17/02/2019,Motherwell,Heart Of Midlothian,2,1,H
+SC0,17/02/2019,Kilmarnock,Celtic,0,1,A
+SC0,17/03/2019,Dundee,Celtic,0,1,A
+SC0,18/05/2019,Hamilton Academical,ST Johnstone,2,0,H
+SC0,18/05/2019,Dundee,ST Mirren,2,3,A
+SC0,18/05/2019,Motherwell,Livingston,3,2,H
+SC0,18/12/2018,Aberdeen,Dundee,5,1,H
+SC0,19/05/2019,Celtic,Heart Of Midlothian,2,1,H
+SC0,19/05/2019,Kilmarnock,Rangers,2,1,H
+SC0,19/05/2019,Hibernian,Aberdeen,1,2,A
+SC0,19/12/2018,Celtic,Motherwell,3,0,H
+SC0,19/12/2018,Hibernian,Rangers,0,0,D
+SC0,20/04/2019,Livingston,ST Mirren,1,3,A
+SC0,20/04/2019,Heart Of Midlothian,Rangers,1,3,A
+SC0,20/04/2019,Hamilton Academical,Motherwell,1,1,D
+SC0,20/04/2019,Kilmarnock,Aberdeen,0,1,A
+SC0,20/04/2019,ST Johnstone,Dundee,2,0,H
+SC0,20/10/2018,Motherwell,ST Johnstone,0,1,A
+SC0,20/10/2018,Livingston,Dundee,4,0,H
+SC0,20/10/2018,Heart Of Midlothian,Aberdeen,2,1,H
+SC0,20/10/2018,ST Mirren,Kilmarnock,1,2,A
+SC0,20/10/2018,Celtic,Hibernian,4,2,H
+SC0,21/04/2019,Hibernian,Celtic,0,0,D
+SC0,21/10/2018,Hamilton Academical,Rangers,1,4,A
+SC0,22/02/2019,Dundee,Hibernian,2,4,A
+SC0,22/09/2018,Hamilton Academical,ST Mirren,3,0,H
+SC0,22/09/2018,Aberdeen,Motherwell,1,0,H
+SC0,22/09/2018,Dundee,Hibernian,0,3,A
+SC0,22/09/2018,Heart Of Midlothian,Livingston,0,0,D
+SC0,22/12/2018,Aberdeen,Heart Of Midlothian,2,0,H
+SC0,22/12/2018,Hibernian,Livingston,1,1,D
+SC0,22/12/2018,Celtic,Dundee,3,0,H
+SC0,22/12/2018,Hamilton Academical,Kilmarnock,1,1,D
+SC0,22/12/2018,Motherwell,ST Mirren,0,1,A
+SC0,23/01/2019,Celtic,ST Mirren,4,0,H
+SC0,23/01/2019,Hamilton Academical,Aberdeen,0,3,A
+SC0,23/01/2019,Kilmarnock,Rangers,2,1,H
+SC0,23/01/2019,Heart Of Midlothian,Dundee,1,2,A
+SC0,23/01/2019,Motherwell,Hibernian,1,0,H
+SC0,23/01/2019,ST Johnstone,Livingston,1,0,H
+SC0,23/02/2019,Heart Of Midlothian,ST Mirren,1,1,D
+SC0,23/02/2019,Livingston,Kilmarnock,1,0,H
+SC0,23/02/2019,ST Johnstone,Aberdeen,0,2,A
+SC0,23/09/2018,Rangers,ST Johnstone,5,1,H
+SC0,23/09/2018,Kilmarnock,Celtic,2,1,H
+SC0,23/10/2018,Dundee,Heart Of Midlothian,0,3,A
+SC0,23/12/2018,ST Johnstone,Rangers,1,2,A
+SC0,24/02/2019,Hamilton Academical,Rangers,0,5,A
+SC0,24/02/2019,Celtic,Motherwell,4,1,H
+SC0,24/11/2018,ST Mirren,Heart Of Midlothian,2,0,H
+SC0,24/11/2018,Hamilton Academical,Celtic,0,3,A
+SC0,24/11/2018,ST Johnstone,Kilmarnock,0,0,D
+SC0,24/11/2018,Rangers,Livingston,3,0,H
+SC0,24/11/2018,Motherwell,Aberdeen,3,0,H
+SC0,24/11/2018,Hibernian,Dundee,2,2,D
+SC0,25/08/2018,ST Johnstone,Dundee,1,0,H
+SC0,25/08/2018,ST Mirren,Livingston,0,2,A
+SC0,25/08/2018,Kilmarnock,Heart Of Midlothian,0,1,A
+SC0,25/08/2018,Hibernian,Aberdeen,1,1,D
+SC0,26/01/2019,Aberdeen,Kilmarnock,0,0,D
+SC0,26/01/2019,Heart Of Midlothian,ST Johnstone,2,0,H
+SC0,26/01/2019,Celtic,Hamilton Academical,3,0,H
+SC0,26/01/2019,Dundee,Motherwell,0,1,A
+SC0,26/08/2018,Motherwell,Rangers,3,3,D
+SC0,26/08/2018,Celtic,Hamilton Academical,1,0,H
+SC0,26/12/2018,ST Mirren,ST Johnstone,0,1,A
+SC0,26/12/2018,Heart Of Midlothian,Hamilton Academical,2,0,H
+SC0,26/12/2018,Motherwell,Kilmarnock,0,1,A
+SC0,26/12/2018,Aberdeen,Celtic,3,4,A
+SC0,26/12/2018,Dundee,Livingston,0,0,D
+SC0,26/12/2018,Rangers,Hibernian,1,1,D
+SC0,27/01/2019,ST Mirren,Hibernian,1,3,A
+SC0,27/01/2019,Livingston,Rangers,0,3,A
+SC0,27/02/2019,Kilmarnock,Motherwell,0,0,D
+SC0,27/02/2019,Aberdeen,Hamilton Academical,0,2,A
+SC0,27/02/2019,Heart Of Midlothian,Celtic,1,2,A
+SC0,27/02/2019,Rangers,Dundee,4,0,H
+SC0,27/02/2019,ST Johnstone,Hibernian,1,2,A
+SC0,27/03/2019,ST Johnstone,ST Mirren,1,0,H
+SC0,27/04/2019,Celtic,Kilmarnock,1,0,H
+SC0,27/04/2019,Hamilton Academical,Livingston,3,3,D
+SC0,27/04/2019,ST Mirren,ST Johnstone,1,1,D
+SC0,27/04/2019,Motherwell,Dundee,4,3,H
+SC0,27/10/2018,Kilmarnock,Hamilton Academical,1,1,D
+SC0,27/10/2018,ST Johnstone,ST Mirren,2,0,H
+SC0,28/04/2019,Rangers,Aberdeen,2,0,H
+SC0,28/04/2019,Hibernian,Heart Of Midlothian,1,1,D
+SC0,29/03/2019,Livingston,Hibernian,1,2,A
+SC0,29/09/2018,Celtic,Aberdeen,1,0,H
+SC0,29/09/2018,Hamilton Academical,Dundee,0,2,A
+SC0,29/09/2018,Heart Of Midlothian,ST Johnstone,2,1,H
+SC0,29/09/2018,Kilmarnock,Motherwell,3,1,H
+SC0,29/09/2018,ST Mirren,Hibernian,0,1,A
+SC0,29/12/2018,Hamilton Academical,Motherwell,1,2,A
+SC0,29/12/2018,Livingston,Aberdeen,1,2,A
+SC0,29/12/2018,Dundee,ST Johnstone,0,2,A
+SC0,29/12/2018,Kilmarnock,ST Mirren,2,1,H
+SC0,29/12/2018,Rangers,Celtic,1,0,H
+SC0,29/12/2018,Hibernian,Heart Of Midlothian,0,1,A
+SC0,30/01/2019,Celtic,ST Johnstone,2,0,H
+SC0,30/03/2019,ST Mirren,Dundee,2,1,H
+SC0,30/03/2019,Motherwell,ST Johnstone,3,0,H
+SC0,30/03/2019,Heart Of Midlothian,Aberdeen,2,1,H
+SC0,30/03/2019,Kilmarnock,Hamilton Academical,5,0,H
+SC0,30/09/2018,Livingston,Rangers,1,0,H
+SC0,31/03/2019,Celtic,Rangers,2,1,H
+SC0,31/10/2018,Rangers,Kilmarnock,1,1,D
+SC0,31/10/2018,Livingston,ST Johnstone,0,1,A
+SC0,31/10/2018,Dundee,Celtic,0,5,A
+SC0,31/10/2018,Aberdeen,Hamilton Academical,3,0,H
+SC0,31/10/2018,ST Mirren,Motherwell,0,2,A
+SC0,31/10/2018,Heart Of Midlothian,Hibernian,0,0,D

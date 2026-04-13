@@ -1,0 +1,307 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+D2,01/03/2016,SV Sandhausen,FC Nurnberg,0,2,A
+D2,01/03/2016,FC Kaiserslautern,TSV 1860 Munich,0,1,A
+D2,01/03/2016,Karlsruher SC,SC Paderborn 07,0,0,D
+D2,01/03/2016,SpVgg Greuther Furth,Union Berlin,2,0,H
+D2,01/03/2016,Fortuna Dusseldorf,Vfl Bochum,1,3,A
+D2,01/04/2016,FC St. Pauli,Union Berlin,0,0,D
+D2,01/04/2016,Eintracht Braunschweig,SC Paderborn 07,2,1,H
+D2,01/04/2016,MSV Duisburg,FC Heidenheim,0,2,A
+D2,01/08/2015,Vfl Bochum,MSV Duisburg,3,0,H
+D2,01/08/2015,TSV 1860 Munich,SC Freiburg,0,1,A
+D2,01/11/2015,SV Sandhausen,RB Leipzig,1,2,A
+D2,01/11/2015,TSV 1860 Munich,MSV Duisburg,1,0,H
+D2,01/11/2015,SC Freiburg,Eintracht Braunschweig,2,2,D
+D2,02/03/2016,RB Leipzig,FC Heidenheim,3,1,H
+D2,02/03/2016,FSV Frankfurt,MSV Duisburg,3,3,D
+D2,02/03/2016,Arminia Bielefeld,SC Freiburg,1,4,A
+D2,02/04/2016,Arminia Bielefeld,Fortuna Dusseldorf,0,0,D
+D2,02/04/2016,RB Leipzig,Vfl Bochum,3,1,H
+D2,02/05/2016,Karlsruher SC,SV Sandhausen,3,0,H
+D2,02/08/2015,Karlsruher SC,FC St. Pauli,1,2,A
+D2,02/08/2015,Fortuna Dusseldorf,SC Paderborn 07,1,2,A
+D2,02/08/2015,SV Sandhausen,Union Berlin,4,3,H
+D2,02/10/2015,FC Kaiserslautern,Fortuna Dusseldorf,3,0,H
+D2,02/10/2015,Arminia Bielefeld,TSV 1860 Munich,1,1,D
+D2,02/10/2015,FSV Frankfurt,FC Heidenheim,0,4,A
+D2,02/11/2015,FC Nurnberg,Karlsruher SC,0,0,D
+D2,03/03/2016,FC St. Pauli,Eintracht Braunschweig,1,0,H
+D2,03/04/2016,FC Kaiserslautern,SV Sandhausen,2,0,H
+D2,03/04/2016,Karlsruher SC,TSV 1860 Munich,3,1,H
+D2,03/04/2016,FSV Frankfurt,FC Nurnberg,0,3,A
+D2,03/08/2015,RB Leipzig,SpVgg Greuther Furth,2,2,D
+D2,03/10/2015,FC St. Pauli,SV Sandhausen,1,3,A
+D2,03/10/2015,SpVgg Greuther Furth,Vfl Bochum,0,5,A
+D2,04/03/2016,TSV 1860 Munich,SV Sandhausen,3,2,H
+D2,04/03/2016,FC Nurnberg,FC Kaiserslautern,2,1,H
+D2,04/03/2016,Fortuna Dusseldorf,Karlsruher SC,0,1,A
+D2,04/04/2016,SpVgg Greuther Furth,SC Freiburg,2,3,A
+D2,04/10/2015,Karlsruher SC,SC Freiburg,1,1,D
+D2,04/10/2015,Eintracht Braunschweig,Union Berlin,2,1,H
+D2,04/10/2015,RB Leipzig,FC Nurnberg,3,2,H
+D2,04/12/2015,SV Sandhausen,SpVgg Greuther Furth,1,1,D
+D2,04/12/2015,TSV 1860 Munich,FSV Frankfurt,0,1,A
+D2,04/12/2015,FC Nurnberg,SC Paderborn 07,2,1,H
+D2,05/02/2016,SV Sandhausen,SC Paderborn 07,1,0,H
+D2,05/02/2016,Vfl Bochum,SC Freiburg,2,0,H
+D2,05/02/2016,FC Kaiserslautern,Union Berlin,2,2,D
+D2,05/03/2016,Union Berlin,FSV Frankfurt,4,0,H
+D2,05/03/2016,SC Paderborn 07,SpVgg Greuther Furth,1,1,D
+D2,05/10/2015,MSV Duisburg,SC Paderborn 07,1,0,H
+D2,05/12/2015,SC Freiburg,Union Berlin,3,0,H
+D2,05/12/2015,Arminia Bielefeld,Karlsruher SC,2,1,H
+D2,06/02/2016,TSV 1860 Munich,FC Nurnberg,0,1,A
+D2,06/02/2016,Fortuna Dusseldorf,FC Heidenheim,0,1,A
+D2,06/03/2016,Eintracht Braunschweig,MSV Duisburg,1,1,D
+D2,06/03/2016,FC Heidenheim,FC St. Pauli,2,0,H
+D2,06/03/2016,Vfl Bochum,Arminia Bielefeld,2,2,D
+D2,06/11/2015,FSV Frankfurt,SV Sandhausen,0,1,A
+D2,06/11/2015,Karlsruher SC,Vfl Bochum,3,0,H
+D2,06/11/2015,SpVgg Greuther Furth,Arminia Bielefeld,0,0,D
+D2,06/12/2015,FC Kaiserslautern,FC St. Pauli,1,2,A
+D2,06/12/2015,Vfl Bochum,FC Heidenheim,1,1,D
+D2,06/12/2015,RB Leipzig,MSV Duisburg,4,2,H
+D2,07/02/2016,Karlsruher SC,FSV Frankfurt,1,1,D
+D2,07/02/2016,SpVgg Greuther Furth,FC St. Pauli,0,2,A
+D2,07/02/2016,RB Leipzig,Eintracht Braunschweig,2,0,H
+D2,07/03/2016,SC Freiburg,RB Leipzig,2,1,H
+D2,07/11/2015,Union Berlin,FC Nurnberg,3,3,D
+D2,07/11/2015,MSV Duisburg,SC Freiburg,1,1,D
+D2,07/12/2015,Fortuna Dusseldorf,Eintracht Braunschweig,1,0,H
+D2,08/02/2016,Arminia Bielefeld,MSV Duisburg,2,1,H
+D2,08/04/2016,SC Paderborn 07,Union Berlin,0,4,A
+D2,08/04/2016,TSV 1860 Munich,SpVgg Greuther Furth,0,1,A
+D2,08/04/2016,FC Heidenheim,Eintracht Braunschweig,2,2,D
+D2,08/05/2016,Arminia Bielefeld,Union Berlin,2,0,H
+D2,08/05/2016,FC Kaiserslautern,SpVgg Greuther Furth,3,1,H
+D2,08/05/2016,TSV 1860 Munich,SC Paderborn 07,1,0,H
+D2,08/05/2016,Vfl Bochum,Eintracht Braunschweig,2,3,A
+D2,08/05/2016,RB Leipzig,Karlsruher SC,2,0,H
+D2,08/05/2016,FC Nurnberg,FC St. Pauli,1,0,H
+D2,08/05/2016,SV Sandhausen,MSV Duisburg,2,2,D
+D2,08/05/2016,SC Freiburg,FC Heidenheim,2,0,H
+D2,08/05/2016,Fortuna Dusseldorf,FSV Frankfurt,1,0,H
+D2,08/11/2015,SC Paderborn 07,FC Heidenheim,1,1,D
+D2,08/11/2015,Eintracht Braunschweig,TSV 1860 Munich,0,0,D
+D2,08/11/2015,RB Leipzig,FC Kaiserslautern,0,2,A
+D2,09/04/2016,SV Sandhausen,Arminia Bielefeld,1,4,A
+D2,09/04/2016,Vfl Bochum,FSV Frankfurt,4,1,H
+D2,09/11/2015,FC St. Pauli,Fortuna Dusseldorf,4,0,H
+D2,10/04/2016,FC Nurnberg,MSV Duisburg,1,2,A
+D2,10/04/2016,SC Freiburg,FC St. Pauli,4,3,H
+D2,10/04/2016,FC Kaiserslautern,Karlsruher SC,0,0,D
+D2,11/03/2016,FC St. Pauli,SC Paderborn 07,3,4,A
+D2,11/03/2016,SpVgg Greuther Furth,Eintracht Braunschweig,3,0,H
+D2,11/03/2016,Arminia Bielefeld,FC Nurnberg,0,4,A
+D2,11/04/2016,Fortuna Dusseldorf,RB Leipzig,1,3,A
+D2,11/09/2015,FC Kaiserslautern,SC Freiburg,0,2,A
+D2,11/09/2015,RB Leipzig,SC Paderborn 07,2,0,H
+D2,11/09/2015,SV Sandhausen,Vfl Bochum,1,1,D
+D2,11/12/2015,SV Sandhausen,Eintracht Braunschweig,0,2,A
+D2,11/12/2015,Vfl Bochum,SC Paderborn 07,4,0,H
+D2,11/12/2015,TSV 1860 Munich,FC Heidenheim,1,3,A
+D2,12/02/2016,FSV Frankfurt,SpVgg Greuther Furth,1,2,A
+D2,12/02/2016,FC St. Pauli,RB Leipzig,1,0,H
+D2,12/02/2016,SC Paderborn 07,FC Kaiserslautern,0,4,A
+D2,12/03/2016,MSV Duisburg,Union Berlin,2,1,H
+D2,12/03/2016,SV Sandhausen,Fortuna Dusseldorf,1,0,H
+D2,12/09/2015,Arminia Bielefeld,FC Heidenheim,0,0,D
+D2,12/09/2015,Karlsruher SC,Union Berlin,0,3,A
+D2,12/12/2015,Fortuna Dusseldorf,Union Berlin,0,3,A
+D2,12/12/2015,Karlsruher SC,SpVgg Greuther Furth,1,0,H
+D2,13/02/2016,MSV Duisburg,Karlsruher SC,0,1,A
+D2,13/02/2016,FC Heidenheim,SV Sandhausen,1,1,D
+D2,13/03/2016,FSV Frankfurt,SC Freiburg,1,3,A
+D2,13/03/2016,Karlsruher SC,FC Heidenheim,0,0,D
+D2,13/03/2016,RB Leipzig,TSV 1860 Munich,2,1,H
+D2,13/09/2015,Fortuna Dusseldorf,TSV 1860 Munich,3,0,H
+D2,13/09/2015,SpVgg Greuther Furth,FC Nurnberg,3,2,H
+D2,13/09/2015,FSV Frankfurt,Eintracht Braunschweig,0,3,A
+D2,13/12/2015,FC Kaiserslautern,MSV Duisburg,2,0,H
+D2,13/12/2015,FC Nurnberg,SC Freiburg,2,1,H
+D2,13/12/2015,RB Leipzig,FSV Frankfurt,3,1,H
+D2,14/02/2016,Eintracht Braunschweig,Arminia Bielefeld,1,0,H
+D2,14/02/2016,SC Freiburg,Fortuna Dusseldorf,1,2,A
+D2,14/02/2016,Union Berlin,TSV 1860 Munich,3,0,H
+D2,14/03/2016,FC Kaiserslautern,Vfl Bochum,0,2,A
+D2,14/08/2015,SC Paderborn 07,SV Sandhausen,0,6,A
+D2,14/08/2015,FC Heidenheim,Fortuna Dusseldorf,1,0,H
+D2,14/08/2015,FSV Frankfurt,Karlsruher SC,1,2,A
+D2,14/09/2015,FC St. Pauli,MSV Duisburg,2,0,H
+D2,14/12/2015,Arminia Bielefeld,FC St. Pauli,0,0,D
+D2,15/02/2016,FC Nurnberg,Vfl Bochum,1,1,D
+D2,15/04/2016,FSV Frankfurt,SC Paderborn 07,0,2,A
+D2,15/04/2016,RB Leipzig,SV Sandhausen,0,1,A
+D2,15/04/2016,MSV Duisburg,TSV 1860 Munich,2,1,H
+D2,15/05/2016,Karlsruher SC,Arminia Bielefeld,1,1,D
+D2,15/05/2016,FC St. Pauli,FC Kaiserslautern,5,2,H
+D2,15/05/2016,MSV Duisburg,RB Leipzig,1,0,H
+D2,15/05/2016,FC Heidenheim,Vfl Bochum,2,4,A
+D2,15/05/2016,SpVgg Greuther Furth,SV Sandhausen,3,1,H
+D2,15/05/2016,Eintracht Braunschweig,Fortuna Dusseldorf,0,2,A
+D2,15/05/2016,SC Paderborn 07,FC Nurnberg,0,1,A
+D2,15/05/2016,Union Berlin,SC Freiburg,2,1,H
+D2,15/05/2016,FSV Frankfurt,TSV 1860 Munich,2,1,H
+D2,15/08/2015,SC Freiburg,Vfl Bochum,1,3,A
+D2,15/08/2015,Eintracht Braunschweig,RB Leipzig,0,2,A
+D2,16/04/2016,Karlsruher SC,FC Nurnberg,2,1,H
+D2,16/04/2016,FC St. Pauli,Vfl Bochum,2,0,H
+D2,16/08/2015,Union Berlin,FC Kaiserslautern,2,2,D
+D2,16/08/2015,FC St. Pauli,SpVgg Greuther Furth,3,2,H
+D2,16/08/2015,MSV Duisburg,Arminia Bielefeld,2,2,D
+D2,16/10/2015,SV Sandhausen,FC Kaiserslautern,1,0,H
+D2,16/10/2015,SC Paderborn 07,Eintracht Braunschweig,2,0,H
+D2,16/10/2015,Fortuna Dusseldorf,Arminia Bielefeld,1,0,H
+D2,17/04/2016,SpVgg Greuther Furth,Fortuna Dusseldorf,3,1,H
+D2,17/04/2016,Arminia Bielefeld,FC Kaiserslautern,0,1,A
+D2,17/04/2016,Union Berlin,FC Heidenheim,1,0,H
+D2,17/08/2015,FC Nurnberg,TSV 1860 Munich,2,2,D
+D2,17/10/2015,Union Berlin,FC St. Pauli,3,3,D
+D2,17/10/2015,FC Nurnberg,FSV Frankfurt,1,1,D
+D2,18/03/2016,FC Heidenheim,FSV Frankfurt,2,2,D
+D2,18/03/2016,Union Berlin,Eintracht Braunschweig,3,1,H
+D2,18/03/2016,SC Paderborn 07,MSV Duisburg,0,0,D
+D2,18/04/2016,Eintracht Braunschweig,SC Freiburg,2,2,D
+D2,18/09/2015,SC Freiburg,Arminia Bielefeld,2,2,D
+D2,18/09/2015,Vfl Bochum,Fortuna Dusseldorf,1,1,D
+D2,18/09/2015,FC Heidenheim,RB Leipzig,1,1,D
+D2,18/10/2015,SC Freiburg,SpVgg Greuther Furth,5,2,H
+D2,18/10/2015,Vfl Bochum,RB Leipzig,0,1,A
+D2,18/10/2015,FC Heidenheim,MSV Duisburg,1,0,H
+D2,18/12/2015,Union Berlin,SV Sandhausen,1,0,H
+D2,18/12/2015,FC St. Pauli,Karlsruher SC,1,2,A
+D2,18/12/2015,FSV Frankfurt,Arminia Bielefeld,1,2,A
+D2,19/02/2016,FC St. Pauli,FSV Frankfurt,1,3,A
+D2,19/02/2016,SpVgg Greuther Furth,MSV Duisburg,1,1,D
+D2,19/02/2016,RB Leipzig,Union Berlin,3,0,H
+D2,19/03/2016,Fortuna Dusseldorf,FC Kaiserslautern,4,3,H
+D2,19/03/2016,SV Sandhausen,FC St. Pauli,0,2,A
+D2,19/09/2015,FC Nurnberg,SV Sandhausen,2,0,H
+D2,19/09/2015,SC Paderborn 07,Karlsruher SC,2,0,H
+D2,19/09/2015,TSV 1860 Munich,FC Kaiserslautern,1,1,D
+D2,19/10/2015,TSV 1860 Munich,Karlsruher SC,0,1,A
+D2,19/12/2015,FC Heidenheim,FC Nurnberg,0,3,A
+D2,19/12/2015,SpVgg Greuther Furth,RB Leipzig,1,2,A
+D2,20/02/2016,Karlsruher SC,Eintracht Braunschweig,2,2,D
+D2,20/02/2016,FC Kaiserslautern,FC Heidenheim,2,2,D
+D2,20/03/2016,TSV 1860 Munich,Arminia Bielefeld,1,1,D
+D2,20/03/2016,Vfl Bochum,SpVgg Greuther Furth,2,2,D
+D2,20/03/2016,FC Nurnberg,RB Leipzig,3,1,H
+D2,20/09/2015,Union Berlin,SpVgg Greuther Furth,1,2,A
+D2,20/09/2015,MSV Duisburg,FSV Frankfurt,0,1,A
+D2,20/09/2015,Eintracht Braunschweig,FC St. Pauli,0,0,D
+D2,20/11/2015,Vfl Bochum,Union Berlin,1,1,D
+D2,20/11/2015,SV Sandhausen,Karlsruher SC,3,1,H
+D2,20/11/2015,Fortuna Dusseldorf,MSV Duisburg,1,1,D
+D2,20/12/2015,SC Freiburg,TSV 1860 Munich,3,0,H
+D2,20/12/2015,Eintracht Braunschweig,FC Kaiserslautern,1,1,D
+D2,20/12/2015,MSV Duisburg,Vfl Bochum,0,0,D
+D2,21/02/2016,SV Sandhausen,SC Freiburg,0,2,A
+D2,21/02/2016,TSV 1860 Munich,Vfl Bochum,1,1,D
+D2,21/02/2016,Arminia Bielefeld,SC Paderborn 07,1,1,D
+D2,21/03/2016,SC Freiburg,Karlsruher SC,1,0,H
+D2,21/08/2015,SpVgg Greuther Furth,FSV Frankfurt,0,2,A
+D2,21/08/2015,Arminia Bielefeld,Eintracht Braunschweig,0,2,A
+D2,21/08/2015,SV Sandhausen,FC Heidenheim,0,0,D
+D2,21/11/2015,Arminia Bielefeld,RB Leipzig,0,1,A
+D2,21/11/2015,TSV 1860 Munich,FC St. Pauli,2,0,H
+D2,21/12/2015,SC Paderborn 07,Fortuna Dusseldorf,0,0,D
+D2,22/02/2016,Fortuna Dusseldorf,FC Nurnberg,1,1,D
+D2,22/04/2016,Vfl Bochum,Karlsruher SC,1,1,D
+D2,22/04/2016,Fortuna Dusseldorf,FC St. Pauli,1,1,D
+D2,22/04/2016,SC Freiburg,MSV Duisburg,3,0,H
+D2,22/08/2015,Karlsruher SC,MSV Duisburg,2,0,H
+D2,22/08/2015,Fortuna Dusseldorf,SC Freiburg,1,2,A
+D2,22/09/2015,Arminia Bielefeld,Vfl Bochum,1,1,D
+D2,22/09/2015,FC Kaiserslautern,FC Nurnberg,0,3,A
+D2,22/09/2015,SV Sandhausen,TSV 1860 Munich,1,1,D
+D2,22/09/2015,Karlsruher SC,Fortuna Dusseldorf,1,1,D
+D2,22/11/2015,FC Kaiserslautern,FSV Frankfurt,1,1,D
+D2,22/11/2015,FC Heidenheim,SpVgg Greuther Furth,1,2,A
+D2,22/11/2015,SC Freiburg,SC Paderborn 07,4,1,H
+D2,23/04/2016,FC Nurnberg,Union Berlin,6,2,H
+D2,23/04/2016,FC Heidenheim,SC Paderborn 07,1,1,D
+D2,23/08/2015,Vfl Bochum,FC Nurnberg,2,1,H
+D2,23/08/2015,TSV 1860 Munich,Union Berlin,0,0,D
+D2,23/08/2015,RB Leipzig,FC St. Pauli,0,1,A
+D2,23/09/2015,SpVgg Greuther Furth,SC Paderborn 07,3,0,H
+D2,23/09/2015,MSV Duisburg,Eintracht Braunschweig,0,5,A
+D2,23/09/2015,FSV Frankfurt,Union Berlin,3,2,H
+D2,23/09/2015,FC St. Pauli,FC Heidenheim,1,0,H
+D2,23/10/2015,RB Leipzig,Fortuna Dusseldorf,2,1,H
+D2,23/10/2015,SpVgg Greuther Furth,TSV 1860 Munich,1,0,H
+D2,23/10/2015,FSV Frankfurt,Vfl Bochum,3,2,H
+D2,23/11/2015,FC Nurnberg,Eintracht Braunschweig,2,1,H
+D2,24/04/2016,TSV 1860 Munich,Eintracht Braunschweig,1,0,H
+D2,24/04/2016,SV Sandhausen,FSV Frankfurt,1,0,H
+D2,24/04/2016,Arminia Bielefeld,SpVgg Greuther Furth,4,2,H
+D2,24/07/2015,MSV Duisburg,FC Kaiserslautern,1,3,A
+D2,24/08/2015,FC Kaiserslautern,SC Paderborn 07,1,0,H
+D2,24/09/2015,RB Leipzig,SC Freiburg,1,1,D
+D2,24/10/2015,Karlsruher SC,FC Kaiserslautern,2,0,H
+D2,24/10/2015,MSV Duisburg,FC Nurnberg,0,0,D
+D2,24/10/2015,Union Berlin,SC Paderborn 07,0,2,A
+D2,25/04/2016,FC Kaiserslautern,RB Leipzig,1,1,D
+D2,25/07/2015,SpVgg Greuther Furth,Karlsruher SC,1,0,H
+D2,25/07/2015,FC St. Pauli,Arminia Bielefeld,0,0,D
+D2,25/07/2015,FSV Frankfurt,RB Leipzig,0,1,A
+D2,25/09/2015,Fortuna Dusseldorf,SV Sandhausen,0,1,A
+D2,25/09/2015,FC Nurnberg,Arminia Bielefeld,2,2,D
+D2,25/09/2015,Vfl Bochum,FC Kaiserslautern,1,2,A
+D2,25/10/2015,Arminia Bielefeld,SV Sandhausen,0,0,D
+D2,25/10/2015,FC St. Pauli,SC Freiburg,1,0,H
+D2,25/10/2015,Eintracht Braunschweig,FC Heidenheim,1,0,H
+D2,26/02/2016,FC Nurnberg,SpVgg Greuther Furth,2,1,H
+D2,26/02/2016,SC Paderborn 07,RB Leipzig,0,1,A
+D2,26/02/2016,Union Berlin,Karlsruher SC,2,1,H
+D2,26/07/2015,SC Paderborn 07,Vfl Bochum,0,1,A
+D2,26/07/2015,Eintracht Braunschweig,SV Sandhausen,1,3,A
+D2,26/07/2015,Union Berlin,Fortuna Dusseldorf,1,1,D
+D2,26/07/2015,FC Heidenheim,TSV 1860 Munich,1,0,H
+D2,26/09/2015,Union Berlin,MSV Duisburg,3,2,H
+D2,26/09/2015,SC Paderborn 07,FC St. Pauli,0,0,D
+D2,27/02/2016,SC Freiburg,FC Kaiserslautern,2,0,H
+D2,27/02/2016,TSV 1860 Munich,Fortuna Dusseldorf,3,2,H
+D2,27/02/2016,Vfl Bochum,SV Sandhausen,3,2,H
+D2,27/07/2015,SC Freiburg,FC Nurnberg,6,3,H
+D2,27/09/2015,TSV 1860 Munich,RB Leipzig,2,2,D
+D2,27/09/2015,FC Heidenheim,Karlsruher SC,1,1,D
+D2,27/09/2015,SC Freiburg,FSV Frankfurt,2,0,H
+D2,27/11/2015,Eintracht Braunschweig,Vfl Bochum,1,0,H
+D2,27/11/2015,FC Heidenheim,SC Freiburg,1,2,A
+D2,27/11/2015,SpVgg Greuther Furth,FC Kaiserslautern,2,4,A
+D2,28/02/2016,FC Heidenheim,Arminia Bielefeld,3,2,H
+D2,28/02/2016,MSV Duisburg,FC St. Pauli,0,2,A
+D2,28/02/2016,Eintracht Braunschweig,FSV Frankfurt,0,0,D
+D2,28/08/2015,Union Berlin,RB Leipzig,1,1,D
+D2,28/08/2015,FC Heidenheim,FC Kaiserslautern,3,1,H
+D2,28/08/2015,SC Freiburg,SV Sandhausen,4,1,H
+D2,28/09/2015,Eintracht Braunschweig,SpVgg Greuther Furth,0,1,A
+D2,28/11/2015,SC Paderborn 07,TSV 1860 Munich,4,4,D
+D2,28/11/2015,Union Berlin,Arminia Bielefeld,1,1,D
+D2,29/04/2016,RB Leipzig,Arminia Bielefeld,1,1,D
+D2,29/04/2016,Union Berlin,Vfl Bochum,1,0,H
+D2,29/04/2016,SC Paderborn 07,SC Freiburg,1,2,A
+D2,29/04/2016,FC St. Pauli,TSV 1860 Munich,0,2,A
+D2,29/04/2016,MSV Duisburg,Fortuna Dusseldorf,2,1,H
+D2,29/04/2016,FSV Frankfurt,FC Kaiserslautern,1,4,A
+D2,29/08/2015,SC Paderborn 07,Arminia Bielefeld,1,2,A
+D2,29/08/2015,MSV Duisburg,SpVgg Greuther Furth,2,2,D
+D2,29/11/2015,MSV Duisburg,SV Sandhausen,3,0,H
+D2,29/11/2015,FSV Frankfurt,Fortuna Dusseldorf,1,2,A
+D2,29/11/2015,FC St. Pauli,FC Nurnberg,0,4,A
+D2,30/04/2016,Eintracht Braunschweig,FC Nurnberg,3,1,H
+D2,30/04/2016,SpVgg Greuther Furth,FC Heidenheim,0,2,A
+D2,30/08/2015,FSV Frankfurt,FC St. Pauli,1,0,H
+D2,30/08/2015,FC Nurnberg,Fortuna Dusseldorf,1,0,H
+D2,30/08/2015,Eintracht Braunschweig,Karlsruher SC,6,0,H
+D2,30/10/2015,Fortuna Dusseldorf,SpVgg Greuther Furth,1,0,H
+D2,30/10/2015,Vfl Bochum,FC St. Pauli,1,1,D
+D2,30/10/2015,FC Kaiserslautern,Arminia Bielefeld,0,2,A
+D2,30/11/2015,Karlsruher SC,RB Leipzig,0,1,A
+D2,31/07/2015,FC Nurnberg,FC Heidenheim,3,2,H
+D2,31/07/2015,Arminia Bielefeld,FSV Frankfurt,0,0,D
+D2,31/07/2015,FC Kaiserslautern,Eintracht Braunschweig,0,0,D
+D2,31/08/2015,Vfl Bochum,TSV 1860 Munich,1,0,H
+D2,31/10/2015,SC Paderborn 07,FSV Frankfurt,1,1,D
+D2,31/10/2015,FC Heidenheim,Union Berlin,0,2,A

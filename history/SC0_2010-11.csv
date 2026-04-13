@@ -1,0 +1,209 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/01/2011,Aberdeen,Dundee Utd,1,1,D
+SC0,01/01/2011,Hamilton Academical,Motherwell,0,0,D
+SC0,01/01/2011,Heart Of Midlothian,Hibernian,1,0,H
+SC0,01/02/2011,Aberdeen,Celtic,0,3,A
+SC0,01/02/2011,ST Johnstone,Hamilton Academical,2,0,H
+SC0,01/03/2011,Hamilton Academical,Hibernian,1,2,A
+SC0,01/03/2011,Inverness CT,Dundee Utd,0,2,A
+SC0,01/05/2011,Celtic,Dundee Utd,4,1,H
+SC0,02/01/2011,Rangers,Celtic,0,2,A
+SC0,02/01/2011,ST Johnstone,Inverness CT,1,0,H
+SC0,02/02/2011,Rangers,Heart Of Midlothian,1,0,H
+SC0,02/02/2011,Motherwell,Kilmarnock,0,1,A
+SC0,02/02/2011,Hibernian,ST Mirren,2,0,H
+SC0,02/03/2011,ST Johnstone,Aberdeen,0,0,D
+SC0,02/04/2011,ST Mirren,Hamilton Academical,3,1,H
+SC0,02/04/2011,Motherwell,Aberdeen,2,1,H
+SC0,02/04/2011,ST Johnstone,Kilmarnock,0,0,D
+SC0,02/04/2011,Rangers,Dundee Utd,2,3,A
+SC0,02/05/2011,ST Mirren,Hamilton Academical,0,1,A
+SC0,02/10/2010,Motherwell,ST Mirren,3,1,H
+SC0,02/10/2010,Inverness CT,Aberdeen,2,0,H
+SC0,02/10/2010,Celtic,Hamilton Academical,3,1,H
+SC0,02/10/2010,Heart Of Midlothian,Rangers,1,2,A
+SC0,02/10/2010,Kilmarnock,Dundee Utd,1,2,A
+SC0,02/10/2010,ST Johnstone,Hibernian,2,0,H
+SC0,03/01/2011,ST Mirren,Kilmarnock,0,2,A
+SC0,03/04/2011,Hibernian,Heart Of Midlothian,2,2,D
+SC0,05/03/2011,ST Johnstone,Hibernian,1,1,D
+SC0,05/03/2011,Inverness CT,Motherwell,3,0,H
+SC0,05/03/2011,Heart Of Midlothian,Kilmarnock,0,2,A
+SC0,05/03/2011,Celtic,Hamilton Academical,2,0,H
+SC0,05/04/2011,ST Johnstone,Rangers,0,2,A
+SC0,06/03/2011,ST Mirren,Rangers,0,1,A
+SC0,06/04/2011,ST Mirren,Aberdeen,3,2,H
+SC0,06/04/2011,Motherwell,Dundee Utd,2,1,H
+SC0,06/04/2011,Celtic,Hibernian,3,1,H
+SC0,06/11/2010,Inverness CT,Motherwell,1,2,A
+SC0,06/11/2010,Hamilton Academical,Dundee Utd,0,1,A
+SC0,06/11/2010,ST Johnstone,Kilmarnock,0,3,A
+SC0,06/11/2010,Celtic,Aberdeen,9,0,H
+SC0,07/03/2011,Dundee Utd,Aberdeen,3,1,H
+SC0,07/05/2011,Inverness CT,ST Mirren,1,0,H
+SC0,07/05/2011,Hamilton Academical,Hibernian,1,0,H
+SC0,07/05/2011,Rangers,Heart Of Midlothian,4,0,H
+SC0,07/05/2011,Aberdeen,ST Johnstone,0,2,A
+SC0,07/05/2011,Dundee Utd,Motherwell,4,0,H
+SC0,07/11/2010,ST Mirren,Rangers,1,3,A
+SC0,07/11/2010,Hibernian,Heart Of Midlothian,0,2,A
+SC0,08/05/2011,Kilmarnock,Celtic,0,2,A
+SC0,09/04/2011,Kilmarnock,Inverness CT,1,1,D
+SC0,09/04/2011,Celtic,ST Mirren,1,0,H
+SC0,09/04/2011,Dundee Utd,ST Johnstone,2,0,H
+SC0,09/04/2011,Aberdeen,Hibernian,0,1,A
+SC0,09/11/2010,Aberdeen,Inverness CT,1,2,A
+SC0,10/03/2011,Dundee Utd,Hamilton Academical,2,1,H
+SC0,10/05/2011,ST Johnstone,Hamilton Academical,1,0,H
+SC0,10/05/2011,Rangers,Dundee Utd,2,0,H
+SC0,10/11/2010,Dundee Utd,ST Mirren,1,2,A
+SC0,10/11/2010,Heart Of Midlothian,Celtic,2,0,H
+SC0,10/11/2010,Kilmarnock,Hamilton Academical,3,0,H
+SC0,10/11/2010,Rangers,Hibernian,0,3,A
+SC0,10/11/2010,Motherwell,ST Johnstone,4,0,H
+SC0,11/09/2010,Hamilton Academical,Rangers,1,2,A
+SC0,11/09/2010,ST Johnstone,Motherwell,0,2,A
+SC0,11/09/2010,Kilmarnock,ST Mirren,2,1,H
+SC0,11/09/2010,Hibernian,Inverness CT,1,1,D
+SC0,11/09/2010,Celtic,Heart Of Midlothian,3,0,H
+SC0,11/09/2010,Dundee Utd,Aberdeen,3,1,H
+SC0,11/12/2010,Heart Of Midlothian,Aberdeen,5,0,H
+SC0,11/12/2010,Inverness CT,Rangers,1,1,D
+SC0,11/12/2010,ST Mirren,ST Johnstone,1,2,A
+SC0,12/01/2011,Hamilton Academical,Celtic,1,1,D
+SC0,12/01/2011,Dundee Utd,Motherwell,2,0,H
+SC0,12/02/2011,Hamilton Academical,Heart Of Midlothian,0,2,A
+SC0,12/02/2011,Hibernian,Kilmarnock,2,1,H
+SC0,12/02/2011,Rangers,Motherwell,6,0,H
+SC0,12/02/2011,ST Mirren,Inverness CT,3,3,D
+SC0,13/02/2011,Dundee Utd,Celtic,1,3,A
+SC0,13/03/2011,Rangers,Kilmarnock,2,1,H
+SC0,13/11/2010,ST Johnstone,Heart Of Midlothian,0,2,A
+SC0,13/11/2010,Rangers,Aberdeen,2,0,H
+SC0,13/11/2010,Hibernian,Motherwell,2,1,H
+SC0,13/11/2010,Hamilton Academical,Inverness CT,1,3,A
+SC0,13/11/2010,Dundee Utd,Kilmarnock,1,1,D
+SC0,14/08/2010,Inverness CT,Celtic,0,1,A
+SC0,14/08/2010,Aberdeen,Hamilton Academical,4,0,H
+SC0,14/08/2010,Heart Of Midlothian,ST Johnstone,1,1,D
+SC0,14/08/2010,ST Mirren,Dundee Utd,1,1,D
+SC0,14/08/2010,Rangers,Kilmarnock,2,1,H
+SC0,14/11/2010,ST Mirren,Celtic,0,1,A
+SC0,14/12/2010,Motherwell,Heart Of Midlothian,1,2,A
+SC0,15/01/2011,Hibernian,Celtic,0,3,A
+SC0,15/01/2011,Motherwell,Inverness CT,0,0,D
+SC0,15/01/2011,Kilmarnock,ST Johnstone,1,1,D
+SC0,15/01/2011,Rangers,Hamilton Academical,4,0,H
+SC0,15/01/2011,Aberdeen,ST Mirren,2,0,H
+SC0,15/02/2011,Aberdeen,Motherwell,1,2,A
+SC0,15/08/2010,Motherwell,Hibernian,2,3,A
+SC0,16/03/2011,Dundee Utd,Heart Of Midlothian,2,0,H
+SC0,16/10/2010,ST Mirren,Hamilton Academical,2,2,D
+SC0,16/10/2010,Aberdeen,Heart Of Midlothian,0,1,A
+SC0,16/10/2010,Rangers,Motherwell,4,1,H
+SC0,16/10/2010,Inverness CT,ST Johnstone,1,1,D
+SC0,16/10/2010,Hibernian,Kilmarnock,2,1,H
+SC0,17/10/2010,Dundee Utd,Celtic,1,2,A
+SC0,18/01/2011,Rangers,Inverness CT,1,0,H
+SC0,18/01/2011,Kilmarnock,Heart Of Midlothian,1,2,A
+SC0,18/09/2010,Motherwell,Aberdeen,1,1,D
+SC0,18/09/2010,Hibernian,Hamilton Academical,1,1,D
+SC0,18/09/2010,Rangers,Dundee Utd,4,0,H
+SC0,18/09/2010,ST Johnstone,ST Mirren,2,1,H
+SC0,18/09/2010,Inverness CT,Heart Of Midlothian,1,3,A
+SC0,18/12/2010,Kilmarnock,Hibernian,2,1,H
+SC0,18/12/2010,Heart Of Midlothian,Inverness CT,1,1,D
+SC0,19/02/2011,Aberdeen,Kilmarnock,5,0,H
+SC0,19/02/2011,Heart Of Midlothian,Dundee Utd,2,1,H
+SC0,19/02/2011,Motherwell,Hamilton Academical,1,0,H
+SC0,19/02/2011,Inverness CT,ST Johnstone,2,0,H
+SC0,19/03/2011,Dundee Utd,Inverness CT,1,0,H
+SC0,19/03/2011,Kilmarnock,Motherwell,3,1,H
+SC0,19/03/2011,Heart Of Midlothian,ST Mirren,3,2,H
+SC0,19/03/2011,Hamilton Academical,ST Johnstone,0,0,D
+SC0,19/09/2010,Kilmarnock,Celtic,1,2,A
+SC0,20/02/2011,Celtic,Rangers,3,0,H
+SC0,20/02/2011,ST Mirren,Hibernian,0,1,A
+SC0,20/11/2010,Celtic,Dundee Utd,1,1,D
+SC0,20/11/2010,Inverness CT,Hibernian,4,2,H
+SC0,20/11/2010,Aberdeen,ST Johnstone,0,1,A
+SC0,20/11/2010,Heart Of Midlothian,Hamilton Academical,2,0,H
+SC0,20/11/2010,ST Mirren,Motherwell,1,1,D
+SC0,20/11/2010,Kilmarnock,Rangers,2,3,A
+SC0,21/08/2010,ST Johnstone,Aberdeen,0,1,A
+SC0,21/08/2010,Hamilton Academical,Heart Of Midlothian,0,4,A
+SC0,21/12/2010,Celtic,Kilmarnock,1,1,D
+SC0,22/01/2011,Kilmarnock,Dundee Utd,1,1,D
+SC0,22/01/2011,Motherwell,Hibernian,2,0,H
+SC0,22/01/2011,ST Johnstone,ST Mirren,0,0,D
+SC0,22/01/2011,Heart Of Midlothian,Rangers,1,0,H
+SC0,22/01/2011,Celtic,Aberdeen,1,0,H
+SC0,22/01/2011,Inverness CT,Hamilton Academical,1,1,D
+SC0,22/02/2011,ST Johnstone,Dundee Utd,0,0,D
+SC0,22/02/2011,Aberdeen,Hamilton Academical,1,0,H
+SC0,22/08/2010,Kilmarnock,Motherwell,0,1,A
+SC0,22/08/2010,Celtic,ST Mirren,4,0,H
+SC0,22/08/2010,Hibernian,Rangers,0,3,A
+SC0,22/08/2010,Dundee Utd,Inverness CT,0,4,A
+SC0,23/02/2011,Motherwell,ST Mirren,0,1,A
+SC0,23/04/2011,Dundee Utd,Kilmarnock,4,2,H
+SC0,23/04/2011,Heart Of Midlothian,Motherwell,3,3,D
+SC0,23/10/2010,Aberdeen,Hibernian,4,2,H
+SC0,23/10/2010,Motherwell,Dundee Utd,2,1,H
+SC0,23/10/2010,Hamilton Academical,ST Johnstone,1,2,A
+SC0,23/10/2010,Kilmarnock,Inverness CT,1,2,A
+SC0,23/10/2010,Heart Of Midlothian,ST Mirren,3,0,H
+SC0,24/04/2011,Rangers,Celtic,0,0,D
+SC0,24/04/2011,Hibernian,ST Mirren,1,1,D
+SC0,24/10/2010,Celtic,Rangers,1,3,A
+SC0,25/04/2011,ST Johnstone,Inverness CT,0,3,A
+SC0,25/04/2011,Hamilton Academical,Aberdeen,1,1,D
+SC0,25/09/2010,ST Mirren,Inverness CT,1,2,A
+SC0,25/09/2010,Heart Of Midlothian,Motherwell,0,2,A
+SC0,25/09/2010,Dundee Utd,ST Johnstone,1,0,H
+SC0,25/09/2010,Celtic,Hibernian,2,1,H
+SC0,25/09/2010,Hamilton Academical,Kilmarnock,2,2,D
+SC0,26/01/2011,ST Johnstone,Motherwell,1,0,H
+SC0,26/01/2011,Inverness CT,Aberdeen,0,2,A
+SC0,26/01/2011,Celtic,Heart Of Midlothian,4,0,H
+SC0,26/01/2011,Hibernian,Rangers,0,2,A
+SC0,26/01/2011,ST Mirren,Dundee Utd,1,1,D
+SC0,26/02/2011,Hamilton Academical,Dundee Utd,1,1,D
+SC0,26/02/2011,Hibernian,Inverness CT,2,0,H
+SC0,26/02/2011,Kilmarnock,ST Mirren,2,0,H
+SC0,26/02/2011,Aberdeen,Heart Of Midlothian,0,0,D
+SC0,26/09/2010,Aberdeen,Rangers,2,3,A
+SC0,26/12/2010,Hibernian,Aberdeen,1,2,A
+SC0,26/12/2010,Inverness CT,ST Mirren,1,2,A
+SC0,26/12/2010,Motherwell,Rangers,1,4,A
+SC0,26/12/2010,Celtic,ST Johnstone,2,0,H
+SC0,27/02/2011,Motherwell,Celtic,2,0,H
+SC0,27/02/2011,Rangers,ST Johnstone,4,0,H
+SC0,27/11/2010,Hibernian,ST Johnstone,0,0,D
+SC0,27/11/2010,Kilmarnock,Aberdeen,2,0,H
+SC0,27/11/2010,Hamilton Academical,ST Mirren,0,0,D
+SC0,27/11/2010,Celtic,Inverness CT,2,2,D
+SC0,28/08/2010,Aberdeen,Kilmarnock,0,1,A
+SC0,28/08/2010,Inverness CT,Hamilton Academical,0,1,A
+SC0,28/08/2010,Rangers,ST Johnstone,2,1,H
+SC0,29/01/2011,Hamilton Academical,Kilmarnock,1,1,D
+SC0,29/01/2011,Heart Of Midlothian,ST Johnstone,1,0,H
+SC0,29/08/2010,Motherwell,Celtic,0,1,A
+SC0,29/08/2010,Heart Of Midlothian,Dundee Utd,1,1,D
+SC0,29/08/2010,ST Mirren,Hibernian,1,0,H
+SC0,29/12/2010,Hamilton Academical,Aberdeen,0,1,A
+SC0,29/12/2010,Hibernian,Dundee Utd,2,2,D
+SC0,29/12/2010,ST Mirren,Heart Of Midlothian,0,2,A
+SC0,29/12/2010,Inverness CT,Kilmarnock,1,3,A
+SC0,29/12/2010,Celtic,Motherwell,1,0,H
+SC0,30/01/2011,Dundee Utd,Hibernian,3,0,H
+SC0,30/04/2011,Aberdeen,Inverness CT,1,0,H
+SC0,30/04/2011,Kilmarnock,Heart Of Midlothian,2,2,D
+SC0,30/04/2011,Hibernian,ST Johnstone,1,2,A
+SC0,30/04/2011,Motherwell,Rangers,0,5,A
+SC0,30/10/2010,Motherwell,Hamilton Academical,0,1,A
+SC0,30/10/2010,Rangers,Inverness CT,1,1,D
+SC0,30/10/2010,ST Mirren,Aberdeen,2,1,H
+SC0,30/10/2010,ST Johnstone,Celtic,0,3,A
+SC0,30/10/2010,Dundee Utd,Hibernian,1,0,H
+SC0,31/10/2010,Heart Of Midlothian,Kilmarnock,0,3,A

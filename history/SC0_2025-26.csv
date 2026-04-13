@@ -1,0 +1,198 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC0,01/02/2026,Celtic,Falkirk,2,0,H
+SC0,01/02/2026,Hibernian,Rangers,0,0,D
+SC0,01/03/2026,Rangers,Celtic,2,2,D
+SC0,01/11/2025,Falkirk,Kilmarnock,3,1,H
+SC0,01/11/2025,Livingston,Hibernian,2,2,D
+SC0,01/11/2025,Heart Of Midlothian,Dundee,4,0,H
+SC0,02/08/2025,Kilmarnock,Livingston,2,2,D
+SC0,02/08/2025,Motherwell,Rangers,1,1,D
+SC0,03/01/2026,Falkirk,Aberdeen,1,0,H
+SC0,03/01/2026,Dundee Utd,Dundee,0,1,A
+SC0,03/01/2026,Motherwell,ST Mirren,2,0,H
+SC0,03/01/2026,Heart Of Midlothian,Livingston,1,0,H
+SC0,03/01/2026,Celtic,Rangers,1,3,A
+SC0,03/01/2026,Kilmarnock,Hibernian,1,3,A
+SC0,03/02/2026,ST Mirren,Heart Of Midlothian,1,0,H
+SC0,03/03/2026,Dundee Utd,ST Mirren,2,1,H
+SC0,03/08/2025,Celtic,ST Mirren,1,0,H
+SC0,03/08/2025,Dundee,Hibernian,1,2,A
+SC0,03/08/2025,Falkirk,Dundee Utd,2,2,D
+SC0,03/12/2025,Falkirk,Motherwell,0,0,D
+SC0,03/12/2025,Dundee Utd,Rangers,2,2,D
+SC0,03/12/2025,Heart Of Midlothian,Kilmarnock,1,1,D
+SC0,03/12/2025,Aberdeen,ST Mirren,3,3,D
+SC0,03/12/2025,Celtic,Dundee,1,0,H
+SC0,04/02/2026,Rangers,Kilmarnock,5,1,H
+SC0,04/02/2026,Livingston,Falkirk,1,2,A
+SC0,04/02/2026,Hibernian,Dundee Utd,3,2,H
+SC0,04/03/2026,Aberdeen,Celtic,1,2,A
+SC0,04/04/2026,Hibernian,Kilmarnock,3,0,H
+SC0,04/04/2026,ST Mirren,Aberdeen,2,0,H
+SC0,04/04/2026,Motherwell,Falkirk,2,3,A
+SC0,04/04/2026,Rangers,Dundee Utd,4,2,H
+SC0,04/08/2025,Heart Of Midlothian,Aberdeen,2,0,H
+SC0,04/10/2025,Kilmarnock,ST Mirren,2,0,H
+SC0,04/10/2025,Heart Of Midlothian,Hibernian,1,0,H
+SC0,04/10/2025,Dundee Utd,Livingston,1,1,D
+SC0,05/04/2026,Dundee,Celtic,1,2,A
+SC0,05/04/2026,Livingston,Heart Of Midlothian,2,2,D
+SC0,05/10/2025,Celtic,Motherwell,3,2,H
+SC0,05/10/2025,Aberdeen,Dundee,4,0,H
+SC0,05/10/2025,Falkirk,Rangers,1,1,D
+SC0,06/01/2026,Rangers,Aberdeen,2,0,H
+SC0,06/12/2025,Hibernian,Falkirk,3,0,H
+SC0,06/12/2025,ST Mirren,Dundee Utd,2,0,H
+SC0,06/12/2025,Dundee,Aberdeen,1,3,A
+SC0,06/12/2025,Motherwell,Livingston,3,0,H
+SC0,06/12/2025,Kilmarnock,Rangers,0,3,A
+SC0,07/03/2026,Dundee,Motherwell,2,1,H
+SC0,07/12/2025,Celtic,Heart Of Midlothian,1,2,A
+SC0,08/11/2025,ST Mirren,Hibernian,0,3,A
+SC0,08/11/2025,Falkirk,Livingston,1,1,D
+SC0,09/08/2025,Rangers,Dundee,1,1,D
+SC0,09/08/2025,ST Mirren,Motherwell,0,0,D
+SC0,09/08/2025,Livingston,Falkirk,3,1,H
+SC0,09/11/2025,Celtic,Kilmarnock,4,0,H
+SC0,09/11/2025,Heart Of Midlothian,Dundee Utd,1,1,D
+SC0,09/11/2025,Dundee,Rangers,0,3,A
+SC0,09/11/2025,Aberdeen,Motherwell,1,1,D
+SC0,10/01/2026,Hibernian,Motherwell,1,1,D
+SC0,10/01/2026,ST Mirren,Falkirk,0,2,A
+SC0,10/01/2026,Livingston,Kilmarnock,1,1,D
+SC0,10/01/2026,Celtic,Dundee Utd,4,0,H
+SC0,10/02/2026,Heart Of Midlothian,Hibernian,1,0,H
+SC0,10/08/2025,Hibernian,Kilmarnock,2,2,D
+SC0,10/08/2025,Dundee Utd,Heart Of Midlothian,2,3,A
+SC0,10/08/2025,Aberdeen,Celtic,0,2,A
+SC0,11/01/2026,Aberdeen,Rangers,0,2,A
+SC0,11/01/2026,Dundee,Heart Of Midlothian,0,1,A
+SC0,11/02/2026,Celtic,Livingston,2,1,H
+SC0,11/02/2026,Falkirk,Dundee,1,0,H
+SC0,11/02/2026,Motherwell,Rangers,1,1,D
+SC0,11/02/2026,Kilmarnock,ST Mirren,4,3,H
+SC0,11/04/2026,Heart Of Midlothian,Motherwell,3,1,H
+SC0,11/04/2026,Aberdeen,Hibernian,2,0,H
+SC0,11/04/2026,Kilmarnock,Dundee,2,2,D
+SC0,11/04/2026,Celtic,ST Mirren,1,0,H
+SC0,11/04/2026,Dundee Utd,Livingston,3,2,H
+SC0,13/09/2025,Rangers,Heart Of Midlothian,0,2,A
+SC0,13/09/2025,Hibernian,Dundee Utd,3,3,D
+SC0,13/09/2025,Falkirk,ST Mirren,1,2,A
+SC0,13/09/2025,Dundee,Motherwell,1,1,D
+SC0,13/09/2025,Aberdeen,Livingston,0,0,D
+SC0,13/12/2025,Falkirk,Heart Of Midlothian,0,2,A
+SC0,13/12/2025,Dundee Utd,Motherwell,0,0,D
+SC0,13/12/2025,Livingston,Dundee,2,2,D
+SC0,14/01/2026,Falkirk,Celtic,0,1,A
+SC0,14/01/2026,Heart Of Midlothian,ST Mirren,2,0,H
+SC0,14/02/2026,Hibernian,ST Mirren,2,0,H
+SC0,14/02/2026,Dundee,Livingston,2,2,D
+SC0,14/02/2026,Falkirk,Dundee Utd,2,3,A
+SC0,14/03/2026,Kilmarnock,Heart Of Midlothian,1,0,H
+SC0,14/03/2026,Aberdeen,Falkirk,1,1,D
+SC0,14/03/2026,Celtic,Motherwell,3,1,H
+SC0,14/03/2026,Hibernian,Livingston,0,0,D
+SC0,14/09/2025,Kilmarnock,Celtic,1,2,A
+SC0,14/12/2025,Aberdeen,Kilmarnock,2,1,H
+SC0,15/02/2026,Rangers,Heart Of Midlothian,4,2,H
+SC0,15/02/2026,Motherwell,Aberdeen,2,0,H
+SC0,15/02/2026,Kilmarnock,Celtic,2,3,A
+SC0,15/03/2026,ST Mirren,Rangers,0,1,A
+SC0,15/03/2026,Dundee,Dundee Utd,2,2,D
+SC0,15/12/2025,Rangers,Hibernian,1,0,H
+SC0,17/12/2025,Dundee Utd,Celtic,2,1,H
+SC0,18/10/2025,Kilmarnock,Heart Of Midlothian,0,3,A
+SC0,18/10/2025,Rangers,Dundee Utd,2,2,D
+SC0,18/10/2025,Motherwell,Falkirk,1,2,A
+SC0,18/10/2025,ST Mirren,Aberdeen,0,1,A
+SC0,18/10/2025,Hibernian,Livingston,4,0,H
+SC0,19/10/2025,Dundee,Celtic,2,0,H
+SC0,20/01/2026,Livingston,ST Mirren,1,1,D
+SC0,20/09/2025,Dundee,Livingston,3,2,H
+SC0,20/12/2025,Dundee Utd,Hibernian,1,1,D
+SC0,20/12/2025,Kilmarnock,Falkirk,0,1,A
+SC0,20/12/2025,ST Mirren,Livingston,1,0,H
+SC0,20/12/2025,Motherwell,Dundee,1,0,H
+SC0,21/02/2026,ST Mirren,Motherwell,0,5,A
+SC0,21/02/2026,Dundee Utd,Kilmarnock,1,1,D
+SC0,21/02/2026,Heart Of Midlothian,Falkirk,1,0,H
+SC0,21/02/2026,Aberdeen,Dundee,2,3,A
+SC0,21/03/2026,Falkirk,ST Mirren,1,2,A
+SC0,21/03/2026,Heart Of Midlothian,Dundee,1,0,H
+SC0,21/03/2026,Kilmarnock,Livingston,2,0,H
+SC0,21/03/2026,Motherwell,Hibernian,0,0,D
+SC0,21/03/2026,Rangers,Aberdeen,4,1,H
+SC0,21/12/2025,Heart Of Midlothian,Rangers,2,1,H
+SC0,21/12/2025,Celtic,Aberdeen,3,1,H
+SC0,22/02/2026,Celtic,Hibernian,1,2,A
+SC0,22/02/2026,Livingston,Rangers,2,2,D
+SC0,22/03/2026,Dundee Utd,Celtic,2,0,H
+SC0,22/11/2025,Kilmarnock,Motherwell,1,3,A
+SC0,22/11/2025,Rangers,Livingston,2,1,H
+SC0,22/11/2025,Dundee Utd,Falkirk,0,3,A
+SC0,22/11/2025,Hibernian,Dundee,2,0,H
+SC0,22/11/2025,ST Mirren,Celtic,0,1,A
+SC0,23/08/2025,Celtic,Livingston,3,0,H
+SC0,23/08/2025,Kilmarnock,Dundee,0,0,D
+SC0,23/08/2025,Heart Of Midlothian,Motherwell,3,3,D
+SC0,23/09/2025,Falkirk,Hibernian,2,2,D
+SC0,23/09/2025,Dundee Utd,Aberdeen,2,0,H
+SC0,23/11/2025,Aberdeen,Heart Of Midlothian,1,0,H
+SC0,24/01/2026,Motherwell,Kilmarnock,4,0,H
+SC0,24/01/2026,Aberdeen,Livingston,6,2,H
+SC0,24/01/2026,Falkirk,Hibernian,4,1,H
+SC0,24/02/2026,Dundee Utd,Aberdeen,0,0,D
+SC0,24/08/2025,ST Mirren,Rangers,1,1,D
+SC0,25/01/2026,Rangers,Dundee,3,0,H
+SC0,25/01/2026,Heart Of Midlothian,Celtic,2,2,D
+SC0,25/10/2025,Falkirk,Dundee,2,1,H
+SC0,25/10/2025,Dundee Utd,ST Mirren,3,1,H
+SC0,25/10/2025,Livingston,Motherwell,1,2,A
+SC0,25/11/2025,Motherwell,Hibernian,2,0,H
+SC0,26/10/2025,Aberdeen,Hibernian,1,2,A
+SC0,26/10/2025,Rangers,Kilmarnock,3,1,H
+SC0,26/10/2025,Heart Of Midlothian,Celtic,3,1,H
+SC0,27/09/2025,Celtic,Hibernian,0,0,D
+SC0,27/09/2025,ST Mirren,Dundee,1,0,H
+SC0,27/09/2025,Motherwell,Aberdeen,2,0,H
+SC0,27/09/2025,Dundee Utd,Kilmarnock,0,2,A
+SC0,27/09/2025,Heart Of Midlothian,Falkirk,3,0,H
+SC0,27/12/2025,Livingston,Celtic,2,4,A
+SC0,27/12/2025,Aberdeen,Dundee Utd,1,1,D
+SC0,27/12/2025,Dundee,Falkirk,1,0,H
+SC0,27/12/2025,ST Mirren,Kilmarnock,0,0,D
+SC0,27/12/2025,Rangers,Motherwell,1,0,H
+SC0,27/12/2025,Hibernian,Heart Of Midlothian,3,2,H
+SC0,28/02/2026,Falkirk,Kilmarnock,5,1,H
+SC0,28/02/2026,Motherwell,Dundee Utd,2,0,H
+SC0,28/02/2026,Heart Of Midlothian,Aberdeen,1,0,H
+SC0,28/02/2026,Dundee,Hibernian,3,3,D
+SC0,28/02/2026,Livingston,ST Mirren,1,1,D
+SC0,28/09/2025,Livingston,Rangers,1,2,A
+SC0,29/10/2025,Kilmarnock,Aberdeen,0,1,A
+SC0,29/10/2025,Celtic,Falkirk,4,0,H
+SC0,29/10/2025,Hibernian,Rangers,0,1,A
+SC0,29/10/2025,Motherwell,Dundee Utd,2,0,H
+SC0,29/10/2025,ST Mirren,Heart Of Midlothian,2,2,D
+SC0,29/11/2025,Kilmarnock,Dundee Utd,1,1,D
+SC0,29/11/2025,Motherwell,Heart Of Midlothian,0,0,D
+SC0,29/11/2025,Dundee,ST Mirren,3,1,H
+SC0,30/08/2025,Livingston,Heart Of Midlothian,1,2,A
+SC0,30/08/2025,Motherwell,Kilmarnock,2,2,D
+SC0,30/11/2025,Hibernian,Celtic,1,2,A
+SC0,30/11/2025,Rangers,Falkirk,0,0,D
+SC0,30/11/2025,Livingston,Aberdeen,0,1,A
+SC0,30/12/2025,Hibernian,Aberdeen,2,0,H
+SC0,30/12/2025,Dundee,Kilmarnock,2,1,H
+SC0,30/12/2025,Motherwell,Celtic,2,0,H
+SC0,30/12/2025,Rangers,ST Mirren,2,1,H
+SC0,30/12/2025,Livingston,Dundee Utd,1,3,A
+SC0,31/01/2026,ST Mirren,Dundee,0,0,D
+SC0,31/01/2026,Kilmarnock,Aberdeen,3,0,H
+SC0,31/01/2026,Dundee Utd,Heart Of Midlothian,0,3,A
+SC0,31/01/2026,Livingston,Motherwell,0,2,A
+SC0,31/08/2025,Hibernian,ST Mirren,1,1,D
+SC0,31/08/2025,Aberdeen,Falkirk,0,1,A
+SC0,31/08/2025,Rangers,Celtic,0,0,D
+SC0,31/08/2025,Dundee,Dundee Utd,0,2,A

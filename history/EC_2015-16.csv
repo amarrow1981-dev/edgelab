@@ -1,0 +1,553 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2016,Forest Green,Torquay,3,1,H
+EC,01/03/2016,Bromley,Welling United,2,0,H
+EC,01/03/2016,Dover,Southport,1,2,A
+EC,01/03/2016,Eastleigh,Cheltenham,1,0,H
+EC,01/03/2016,Macclesfield,Torquay,1,2,A
+EC,01/03/2016,Braintree,Kidderminster,2,1,H
+EC,01/04/2016,Cheltenham,Grimsby,3,1,H
+EC,02/01/2016,Grimsby,Guiseley AFC,1,1,D
+EC,02/01/2016,Tranmere,Macclesfield,0,1,A
+EC,02/01/2016,Chester,Altrincham,1,1,D
+EC,02/01/2016,Gateshead,Barrow,1,1,D
+EC,02/01/2016,FC Halifax Town,Lincoln,2,2,D
+EC,02/01/2016,Woking,Aldershot,2,1,H
+EC,02/01/2016,Southport,Wrexham,3,2,H
+EC,02/02/2016,Braintree,Welling United,1,0,H
+EC,02/02/2016,Barrow,Gateshead,0,0,D
+EC,02/04/2016,Forest Green,Wrexham,0,0,D
+EC,02/04/2016,Tranmere,Welling United,1,2,A
+EC,02/04/2016,Eastleigh,Guiseley AFC,1,1,D
+EC,02/04/2016,Gateshead,Torquay,1,2,A
+EC,02/04/2016,Southport,Woking,2,2,D
+EC,02/04/2016,Dover,FC Halifax Town,1,0,H
+EC,02/04/2016,Bromley,Lincoln,2,0,H
+EC,02/04/2016,Kidderminster,Altrincham,1,1,D
+EC,02/04/2016,Chester,Boreham Wood,2,2,D
+EC,02/04/2016,Macclesfield,Braintree,3,1,H
+EC,02/04/2016,Aldershot,Barrow,0,1,A
+EC,02/10/2015,Guiseley AFC,Lincoln,0,1,A
+EC,03/10/2015,Altrincham,Barrow,1,0,H
+EC,03/10/2015,FC Halifax Town,Cheltenham,1,7,A
+EC,03/10/2015,Woking,Southport,1,2,A
+EC,03/10/2015,Torquay,Aldershot,0,2,A
+EC,03/10/2015,Gateshead,Dover,2,3,A
+EC,03/10/2015,Eastleigh,Braintree,0,2,A
+EC,03/10/2015,Chester,Wrexham,3,2,H
+EC,03/10/2015,Kidderminster,Welling United,0,1,A
+EC,03/10/2015,Grimsby,Forest Green,1,1,D
+EC,03/10/2015,Macclesfield,Boreham Wood,0,0,D
+EC,03/10/2015,Tranmere,Bromley,4,0,H
+EC,04/03/2016,Forest Green,Grimsby,0,1,A
+EC,05/03/2016,Welling United,Cheltenham,1,1,D
+EC,05/03/2016,Altrincham,Macclesfield,0,0,D
+EC,05/03/2016,Woking,Dover,0,1,A
+EC,05/03/2016,Braintree,Eastleigh,2,0,H
+EC,05/03/2016,Boreham Wood,Barrow,0,2,A
+EC,05/03/2016,Torquay,Kidderminster,3,2,H
+EC,05/03/2016,Lincoln,Aldershot,2,0,H
+EC,05/03/2016,Southport,FC Halifax Town,0,1,A
+EC,05/03/2016,Chester,Bromley,1,1,D
+EC,05/03/2016,Tranmere,Gateshead,3,1,H
+EC,05/04/2016,Aldershot,Grimsby,3,4,A
+EC,05/04/2016,Altrincham,Dover,1,2,A
+EC,05/04/2016,FC Halifax Town,Boreham Wood,3,2,H
+EC,05/04/2016,Torquay,Chester,2,0,H
+EC,05/04/2016,Barrow,Braintree,2,0,H
+EC,05/09/2015,Kidderminster,Braintree,0,1,A
+EC,05/09/2015,Welling United,Tranmere,1,1,D
+EC,05/09/2015,Lincoln,Wrexham,1,1,D
+EC,05/09/2015,Macclesfield,Woking,2,1,H
+EC,05/09/2015,Aldershot,FC Halifax Town,3,2,H
+EC,05/09/2015,Barrow,Eastleigh,1,0,H
+EC,05/09/2015,Southport,Dover,0,0,D
+EC,05/09/2015,Torquay,Guiseley AFC,1,1,D
+EC,05/09/2015,Boreham Wood,Grimsby,1,3,A
+EC,05/09/2015,Bromley,Gateshead,3,0,H
+EC,05/09/2015,Altrincham,Cheltenham,2,1,H
+EC,05/09/2015,Chester,Forest Green,1,2,A
+EC,05/12/2015,Southport,Macclesfield,3,1,H
+EC,05/12/2015,Tranmere,Braintree,1,2,A
+EC,05/12/2015,Kidderminster,Gateshead,0,1,A
+EC,05/12/2015,FC Halifax Town,Guiseley AFC,1,1,D
+EC,05/12/2015,Woking,Lincoln,3,1,H
+EC,05/12/2015,Cheltenham,Chester,3,1,H
+EC,05/12/2015,Torquay,Wrexham,0,1,A
+EC,05/12/2015,Dover,Aldershot,5,2,H
+EC,06/02/2016,Welling United,Altrincham,1,1,D
+EC,06/02/2016,Wrexham,Forest Green,2,2,D
+EC,06/02/2016,Boreham Wood,Kidderminster,0,2,A
+EC,06/02/2016,Barrow,Cheltenham,1,2,A
+EC,06/02/2016,Tranmere,Southport,1,0,H
+EC,06/02/2016,Lincoln,Eastleigh,3,0,H
+EC,06/10/2015,Welling United,Bromley,1,2,A
+EC,06/10/2015,Grimsby,Gateshead,2,1,H
+EC,06/10/2015,Altrincham,FC Halifax Town,1,3,A
+EC,06/10/2015,Kidderminster,Boreham Wood,1,1,D
+EC,06/10/2015,Torquay,Dover,2,3,A
+EC,06/10/2015,Guiseley AFC,Macclesfield,0,3,A
+EC,06/10/2015,Barrow,Chester,3,2,H
+EC,06/10/2015,Wrexham,Tranmere,2,2,D
+EC,06/10/2015,Cheltenham,Braintree,1,1,D
+EC,07/10/2015,Aldershot,Forest Green,0,3,A
+EC,07/11/2015,Guiseley AFC,Barrow,3,1,H
+EC,08/03/2016,Dover,Welling United,2,1,H
+EC,08/03/2016,Bromley,FC Halifax Town,1,0,H
+EC,08/03/2016,Guiseley AFC,Tranmere,2,2,D
+EC,08/03/2016,Eastleigh,Woking,2,1,H
+EC,08/03/2016,Chester,Aldershot,8,2,H
+EC,08/03/2016,Barrow,Boreham Wood,0,0,D
+EC,08/03/2016,Grimsby,Southport,1,0,H
+EC,08/03/2016,Torquay,Braintree,0,0,D
+EC,08/03/2016,Altrincham,Gateshead,2,3,A
+EC,08/08/2015,Lincoln,Cheltenham,1,1,D
+EC,08/08/2015,Chester,Braintree,1,0,H
+EC,08/08/2015,Barrow,Dover,2,1,H
+EC,08/08/2015,Southport,Eastleigh,0,4,A
+EC,08/08/2015,Torquay,Macclesfield,1,0,H
+EC,08/08/2015,Boreham Wood,FC Halifax Town,3,1,H
+EC,08/08/2015,Bromley,Wrexham,3,1,H
+EC,08/08/2015,Kidderminster,Grimsby,2,2,D
+EC,08/08/2015,Altrincham,Forest Green,0,1,A
+EC,08/08/2015,Welling United,Guiseley AFC,1,0,H
+EC,08/08/2015,Tranmere,Woking,1,0,H
+EC,08/08/2015,Aldershot,Gateshead,1,2,A
+EC,08/12/2015,Gateshead,Southport,0,1,A
+EC,08/12/2015,Macclesfield,Eastleigh,1,2,A
+EC,09/01/2016,Lincoln,Dover,2,3,A
+EC,09/01/2016,Macclesfield,FC Halifax Town,0,1,A
+EC,09/01/2016,Aldershot,Chester,3,1,H
+EC,09/01/2016,Boreham Wood,Cheltenham,0,0,D
+EC,09/01/2016,Bromley,Southport,0,0,D
+EC,09/01/2016,Wrexham,Woking,1,3,A
+EC,09/01/2016,Welling United,Grimsby,0,4,A
+EC,09/01/2016,Barrow,Tranmere,3,4,A
+EC,09/02/2016,Altrincham,Wrexham,1,1,D
+EC,09/02/2016,Kidderminster,Eastleigh,3,2,H
+EC,09/02/2016,Bromley,Grimsby,1,2,A
+EC,09/04/2016,Welling United,Kidderminster,1,2,A
+EC,09/04/2016,Altrincham,Bromley,0,0,D
+EC,09/04/2016,FC Halifax Town,Aldershot,0,2,A
+EC,09/04/2016,Grimsby,Eastleigh,0,0,D
+EC,09/04/2016,Wrexham,Dover,0,1,A
+EC,09/04/2016,Lincoln,Chester,2,1,H
+EC,09/04/2016,Braintree,Forest Green,1,1,D
+EC,09/04/2016,Boreham Wood,Southport,0,2,A
+EC,09/04/2016,Torquay,Tranmere,0,1,A
+EC,09/04/2016,Guiseley AFC,Cheltenham,0,2,A
+EC,09/04/2016,Barrow,Macclesfield,1,1,D
+EC,09/04/2016,Woking,Gateshead,1,1,D
+EC,10/10/2015,Forest Green,Guiseley AFC,3,0,H
+EC,10/10/2015,Macclesfield,Kidderminster,2,1,H
+EC,10/10/2015,Bromley,Barrow,5,0,H
+EC,10/10/2015,Tranmere,Eastleigh,1,2,A
+EC,10/10/2015,Aldershot,Altrincham,2,0,H
+EC,10/10/2015,Chester,Lincoln,2,3,A
+EC,10/10/2015,Gateshead,Cheltenham,1,1,D
+EC,10/10/2015,Southport,Torquay,0,1,A
+EC,10/10/2015,Dover,Wrexham,2,1,H
+EC,10/10/2015,FC Halifax Town,Woking,0,3,A
+EC,10/10/2015,Braintree,Grimsby,0,0,D
+EC,10/10/2015,Boreham Wood,Welling United,2,0,H
+EC,10/11/2015,Welling United,Forest Green,1,1,D
+EC,10/11/2015,Cheltenham,Guiseley AFC,5,0,H
+EC,10/11/2015,Macclesfield,Altrincham,3,0,H
+EC,10/11/2015,Barrow,Grimsby,1,3,A
+EC,10/11/2015,Chester,Kidderminster,3,1,H
+EC,10/11/2015,Dover,Eastleigh,1,2,A
+EC,10/11/2015,Bromley,Boreham Wood,1,2,A
+EC,10/11/2015,Woking,Braintree,1,1,D
+EC,11/08/2015,Grimsby,Barrow,4,1,H
+EC,11/08/2015,Cheltenham,Aldershot,0,0,D
+EC,11/08/2015,Forest Green,Welling United,1,0,H
+EC,11/08/2015,Macclesfield,Southport,0,0,D
+EC,11/08/2015,Guiseley AFC,Altrincham,1,0,H
+EC,11/08/2015,Eastleigh,Boreham Wood,1,0,H
+EC,11/08/2015,Gateshead,Tranmere,1,4,A
+EC,11/08/2015,Dover,Kidderminster,3,2,H
+EC,11/08/2015,FC Halifax Town,Chester,0,1,A
+EC,11/08/2015,Braintree,Lincoln,1,3,A
+EC,11/08/2015,Woking,Bromley,2,0,H
+EC,11/08/2015,Wrexham,Torquay,3,1,H
+EC,11/11/2015,Aldershot,Lincoln,1,2,A
+EC,12/03/2016,Wrexham,Boreham Wood,1,0,H
+EC,12/03/2016,Cheltenham,Woking,4,0,H
+EC,12/03/2016,Macclesfield,Lincoln,1,1,D
+EC,12/03/2016,Bromley,Guiseley AFC,2,0,H
+EC,12/03/2016,Eastleigh,Chester,1,0,H
+EC,12/03/2016,Gateshead,Forest Green,0,1,A
+EC,12/03/2016,Southport,Welling United,3,3,D
+EC,12/03/2016,Dover,Tranmere,0,0,D
+EC,12/03/2016,Aldershot,Torquay,0,0,D
+EC,12/03/2016,Barrow,Altrincham,3,2,H
+EC,12/04/2016,Grimsby,Braintree,0,1,A
+EC,12/04/2016,Macclesfield,Dover,0,0,D
+EC,12/04/2016,Eastleigh,Barrow,3,1,H
+EC,12/04/2016,Guiseley AFC,Wrexham,3,1,H
+EC,12/04/2016,Torquay,Altrincham,2,0,H
+EC,12/04/2016,Kidderminster,FC Halifax Town,1,0,H
+EC,12/09/2015,Eastleigh,Gateshead,1,2,A
+EC,12/09/2015,Guiseley AFC,Woking,4,4,D
+EC,12/09/2015,Tranmere,Chester,2,0,H
+EC,12/09/2015,Braintree,Barrow,1,1,D
+EC,12/09/2015,Bromley,Macclesfield,1,0,H
+EC,12/09/2015,Wrexham,Altrincham,3,1,H
+EC,12/09/2015,FC Halifax Town,Kidderminster,1,1,D
+EC,12/09/2015,Welling United,Torquay,1,1,D
+EC,12/09/2015,Forest Green,Southport,2,1,H
+EC,12/09/2015,Cheltenham,Dover,3,2,H
+EC,12/09/2015,Lincoln,Boreham Wood,3,1,H
+EC,12/09/2015,Grimsby,Aldershot,4,1,H
+EC,13/02/2016,Cheltenham,Welling United,2,0,H
+EC,13/02/2016,Aldershot,Tranmere,0,0,D
+EC,13/02/2016,Dover,Gateshead,4,0,H
+EC,13/02/2016,Woking,Guiseley AFC,0,1,A
+EC,13/02/2016,Kidderminster,Macclesfield,3,1,H
+EC,13/02/2016,Altrincham,Lincoln,3,3,D
+EC,13/02/2016,Southport,Braintree,1,1,D
+EC,13/02/2016,FC Halifax Town,Forest Green,0,2,A
+EC,13/02/2016,Wrexham,Bromley,2,0,H
+EC,13/02/2016,Grimsby,Boreham Wood,0,0,D
+EC,13/10/2015,Eastleigh,Forest Green,3,2,H
+EC,13/10/2015,Welling United,Lincoln,2,1,H
+EC,13/10/2015,Altrincham,Kidderminster,2,2,D
+EC,13/10/2015,Woking,Torquay,2,2,D
+EC,13/10/2015,Bromley,Cheltenham,1,2,A
+EC,13/10/2015,Braintree,Dover,1,0,H
+EC,13/10/2015,Boreham Wood,Aldershot,0,1,A
+EC,13/10/2015,Southport,Chester,1,2,A
+EC,13/10/2015,Grimsby,FC Halifax Town,7,0,H
+EC,13/10/2015,Tranmere,Barrow,0,1,A
+EC,13/10/2015,Macclesfield,Gateshead,1,0,H
+EC,14/10/2015,Wrexham,Guiseley AFC,3,3,D
+EC,14/11/2015,Lincoln,Tranmere,1,0,H
+EC,14/11/2015,Forest Green,Dover,3,1,H
+EC,14/11/2015,Barrow,Torquay,4,0,H
+EC,14/11/2015,Guiseley AFC,Eastleigh,1,4,A
+EC,14/11/2015,Southport,Cheltenham,0,4,A
+EC,14/11/2015,Boreham Wood,Chester,0,0,D
+EC,14/11/2015,Woking,Macclesfield,2,5,A
+EC,14/11/2015,Bromley,Altrincham,1,3,A
+EC,14/11/2015,FC Halifax Town,Braintree,3,6,A
+EC,14/11/2015,Kidderminster,Aldershot,2,0,H
+EC,14/11/2015,Grimsby,Welling United,3,1,H
+EC,14/11/2015,Wrexham,Gateshead,4,0,H
+EC,15/03/2016,Braintree,Gateshead,0,0,D
+EC,15/03/2016,Dover,Lincoln,4,1,H
+EC,15/03/2016,Guiseley AFC,Grimsby,2,2,D
+EC,15/03/2016,Torquay,FC Halifax Town,0,0,D
+EC,15/03/2016,Eastleigh,Bromley,2,0,H
+EC,15/08/2015,Braintree,Tranmere,0,0,D
+EC,15/08/2015,Guiseley AFC,Kidderminster,1,0,H
+EC,15/08/2015,Gateshead,Boreham Wood,2,1,H
+EC,15/08/2015,Eastleigh,Lincoln,1,1,D
+EC,15/08/2015,Macclesfield,Welling United,2,1,H
+EC,15/08/2015,Forest Green,Barrow,4,0,H
+EC,15/08/2015,Cheltenham,Southport,3,0,H
+EC,15/08/2015,Grimsby,Bromley,4,1,H
+EC,15/08/2015,Woking,Altrincham,2,0,H
+EC,15/08/2015,Wrexham,Aldershot,3,0,H
+EC,15/08/2015,FC Halifax Town,Torquay,2,3,A
+EC,15/08/2015,Dover,Chester,0,0,D
+EC,15/09/2015,Aldershot,Welling United,1,0,H
+EC,15/09/2015,Barrow,Lincoln,1,0,H
+EC,15/09/2015,Altrincham,Eastleigh,1,1,D
+EC,15/09/2015,Kidderminster,Torquay,2,2,D
+EC,15/09/2015,Woking,Forest Green,2,1,H
+EC,15/09/2015,Boreham Wood,Bromley,2,3,A
+EC,15/09/2015,Dover,Braintree,0,0,D
+EC,15/09/2015,Southport,Tranmere,2,2,D
+EC,15/09/2015,Guiseley AFC,FC Halifax Town,2,1,H
+EC,15/09/2015,Gateshead,Wrexham,2,1,H
+EC,15/09/2015,Chester,Grimsby,1,1,D
+EC,15/09/2015,Cheltenham,Macclesfield,2,0,H
+EC,16/01/2016,Lincoln,Forest Green,0,1,A
+EC,16/02/2016,Cheltenham,Kidderminster,2,0,H
+EC,16/02/2016,Altrincham,Chester,0,3,A
+EC,16/02/2016,Gateshead,Eastleigh,2,1,H
+EC,16/02/2016,Braintree,Boreham Wood,0,2,A
+EC,16/04/2016,Aldershot,Boreham Wood,1,2,A
+EC,16/04/2016,Cheltenham,FC Halifax Town,2,0,H
+EC,16/04/2016,Macclesfield,Guiseley AFC,1,0,H
+EC,16/04/2016,Forest Green,Woking,1,2,A
+EC,16/04/2016,Tranmere,Wrexham,1,2,A
+EC,16/04/2016,Chester,Welling United,4,0,H
+EC,16/04/2016,Eastleigh,Altrincham,2,0,H
+EC,16/04/2016,Gateshead,Braintree,2,3,A
+EC,16/04/2016,Southport,Lincoln,2,2,D
+EC,16/04/2016,Dover,Grimsby,1,1,D
+EC,16/04/2016,Bromley,Torquay,0,2,A
+EC,16/04/2016,Kidderminster,Barrow,0,0,D
+EC,17/10/2015,Chester,FC Halifax Town,2,1,H
+EC,17/10/2015,Dover,Macclesfield,2,1,H
+EC,17/10/2015,Woking,Wrexham,0,1,A
+EC,17/10/2015,Kidderminster,Southport,0,1,A
+EC,17/10/2015,Gateshead,Altrincham,2,2,D
+EC,17/10/2015,Barrow,Welling United,1,1,D
+EC,17/10/2015,Guiseley AFC,Boreham Wood,1,1,D
+EC,17/10/2015,Torquay,Grimsby,1,1,D
+EC,17/10/2015,Aldershot,Bromley,1,1,D
+EC,17/10/2015,Lincoln,Braintree,2,0,H
+EC,17/10/2015,Forest Green,Tranmere,0,2,A
+EC,17/10/2015,Cheltenham,Eastleigh,1,1,D
+EC,18/08/2015,Kidderminster,Wrexham,1,3,A
+EC,18/08/2015,Bromley,Braintree,1,2,A
+EC,18/08/2015,Boreham Wood,Forest Green,0,1,A
+EC,18/08/2015,Aldershot,Dover,1,1,D
+EC,18/08/2015,Altrincham,Grimsby,2,1,H
+EC,18/08/2015,Welling United,Eastleigh,2,2,D
+EC,18/08/2015,Barrow,Guiseley AFC,1,1,D
+EC,18/08/2015,Chester,Cheltenham,1,1,D
+EC,18/08/2015,Tranmere,FC Halifax Town,1,0,H
+EC,18/08/2015,Torquay,Woking,0,1,A
+EC,18/08/2015,Southport,Gateshead,1,2,A
+EC,18/08/2015,Lincoln,Macclesfield,5,3,H
+EC,18/09/2015,Grimsby,Tranmere,1,1,D
+EC,19/03/2016,Tranmere,Forest Green,1,1,D
+EC,19/03/2016,Lincoln,Kidderminster,1,2,A
+EC,19/03/2016,Wrexham,Chester,3,0,H
+EC,19/03/2016,Barrow,Bromley,1,1,D
+EC,19/03/2016,Torquay,Southport,1,0,H
+EC,19/03/2016,Boreham Wood,Macclesfield,0,0,D
+EC,19/03/2016,Welling United,Gateshead,0,1,A
+EC,19/03/2016,Altrincham,Aldershot,4,0,H
+EC,19/03/2016,Braintree,Cheltenham,1,0,H
+EC,19/03/2016,Guiseley AFC,Dover,0,1,A
+EC,19/04/2016,FC Halifax Town,Eastleigh,0,0,D
+EC,19/04/2016,Woking,Grimsby,1,3,A
+EC,19/09/2015,Boreham Wood,Wrexham,0,1,A
+EC,19/09/2015,Gateshead,Welling United,1,2,A
+EC,19/09/2015,FC Halifax Town,Southport,2,2,D
+EC,19/09/2015,Kidderminster,Lincoln,0,2,A
+EC,19/09/2015,Altrincham,Braintree,0,4,A
+EC,19/09/2015,Barrow,Aldershot,1,3,A
+EC,19/09/2015,Macclesfield,Forest Green,4,1,H
+EC,19/09/2015,Dover,Guiseley AFC,0,0,D
+EC,19/09/2015,Woking,Cheltenham,0,1,A
+EC,19/09/2015,Torquay,Bromley,3,7,A
+EC,19/09/2015,Chester,Eastleigh,1,0,H
+EC,19/12/2015,Lincoln,Barrow,2,2,D
+EC,19/12/2015,Aldershot,Guiseley AFC,1,0,H
+EC,19/12/2015,Chester,Torquay,4,1,H
+EC,19/12/2015,Eastleigh,Kidderminster,3,1,H
+EC,19/12/2015,Gateshead,Woking,1,5,A
+EC,19/12/2015,Southport,Bromley,5,3,H
+EC,19/12/2015,FC Halifax Town,Tranmere,1,1,D
+EC,19/12/2015,Welling United,Macclesfield,0,1,A
+EC,19/12/2015,Cheltenham,Altrincham,1,0,H
+EC,19/12/2015,Grimsby,Dover,1,0,H
+EC,19/12/2015,Forest Green,Boreham Wood,1,0,H
+EC,20/02/2016,Forest Green,Eastleigh,2,1,H
+EC,20/02/2016,FC Halifax Town,Grimsby,4,2,H
+EC,20/02/2016,Kidderminster,Chester,2,2,D
+EC,20/02/2016,Altrincham,Guiseley AFC,1,1,D
+EC,20/02/2016,Tranmere,Cheltenham,0,1,A
+EC,20/02/2016,Welling United,Wrexham,0,2,A
+EC,20/02/2016,Boreham Wood,Torquay,0,1,A
+EC,20/02/2016,Lincoln,Southport,3,1,H
+EC,20/02/2016,Gateshead,Aldershot,3,2,H
+EC,20/02/2016,Bromley,Woking,2,1,H
+EC,21/11/2015,Welling United,Southport,0,1,A
+EC,21/11/2015,Chester,Woking,1,2,A
+EC,21/11/2015,Dover,Barrow,3,1,H
+EC,21/11/2015,Torquay,Lincoln,1,3,A
+EC,21/11/2015,Gateshead,FC Halifax Town,1,4,A
+EC,21/11/2015,Eastleigh,Grimsby,0,1,A
+EC,21/11/2015,Aldershot,Wrexham,0,1,A
+EC,21/11/2015,Tranmere,Guiseley AFC,2,1,H
+EC,21/11/2015,Macclesfield,Bromley,2,0,H
+EC,21/11/2015,Cheltenham,Forest Green,1,1,D
+EC,21/11/2015,Altrincham,Boreham Wood,1,0,H
+EC,22/08/2015,FC Halifax Town,Bromley,2,2,D
+EC,22/08/2015,Eastleigh,Macclesfield,1,0,H
+EC,22/08/2015,Grimsby,Torquay,2,2,D
+EC,22/08/2015,Cheltenham,Barrow,2,1,H
+EC,22/08/2015,Forest Green,Lincoln,3,1,H
+EC,22/08/2015,Gateshead,Kidderminster,1,1,D
+EC,22/08/2015,Guiseley AFC,Aldershot,0,4,A
+EC,22/08/2015,Dover,Altrincham,2,1,H
+EC,22/08/2015,Braintree,Southport,1,0,H
+EC,22/08/2015,Wrexham,Welling United,1,0,H
+EC,22/08/2015,Woking,Chester,5,2,H
+EC,22/08/2015,Tranmere,Boreham Wood,0,2,A
+EC,22/09/2015,Forest Green,Cheltenham,2,2,D
+EC,22/09/2015,Lincoln,Altrincham,1,1,D
+EC,22/09/2015,Macclesfield,Barrow,1,2,A
+EC,22/09/2015,Guiseley AFC,Southport,1,1,D
+EC,22/09/2015,Eastleigh,Dover,2,5,A
+EC,22/09/2015,Torquay,Boreham Wood,1,2,A
+EC,22/09/2015,Braintree,Woking,2,1,H
+EC,22/09/2015,Bromley,Kidderminster,3,2,H
+EC,22/09/2015,Wrexham,Grimsby,0,0,D
+EC,22/09/2015,Welling United,Chester,2,1,H
+EC,22/09/2015,Tranmere,Aldershot,3,1,H
+EC,22/09/2015,FC Halifax Town,Gateshead,1,1,D
+EC,23/01/2016,Kidderminster,Guiseley AFC,0,1,A
+EC,23/01/2016,Boreham Wood,Eastleigh,1,1,D
+EC,23/01/2016,Torquay,Gateshead,0,2,A
+EC,23/01/2016,Welling United,Barrow,1,2,A
+EC,23/01/2016,Wrexham,Lincoln,3,1,H
+EC,23/01/2016,Woking,FC Halifax Town,1,1,D
+EC,23/01/2016,Bromley,Tranmere,0,1,A
+EC,23/01/2016,Chester,Southport,0,0,D
+EC,23/01/2016,Grimsby,Altrincham,5,0,H
+EC,23/01/2016,Forest Green,Braintree,1,0,H
+EC,23/01/2016,Macclesfield,Aldershot,0,2,A
+EC,23/02/2016,Torquay,Welling United,2,0,H
+EC,23/02/2016,Wrexham,Kidderminster,2,0,H
+EC,23/02/2016,Grimsby,Woking,3,1,H
+EC,23/02/2016,Guiseley AFC,Forest Green,0,1,A
+EC,23/02/2016,Cheltenham,Gateshead,0,0,D
+EC,23/02/2016,Braintree,FC Halifax Town,2,0,H
+EC,23/04/2016,Boreham Wood,Guiseley AFC,1,0,H
+EC,23/04/2016,Torquay,Barrow,2,2,D
+EC,23/04/2016,Eastleigh,Tranmere,0,1,A
+EC,23/04/2016,Forest Green,FC Halifax Town,0,1,A
+EC,23/04/2016,Wrexham,Braintree,2,3,A
+EC,23/04/2016,Gateshead,Bromley,3,1,H
+EC,23/04/2016,Kidderminster,Dover,1,1,D
+EC,23/04/2016,Lincoln,Woking,2,3,A
+EC,23/04/2016,Macclesfield,Cheltenham,0,1,A
+EC,23/04/2016,Aldershot,Southport,1,2,A
+EC,23/04/2016,Grimsby,Chester,1,2,A
+EC,23/04/2016,Altrincham,Welling United,5,0,H
+EC,24/01/2016,Dover,Cheltenham,1,2,A
+EC,24/11/2015,Chester,Dover,1,1,D
+EC,24/11/2015,Woking,Tranmere,4,1,H
+EC,25/03/2016,Forest Green,Aldershot,0,0,D
+EC,25/03/2016,Eastleigh,Welling United,0,0,D
+EC,25/03/2016,Gateshead,Macclesfield,0,3,A
+EC,25/03/2016,Braintree,Bromley,1,0,H
+EC,25/03/2016,Cheltenham,Boreham Wood,4,1,H
+EC,25/03/2016,Tranmere,Lincoln,3,2,H
+EC,25/09/2015,Dover,Woking,2,0,H
+EC,25/11/2015,Boreham Wood,Lincoln,1,1,D
+EC,26/01/2016,Southport,Forest Green,0,1,A
+EC,26/01/2016,Altrincham,Woking,3,1,H
+EC,26/01/2016,Braintree,Wrexham,1,0,H
+EC,26/03/2016,FC Halifax Town,Altrincham,1,0,H
+EC,26/03/2016,Woking,Kidderminster,1,1,D
+EC,26/03/2016,Dover,Torquay,5,0,H
+EC,26/03/2016,Southport,Guiseley AFC,2,0,H
+EC,26/03/2016,Chester,Barrow,1,2,A
+EC,26/03/2016,Grimsby,Wrexham,1,0,H
+EC,26/09/2015,Wrexham,Eastleigh,2,3,A
+EC,26/09/2015,Welling United,FC Halifax Town,2,0,H
+EC,26/09/2015,Braintree,Guiseley AFC,0,1,A
+EC,26/09/2015,Cheltenham,Tranmere,0,1,A
+EC,26/09/2015,Forest Green,Gateshead,0,1,A
+EC,26/09/2015,Lincoln,Torquay,2,0,H
+EC,26/09/2015,Aldershot,Macclesfield,0,3,A
+EC,26/09/2015,Barrow,Kidderminster,1,1,D
+EC,26/09/2015,Boreham Wood,Altrincham,0,1,A
+EC,26/09/2015,Bromley,Chester,3,0,H
+EC,26/09/2015,Southport,Grimsby,0,4,A
+EC,26/12/2015,Macclesfield,Tranmere,1,2,A
+EC,26/12/2015,Wrexham,Southport,0,1,A
+EC,26/12/2015,Lincoln,FC Halifax Town,0,1,A
+EC,26/12/2015,Aldershot,Woking,0,1,A
+EC,26/12/2015,Torquay,Forest Green,4,1,H
+EC,26/12/2015,Boreham Wood,Braintree,1,0,H
+EC,26/12/2015,Bromley,Eastleigh,2,2,D
+EC,26/12/2015,Welling United,Dover,1,2,A
+EC,26/12/2015,Kidderminster,Cheltenham,1,2,A
+EC,27/02/2016,Southport,Boreham Wood,0,3,A
+EC,27/02/2016,Macclesfield,Wrexham,0,0,D
+EC,27/02/2016,Welling United,Aldershot,0,1,A
+EC,27/02/2016,Kidderminster,Bromley,0,1,A
+EC,27/02/2016,Guiseley AFC,Braintree,1,1,D
+EC,27/02/2016,Barrow,Forest Green,2,2,D
+EC,28/02/2016,Chester,Tranmere,0,1,A
+EC,28/03/2016,Lincoln,Gateshead,1,1,D
+EC,28/03/2016,Macclesfield,Grimsby,2,1,H
+EC,28/03/2016,Torquay,Eastleigh,0,1,A
+EC,28/03/2016,Wrexham,Cheltenham,2,1,H
+EC,28/03/2016,Aldershot,Braintree,2,1,H
+EC,28/03/2016,Welling United,Woking,2,1,H
+EC,28/03/2016,Altrincham,Southport,1,1,D
+EC,28/03/2016,Kidderminster,Tranmere,0,2,A
+EC,28/03/2016,Bromley,Forest Green,2,2,D
+EC,28/03/2016,Boreham Wood,Dover,3,0,H
+EC,28/03/2016,Guiseley AFC,Chester,3,3,D
+EC,28/03/2016,Barrow,FC Halifax Town,4,1,H
+EC,28/11/2015,Braintree,Torquay,0,0,D
+EC,28/11/2015,Lincoln,Welling United,1,1,D
+EC,28/11/2015,FC Halifax Town,Dover,4,2,H
+EC,28/11/2015,Wrexham,Macclesfield,2,3,A
+EC,28/11/2015,Boreham Wood,Tranmere,0,0,D
+EC,28/11/2015,Guiseley AFC,Bromley,2,0,H
+EC,28/11/2015,Eastleigh,Southport,1,0,H
+EC,28/11/2015,Grimsby,Kidderminster,1,0,H
+EC,28/11/2015,Forest Green,Altrincham,2,0,H
+EC,28/11/2015,Gateshead,Chester,1,0,H
+EC,28/11/2015,Aldershot,Cheltenham,0,2,A
+EC,28/11/2015,Barrow,Woking,2,1,H
+EC,28/12/2015,Grimsby,Lincoln,2,0,H
+EC,28/12/2015,Cheltenham,Torquay,1,0,H
+EC,28/12/2015,Woking,Boreham Wood,0,0,D
+EC,28/12/2015,Forest Green,Kidderminster,3,0,H
+EC,28/12/2015,Tranmere,Altrincham,1,0,H
+EC,28/12/2015,Chester,Macclesfield,0,2,A
+EC,28/12/2015,Eastleigh,Aldershot,1,1,D
+EC,28/12/2015,Gateshead,Guiseley AFC,3,0,H
+EC,28/12/2015,Dover,Bromley,2,3,A
+EC,28/12/2015,FC Halifax Town,Wrexham,2,0,H
+EC,28/12/2015,Southport,Barrow,2,1,H
+EC,29/08/2015,Wrexham,FC Halifax Town,3,1,H
+EC,29/08/2015,Altrincham,Tranmere,2,1,H
+EC,29/08/2015,Bromley,Dover,1,1,D
+EC,29/08/2015,Kidderminster,Forest Green,0,2,A
+EC,29/08/2015,Boreham Wood,Woking,1,1,D
+EC,29/08/2015,Torquay,Cheltenham,0,3,A
+EC,29/08/2015,Guiseley AFC,Gateshead,0,2,A
+EC,29/08/2015,Barrow,Southport,1,0,H
+EC,29/08/2015,Aldershot,Eastleigh,1,2,A
+EC,29/08/2015,Macclesfield,Chester,1,2,A
+EC,29/08/2015,Lincoln,Grimsby,1,1,D
+EC,29/08/2015,Welling United,Braintree,1,2,A
+EC,30/01/2016,FC Halifax Town,Welling United,1,1,D
+EC,30/01/2016,Woking,Barrow,2,2,D
+EC,30/01/2016,Braintree,Chester,2,0,H
+EC,30/01/2016,Gateshead,Grimsby,1,0,H
+EC,30/01/2016,Cheltenham,Bromley,4,1,H
+EC,30/01/2016,Forest Green,Macclesfield,2,1,H
+EC,30/01/2016,Lincoln,Guiseley AFC,1,0,H
+EC,30/01/2016,Tranmere,Torquay,2,1,H
+EC,30/01/2016,Aldershot,Kidderminster,1,0,H
+EC,30/01/2016,Eastleigh,Wrexham,1,1,D
+EC,30/04/2016,Braintree,Altrincham,3,0,H
+EC,30/04/2016,Cheltenham,Lincoln,3,1,H
+EC,30/04/2016,Tranmere,Grimsby,1,0,H
+EC,30/04/2016,Chester,Gateshead,4,2,H
+EC,30/04/2016,Bromley,Aldershot,1,3,A
+EC,30/04/2016,Woking,Eastleigh,2,1,H
+EC,30/04/2016,Southport,Kidderminster,3,4,A
+EC,30/04/2016,Dover,Forest Green,0,1,A
+EC,30/04/2016,Barrow,Wrexham,2,0,H
+EC,30/04/2016,Guiseley AFC,Torquay,4,3,H
+EC,30/04/2016,Welling United,Boreham Wood,0,3,A
+EC,30/04/2016,FC Halifax Town,Macclesfield,1,1,D
+EC,30/10/2015,Grimsby,Cheltenham,0,1,A
+EC,31/08/2015,Cheltenham,Wrexham,2,1,H
+EC,31/08/2015,FC Halifax Town,Barrow,3,1,H
+EC,31/08/2015,Woking,Welling United,2,0,H
+EC,31/08/2015,Braintree,Aldershot,1,2,A
+EC,31/08/2015,Dover,Boreham Wood,2,1,H
+EC,31/08/2015,Southport,Altrincham,3,0,H
+EC,31/08/2015,Gateshead,Lincoln,2,0,H
+EC,31/08/2015,Eastleigh,Torquay,3,2,H
+EC,31/08/2015,Chester,Guiseley AFC,1,1,D
+EC,31/08/2015,Forest Green,Bromley,2,1,H
+EC,31/08/2015,Tranmere,Kidderminster,2,2,D
+EC,31/08/2015,Grimsby,Macclesfield,0,2,A
+EC,31/10/2015,Lincoln,Bromley,0,1,A
+EC,31/10/2015,Tranmere,Dover,0,1,A
+EC,31/10/2015,Eastleigh,FC Halifax Town,2,1,H
+EC,31/10/2015,Guiseley AFC,Welling United,2,0,H
+EC,31/10/2015,Southport,Aldershot,1,1,D
+EC,31/10/2015,Boreham Wood,Gateshead,2,3,A
+EC,31/10/2015,Braintree,Macclesfield,1,0,H
+EC,31/10/2015,Wrexham,Barrow,4,1,H
+EC,31/10/2015,Kidderminster,Woking,1,0,H
+EC,31/10/2015,Altrincham,Torquay,1,1,D
+EC,31/10/2015,Forest Green,Chester,2,1,H

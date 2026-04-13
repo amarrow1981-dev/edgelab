@@ -1,0 +1,558 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E1,01/02/2012,Leicester,Middlesbrough,2,2,D
+E1,01/10/2011,Reading,Middlesbrough,0,0,D
+E1,01/10/2011,Ipswich,Brighton,3,1,H
+E1,01/10/2011,Millwall,Burnley,0,1,A
+E1,01/10/2011,Leeds,Portsmouth,1,0,H
+E1,01/10/2011,Hull,Cardiff,2,1,H
+E1,01/10/2011,Barnsley,Coventry,2,0,H
+E1,01/10/2011,Peterborough,Doncaster,1,2,A
+E1,01/10/2011,Blackpool,Bristol City,5,0,H
+E1,01/10/2011,Leicester,Derby,4,0,H
+E1,01/10/2011,Crystal Palace,West Ham,2,2,D
+E1,01/10/2011,Southampton,Watford,4,0,H
+E1,01/11/2011,West Ham,Bristol City,0,0,D
+E1,01/11/2011,Crystal Palace,Portsmouth,0,0,D
+E1,01/11/2011,Doncaster,Middlesbrough,1,3,A
+E1,01/11/2011,Barnsley,Hull,2,1,H
+E1,01/11/2011,Nott'm Forest,Reading,1,0,H
+E1,01/11/2011,Millwall,Coventry,3,0,H
+E1,01/11/2011,Burnley,Leicester,1,3,A
+E1,01/11/2011,Southampton,Peterborough,2,1,H
+E1,01/11/2011,Watford,Brighton,1,0,H
+E1,02/01/2012,Doncaster,Barnsley,2,0,H
+E1,02/01/2012,Hull,Derby,0,1,A
+E1,02/01/2012,Portsmouth,Watford,2,0,H
+E1,02/01/2012,Leeds,Burnley,2,1,H
+E1,02/01/2012,Ipswich,Nott'm Forest,1,3,A
+E1,02/01/2012,Brighton,Southampton,3,0,H
+E1,02/01/2012,West Ham,Coventry,1,0,H
+E1,02/01/2012,Peterborough,Birmingham,1,1,D
+E1,02/01/2012,Crystal Palace,Leicester,1,2,A
+E1,02/01/2012,Blackpool,Middlesbrough,3,0,H
+E1,02/01/2012,Cardiff,Reading,3,1,H
+E1,02/03/2012,Blackpool,Hull,1,1,D
+E1,02/10/2011,Nott'm Forest,Birmingham,1,3,A
+E1,02/11/2011,Leeds,Blackpool,0,5,A
+E1,02/11/2011,Derby,Cardiff,0,3,A
+E1,02/12/2011,Crystal Palace,Derby,1,1,D
+E1,03/01/2012,Bristol City,Millwall,1,0,H
+E1,03/03/2012,Barnsley,Nott'm Forest,1,1,D
+E1,03/03/2012,Leeds,Southampton,0,1,A
+E1,03/03/2012,Portsmouth,Middlesbrough,1,3,A
+E1,03/03/2012,Doncaster,Brighton,1,1,D
+E1,03/03/2012,Millwall,Reading,1,2,A
+E1,03/03/2012,Birmingham,Derby,2,2,D
+E1,03/03/2012,Ipswich,Bristol City,3,0,H
+E1,03/03/2012,Watford,Burnley,3,2,H
+E1,03/03/2012,Leicester,Coventry,2,0,H
+E1,03/03/2012,Crystal Palace,Peterborough,1,0,H
+E1,03/04/2012,Burnley,Birmingham,1,3,A
+E1,03/05/2012,Cardiff,West Ham,0,2,A
+E1,03/12/2011,Bristol City,Middlesbrough,0,1,A
+E1,03/12/2011,Portsmouth,Coventry,2,1,H
+E1,03/12/2011,Doncaster,Southampton,1,0,H
+E1,03/12/2011,Peterborough,Barnsley,3,4,A
+E1,03/12/2011,Blackpool,Reading,1,0,H
+E1,03/12/2011,Ipswich,Watford,1,2,A
+E1,03/12/2011,Brighton,Nott'm Forest,1,0,H
+E1,03/12/2011,West Ham,Burnley,1,2,A
+E1,03/12/2011,Leeds,Millwall,2,0,H
+E1,03/12/2011,Hull,Leicester,2,1,H
+E1,04/02/2012,Watford,Barnsley,2,1,H
+E1,04/02/2012,Cardiff,Blackpool,1,3,A
+E1,04/02/2012,Burnley,Peterborough,1,1,D
+E1,04/02/2012,Brighton,Leicester,1,0,H
+E1,04/02/2012,Bristol City,Leeds,0,3,A
+E1,04/02/2012,Coventry,Ipswich,2,3,A
+E1,04/02/2012,Birmingham,Southampton,0,0,D
+E1,04/02/2012,West Ham,Millwall,2,1,H
+E1,04/02/2012,Middlesbrough,Crystal Palace,0,0,D
+E1,04/03/2012,Cardiff,West Ham,0,2,A
+E1,04/05/2012,Blackpool,Birmingham,1,0,H
+E1,04/12/2011,Cardiff,Birmingham,1,0,H
+E1,05/08/2011,Hull,Blackpool,0,1,A
+E1,05/11/2011,Bristol City,Burnley,3,1,H
+E1,05/11/2011,Middlesbrough,Watford,1,0,H
+E1,05/11/2011,Blackpool,Millwall,1,0,H
+E1,05/11/2011,Portsmouth,Nott'm Forest,3,0,H
+E1,05/11/2011,Peterborough,Derby,3,2,H
+E1,05/11/2011,Coventry,Southampton,2,4,A
+E1,05/11/2011,Hull,West Ham,0,2,A
+E1,05/11/2011,Cardiff,Crystal Palace,2,0,H
+E1,05/11/2011,Ipswich,Doncaster,2,3,A
+E1,06/03/2012,Reading,Portsmouth,1,0,H
+E1,06/03/2012,Southampton,Ipswich,1,1,D
+E1,06/03/2012,Bristol City,Leicester,3,2,H
+E1,06/03/2012,Hull,Leeds,0,0,D
+E1,06/03/2012,Nott'm Forest,Doncaster,1,2,A
+E1,06/03/2012,Derby,Blackpool,2,1,H
+E1,06/03/2012,Middlesbrough,Barnsley,2,0,H
+E1,06/03/2012,Coventry,Crystal Palace,1,1,D
+E1,06/03/2012,Peterborough,Millwall,0,3,A
+E1,06/04/2012,Watford,Blackpool,0,2,A
+E1,06/04/2012,Reading,Leeds,2,0,H
+E1,06/04/2012,Barnsley,West Ham,0,4,A
+E1,06/04/2012,Burnley,Brighton,1,0,H
+E1,06/08/2011,Derby,Birmingham,2,1,H
+E1,06/08/2011,Coventry,Leicester,0,1,A
+E1,06/08/2011,Burnley,Watford,2,2,D
+E1,06/08/2011,Brighton,Doncaster,2,1,H
+E1,06/08/2011,Reading,Millwall,2,2,D
+E1,06/08/2011,Bristol City,Ipswich,0,3,A
+E1,06/08/2011,Nott'm Forest,Barnsley,0,0,D
+E1,06/08/2011,Southampton,Leeds,3,1,H
+E1,06/08/2011,Peterborough,Crystal Palace,2,1,H
+E1,06/08/2011,Middlesbrough,Portsmouth,2,2,D
+E1,06/11/2011,Reading,Birmingham,1,0,H
+E1,06/11/2011,Brighton,Barnsley,2,0,H
+E1,06/11/2011,Leicester,Leeds,0,1,A
+E1,06/12/2011,Barnsley,Crystal Palace,2,1,H
+E1,07/02/2012,Birmingham,Portsmouth,1,0,H
+E1,07/03/2012,Brighton,Cardiff,2,2,D
+E1,07/03/2012,West Ham,Watford,1,1,D
+E1,07/04/2012,Leicester,Doncaster,4,0,H
+E1,07/04/2012,Southampton,Portsmouth,2,2,D
+E1,07/04/2012,Millwall,Hull,2,0,H
+E1,07/04/2012,Derby,Ipswich,0,0,D
+E1,07/04/2012,Middlesbrough,Cardiff,0,2,A
+E1,07/04/2012,Coventry,Peterborough,2,2,D
+E1,07/04/2012,Nott'm Forest,Bristol City,0,1,A
+E1,07/04/2012,Birmingham,Crystal Palace,3,1,H
+E1,07/05/2012,West Ham,Cardiff,3,0,H
+E1,07/08/2011,West Ham,Cardiff,0,1,A
+E1,07/12/2011,Hull,Birmingham,2,1,H
+E1,09/04/2012,Ipswich,Leicester,1,2,A
+E1,09/04/2012,West Ham,Birmingham,3,3,D
+E1,09/04/2012,Blackpool,Barnsley,1,1,D
+E1,09/04/2012,Doncaster,Burnley,1,2,A
+E1,09/04/2012,Peterborough,Nott'm Forest,0,1,A
+E1,09/04/2012,Hull,Middlesbrough,2,1,H
+E1,09/04/2012,Cardiff,Watford,1,1,D
+E1,09/04/2012,Crystal Palace,Southampton,0,2,A
+E1,09/04/2012,Bristol City,Coventry,3,1,H
+E1,09/04/2012,Leeds,Derby,0,2,A
+E1,09/05/2012,Birmingham,Blackpool,2,2,D
+E1,10/03/2012,Coventry,Birmingham,1,1,D
+E1,10/03/2012,Burnley,Crystal Palace,1,1,D
+E1,10/03/2012,West Ham,Doncaster,1,1,D
+E1,10/03/2012,Peterborough,Blackpool,3,1,H
+E1,10/03/2012,Derby,Watford,1,2,A
+E1,10/03/2012,Nott'm Forest,Millwall,3,1,H
+E1,10/03/2012,Hull,Ipswich,2,2,D
+E1,10/03/2012,Reading,Leicester,3,1,H
+E1,10/03/2012,Brighton,Portsmouth,2,0,H
+E1,10/03/2012,Southampton,Barnsley,2,0,H
+E1,10/03/2012,Bristol City,Cardiff,1,2,A
+E1,10/04/2012,Brighton,Reading,0,1,A
+E1,10/04/2012,Portsmouth,Millwall,0,1,A
+E1,10/09/2011,Leeds,Crystal Palace,3,2,H
+E1,10/09/2011,Southampton,Nott'm Forest,3,2,H
+E1,10/09/2011,West Ham,Portsmouth,4,3,H
+E1,10/09/2011,Reading,Watford,0,2,A
+E1,10/09/2011,Bristol City,Brighton,0,1,A
+E1,10/09/2011,Peterborough,Hull,0,1,A
+E1,10/09/2011,Barnsley,Leicester,1,1,D
+E1,10/09/2011,Burnley,Middlesbrough,0,2,A
+E1,10/09/2011,Cardiff,Doncaster,2,0,H
+E1,10/09/2011,Blackpool,Ipswich,2,0,H
+E1,10/09/2011,Coventry,Derby,2,0,H
+E1,10/12/2011,Birmingham,Doncaster,2,1,H
+E1,10/12/2011,Millwall,Cardiff,0,0,D
+E1,10/12/2011,Nott'm Forest,Crystal Palace,0,1,A
+E1,10/12/2011,Leicester,Peterborough,1,1,D
+E1,10/12/2011,Middlesbrough,Brighton,1,0,H
+E1,10/12/2011,Coventry,Hull,0,1,A
+E1,10/12/2011,Barnsley,Ipswich,3,5,A
+E1,10/12/2011,Burnley,Portsmouth,0,1,A
+E1,10/12/2011,Watford,Leeds,1,1,D
+E1,10/12/2011,Southampton,Blackpool,2,2,D
+E1,10/12/2011,Reading,West Ham,3,0,H
+E1,10/12/2011,Derby,Bristol City,2,1,H
+E1,11/01/2012,Birmingham,Ipswich,2,1,H
+E1,11/02/2012,Blackpool,Portsmouth,1,1,D
+E1,11/02/2012,Leicester,Cardiff,2,1,H
+E1,11/02/2012,Reading,Coventry,2,0,H
+E1,11/02/2012,Millwall,Derby,0,0,D
+E1,11/02/2012,Leeds,Brighton,1,2,A
+E1,11/02/2012,Hull,Bristol City,3,0,H
+E1,11/02/2012,Southampton,Burnley,2,0,H
+E1,11/02/2012,Nott'm Forest,Watford,1,1,D
+E1,11/03/2012,Middlesbrough,Leeds,0,2,A
+E1,11/09/2011,Birmingham,Millwall,3,0,H
+E1,13/03/2012,Doncaster,Reading,1,1,D
+E1,13/03/2012,Cardiff,Hull,0,3,A
+E1,13/03/2012,Leicester,Birmingham,3,1,H
+E1,13/03/2012,Derby,Nott'm Forest,1,0,H
+E1,13/04/2012,Southampton,Reading,1,3,A
+E1,13/08/2011,Leicester,Reading,0,2,A
+E1,13/08/2011,Birmingham,Coventry,1,0,H
+E1,13/08/2011,Ipswich,Hull,0,1,A
+E1,13/08/2011,Millwall,Nott'm Forest,2,0,H
+E1,13/08/2011,Leeds,Middlesbrough,0,1,A
+E1,13/08/2011,Portsmouth,Brighton,0,1,A
+E1,13/08/2011,Barnsley,Southampton,0,1,A
+E1,13/08/2011,Watford,Derby,0,1,A
+E1,13/08/2011,Crystal Palace,Burnley,2,0,H
+E1,13/08/2011,Doncaster,West Ham,0,1,A
+E1,14/01/2012,Watford,Reading,1,2,A
+E1,14/01/2012,Leicester,Barnsley,1,2,A
+E1,14/01/2012,Brighton,Bristol City,2,0,H
+E1,14/01/2012,Crystal Palace,Leeds,1,1,D
+E1,14/01/2012,Ipswich,Blackpool,2,2,D
+E1,14/01/2012,Millwall,Birmingham,0,6,A
+E1,14/01/2012,Hull,Peterborough,1,0,H
+E1,14/01/2012,Nott'm Forest,Southampton,0,3,A
+E1,14/01/2012,Derby,Coventry,1,0,H
+E1,14/01/2012,Portsmouth,West Ham,0,1,A
+E1,14/01/2012,Doncaster,Cardiff,0,0,D
+E1,14/01/2012,Middlesbrough,Burnley,0,2,A
+E1,14/02/2012,Burnley,Barnsley,2,0,H
+E1,14/02/2012,Coventry,Leeds,2,1,H
+E1,14/02/2012,Middlesbrough,Nott'm Forest,2,1,H
+E1,14/02/2012,Derby,Reading,0,1,A
+E1,14/02/2012,Bristol City,Crystal Palace,2,2,D
+E1,14/02/2012,Birmingham,Hull,0,0,D
+E1,14/02/2012,Brighton,Millwall,2,2,D
+E1,14/02/2012,West Ham,Southampton,1,1,D
+E1,14/02/2012,Doncaster,Blackpool,1,3,A
+E1,14/02/2012,Watford,Leicester,3,2,H
+E1,14/02/2012,Cardiff,Peterborough,3,1,H
+E1,14/02/2012,Portsmouth,Ipswich,0,1,A
+E1,14/04/2012,Burnley,Coventry,1,1,D
+E1,14/04/2012,West Ham,Brighton,6,0,H
+E1,14/04/2012,Crystal Palace,Ipswich,1,1,D
+E1,14/04/2012,Birmingham,Bristol City,2,2,D
+E1,14/04/2012,Millwall,Leicester,2,1,H
+E1,14/04/2012,Watford,Hull,1,1,D
+E1,14/04/2012,Nott'm Forest,Blackpool,0,0,D
+E1,14/04/2012,Derby,Middlesbrough,0,1,A
+E1,14/04/2012,Barnsley,Cardiff,0,1,A
+E1,14/04/2012,Doncaster,Portsmouth,3,4,A
+E1,14/04/2012,Leeds,Peterborough,4,1,H
+E1,14/08/2011,Blackpool,Peterborough,2,1,H
+E1,14/08/2011,Cardiff,Bristol City,3,1,H
+E1,14/10/2011,Doncaster,Leeds,0,3,A
+E1,15/10/2011,Brighton,Hull,0,0,D
+E1,15/10/2011,Middlesbrough,Millwall,1,1,D
+E1,15/10/2011,Derby,Southampton,1,1,D
+E1,15/10/2011,Bristol City,Peterborough,1,2,A
+E1,15/10/2011,West Ham,Blackpool,4,0,H
+E1,15/10/2011,Burnley,Reading,0,1,A
+E1,15/10/2011,Coventry,Nott'm Forest,1,0,H
+E1,15/10/2011,Cardiff,Ipswich,2,2,D
+E1,15/10/2011,Portsmouth,Barnsley,2,0,H
+E1,15/10/2011,Watford,Crystal Palace,0,2,A
+E1,16/08/2011,Crystal Palace,Coventry,2,1,H
+E1,16/08/2011,Portsmouth,Reading,1,0,H
+E1,16/08/2011,Doncaster,Nott'm Forest,0,1,A
+E1,16/08/2011,Leeds,Hull,4,1,H
+E1,16/08/2011,Barnsley,Middlesbrough,1,3,A
+E1,16/08/2011,Watford,West Ham,0,4,A
+E1,16/08/2011,Ipswich,Southampton,2,5,A
+E1,16/10/2011,Birmingham,Leicester,2,0,H
+E1,17/02/2012,Reading,Burnley,1,0,H
+E1,17/03/2012,Crystal Palace,Hull,0,0,D
+E1,17/03/2012,Watford,Coventry,0,0,D
+E1,17/03/2012,Leeds,West Ham,1,1,D
+E1,17/03/2012,Millwall,Southampton,2,3,A
+E1,17/03/2012,Ipswich,Peterborough,3,2,H
+E1,17/03/2012,Barnsley,Reading,0,4,A
+E1,17/03/2012,Doncaster,Derby,1,2,A
+E1,17/03/2012,Portsmouth,Bristol City,0,0,D
+E1,17/03/2012,Blackpool,Brighton,3,1,H
+E1,17/03/2012,Birmingham,Middlesbrough,3,0,H
+E1,17/04/2012,Leicester,Burnley,0,0,D
+E1,17/04/2012,Hull,Barnsley,3,1,H
+E1,17/04/2012,Blackpool,Leeds,1,0,H
+E1,17/04/2012,Reading,Nott'm Forest,1,0,H
+E1,17/04/2012,Cardiff,Derby,2,0,H
+E1,17/04/2012,Portsmouth,Crystal Palace,2,1,H
+E1,17/04/2012,Bristol City,West Ham,1,1,D
+E1,17/04/2012,Brighton,Watford,2,2,D
+E1,17/04/2012,Ipswich,Birmingham,1,1,D
+E1,17/04/2012,Middlesbrough,Doncaster,0,0,D
+E1,17/04/2012,Coventry,Millwall,0,1,A
+E1,17/04/2012,Peterborough,Southampton,1,3,A
+E1,17/08/2011,Cardiff,Brighton,1,3,A
+E1,17/08/2011,Millwall,Peterborough,2,2,D
+E1,17/08/2011,Blackpool,Derby,0,1,A
+E1,17/08/2011,Leicester,Bristol City,1,2,A
+E1,17/09/2011,Blackpool,Cardiff,1,1,D
+E1,17/09/2011,Leicester,Brighton,1,0,H
+E1,17/09/2011,Peterborough,Burnley,2,1,H
+E1,17/09/2011,Barnsley,Watford,1,1,D
+E1,17/09/2011,Hull,Portsmouth,1,0,H
+E1,17/09/2011,Leeds,Bristol City,2,1,H
+E1,17/09/2011,Reading,Doncaster,2,0,H
+E1,17/09/2011,Crystal Palace,Middlesbrough,0,1,A
+E1,17/09/2011,Nott'm Forest,Derby,1,2,A
+E1,17/09/2011,Millwall,West Ham,0,0,D
+E1,17/12/2011,Blackpool,Watford,0,0,D
+E1,17/12/2011,Doncaster,Leicester,2,1,H
+E1,17/12/2011,Peterborough,Coventry,1,0,H
+E1,17/12/2011,Hull,Millwall,2,0,H
+E1,17/12/2011,Leeds,Reading,0,1,A
+E1,17/12/2011,Ipswich,Derby,1,0,H
+E1,17/12/2011,Bristol City,Nott'm Forest,0,0,D
+E1,17/12/2011,Brighton,Burnley,0,1,A
+E1,17/12/2011,West Ham,Barnsley,1,0,H
+E1,17/12/2011,Cardiff,Middlesbrough,2,3,A
+E1,18/02/2012,Ipswich,Cardiff,3,0,H
+E1,18/02/2012,Crystal Palace,Watford,4,0,H
+E1,18/02/2012,Leeds,Doncaster,3,2,H
+E1,18/02/2012,Nott'm Forest,Coventry,2,0,H
+E1,18/02/2012,Southampton,Derby,4,0,H
+E1,18/02/2012,Barnsley,Portsmouth,2,0,H
+E1,18/02/2012,Peterborough,Bristol City,3,0,H
+E1,18/03/2012,Cardiff,Burnley,0,0,D
+E1,18/09/2011,Southampton,Birmingham,4,1,H
+E1,18/10/2011,Peterborough,Cardiff,4,3,H
+E1,18/10/2011,Barnsley,Burnley,2,0,H
+E1,18/10/2011,Reading,Derby,2,2,D
+E1,18/10/2011,Southampton,West Ham,1,0,H
+E1,18/10/2011,Ipswich,Portsmouth,1,0,H
+E1,18/10/2011,Millwall,Brighton,1,1,D
+E1,18/10/2011,Crystal Palace,Bristol City,1,0,H
+E1,18/10/2011,Nott'm Forest,Middlesbrough,2,0,H
+E1,18/10/2011,Blackpool,Doncaster,2,1,H
+E1,18/10/2011,Leeds,Coventry,1,1,D
+E1,18/12/2011,Portsmouth,Southampton,1,1,D
+E1,19/05/2012,Blackpool,West Ham,1,2,A
+E1,19/09/2011,Ipswich,Coventry,3,0,H
+E1,19/10/2011,Leicester,Watford,2,0,H
+E1,19/11/2011,Coventry,West Ham,1,2,A
+E1,19/11/2011,Barnsley,Doncaster,2,0,H
+E1,19/11/2011,Middlesbrough,Blackpool,2,2,D
+E1,19/11/2011,Derby,Hull,0,2,A
+E1,19/11/2011,Nott'm Forest,Ipswich,3,2,H
+E1,19/11/2011,Birmingham,Peterborough,1,1,D
+E1,19/11/2011,Reading,Cardiff,1,2,A
+E1,19/11/2011,Southampton,Brighton,3,0,H
+E1,19/11/2011,Watford,Portsmouth,2,0,H
+E1,19/11/2011,Burnley,Leeds,1,2,A
+E1,19/12/2011,Crystal Palace,Birmingham,1,0,H
+E1,20/03/2012,Brighton,Derby,2,0,H
+E1,20/03/2012,Bristol City,Watford,0,2,A
+E1,20/03/2012,Leeds,Nott'm Forest,3,7,A
+E1,20/03/2012,West Ham,Middlesbrough,1,1,D
+E1,20/03/2012,Hull,Southampton,0,2,A
+E1,20/03/2012,Doncaster,Millwall,0,3,A
+E1,20/03/2012,Portsmouth,Birmingham,4,1,H
+E1,20/03/2012,Crystal Palace,Barnsley,1,0,H
+E1,20/03/2012,Peterborough,Reading,3,1,H
+E1,20/08/2011,Southampton,Millwall,1,0,H
+E1,20/08/2011,Burnley,Cardiff,1,1,D
+E1,20/08/2011,Brighton,Blackpool,2,2,D
+E1,20/08/2011,Reading,Barnsley,1,2,A
+E1,20/08/2011,Bristol City,Portsmouth,0,0,D
+E1,20/08/2011,Nott'm Forest,Leicester,2,2,D
+E1,20/08/2011,Derby,Doncaster,3,0,H
+E1,20/08/2011,Coventry,Watford,0,0,D
+E1,20/08/2011,Peterborough,Ipswich,7,1,H
+E1,20/08/2011,Hull,Crystal Palace,0,1,A
+E1,20/11/2011,Millwall,Bristol City,1,2,A
+E1,20/11/2011,Leicester,Crystal Palace,3,0,H
+E1,21/01/2012,Coventry,Middlesbrough,3,1,H
+E1,21/01/2012,Peterborough,Brighton,1,2,A
+E1,21/01/2012,Blackpool,Crystal Palace,2,1,H
+E1,21/01/2012,Cardiff,Portsmouth,3,2,H
+E1,21/01/2012,Barnsley,Millwall,1,3,A
+E1,21/01/2012,Burnley,Derby,0,0,D
+E1,21/01/2012,West Ham,Nott'm Forest,2,1,H
+E1,21/01/2012,Reading,Hull,0,1,A
+E1,21/01/2012,Birmingham,Watford,3,0,H
+E1,21/01/2012,Bristol City,Doncaster,2,1,H
+E1,21/01/2012,Leeds,Ipswich,3,1,H
+E1,21/02/2012,Blackpool,West Ham,1,4,A
+E1,21/02/2012,Barnsley,Birmingham,1,3,A
+E1,21/02/2012,Millwall,Middlesbrough,1,3,A
+E1,21/03/2012,Blackpool,Leicester,3,3,D
+E1,21/03/2012,Ipswich,Burnley,1,0,H
+E1,21/03/2012,Cardiff,Coventry,2,2,D
+E1,21/04/2012,Reading,Crystal Palace,2,2,D
+E1,21/04/2012,Blackpool,Burnley,4,0,H
+E1,21/04/2012,Portsmouth,Derby,1,2,A
+E1,21/04/2012,Peterborough,Watford,2,2,D
+E1,21/04/2012,Coventry,Doncaster,0,2,A
+E1,21/04/2012,Hull,Nott'm Forest,2,1,H
+E1,21/04/2012,Brighton,Birmingham,1,1,D
+E1,21/04/2012,Middlesbrough,Southampton,2,1,H
+E1,21/04/2012,Ipswich,Millwall,0,3,A
+E1,21/04/2012,Bristol City,Barnsley,2,0,H
+E1,21/04/2012,Cardiff,Leeds,1,1,D
+E1,21/08/2011,Middlesbrough,Birmingham,3,1,H
+E1,21/08/2011,West Ham,Leeds,2,2,D
+E1,22/02/2012,Hull,Brighton,0,0,D
+E1,22/10/2011,Peterborough,Leeds,2,3,A
+E1,22/10/2011,Cardiff,Barnsley,5,3,H
+E1,22/10/2011,Leicester,Millwall,0,3,A
+E1,22/10/2011,Reading,Southampton,1,1,D
+E1,22/10/2011,Middlesbrough,Derby,2,0,H
+E1,22/10/2011,Portsmouth,Doncaster,3,1,H
+E1,22/10/2011,Coventry,Burnley,1,2,A
+E1,22/10/2011,Hull,Watford,3,2,H
+E1,22/10/2011,Ipswich,Crystal Palace,0,1,A
+E1,22/10/2011,Blackpool,Nott'm Forest,1,2,A
+E1,22/11/2011,Birmingham,Burnley,2,1,H
+E1,22/11/2011,Coventry,Cardiff,1,1,D
+E1,23/01/2012,Southampton,Leicester,0,2,A
+E1,23/02/2012,Derby,Leicester,0,1,A
+E1,23/04/2012,Leicester,West Ham,1,2,A
+E1,23/09/2011,Brighton,Leeds,3,3,D
+E1,23/10/2011,Bristol City,Birmingham,0,2,A
+E1,24/03/2012,Millwall,Leeds,0,1,A
+E1,24/03/2012,Watford,Ipswich,2,1,H
+E1,24/03/2012,Southampton,Doncaster,2,0,H
+E1,24/03/2012,Burnley,West Ham,2,2,D
+E1,24/03/2012,Leicester,Hull,2,1,H
+E1,24/03/2012,Reading,Blackpool,3,1,H
+E1,24/03/2012,Derby,Crystal Palace,3,2,H
+E1,24/03/2012,Middlesbrough,Bristol City,1,1,D
+E1,24/03/2012,Barnsley,Peterborough,1,0,H
+E1,24/03/2012,Coventry,Portsmouth,2,0,H
+E1,24/03/2012,Nott'm Forest,Brighton,1,1,D
+E1,24/09/2011,Birmingham,Barnsley,1,1,D
+E1,24/09/2011,West Ham,Peterborough,1,0,H
+E1,24/09/2011,Burnley,Southampton,1,1,D
+E1,24/09/2011,Bristol City,Hull,1,1,D
+E1,24/09/2011,Derby,Millwall,3,0,H
+E1,24/09/2011,Watford,Nott'm Forest,0,1,A
+E1,24/09/2011,Coventry,Reading,1,1,D
+E1,24/09/2011,Middlesbrough,Ipswich,0,0,D
+E1,24/09/2011,Portsmouth,Blackpool,1,0,H
+E1,24/09/2011,Doncaster,Crystal Palace,1,0,H
+E1,24/10/2011,Brighton,West Ham,0,1,A
+E1,25/02/2012,Portsmouth,Leeds,0,0,D
+E1,25/02/2012,Burnley,Millwall,1,3,A
+E1,25/02/2012,Doncaster,Peterborough,1,1,D
+E1,25/02/2012,Coventry,Barnsley,1,0,H
+E1,25/02/2012,Middlesbrough,Reading,0,2,A
+E1,25/02/2012,Bristol City,Blackpool,1,3,A
+E1,25/02/2012,Brighton,Ipswich,3,0,H
+E1,25/02/2012,Birmingham,Nott'm Forest,1,2,A
+E1,25/02/2012,West Ham,Crystal Palace,0,0,D
+E1,25/02/2012,Watford,Southampton,0,3,A
+E1,25/03/2012,Birmingham,Cardiff,1,1,D
+E1,25/09/2011,Cardiff,Leicester,0,0,D
+E1,26/10/2011,Birmingham,Leeds,1,0,H
+E1,26/11/2011,Cardiff,Nott'm Forest,1,0,H
+E1,26/11/2011,Brighton,Coventry,2,1,H
+E1,26/11/2011,Crystal Palace,Millwall,0,0,D
+E1,26/11/2011,Bristol City,Southampton,2,0,H
+E1,26/11/2011,West Ham,Derby,3,1,H
+E1,26/11/2011,Peterborough,Middlesbrough,1,1,D
+E1,26/11/2011,Leeds,Barnsley,1,2,A
+E1,26/11/2011,Blackpool,Birmingham,2,2,D
+E1,26/11/2011,Portsmouth,Leicester,1,1,D
+E1,26/11/2011,Doncaster,Watford,0,0,D
+E1,26/11/2011,Hull,Burnley,2,3,A
+E1,26/11/2011,Ipswich,Reading,2,3,A
+E1,26/12/2011,Barnsley,Blackpool,1,3,A
+E1,26/12/2011,Middlesbrough,Hull,1,0,H
+E1,26/12/2011,Birmingham,West Ham,1,1,D
+E1,26/12/2011,Coventry,Bristol City,1,0,H
+E1,26/12/2011,Watford,Cardiff,1,1,D
+E1,26/12/2011,Millwall,Portsmouth,1,0,H
+E1,26/12/2011,Derby,Leeds,1,0,H
+E1,26/12/2011,Burnley,Doncaster,3,0,H
+E1,26/12/2011,Leicester,Ipswich,1,1,D
+E1,26/12/2011,Southampton,Crystal Palace,2,0,H
+E1,26/12/2011,Nott'm Forest,Peterborough,0,1,A
+E1,26/12/2011,Reading,Brighton,3,0,H
+E1,27/03/2012,Leicester,Nott'm Forest,0,0,D
+E1,27/03/2012,Ipswich,Middlesbrough,1,1,D
+E1,27/03/2012,Peterborough,West Ham,0,2,A
+E1,27/03/2012,Portsmouth,Hull,2,0,H
+E1,27/03/2012,Crystal Palace,Doncaster,1,1,D
+E1,27/08/2011,Brighton,Peterborough,2,0,H
+E1,27/08/2011,Crystal Palace,Blackpool,1,1,D
+E1,27/08/2011,Ipswich,Leeds,2,1,H
+E1,27/08/2011,Millwall,Barnsley,0,0,D
+E1,27/08/2011,Leicester,Southampton,3,2,H
+E1,27/08/2011,Middlesbrough,Coventry,1,1,D
+E1,27/08/2011,Doncaster,Bristol City,1,1,D
+E1,27/08/2011,Portsmouth,Cardiff,1,1,D
+E1,27/08/2011,Hull,Reading,1,0,H
+E1,27/08/2011,Derby,Burnley,1,2,A
+E1,27/09/2011,Coventry,Blackpool,2,2,D
+E1,27/09/2011,Derby,Barnsley,1,1,D
+E1,27/09/2011,Bristol City,Reading,2,3,A
+E1,27/09/2011,Watford,Millwall,2,1,H
+E1,27/09/2011,Brighton,Crystal Palace,1,3,A
+E1,27/09/2011,West Ham,Ipswich,0,1,A
+E1,27/09/2011,Burnley,Nott'm Forest,5,1,H
+E1,27/09/2011,Portsmouth,Peterborough,2,3,A
+E1,27/09/2011,Doncaster,Hull,1,1,D
+E1,28/01/2012,Reading,Bristol City,1,0,H
+E1,28/01/2012,Peterborough,Portsmouth,0,3,A
+E1,28/04/2012,Leeds,Leicester,1,2,A
+E1,28/04/2012,Nott'm Forest,Portsmouth,2,0,H
+E1,28/04/2012,Doncaster,Ipswich,2,3,A
+E1,28/04/2012,Barnsley,Brighton,0,0,D
+E1,28/04/2012,Derby,Peterborough,1,1,D
+E1,28/04/2012,Watford,Middlesbrough,2,1,H
+E1,28/04/2012,Southampton,Coventry,4,0,H
+E1,28/04/2012,Burnley,Bristol City,1,1,D
+E1,28/04/2012,West Ham,Hull,2,1,H
+E1,28/04/2012,Crystal Palace,Cardiff,1,2,A
+E1,28/04/2012,Birmingham,Reading,2,0,H
+E1,28/04/2012,Millwall,Blackpool,2,2,D
+E1,28/08/2011,Nott'm Forest,West Ham,1,4,A
+E1,28/08/2011,Watford,Birmingham,2,2,D
+E1,28/09/2011,Middlesbrough,Leicester,0,0,D
+E1,28/09/2011,Cardiff,Southampton,2,1,H
+E1,29/10/2011,Watford,Peterborough,3,2,H
+E1,29/10/2011,Southampton,Middlesbrough,3,0,H
+E1,29/10/2011,West Ham,Leicester,3,2,H
+E1,29/10/2011,Crystal Palace,Reading,0,0,D
+E1,29/10/2011,Birmingham,Brighton,0,0,D
+E1,29/10/2011,Millwall,Ipswich,4,1,H
+E1,29/10/2011,Nott'm Forest,Hull,0,1,A
+E1,29/10/2011,Derby,Portsmouth,3,1,H
+E1,29/10/2011,Barnsley,Bristol City,1,2,A
+E1,29/10/2011,Doncaster,Coventry,1,1,D
+E1,29/10/2011,Burnley,Blackpool,3,1,H
+E1,29/11/2011,Watford,Bristol City,2,2,D
+E1,29/11/2011,Reading,Peterborough,3,2,H
+E1,29/11/2011,Middlesbrough,West Ham,0,2,A
+E1,29/11/2011,Nott'm Forest,Leeds,0,4,A
+E1,29/11/2011,Millwall,Doncaster,3,2,H
+E1,29/11/2011,Leicester,Blackpool,2,0,H
+E1,29/11/2011,Derby,Brighton,0,1,A
+E1,29/11/2011,Burnley,Ipswich,4,0,H
+E1,29/11/2011,Southampton,Hull,2,1,H
+E1,30/03/2012,Doncaster,Birmingham,1,3,A
+E1,30/10/2011,Leeds,Cardiff,1,1,D
+E1,30/12/2011,Southampton,Bristol City,0,1,A
+E1,31/01/2012,Crystal Palace,Brighton,1,1,D
+E1,31/01/2012,Blackpool,Coventry,2,1,H
+E1,31/01/2012,Nott'm Forest,Burnley,0,2,A
+E1,31/01/2012,Ipswich,West Ham,5,1,H
+E1,31/01/2012,Millwall,Watford,0,2,A
+E1,31/01/2012,Leeds,Birmingham,1,4,A
+E1,31/01/2012,Hull,Doncaster,0,0,D
+E1,31/01/2012,Southampton,Cardiff,1,1,D
+E1,31/01/2012,Barnsley,Derby,3,2,H
+E1,31/03/2012,Crystal Palace,Nott'm Forest,0,3,A
+E1,31/03/2012,Cardiff,Millwall,0,0,D
+E1,31/03/2012,West Ham,Reading,2,4,A
+E1,31/03/2012,Brighton,Middlesbrough,1,1,D
+E1,31/03/2012,Ipswich,Barnsley,1,0,H
+E1,31/03/2012,Leeds,Watford,0,2,A
+E1,31/03/2012,Hull,Coventry,0,2,A
+E1,31/03/2012,Peterborough,Leicester,1,0,H
+E1,31/03/2012,Portsmouth,Burnley,1,5,A
+E1,31/03/2012,Blackpool,Southampton,3,0,H
+E1,31/03/2012,Bristol City,Derby,1,1,D
+E1,31/12/2011,Coventry,Brighton,2,0,H
+E1,31/12/2011,Middlesbrough,Peterborough,1,1,D
+E1,31/12/2011,Nott'm Forest,Cardiff,0,1,A
+E1,31/12/2011,Leicester,Portsmouth,1,1,D
+E1,31/12/2011,Barnsley,Leeds,4,1,H
+E1,31/12/2011,Millwall,Crystal Palace,0,1,A
+E1,31/12/2011,Burnley,Hull,1,0,H
+E1,31/12/2011,Reading,Ipswich,1,0,H
+E1,31/12/2011,Birmingham,Blackpool,3,0,H
+E1,31/12/2011,Watford,Doncaster,4,1,H
+E1,31/12/2011,Derby,West Ham,2,1,H

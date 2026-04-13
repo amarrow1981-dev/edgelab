@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP1,01/02/2019,Huesca,Valladolid,4,0,H
+SP1,01/03/2019,Rayo Vallecano,Girona,0,2,A
+SP1,01/09/2018,Real Madrid,Leganes,4,1,H
+SP1,01/09/2018,Celta Vigo,Atletico Madrid,2,0,H
+SP1,01/10/2018,Celta Vigo,Getafe,1,1,D
+SP1,01/12/2018,Celta Vigo,Huesca,2,0,H
+SP1,01/12/2018,Real Madrid,Valencia,2,0,H
+SP1,01/12/2018,Getafe,Espanyol,3,0,H
+SP1,01/12/2018,Valladolid,Leganes,2,4,A
+SP1,02/02/2019,Real Sociedad,Athletic Club,2,1,H
+SP1,02/02/2019,Barcelona,Valencia,2,2,D
+SP1,02/02/2019,Celta Vigo,Sevilla,1,0,H
+SP1,02/02/2019,Levante,Getafe,0,0,D
+SP1,02/03/2019,Huesca,Sevilla,2,1,H
+SP1,02/03/2019,Villarreal,Alaves,1,2,A
+SP1,02/03/2019,Espanyol,Valladolid,3,1,H
+SP1,02/03/2019,Real Madrid,Barcelona,0,1,A
+SP1,02/04/2019,Atletico Madrid,Girona,2,0,H
+SP1,02/04/2019,Villarreal,Barcelona,4,4,D
+SP1,02/04/2019,Espanyol,Getafe,1,1,D
+SP1,02/09/2018,Levante,Valencia,2,2,D
+SP1,02/09/2018,Real Betis,Sevilla,1,0,H
+SP1,02/09/2018,Barcelona,Huesca,8,2,H
+SP1,02/09/2018,Alaves,Espanyol,2,1,H
+SP1,02/12/2018,Real Betis,Real Sociedad,1,0,H
+SP1,02/12/2018,Girona,Atletico Madrid,1,1,D
+SP1,02/12/2018,Alaves,Sevilla,1,1,D
+SP1,02/12/2018,Barcelona,Villarreal,2,0,H
+SP1,03/01/2019,Villarreal,Real Madrid,2,2,D
+SP1,03/02/2019,Eibar,Girona,3,0,H
+SP1,03/02/2019,Real Madrid,Alaves,3,0,H
+SP1,03/02/2019,Villarreal,Espanyol,2,2,D
+SP1,03/02/2019,Real Betis,Atletico Madrid,1,0,H
+SP1,03/03/2019,Valencia,Athletic Club,2,0,H
+SP1,03/03/2019,Real Sociedad,Atletico Madrid,0,2,A
+SP1,03/03/2019,Real Betis,Getafe,1,2,A
+SP1,03/03/2019,Eibar,Celta Vigo,1,0,H
+SP1,03/04/2019,Huesca,Celta Vigo,3,3,D
+SP1,03/04/2019,Athletic Club,Levante,3,2,H
+SP1,03/04/2019,Eibar,Rayo Vallecano,2,1,H
+SP1,03/04/2019,Valencia,Real Madrid,2,1,H
+SP1,03/05/2019,Sevilla,Leganes,0,3,A
+SP1,03/11/2018,Valencia,Girona,0,1,A
+SP1,03/11/2018,Rayo Vallecano,Barcelona,2,3,A
+SP1,03/11/2018,Leganes,Atletico Madrid,1,1,D
+SP1,03/11/2018,Real Madrid,Valladolid,2,0,H
+SP1,03/12/2018,Levante,Athletic Club,3,0,H
+SP1,04/01/2019,Levante,Girona,2,2,D
+SP1,04/01/2019,Espanyol,Leganes,1,0,H
+SP1,04/02/2019,Rayo Vallecano,Leganes,1,2,A
+SP1,04/03/2019,Leganes,Levante,1,0,H
+SP1,04/04/2019,Sevilla,Alaves,2,0,H
+SP1,04/04/2019,Leganes,Valladolid,1,0,H
+SP1,04/04/2019,Real Sociedad,Real Betis,2,1,H
+SP1,04/05/2019,Levante,Rayo Vallecano,4,1,H
+SP1,04/05/2019,Celta Vigo,Barcelona,2,0,H
+SP1,04/05/2019,Alaves,Real Sociedad,0,1,A
+SP1,04/05/2019,Espanyol,Atletico Madrid,3,0,H
+SP1,04/11/2018,Huesca,Getafe,1,1,D
+SP1,04/11/2018,Real Sociedad,Sevilla,0,0,D
+SP1,04/11/2018,Villarreal,Levante,1,1,D
+SP1,04/11/2018,Eibar,Alaves,2,1,H
+SP1,04/11/2018,Real Betis,Celta Vigo,3,3,D
+SP1,05/01/2019,Huesca,Real Betis,2,1,H
+SP1,05/01/2019,Alaves,Valencia,2,1,H
+SP1,05/01/2019,Valladolid,Rayo Vallecano,0,1,A
+SP1,05/05/2019,Getafe,Girona,2,0,H
+SP1,05/05/2019,Eibar,Real Betis,1,0,H
+SP1,05/05/2019,Real Madrid,Villarreal,3,2,H
+SP1,05/05/2019,Huesca,Valencia,2,6,A
+SP1,05/05/2019,Valladolid,Athletic Club,1,0,H
+SP1,05/10/2018,Athletic Club,Real Sociedad,1,3,A
+SP1,05/11/2018,Espanyol,Athletic Club,1,0,H
+SP1,06/01/2019,Eibar,Villarreal,0,0,D
+SP1,06/01/2019,Real Madrid,Real Sociedad,0,2,A
+SP1,06/01/2019,Getafe,Barcelona,1,2,A
+SP1,06/01/2019,Sevilla,Atletico Madrid,1,1,D
+SP1,06/04/2019,Girona,Espanyol,1,2,A
+SP1,06/04/2019,Real Madrid,Eibar,2,1,H
+SP1,06/04/2019,Rayo Vallecano,Valencia,2,0,H
+SP1,06/04/2019,Barcelona,Atletico Madrid,2,0,H
+SP1,06/10/2018,Alaves,Real Madrid,1,0,H
+SP1,06/10/2018,Getafe,Levante,0,1,A
+SP1,06/10/2018,Girona,Eibar,2,3,A
+SP1,06/10/2018,Leganes,Rayo Vallecano,1,0,H
+SP1,07/01/2019,Celta Vigo,Athletic Club,1,2,A
+SP1,07/04/2019,Real Betis,Villarreal,2,1,H
+SP1,07/04/2019,Celta Vigo,Real Sociedad,3,1,H
+SP1,07/04/2019,Levante,Huesca,2,2,D
+SP1,07/04/2019,Alaves,Leganes,1,1,D
+SP1,07/04/2019,Getafe,Athletic Club,1,0,H
+SP1,07/04/2019,Valladolid,Sevilla,0,2,A
+SP1,07/10/2018,Valladolid,Huesca,1,0,H
+SP1,07/10/2018,Atletico Madrid,Real Betis,1,0,H
+SP1,07/10/2018,Sevilla,Celta Vigo,2,1,H
+SP1,07/10/2018,Espanyol,Villarreal,3,1,H
+SP1,07/10/2018,Valencia,Barcelona,1,1,D
+SP1,07/12/2018,Leganes,Getafe,1,1,D
+SP1,08/02/2019,Valladolid,Villarreal,0,0,D
+SP1,08/03/2019,Athletic Club,Espanyol,1,1,D
+SP1,08/12/2018,Espanyol,Barcelona,0,4,A
+SP1,08/12/2018,Atletico Madrid,Alaves,3,0,H
+SP1,08/12/2018,Valencia,Sevilla,1,1,D
+SP1,08/12/2018,Villarreal,Celta Vigo,2,3,A
+SP1,09/02/2019,Espanyol,Rayo Vallecano,2,1,H
+SP1,09/02/2019,Girona,Huesca,0,2,A
+SP1,09/02/2019,Atletico Madrid,Real Madrid,1,3,A
+SP1,09/02/2019,Getafe,Celta Vigo,3,1,H
+SP1,09/03/2019,Alaves,Eibar,1,1,D
+SP1,09/03/2019,Atletico Madrid,Leganes,1,0,H
+SP1,09/03/2019,Barcelona,Rayo Vallecano,3,1,H
+SP1,09/03/2019,Getafe,Huesca,2,1,H
+SP1,09/11/2018,Levante,Real Sociedad,1,3,A
+SP1,09/12/2018,Eibar,Levante,4,4,D
+SP1,09/12/2018,Real Sociedad,Valladolid,1,2,A
+SP1,09/12/2018,Real Betis,Rayo Vallecano,2,0,H
+SP1,09/12/2018,Huesca,Real Madrid,0,1,A
+SP1,10/02/2019,Athletic Club,Barcelona,0,0,D
+SP1,10/02/2019,Sevilla,Eibar,2,2,D
+SP1,10/02/2019,Valencia,Real Sociedad,0,0,D
+SP1,10/02/2019,Leganes,Real Betis,3,0,H
+SP1,10/03/2019,Valladolid,Real Madrid,1,4,A
+SP1,10/03/2019,Celta Vigo,Real Betis,0,1,A
+SP1,10/03/2019,Girona,Valencia,2,3,A
+SP1,10/03/2019,Sevilla,Real Sociedad,5,2,H
+SP1,10/03/2019,Levante,Villarreal,0,2,A
+SP1,10/11/2018,Atletico Madrid,Athletic Club,3,2,H
+SP1,10/11/2018,Valladolid,Eibar,0,0,D
+SP1,10/11/2018,Getafe,Valencia,0,1,A
+SP1,10/11/2018,Girona,Leganes,0,0,D
+SP1,10/12/2018,Athletic Club,Girona,1,0,H
+SP1,11/01/2019,Rayo Vallecano,Celta Vigo,4,2,H
+SP1,11/02/2019,Alaves,Levante,2,0,H
+SP1,11/11/2018,Barcelona,Real Betis,3,4,A
+SP1,11/11/2018,Rayo Vallecano,Villarreal,2,2,D
+SP1,11/11/2018,Sevilla,Espanyol,2,1,H
+SP1,11/11/2018,Celta Vigo,Real Madrid,2,4,A
+SP1,11/11/2018,Alaves,Huesca,2,1,H
+SP1,12/01/2019,Valencia,Valladolid,1,1,D
+SP1,12/01/2019,Leganes,Huesca,1,0,H
+SP1,12/01/2019,Girona,Alaves,1,1,D
+SP1,12/01/2019,Villarreal,Getafe,1,2,A
+SP1,12/05/2019,Leganes,Espanyol,0,2,A
+SP1,12/05/2019,Girona,Levante,1,2,A
+SP1,12/05/2019,Atletico Madrid,Sevilla,1,1,D
+SP1,12/05/2019,Real Sociedad,Real Madrid,3,1,H
+SP1,12/05/2019,Rayo Vallecano,Valladolid,1,2,A
+SP1,12/05/2019,Barcelona,Getafe,2,0,H
+SP1,12/05/2019,Villarreal,Eibar,1,0,H
+SP1,12/05/2019,Valencia,Alaves,3,1,H
+SP1,12/05/2019,Real Betis,Huesca,2,1,H
+SP1,12/05/2019,Athletic Club,Celta Vigo,3,1,H
+SP1,13/01/2019,Athletic Club,Sevilla,2,0,H
+SP1,13/01/2019,Barcelona,Eibar,3,0,H
+SP1,13/01/2019,Real Betis,Real Madrid,1,2,A
+SP1,13/01/2019,Atletico Madrid,Levante,1,0,H
+SP1,13/04/2019,Espanyol,Alaves,2,1,H
+SP1,13/04/2019,Huesca,Barcelona,0,0,D
+SP1,13/04/2019,Atletico Madrid,Celta Vigo,2,0,H
+SP1,13/04/2019,Sevilla,Real Betis,3,2,H
+SP1,14/01/2019,Real Sociedad,Espanyol,3,2,H
+SP1,14/04/2019,Valladolid,Getafe,2,2,D
+SP1,14/04/2019,Athletic Club,Rayo Vallecano,3,2,H
+SP1,14/04/2019,Real Sociedad,Eibar,1,1,D
+SP1,14/04/2019,Valencia,Levante,3,1,H
+SP1,14/04/2019,Girona,Villarreal,0,1,A
+SP1,14/09/2018,Huesca,Rayo Vallecano,0,1,A
+SP1,14/12/2018,Celta Vigo,Leganes,0,0,D
+SP1,15/02/2019,Eibar,Getafe,2,2,D
+SP1,15/03/2019,Real Sociedad,Levante,1,1,D
+SP1,15/04/2019,Leganes,Real Madrid,1,1,D
+SP1,15/09/2018,Atletico Madrid,Eibar,1,1,D
+SP1,15/09/2018,Real Sociedad,Barcelona,1,2,A
+SP1,15/09/2018,Valencia,Real Betis,0,0,D
+SP1,15/09/2018,Athletic Club,Real Madrid,1,1,D
+SP1,15/12/2018,Getafe,Real Sociedad,1,0,H
+SP1,15/12/2018,Valladolid,Atletico Madrid,2,3,A
+SP1,15/12/2018,Real Madrid,Rayo Vallecano,1,0,H
+SP1,15/12/2018,Eibar,Valencia,1,1,D
+SP1,16/02/2019,Celta Vigo,Levante,1,4,A
+SP1,16/02/2019,Real Sociedad,Leganes,3,0,H
+SP1,16/02/2019,Rayo Vallecano,Atletico Madrid,0,1,A
+SP1,16/02/2019,Barcelona,Valladolid,1,0,H
+SP1,16/03/2019,Athletic Club,Atletico Madrid,2,0,H
+SP1,16/03/2019,Real Madrid,Celta Vigo,2,0,H
+SP1,16/03/2019,Huesca,Alaves,1,3,A
+SP1,16/03/2019,Leganes,Girona,0,2,A
+SP1,16/09/2018,Sevilla,Getafe,0,2,A
+SP1,16/09/2018,Leganes,Villarreal,0,1,A
+SP1,16/09/2018,Valladolid,Alaves,0,1,A
+SP1,16/09/2018,Espanyol,Levante,1,0,H
+SP1,16/12/2018,Espanyol,Real Betis,1,3,A
+SP1,16/12/2018,Sevilla,Girona,2,0,H
+SP1,16/12/2018,Levante,Barcelona,0,5,A
+SP1,16/12/2018,Huesca,Villarreal,2,2,D
+SP1,17/02/2019,Real Madrid,Girona,1,2,A
+SP1,17/02/2019,Valencia,Espanyol,0,0,D
+SP1,17/02/2019,Villarreal,Sevilla,3,0,H
+SP1,17/02/2019,Real Betis,Alaves,1,1,D
+SP1,17/03/2019,Real Betis,Barcelona,1,4,A
+SP1,17/03/2019,Villarreal,Rayo Vallecano,3,1,H
+SP1,17/03/2019,Eibar,Valladolid,1,2,A
+SP1,17/03/2019,Valencia,Getafe,0,0,D
+SP1,17/03/2019,Espanyol,Sevilla,0,1,A
+SP1,17/08/2018,Girona,Valladolid,0,0,D
+SP1,17/08/2018,Real Betis,Levante,0,3,A
+SP1,17/09/2018,Girona,Celta Vigo,3,2,H
+SP1,17/12/2018,Alaves,Athletic Club,0,0,D
+SP1,18/01/2019,Getafe,Alaves,4,0,H
+SP1,18/02/2019,Huesca,Athletic Club,0,1,A
+SP1,18/05/2019,Huesca,Leganes,2,1,H
+SP1,18/05/2019,Alaves,Girona,2,1,H
+SP1,18/05/2019,Celta Vigo,Rayo Vallecano,2,2,D
+SP1,18/05/2019,Valladolid,Valencia,0,2,A
+SP1,18/05/2019,Espanyol,Real Sociedad,2,0,H
+SP1,18/05/2019,Sevilla,Athletic Club,2,0,H
+SP1,18/05/2019,Levante,Atletico Madrid,2,2,D
+SP1,18/05/2019,Getafe,Villarreal,2,2,D
+SP1,18/08/2018,Celta Vigo,Espanyol,1,1,D
+SP1,18/08/2018,Barcelona,Alaves,3,0,H
+SP1,18/08/2018,Villarreal,Real Sociedad,1,2,A
+SP1,19/01/2019,Celta Vigo,Valencia,1,2,A
+SP1,19/01/2019,Huesca,Atletico Madrid,0,3,A
+SP1,19/01/2019,Real Madrid,Sevilla,2,0,H
+SP1,19/04/2019,Alaves,Valladolid,2,2,D
+SP1,19/05/2019,Real Madrid,Real Betis,0,2,A
+SP1,19/05/2019,Eibar,Barcelona,2,2,D
+SP1,19/08/2018,Eibar,Huesca,1,2,A
+SP1,19/08/2018,Real Madrid,Getafe,2,0,H
+SP1,19/08/2018,Rayo Vallecano,Sevilla,1,4,A
+SP1,19/10/2018,Celta Vigo,Alaves,0,1,A
+SP1,20/01/2019,Levante,Valladolid,2,0,H
+SP1,20/01/2019,Barcelona,Leganes,3,1,H
+SP1,20/01/2019,Rayo Vallecano,Real Sociedad,2,2,D
+SP1,20/01/2019,Real Betis,Girona,3,2,H
+SP1,20/01/2019,Villarreal,Athletic Club,1,1,D
+SP1,20/04/2019,Barcelona,Real Sociedad,2,1,H
+SP1,20/04/2019,Rayo Vallecano,Huesca,0,0,D
+SP1,20/04/2019,Eibar,Atletico Madrid,0,1,A
+SP1,20/04/2019,Celta Vigo,Girona,2,1,H
+SP1,20/08/2018,Valencia,Atletico Madrid,1,1,D
+SP1,20/08/2018,Athletic Club,Leganes,2,1,H
+SP1,20/10/2018,Barcelona,Sevilla,4,2,H
+SP1,20/10/2018,Villarreal,Atletico Madrid,1,1,D
+SP1,20/10/2018,Valencia,Leganes,1,1,D
+SP1,20/10/2018,Real Madrid,Levante,1,2,A
+SP1,21/01/2019,Eibar,Espanyol,3,0,H
+SP1,21/04/2019,Levante,Espanyol,2,2,D
+SP1,21/04/2019,Getafe,Sevilla,3,0,H
+SP1,21/04/2019,Real Betis,Valencia,1,2,A
+SP1,21/04/2019,Villarreal,Leganes,2,1,H
+SP1,21/04/2019,Real Madrid,Athletic Club,3,0,H
+SP1,21/09/2018,Huesca,Real Sociedad,0,1,A
+SP1,21/10/2018,Huesca,Espanyol,0,2,A
+SP1,21/10/2018,Rayo Vallecano,Getafe,1,2,A
+SP1,21/10/2018,Eibar,Athletic Club,1,1,D
+SP1,21/10/2018,Real Betis,Valladolid,0,1,A
+SP1,21/12/2018,Girona,Getafe,1,1,D
+SP1,21/12/2018,Real Sociedad,Alaves,0,1,A
+SP1,22/02/2019,Espanyol,Huesca,1,1,D
+SP1,22/09/2018,Real Madrid,Espanyol,1,0,H
+SP1,22/09/2018,Getafe,Atletico Madrid,0,2,A
+SP1,22/09/2018,Eibar,Leganes,1,0,H
+SP1,22/09/2018,Celta Vigo,Valladolid,3,3,D
+SP1,22/09/2018,Rayo Vallecano,Alaves,1,5,A
+SP1,22/10/2018,Real Sociedad,Girona,0,0,D
+SP1,22/12/2018,Barcelona,Celta Vigo,2,0,H
+SP1,22/12/2018,Atletico Madrid,Espanyol,1,0,H
+SP1,22/12/2018,Real Betis,Eibar,1,1,D
+SP1,22/12/2018,Athletic Club,Valladolid,1,1,D
+SP1,23/02/2019,Getafe,Rayo Vallecano,2,1,H
+SP1,23/02/2019,Alaves,Celta Vigo,0,0,D
+SP1,23/02/2019,Athletic Club,Eibar,1,0,H
+SP1,23/02/2019,Sevilla,Barcelona,2,4,A
+SP1,23/04/2019,Huesca,Eibar,2,0,H
+SP1,23/04/2019,Alaves,Barcelona,0,2,A
+SP1,23/04/2019,Valladolid,Girona,1,0,H
+SP1,23/09/2018,Levante,Sevilla,2,6,A
+SP1,23/09/2018,Barcelona,Girona,2,2,D
+SP1,23/09/2018,Real Betis,Athletic Club,2,2,D
+SP1,23/09/2018,Villarreal,Valencia,0,0,D
+SP1,23/11/2018,Leganes,Alaves,1,0,H
+SP1,23/12/2018,Valencia,Huesca,2,1,H
+SP1,23/12/2018,Leganes,Sevilla,1,1,D
+SP1,23/12/2018,Rayo Vallecano,Levante,2,1,H
+SP1,24/02/2019,Leganes,Valencia,1,1,D
+SP1,24/02/2019,Atletico Madrid,Villarreal,2,0,H
+SP1,24/02/2019,Valladolid,Real Betis,0,2,A
+SP1,24/02/2019,Levante,Real Madrid,1,2,A
+SP1,24/04/2019,Levante,Real Betis,4,0,H
+SP1,24/04/2019,Atletico Madrid,Valencia,3,2,H
+SP1,24/04/2019,Leganes,Athletic Club,0,1,A
+SP1,24/04/2019,Espanyol,Celta Vigo,1,1,D
+SP1,24/08/2018,Leganes,Real Sociedad,2,2,D
+SP1,24/08/2018,Getafe,Eibar,2,0,H
+SP1,24/10/2018,Rayo Vallecano,Athletic Club,1,1,D
+SP1,24/11/2018,Atletico Madrid,Barcelona,1,1,D
+SP1,24/11/2018,Eibar,Real Madrid,3,0,H
+SP1,24/11/2018,Huesca,Levante,2,2,D
+SP1,24/11/2018,Valencia,Rayo Vallecano,3,0,H
+SP1,25/02/2019,Girona,Real Sociedad,0,0,D
+SP1,25/04/2019,Sevilla,Rayo Vallecano,5,0,H
+SP1,25/04/2019,Real Sociedad,Villarreal,0,1,A
+SP1,25/04/2019,Getafe,Real Madrid,0,0,D
+SP1,25/08/2018,Valladolid,Barcelona,0,1,A
+SP1,25/08/2018,Atletico Madrid,Rayo Vallecano,1,0,H
+SP1,25/08/2018,Alaves,Real Betis,0,0,D
+SP1,25/09/2018,Atletico Madrid,Huesca,3,0,H
+SP1,25/09/2018,Real Sociedad,Rayo Vallecano,2,2,D
+SP1,25/09/2018,Espanyol,Eibar,1,0,H
+SP1,25/11/2018,Villarreal,Real Betis,2,1,H
+SP1,25/11/2018,Athletic Club,Getafe,1,1,D
+SP1,25/11/2018,Espanyol,Girona,1,3,A
+SP1,25/11/2018,Sevilla,Valladolid,1,0,H
+SP1,26/01/2019,Leganes,Eibar,2,2,D
+SP1,26/01/2019,Valencia,Villarreal,3,0,H
+SP1,26/01/2019,Atletico Madrid,Getafe,2,0,H
+SP1,26/01/2019,Sevilla,Levante,5,0,H
+SP1,26/08/2018,Girona,Real Madrid,1,4,A
+SP1,26/08/2018,Sevilla,Villarreal,0,0,D
+SP1,26/08/2018,Espanyol,Valencia,2,0,H
+SP1,26/09/2018,Leganes,Barcelona,2,1,H
+SP1,26/09/2018,Valencia,Celta Vigo,1,1,D
+SP1,26/09/2018,Sevilla,Real Madrid,3,0,H
+SP1,26/09/2018,Athletic Club,Villarreal,0,3,A
+SP1,26/10/2018,Valladolid,Espanyol,1,1,D
+SP1,26/11/2018,Real Sociedad,Celta Vigo,2,1,H
+SP1,27/01/2019,Girona,Barcelona,0,2,A
+SP1,27/01/2019,Real Sociedad,Huesca,0,0,D
+SP1,27/01/2019,Espanyol,Real Madrid,2,4,A
+SP1,27/01/2019,Athletic Club,Real Betis,1,0,H
+SP1,27/01/2019,Valladolid,Celta Vigo,2,1,H
+SP1,27/04/2019,Leganes,Celta Vigo,0,0,D
+SP1,27/04/2019,Barcelona,Levante,1,0,H
+SP1,27/04/2019,Atletico Madrid,Valladolid,1,0,H
+SP1,27/04/2019,Athletic Club,Alaves,1,1,D
+SP1,27/08/2018,Levante,Celta Vigo,1,2,A
+SP1,27/08/2018,Athletic Club,Huesca,2,2,D
+SP1,27/09/2018,Alaves,Getafe,1,1,D
+SP1,27/09/2018,Valladolid,Levante,2,1,H
+SP1,27/09/2018,Girona,Real Betis,0,1,A
+SP1,27/10/2018,Levante,Leganes,2,0,H
+SP1,27/10/2018,Atletico Madrid,Real Sociedad,2,0,H
+SP1,27/10/2018,Girona,Rayo Vallecano,2,1,H
+SP1,27/10/2018,Athletic Club,Valencia,0,0,D
+SP1,27/10/2018,Celta Vigo,Eibar,4,0,H
+SP1,28/01/2019,Alaves,Rayo Vallecano,0,1,A
+SP1,28/04/2019,Girona,Sevilla,1,0,H
+SP1,28/04/2019,Real Sociedad,Getafe,2,1,H
+SP1,28/04/2019,Villarreal,Huesca,1,1,D
+SP1,28/04/2019,Rayo Vallecano,Real Madrid,1,0,H
+SP1,28/04/2019,Valencia,Eibar,0,1,A
+SP1,28/09/2018,Rayo Vallecano,Espanyol,2,2,D
+SP1,28/10/2018,Alaves,Villarreal,2,1,H
+SP1,28/10/2018,Sevilla,Huesca,2,1,H
+SP1,28/10/2018,Getafe,Real Betis,2,0,H
+SP1,28/10/2018,Barcelona,Real Madrid,5,1,H
+SP1,29/03/2019,Girona,Athletic Club,1,2,A
+SP1,29/04/2019,Real Betis,Espanyol,1,1,D
+SP1,29/09/2018,Eibar,Sevilla,1,3,A
+SP1,29/09/2018,Barcelona,Athletic Club,1,1,D
+SP1,29/09/2018,Real Sociedad,Valencia,0,1,A
+SP1,29/09/2018,Real Madrid,Atletico Madrid,0,0,D
+SP1,30/03/2019,Barcelona,Espanyol,2,0,H
+SP1,30/03/2019,Getafe,Leganes,0,2,A
+SP1,30/03/2019,Alaves,Atletico Madrid,0,4,A
+SP1,30/03/2019,Celta Vigo,Villarreal,3,2,H
+SP1,30/09/2018,Levante,Alaves,2,1,H
+SP1,30/09/2018,Real Betis,Leganes,1,0,H
+SP1,30/09/2018,Villarreal,Valladolid,0,1,A
+SP1,30/09/2018,Huesca,Girona,1,1,D
+SP1,30/11/2018,Rayo Vallecano,Eibar,1,0,H
+SP1,31/03/2019,Valladolid,Real Sociedad,1,1,D
+SP1,31/03/2019,Rayo Vallecano,Real Betis,1,1,D
+SP1,31/03/2019,Sevilla,Valencia,0,1,A
+SP1,31/03/2019,Real Madrid,Huesca,3,2,H
+SP1,31/03/2019,Levante,Eibar,2,2,D
+SP1,31/08/2018,Villarreal,Girona,0,1,A
+SP1,31/08/2018,Getafe,Valladolid,0,0,D
+SP1,31/08/2018,Eibar,Real Sociedad,2,1,H

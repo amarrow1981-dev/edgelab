@@ -1,0 +1,381 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP1,01/02/2014,Barcelona,Valencia,2,3,A
+SP1,01/02/2014,Getafe,Valladolid,0,0,D
+SP1,01/02/2014,Levante,Rayo Vallecano,0,0,D
+SP1,01/02/2014,Malaga,Sevilla,3,2,H
+SP1,01/03/2014,Malaga,Valladolid,1,1,D
+SP1,01/03/2014,Levante,Osasuna,2,0,H
+SP1,01/03/2014,Getafe,Espanyol,0,0,D
+SP1,01/03/2014,Elche,Celta Vigo,1,0,H
+SP1,01/09/2013,Real Madrid,Athletic Club,3,1,H
+SP1,01/09/2013,Valencia,Barcelona,2,3,A
+SP1,01/09/2013,Sevilla,Malaga,2,2,D
+SP1,01/09/2013,Real Sociedad,Atletico Madrid,1,2,A
+SP1,01/09/2013,Espanyol,Real Betis,0,0,D
+SP1,01/11/2013,Barcelona,Espanyol,1,0,H
+SP1,01/12/2013,Real Betis,Rayo Vallecano,2,2,D
+SP1,01/12/2013,Athletic Club,Barcelona,1,0,H
+SP1,01/12/2013,Valencia,Osasuna,3,0,H
+SP1,01/12/2013,Granada CF,Sevilla,1,2,A
+SP1,02/02/2014,Real Betis,Espanyol,2,0,H
+SP1,02/02/2014,Atletico Madrid,Real Sociedad,4,0,H
+SP1,02/02/2014,Athletic Club,Real Madrid,1,1,D
+SP1,02/02/2014,Elche,Almeria,1,0,H
+SP1,02/03/2014,Barcelona,Almeria,4,1,H
+SP1,02/03/2014,Sevilla,Real Sociedad,1,0,H
+SP1,02/03/2014,Atletico Madrid,Real Madrid,2,2,D
+SP1,02/03/2014,Villarreal,Real Betis,1,1,D
+SP1,02/03/2014,Rayo Vallecano,Valencia,1,0,H
+SP1,02/05/2014,Rayo Vallecano,Athletic Club,0,3,A
+SP1,02/11/2013,Real Sociedad,Osasuna,5,0,H
+SP1,02/11/2013,Sevilla,Celta Vigo,0,1,A
+SP1,02/11/2013,Rayo Vallecano,Real Madrid,2,3,A
+SP1,02/11/2013,Almeria,Valladolid,1,0,H
+SP1,03/02/2014,Villarreal,Osasuna,3,1,H
+SP1,03/05/2014,Valladolid,Espanyol,1,0,H
+SP1,03/05/2014,Barcelona,Getafe,2,2,D
+SP1,03/05/2014,Malaga,Elche,0,1,A
+SP1,03/05/2014,Osasuna,Celta Vigo,0,2,A
+SP1,03/11/2013,Levante,Granada CF,0,1,A
+SP1,03/11/2013,Atletico Madrid,Athletic Club,2,0,H
+SP1,03/11/2013,Getafe,Valencia,0,1,A
+SP1,03/11/2013,Malaga,Real Betis,3,2,H
+SP1,04/01/2014,Valencia,Levante,2,0,H
+SP1,04/01/2014,Malaga,Atletico Madrid,0,1,A
+SP1,04/01/2014,Almeria,Granada CF,3,0,H
+SP1,04/01/2014,Valladolid,Real Betis,0,0,D
+SP1,04/04/2014,Almeria,Osasuna,1,2,A
+SP1,04/05/2014,Sevilla,Villarreal,0,0,D
+SP1,04/05/2014,Levante,Atletico Madrid,2,0,H
+SP1,04/05/2014,Almeria,Real Betis,3,2,H
+SP1,04/05/2014,Real Madrid,Valencia,2,2,D
+SP1,04/10/2013,Villarreal,Granada CF,3,0,H
+SP1,04/10/2013,Malaga,Osasuna,0,1,A
+SP1,04/11/2013,Elche,Villarreal,0,1,A
+SP1,05/01/2014,Real Sociedad,Athletic Club,2,0,H
+SP1,05/01/2014,Barcelona,Elche,4,0,H
+SP1,05/01/2014,Osasuna,Espanyol,1,0,H
+SP1,05/01/2014,Sevilla,Getafe,3,0,H
+SP1,05/04/2014,Atletico Madrid,Villarreal,1,0,H
+SP1,05/04/2014,Rayo Vallecano,Celta Vigo,3,0,H
+SP1,05/04/2014,Real Sociedad,Real Madrid,0,4,A
+SP1,05/04/2014,Barcelona,Real Betis,3,1,H
+SP1,05/05/2014,Real Sociedad,Granada CF,1,1,D
+SP1,05/10/2013,Barcelona,Valladolid,4,1,H
+SP1,05/10/2013,Levante,Real Madrid,2,3,A
+SP1,05/10/2013,Rayo Vallecano,Real Sociedad,1,0,H
+SP1,05/10/2013,Elche,Espanyol,2,1,H
+SP1,06/01/2014,Rayo Vallecano,Villarreal,2,5,A
+SP1,06/01/2014,Real Madrid,Celta Vigo,3,0,H
+SP1,06/04/2014,Sevilla,Espanyol,4,1,H
+SP1,06/04/2014,Valladolid,Valencia,0,0,D
+SP1,06/04/2014,Malaga,Granada CF,4,1,H
+SP1,06/04/2014,Elche,Getafe,1,0,H
+SP1,06/10/2013,Getafe,Real Betis,3,1,H
+SP1,06/10/2013,Sevilla,Almeria,2,1,H
+SP1,06/10/2013,Atletico Madrid,Celta Vigo,2,1,H
+SP1,06/10/2013,Athletic Club,Valencia,1,1,D
+SP1,07/02/2014,Espanyol,Granada CF,1,0,H
+SP1,07/04/2014,Levante,Athletic Club,1,2,A
+SP1,07/05/2014,Valladolid,Real Madrid,1,1,D
+SP1,08/02/2014,Almeria,Atletico Madrid,2,0,H
+SP1,08/02/2014,Valencia,Real Betis,5,0,H
+SP1,08/02/2014,Rayo Vallecano,Malaga,4,1,H
+SP1,08/02/2014,Real Madrid,Villarreal,4,2,H
+SP1,08/03/2014,Valladolid,Barcelona,1,0,H
+SP1,08/03/2014,Celta Vigo,Atletico Madrid,0,2,A
+SP1,08/03/2014,Granada CF,Villarreal,2,0,H
+SP1,08/03/2014,Real Betis,Getafe,2,0,H
+SP1,08/11/2013,Granada CF,Malaga,3,1,H
+SP1,08/11/2013,Osasuna,Almeria,0,1,A
+SP1,09/02/2014,Valladolid,Elche,2,2,D
+SP1,09/02/2014,Real Sociedad,Levante,0,0,D
+SP1,09/02/2014,Osasuna,Getafe,2,0,H
+SP1,09/02/2014,Sevilla,Barcelona,1,4,A
+SP1,09/03/2014,Almeria,Sevilla,1,3,A
+SP1,09/03/2014,Espanyol,Elche,3,1,H
+SP1,09/03/2014,Real Madrid,Levante,3,0,H
+SP1,09/03/2014,Valencia,Athletic Club,1,1,D
+SP1,09/11/2013,Real Madrid,Real Sociedad,5,1,H
+SP1,09/11/2013,Athletic Club,Levante,2,1,H
+SP1,09/11/2013,Getafe,Elche,1,1,D
+SP1,09/11/2013,Celta Vigo,Rayo Vallecano,0,2,A
+SP1,10/01/2014,Granada CF,Valladolid,4,0,H
+SP1,10/02/2014,Celta Vigo,Athletic Club,0,0,D
+SP1,10/03/2014,Osasuna,Malaga,0,2,A
+SP1,10/03/2014,Real Sociedad,Rayo Vallecano,2,3,A
+SP1,10/05/2014,Levante,Valencia,2,0,H
+SP1,10/05/2014,Villarreal,Rayo Vallecano,4,0,H
+SP1,10/11/2013,Real Betis,Barcelona,1,4,A
+SP1,10/11/2013,Valencia,Valladolid,2,2,D
+SP1,10/11/2013,Villarreal,Atletico Madrid,1,1,D
+SP1,10/11/2013,Espanyol,Sevilla,1,3,A
+SP1,11/01/2014,Atletico Madrid,Barcelona,0,0,D
+SP1,11/01/2014,Elche,Sevilla,1,1,D
+SP1,11/01/2014,Celta Vigo,Valencia,2,1,H
+SP1,11/01/2014,Athletic Club,Almeria,6,1,H
+SP1,11/04/2014,Osasuna,Valladolid,0,0,D
+SP1,11/05/2014,Athletic Club,Real Sociedad,1,1,D
+SP1,11/05/2014,Elche,Barcelona,0,0,D
+SP1,11/05/2014,Granada CF,Almeria,0,2,A
+SP1,11/05/2014,Getafe,Sevilla,1,0,H
+SP1,11/05/2014,Real Betis,Valladolid,4,3,H
+SP1,11/05/2014,Espanyol,Osasuna,1,1,D
+SP1,11/05/2014,Celta Vigo,Real Madrid,2,0,H
+SP1,11/05/2014,Atletico Madrid,Malaga,1,1,D
+SP1,12/01/2014,Levante,Malaga,1,0,H
+SP1,12/01/2014,Espanyol,Real Madrid,0,1,A
+SP1,12/01/2014,Getafe,Rayo Vallecano,0,1,A
+SP1,12/01/2014,Real Betis,Osasuna,1,2,A
+SP1,12/04/2014,Granada CF,Barcelona,1,0,H
+SP1,12/04/2014,Celta Vigo,Real Sociedad,2,2,D
+SP1,12/04/2014,Villarreal,Levante,1,0,H
+SP1,12/04/2014,Real Madrid,Almeria,4,0,H
+SP1,13/01/2014,Villarreal,Real Sociedad,5,1,H
+SP1,13/04/2014,Valencia,Elche,2,1,H
+SP1,13/04/2014,Espanyol,Rayo Vallecano,2,2,D
+SP1,13/04/2014,Real Betis,Sevilla,0,2,A
+SP1,13/04/2014,Getafe,Atletico Madrid,0,2,A
+SP1,13/12/2013,Levante,Elche,2,1,H
+SP1,14/02/2014,Elche,Osasuna,0,0,D
+SP1,14/03/2014,Getafe,Granada CF,3,3,D
+SP1,14/04/2014,Athletic Club,Malaga,3,0,H
+SP1,14/09/2013,Villarreal,Real Madrid,2,2,D
+SP1,14/09/2013,Levante,Real Sociedad,0,0,D
+SP1,14/09/2013,Atletico Madrid,Almeria,4,2,H
+SP1,14/09/2013,Barcelona,Sevilla,3,2,H
+SP1,14/12/2013,Barcelona,Villarreal,2,1,H
+SP1,14/12/2013,Rayo Vallecano,Granada CF,0,2,A
+SP1,14/12/2013,Osasuna,Real Madrid,2,2,D
+SP1,14/12/2013,Malaga,Getafe,1,0,H
+SP1,15/02/2014,Atletico Madrid,Valladolid,3,0,H
+SP1,15/02/2014,Levante,Almeria,1,0,H
+SP1,15/02/2014,Barcelona,Rayo Vallecano,6,0,H
+SP1,15/02/2014,Villarreal,Celta Vigo,0,2,A
+SP1,15/03/2014,Malaga,Real Madrid,0,1,A
+SP1,15/03/2014,Levante,Celta Vigo,0,1,A
+SP1,15/03/2014,Rayo Vallecano,Almeria,3,1,H
+SP1,15/03/2014,Atletico Madrid,Espanyol,1,0,H
+SP1,15/09/2013,Granada CF,Espanyol,0,1,A
+SP1,15/09/2013,Malaga,Rayo Vallecano,5,0,H
+SP1,15/09/2013,Getafe,Osasuna,2,1,H
+SP1,15/09/2013,Real Betis,Valencia,3,1,H
+SP1,15/12/2013,Atletico Madrid,Valencia,3,0,H
+SP1,15/12/2013,Sevilla,Athletic Club,1,1,D
+SP1,15/12/2013,Real Sociedad,Real Betis,5,1,H
+SP1,15/12/2013,Almeria,Espanyol,0,0,D
+SP1,16/02/2014,Granada CF,Real Betis,1,0,H
+SP1,16/02/2014,Getafe,Real Madrid,0,3,A
+SP1,16/02/2014,Athletic Club,Espanyol,1,2,A
+SP1,16/02/2014,Sevilla,Valencia,0,0,D
+SP1,16/03/2014,Elche,Real Betis,0,0,D
+SP1,16/03/2014,Barcelona,Osasuna,7,0,H
+SP1,16/03/2014,Sevilla,Valladolid,4,1,H
+SP1,16/03/2014,Real Sociedad,Valencia,1,0,H
+SP1,16/05/2014,Malaga,Levante,1,0,H
+SP1,16/09/2013,Athletic Club,Celta Vigo,3,2,H
+SP1,16/09/2013,Elche,Valladolid,0,0,D
+SP1,16/12/2013,Valladolid,Celta Vigo,3,0,H
+SP1,17/01/2014,Malaga,Valencia,0,0,D
+SP1,17/02/2014,Malaga,Real Sociedad,0,1,A
+SP1,17/03/2014,Villarreal,Athletic Club,1,1,D
+SP1,17/05/2014,Real Madrid,Espanyol,3,1,H
+SP1,17/05/2014,Barcelona,Atletico Madrid,1,1,D
+SP1,17/05/2014,Valencia,Celta Vigo,2,1,H
+SP1,17/08/2013,Real Sociedad,Getafe,2,0,H
+SP1,17/08/2013,Valencia,Malaga,1,0,H
+SP1,17/08/2013,Valladolid,Athletic Club,1,2,A
+SP1,18/01/2014,Real Betis,Real Madrid,0,5,A
+SP1,18/01/2014,Elche,Rayo Vallecano,2,0,H
+SP1,18/01/2014,Granada CF,Osasuna,0,0,D
+SP1,18/01/2014,Espanyol,Celta Vigo,1,0,H
+SP1,18/04/2014,Atletico Madrid,Elche,2,0,H
+SP1,18/05/2014,Sevilla,Elche,3,1,H
+SP1,18/05/2014,Osasuna,Real Betis,2,1,H
+SP1,18/05/2014,Almeria,Athletic Club,0,0,D
+SP1,18/05/2014,Valladolid,Granada CF,0,1,A
+SP1,18/05/2014,Rayo Vallecano,Getafe,1,2,A
+SP1,18/05/2014,Real Sociedad,Villarreal,1,2,A
+SP1,18/08/2013,Sevilla,Atletico Madrid,1,3,A
+SP1,18/08/2013,Real Madrid,Real Betis,2,1,H
+SP1,18/08/2013,Barcelona,Levante,7,0,H
+SP1,18/08/2013,Osasuna,Granada CF,1,2,A
+SP1,19/01/2014,Atletico Madrid,Sevilla,1,1,D
+SP1,19/01/2014,Levante,Barcelona,1,1,D
+SP1,19/01/2014,Villarreal,Almeria,2,0,H
+SP1,19/01/2014,Getafe,Real Sociedad,2,2,D
+SP1,19/04/2014,Osasuna,Valencia,1,1,D
+SP1,19/04/2014,Real Sociedad,Espanyol,2,1,H
+SP1,19/04/2014,Levante,Getafe,0,0,D
+SP1,19/08/2013,Celta Vigo,Espanyol,2,2,D
+SP1,19/08/2013,Almeria,Villarreal,2,3,A
+SP1,19/08/2013,Rayo Vallecano,Elche,3,0,H
+SP1,19/10/2013,Valencia,Real Sociedad,1,2,A
+SP1,19/10/2013,Osasuna,Barcelona,0,0,D
+SP1,19/10/2013,Espanyol,Atletico Madrid,1,0,H
+SP1,19/10/2013,Real Madrid,Malaga,2,0,H
+SP1,20/01/2014,Athletic Club,Valladolid,4,2,H
+SP1,20/04/2014,Barcelona,Athletic Club,2,1,H
+SP1,20/04/2014,Sevilla,Granada CF,4,0,H
+SP1,20/04/2014,Rayo Vallecano,Real Betis,3,1,H
+SP1,20/04/2014,Almeria,Celta Vigo,2,4,A
+SP1,20/09/2013,Osasuna,Elche,2,1,H
+SP1,20/10/2013,Granada CF,Getafe,0,2,A
+SP1,20/10/2013,Almeria,Rayo Vallecano,0,1,A
+SP1,20/10/2013,Real Betis,Elche,1,2,A
+SP1,20/10/2013,Valladolid,Sevilla,2,2,D
+SP1,20/12/2013,Elche,Malaga,0,1,A
+SP1,21/02/2014,Valladolid,Levante,1,1,D
+SP1,21/03/2014,Celta Vigo,Malaga,0,2,A
+SP1,21/04/2014,Malaga,Villarreal,2,0,H
+SP1,21/09/2013,Valladolid,Atletico Madrid,0,2,A
+SP1,21/09/2013,Rayo Vallecano,Barcelona,0,4,A
+SP1,21/09/2013,Almeria,Levante,2,2,D
+SP1,21/09/2013,Real Sociedad,Malaga,0,0,D
+SP1,21/10/2013,Athletic Club,Villarreal,2,0,H
+SP1,21/10/2013,Celta Vigo,Levante,0,1,A
+SP1,21/12/2013,Granada CF,Real Sociedad,1,3,A
+SP1,21/12/2013,Atletico Madrid,Levante,3,2,H
+SP1,21/12/2013,Real Betis,Almeria,0,1,A
+SP1,21/12/2013,Villarreal,Sevilla,1,2,A
+SP1,22/02/2014,Almeria,Malaga,0,0,D
+SP1,22/02/2014,Real Madrid,Elche,3,0,H
+SP1,22/02/2014,Celta Vigo,Getafe,1,1,D
+SP1,22/02/2014,Real Sociedad,Barcelona,3,1,H
+SP1,22/03/2014,Athletic Club,Getafe,1,0,H
+SP1,22/03/2014,Valladolid,Rayo Vallecano,1,1,D
+SP1,22/03/2014,Espanyol,Levante,0,0,D
+SP1,22/03/2014,Granada CF,Elche,1,0,H
+SP1,22/09/2013,Real Betis,Granada CF,0,0,D
+SP1,22/09/2013,Celta Vigo,Villarreal,0,0,D
+SP1,22/09/2013,Real Madrid,Getafe,4,1,H
+SP1,22/09/2013,Valencia,Sevilla,3,1,H
+SP1,22/11/2013,Valladolid,Osasuna,0,1,A
+SP1,22/12/2013,Valencia,Real Madrid,2,3,A
+SP1,22/12/2013,Athletic Club,Rayo Vallecano,2,1,H
+SP1,22/12/2013,Getafe,Barcelona,2,5,A
+SP1,22/12/2013,Espanyol,Valladolid,4,2,H
+SP1,22/12/2013,Celta Vigo,Osasuna,1,1,D
+SP1,23/02/2014,Real Betis,Athletic Club,0,2,A
+SP1,23/02/2014,Rayo Vallecano,Sevilla,0,1,A
+SP1,23/02/2014,Valencia,Granada CF,2,1,H
+SP1,23/02/2014,Osasuna,Atletico Madrid,3,0,H
+SP1,23/03/2014,Osasuna,Sevilla,1,2,A
+SP1,23/03/2014,Real Betis,Atletico Madrid,0,2,A
+SP1,23/03/2014,Valencia,Villarreal,2,1,H
+SP1,23/03/2014,Real Madrid,Barcelona,3,4,A
+SP1,23/08/2013,Getafe,Almeria,2,2,D
+SP1,23/08/2013,Athletic Club,Osasuna,2,0,H
+SP1,23/09/2013,Espanyol,Athletic Club,3,2,H
+SP1,23/11/2013,Atletico Madrid,Getafe,7,0,H
+SP1,23/11/2013,Real Sociedad,Celta Vigo,4,3,H
+SP1,23/11/2013,Barcelona,Granada CF,4,0,H
+SP1,23/11/2013,Almeria,Real Madrid,0,5,A
+SP1,24/01/2014,Celta Vigo,Real Betis,4,2,H
+SP1,24/02/2014,Espanyol,Villarreal,1,2,A
+SP1,24/03/2014,Almeria,Real Sociedad,4,3,H
+SP1,24/08/2013,Elche,Real Sociedad,1,1,D
+SP1,24/08/2013,Espanyol,Valencia,3,1,H
+SP1,24/08/2013,Villarreal,Valladolid,2,1,H
+SP1,24/09/2013,Barcelona,Real Sociedad,4,1,H
+SP1,24/09/2013,Atletico Madrid,Osasuna,2,1,H
+SP1,24/09/2013,Malaga,Almeria,2,0,H
+SP1,24/09/2013,Levante,Valladolid,1,1,D
+SP1,24/11/2013,Elche,Valencia,2,1,H
+SP1,24/11/2013,Rayo Vallecano,Espanyol,1,4,A
+SP1,24/11/2013,Sevilla,Real Betis,4,0,H
+SP1,24/11/2013,Levante,Villarreal,0,3,A
+SP1,25/01/2014,Real Madrid,Granada CF,2,0,H
+SP1,25/01/2014,Valladolid,Villarreal,1,0,H
+SP1,25/01/2014,Valencia,Espanyol,2,2,D
+SP1,25/01/2014,Sevilla,Levante,2,3,A
+SP1,25/03/2014,Elche,Athletic Club,0,0,D
+SP1,25/03/2014,Malaga,Espanyol,1,2,A
+SP1,25/04/2014,Elche,Levante,1,1,D
+SP1,25/08/2013,Malaga,Barcelona,0,1,A
+SP1,25/08/2013,Atletico Madrid,Rayo Vallecano,5,0,H
+SP1,25/08/2013,Levante,Sevilla,0,0,D
+SP1,25/08/2013,Real Betis,Celta Vigo,1,2,A
+SP1,25/09/2013,Granada CF,Valencia,0,1,A
+SP1,25/09/2013,Sevilla,Rayo Vallecano,4,1,H
+SP1,25/09/2013,Elche,Real Madrid,1,2,A
+SP1,25/10/2013,Rayo Vallecano,Valladolid,0,3,A
+SP1,25/11/2013,Malaga,Athletic Club,1,2,A
+SP1,26/01/2014,Almeria,Getafe,1,0,H
+SP1,26/01/2014,Osasuna,Athletic Club,1,5,A
+SP1,26/01/2014,Rayo Vallecano,Atletico Madrid,2,4,A
+SP1,26/01/2014,Barcelona,Malaga,3,0,H
+SP1,26/03/2014,Barcelona,Celta Vigo,3,0,H
+SP1,26/03/2014,Rayo Vallecano,Osasuna,1,0,H
+SP1,26/03/2014,Atletico Madrid,Granada CF,1,0,H
+SP1,26/03/2014,Sevilla,Real Madrid,2,1,H
+SP1,26/04/2014,Granada CF,Rayo Vallecano,0,3,A
+SP1,26/04/2014,Real Betis,Real Sociedad,0,1,A
+SP1,26/04/2014,Real Madrid,Osasuna,4,0,H
+SP1,26/04/2014,Getafe,Malaga,1,0,H
+SP1,26/08/2013,Granada CF,Real Madrid,0,1,A
+SP1,26/09/2013,Athletic Club,Real Betis,2,1,H
+SP1,26/09/2013,Villarreal,Espanyol,2,1,H
+SP1,26/09/2013,Getafe,Celta Vigo,2,0,H
+SP1,26/10/2013,Malaga,Celta Vigo,0,5,A
+SP1,26/10/2013,Barcelona,Real Madrid,2,1,H
+SP1,26/10/2013,Levante,Espanyol,3,0,H
+SP1,26/10/2013,Elche,Granada CF,0,1,A
+SP1,27/01/2014,Real Sociedad,Elche,4,0,H
+SP1,27/03/2014,Real Sociedad,Valladolid,1,0,H
+SP1,27/03/2014,Getafe,Villarreal,0,1,A
+SP1,27/03/2014,Almeria,Valencia,2,2,D
+SP1,27/03/2014,Levante,Real Betis,1,3,A
+SP1,27/04/2014,Athletic Club,Sevilla,3,1,H
+SP1,27/04/2014,Valencia,Atletico Madrid,0,1,A
+SP1,27/04/2014,Espanyol,Almeria,1,2,A
+SP1,27/04/2014,Villarreal,Barcelona,2,3,A
+SP1,27/09/2013,Valladolid,Malaga,2,2,D
+SP1,27/10/2013,Sevilla,Osasuna,2,1,H
+SP1,27/10/2013,Villarreal,Valencia,4,1,H
+SP1,27/10/2013,Real Sociedad,Almeria,3,0,H
+SP1,27/10/2013,Atletico Madrid,Real Betis,5,0,H
+SP1,28/02/2014,Athletic Club,Granada CF,4,0,H
+SP1,28/04/2014,Celta Vigo,Valladolid,4,1,H
+SP1,28/09/2013,Almeria,Barcelona,0,2,A
+SP1,28/09/2013,Real Madrid,Atletico Madrid,0,1,A
+SP1,28/09/2013,Real Sociedad,Sevilla,1,1,D
+SP1,28/09/2013,Valencia,Rayo Vallecano,1,0,H
+SP1,28/10/2013,Getafe,Athletic Club,0,1,A
+SP1,29/03/2014,Athletic Club,Atletico Madrid,1,2,A
+SP1,29/03/2014,Real Madrid,Rayo Vallecano,5,0,H
+SP1,29/03/2014,Celta Vigo,Sevilla,1,0,H
+SP1,29/03/2014,Espanyol,Barcelona,0,1,A
+SP1,29/09/2013,Real Betis,Villarreal,1,0,H
+SP1,29/09/2013,Espanyol,Getafe,0,2,A
+SP1,29/09/2013,Celta Vigo,Elche,0,1,A
+SP1,29/09/2013,Osasuna,Levante,0,1,A
+SP1,29/10/2013,Espanyol,Malaga,0,0,D
+SP1,29/10/2013,Celta Vigo,Barcelona,0,3,A
+SP1,29/11/2013,Getafe,Levante,1,0,H
+SP1,29/11/2013,Villarreal,Malaga,1,1,D
+SP1,30/03/2014,Valencia,Getafe,1,3,A
+SP1,30/03/2014,Valladolid,Almeria,1,0,H
+SP1,30/03/2014,Osasuna,Real Sociedad,1,1,D
+SP1,30/03/2014,Villarreal,Elche,1,1,D
+SP1,30/08/2013,Almeria,Elche,2,2,D
+SP1,30/08/2013,Rayo Vallecano,Levante,1,2,A
+SP1,30/09/2013,Granada CF,Athletic Club,2,0,H
+SP1,30/10/2013,Valencia,Almeria,1,2,A
+SP1,30/10/2013,Valladolid,Real Sociedad,2,2,D
+SP1,30/10/2013,Real Madrid,Sevilla,7,3,H
+SP1,30/10/2013,Osasuna,Rayo Vallecano,3,1,H
+SP1,30/11/2013,Espanyol,Real Sociedad,1,2,A
+SP1,30/11/2013,Celta Vigo,Almeria,3,1,H
+SP1,30/11/2013,Elche,Atletico Madrid,0,2,A
+SP1,30/11/2013,Real Madrid,Valladolid,4,0,H
+SP1,31/01/2014,Granada CF,Celta Vigo,1,2,A
+SP1,31/03/2014,Real Betis,Malaga,1,2,A
+SP1,31/03/2014,Granada CF,Levante,0,2,A
+SP1,31/08/2013,Celta Vigo,Granada CF,1,1,D
+SP1,31/08/2013,Osasuna,Villarreal,0,3,A
+SP1,31/08/2013,Valladolid,Getafe,1,0,H
+SP1,31/10/2013,Villarreal,Getafe,0,2,A
+SP1,31/10/2013,Granada CF,Atletico Madrid,1,2,A
+SP1,31/10/2013,Real Betis,Levante,0,0,D
+SP1,31/10/2013,Athletic Club,Elche,2,2,D

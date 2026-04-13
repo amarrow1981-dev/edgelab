@@ -1,0 +1,553 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+EC,01/01/2018,Solihull,Maidenhead,3,1,H
+EC,01/01/2018,AFC Fylde,Tranmere,5,2,H
+EC,01/01/2018,Wrexham,Barrow,3,3,D
+EC,01/01/2018,Sutton Utd,Boreham Wood,1,1,D
+EC,01/01/2018,Maidstone Utd,Dover,2,2,D
+EC,01/01/2018,Guiseley AFC,Chester,1,1,D
+EC,01/01/2018,Dag and Red,Leyton Orient,0,0,D
+EC,01/01/2018,Hartlepool,Gateshead,2,2,D
+EC,01/01/2018,Woking,Aldershot,1,2,A
+EC,01/01/2018,FC Halifax Town,Macclesfield,1,4,A
+EC,01/01/2018,Bromley,Ebbsfleet,4,2,H
+EC,02/04/2018,Hartlepool,Guiseley AFC,0,1,A
+EC,02/04/2018,Macclesfield,Chester,1,0,H
+EC,02/04/2018,Aldershot,Eastleigh,0,2,A
+EC,02/04/2018,Dag and Red,Maidstone Utd,2,1,H
+EC,02/04/2018,Torquay,Woking,2,1,H
+EC,02/04/2018,Wrexham,Boreham Wood,0,1,A
+EC,02/04/2018,Sutton Utd,Bromley,0,3,A
+EC,02/04/2018,Ebbsfleet,Dover,2,1,H
+EC,02/09/2017,Macclesfield,Woking,1,3,A
+EC,02/09/2017,Hartlepool,Maidstone Utd,3,1,H
+EC,02/09/2017,Leyton Orient,Guiseley AFC,4,1,H
+EC,02/09/2017,Aldershot,Solihull,1,0,H
+EC,02/09/2017,Barrow,Boreham Wood,2,1,H
+EC,02/09/2017,Sutton Utd,Maidenhead,0,2,A
+EC,02/09/2017,Torquay,Chester,1,1,D
+EC,02/09/2017,Wrexham,Bromley,2,0,H
+EC,02/09/2017,Ebbsfleet,Eastleigh,2,2,D
+EC,02/09/2017,FC Halifax Town,AFC Fylde,2,1,H
+EC,02/09/2017,Tranmere,Dover,0,1,A
+EC,02/09/2017,Dag and Red,Gateshead,3,1,H
+EC,02/12/2017,Hartlepool,Macclesfield,1,2,A
+EC,02/12/2017,Torquay,Aldershot,0,0,D
+EC,02/12/2017,Bromley,Dover,2,2,D
+EC,02/12/2017,FC Halifax Town,Barrow,0,1,A
+EC,02/12/2017,Wrexham,Maidenhead,2,0,H
+EC,02/12/2017,Sutton Utd,Eastleigh,2,0,H
+EC,02/12/2017,Solihull,Leyton Orient,1,0,H
+EC,03/02/2018,Tranmere,Ebbsfleet,3,0,H
+EC,03/02/2018,Guiseley AFC,Wrexham,0,2,A
+EC,03/02/2018,Torquay,Barrow,3,1,H
+EC,03/02/2018,AFC Fylde,Eastleigh,2,2,D
+EC,03/03/2018,Dover,Leyton Orient,1,0,H
+EC,03/04/2018,Barrow,AFC Fylde,1,3,A
+EC,03/10/2017,Chester,Woking,0,2,A
+EC,03/10/2017,Boreham Wood,Eastleigh,1,0,H
+EC,03/10/2017,Maidstone Utd,Bromley,0,2,A
+EC,03/10/2017,Sutton Utd,Dover,2,2,D
+EC,03/10/2017,Torquay,Maidenhead,4,0,H
+EC,03/10/2017,FC Halifax Town,Wrexham,0,0,D
+EC,03/10/2017,AFC Fylde,Gateshead,0,0,D
+EC,03/10/2017,Aldershot,Dag and Red,1,1,D
+EC,03/10/2017,Guiseley AFC,Macclesfield,1,2,A
+EC,03/10/2017,Solihull,Ebbsfleet,1,3,A
+EC,03/10/2017,Hartlepool,Barrow,1,0,H
+EC,04/10/2017,Tranmere,Leyton Orient,2,1,H
+EC,04/11/2017,Eastleigh,Chester,2,2,D
+EC,05/08/2017,Sutton Utd,Leyton Orient,2,0,H
+EC,05/08/2017,Hartlepool,Dover,0,1,A
+EC,05/08/2017,Dag and Red,Barrow,2,1,H
+EC,05/08/2017,Guiseley AFC,Ebbsfleet,2,2,D
+EC,05/08/2017,Maidstone Utd,Maidenhead,1,1,D
+EC,05/08/2017,Torquay,Tranmere,0,0,D
+EC,05/08/2017,Bromley,Eastleigh,0,0,D
+EC,05/08/2017,Woking,Gateshead,2,1,H
+EC,05/08/2017,Wrexham,Macclesfield,0,1,A
+EC,05/08/2017,AFC Fylde,Boreham Wood,2,2,D
+EC,05/08/2017,FC Halifax Town,Aldershot,0,2,A
+EC,05/09/2017,Solihull,Chester,2,0,H
+EC,06/01/2018,Ebbsfleet,Chester,0,1,A
+EC,06/01/2018,Gateshead,Sutton Utd,0,2,A
+EC,06/01/2018,Leyton Orient,Boreham Wood,0,0,D
+EC,06/01/2018,Macclesfield,Solihull,0,0,D
+EC,06/01/2018,Barrow,Tranmere,1,1,D
+EC,06/01/2018,Dag and Red,Hartlepool,4,2,H
+EC,06/01/2018,Eastleigh,Guiseley AFC,4,2,H
+EC,06/01/2018,Dover,Aldershot,1,2,A
+EC,06/01/2018,Maidenhead,FC Halifax Town,0,0,D
+EC,06/01/2018,Wrexham,Torquay,4,0,H
+EC,06/01/2018,Woking,Maidstone Utd,4,4,D
+EC,06/01/2018,Bromley,AFC Fylde,0,1,A
+EC,06/03/2018,Aldershot,Hartlepool,2,1,H
+EC,06/03/2018,Chester,Dover,0,2,A
+EC,06/03/2018,Sutton Utd,Woking,2,0,H
+EC,07/04/2018,Eastleigh,Wrexham,1,1,D
+EC,07/04/2018,Hartlepool,Solihull,0,1,A
+EC,07/04/2018,Leyton Orient,Barrow,4,1,H
+EC,07/04/2018,Aldershot,Maidenhead,1,0,H
+EC,07/04/2018,Chester,Tranmere,0,2,A
+EC,07/04/2018,Ebbsfleet,Macclesfield,2,2,D
+EC,07/04/2018,Dag and Red,Woking,1,1,D
+EC,07/04/2018,FC Halifax Town,Boreham Wood,2,1,H
+EC,07/04/2018,AFC Fylde,Sutton Utd,2,1,H
+EC,07/04/2018,Bromley,Gateshead,0,0,D
+EC,07/04/2018,Dover,Torquay,1,0,H
+EC,07/04/2018,Guiseley AFC,Maidstone Utd,0,0,D
+EC,07/10/2017,Sutton Utd,AFC Fylde,2,1,H
+EC,07/10/2017,Solihull,Hartlepool,1,2,A
+EC,07/10/2017,Barrow,Leyton Orient,2,2,D
+EC,07/10/2017,Torquay,Dover,0,2,A
+EC,07/10/2017,Maidstone Utd,Guiseley AFC,1,1,D
+EC,07/10/2017,Gateshead,Bromley,1,2,A
+EC,07/10/2017,Woking,Dag and Red,1,0,H
+EC,07/10/2017,Boreham Wood,FC Halifax Town,1,1,D
+EC,07/10/2017,Tranmere,Chester,0,0,D
+EC,07/10/2017,Maidenhead,Aldershot,3,3,D
+EC,07/10/2017,Wrexham,Eastleigh,2,1,H
+EC,07/10/2017,Macclesfield,Ebbsfleet,1,0,H
+EC,08/08/2017,Ebbsfleet,Maidstone Utd,2,0,H
+EC,08/08/2017,Leyton Orient,Solihull,3,1,H
+EC,08/08/2017,Macclesfield,Hartlepool,1,1,D
+EC,08/08/2017,Tranmere,Woking,3,1,H
+EC,08/08/2017,Aldershot,Torquay,3,2,H
+EC,08/08/2017,Barrow,FC Halifax Town,0,0,D
+EC,08/08/2017,Maidenhead,Wrexham,1,2,A
+EC,08/08/2017,Boreham Wood,Dag and Red,1,2,A
+EC,08/08/2017,Dover,Bromley,1,2,A
+EC,08/08/2017,Gateshead,Guiseley AFC,1,0,H
+EC,08/08/2017,Eastleigh,Sutton Utd,1,0,H
+EC,08/08/2017,Chester,AFC Fylde,1,1,D
+EC,08/11/2017,Chester,Wrexham,0,1,A
+EC,09/01/2018,Maidstone Utd,Ebbsfleet,1,2,A
+EC,09/01/2018,AFC Fylde,Chester,1,1,D
+EC,09/01/2018,Dag and Red,Boreham Wood,2,3,A
+EC,09/09/2017,FC Halifax Town,Maidenhead,3,2,H
+EC,09/09/2017,Chester,Ebbsfleet,1,1,D
+EC,09/09/2017,Hartlepool,Dag and Red,1,0,H
+EC,09/09/2017,Tranmere,Barrow,1,0,H
+EC,09/09/2017,Aldershot,Dover,0,2,A
+EC,09/09/2017,Maidstone Utd,Woking,3,1,H
+EC,09/09/2017,Torquay,Wrexham,0,0,D
+EC,09/09/2017,Boreham Wood,Leyton Orient,2,0,H
+EC,09/09/2017,Guiseley AFC,Eastleigh,0,0,D
+EC,09/09/2017,Sutton Utd,Gateshead,1,1,D
+EC,09/09/2017,AFC Fylde,Bromley,2,2,D
+EC,09/09/2017,Solihull,Macclesfield,0,1,A
+EC,09/12/2017,Macclesfield,Wrexham,4,1,H
+EC,09/12/2017,Barrow,Dag and Red,0,1,A
+EC,09/12/2017,Aldershot,FC Halifax Town,0,1,A
+EC,09/12/2017,Tranmere,Torquay,3,0,H
+EC,09/12/2017,Chester,Solihull,1,0,H
+EC,09/12/2017,Dover,Hartlepool,4,0,H
+EC,09/12/2017,Boreham Wood,AFC Fylde,1,0,H
+EC,09/12/2017,Maidenhead,Maidstone Utd,0,0,D
+EC,09/12/2017,Ebbsfleet,Guiseley AFC,4,0,H
+EC,09/12/2017,Leyton Orient,Sutton Utd,4,1,H
+EC,09/12/2017,Eastleigh,Bromley,4,4,D
+EC,10/02/2018,Dover,Sutton Utd,0,1,A
+EC,10/02/2018,Woking,Chester,1,0,H
+EC,10/02/2018,Wrexham,FC Halifax Town,1,1,D
+EC,10/02/2018,Maidenhead,Torquay,1,2,A
+EC,10/02/2018,Ebbsfleet,Solihull,1,0,H
+EC,10/02/2018,Dag and Red,Aldershot,0,2,A
+EC,10/02/2018,Eastleigh,Boreham Wood,0,2,A
+EC,10/02/2018,Macclesfield,Guiseley AFC,2,1,H
+EC,10/02/2018,Leyton Orient,Tranmere,1,1,D
+EC,10/02/2018,Bromley,Maidstone Utd,2,2,D
+EC,10/02/2018,Gateshead,AFC Fylde,1,2,A
+EC,10/03/2018,Sutton Utd,Solihull,1,0,H
+EC,10/03/2018,Hartlepool,Boreham Wood,0,0,D
+EC,10/03/2018,Leyton Orient,Ebbsfleet,1,1,D
+EC,10/03/2018,Macclesfield,Barrow,3,1,H
+EC,10/03/2018,Dag and Red,Tranmere,0,4,A
+EC,10/03/2018,Gateshead,Maidenhead,7,1,H
+EC,10/03/2018,Maidstone Utd,Torquay,1,0,H
+EC,10/03/2018,Bromley,Guiseley AFC,2,1,H
+EC,10/03/2018,Woking,FC Halifax Town,1,3,A
+EC,10/03/2018,AFC Fylde,Aldershot,7,1,H
+EC,10/04/2018,Tranmere,Gateshead,4,2,H
+EC,10/04/2018,Torquay,AFC Fylde,1,3,A
+EC,10/04/2018,Barrow,Eastleigh,3,2,H
+EC,10/04/2018,Chester,Bromley,3,2,H
+EC,10/04/2018,Solihull,Maidstone Utd,1,0,H
+EC,10/04/2018,Maidenhead,Woking,2,1,H
+EC,10/04/2018,Ebbsfleet,Wrexham,3,0,H
+EC,10/04/2018,Boreham Wood,Macclesfield,0,2,A
+EC,10/04/2018,FC Halifax Town,Sutton Utd,2,1,H
+EC,11/03/2018,Wrexham,Chester,2,0,H
+EC,11/11/2017,Tranmere,Dag and Red,2,0,H
+EC,11/11/2017,FC Halifax Town,Woking,0,0,D
+EC,11/11/2017,Barrow,Macclesfield,0,2,A
+EC,11/11/2017,Guiseley AFC,Bromley,0,1,A
+EC,11/11/2017,Torquay,Maidstone Utd,0,1,A
+EC,11/11/2017,Dover,Eastleigh,2,0,H
+EC,11/11/2017,Boreham Wood,Hartlepool,0,0,D
+EC,11/11/2017,Solihull,Sutton Utd,0,2,A
+EC,11/11/2017,Maidenhead,Gateshead,0,3,A
+EC,11/11/2017,Aldershot,AFC Fylde,2,1,H
+EC,11/11/2017,Ebbsfleet,Leyton Orient,2,1,H
+EC,12/04/2018,FC Halifax Town,Gateshead,2,2,D
+EC,12/08/2017,Leyton Orient,Maidstone Utd,2,0,H
+EC,12/08/2017,Maidenhead,Hartlepool,2,1,H
+EC,12/08/2017,Aldershot,Guiseley AFC,6,0,H
+EC,12/08/2017,Ebbsfleet,AFC Fylde,3,3,D
+EC,12/08/2017,Boreham Wood,Solihull,4,1,H
+EC,12/08/2017,Dover,Wrexham,1,0,H
+EC,12/08/2017,Gateshead,Torquay,3,0,H
+EC,12/08/2017,Eastleigh,Dag and Red,2,2,D
+EC,12/08/2017,Macclesfield,Bromley,0,0,D
+EC,12/08/2017,Tranmere,Sutton Utd,0,1,A
+EC,12/08/2017,Chester,FC Halifax Town,0,0,D
+EC,12/08/2017,Barrow,Woking,3,0,H
+EC,12/09/2017,Dag and Red,Sutton Utd,1,2,A
+EC,12/09/2017,Macclesfield,AFC Fylde,2,1,H
+EC,12/09/2017,Eastleigh,Maidstone Utd,0,1,A
+EC,12/09/2017,Gateshead,Chester,3,2,H
+EC,12/09/2017,Dover,Boreham Wood,0,1,A
+EC,12/09/2017,Bromley,Torquay,3,1,H
+EC,12/09/2017,Woking,Solihull,2,1,H
+EC,12/09/2017,Wrexham,Hartlepool,0,0,D
+EC,12/09/2017,Barrow,Guiseley AFC,0,0,D
+EC,12/09/2017,Maidenhead,Tranmere,1,0,H
+EC,12/09/2017,Ebbsfleet,Aldershot,0,2,A
+EC,12/09/2017,Leyton Orient,FC Halifax Town,0,3,A
+EC,12/12/2017,Torquay,Gateshead,1,1,D
+EC,13/01/2018,AFC Fylde,Guiseley AFC,2,1,H
+EC,13/01/2018,Woking,Tranmere,0,1,A
+EC,13/01/2018,Torquay,Eastleigh,1,2,A
+EC,13/02/2018,Guiseley AFC,Gateshead,0,1,A
+EC,13/02/2018,Barrow,Sutton Utd,1,1,D
+EC,13/03/2018,FC Halifax Town,Dag and Red,2,1,H
+EC,13/03/2018,Gateshead,Solihull,2,2,D
+EC,13/03/2018,Leyton Orient,Torquay,0,1,A
+EC,13/03/2018,Boreham Wood,Maidenhead,1,1,D
+EC,14/04/2018,Boreham Wood,Chester,4,2,H
+EC,14/04/2018,Torquay,FC Halifax Town,1,0,H
+EC,14/04/2018,Maidstone Utd,AFC Fylde,1,0,H
+EC,14/04/2018,Sutton Utd,Hartlepool,1,1,D
+EC,14/04/2018,Barrow,Ebbsfleet,0,1,A
+EC,14/04/2018,Woking,Bromley,0,2,A
+EC,14/04/2018,Wrexham,Dag and Red,1,2,A
+EC,14/04/2018,Tranmere,Aldershot,2,0,H
+EC,14/04/2018,Macclesfield,Leyton Orient,1,1,D
+EC,14/04/2018,Maidenhead,Dover,3,2,H
+EC,14/04/2018,Solihull,Guiseley AFC,3,1,H
+EC,14/04/2018,Gateshead,Eastleigh,2,0,H
+EC,15/08/2017,FC Halifax Town,Dover,1,2,A
+EC,15/08/2017,Sutton Utd,Macclesfield,2,1,H
+EC,15/08/2017,Solihull,Barrow,3,3,D
+EC,15/08/2017,Bromley,Leyton Orient,6,1,H
+EC,15/08/2017,Torquay,Boreham Wood,2,4,A
+EC,15/08/2017,Maidstone Utd,Aldershot,1,1,D
+EC,15/08/2017,Woking,Eastleigh,2,1,H
+EC,15/08/2017,Dag and Red,Ebbsfleet,3,3,D
+EC,15/08/2017,Hartlepool,Chester,1,1,D
+EC,15/08/2017,Wrexham,Gateshead,1,0,H
+EC,15/08/2017,Guiseley AFC,Tranmere,0,0,D
+EC,15/08/2017,AFC Fylde,Maidenhead,1,4,A
+EC,16/09/2017,Barrow,Torquay,1,1,D
+EC,16/09/2017,Maidenhead,Boreham Wood,2,1,H
+EC,16/09/2017,Dag and Red,FC Halifax Town,3,1,H
+EC,16/09/2017,Eastleigh,AFC Fylde,2,2,D
+EC,16/09/2017,Gateshead,Aldershot,0,1,A
+EC,16/09/2017,Dover,Chester,4,0,H
+EC,16/09/2017,Bromley,Solihull,1,0,H
+EC,16/09/2017,Macclesfield,Maidstone Utd,1,4,A
+EC,16/09/2017,Leyton Orient,Hartlepool,1,2,A
+EC,16/09/2017,Woking,Sutton Utd,2,0,H
+EC,16/09/2017,Wrexham,Guiseley AFC,1,1,D
+EC,16/09/2017,Ebbsfleet,Tranmere,0,0,D
+EC,17/02/2018,Torquay,Dag and Red,0,3,A
+EC,17/02/2018,FC Halifax Town,Ebbsfleet,1,2,A
+EC,17/02/2018,Boreham Wood,Gateshead,2,1,H
+EC,17/02/2018,AFC Fylde,Leyton Orient,0,1,A
+EC,17/02/2018,Hartlepool,Woking,3,2,H
+EC,17/02/2018,Tranmere,Bromley,1,0,H
+EC,17/02/2018,Aldershot,Macclesfield,1,2,A
+EC,17/02/2018,Chester,Eastleigh,3,1,H
+EC,17/02/2018,Guiseley AFC,Maidenhead,1,3,A
+EC,17/02/2018,Maidstone Utd,Barrow,0,1,A
+EC,17/02/2018,Solihull,Dover,3,2,H
+EC,17/02/2018,Sutton Utd,Wrexham,1,1,D
+EC,17/03/2018,AFC Fylde,Hartlepool,3,3,D
+EC,17/03/2018,Maidenhead,Barrow,0,1,A
+EC,17/03/2018,Eastleigh,Leyton Orient,0,0,D
+EC,17/03/2018,Solihull,Torquay,1,1,D
+EC,17/03/2018,Boreham Wood,Tranmere,2,1,H
+EC,17/03/2018,Dover,Macclesfield,2,0,H
+EC,17/03/2018,Chester,Aldershot,0,0,D
+EC,17/03/2018,Guiseley AFC,FC Halifax Town,1,1,D
+EC,17/03/2018,Woking,Wrexham,2,2,D
+EC,17/03/2018,Maidstone Utd,Sutton Utd,1,0,H
+EC,17/04/2018,Maidenhead,Sutton Utd,2,1,H
+EC,17/04/2018,Hartlepool,Leyton Orient,1,0,H
+EC,17/04/2018,Eastleigh,Ebbsfleet,0,1,A
+EC,17/04/2018,Dover,Tranmere,0,1,A
+EC,17/04/2018,Bromley,Dag and Red,3,1,H
+EC,17/04/2018,Aldershot,Gateshead,1,0,H
+EC,17/04/2018,Guiseley AFC,Barrow,0,1,A
+EC,18/11/2017,Woking,Maidenhead,1,1,D
+EC,18/11/2017,Sutton Utd,FC Halifax Town,3,2,H
+EC,18/11/2017,Macclesfield,Boreham Wood,0,0,D
+EC,18/11/2017,Dag and Red,Guiseley AFC,3,2,H
+EC,18/11/2017,Eastleigh,Barrow,0,2,A
+EC,18/11/2017,Gateshead,Tranmere,1,0,H
+EC,18/11/2017,Maidstone Utd,Solihull,1,1,D
+EC,18/11/2017,Bromley,Chester,1,1,D
+EC,18/11/2017,AFC Fylde,Torquay,2,0,H
+EC,18/11/2017,Wrexham,Ebbsfleet,2,0,H
+EC,18/11/2017,Hartlepool,Aldershot,0,2,A
+EC,18/11/2017,Leyton Orient,Dover,1,1,D
+EC,19/04/2018,Guiseley AFC,Dag and Red,3,5,A
+EC,19/08/2017,AFC Fylde,Dag and Red,2,2,D
+EC,19/08/2017,Woking,Leyton Orient,0,2,A
+EC,19/08/2017,Solihull,FC Halifax Town,0,1,A
+EC,19/08/2017,Maidstone Utd,Wrexham,2,1,H
+EC,19/08/2017,Guiseley AFC,Torquay,3,2,H
+EC,19/08/2017,Gateshead,Macclesfield,3,0,H
+EC,19/08/2017,Eastleigh,Tranmere,2,0,H
+EC,19/08/2017,Chester,Sutton Utd,2,3,A
+EC,19/08/2017,Maidenhead,Ebbsfleet,1,1,D
+EC,19/08/2017,Bromley,Hartlepool,2,0,H
+EC,19/08/2017,Boreham Wood,Aldershot,2,1,H
+EC,19/08/2017,Dover,Barrow,1,1,D
+EC,20/01/2018,Sutton Utd,Dag and Red,2,1,H
+EC,20/01/2018,Boreham Wood,Dover,2,3,A
+EC,20/01/2018,Tranmere,Maidenhead,3,2,H
+EC,20/01/2018,Solihull,Woking,3,0,H
+EC,20/01/2018,Chester,Gateshead,1,3,A
+EC,20/01/2018,AFC Fylde,Macclesfield,6,0,H
+EC,20/01/2018,Maidstone Utd,Eastleigh,2,3,A
+EC,20/01/2018,Hartlepool,Wrexham,0,2,A
+EC,20/01/2018,Aldershot,Ebbsfleet,0,0,D
+EC,20/01/2018,Torquay,Bromley,0,4,A
+EC,20/02/2018,Ebbsfleet,Woking,2,1,H
+EC,20/02/2018,Tranmere,Macclesfield,1,4,A
+EC,20/02/2018,Aldershot,Bromley,1,1,D
+EC,20/02/2018,Barrow,Gateshead,1,1,D
+EC,20/02/2018,Chester,Leyton Orient,0,1,A
+EC,20/02/2018,Guiseley AFC,AFC Fylde,1,0,H
+EC,20/02/2018,Dover,Dag and Red,1,0,H
+EC,20/02/2018,Boreham Wood,Maidstone Utd,1,0,H
+EC,20/02/2018,Solihull,Wrexham,0,0,D
+EC,20/02/2018,Maidenhead,Eastleigh,3,1,H
+EC,20/02/2018,FC Halifax Town,Hartlepool,2,0,H
+EC,20/02/2018,Torquay,Sutton Utd,2,3,A
+EC,20/03/2018,Solihull,Bromley,2,0,H
+EC,21/03/2018,Maidstone Utd,Macclesfield,2,2,D
+EC,21/03/2018,Barrow,Hartlepool,1,2,A
+EC,21/04/2018,Dag and Red,Maidenhead,1,0,H
+EC,21/04/2018,Guiseley AFC,Woking,1,2,A
+EC,21/04/2018,Eastleigh,Macclesfield,0,2,A
+EC,21/04/2018,AFC Fylde,Solihull,1,1,D
+EC,21/04/2018,Ebbsfleet,Sutton Utd,0,1,A
+EC,21/04/2018,FC Halifax Town,Tranmere,0,2,A
+EC,21/04/2018,Bromley,Boreham Wood,3,2,H
+EC,21/04/2018,Aldershot,Barrow,1,1,D
+EC,21/04/2018,Leyton Orient,Wrexham,1,0,H
+EC,21/04/2018,Hartlepool,Torquay,1,1,D
+EC,21/04/2018,Chester,Maidstone Utd,1,3,A
+EC,21/04/2018,Dover,Gateshead,3,2,H
+EC,21/10/2017,FC Halifax Town,Torquay,1,1,D
+EC,21/10/2017,Hartlepool,Sutton Utd,1,1,D
+EC,21/10/2017,Leyton Orient,Macclesfield,0,1,A
+EC,21/10/2017,Aldershot,Tranmere,2,1,H
+EC,21/10/2017,Chester,Boreham Wood,1,2,A
+EC,21/10/2017,Eastleigh,Gateshead,3,2,H
+EC,21/10/2017,Guiseley AFC,Solihull,4,2,H
+EC,21/10/2017,Dover,Maidenhead,1,1,D
+EC,21/10/2017,Bromley,Woking,2,0,H
+EC,21/10/2017,Ebbsfleet,Barrow,3,2,H
+EC,21/10/2017,Dag and Red,Wrexham,0,1,A
+EC,21/11/2017,Woking,Ebbsfleet,1,0,H
+EC,21/11/2017,Wrexham,Solihull,1,0,H
+EC,21/11/2017,Eastleigh,Maidenhead,2,2,D
+EC,21/11/2017,Macclesfield,Tranmere,2,2,D
+EC,21/11/2017,Leyton Orient,Chester,2,2,D
+EC,21/11/2017,Hartlepool,FC Halifax Town,4,0,H
+EC,21/11/2017,Gateshead,Barrow,1,2,A
+EC,21/11/2017,Dag and Red,Dover,1,0,H
+EC,21/11/2017,Sutton Utd,Torquay,0,1,A
+EC,21/11/2017,Maidstone Utd,Boreham Wood,0,4,A
+EC,23/01/2018,Chester,Hartlepool,1,1,D
+EC,23/01/2018,Gateshead,Woking,1,1,D
+EC,23/01/2018,AFC Fylde,Maidstone Utd,3,0,H
+EC,23/09/2017,Sutton Utd,Barrow,3,2,H
+EC,23/09/2017,Solihull,Dag and Red,2,2,D
+EC,23/09/2017,Boreham Wood,Ebbsfleet,0,1,A
+EC,23/09/2017,Hartlepool,Eastleigh,1,2,A
+EC,23/09/2017,Maidstone Utd,Gateshead,2,2,D
+EC,23/09/2017,Torquay,Macclesfield,0,1,A
+EC,23/09/2017,Chester,Maidenhead,2,0,H
+EC,23/09/2017,AFC Fylde,Woking,1,2,A
+EC,23/09/2017,Tranmere,Wrexham,0,1,A
+EC,23/09/2017,FC Halifax Town,Bromley,2,1,H
+EC,23/09/2017,Aldershot,Leyton Orient,2,2,D
+EC,23/09/2017,Guiseley AFC,Dover,1,1,D
+EC,23/12/2017,Solihull,Boreham Wood,0,0,D
+EC,23/12/2017,Guiseley AFC,Aldershot,1,1,D
+EC,23/12/2017,Dag and Red,Eastleigh,1,2,A
+EC,23/12/2017,Maidstone Utd,Leyton Orient,0,2,A
+EC,23/12/2017,Bromley,Macclesfield,1,1,D
+EC,23/12/2017,Sutton Utd,Tranmere,1,3,A
+EC,23/12/2017,Wrexham,Dover,0,0,D
+EC,23/12/2017,Hartlepool,Maidenhead,1,2,A
+EC,23/12/2017,AFC Fylde,Ebbsfleet,1,1,D
+EC,23/12/2017,FC Halifax Town,Chester,4,0,H
+EC,23/12/2017,Woking,Barrow,1,2,A
+EC,24/02/2018,AFC Fylde,Dover,3,1,H
+EC,24/02/2018,Wrexham,Aldershot,2,2,D
+EC,24/02/2018,Woking,Boreham Wood,0,0,D
+EC,24/02/2018,Sutton Utd,Guiseley AFC,4,0,H
+EC,24/02/2018,Maidstone Utd,Tranmere,2,3,A
+EC,24/02/2018,Eastleigh,FC Halifax Town,0,0,D
+EC,24/02/2018,Dag and Red,Chester,3,2,H
+EC,24/02/2018,Macclesfield,Maidenhead,1,0,H
+EC,24/02/2018,Hartlepool,Ebbsfleet,0,1,A
+EC,24/03/2018,Wrexham,Maidstone Utd,1,0,H
+EC,24/03/2018,Ebbsfleet,Maidenhead,1,1,D
+EC,24/03/2018,Sutton Utd,Chester,3,2,H
+EC,24/03/2018,Dag and Red,AFC Fylde,2,0,H
+EC,24/03/2018,FC Halifax Town,Solihull,0,0,D
+EC,24/03/2018,Barrow,Dover,0,0,D
+EC,24/03/2018,Aldershot,Boreham Wood,2,0,H
+EC,24/03/2018,Leyton Orient,Woking,3,0,H
+EC,24/03/2018,Tranmere,Eastleigh,3,1,H
+EC,24/04/2018,Bromley,Barrow,0,0,D
+EC,24/04/2018,Gateshead,Ebbsfleet,2,5,A
+EC,24/04/2018,Tranmere,Solihull,1,2,A
+EC,24/04/2018,Leyton Orient,Maidenhead,0,1,A
+EC,24/04/2018,Torquay,Guiseley AFC,3,4,A
+EC,24/10/2017,FC Halifax Town,Maidstone Utd,0,2,A
+EC,24/10/2017,Bromley,Maidenhead,2,3,A
+EC,24/10/2017,Ebbsfleet,Torquay,0,1,A
+EC,24/10/2017,AFC Fylde,Wrexham,2,0,H
+EC,24/10/2017,Dover,Woking,3,1,H
+EC,24/10/2017,Hartlepool,Tranmere,1,1,D
+EC,24/10/2017,Leyton Orient,Gateshead,0,2,A
+EC,24/10/2017,Aldershot,Sutton Utd,2,2,D
+EC,24/10/2017,Chester,Barrow,3,2,H
+EC,24/10/2017,Dag and Red,Macclesfield,1,0,H
+EC,24/10/2017,Eastleigh,Solihull,1,2,A
+EC,24/10/2017,Guiseley AFC,Boreham Wood,0,0,D
+EC,25/08/2017,Macclesfield,Dover,1,0,H
+EC,25/11/2017,Barrow,Bromley,0,3,A
+EC,25/11/2017,Guiseley AFC,Sutton Utd,0,2,A
+EC,25/11/2017,Torquay,Leyton Orient,3,0,H
+EC,25/11/2017,Dover,AFC Fylde,0,1,A
+EC,25/11/2017,Boreham Wood,Woking,2,1,H
+EC,25/11/2017,Ebbsfleet,Hartlepool,3,0,H
+EC,25/11/2017,Maidenhead,Macclesfield,1,1,D
+EC,25/11/2017,Chester,Dag and Red,0,4,A
+EC,25/11/2017,FC Halifax Town,Eastleigh,3,3,D
+EC,25/11/2017,Aldershot,Wrexham,2,0,H
+EC,25/11/2017,Solihull,Gateshead,1,1,D
+EC,25/11/2017,Tranmere,Maidstone Utd,4,0,H
+EC,26/08/2017,Torquay,Solihull,1,2,A
+EC,26/08/2017,Dag and Red,Bromley,5,1,H
+EC,26/08/2017,Barrow,Maidenhead,1,1,D
+EC,26/08/2017,Aldershot,Chester,1,2,A
+EC,26/08/2017,Tranmere,Boreham Wood,2,2,D
+EC,26/08/2017,Leyton Orient,Eastleigh,1,1,D
+EC,26/08/2017,Hartlepool,AFC Fylde,0,2,A
+EC,26/08/2017,FC Halifax Town,Guiseley AFC,2,0,H
+EC,26/08/2017,Wrexham,Woking,1,0,H
+EC,26/08/2017,Ebbsfleet,Gateshead,0,0,D
+EC,26/08/2017,Sutton Utd,Maidstone Utd,1,3,A
+EC,26/12/2017,Leyton Orient,Dag and Red,2,0,H
+EC,26/12/2017,Ebbsfleet,Bromley,2,1,H
+EC,26/12/2017,Maidenhead,Solihull,1,0,H
+EC,26/12/2017,Dover,Maidstone Utd,2,2,D
+EC,26/12/2017,Boreham Wood,Sutton Utd,0,4,A
+EC,26/12/2017,Chester,Guiseley AFC,0,2,A
+EC,26/12/2017,Macclesfield,FC Halifax Town,2,1,H
+EC,26/12/2017,Tranmere,AFC Fylde,4,1,H
+EC,26/12/2017,Aldershot,Woking,3,1,H
+EC,26/12/2017,Barrow,Wrexham,1,1,D
+EC,26/12/2017,Eastleigh,Torquay,1,1,D
+EC,26/12/2017,Gateshead,Hartlepool,2,2,D
+EC,27/01/2018,Ebbsfleet,Boreham Wood,0,3,A
+EC,27/01/2018,Maidenhead,Chester,3,0,H
+EC,27/01/2018,Wrexham,Tranmere,2,2,D
+EC,27/01/2018,Bromley,FC Halifax Town,3,0,H
+EC,27/01/2018,Dover,Guiseley AFC,2,1,H
+EC,27/01/2018,Leyton Orient,Aldershot,2,3,A
+EC,27/01/2018,Macclesfield,Torquay,1,1,D
+EC,27/01/2018,Dag and Red,Solihull,1,3,A
+EC,27/01/2018,Eastleigh,Hartlepool,4,3,H
+EC,27/01/2018,Gateshead,Maidstone Utd,2,1,H
+EC,27/01/2018,Woking,AFC Fylde,1,0,H
+EC,27/03/2018,Eastleigh,Dover,2,1,H
+EC,27/03/2018,Hartlepool,Bromley,2,1,H
+EC,27/03/2018,Macclesfield,Gateshead,1,0,H
+EC,28/04/2018,Woking,Dover,1,2,A
+EC,28/04/2018,Sutton Utd,Aldershot,2,1,H
+EC,28/04/2018,Solihull,Eastleigh,1,4,A
+EC,28/04/2018,Boreham Wood,Guiseley AFC,3,1,H
+EC,28/04/2018,Macclesfield,Dag and Red,2,0,H
+EC,28/04/2018,Maidstone Utd,FC Halifax Town,0,0,D
+EC,28/04/2018,Gateshead,Leyton Orient,1,3,A
+EC,28/04/2018,Barrow,Chester,1,2,A
+EC,28/04/2018,Torquay,Ebbsfleet,1,1,D
+EC,28/04/2018,Tranmere,Hartlepool,1,2,A
+EC,28/04/2018,Maidenhead,Bromley,5,2,H
+EC,28/04/2018,Wrexham,AFC Fylde,0,0,D
+EC,28/08/2017,Bromley,Sutton Utd,0,1,A
+EC,28/08/2017,Maidenhead,Leyton Orient,0,1,A
+EC,28/08/2017,AFC Fylde,Barrow,1,0,H
+EC,28/08/2017,Boreham Wood,Wrexham,0,1,A
+EC,28/08/2017,Dover,Ebbsfleet,1,1,D
+EC,28/08/2017,Maidstone Utd,Dag and Red,0,0,D
+EC,28/08/2017,Guiseley AFC,Hartlepool,0,1,A
+EC,28/08/2017,Woking,Torquay,4,1,H
+EC,28/08/2017,Eastleigh,Aldershot,0,0,D
+EC,28/08/2017,Chester,Macclesfield,0,2,A
+EC,28/08/2017,Gateshead,FC Halifax Town,0,0,D
+EC,28/08/2017,Solihull,Tranmere,0,2,A
+EC,28/10/2017,Boreham Wood,Bromley,2,2,D
+EC,28/10/2017,Torquay,Hartlepool,0,2,A
+EC,28/10/2017,Maidstone Utd,Chester,1,0,H
+EC,28/10/2017,Gateshead,Dover,0,0,D
+EC,28/10/2017,Sutton Utd,Ebbsfleet,0,0,D
+EC,28/10/2017,Woking,Guiseley AFC,2,3,A
+EC,28/10/2017,Wrexham,Leyton Orient,2,2,D
+EC,28/10/2017,Maidenhead,Dag and Red,1,1,D
+EC,28/10/2017,Barrow,Aldershot,3,1,H
+EC,28/10/2017,Tranmere,FC Halifax Town,4,2,H
+EC,28/10/2017,Macclesfield,Eastleigh,1,2,A
+EC,28/10/2017,Solihull,AFC Fylde,0,4,A
+EC,28/11/2017,Bromley,Aldershot,0,2,A
+EC,30/01/2018,Gateshead,Wrexham,0,0,D
+EC,30/01/2018,FC Halifax Town,Leyton Orient,1,2,A
+EC,30/03/2018,Woking,Macclesfield,2,3,A
+EC,30/03/2018,Maidstone Utd,Hartlepool,1,2,A
+EC,30/03/2018,AFC Fylde,FC Halifax Town,2,0,H
+EC,30/03/2018,Guiseley AFC,Leyton Orient,1,3,A
+EC,30/03/2018,Gateshead,Dag and Red,0,0,D
+EC,30/03/2018,Chester,Torquay,0,2,A
+EC,30/03/2018,Solihull,Aldershot,0,0,D
+EC,30/03/2018,Boreham Wood,Barrow,0,0,D
+EC,30/03/2018,Bromley,Wrexham,1,1,D
+EC,30/09/2017,Maidenhead,Guiseley AFC,3,0,H
+EC,30/09/2017,Leyton Orient,AFC Fylde,1,2,A
+EC,30/09/2017,Wrexham,Sutton Utd,1,1,D
+EC,30/09/2017,Woking,Hartlepool,1,1,D
+EC,30/09/2017,Bromley,Tranmere,0,1,A
+EC,30/09/2017,Dover,Solihull,1,0,H
+EC,30/09/2017,Gateshead,Boreham Wood,1,1,D
+EC,30/09/2017,Ebbsfleet,FC Halifax Town,2,0,H
+EC,30/09/2017,Macclesfield,Aldershot,2,0,H
+EC,30/09/2017,Dag and Red,Torquay,1,0,H
+EC,30/09/2017,Barrow,Maidstone Utd,0,1,A
+EC,30/12/2017,Ebbsfleet,Dag and Red,1,1,D
+EC,30/12/2017,Maidenhead,AFC Fylde,1,2,A
+EC,30/12/2017,Boreham Wood,Torquay,2,0,H
+EC,30/12/2017,Dover,FC Halifax Town,0,0,D
+EC,30/12/2017,Eastleigh,Woking,2,2,D
+EC,30/12/2017,Barrow,Solihull,1,2,A
+EC,30/12/2017,Tranmere,Guiseley AFC,4,0,H
+EC,30/12/2017,Macclesfield,Sutton Utd,1,0,H
+EC,30/12/2017,Leyton Orient,Bromley,0,1,A
+EC,30/12/2017,Aldershot,Maidstone Utd,1,1,D

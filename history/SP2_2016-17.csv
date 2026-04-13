@@ -1,0 +1,468 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SP2,01/04/2017,Girona,Rayo Vallecano,1,3,A
+SP2,01/04/2017,Ucam Murcia,Cadiz,1,1,D
+SP2,01/04/2017,Levante,Mirandes,2,1,H
+SP2,01/04/2017,Huesca,Getafe,0,0,D
+SP2,01/05/2017,Gimnastic,Reus,0,1,A
+SP2,01/05/2017,Huesca,Rayo Vallecano,2,0,H
+SP2,01/10/2016,Alcorcon,Elche,1,0,H
+SP2,01/10/2016,Huesca,Almeria,2,0,H
+SP2,01/10/2016,Gimnastic,Sevilla Atletico,1,1,D
+SP2,01/10/2016,Lugo,Mallorca,3,1,H
+SP2,01/10/2016,Zaragoza,Cordoba,1,1,D
+SP2,02/04/2017,Lugo,Reus,1,0,H
+SP2,02/04/2017,Gimnastic,Almeria,0,1,A
+SP2,02/04/2017,Zaragoza,Valladolid,1,1,D
+SP2,02/04/2017,Cordoba,Elche,1,0,H
+SP2,02/04/2017,Tenerife,Oviedo,1,0,H
+SP2,02/06/2017,Lugo,Levante,1,0,H
+SP2,02/09/2016,Sevilla Atletico,Ucam Murcia,1,1,D
+SP2,02/09/2016,Cordoba,Lugo,3,3,D
+SP2,02/10/2016,Rayo Vallecano,Cadiz,3,0,H
+SP2,02/10/2016,Tenerife,Getafe,0,0,D
+SP2,02/10/2016,Girona,Reus,1,0,H
+SP2,02/10/2016,Levante,Valladolid,3,2,H
+SP2,02/10/2016,Oviedo,Numancia,2,2,D
+SP2,02/10/2016,Ucam Murcia,Mirandes,2,2,D
+SP2,02/12/2016,Getafe,Sevilla Atletico,2,0,H
+SP2,03/02/2017,Ucam Murcia,Sevilla Atletico,1,0,H
+SP2,03/03/2017,Tenerife,Mirandes,1,1,D
+SP2,03/04/2017,Sevilla Atletico,Numancia,1,1,D
+SP2,03/09/2016,Mirandes,Cadiz,3,2,H
+SP2,03/09/2016,Getafe,Reus,1,1,D
+SP2,03/09/2016,Valladolid,Girona,2,1,H
+SP2,03/09/2016,Almeria,Rayo Vallecano,3,0,H
+SP2,03/09/2016,Elche,Tenerife,3,1,H
+SP2,03/12/2016,Cadiz,Zaragoza,3,0,H
+SP2,03/12/2016,Numancia,Almeria,1,0,H
+SP2,03/12/2016,Mirandes,Elche,1,0,H
+SP2,03/12/2016,Ucam Murcia,Lugo,1,2,A
+SP2,04/02/2017,Huesca,Zaragoza,2,3,A
+SP2,04/02/2017,Lugo,Cordoba,1,0,H
+SP2,04/02/2017,Alcorcon,Numancia,2,3,A
+SP2,04/02/2017,Cadiz,Mirandes,2,1,H
+SP2,04/02/2017,Tenerife,Elche,2,0,H
+SP2,04/03/2017,Alcorcon,Sevilla Atletico,0,0,D
+SP2,04/03/2017,Girona,Getafe,5,1,H
+SP2,04/03/2017,Rayo Vallecano,Reus,0,0,D
+SP2,04/03/2017,Oviedo,Cadiz,2,1,H
+SP2,04/06/2017,Oviedo,Sevilla Atletico,1,0,H
+SP2,04/06/2017,Ucam Murcia,Alcorcon,0,1,A
+SP2,04/06/2017,Getafe,Almeria,4,0,H
+SP2,04/06/2017,Girona,Zaragoza,0,0,D
+SP2,04/06/2017,Tenerife,Gimnastic,0,1,A
+SP2,04/06/2017,Cadiz,Elche,2,1,H
+SP2,04/06/2017,Huesca,Numancia,0,0,D
+SP2,04/06/2017,Rayo Vallecano,Cordoba,1,2,A
+SP2,04/06/2017,Reus,Valladolid,2,0,H
+SP2,04/06/2017,Mirandes,Mallorca,2,2,D
+SP2,04/09/2016,Gimnastic,Levante,1,1,D
+SP2,04/09/2016,Mallorca,Oviedo,0,0,D
+SP2,04/09/2016,Zaragoza,Huesca,1,0,H
+SP2,04/09/2016,Numancia,Alcorcon,1,1,D
+SP2,04/12/2016,Oviedo,Gimnastic,1,0,H
+SP2,04/12/2016,Reus,Cordoba,1,2,A
+SP2,04/12/2016,Tenerife,Huesca,1,1,D
+SP2,04/12/2016,Rayo Vallecano,Alcorcon,2,0,H
+SP2,04/12/2016,Mallorca,Valladolid,0,3,A
+SP2,04/12/2016,Girona,Levante,2,1,H
+SP2,05/02/2017,Reus,Getafe,1,1,D
+SP2,05/02/2017,Girona,Valladolid,2,1,H
+SP2,05/02/2017,Rayo Vallecano,Almeria,1,0,H
+SP2,05/02/2017,Oviedo,Mallorca,2,1,H
+SP2,05/02/2017,Levante,Gimnastic,2,1,H
+SP2,05/03/2017,Ucam Murcia,Mallorca,1,1,D
+SP2,05/03/2017,Huesca,Valladolid,1,0,H
+SP2,05/03/2017,Levante,Elche,2,1,H
+SP2,05/03/2017,Lugo,Almeria,1,2,A
+SP2,05/03/2017,Zaragoza,Numancia,3,0,H
+SP2,05/03/2017,Gimnastic,Cordoba,2,1,H
+SP2,05/05/2017,Oviedo,Alcorcon,0,1,A
+SP2,05/11/2016,Valladolid,Sevilla Atletico,2,0,H
+SP2,05/11/2016,Cadiz,Huesca,1,0,H
+SP2,05/11/2016,Girona,Tenerife,1,1,D
+SP2,05/11/2016,Rayo Vallecano,Ucam Murcia,0,1,A
+SP2,05/11/2016,Mallorca,Zaragoza,2,2,D
+SP2,06/01/2017,Numancia,Huesca,0,0,D
+SP2,06/01/2017,Almeria,Getafe,0,1,A
+SP2,06/01/2017,Valladolid,Reus,1,0,H
+SP2,06/01/2017,Mallorca,Mirandes,2,0,H
+SP2,06/05/2017,Numancia,Ucam Murcia,1,0,H
+SP2,06/05/2017,Rayo Vallecano,Levante,2,1,H
+SP2,06/05/2017,Girona,Huesca,3,1,H
+SP2,06/05/2017,Mallorca,Elche,1,0,H
+SP2,06/11/2016,Mirandes,Gimnastic,0,1,A
+SP2,06/11/2016,Numancia,Elche,2,2,D
+SP2,06/11/2016,Getafe,Alcorcon,1,0,H
+SP2,06/11/2016,Reus,Levante,0,1,A
+SP2,06/11/2016,Almeria,Cordoba,3,1,H
+SP2,06/11/2016,Oviedo,Lugo,1,1,D
+SP2,07/01/2017,Levante,Lugo,1,0,H
+SP2,07/01/2017,Cordoba,Rayo Vallecano,0,0,D
+SP2,07/04/2017,Mirandes,Alcorcon,2,0,H
+SP2,07/05/2017,Cadiz,Gimnastic,0,0,D
+SP2,07/05/2017,Getafe,Cordoba,2,0,H
+SP2,07/05/2017,Mirandes,Sevilla Atletico,0,1,A
+SP2,07/05/2017,Tenerife,Lugo,2,1,H
+SP2,07/05/2017,Reus,Zaragoza,1,0,H
+SP2,07/05/2017,Almeria,Valladolid,0,3,A
+SP2,08/01/2017,Zaragoza,Girona,0,2,A
+SP2,08/01/2017,Gimnastic,Tenerife,1,1,D
+SP2,08/01/2017,Alcorcon,Ucam Murcia,0,0,D
+SP2,08/01/2017,Elche,Cadiz,2,3,A
+SP2,08/01/2017,Sevilla Atletico,Oviedo,5,3,H
+SP2,08/04/2017,Rayo Vallecano,Tenerife,1,1,D
+SP2,08/04/2017,Mallorca,Gimnastic,0,0,D
+SP2,08/04/2017,Getafe,Levante,2,0,H
+SP2,08/04/2017,Cadiz,Lugo,1,1,D
+SP2,08/10/2016,Reus,Tenerife,0,0,D
+SP2,08/10/2016,Getafe,Ucam Murcia,2,0,H
+SP2,08/10/2016,Numancia,Cordoba,1,1,D
+SP2,08/10/2016,Valladolid,Alcorcon,2,0,H
+SP2,08/10/2016,Elche,Gimnastic,4,4,D
+SP2,08/10/2016,Sevilla Atletico,Zaragoza,2,1,H
+SP2,09/04/2017,Elche,Sevilla Atletico,3,2,H
+SP2,09/04/2017,Oviedo,Ucam Murcia,2,0,H
+SP2,09/04/2017,Numancia,Girona,0,2,A
+SP2,09/04/2017,Reus,Huesca,0,1,A
+SP2,09/04/2017,Almeria,Zaragoza,2,2,D
+SP2,09/04/2017,Valladolid,Cordoba,2,1,H
+SP2,09/06/2017,Sevilla Atletico,Rayo Vallecano,1,2,A
+SP2,09/10/2016,Almeria,Levante,2,2,D
+SP2,09/10/2016,Mirandes,Lugo,2,2,D
+SP2,09/10/2016,Mallorca,Huesca,3,0,H
+SP2,09/10/2016,Cadiz,Girona,0,0,D
+SP2,09/10/2016,Oviedo,Rayo Vallecano,2,0,H
+SP2,09/12/2016,Sevilla Atletico,Reus,0,1,A
+SP2,10/02/2017,Sevilla Atletico,Lugo,1,1,D
+SP2,10/03/2017,Elche,Alcorcon,0,0,D
+SP2,10/06/2017,Elche,Oviedo,0,2,A
+SP2,10/06/2017,Mallorca,Getafe,3,3,D
+SP2,10/06/2017,Zaragoza,Tenerife,1,2,A
+SP2,10/06/2017,Almeria,Reus,1,0,H
+SP2,10/06/2017,Valladolid,Cadiz,1,0,H
+SP2,10/06/2017,Alcorcon,Lugo,3,0,H
+SP2,10/06/2017,Levante,Huesca,1,2,A
+SP2,10/06/2017,Cordoba,Girona,2,1,H
+SP2,10/06/2017,Gimnastic,Ucam Murcia,1,0,H
+SP2,10/09/2016,Lugo,Sevilla Atletico,1,0,H
+SP2,10/09/2016,Tenerife,Valladolid,1,0,H
+SP2,10/09/2016,Levante,Zaragoza,4,2,H
+SP2,10/09/2016,Reus,Numancia,1,1,D
+SP2,10/12/2016,Gimnastic,Rayo Vallecano,0,1,A
+SP2,10/12/2016,Huesca,Ucam Murcia,5,2,H
+SP2,10/12/2016,Elche,Getafe,2,2,D
+SP2,10/12/2016,Levante,Tenerife,1,0,H
+SP2,11/01/2017,Ucam Murcia,Levante,0,2,A
+SP2,11/02/2017,Getafe,Cadiz,3,2,H
+SP2,11/02/2017,Zaragoza,Levante,0,1,A
+SP2,11/02/2017,Gimnastic,Alcorcon,1,1,D
+SP2,11/02/2017,Almeria,Girona,0,0,D
+SP2,11/03/2017,Valladolid,Levante,0,4,A
+SP2,11/03/2017,Numancia,Oviedo,0,0,D
+SP2,11/03/2017,Mirandes,Ucam Murcia,1,1,D
+SP2,11/03/2017,Cordoba,Zaragoza,2,1,H
+SP2,11/03/2017,Mallorca,Lugo,1,1,D
+SP2,11/06/2017,Numancia,Mirandes,0,2,A
+SP2,11/09/2016,Girona,Almeria,3,3,D
+SP2,11/09/2016,Rayo Vallecano,Mallorca,1,0,H
+SP2,11/09/2016,Oviedo,Mirandes,0,0,D
+SP2,11/09/2016,Alcorcon,Gimnastic,1,0,H
+SP2,11/09/2016,Cadiz,Getafe,3,0,H
+SP2,11/09/2016,Huesca,Cordoba,3,0,H
+SP2,11/09/2016,Ucam Murcia,Elche,1,1,D
+SP2,11/11/2016,Cordoba,Mallorca,0,2,A
+SP2,11/12/2016,Valladolid,Mirandes,5,0,H
+SP2,11/12/2016,Lugo,Numancia,3,1,H
+SP2,11/12/2016,Alcorcon,Girona,2,1,H
+SP2,11/12/2016,Zaragoza,Oviedo,2,1,H
+SP2,11/12/2016,Almeria,Mallorca,2,1,H
+SP2,11/12/2016,Cordoba,Cadiz,1,3,A
+SP2,12/02/2017,Valladolid,Tenerife,0,0,D
+SP2,12/02/2017,Cordoba,Huesca,0,2,A
+SP2,12/02/2017,Numancia,Reus,1,0,H
+SP2,12/02/2017,Elche,Ucam Murcia,1,1,D
+SP2,12/02/2017,Mirandes,Oviedo,0,2,A
+SP2,12/02/2017,Mallorca,Rayo Vallecano,2,1,H
+SP2,12/03/2017,Almeria,Huesca,0,0,D
+SP2,12/03/2017,Sevilla Atletico,Gimnastic,2,2,D
+SP2,12/03/2017,Cadiz,Rayo Vallecano,1,0,H
+SP2,12/03/2017,Reus,Girona,1,2,A
+SP2,12/03/2017,Getafe,Tenerife,2,2,D
+SP2,12/05/2017,Zaragoza,Cadiz,1,1,D
+SP2,12/05/2017,Sevilla Atletico,Getafe,2,1,H
+SP2,12/11/2016,Huesca,Oviedo,4,0,H
+SP2,12/11/2016,Elche,Valladolid,2,0,H
+SP2,12/11/2016,Gimnastic,Getafe,1,0,H
+SP2,12/11/2016,Alcorcon,Reus,1,0,H
+SP2,12/11/2016,Tenerife,Numancia,1,1,D
+SP2,12/11/2016,Levante,Cadiz,0,0,D
+SP2,13/01/2017,Cadiz,Valladolid,0,1,A
+SP2,13/05/2017,Cordoba,Reus,1,0,H
+SP2,13/05/2017,Alcorcon,Rayo Vallecano,2,0,H
+SP2,13/05/2017,Levante,Girona,2,1,H
+SP2,13/05/2017,Elche,Mirandes,0,1,A
+SP2,13/05/2017,Huesca,Tenerife,2,2,D
+SP2,13/05/2017,Valladolid,Mallorca,2,1,H
+SP2,13/05/2017,Almeria,Numancia,2,0,H
+SP2,13/05/2017,Gimnastic,Oviedo,2,2,D
+SP2,13/11/2016,Zaragoza,Mirandes,2,0,H
+SP2,13/11/2016,Ucam Murcia,Girona,0,1,A
+SP2,13/11/2016,Sevilla Atletico,Almeria,1,0,H
+SP2,13/11/2016,Lugo,Rayo Vallecano,1,0,H
+SP2,14/01/2017,Ucam Murcia,Gimnastic,1,1,D
+SP2,14/01/2017,Mirandes,Numancia,0,3,A
+SP2,14/01/2017,Oviedo,Elche,2,1,H
+SP2,14/01/2017,Tenerife,Zaragoza,1,0,H
+SP2,14/01/2017,Rayo Vallecano,Sevilla Atletico,1,1,D
+SP2,14/05/2017,Lugo,Ucam Murcia,0,0,D
+SP2,14/06/2017,Huesca,Getafe,2,2,D
+SP2,14/12/2016,Levante,Rayo Vallecano,1,0,H
+SP2,15/01/2017,Reus,Almeria,1,0,H
+SP2,15/01/2017,Girona,Cordoba,2,0,H
+SP2,15/01/2017,Huesca,Levante,0,2,A
+SP2,15/01/2017,Lugo,Alcorcon,1,0,H
+SP2,15/01/2017,Getafe,Mallorca,1,1,D
+SP2,15/04/2017,Tenerife,Girona,3,3,D
+SP2,15/04/2017,Gimnastic,Mirandes,4,1,H
+SP2,15/04/2017,Elche,Numancia,1,3,A
+SP2,15/04/2017,Huesca,Cadiz,1,1,D
+SP2,15/06/2017,Cadiz,Tenerife,1,0,H
+SP2,15/10/2016,Lugo,Getafe,0,1,A
+SP2,15/10/2016,Girona,Oviedo,0,0,D
+SP2,15/10/2016,Alcorcon,Almeria,0,0,D
+SP2,15/10/2016,Huesca,Mirandes,3,0,H
+SP2,15/10/2016,Levante,Mallorca,2,1,H
+SP2,16/04/2017,Zaragoza,Mallorca,1,0,H
+SP2,16/04/2017,Lugo,Oviedo,2,1,H
+SP2,16/04/2017,Cordoba,Almeria,1,0,H
+SP2,16/04/2017,Alcorcon,Getafe,0,3,A
+SP2,16/04/2017,Sevilla Atletico,Valladolid,6,2,H
+SP2,16/04/2017,Ucam Murcia,Rayo Vallecano,0,1,A
+SP2,16/10/2016,Tenerife,Cadiz,1,1,D
+SP2,16/10/2016,Cordoba,Sevilla Atletico,0,1,A
+SP2,16/10/2016,Gimnastic,Valladolid,1,2,A
+SP2,16/10/2016,Zaragoza,Elche,1,3,A
+SP2,16/10/2016,Rayo Vallecano,Numancia,3,3,D
+SP2,16/10/2016,Ucam Murcia,Reus,0,2,A
+SP2,16/12/2016,Reus,Elche,0,1,A
+SP2,17/02/2017,Lugo,Elche,1,2,A
+SP2,17/03/2017,Gimnastic,Elche,1,3,A
+SP2,17/04/2017,Levante,Reus,0,0,D
+SP2,17/06/2017,Getafe,Huesca,3,0,H
+SP2,17/09/2016,Cordoba,Levante,1,0,H
+SP2,17/09/2016,Numancia,Gimnastic,1,0,H
+SP2,17/09/2016,Reus,Cadiz,1,0,H
+SP2,17/09/2016,Elche,Lugo,0,3,A
+SP2,17/09/2016,Zaragoza,Alcorcon,2,0,H
+SP2,17/09/2016,Valladolid,Ucam Murcia,0,1,A
+SP2,17/12/2016,Lugo,Huesca,1,1,D
+SP2,17/12/2016,Oviedo,Cordoba,1,2,A
+SP2,17/12/2016,Tenerife,Alcorcon,2,0,H
+SP2,17/12/2016,Girona,Gimnastic,4,2,H
+SP2,17/12/2016,Getafe,Valladolid,3,1,H
+SP2,18/02/2017,Girona,Mallorca,1,0,H
+SP2,18/02/2017,Tenerife,Almeria,1,0,H
+SP2,18/02/2017,Gimnastic,Numancia,2,0,H
+SP2,18/02/2017,Ucam Murcia,Valladolid,1,3,A
+SP2,18/02/2017,Levante,Cordoba,3,1,H
+SP2,18/03/2017,Cordoba,Numancia,0,0,D
+SP2,18/03/2017,Zaragoza,Sevilla Atletico,1,2,A
+SP2,18/03/2017,Ucam Murcia,Getafe,2,0,H
+SP2,18/03/2017,Huesca,Mallorca,2,1,H
+SP2,18/03/2017,Lugo,Mirandes,2,1,H
+SP2,18/09/2016,Almeria,Tenerife,0,1,A
+SP2,18/09/2016,Mirandes,Rayo Vallecano,2,1,H
+SP2,18/09/2016,Sevilla Atletico,Huesca,2,0,H
+SP2,18/09/2016,Mallorca,Girona,1,0,H
+SP2,18/09/2016,Getafe,Oviedo,2,1,H
+SP2,18/11/2016,Almeria,Elche,2,1,H
+SP2,18/12/2016,Mirandes,Almeria,2,1,H
+SP2,18/12/2016,Rayo Vallecano,Zaragoza,1,2,A
+SP2,18/12/2016,Cadiz,Sevilla Atletico,4,1,H
+SP2,18/12/2016,Numancia,Mallorca,3,1,H
+SP2,19/02/2017,Rayo Vallecano,Mirandes,1,2,A
+SP2,19/02/2017,Alcorcon,Zaragoza,1,1,D
+SP2,19/02/2017,Cadiz,Reus,0,0,D
+SP2,19/02/2017,Huesca,Sevilla Atletico,2,1,H
+SP2,19/02/2017,Oviedo,Getafe,2,1,H
+SP2,19/03/2017,Levante,Almeria,1,0,H
+SP2,19/03/2017,Rayo Vallecano,Oviedo,2,0,H
+SP2,19/03/2017,Girona,Cadiz,1,2,A
+SP2,19/03/2017,Tenerife,Reus,0,1,A
+SP2,19/03/2017,Alcorcon,Valladolid,1,2,A
+SP2,19/05/2017,Rayo Vallecano,Gimnastic,2,0,H
+SP2,19/05/2017,Getafe,Elche,2,0,H
+SP2,19/08/2016,Mirandes,Getafe,1,1,D
+SP2,19/08/2016,Almeria,Cadiz,1,1,D
+SP2,19/11/2016,Girona,Lugo,3,1,H
+SP2,19/11/2016,Mallorca,Sevilla Atletico,2,2,D
+SP2,19/11/2016,Oviedo,Levante,2,0,H
+SP2,19/11/2016,Numancia,Valladolid,2,1,H
+SP2,20/05/2017,Ucam Murcia,Huesca,3,1,H
+SP2,20/05/2017,Cadiz,Cordoba,1,1,D
+SP2,20/05/2017,Oviedo,Zaragoza,0,0,D
+SP2,20/05/2017,Mallorca,Almeria,1,0,H
+SP2,20/05/2017,Reus,Sevilla Atletico,2,1,H
+SP2,20/05/2017,Tenerife,Levante,0,0,D
+SP2,20/05/2017,Girona,Alcorcon,0,0,D
+SP2,20/08/2016,Mallorca,Reus,0,1,A
+SP2,20/08/2016,Elche,Rayo Vallecano,2,1,H
+SP2,20/08/2016,Alcorcon,Huesca,0,0,D
+SP2,20/08/2016,Cordoba,Tenerife,1,0,H
+SP2,20/09/2016,Cadiz,Numancia,1,0,H
+SP2,20/09/2016,Gimnastic,Zaragoza,0,0,D
+SP2,20/09/2016,Lugo,Valladolid,1,0,H
+SP2,20/09/2016,Alcorcon,Cordoba,0,1,A
+SP2,20/11/2016,Rayo Vallecano,Huesca,2,2,D
+SP2,20/11/2016,Reus,Gimnastic,1,0,H
+SP2,20/11/2016,Tenerife,Ucam Murcia,2,1,H
+SP2,20/11/2016,Cadiz,Alcorcon,4,1,H
+SP2,20/11/2016,Mirandes,Cordoba,1,1,D
+SP2,20/11/2016,Getafe,Zaragoza,1,0,H
+SP2,21/01/2017,Tenerife,Cordoba,2,0,H
+SP2,21/01/2017,Ucam Murcia,Zaragoza,1,0,H
+SP2,21/01/2017,Oviedo,Valladolid,1,0,H
+SP2,21/01/2017,Lugo,Gimnastic,2,3,A
+SP2,21/01/2017,Huesca,Alcorcon,0,1,A
+SP2,21/01/2017,Rayo Vallecano,Elche,1,1,D
+SP2,21/04/2017,Oviedo,Huesca,1,1,D
+SP2,21/05/2017,Numancia,Lugo,0,1,A
+SP2,21/05/2017,Mirandes,Valladolid,2,2,D
+SP2,21/06/2017,Tenerife,Getafe,1,0,H
+SP2,21/08/2016,Valladolid,Oviedo,1,0,H
+SP2,21/08/2016,Numancia,Levante,0,1,A
+SP2,21/08/2016,Gimnastic,Lugo,2,2,D
+SP2,21/08/2016,Sevilla Atletico,Girona,3,3,D
+SP2,21/09/2016,Levante,Sevilla Atletico,1,0,H
+SP2,21/09/2016,Huesca,Elche,0,3,A
+SP2,21/09/2016,Ucam Murcia,Almeria,4,0,H
+SP2,22/01/2017,Levante,Numancia,1,0,H
+SP2,22/01/2017,Cadiz,Almeria,1,0,H
+SP2,22/01/2017,Girona,Sevilla Atletico,2,0,H
+SP2,22/01/2017,Reus,Mallorca,1,1,D
+SP2,22/01/2017,Getafe,Mirandes,1,1,D
+SP2,22/04/2017,Valladolid,Elche,2,1,H
+SP2,22/04/2017,Getafe,Gimnastic,1,1,D
+SP2,22/04/2017,Cadiz,Levante,1,1,D
+SP2,22/04/2017,Rayo Vallecano,Lugo,2,0,H
+SP2,22/04/2017,Girona,Ucam Murcia,1,2,A
+SP2,22/08/2016,Zaragoza,Ucam Murcia,3,1,H
+SP2,22/09/2016,Tenerife,Mallorca,0,0,D
+SP2,22/09/2016,Rayo Vallecano,Getafe,2,0,H
+SP2,22/09/2016,Girona,Mirandes,1,1,D
+SP2,22/09/2016,Oviedo,Reus,0,1,A
+SP2,22/10/2016,Rayo Vallecano,Girona,1,0,H
+SP2,22/10/2016,Numancia,Sevilla Atletico,1,2,A
+SP2,22/10/2016,Reus,Lugo,2,1,H
+SP2,22/10/2016,Elche,Cordoba,1,1,D
+SP2,22/10/2016,Getafe,Huesca,1,1,D
+SP2,23/04/2017,Almeria,Sevilla Atletico,2,1,H
+SP2,23/04/2017,Reus,Alcorcon,0,0,D
+SP2,23/04/2017,Numancia,Tenerife,1,1,D
+SP2,23/04/2017,Mirandes,Zaragoza,0,1,A
+SP2,23/04/2017,Mallorca,Cordoba,1,1,D
+SP2,23/10/2016,Valladolid,Zaragoza,0,0,D
+SP2,23/10/2016,Mallorca,Alcorcon,1,0,H
+SP2,23/10/2016,Almeria,Gimnastic,3,0,H
+SP2,23/10/2016,Cadiz,Ucam Murcia,2,2,D
+SP2,23/10/2016,Mirandes,Levante,0,3,A
+SP2,23/10/2016,Oviedo,Tenerife,2,0,H
+SP2,24/02/2017,Reus,Oviedo,1,1,D
+SP2,24/06/2017,Getafe,Tenerife,3,1,H
+SP2,24/09/2016,Elche,Levante,0,1,A
+SP2,24/09/2016,Almeria,Lugo,0,0,D
+SP2,24/09/2016,Valladolid,Huesca,1,2,A
+SP2,24/09/2016,Cordoba,Gimnastic,2,0,H
+SP2,24/09/2016,Sevilla Atletico,Alcorcon,1,1,D
+SP2,25/02/2017,Cordoba,Alcorcon,1,0,H
+SP2,25/02/2017,Getafe,Rayo Vallecano,1,0,H
+SP2,25/02/2017,Mirandes,Girona,0,2,A
+SP2,25/02/2017,Mallorca,Tenerife,1,4,A
+SP2,25/02/2017,Elche,Huesca,1,1,D
+SP2,25/03/2017,Valladolid,Gimnastic,1,2,A
+SP2,25/03/2017,Numancia,Rayo Vallecano,0,0,D
+SP2,25/03/2017,Oviedo,Girona,2,0,H
+SP2,25/03/2017,Mallorca,Levante,1,1,D
+SP2,25/03/2017,Almeria,Alcorcon,3,1,H
+SP2,25/09/2016,Mallorca,Ucam Murcia,0,0,D
+SP2,25/09/2016,Cadiz,Oviedo,0,2,A
+SP2,25/09/2016,Mirandes,Tenerife,3,2,H
+SP2,25/09/2016,Getafe,Girona,0,2,A
+SP2,25/09/2016,Numancia,Zaragoza,2,1,H
+SP2,25/09/2016,Reus,Rayo Vallecano,1,1,D
+SP2,25/11/2016,Gimnastic,Cadiz,1,0,H
+SP2,26/02/2017,Zaragoza,Gimnastic,1,2,A
+SP2,26/02/2017,Sevilla Atletico,Levante,1,1,D
+SP2,26/02/2017,Valladolid,Lugo,1,1,D
+SP2,26/02/2017,Almeria,Ucam Murcia,2,3,A
+SP2,26/02/2017,Numancia,Cadiz,0,3,A
+SP2,26/03/2017,Mirandes,Huesca,1,3,A
+SP2,26/03/2017,Getafe,Lugo,2,0,H
+SP2,26/03/2017,Cadiz,Tenerife,0,1,A
+SP2,26/03/2017,Reus,Ucam Murcia,0,0,D
+SP2,26/03/2017,Sevilla Atletico,Cordoba,1,0,H
+SP2,26/03/2017,Elche,Zaragoza,0,3,A
+SP2,26/05/2017,Levante,Ucam Murcia,3,1,H
+SP2,26/08/2016,Getafe,Numancia,0,0,D
+SP2,26/08/2016,Tenerife,Sevilla Atletico,1,1,D
+SP2,26/11/2016,Ucam Murcia,Numancia,3,2,H
+SP2,26/11/2016,Zaragoza,Reus,2,2,D
+SP2,26/11/2016,Lugo,Tenerife,1,3,A
+SP2,26/11/2016,Alcorcon,Oviedo,5,1,H
+SP2,26/11/2016,Valladolid,Almeria,0,0,D
+SP2,27/01/2017,Elche,Girona,1,0,H
+SP2,27/05/2017,Almeria,Mirandes,2,0,H
+SP2,27/05/2017,Sevilla Atletico,Cadiz,3,3,D
+SP2,27/05/2017,Valladolid,Getafe,1,0,H
+SP2,27/05/2017,Huesca,Lugo,1,0,H
+SP2,27/08/2016,Lugo,Zaragoza,3,3,D
+SP2,27/08/2016,Girona,Elche,3,1,H
+SP2,27/08/2016,Reus,Mirandes,1,1,D
+SP2,27/08/2016,Oviedo,Almeria,2,0,H
+SP2,27/11/2016,Elche,Mallorca,1,0,H
+SP2,27/11/2016,Huesca,Girona,1,2,A
+SP2,27/11/2016,Cordoba,Getafe,1,3,A
+SP2,27/11/2016,Sevilla Atletico,Mirandes,1,0,H
+SP2,28/01/2017,Mirandes,Reus,1,1,D
+SP2,28/01/2017,Valladolid,Rayo Vallecano,2,1,H
+SP2,28/01/2017,Alcorcon,Levante,2,0,H
+SP2,28/01/2017,Sevilla Atletico,Tenerife,0,0,D
+SP2,28/01/2017,Gimnastic,Huesca,0,0,D
+SP2,28/04/2017,Elche,Almeria,2,3,A
+SP2,28/05/2017,Gimnastic,Girona,3,1,H
+SP2,28/05/2017,Cordoba,Oviedo,4,2,H
+SP2,28/05/2017,Mallorca,Numancia,0,0,D
+SP2,28/05/2017,Alcorcon,Tenerife,1,3,A
+SP2,28/05/2017,Zaragoza,Rayo Vallecano,1,1,D
+SP2,28/05/2017,Elche,Reus,1,1,D
+SP2,28/08/2016,Ucam Murcia,Cordoba,1,1,D
+SP2,28/08/2016,Cadiz,Mallorca,1,1,D
+SP2,28/08/2016,Levante,Alcorcon,2,0,H
+SP2,28/08/2016,Rayo Vallecano,Valladolid,0,0,D
+SP2,28/08/2016,Huesca,Gimnastic,1,1,D
+SP2,29/01/2017,Cordoba,Ucam Murcia,1,1,D
+SP2,29/01/2017,Mallorca,Cadiz,0,0,D
+SP2,29/01/2017,Zaragoza,Lugo,1,1,D
+SP2,29/01/2017,Numancia,Getafe,2,0,H
+SP2,29/01/2017,Almeria,Oviedo,3,0,H
+SP2,29/04/2017,Ucam Murcia,Tenerife,1,0,H
+SP2,29/04/2017,Levante,Oviedo,1,0,H
+SP2,29/04/2017,Valladolid,Numancia,1,1,D
+SP2,29/04/2017,Zaragoza,Getafe,1,2,A
+SP2,29/10/2016,Zaragoza,Almeria,2,1,H
+SP2,29/10/2016,Cordoba,Valladolid,1,1,D
+SP2,29/10/2016,Huesca,Reus,2,1,H
+SP2,29/10/2016,Tenerife,Rayo Vallecano,3,2,H
+SP2,30/04/2017,Alcorcon,Cadiz,0,2,A
+SP2,30/04/2017,Sevilla Atletico,Mallorca,2,3,A
+SP2,30/04/2017,Lugo,Girona,1,2,A
+SP2,30/04/2017,Cordoba,Mirandes,1,1,D
+SP2,30/10/2016,Girona,Numancia,3,0,H
+SP2,30/10/2016,Sevilla Atletico,Elche,2,0,H
+SP2,30/10/2016,Lugo,Cadiz,0,1,A
+SP2,30/10/2016,Alcorcon,Mirandes,1,0,H
+SP2,30/10/2016,Gimnastic,Mallorca,2,2,D
+SP2,30/10/2016,Ucam Murcia,Oviedo,0,1,A
+SP2,30/10/2016,Levante,Getafe,1,1,D
+SP2,31/03/2017,Alcorcon,Mallorca,1,0,H

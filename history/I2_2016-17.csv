@@ -1,0 +1,471 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+I2,01/04/2017,Spezia,Benevento,1,3,A
+I2,01/04/2017,Ascoli,Carpi,1,2,A
+I2,01/04/2017,Brescia,Virtus Entella,2,2,D
+I2,01/04/2017,Perugia,Vicenza Virtus,1,0,H
+I2,01/04/2017,PRO Vercelli,Bari,1,0,H
+I2,01/04/2017,Pisa,Salernitana,0,1,A
+I2,01/04/2017,Novara,Ternana,1,2,A
+I2,01/04/2017,Latina,Cittadella,0,2,A
+I2,01/04/2017,Trapani,Hellas Verona,0,2,A
+I2,01/05/2017,Hellas Verona,Vicenza Virtus,3,2,H
+I2,01/05/2017,Benevento,Avellino,2,1,H
+I2,01/05/2017,Salernitana,Frosinone,1,3,A
+I2,01/10/2016,Virtus Entella,Vicenza Virtus,4,1,H
+I2,01/10/2016,Benevento,Novara,1,0,H
+I2,01/10/2016,Frosinone,Perugia,1,2,A
+I2,01/10/2016,Ternana,Hellas Verona,0,3,A
+I2,01/10/2016,Trapani,Cittadella,0,2,A
+I2,01/10/2016,Avellino,PRO Vercelli,3,2,H
+I2,01/10/2016,Spal,Salernitana,3,2,H
+I2,02/10/2016,Ascoli,Spezia,0,2,A
+I2,02/10/2016,Cesena,Latina,2,2,D
+I2,02/12/2016,Trapani,Carpi,0,1,A
+I2,03/02/2017,Hellas Verona,Benevento,2,2,D
+I2,03/04/2017,Frosinone,Avellino,1,1,D
+I2,03/09/2016,Perugia,Bari,0,1,A
+I2,03/09/2016,Cittadella,Ternana,2,0,H
+I2,03/09/2016,Brescia,Frosinone,2,0,H
+I2,03/10/2016,Carpi,Pisa,1,1,D
+I2,03/12/2016,PRO Vercelli,Pisa,0,0,D
+I2,03/12/2016,Ternana,Brescia,1,0,H
+I2,03/12/2016,Bari,Salernitana,2,0,H
+I2,03/12/2016,Novara,Vicenza Virtus,2,1,H
+I2,03/12/2016,Cittadella,Spal,1,2,A
+I2,03/12/2016,Avellino,Ascoli,1,2,A
+I2,03/12/2016,Spezia,Frosinone,0,0,D
+I2,03/12/2016,Latina,Virtus Entella,1,1,D
+I2,04/02/2017,Spal,Ascoli,1,1,D
+I2,04/02/2017,Cittadella,PRO Vercelli,0,0,D
+I2,04/02/2017,Salernitana,Novara,0,0,D
+I2,04/02/2017,Spezia,Ternana,2,0,H
+I2,04/02/2017,Perugia,Brescia,3,2,H
+I2,04/02/2017,Pisa,Virtus Entella,1,1,D
+I2,04/02/2017,Latina,Frosinone,0,1,A
+I2,04/02/2017,Bari,Vicenza Virtus,2,1,H
+I2,04/03/2017,Ascoli,Novara,1,2,A
+I2,04/03/2017,Spal,Pisa,1,1,D
+I2,04/03/2017,Carpi,Spezia,1,0,H
+I2,04/03/2017,Ternana,PRO Vercelli,1,2,A
+I2,04/03/2017,Cesena,Vicenza Virtus,1,1,D
+I2,04/03/2017,Trapani,Latina,1,1,D
+I2,04/03/2017,Avellino,Perugia,0,5,A
+I2,04/03/2017,Virtus Entella,Bari,2,0,H
+I2,04/04/2017,Vicenza Virtus,Trapani,0,1,A
+I2,04/04/2017,Virtus Entella,Ascoli,2,1,H
+I2,04/04/2017,Perugia,Pisa,2,2,D
+I2,04/04/2017,Carpi,PRO Vercelli,0,0,D
+I2,04/04/2017,Salernitana,Cittadella,0,0,D
+I2,04/04/2017,Cesena,Brescia,1,1,D
+I2,04/04/2017,Bari,Latina,2,0,H
+I2,04/04/2017,Hellas Verona,Spezia,0,1,A
+I2,04/04/2017,Spal,Novara,2,0,H
+I2,04/04/2017,Benevento,Ternana,2,1,H
+I2,04/06/2017,Carpi,Benevento,0,0,D
+I2,04/09/2016,Trapani,PRO Vercelli,1,1,D
+I2,04/09/2016,Pisa,Novara,1,0,H
+I2,04/09/2016,Carpi,Benevento,1,1,D
+I2,04/09/2016,Spal,Vicenza Virtus,3,0,H
+I2,04/09/2016,Latina,Spezia,0,0,D
+I2,04/09/2016,Salernitana,Hellas Verona,1,1,D
+I2,04/09/2016,Virtus Entella,Avellino,2,0,H
+I2,04/11/2016,Brescia,Cesena,3,2,H
+I2,04/12/2016,Hellas Verona,Perugia,2,2,D
+I2,05/02/2017,Carpi,Cesena,1,2,A
+I2,05/03/2017,Brescia,Hellas Verona,0,1,A
+I2,05/03/2017,Benevento,Salernitana,1,1,D
+I2,05/05/2017,Perugia,Spezia,0,0,D
+I2,05/11/2016,Novara,Spal,0,1,A
+I2,05/11/2016,Trapani,Vicenza Virtus,0,1,A
+I2,05/11/2016,Spezia,Hellas Verona,1,4,A
+I2,05/11/2016,PRO Vercelli,Carpi,0,0,D
+I2,05/11/2016,Latina,Bari,2,1,H
+I2,05/11/2016,Cittadella,Salernitana,2,0,H
+I2,05/11/2016,Pisa,Perugia,0,1,A
+I2,05/12/2016,Benevento,Cesena,2,1,H
+I2,06/02/2017,Trapani,Avellino,0,0,D
+I2,06/03/2017,Frosinone,Cittadella,1,1,D
+I2,06/05/2017,Frosinone,Trapani,1,0,H
+I2,06/05/2017,Brescia,Latina,1,1,D
+I2,06/05/2017,Carpi,Salernitana,2,0,H
+I2,06/05/2017,Virtus Entella,Hellas Verona,1,2,A
+I2,06/05/2017,Avellino,Bari,1,1,D
+I2,06/05/2017,Vicenza Virtus,Ternana,0,1,A
+I2,06/05/2017,Ascoli,Benevento,1,1,D
+I2,06/05/2017,Cesena,Novara,0,1,A
+I2,06/11/2016,Avellino,Frosinone,0,1,A
+I2,07/05/2017,Spal,PRO Vercelli,0,0,D
+I2,07/09/2016,Ternana,Pisa,1,0,H
+I2,07/11/2016,Ternana,Benevento,0,1,A
+I2,08/04/2017,Ascoli,Frosinone,1,1,D
+I2,08/04/2017,Trapani,Perugia,3,0,H
+I2,08/04/2017,Pisa,Cesena,0,1,A
+I2,08/04/2017,Avellino,Carpi,1,0,H
+I2,08/04/2017,PRO Vercelli,Virtus Entella,1,0,H
+I2,08/04/2017,Ternana,Salernitana,1,0,H
+I2,08/04/2017,Cittadella,Benevento,1,0,H
+I2,08/04/2017,Spezia,Bari,1,0,H
+I2,08/04/2017,Latina,Vicenza Virtus,0,1,A
+I2,08/05/2017,Pisa,Cittadella,1,4,A
+I2,08/06/2017,Benevento,Carpi,1,0,H
+I2,08/10/2016,Cittadella,Frosinone,2,3,A
+I2,08/10/2016,Novara,Ascoli,1,0,H
+I2,09/04/2017,Brescia,Spal,1,3,A
+I2,09/09/2016,Cesena,Carpi,1,0,H
+I2,09/10/2016,Latina,Trapani,2,0,H
+I2,09/10/2016,Pisa,Spal,0,1,A
+I2,09/10/2016,Perugia,Avellino,3,0,H
+I2,09/10/2016,Spezia,Carpi,0,1,A
+I2,09/10/2016,Bari,Virtus Entella,1,1,D
+I2,09/10/2016,Hellas Verona,Brescia,2,2,D
+I2,09/10/2016,Vicenza Virtus,Cesena,0,0,D
+I2,09/10/2016,PRO Vercelli,Ternana,1,0,H
+I2,09/10/2016,Salernitana,Benevento,2,1,H
+I2,09/12/2016,Pisa,Bari,0,0,D
+I2,10/02/2017,Vicenza Virtus,Salernitana,0,1,A
+I2,10/04/2017,Novara,Hellas Verona,2,2,D
+I2,10/09/2016,Ascoli,Spal,1,1,D
+I2,10/09/2016,Frosinone,Latina,2,1,H
+I2,10/09/2016,Novara,Salernitana,1,0,H
+I2,10/09/2016,Brescia,Perugia,1,1,D
+I2,10/09/2016,PRO Vercelli,Cittadella,1,5,A
+I2,10/09/2016,Avellino,Trapani,0,0,D
+I2,10/09/2016,Vicenza Virtus,Bari,0,0,D
+I2,10/09/2016,Benevento,Hellas Verona,2,0,H
+I2,10/12/2016,Cesena,Cittadella,3,0,H
+I2,10/12/2016,Ascoli,Latina,2,2,D
+I2,10/12/2016,Avellino,Benevento,1,1,D
+I2,10/12/2016,Virtus Entella,Trapani,2,2,D
+I2,10/12/2016,Spal,Spezia,2,1,H
+I2,10/12/2016,Vicenza Virtus,Hellas Verona,1,0,H
+I2,10/12/2016,Carpi,Ternana,1,1,D
+I2,10/12/2016,Frosinone,Salernitana,1,3,A
+I2,10/12/2016,Perugia,PRO Vercelli,1,0,H
+I2,11/02/2017,Benevento,Latina,2,1,H
+I2,11/02/2017,Ascoli,Trapani,2,2,D
+I2,11/02/2017,Cesena,Bari,1,1,D
+I2,11/02/2017,Frosinone,Carpi,1,0,H
+I2,11/02/2017,Novara,Cittadella,1,1,D
+I2,11/02/2017,Virtus Entella,Spal,0,3,A
+I2,11/02/2017,Avellino,Hellas Verona,2,0,H
+I2,11/02/2017,PRO Vercelli,Spezia,0,2,A
+I2,11/02/2017,Brescia,Pisa,1,1,D
+I2,11/03/2017,Benevento,Virtus Entella,0,0,D
+I2,11/03/2017,Latina,Carpi,0,1,A
+I2,11/03/2017,Cittadella,Perugia,1,1,D
+I2,11/03/2017,Salernitana,Brescia,2,0,H
+I2,11/03/2017,Spezia,Avellino,2,1,H
+I2,11/03/2017,Spal,Cesena,2,0,H
+I2,11/03/2017,Bari,Frosinone,1,0,H
+I2,11/09/2016,Ternana,Spezia,1,1,D
+I2,11/12/2016,Brescia,Novara,0,0,D
+I2,12/02/2017,Ternana,Perugia,0,1,A
+I2,12/03/2017,Novara,PRO Vercelli,0,0,D
+I2,12/03/2017,Ternana,Trapani,2,1,H
+I2,12/03/2017,Vicenza Virtus,Pisa,2,1,H
+I2,12/09/2016,Virtus Entella,Pisa,0,0,D
+I2,12/11/2016,Vicenza Virtus,Latina,0,1,A
+I2,12/11/2016,Spal,Brescia,3,2,H
+I2,13/03/2017,Hellas Verona,Ascoli,0,0,D
+I2,13/05/2017,Novara,Virtus Entella,2,0,H
+I2,13/05/2017,Salernitana,Avellino,2,0,H
+I2,13/05/2017,Spezia,Pisa,0,0,D
+I2,13/05/2017,Ternana,Spal,2,1,H
+I2,13/05/2017,PRO Vercelli,Brescia,2,2,D
+I2,13/05/2017,Latina,Perugia,2,2,D
+I2,13/05/2017,Trapani,Cesena,1,2,A
+I2,13/05/2017,Benevento,Frosinone,2,1,H
+I2,13/05/2017,Hellas Verona,Carpi,1,1,D
+I2,13/05/2017,Cittadella,Vicenza Virtus,2,0,H
+I2,13/11/2016,Cesena,Pisa,2,0,H
+I2,13/11/2016,Hellas Verona,Novara,0,4,A
+I2,13/11/2016,Benevento,Cittadella,1,0,H
+I2,13/11/2016,Frosinone,Ascoli,3,1,H
+I2,13/11/2016,Salernitana,Ternana,4,2,H
+I2,13/11/2016,Carpi,Avellino,1,1,D
+I2,13/11/2016,Perugia,Trapani,1,1,D
+I2,13/11/2016,Virtus Entella,PRO Vercelli,0,0,D
+I2,13/11/2016,Bari,Spezia,1,1,D
+I2,13/12/2016,Ascoli,Virtus Entella,2,1,H
+I2,14/02/2017,Ascoli,PRO Vercelli,3,1,H
+I2,14/05/2017,Bari,Ascoli,0,1,A
+I2,14/10/2016,Cesena,Spal,1,1,D
+I2,15/10/2016,Ascoli,Hellas Verona,1,4,A
+I2,15/10/2016,Brescia,Salernitana,1,1,D
+I2,15/10/2016,Carpi,Latina,2,0,H
+I2,15/10/2016,Perugia,Cittadella,2,0,H
+I2,15/10/2016,Virtus Entella,Benevento,3,2,H
+I2,15/10/2016,Avellino,Spezia,1,0,H
+I2,15/10/2016,Pisa,Vicenza Virtus,0,1,A
+I2,16/09/2016,Bari,Cesena,2,1,H
+I2,16/09/2016,Salernitana,Vicenza Virtus,2,3,A
+I2,16/09/2016,Carpi,Frosinone,0,0,D
+I2,16/10/2016,PRO Vercelli,Novara,2,1,H
+I2,16/10/2016,Frosinone,Bari,3,1,H
+I2,16/12/2016,Trapani,Frosinone,1,4,A
+I2,17/02/2017,Latina,Novara,0,1,A
+I2,17/03/2017,Perugia,Benevento,3,1,H
+I2,17/04/2017,Pisa,Avellino,0,1,A
+I2,17/04/2017,Vicenza Virtus,PRO Vercelli,0,1,A
+I2,17/04/2017,Virtus Entella,Ternana,1,1,D
+I2,17/04/2017,Perugia,Ascoli,0,0,D
+I2,17/04/2017,Spal,Trapani,2,1,H
+I2,17/04/2017,Hellas Verona,Cittadella,2,0,H
+I2,17/04/2017,Frosinone,Novara,2,3,A
+I2,17/04/2017,Salernitana,Latina,2,1,H
+I2,17/04/2017,Brescia,Benevento,1,0,H
+I2,17/04/2017,Carpi,Bari,2,0,H
+I2,17/04/2017,Cesena,Spezia,1,0,H
+I2,17/09/2016,Hellas Verona,Avellino,3,1,H
+I2,17/09/2016,Cittadella,Novara,3,1,H
+I2,17/09/2016,Perugia,Ternana,1,1,D
+I2,17/09/2016,Pisa,Brescia,1,0,H
+I2,17/09/2016,Trapani,Ascoli,1,1,D
+I2,17/09/2016,Latina,Benevento,1,1,D
+I2,17/09/2016,Spal,Virtus Entella,2,2,D
+I2,17/09/2016,Spezia,PRO Vercelli,2,1,H
+I2,17/10/2016,Trapani,Ternana,2,2,D
+I2,17/12/2016,Novara,Cesena,3,1,H
+I2,17/12/2016,Salernitana,Carpi,1,2,A
+I2,17/12/2016,Ternana,Vicenza Virtus,1,2,A
+I2,17/12/2016,Bari,Avellino,2,1,H
+I2,17/12/2016,Spezia,Perugia,2,1,H
+I2,17/12/2016,Cittadella,Pisa,1,0,H
+I2,17/12/2016,PRO Vercelli,Spal,3,1,H
+I2,17/12/2016,Latina,Brescia,1,1,D
+I2,18/02/2017,Vicenza Virtus,Ascoli,1,1,D
+I2,18/02/2017,PRO Vercelli,Benevento,0,1,A
+I2,18/02/2017,Perugia,Virtus Entella,0,0,D
+I2,18/02/2017,Carpi,Brescia,2,1,H
+I2,18/02/2017,Spezia,Trapani,2,2,D
+I2,18/02/2017,Salernitana,Cesena,1,1,D
+I2,18/02/2017,Cittadella,Avellino,1,3,A
+I2,18/02/2017,Bari,Ternana,3,1,H
+I2,18/03/2017,Pisa,Latina,1,1,D
+I2,18/03/2017,Trapani,Bari,4,0,H
+I2,18/03/2017,Frosinone,Vicenza Virtus,3,1,H
+I2,18/03/2017,Brescia,Spezia,1,1,D
+I2,18/03/2017,PRO Vercelli,Hellas Verona,1,1,D
+I2,18/03/2017,Carpi,Spal,1,4,A
+I2,18/03/2017,Ascoli,Cittadella,2,1,H
+I2,18/03/2017,Avellino,Novara,1,1,D
+I2,18/05/2017,Vicenza Virtus,Spezia,0,1,A
+I2,18/05/2017,Pisa,Benevento,0,3,A
+I2,18/05/2017,Avellino,Latina,2,1,H
+I2,18/05/2017,Virtus Entella,Cittadella,4,1,H
+I2,18/05/2017,Perugia,Salernitana,3,2,H
+I2,18/05/2017,Brescia,Trapani,2,1,H
+I2,18/05/2017,Carpi,Novara,2,0,H
+I2,18/05/2017,Cesena,Hellas Verona,0,0,D
+I2,18/05/2017,Ascoli,Ternana,1,2,A
+I2,18/05/2017,Frosinone,PRO Vercelli,2,1,H
+I2,18/05/2017,Spal,Bari,2,1,H
+I2,18/11/2016,Cittadella,Hellas Verona,5,1,H
+I2,18/12/2016,Benevento,Ascoli,0,0,D
+I2,19/02/2017,Pisa,Frosinone,0,0,D
+I2,19/03/2017,Cesena,Ternana,1,0,H
+I2,19/09/2016,Cesena,Salernitana,0,0,D
+I2,19/11/2016,Spezia,Cesena,1,0,H
+I2,19/11/2016,Ternana,Virtus Entella,3,0,H
+I2,19/11/2016,PRO Vercelli,Vicenza Virtus,1,1,D
+I2,19/11/2016,Avellino,Pisa,1,0,H
+I2,19/11/2016,Latina,Salernitana,1,1,D
+I2,19/11/2016,Bari,Carpi,2,0,H
+I2,19/11/2016,Benevento,Brescia,4,0,H
+I2,19/12/2016,Hellas Verona,Virtus Entella,1,0,H
+I2,20/02/2017,Hellas Verona,Spal,0,0,D
+I2,20/03/2017,Virtus Entella,Salernitana,0,1,A
+I2,20/09/2016,Spal,Hellas Verona,1,3,A
+I2,20/09/2016,Benevento,PRO Vercelli,1,1,D
+I2,20/09/2016,Ascoli,Vicenza Virtus,2,0,H
+I2,20/09/2016,Frosinone,Pisa,0,0,D
+I2,20/09/2016,Trapani,Spezia,0,0,D
+I2,20/09/2016,Ternana,Bari,0,0,D
+I2,20/09/2016,Brescia,Carpi,2,2,D
+I2,20/09/2016,Virtus Entella,Perugia,2,1,H
+I2,20/09/2016,Avellino,Cittadella,0,1,A
+I2,20/09/2016,Novara,Latina,2,2,D
+I2,20/11/2016,Ascoli,Perugia,2,2,D
+I2,20/11/2016,Novara,Frosinone,1,2,A
+I2,21/01/2017,Carpi,Vicenza Virtus,0,0,D
+I2,21/01/2017,Trapani,Novara,2,1,H
+I2,21/01/2017,Latina,Hellas Verona,2,0,H
+I2,21/01/2017,Pisa,Ternana,1,0,H
+I2,21/01/2017,Virtus Entella,Frosinone,2,1,H
+I2,21/01/2017,Brescia,Avellino,0,2,A
+I2,21/01/2017,Cittadella,Bari,2,0,H
+I2,21/01/2017,Spal,Benevento,2,0,H
+I2,21/04/2017,Novara,Perugia,0,1,A
+I2,21/04/2017,Benevento,Vicenza Virtus,0,0,D
+I2,21/10/2016,Cittadella,Ascoli,0,1,A
+I2,21/10/2016,Spezia,Brescia,2,0,H
+I2,21/11/2016,Trapani,Spal,1,1,D
+I2,22/01/2017,Salernitana,Spezia,1,0,H
+I2,22/04/2017,Bari,Hellas Verona,0,2,A
+I2,22/04/2017,Ascoli,Brescia,0,0,D
+I2,22/04/2017,Cittadella,Carpi,4,1,H
+I2,22/04/2017,Spezia,Virtus Entella,2,0,H
+I2,22/04/2017,Ternana,Frosinone,2,0,H
+I2,22/04/2017,PRO Vercelli,Salernitana,0,0,D
+I2,22/04/2017,Latina,Spal,1,2,A
+I2,22/04/2017,Avellino,Cesena,1,1,D
+I2,22/04/2017,Trapani,Pisa,1,0,H
+I2,22/05/2017,Cittadella,Carpi,1,2,A
+I2,22/10/2016,Benevento,Perugia,0,0,D
+I2,22/10/2016,Vicenza Virtus,Frosinone,1,1,D
+I2,22/10/2016,Spal,Carpi,3,1,H
+I2,22/10/2016,Hellas Verona,PRO Vercelli,3,0,H
+I2,22/10/2016,Latina,Pisa,1,1,D
+I2,22/10/2016,Bari,Trapani,3,0,H
+I2,22/10/2016,Novara,Avellino,1,0,H
+I2,22/10/2016,Salernitana,Virtus Entella,1,1,D
+I2,22/10/2016,Ternana,Cesena,1,1,D
+I2,23/01/2017,Perugia,Cesena,3,3,D
+I2,23/05/2017,Benevento,Spezia,2,1,H
+I2,24/02/2017,Brescia,Cittadella,4,1,H
+I2,24/02/2017,Benevento,Bari,3,4,A
+I2,24/04/2017,Vicenza Virtus,Novara,3,1,H
+I2,24/09/2016,Carpi,Virtus Entella,2,1,H
+I2,24/09/2016,Latina,Ternana,1,1,D
+I2,24/09/2016,Pisa,Ascoli,2,1,H
+I2,24/09/2016,Cittadella,Brescia,0,3,A
+I2,24/09/2016,Bari,Benevento,0,4,A
+I2,24/09/2016,Vicenza Virtus,Avellino,0,0,D
+I2,24/09/2016,Salernitana,Trapani,2,0,H
+I2,24/09/2016,Spezia,Novara,1,0,H
+I2,24/09/2016,PRO Vercelli,Cesena,1,0,H
+I2,24/10/2016,Spezia,Cittadella,1,1,D
+I2,24/12/2016,Pisa,Spezia,0,0,D
+I2,24/12/2016,Ascoli,Bari,1,1,D
+I2,24/12/2016,Cesena,Trapani,3,1,H
+I2,24/12/2016,Frosinone,Benevento,3,2,H
+I2,24/12/2016,Vicenza Virtus,Cittadella,2,0,H
+I2,24/12/2016,Avellino,Salernitana,3,2,H
+I2,24/12/2016,Virtus Entella,Novara,4,1,H
+I2,24/12/2016,Perugia,Latina,1,1,D
+I2,24/12/2016,Spal,Ternana,4,0,H
+I2,24/12/2016,Brescia,PRO Vercelli,2,1,H
+I2,24/12/2016,Carpi,Hellas Verona,1,1,D
+I2,25/02/2017,Spal,Perugia,2,0,H
+I2,25/02/2017,Trapani,Salernitana,1,0,H
+I2,25/02/2017,Avellino,Vicenza Virtus,3,1,H
+I2,25/02/2017,Virtus Entella,Carpi,2,0,H
+I2,25/02/2017,Ternana,Latina,0,1,A
+I2,25/02/2017,Novara,Spezia,2,1,H
+I2,25/02/2017,Frosinone,Hellas Verona,1,0,H
+I2,25/02/2017,Cesena,PRO Vercelli,1,2,A
+I2,25/02/2017,Ascoli,Pisa,2,4,A
+I2,25/03/2017,Cittadella,Spezia,1,0,H
+I2,25/03/2017,Benevento,Trapani,1,3,A
+I2,25/04/2017,Salernitana,Bari,0,0,D
+I2,25/04/2017,Spal,Cittadella,2,1,H
+I2,25/04/2017,Virtus Entella,Latina,0,1,A
+I2,25/04/2017,Frosinone,Spezia,2,0,H
+I2,25/04/2017,Brescia,Ternana,2,1,H
+I2,25/04/2017,Perugia,Hellas Verona,1,1,D
+I2,25/04/2017,Pisa,PRO Vercelli,1,1,D
+I2,25/04/2017,Cesena,Benevento,4,1,H
+I2,25/04/2017,Ascoli,Avellino,2,0,H
+I2,25/04/2017,Carpi,Trapani,2,1,H
+I2,25/09/2016,Hellas Verona,Frosinone,2,0,H
+I2,25/10/2016,Avellino,Ternana,1,0,H
+I2,25/10/2016,PRO Vercelli,Latina,1,1,D
+I2,25/10/2016,Perugia,Carpi,0,2,A
+I2,25/10/2016,Brescia,Vicenza Virtus,2,1,H
+I2,25/10/2016,Novara,Bari,1,0,H
+I2,25/10/2016,Frosinone,Spal,2,1,H
+I2,25/10/2016,Ascoli,Salernitana,0,0,D
+I2,25/10/2016,Cesena,Virtus Entella,0,1,A
+I2,25/10/2016,Pisa,Hellas Verona,0,0,D
+I2,25/10/2016,Trapani,Benevento,1,0,H
+I2,25/11/2016,Virtus Entella,Spezia,1,1,D
+I2,26/03/2017,Hellas Verona,Pisa,1,1,D
+I2,26/03/2017,Spal,Frosinone,0,2,A
+I2,26/03/2017,Salernitana,Ascoli,2,0,H
+I2,26/03/2017,Ternana,Avellino,4,1,H
+I2,26/03/2017,Carpi,Perugia,0,0,D
+I2,26/03/2017,Virtus Entella,Cesena,2,1,H
+I2,26/03/2017,Latina,PRO Vercelli,0,0,D
+I2,26/03/2017,Vicenza Virtus,Brescia,1,1,D
+I2,26/03/2017,Bari,Novara,0,0,D
+I2,26/05/2017,Carpi,Frosinone,0,0,D
+I2,26/08/2016,Spezia,Salernitana,1,1,D
+I2,26/09/2016,Perugia,Spal,1,0,H
+I2,26/11/2016,Carpi,Cittadella,2,0,H
+I2,26/11/2016,Vicenza Virtus,Benevento,0,0,D
+I2,26/11/2016,Pisa,Trapani,1,0,H
+I2,26/11/2016,Perugia,Novara,0,0,D
+I2,26/11/2016,Spal,Latina,0,0,D
+I2,26/11/2016,Cesena,Avellino,3,0,H
+I2,26/11/2016,Frosinone,Ternana,1,1,D
+I2,26/11/2016,Brescia,Ascoli,1,0,H
+I2,27/01/2017,Frosinone,Brescia,1,0,H
+I2,27/02/2017,Bari,Brescia,2,0,H
+I2,27/05/2017,Benevento,Perugia,1,0,H
+I2,27/08/2016,Hellas Verona,Latina,4,1,H
+I2,27/08/2016,Vicenza Virtus,Carpi,0,2,A
+I2,27/08/2016,Bari,Cittadella,1,2,A
+I2,27/08/2016,Frosinone,Virtus Entella,2,0,H
+I2,27/08/2016,PRO Vercelli,Ascoli,1,1,D
+I2,27/08/2016,Avellino,Brescia,1,1,D
+I2,27/08/2016,Benevento,Spal,2,0,H
+I2,27/09/2016,Ascoli,Cesena,0,0,D
+I2,27/11/2016,Hellas Verona,Bari,1,0,H
+I2,28/01/2017,Novara,Pisa,1,1,D
+I2,28/01/2017,PRO Vercelli,Trapani,1,3,A
+I2,28/01/2017,Avellino,Virtus Entella,2,2,D
+I2,28/01/2017,Vicenza Virtus,Spal,1,1,D
+I2,28/01/2017,Cesena,Ascoli,2,2,D
+I2,28/01/2017,Ternana,Cittadella,1,0,H
+I2,28/01/2017,Bari,Perugia,0,0,D
+I2,28/01/2017,Benevento,Carpi,3,0,H
+I2,28/02/2017,Hellas Verona,Ternana,2,0,H
+I2,28/02/2017,Vicenza Virtus,Virtus Entella,2,2,D
+I2,28/02/2017,Latina,Cesena,1,1,D
+I2,28/02/2017,Pisa,Carpi,0,0,D
+I2,28/02/2017,PRO Vercelli,Avellino,1,1,D
+I2,28/02/2017,Perugia,Frosinone,1,1,D
+I2,28/02/2017,Spezia,Ascoli,2,1,H
+I2,28/02/2017,Salernitana,Spal,1,2,A
+I2,28/02/2017,Novara,Benevento,1,0,H
+I2,28/02/2017,Cittadella,Trapani,3,2,H
+I2,28/08/2016,Novara,Trapani,2,2,D
+I2,28/11/2016,Salernitana,PRO Vercelli,1,1,D
+I2,28/12/2016,Spezia,Vicenza Virtus,0,0,D
+I2,29/01/2017,Hellas Verona,Salernitana,2,0,H
+I2,29/04/2017,Trapani,Virtus Entella,2,0,H
+I2,29/04/2017,Latina,Ascoli,0,0,D
+I2,29/04/2017,PRO Vercelli,Perugia,0,1,A
+I2,29/04/2017,Ternana,Carpi,0,0,D
+I2,29/04/2017,Spezia,Spal,0,0,D
+I2,29/04/2017,Cittadella,Cesena,2,3,A
+I2,29/04/2017,Bari,Pisa,0,0,D
+I2,29/05/2017,Frosinone,Carpi,0,1,A
+I2,29/08/2016,Cesena,Perugia,1,1,D
+I2,29/10/2016,Cittadella,Latina,2,1,H
+I2,29/10/2016,Frosinone,Cesena,2,1,H
+I2,29/10/2016,Salernitana,Pisa,0,0,D
+I2,29/10/2016,Ternana,Novara,4,3,H
+I2,29/10/2016,Carpi,Ascoli,0,2,A
+I2,29/10/2016,Bari,PRO Vercelli,2,0,H
+I2,29/10/2016,Benevento,Spezia,1,0,H
+I2,29/10/2016,Virtus Entella,Brescia,4,0,H
+I2,29/12/2016,Bari,Spal,1,1,D
+I2,30/01/2017,Spezia,Latina,3,2,H
+I2,30/04/2017,Novara,Brescia,2,3,A
+I2,30/05/2017,Perugia,Benevento,1,1,D
+I2,30/09/2016,Brescia,Bari,1,1,D
+I2,30/10/2016,Hellas Verona,Trapani,2,0,H
+I2,30/10/2016,Vicenza Virtus,Perugia,1,4,A
+I2,30/12/2016,PRO Vercelli,Frosinone,2,0,H
+I2,30/12/2016,Ternana,Ascoli,0,1,A
+I2,30/12/2016,Cittadella,Virtus Entella,2,1,H
+I2,30/12/2016,Benevento,Pisa,1,0,H
+I2,30/12/2016,Hellas Verona,Cesena,3,0,H
+I2,30/12/2016,Novara,Carpi,2,1,H
+I2,30/12/2016,Salernitana,Perugia,2,1,H
+I2,30/12/2016,Trapani,Brescia,0,0,D
+I2,30/12/2016,Latina,Avellino,0,0,D
+I2,31/03/2017,Avellino,Spal,1,0,H
+I2,31/03/2017,Cesena,Frosinone,1,1,D
+I2,31/10/2016,Spal,Avellino,3,0,H

@@ -1,0 +1,500 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E2,01/01/2026,Northampton,Stockport,0,0,D
+E2,01/01/2026,Lincoln,Huddersfield,1,1,D
+E2,01/01/2026,Mansfield,Bradford,3,0,H
+E2,01/01/2026,Leyton Orient,AFC Wimbledon,1,3,A
+E2,01/01/2026,Stevenage,Plymouth,1,1,D
+E2,01/01/2026,Exeter,Luton,1,0,H
+E2,01/01/2026,Wycombe,Cardiff,1,1,D
+E2,01/01/2026,Doncaster,Bolton,1,1,D
+E2,01/01/2026,Port Vale,Blackpool,5,1,H
+E2,01/01/2026,Rotherham,Peterborough,0,2,A
+E2,01/01/2026,Wigan,Barnsley,1,1,D
+E2,01/01/2026,Reading,Burton,2,0,H
+E2,01/08/2025,Luton,AFC Wimbledon,1,0,H
+E2,02/04/2026,Wigan,Leyton Orient,0,0,D
+E2,02/08/2025,Cardiff,Peterborough,2,1,H
+E2,02/08/2025,Huddersfield,Leyton Orient,3,0,H
+E2,02/08/2025,Wigan,Northampton,3,1,H
+E2,02/08/2025,Burton,Mansfield,2,1,H
+E2,02/08/2025,Lincoln,Reading,2,0,H
+E2,02/08/2025,Doncaster,Exeter,1,0,H
+E2,02/08/2025,Blackpool,Stevenage,2,3,A
+E2,02/08/2025,Plymouth,Barnsley,1,3,A
+E2,02/08/2025,Bradford,Wycombe,2,1,H
+E2,02/08/2025,Rotherham,Port Vale,2,1,H
+E2,02/10/2025,Rotherham,Bradford,2,2,D
+E2,02/12/2025,Wigan,Burton,1,0,H
+E2,03/02/2026,Port Vale,AFC Wimbledon,0,1,A
+E2,03/02/2026,Barnsley,Northampton,2,2,D
+E2,03/02/2026,Burton,Doncaster,1,2,A
+E2,03/03/2026,Barnsley,Wycombe,0,1,A
+E2,03/03/2026,Rotherham,Mansfield,0,0,D
+E2,03/03/2026,Exeter,Burton,1,1,D
+E2,03/04/2026,Luton,Peterborough,2,1,H
+E2,03/04/2026,Huddersfield,Reading,1,1,D
+E2,03/04/2026,Rotherham,Stevenage,0,0,D
+E2,03/04/2026,Burton,Barnsley,1,1,D
+E2,03/04/2026,Bradford,Northampton,1,0,H
+E2,03/04/2026,Blackpool,Exeter,1,0,H
+E2,03/04/2026,Plymouth,Bolton,1,2,A
+E2,03/04/2026,Lincoln,AFC Wimbledon,1,0,H
+E2,03/04/2026,Stockport,Wycombe,3,0,H
+E2,03/04/2026,Doncaster,Mansfield,0,2,A
+E2,03/08/2025,Stockport,Bolton,2,0,H
+E2,04/01/2026,Bolton,Northampton,0,0,D
+E2,04/01/2026,Lincoln,Peterborough,5,2,H
+E2,04/01/2026,Huddersfield,Exeter,2,2,D
+E2,04/01/2026,Cardiff,Wigan,1,0,H
+E2,04/01/2026,Reading,Stockport,1,0,H
+E2,04/01/2026,Blackpool,Bradford,1,2,A
+E2,04/01/2026,Plymouth,Burton,3,0,H
+E2,04/01/2026,Wycombe,AFC Wimbledon,2,0,H
+E2,04/10/2025,Plymouth,Wigan,1,1,D
+E2,04/10/2025,Reading,Mansfield,1,1,D
+E2,04/10/2025,Stevenage,Luton,2,0,H
+E2,04/10/2025,Lincoln,Exeter,0,1,A
+E2,04/10/2025,Port Vale,Northampton,0,0,D
+E2,04/10/2025,Blackpool,AFC Wimbledon,0,2,A
+E2,04/10/2025,Huddersfield,Stockport,1,2,A
+E2,04/10/2025,Wycombe,Barnsley,2,2,D
+E2,04/10/2025,Doncaster,Burton,1,1,D
+E2,04/10/2025,Cardiff,Leyton Orient,4,3,H
+E2,04/10/2025,Bolton,Peterborough,2,1,H
+E2,04/11/2025,Rotherham,Burton,2,2,D
+E2,06/04/2026,Stevenage,Blackpool,1,0,H
+E2,06/04/2026,Mansfield,Burton,0,0,D
+E2,06/04/2026,Reading,Lincoln,1,2,A
+E2,06/04/2026,Bolton,Stockport,2,2,D
+E2,06/04/2026,Barnsley,Plymouth,0,3,A
+E2,06/04/2026,AFC Wimbledon,Luton,0,3,A
+E2,06/04/2026,Northampton,Wigan,1,3,A
+E2,06/04/2026,Peterborough,Cardiff,1,1,D
+E2,06/04/2026,Exeter,Doncaster,3,0,H
+E2,06/04/2026,Wycombe,Bradford,1,2,A
+E2,06/04/2026,Leyton Orient,Huddersfield,1,2,A
+E2,06/09/2025,Lincoln,Wigan,2,2,D
+E2,06/09/2025,Wycombe,Mansfield,2,0,H
+E2,06/09/2025,Plymouth,Stockport,4,2,H
+E2,06/09/2025,Port Vale,Leyton Orient,2,3,A
+E2,06/09/2025,Rotherham,Exeter,1,0,H
+E2,06/09/2025,Huddersfield,Peterborough,3,2,H
+E2,06/09/2025,Doncaster,Bradford,3,1,H
+E2,06/09/2025,Bolton,AFC Wimbledon,3,0,H
+E2,06/11/2025,Reading,Stevenage,1,0,H
+E2,06/12/2025,Plymouth,Bradford,0,1,A
+E2,06/12/2025,Cardiff,Huddersfield,3,2,H
+E2,07/02/2026,Luton,Bradford,2,1,H
+E2,07/02/2026,Huddersfield,Blackpool,2,2,D
+E2,07/02/2026,Bolton,Barnsley,3,2,H
+E2,07/02/2026,Rotherham,Cardiff,0,3,A
+E2,07/02/2026,AFC Wimbledon,Reading,3,2,H
+E2,07/02/2026,Northampton,Stevenage,3,1,H
+E2,07/02/2026,Port Vale,Burton,2,2,D
+E2,07/02/2026,Plymouth,Lincoln,1,4,A
+E2,07/02/2026,Wycombe,Doncaster,4,0,H
+E2,07/02/2026,Mansfield,Exeter,0,0,D
+E2,07/02/2026,Stockport,Leyton Orient,0,0,D
+E2,07/02/2026,Peterborough,Wigan,6,1,H
+E2,07/03/2026,Luton,Reading,2,3,A
+E2,07/03/2026,Plymouth,Doncaster,2,1,H
+E2,07/03/2026,Blackpool,Wigan,1,1,D
+E2,07/03/2026,Bradford,Leyton Orient,2,1,H
+E2,07/03/2026,Burton,Stevenage,0,1,A
+E2,07/03/2026,Barnsley,Exeter,2,1,H
+E2,07/03/2026,Bolton,Wycombe,3,2,H
+E2,07/03/2026,Cardiff,Lincoln,0,2,A
+E2,07/03/2026,Huddersfield,Rotherham,1,0,H
+E2,07/04/2026,Port Vale,Rotherham,1,0,H
+E2,07/08/2025,Port Vale,Cardiff,0,0,D
+E2,08/03/2026,AFC Wimbledon,Northampton,1,0,H
+E2,08/11/2025,Blackpool,Cardiff,3,1,H
+E2,08/11/2025,Bradford,Burton,1,2,A
+E2,08/11/2025,Rotherham,Lincoln,3,0,H
+E2,08/11/2025,Bolton,Port Vale,4,0,H
+E2,08/11/2025,Huddersfield,Plymouth,3,1,H
+E2,08/11/2025,Wycombe,Leyton Orient,4,1,H
+E2,08/11/2025,Exeter,Wigan,1,1,D
+E2,08/11/2025,Doncaster,Barnsley,1,2,A
+E2,08/11/2025,Northampton,Mansfield,2,1,H
+E2,08/11/2025,Stockport,Luton,0,3,A
+E2,08/11/2025,Peterborough,AFC Wimbledon,5,0,H
+E2,09/08/2025,Northampton,Bradford,0,0,D
+E2,09/08/2025,AFC Wimbledon,Lincoln,2,0,H
+E2,09/08/2025,Barnsley,Burton,3,2,H
+E2,09/08/2025,Bolton,Plymouth,2,0,H
+E2,09/08/2025,Peterborough,Luton,0,2,A
+E2,09/08/2025,Wycombe,Stockport,1,2,A
+E2,09/08/2025,Reading,Huddersfield,0,2,A
+E2,09/08/2025,Exeter,Blackpool,4,1,H
+E2,09/08/2025,Stevenage,Rotherham,1,0,H
+E2,09/08/2025,Leyton Orient,Wigan,2,0,H
+E2,09/08/2025,Mansfield,Doncaster,1,2,A
+E2,09/12/2025,Wycombe,Plymouth,0,1,A
+E2,09/12/2025,Lincoln,Barnsley,3,1,H
+E2,09/12/2025,Reading,Peterborough,1,2,A
+E2,09/12/2025,Stevenage,Cardiff,0,1,A
+E2,09/12/2025,Doncaster,Stockport,0,2,A
+E2,09/12/2025,Northampton,Huddersfield,1,1,D
+E2,09/12/2025,Leyton Orient,Luton,1,1,D
+E2,09/12/2025,Mansfield,Bolton,0,1,A
+E2,09/12/2025,Exeter,AFC Wimbledon,1,0,H
+E2,10/01/2026,Stockport,Huddersfield,1,0,H
+E2,10/01/2026,Peterborough,Bolton,3,1,H
+E2,10/01/2026,Leyton Orient,Cardiff,1,1,D
+E2,10/01/2026,Luton,Stevenage,2,1,H
+E2,10/02/2026,Wigan,Reading,1,2,A
+E2,10/02/2026,Mansfield,Peterborough,1,2,A
+E2,10/03/2026,Stevenage,Leyton Orient,1,2,A
+E2,10/03/2026,Barnsley,Cardiff,1,1,D
+E2,10/03/2026,Mansfield,Reading,1,0,H
+E2,10/03/2026,Exeter,Lincoln,0,1,A
+E2,10/03/2026,Doncaster,Luton,1,1,D
+E2,10/03/2026,Wigan,Plymouth,0,3,A
+E2,10/12/2025,Rotherham,Blackpool,0,3,A
+E2,11/03/2026,AFC Wimbledon,Blackpool,4,1,H
+E2,11/03/2026,Port Vale,Bradford,0,2,A
+E2,11/04/2026,Bradford,Stevenage,0,1,A
+E2,11/04/2026,Burton,AFC Wimbledon,1,0,H
+E2,11/04/2026,Rotherham,Barnsley,1,3,A
+E2,11/04/2026,Doncaster,Reading,1,0,H
+E2,11/04/2026,Cardiff,Bolton,2,0,H
+E2,11/04/2026,Huddersfield,Wycombe,3,3,D
+E2,11/04/2026,Plymouth,Exeter,2,2,D
+E2,11/04/2026,Wigan,Mansfield,2,1,H
+E2,11/04/2026,Lincoln,Leyton Orient,2,1,H
+E2,11/04/2026,Blackpool,Peterborough,3,1,H
+E2,11/10/2025,Wigan,Wycombe,0,1,A
+E2,11/10/2025,Stockport,Blackpool,1,0,H
+E2,11/10/2025,Burton,Bolton,3,0,H
+E2,11/10/2025,AFC Wimbledon,Port Vale,1,1,D
+E2,11/10/2025,Exeter,Reading,1,1,D
+E2,11/10/2025,Leyton Orient,Doncaster,4,0,H
+E2,11/10/2025,Northampton,Rotherham,1,2,A
+E2,13/09/2025,Barnsley,Reading,3,2,H
+E2,13/09/2025,Wigan,Doncaster,3,0,H
+E2,13/09/2025,Bradford,Huddersfield,3,1,H
+E2,13/09/2025,Northampton,Blackpool,1,0,H
+E2,13/09/2025,Stockport,Cardiff,1,1,D
+E2,13/09/2025,Leyton Orient,Bolton,1,1,D
+E2,13/09/2025,Exeter,Port Vale,0,2,A
+E2,13/09/2025,Luton,Plymouth,2,3,A
+E2,13/09/2025,Peterborough,Wycombe,2,1,H
+E2,13/09/2025,Burton,Lincoln,0,1,A
+E2,13/09/2025,Mansfield,Stevenage,1,1,D
+E2,13/09/2025,AFC Wimbledon,Rotherham,2,1,H
+E2,13/12/2025,Huddersfield,Wigan,1,1,D
+E2,13/12/2025,AFC Wimbledon,Mansfield,0,0,D
+E2,13/12/2025,Cardiff,Doncaster,4,3,H
+E2,13/12/2025,Bolton,Exeter,2,1,H
+E2,13/12/2025,Barnsley,Leyton Orient,3,2,H
+E2,13/12/2025,Burton,Wycombe,0,0,D
+E2,13/12/2025,Peterborough,Northampton,2,1,H
+E2,13/12/2025,Blackpool,Lincoln,2,2,D
+E2,13/12/2025,Plymouth,Rotherham,1,0,H
+E2,13/12/2025,Stockport,Stevenage,1,3,A
+E2,13/12/2025,Luton,Port Vale,2,2,D
+E2,13/12/2025,Bradford,Reading,2,0,H
+E2,14/02/2026,Cardiff,Luton,3,1,H
+E2,14/02/2026,Stevenage,Huddersfield,1,0,H
+E2,14/02/2026,Reading,Wycombe,3,2,H
+E2,14/02/2026,Bradford,Peterborough,2,0,H
+E2,14/02/2026,Blackpool,Plymouth,0,4,A
+E2,14/02/2026,Exeter,Northampton,0,0,D
+E2,14/02/2026,Lincoln,Bolton,1,1,D
+E2,14/02/2026,Barnsley,AFC Wimbledon,3,3,D
+E2,14/03/2026,Wycombe,Luton,1,2,A
+E2,14/03/2026,Reading,Plymouth,2,2,D
+E2,14/03/2026,Northampton,Burton,0,2,A
+E2,14/03/2026,Wigan,Bradford,2,0,H
+E2,14/03/2026,Port Vale,Huddersfield,0,0,D
+E2,14/03/2026,Rotherham,Bolton,2,2,D
+E2,14/03/2026,Mansfield,Barnsley,2,2,D
+E2,14/03/2026,Lincoln,Stockport,3,1,H
+E2,14/03/2026,Stevenage,AFC Wimbledon,1,0,H
+E2,14/03/2026,Leyton Orient,Peterborough,2,1,H
+E2,14/03/2026,Exeter,Cardiff,0,4,A
+E2,14/03/2026,Doncaster,Blackpool,2,1,H
+E2,15/11/2025,Leyton Orient,Exeter,2,1,H
+E2,15/11/2025,Burton,Blackpool,1,0,H
+E2,15/11/2025,Port Vale,Wycombe,0,0,D
+E2,15/11/2025,Luton,Rotherham,0,0,D
+E2,15/11/2025,Lincoln,Doncaster,2,1,H
+E2,16/08/2025,Leyton Orient,Stockport,2,2,D
+E2,16/08/2025,Burton,Port Vale,0,0,D
+E2,16/08/2025,Exeter,Mansfield,1,2,A
+E2,16/08/2025,Stevenage,Northampton,2,0,H
+E2,16/08/2025,Reading,AFC Wimbledon,1,2,A
+E2,16/08/2025,Blackpool,Huddersfield,3,2,H
+E2,16/08/2025,Doncaster,Wycombe,1,1,D
+E2,16/08/2025,Cardiff,Rotherham,3,0,H
+E2,16/08/2025,Lincoln,Plymouth,3,2,H
+E2,16/08/2025,Barnsley,Bolton,1,1,D
+E2,16/08/2025,Wigan,Peterborough,2,0,H
+E2,16/08/2025,Bradford,Luton,2,1,H
+E2,16/10/2025,Huddersfield,Bolton,1,2,A
+E2,17/01/2026,Mansfield,Port Vale,3,0,H
+E2,17/01/2026,Leyton Orient,Reading,3,1,H
+E2,17/01/2026,Exeter,Stevenage,3,0,H
+E2,17/01/2026,Luton,Lincoln,2,2,D
+E2,17/01/2026,Peterborough,Plymouth,0,1,A
+E2,17/01/2026,AFC Wimbledon,Doncaster,0,1,A
+E2,17/01/2026,Burton,Huddersfield,3,1,H
+E2,17/01/2026,Barnsley,Blackpool,2,1,H
+E2,17/01/2026,Bradford,Cardiff,1,2,A
+E2,17/01/2026,Wigan,Bolton,0,1,A
+E2,17/01/2026,Stockport,Rotherham,3,2,H
+E2,17/01/2026,Northampton,Wycombe,1,2,A
+E2,17/02/2026,Burton,Rotherham,1,0,H
+E2,17/02/2026,Blackpool,Mansfield,1,0,H
+E2,17/02/2026,Reading,Bolton,1,1,D
+E2,17/02/2026,Lincoln,Northampton,4,0,H
+E2,17/02/2026,Leyton Orient,Plymouth,1,3,A
+E2,17/02/2026,Stevenage,Port Vale,2,1,H
+E2,17/02/2026,Exeter,Wycombe,1,1,D
+E2,17/02/2026,Doncaster,Huddersfield,1,0,H
+E2,17/02/2026,Bradford,Stockport,1,0,H
+E2,17/02/2026,Cardiff,AFC Wimbledon,4,1,H
+E2,17/02/2026,Barnsley,Peterborough,2,1,H
+E2,17/03/2026,Luton,Exeter,3,2,H
+E2,17/03/2026,Barnsley,Wigan,1,1,D
+E2,17/03/2026,Stockport,Northampton,2,1,H
+E2,17/03/2026,Bolton,Doncaster,0,0,D
+E2,17/03/2026,Huddersfield,Lincoln,2,2,D
+E2,17/03/2026,Cardiff,Wycombe,0,2,A
+E2,17/03/2026,Burton,Reading,1,2,A
+E2,17/03/2026,AFC Wimbledon,Leyton Orient,2,4,A
+E2,17/03/2026,Bradford,Mansfield,1,1,D
+E2,17/03/2026,Peterborough,Rotherham,5,0,H
+E2,17/03/2026,Blackpool,Port Vale,3,2,H
+E2,17/03/2026,Plymouth,Stevenage,1,0,H
+E2,18/02/2026,Wigan,Luton,1,0,H
+E2,18/10/2025,Blackpool,Wycombe,1,1,D
+E2,18/10/2025,Plymouth,AFC Wimbledon,1,2,A
+E2,18/10/2025,Luton,Mansfield,0,2,A
+E2,18/10/2025,Bradford,Barnsley,2,2,D
+E2,18/10/2025,Burton,Peterborough,0,1,A
+E2,18/10/2025,Rotherham,Leyton Orient,1,0,H
+E2,18/10/2025,Wigan,Port Vale,1,0,H
+E2,18/10/2025,Cardiff,Reading,2,1,H
+E2,18/10/2025,Lincoln,Stevenage,1,0,H
+E2,18/10/2025,Stockport,Exeter,1,0,H
+E2,18/10/2025,Doncaster,Northampton,1,2,A
+E2,18/12/2025,Reading,Luton,3,2,H
+E2,19/08/2025,Plymouth,Leyton Orient,0,1,A
+E2,19/08/2025,Huddersfield,Doncaster,2,0,H
+E2,19/08/2025,AFC Wimbledon,Cardiff,0,1,A
+E2,19/08/2025,Northampton,Lincoln,0,1,A
+E2,19/08/2025,Peterborough,Barnsley,0,1,A
+E2,19/08/2025,Stockport,Bradford,1,2,A
+E2,19/08/2025,Mansfield,Blackpool,2,0,H
+E2,19/08/2025,Luton,Wigan,1,0,H
+E2,19/08/2025,Wycombe,Exeter,0,1,A
+E2,19/08/2025,Port Vale,Stevenage,1,2,A
+E2,19/12/2025,Northampton,AFC Wimbledon,3,1,H
+E2,20/01/2026,Stevenage,Bolton,0,0,D
+E2,20/08/2025,Bolton,Reading,1,1,D
+E2,20/09/2025,Bolton,Wigan,4,1,H
+E2,20/09/2025,Plymouth,Peterborough,0,1,A
+E2,20/09/2025,Doncaster,AFC Wimbledon,1,2,A
+E2,20/09/2025,Port Vale,Mansfield,2,1,H
+E2,20/09/2025,Rotherham,Stockport,0,1,A
+E2,20/09/2025,Reading,Leyton Orient,2,1,H
+E2,20/09/2025,Wycombe,Northampton,2,0,H
+E2,20/09/2025,Stevenage,Exeter,2,1,H
+E2,20/09/2025,Cardiff,Bradford,1,3,A
+E2,20/09/2025,Huddersfield,Burton,0,0,D
+E2,20/09/2025,Lincoln,Luton,3,1,H
+E2,20/09/2025,Blackpool,Barnsley,1,0,H
+E2,20/11/2025,Peterborough,Stockport,3,0,H
+E2,20/12/2025,Doncaster,Plymouth,1,5,A
+E2,20/12/2025,Port Vale,Peterborough,0,1,A
+E2,20/12/2025,Mansfield,Stockport,1,2,A
+E2,20/12/2025,Lincoln,Cardiff,2,1,H
+E2,20/12/2025,Leyton Orient,Bradford,2,1,H
+E2,20/12/2025,Exeter,Barnsley,3,0,H
+E2,20/12/2025,Wycombe,Bolton,2,1,H
+E2,20/12/2025,Wigan,Blackpool,0,2,A
+E2,20/12/2025,Stevenage,Burton,2,2,D
+E2,20/12/2025,Rotherham,Huddersfield,1,3,A
+E2,21/02/2026,Rotherham,Doncaster,1,2,A
+E2,21/02/2026,Plymouth,Cardiff,5,2,H
+E2,21/02/2026,Wycombe,Stevenage,3,1,H
+E2,21/02/2026,Mansfield,Lincoln,0,2,A
+E2,21/02/2026,Bolton,Blackpool,2,2,D
+E2,21/02/2026,AFC Wimbledon,Bradford,3,1,H
+E2,21/02/2026,Northampton,Leyton Orient,1,2,A
+E2,21/02/2026,Huddersfield,Barnsley,2,1,H
+E2,21/02/2026,Stockport,Wigan,4,2,H
+E2,21/02/2026,Luton,Burton,1,1,D
+E2,21/02/2026,Port Vale,Reading,1,1,D
+E2,21/02/2026,Peterborough,Exeter,3,3,D
+E2,21/03/2026,Leyton Orient,Wycombe,2,0,H
+E2,21/03/2026,Mansfield,Northampton,4,1,H
+E2,21/03/2026,Stevenage,Reading,1,0,H
+E2,21/03/2026,Plymouth,Huddersfield,3,1,H
+E2,21/03/2026,Port Vale,Bolton,1,0,H
+E2,21/03/2026,AFC Wimbledon,Peterborough,1,1,D
+E2,21/03/2026,Barnsley,Doncaster,0,1,A
+E2,21/03/2026,Lincoln,Rotherham,3,0,H
+E2,21/03/2026,Burton,Bradford,2,1,H
+E2,21/03/2026,Wigan,Exeter,2,0,H
+E2,21/03/2026,Luton,Stockport,1,1,D
+E2,21/03/2026,Cardiff,Blackpool,0,0,D
+E2,21/10/2025,Reading,Northampton,1,0,H
+E2,22/01/2026,Lincoln,Burton,2,1,H
+E2,22/11/2025,Stevenage,Doncaster,0,0,D
+E2,22/11/2025,Port Vale,Plymouth,0,1,A
+E2,22/11/2025,Reading,Rotherham,1,1,D
+E2,22/11/2025,Wycombe,Lincoln,3,2,H
+E2,22/11/2025,Barnsley,Luton,5,0,H
+E2,22/11/2025,AFC Wimbledon,Wigan,1,2,A
+E2,22/11/2025,Bolton,Bradford,0,0,D
+E2,22/11/2025,Mansfield,Huddersfield,1,3,A
+E2,22/11/2025,Leyton Orient,Blackpool,1,1,D
+E2,22/11/2025,Northampton,Cardiff,1,3,A
+E2,23/08/2025,Bolton,Lincoln,1,1,D
+E2,23/08/2025,AFC Wimbledon,Barnsley,2,0,H
+E2,23/08/2025,Northampton,Exeter,2,0,H
+E2,23/08/2025,Port Vale,Doncaster,0,1,A
+E2,23/08/2025,Stockport,Burton,2,1,H
+E2,23/08/2025,Huddersfield,Stevenage,1,0,H
+E2,23/08/2025,Luton,Cardiff,0,1,A
+E2,23/08/2025,Plymouth,Blackpool,1,0,H
+E2,23/08/2025,Wycombe,Reading,2,2,D
+E2,23/08/2025,Mansfield,Leyton Orient,4,1,H
+E2,23/08/2025,Rotherham,Wigan,2,2,D
+E2,23/08/2025,Peterborough,Bradford,1,1,D
+E2,23/10/2025,Exeter,Plymouth,2,0,H
+E2,24/01/2026,Huddersfield,Bradford,1,0,H
+E2,24/01/2026,Plymouth,Luton,1,0,H
+E2,24/01/2026,Bolton,Leyton Orient,2,1,H
+E2,24/01/2026,Reading,Barnsley,2,2,D
+E2,24/01/2026,Cardiff,Stockport,1,1,D
+E2,24/01/2026,Doncaster,Wigan,3,3,D
+E2,24/01/2026,Port Vale,Exeter,1,3,A
+E2,24/01/2026,Wycombe,Peterborough,0,2,A
+E2,24/01/2026,Stevenage,Mansfield,1,1,D
+E2,24/01/2026,Blackpool,Northampton,2,0,H
+E2,24/01/2026,Rotherham,AFC Wimbledon,1,1,D
+E2,24/02/2026,Northampton,Port Vale,0,1,A
+E2,24/02/2026,Burton,Stockport,3,0,H
+E2,24/02/2026,Bradford,Rotherham,1,0,H
+E2,24/03/2026,Doncaster,Port Vale,1,0,H
+E2,25/10/2025,Mansfield,Wigan,1,1,D
+E2,25/10/2025,Leyton Orient,Lincoln,1,0,H
+E2,25/10/2025,Stevenage,Bradford,1,1,D
+E2,25/10/2025,Barnsley,Rotherham,0,1,A
+E2,25/10/2025,AFC Wimbledon,Burton,0,1,A
+E2,25/10/2025,Northampton,Luton,0,1,A
+E2,25/10/2025,Peterborough,Blackpool,1,2,A
+E2,25/10/2025,Reading,Doncaster,1,1,D
+E2,25/10/2025,Bolton,Cardiff,1,0,H
+E2,25/10/2025,Wycombe,Huddersfield,3,0,H
+E2,25/11/2025,Luton,Huddersfield,2,1,H
+E2,25/11/2025,Peterborough,Stevenage,0,1,A
+E2,26/12/2025,Stockport,Lincoln,1,2,A
+E2,26/12/2025,Luton,Wycombe,4,0,H
+E2,26/12/2025,Huddersfield,Port Vale,5,0,H
+E2,26/12/2025,Blackpool,Doncaster,1,0,H
+E2,26/12/2025,Peterborough,Leyton Orient,1,0,H
+E2,26/12/2025,AFC Wimbledon,Stevenage,0,0,D
+E2,26/12/2025,Barnsley,Mansfield,2,3,A
+E2,26/12/2025,Bolton,Rotherham,2,1,H
+E2,26/12/2025,Cardiff,Exeter,1,0,H
+E2,26/12/2025,Plymouth,Reading,1,4,A
+E2,26/12/2025,Burton,Northampton,5,1,H
+E2,26/12/2025,Bradford,Wigan,2,1,H
+E2,27/01/2026,Cardiff,Barnsley,4,0,H
+E2,27/01/2026,Bolton,Burton,2,1,H
+E2,27/01/2026,Doncaster,Leyton Orient,3,0,H
+E2,27/01/2026,Rotherham,Northampton,2,1,H
+E2,27/01/2026,Blackpool,Stockport,1,2,A
+E2,27/01/2026,Plymouth,Mansfield,1,1,D
+E2,27/01/2026,Wycombe,Wigan,2,0,H
+E2,27/01/2026,Stevenage,Peterborough,1,0,H
+E2,27/01/2026,Lincoln,Bradford,3,0,H
+E2,27/01/2026,Reading,Exeter,2,2,D
+E2,27/01/2026,Huddersfield,Luton,1,0,H
+E2,27/09/2025,Stockport,Reading,1,1,D
+E2,27/09/2025,Mansfield,Rotherham,2,1,H
+E2,27/09/2025,Exeter,Huddersfield,0,1,A
+E2,27/09/2025,Peterborough,Lincoln,0,3,A
+E2,27/09/2025,Bradford,Blackpool,1,0,H
+E2,27/09/2025,Northampton,Bolton,2,0,H
+E2,27/09/2025,Burton,Plymouth,0,4,A
+E2,27/09/2025,Barnsley,Port Vale,0,2,A
+E2,27/09/2025,Wigan,Cardiff,0,2,A
+E2,27/09/2025,Leyton Orient,Stevenage,2,3,A
+E2,27/09/2025,AFC Wimbledon,Wycombe,2,1,H
+E2,27/09/2025,Luton,Doncaster,1,0,H
+E2,27/10/2025,Port Vale,Stockport,0,3,A
+E2,28/02/2026,Mansfield,AFC Wimbledon,2,2,D
+E2,28/02/2026,Reading,Bradford,2,1,H
+E2,28/02/2026,Leyton Orient,Barnsley,1,3,A
+E2,28/02/2026,Lincoln,Blackpool,4,0,H
+E2,28/02/2026,Wigan,Huddersfield,1,0,H
+E2,28/02/2026,Rotherham,Plymouth,1,0,H
+E2,28/02/2026,Port Vale,Luton,1,1,D
+E2,28/02/2026,Doncaster,Cardiff,0,4,A
+E2,28/02/2026,Wycombe,Burton,3,0,H
+E2,28/02/2026,Exeter,Bolton,1,5,A
+E2,28/02/2026,Stevenage,Stockport,2,1,H
+E2,28/02/2026,Northampton,Peterborough,1,1,D
+E2,28/03/2026,Stockport,AFC Wimbledon,3,0,H
+E2,28/03/2026,Exeter,Leyton Orient,0,0,D
+E2,28/03/2026,Wycombe,Port Vale,4,0,H
+E2,28/03/2026,Blackpool,Burton,1,0,H
+E2,28/03/2026,Reading,Wigan,3,0,H
+E2,28/10/2025,Bradford,Lincoln,0,0,D
+E2,28/10/2025,Mansfield,Plymouth,2,0,H
+E2,29/11/2025,Luton,Bolton,1,1,D
+E2,29/11/2025,Plymouth,Northampton,0,3,A
+E2,29/11/2025,Doncaster,Peterborough,2,1,H
+E2,29/11/2025,Burton,Leyton Orient,0,4,A
+E2,29/11/2025,Rotherham,Wycombe,1,1,D
+E2,29/11/2025,Lincoln,Port Vale,1,0,H
+E2,29/11/2025,Cardiff,Mansfield,3,0,H
+E2,29/11/2025,Huddersfield,AFC Wimbledon,3,3,D
+E2,29/11/2025,Stockport,Barnsley,1,1,D
+E2,29/11/2025,Blackpool,Reading,0,3,A
+E2,29/11/2025,Wigan,Stevenage,0,0,D
+E2,29/11/2025,Bradford,Exeter,1,0,H
+E2,29/12/2025,AFC Wimbledon,Exeter,0,1,A
+E2,29/12/2025,Blackpool,Rotherham,4,0,H
+E2,29/12/2025,Peterborough,Reading,1,1,D
+E2,29/12/2025,Bradford,Port Vale,1,0,H
+E2,29/12/2025,Stockport,Doncaster,4,2,H
+E2,29/12/2025,Barnsley,Lincoln,0,2,A
+E2,29/12/2025,Bolton,Mansfield,0,1,A
+E2,29/12/2025,Cardiff,Stevenage,2,1,H
+E2,29/12/2025,Huddersfield,Northampton,2,0,H
+E2,29/12/2025,Plymouth,Wycombe,1,1,D
+E2,29/12/2025,Burton,Wigan,0,2,A
+E2,29/12/2025,Luton,Leyton Orient,3,0,H
+E2,30/08/2025,Doncaster,Rotherham,1,0,H
+E2,30/08/2025,Reading,Port Vale,1,0,H
+E2,30/08/2025,Wigan,Stockport,1,1,D
+E2,30/08/2025,Barnsley,Huddersfield,3,1,H
+E2,30/08/2025,Burton,Luton,0,3,A
+E2,30/08/2025,Bradford,AFC Wimbledon,3,2,H
+E2,30/08/2025,Blackpool,Bolton,1,1,D
+E2,30/08/2025,Exeter,Peterborough,3,0,H
+E2,30/08/2025,Stevenage,Wycombe,1,0,H
+E2,30/08/2025,Leyton Orient,Northampton,0,1,A
+E2,30/08/2025,Lincoln,Mansfield,1,1,D
+E2,30/08/2025,Cardiff,Plymouth,4,0,H
+E2,30/09/2025,Blackpool,Luton,2,2,D
+E2,30/09/2025,Cardiff,Burton,0,1,A
+E2,31/01/2026,Stockport,Plymouth,2,1,H
+E2,31/01/2026,Leyton Orient,Port Vale,0,1,A
+E2,31/01/2026,Exeter,Rotherham,0,4,A
+E2,31/01/2026,Luton,Blackpool,1,0,H
+E2,31/01/2026,Peterborough,Huddersfield,2,3,A
+E2,31/01/2026,Burton,Cardiff,2,2,D
+E2,31/01/2026,Wigan,Lincoln,0,1,A
+E2,31/01/2026,Northampton,Reading,0,2,A
+E2,31/01/2026,Bradford,Doncaster,1,0,H
+E2,31/01/2026,AFC Wimbledon,Bolton,0,1,A
+E2,31/01/2026,Mansfield,Wycombe,0,0,D
+E2,31/01/2026,Barnsley,Stevenage,3,1,H

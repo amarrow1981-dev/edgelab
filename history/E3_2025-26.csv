@@ -1,0 +1,511 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+E3,01/01/2026,Oldham,Chesterfield,1,1,D
+E3,01/01/2026,Bromley,Newport County,2,1,H
+E3,01/01/2026,Harrogate,Tranmere,0,2,A
+E3,01/01/2026,Cambridge,Walsall,2,0,H
+E3,01/01/2026,Barnet,Crawley Town,2,1,H
+E3,01/01/2026,Crewe,Cheltenham,4,1,H
+E3,01/01/2026,Colchester,Milton Keynes Dons,1,0,H
+E3,01/01/2026,Swindon,Gillingham,2,0,H
+E3,01/01/2026,Shrewsbury,Bristol Rvs,0,3,A
+E3,01/01/2026,Barrow,Salford,1,2,A
+E3,01/01/2026,Fleetwood Town,Grimsby,0,1,A
+E3,01/01/2026,Notts County,Accrington ST,0,1,A
+E3,02/04/2026,Cambridge,Swindon,1,1,D
+E3,02/08/2025,Salford,Crewe,1,3,A
+E3,02/08/2025,Cambridge,Cheltenham,1,0,H
+E3,02/08/2025,Barnet,Fleetwood Town,0,2,A
+E3,02/08/2025,Grimsby,Crawley Town,3,0,H
+E3,02/08/2025,Colchester,Tranmere,1,1,D
+E3,02/08/2025,Accrington ST,Gillingham,1,1,D
+E3,02/08/2025,Shrewsbury,Bromley,0,0,D
+E3,02/08/2025,Milton Keynes Dons,Oldham,0,0,D
+E3,02/08/2025,Chesterfield,Barrow,1,0,H
+E3,02/08/2025,Walsall,Swindon,2,1,H
+E3,02/08/2025,Newport County,Notts County,1,1,D
+E3,02/08/2025,Bristol Rvs,Harrogate,0,1,A
+E3,03/02/2026,Harrogate,Swindon,0,1,A
+E3,03/02/2026,Bristol Rvs,Walsall,2,0,H
+E3,03/02/2026,Barnet,Crewe,1,1,D
+E3,03/02/2026,Notts County,Gillingham,1,0,H
+E3,03/03/2026,Bromley,Oldham,0,0,D
+E3,03/03/2026,Walsall,Fleetwood Town,0,1,A
+E3,03/03/2026,Chesterfield,Colchester,3,0,H
+E3,03/03/2026,Grimsby,Salford,3,1,H
+E3,03/03/2026,Newport County,Tranmere,3,1,H
+E3,03/04/2026,Bristol Rvs,Fleetwood Town,1,0,H
+E3,03/04/2026,Colchester,Oldham,1,3,A
+E3,03/04/2026,Grimsby,Harrogate,1,3,A
+E3,03/04/2026,Chesterfield,Cheltenham,1,0,H
+E3,03/04/2026,Milton Keynes Dons,Barrow,0,0,D
+E3,03/04/2026,Shrewsbury,Tranmere,1,0,H
+E3,03/04/2026,Accrington ST,Crewe,2,0,H
+E3,03/04/2026,Barnet,Bromley,2,2,D
+E3,03/04/2026,Newport County,Crawley Town,0,2,A
+E3,03/04/2026,Salford,Notts County,2,1,H
+E3,03/04/2026,Walsall,Gillingham,2,2,D
+E3,04/01/2026,Cheltenham,Crawley Town,3,0,H
+E3,04/01/2026,Milton Keynes Dons,Chesterfield,2,2,D
+E3,04/10/2025,Milton Keynes Dons,Gillingham,3,2,H
+E3,04/10/2025,Walsall,Bristol Rvs,2,1,H
+E3,04/10/2025,Colchester,Chesterfield,6,2,H
+E3,04/10/2025,Barnet,Accrington ST,2,0,H
+E3,04/10/2025,Cambridge,Crawley Town,3,1,H
+E3,04/10/2025,Cheltenham,Fleetwood Town,2,0,H
+E3,04/10/2025,Notts County,Oldham,3,1,H
+E3,04/10/2025,Barrow,Shrewsbury,0,0,D
+E3,04/10/2025,Bromley,Tranmere,3,3,D
+E3,04/10/2025,Salford,Grimsby,0,2,A
+E3,04/10/2025,Newport County,Swindon,0,1,A
+E3,05/02/2026,Accrington ST,Salford,1,0,H
+E3,06/03/2026,Cheltenham,Barrow,2,2,D
+E3,06/04/2026,Tranmere,Colchester,0,1,A
+E3,06/04/2026,Gillingham,Accrington ST,2,0,H
+E3,06/04/2026,Oldham,Milton Keynes Dons,1,1,D
+E3,06/04/2026,Swindon,Walsall,2,1,H
+E3,06/04/2026,Crawley Town,Grimsby,0,2,A
+E3,06/04/2026,Crewe,Salford,1,0,H
+E3,06/04/2026,Cheltenham,Cambridge,1,1,D
+E3,06/04/2026,Notts County,Newport County,3,1,H
+E3,06/04/2026,Barrow,Chesterfield,0,1,A
+E3,06/04/2026,Harrogate,Bristol Rvs,2,3,A
+E3,06/04/2026,Fleetwood Town,Barnet,2,5,A
+E3,06/09/2025,Notts County,Fleetwood Town,1,0,H
+E3,06/09/2025,Bromley,Gillingham,2,2,D
+E3,06/09/2025,Harrogate,Crawley Town,0,1,A
+E3,06/09/2025,Barrow,Swindon,1,3,A
+E3,06/09/2025,Cheltenham,Accrington ST,1,0,H
+E3,06/09/2025,Salford,Tranmere,3,1,H
+E3,06/09/2025,Barnet,Shrewsbury,1,3,A
+E3,06/09/2025,Newport County,Bristol Rvs,2,3,A
+E3,06/09/2025,Walsall,Chesterfield,1,0,H
+E3,06/09/2025,Cambridge,Oldham,0,1,A
+E3,06/09/2025,Colchester,Crewe,1,1,D
+E3,06/09/2025,Milton Keynes Dons,Grimsby,2,3,A
+E3,06/10/2025,Harrogate,Crewe,1,2,A
+E3,06/12/2025,Colchester,Gillingham,0,0,D
+E3,07/02/2026,Newport County,Grimsby,0,0,D
+E3,07/02/2026,Swindon,Oldham,3,0,H
+E3,07/02/2026,Crawley Town,Crewe,0,1,A
+E3,07/02/2026,Bristol Rvs,Chesterfield,2,3,A
+E3,07/02/2026,Fleetwood Town,Bromley,1,2,A
+E3,07/02/2026,Walsall,Barnet,1,3,A
+E3,07/02/2026,Gillingham,Tranmere,2,1,H
+E3,07/02/2026,Colchester,Shrewsbury,2,0,H
+E3,07/02/2026,Cheltenham,Milton Keynes Dons,2,3,A
+E3,07/02/2026,Harrogate,Cambridge,2,1,H
+E3,07/02/2026,Notts County,Barrow,2,1,H
+E3,07/03/2026,Crawley Town,Swindon,2,2,D
+E3,07/03/2026,Salford,Barnet,2,0,H
+E3,07/03/2026,Grimsby,Bromley,1,1,D
+E3,07/03/2026,Tranmere,Oldham,1,3,A
+E3,07/03/2026,Accrington ST,Cambridge,1,1,D
+E3,07/03/2026,Milton Keynes Dons,Harrogate,4,1,H
+E3,07/03/2026,Gillingham,Fleetwood Town,1,1,D
+E3,07/03/2026,Chesterfield,Shrewsbury,2,3,A
+E3,07/03/2026,Walsall,Notts County,1,2,A
+E3,07/03/2026,Bristol Rvs,Crewe,2,1,H
+E3,07/03/2026,Newport County,Colchester,1,2,A
+E3,07/04/2026,Bromley,Shrewsbury,2,1,H
+E3,08/11/2025,Chesterfield,Accrington ST,3,3,D
+E3,08/11/2025,Barnet,Milton Keynes Dons,2,2,D
+E3,08/11/2025,Barrow,Grimsby,2,2,D
+E3,08/11/2025,Harrogate,Oldham,0,1,A
+E3,08/11/2025,Salford,Cambridge,0,0,D
+E3,08/11/2025,Swindon,Tranmere,2,1,H
+E3,08/11/2025,Crawley Town,Fleetwood Town,2,1,H
+E3,08/11/2025,Newport County,Walsall,2,4,A
+E3,08/11/2025,Bristol Rvs,Gillingham,0,1,A
+E3,08/11/2025,Colchester,Bromley,0,2,A
+E3,08/11/2025,Crewe,Shrewsbury,3,1,H
+E3,09/08/2025,Gillingham,Walsall,1,0,H
+E3,09/08/2025,Tranmere,Shrewsbury,4,0,H
+E3,09/08/2025,Fleetwood Town,Bristol Rvs,2,1,H
+E3,09/08/2025,Oldham,Colchester,1,1,D
+E3,09/08/2025,Swindon,Cambridge,3,2,H
+E3,09/08/2025,Crawley Town,Newport County,1,2,A
+E3,09/08/2025,Crewe,Accrington ST,2,0,H
+E3,09/08/2025,Cheltenham,Chesterfield,0,2,A
+E3,09/08/2025,Notts County,Salford,1,2,A
+E3,09/08/2025,Barrow,Milton Keynes Dons,0,2,A
+E3,09/08/2025,Harrogate,Grimsby,3,3,D
+E3,09/08/2025,Bromley,Barnet,2,0,H
+E3,09/12/2025,Barrow,Tranmere,0,3,A
+E3,09/12/2025,Notts County,Milton Keynes Dons,3,2,H
+E3,09/12/2025,Cambridge,Chesterfield,1,1,D
+E3,09/12/2025,Barnet,Bristol Rvs,4,0,H
+E3,09/12/2025,Swindon,Cheltenham,0,1,A
+E3,09/12/2025,Bromley,Crawley Town,3,1,H
+E3,09/12/2025,Shrewsbury,Grimsby,1,1,D
+E3,09/12/2025,Fleetwood Town,Salford,1,1,D
+E3,09/12/2025,Harrogate,Accrington ST,0,2,A
+E3,10/01/2026,Crewe,Harrogate,1,1,D
+E3,10/01/2026,Tranmere,Bromley,0,2,A
+E3,10/02/2026,Shrewsbury,Barrow,2,1,H
+E3,10/02/2026,Crawley Town,Cambridge,0,3,A
+E3,10/03/2026,Gillingham,Milton Keynes Dons,1,5,A
+E3,10/03/2026,Salford,Walsall,1,0,H
+E3,10/03/2026,Fleetwood Town,Cheltenham,2,2,D
+E3,10/03/2026,Barrow,Bristol Rvs,0,2,A
+E3,10/04/2026,Colchester,Swindon,3,0,H
+E3,10/11/2025,Cheltenham,Notts County,1,2,A
+E3,10/12/2025,Oldham,Walsall,0,1,A
+E3,10/12/2025,Crewe,Newport County,2,2,D
+E3,11/02/2026,Grimsby,Accrington ST,1,0,H
+E3,11/02/2026,Swindon,Newport County,2,0,H
+E3,11/04/2026,Milton Keynes Dons,Bromley,2,1,H
+E3,11/04/2026,Cambridge,Notts County,4,0,H
+E3,11/04/2026,Barnet,Barrow,3,2,H
+E3,11/04/2026,Newport County,Harrogate,2,1,H
+E3,11/04/2026,Grimsby,Crewe,3,2,H
+E3,11/04/2026,Accrington ST,Fleetwood Town,1,2,A
+E3,11/04/2026,Shrewsbury,Oldham,1,0,H
+E3,11/04/2026,Walsall,Cheltenham,0,4,A
+E3,11/04/2026,Bristol Rvs,Crawley Town,3,1,H
+E3,11/04/2026,Chesterfield,Tranmere,1,1,D
+E3,11/04/2026,Salford,Gillingham,0,0,D
+E3,11/10/2025,Fleetwood Town,Harrogate,3,2,H
+E3,11/10/2025,Grimsby,Colchester,1,2,A
+E3,11/10/2025,Crewe,Bromley,0,1,A
+E3,11/10/2025,Crawley Town,Walsall,1,1,D
+E3,11/10/2025,Accrington ST,Newport County,0,1,A
+E3,11/10/2025,Shrewsbury,Cambridge,2,0,H
+E3,11/10/2025,Gillingham,Cheltenham,1,1,D
+E3,11/10/2025,Chesterfield,Salford,2,0,H
+E3,11/10/2025,Tranmere,Barnet,0,2,A
+E3,11/10/2025,Bristol Rvs,Milton Keynes Dons,0,4,A
+E3,11/10/2025,Oldham,Barrow,0,0,D
+E3,13/03/2026,Colchester,Crawley Town,0,0,D
+E3,13/09/2025,Chesterfield,Milton Keynes Dons,1,1,D
+E3,13/09/2025,Gillingham,Notts County,1,0,H
+E3,13/09/2025,Fleetwood Town,Walsall,1,1,D
+E3,13/09/2025,Bristol Rvs,Barrow,2,1,H
+E3,13/09/2025,Crawley Town,Cheltenham,2,0,H
+E3,13/09/2025,Accrington ST,Colchester,1,0,H
+E3,13/09/2025,Oldham,Bromley,1,0,H
+E3,13/09/2025,Shrewsbury,Salford,1,3,A
+E3,13/09/2025,Tranmere,Newport County,1,1,D
+E3,13/09/2025,Grimsby,Cambridge,1,1,D
+E3,13/09/2025,Crewe,Barnet,1,2,A
+E3,13/09/2025,Swindon,Harrogate,3,1,H
+E3,13/12/2025,Chesterfield,Barnet,3,1,H
+E3,13/12/2025,Salford,Colchester,4,3,H
+E3,13/12/2025,Gillingham,Barrow,2,2,D
+E3,13/12/2025,Bristol Rvs,Swindon,0,3,A
+E3,13/12/2025,Milton Keynes Dons,Cambridge,1,1,D
+E3,13/12/2025,Accrington ST,Bromley,0,1,A
+E3,13/12/2025,Crawley Town,Oldham,2,2,D
+E3,13/12/2025,Grimsby,Notts County,0,2,A
+E3,13/12/2025,Newport County,Fleetwood Town,0,2,A
+E3,13/12/2025,Cheltenham,Harrogate,1,1,D
+E3,13/12/2025,Tranmere,Crewe,1,4,A
+E3,13/12/2025,Walsall,Shrewsbury,1,1,D
+E3,14/02/2026,Bromley,Notts County,1,1,D
+E3,14/02/2026,Barnet,Cheltenham,0,0,D
+E3,14/02/2026,Barrow,Colchester,1,0,H
+E3,14/02/2026,Cambridge,Bristol Rvs,3,1,H
+E3,14/02/2026,Crewe,Gillingham,1,0,H
+E3,14/02/2026,Shrewsbury,Swindon,3,1,H
+E3,14/02/2026,Oldham,Fleetwood Town,1,1,D
+E3,14/02/2026,Milton Keynes Dons,Newport County,1,0,H
+E3,14/02/2026,Chesterfield,Harrogate,1,1,D
+E3,14/02/2026,Tranmere,Crawley Town,2,0,H
+E3,14/03/2026,Cambridge,Gillingham,5,0,H
+E3,14/03/2026,Shrewsbury,Cheltenham,0,2,A
+E3,14/03/2026,Fleetwood Town,Tranmere,0,0,D
+E3,14/03/2026,Crewe,Walsall,0,3,A
+E3,14/03/2026,Barrow,Accrington ST,0,0,D
+E3,14/03/2026,Bromley,Bristol Rvs,1,0,H
+E3,14/03/2026,Harrogate,Salford,0,1,A
+E3,14/03/2026,Swindon,Milton Keynes Dons,1,2,A
+E3,14/03/2026,Barnet,Newport County,1,2,A
+E3,14/03/2026,Oldham,Grimsby,1,0,H
+E3,14/03/2026,Notts County,Chesterfield,2,3,A
+E3,15/11/2025,Fleetwood Town,Swindon,1,1,D
+E3,15/11/2025,Oldham,Crewe,0,0,D
+E3,15/11/2025,Shrewsbury,Newport County,1,0,H
+E3,15/11/2025,Accrington ST,Bristol Rvs,3,1,H
+E3,15/11/2025,Grimsby,Chesterfield,0,1,A
+E3,15/11/2025,Cambridge,Barnet,0,0,D
+E3,15/11/2025,Notts County,Harrogate,1,1,D
+E3,15/11/2025,Tranmere,Cheltenham,3,2,H
+E3,15/11/2025,Bromley,Barrow,2,1,H
+E3,15/11/2025,Milton Keynes Dons,Salford,2,0,H
+E3,15/11/2025,Gillingham,Crawley Town,2,2,D
+E3,15/11/2025,Walsall,Colchester,0,2,A
+E3,16/08/2025,Oldham,Swindon,1,2,A
+E3,16/08/2025,Milton Keynes Dons,Cheltenham,5,0,H
+E3,16/08/2025,Shrewsbury,Colchester,0,2,A
+E3,16/08/2025,Crewe,Crawley Town,1,0,H
+E3,16/08/2025,Barnet,Walsall,1,2,A
+E3,16/08/2025,Cambridge,Harrogate,1,1,D
+E3,16/08/2025,Tranmere,Gillingham,1,1,D
+E3,16/08/2025,Barrow,Notts County,2,1,H
+E3,16/08/2025,Chesterfield,Bristol Rvs,3,1,H
+E3,16/08/2025,Salford,Accrington ST,2,1,H
+E3,16/08/2025,Bromley,Fleetwood Town,2,2,D
+E3,16/08/2025,Grimsby,Newport County,2,1,H
+E3,17/01/2026,Grimsby,Barnet,1,0,H
+E3,17/01/2026,Crewe,Barrow,3,1,H
+E3,17/01/2026,Crawley Town,Notts County,1,2,A
+E3,17/01/2026,Swindon,Salford,2,3,A
+E3,17/01/2026,Shrewsbury,Harrogate,1,0,H
+E3,17/01/2026,Oldham,Cheltenham,2,1,H
+E3,17/01/2026,Gillingham,Newport County,3,2,H
+E3,17/01/2026,Fleetwood Town,Cambridge,1,2,A
+E3,17/01/2026,Bristol Rvs,Colchester,0,1,A
+E3,17/01/2026,Accrington ST,Milton Keynes Dons,0,2,A
+E3,17/01/2026,Chesterfield,Bromley,0,0,D
+E3,17/01/2026,Tranmere,Walsall,1,3,A
+E3,17/02/2026,Crewe,Fleetwood Town,0,1,A
+E3,17/02/2026,Bromley,Cheltenham,1,1,D
+E3,17/02/2026,Barrow,Harrogate,0,1,A
+E3,17/02/2026,Chesterfield,Gillingham,1,0,H
+E3,17/02/2026,Milton Keynes Dons,Crawley Town,0,0,D
+E3,17/02/2026,Tranmere,Accrington ST,0,1,A
+E3,17/02/2026,Cambridge,Colchester,1,1,D
+E3,17/02/2026,Barnet,Swindon,1,2,A
+E3,17/02/2026,Salford,Newport County,1,3,A
+E3,17/02/2026,Shrewsbury,Notts County,1,0,H
+E3,17/02/2026,Oldham,Bristol Rvs,2,0,H
+E3,17/03/2026,Salford,Barrow,3,1,H
+E3,17/03/2026,Walsall,Cambridge,0,0,D
+E3,17/03/2026,Bristol Rvs,Shrewsbury,1,0,H
+E3,17/03/2026,Newport County,Bromley,0,1,A
+E3,17/03/2026,Chesterfield,Oldham,0,3,A
+E3,17/03/2026,Gillingham,Swindon,0,2,A
+E3,17/03/2026,Accrington ST,Notts County,0,4,A
+E3,17/03/2026,Crawley Town,Barnet,1,1,D
+E3,17/03/2026,Grimsby,Fleetwood Town,1,0,H
+E3,17/03/2026,Cheltenham,Crewe,1,1,D
+E3,17/03/2026,Tranmere,Harrogate,0,3,A
+E3,18/02/2026,Grimsby,Walsall,2,2,D
+E3,18/03/2026,Milton Keynes Dons,Colchester,1,0,H
+E3,18/10/2025,Walsall,Barrow,1,2,A
+E3,18/10/2025,Bristol Rvs,Tranmere,1,4,A
+E3,18/10/2025,Salford,Oldham,1,0,H
+E3,18/10/2025,Cambridge,Bromley,2,1,H
+E3,18/10/2025,Shrewsbury,Crawley Town,1,0,H
+E3,18/10/2025,Grimsby,Gillingham,1,0,H
+E3,18/10/2025,Colchester,Harrogate,3,1,H
+E3,18/10/2025,Barnet,Notts County,0,1,A
+E3,18/10/2025,Newport County,Cheltenham,0,2,A
+E3,18/10/2025,Milton Keynes Dons,Crewe,3,1,H
+E3,18/10/2025,Accrington ST,Swindon,4,0,H
+E3,18/10/2025,Chesterfield,Fleetwood Town,1,1,D
+E3,19/08/2025,Bristol Rvs,Oldham,0,0,D
+E3,19/08/2025,Harrogate,Barrow,1,0,H
+E3,19/08/2025,Newport County,Salford,0,1,A
+E3,19/08/2025,Fleetwood Town,Crewe,1,4,A
+E3,19/08/2025,Gillingham,Chesterfield,4,1,H
+E3,19/08/2025,Swindon,Barnet,0,2,A
+E3,19/08/2025,Colchester,Cambridge,1,2,A
+E3,19/08/2025,Walsall,Grimsby,0,1,A
+E3,19/08/2025,Crawley Town,Milton Keynes Dons,1,1,D
+E3,19/08/2025,Cheltenham,Bromley,1,2,A
+E3,19/12/2025,Cambridge,Accrington ST,2,0,H
+E3,19/12/2025,Barrow,Cheltenham,1,2,A
+E3,19/12/2025,Crewe,Bristol Rvs,1,1,D
+E3,20/08/2025,Notts County,Shrewsbury,4,1,H
+E3,20/09/2025,Bromley,Chesterfield,2,2,D
+E3,20/09/2025,Barrow,Crewe,1,0,H
+E3,20/09/2025,Notts County,Crawley Town,4,0,H
+E3,20/09/2025,Barnet,Grimsby,3,0,H
+E3,20/09/2025,Salford,Swindon,3,2,H
+E3,20/09/2025,Cheltenham,Oldham,0,3,A
+E3,20/09/2025,Colchester,Bristol Rvs,1,1,D
+E3,20/09/2025,Milton Keynes Dons,Accrington ST,1,2,A
+E3,20/09/2025,Walsall,Tranmere,4,2,H
+E3,20/09/2025,Harrogate,Shrewsbury,2,0,H
+E3,20/09/2025,Cambridge,Fleetwood Town,2,1,H
+E3,20/09/2025,Newport County,Gillingham,1,3,A
+E3,20/12/2025,Bromley,Grimsby,2,0,H
+E3,20/12/2025,Fleetwood Town,Gillingham,2,1,H
+E3,20/12/2025,Oldham,Tranmere,3,1,H
+E3,20/12/2025,Shrewsbury,Chesterfield,0,1,A
+E3,20/12/2025,Swindon,Crawley Town,1,0,H
+E3,20/12/2025,Notts County,Walsall,0,0,D
+E3,20/12/2025,Barnet,Salford,1,3,A
+E3,20/12/2025,Colchester,Newport County,4,1,H
+E3,20/12/2025,Harrogate,Milton Keynes Dons,0,4,A
+E3,21/02/2026,Harrogate,Bromley,0,0,D
+E3,21/02/2026,Notts County,Tranmere,5,0,H
+E3,21/02/2026,Cheltenham,Salford,3,2,H
+E3,21/02/2026,Crawley Town,Chesterfield,1,1,D
+E3,21/02/2026,Fleetwood Town,Barrow,3,2,H
+E3,21/02/2026,Swindon,Crewe,1,2,A
+E3,21/02/2026,Bristol Rvs,Grimsby,3,1,H
+E3,21/02/2026,Gillingham,Oldham,0,3,A
+E3,21/02/2026,Accrington ST,Shrewsbury,0,2,A
+E3,21/02/2026,Newport County,Cambridge,0,2,A
+E3,21/02/2026,Colchester,Barnet,4,1,H
+E3,21/03/2026,Tranmere,Swindon,0,1,A
+E3,21/03/2026,Milton Keynes Dons,Barnet,1,3,A
+E3,21/03/2026,Cambridge,Salford,1,0,H
+E3,21/03/2026,Fleetwood Town,Crawley Town,1,0,H
+E3,21/03/2026,Bromley,Colchester,1,0,H
+E3,21/03/2026,Notts County,Cheltenham,5,2,H
+E3,21/03/2026,Grimsby,Barrow,5,0,H
+E3,21/03/2026,Accrington ST,Chesterfield,0,1,A
+E3,21/03/2026,Shrewsbury,Crewe,0,4,A
+E3,21/03/2026,Oldham,Harrogate,1,0,H
+E3,21/03/2026,Gillingham,Bristol Rvs,1,2,A
+E3,21/03/2026,Walsall,Newport County,2,1,H
+E3,21/10/2025,Swindon,Notts County,2,2,D
+E3,22/11/2025,Bromley,Salford,2,0,H
+E3,22/11/2025,Barrow,Cambridge,0,2,A
+E3,22/11/2025,Tranmere,Milton Keynes Dons,2,2,D
+E3,22/11/2025,Notts County,Colchester,1,3,A
+E3,22/11/2025,Cheltenham,Bristol Rvs,1,0,H
+E3,22/11/2025,Crewe,Chesterfield,3,3,D
+E3,22/11/2025,Crawley Town,Accrington ST,1,1,D
+E3,22/11/2025,Swindon,Grimsby,2,2,D
+E3,22/11/2025,Oldham,Newport County,3,0,H
+E3,22/11/2025,Fleetwood Town,Shrewsbury,3,1,H
+E3,22/11/2025,Harrogate,Walsall,0,2,A
+E3,22/11/2025,Gillingham,Barnet,1,1,D
+E3,23/02/2026,Walsall,Milton Keynes Dons,0,2,A
+E3,23/08/2025,Harrogate,Chesterfield,1,2,A
+E3,23/08/2025,Walsall,Salford,1,0,H
+E3,23/08/2025,Newport County,Milton Keynes Dons,1,2,A
+E3,23/08/2025,Bristol Rvs,Cambridge,1,0,H
+E3,23/08/2025,Gillingham,Crewe,1,0,H
+E3,23/08/2025,Fleetwood Town,Oldham,1,1,D
+E3,23/08/2025,Accrington ST,Grimsby,1,1,D
+E3,23/08/2025,Colchester,Barrow,0,2,A
+E3,23/08/2025,Crawley Town,Tranmere,0,2,A
+E3,23/08/2025,Cheltenham,Barnet,0,1,A
+E3,23/08/2025,Notts County,Bromley,2,2,D
+E3,23/08/2025,Swindon,Shrewsbury,2,1,H
+E3,24/01/2026,Bromley,Swindon,2,1,H
+E3,24/01/2026,Harrogate,Gillingham,0,3,A
+E3,24/01/2026,Barrow,Crawley Town,0,1,A
+E3,24/01/2026,Cheltenham,Grimsby,0,2,A
+E3,24/01/2026,Cambridge,Tranmere,4,2,H
+E3,24/01/2026,Salford,Bristol Rvs,1,0,H
+E3,24/01/2026,Newport County,Chesterfield,2,1,H
+E3,24/01/2026,Milton Keynes Dons,Shrewsbury,5,1,H
+E3,24/01/2026,Walsall,Accrington ST,0,0,D
+E3,24/01/2026,Notts County,Crewe,1,0,H
+E3,24/01/2026,Barnet,Oldham,3,2,H
+E3,24/01/2026,Colchester,Fleetwood Town,2,1,H
+E3,24/02/2026,Accrington ST,Barnet,0,1,A
+E3,24/02/2026,Salford,Shrewsbury,1,2,A
+E3,24/03/2026,Oldham,Notts County,3,0,H
+E3,25/10/2025,Harrogate,Newport County,0,3,A
+E3,25/10/2025,Tranmere,Chesterfield,1,1,D
+E3,25/10/2025,Notts County,Cambridge,2,0,H
+E3,25/10/2025,Crewe,Grimsby,3,2,H
+E3,25/10/2025,Crawley Town,Bristol Rvs,4,0,H
+E3,25/10/2025,Barrow,Barnet,2,2,D
+E3,25/10/2025,Oldham,Shrewsbury,2,2,D
+E3,25/10/2025,Gillingham,Salford,1,2,A
+E3,25/10/2025,Cheltenham,Walsall,1,0,H
+E3,25/10/2025,Fleetwood Town,Accrington ST,2,1,H
+E3,25/10/2025,Swindon,Colchester,0,0,D
+E3,25/10/2025,Bromley,Milton Keynes Dons,2,1,H
+E3,26/12/2025,Chesterfield,Notts County,2,0,H
+E3,26/12/2025,Tranmere,Fleetwood Town,1,0,H
+E3,26/12/2025,Bristol Rvs,Bromley,2,3,A
+E3,26/12/2025,Walsall,Crewe,1,0,H
+E3,26/12/2025,Gillingham,Cambridge,1,1,D
+E3,26/12/2025,Milton Keynes Dons,Swindon,1,0,H
+E3,26/12/2025,Accrington ST,Barrow,2,1,H
+E3,26/12/2025,Crawley Town,Colchester,1,1,D
+E3,26/12/2025,Grimsby,Oldham,0,0,D
+E3,26/12/2025,Newport County,Barnet,0,0,D
+E3,26/12/2025,Cheltenham,Shrewsbury,3,1,H
+E3,26/12/2025,Salford,Harrogate,1,0,H
+E3,27/01/2026,Newport County,Accrington ST,1,4,A
+E3,27/01/2026,Walsall,Crawley Town,0,0,D
+E3,27/01/2026,Milton Keynes Dons,Bristol Rvs,1,0,H
+E3,27/01/2026,Harrogate,Fleetwood Town,1,2,A
+E3,27/01/2026,Colchester,Grimsby,0,1,A
+E3,27/01/2026,Salford,Chesterfield,0,1,A
+E3,27/01/2026,Cambridge,Shrewsbury,1,0,H
+E3,27/01/2026,Notts County,Swindon,2,1,H
+E3,27/01/2026,Bromley,Crewe,2,2,D
+E3,27/01/2026,Barnet,Tranmere,1,0,H
+E3,27/02/2026,Harrogate,Cheltenham,1,1,D
+E3,27/09/2025,Fleetwood Town,Colchester,4,2,H
+E3,27/09/2025,Bristol Rvs,Salford,2,1,H
+E3,27/09/2025,Swindon,Bromley,2,0,H
+E3,27/09/2025,Oldham,Barnet,1,1,D
+E3,27/09/2025,Chesterfield,Newport County,4,1,H
+E3,27/09/2025,Gillingham,Harrogate,0,1,A
+E3,27/09/2025,Shrewsbury,Milton Keynes Dons,1,2,A
+E3,27/09/2025,Accrington ST,Walsall,1,3,A
+E3,27/09/2025,Crawley Town,Barrow,1,2,A
+E3,27/09/2025,Grimsby,Cheltenham,7,1,H
+E3,27/09/2025,Tranmere,Cambridge,0,0,D
+E3,27/09/2025,Crewe,Notts County,2,1,H
+E3,27/11/2025,Grimsby,Tranmere,1,2,A
+E3,28/02/2026,Bromley,Accrington ST,2,1,H
+E3,28/02/2026,Barrow,Gillingham,0,1,A
+E3,28/02/2026,Swindon,Bristol Rvs,1,1,D
+E3,28/02/2026,Notts County,Grimsby,0,1,A
+E3,28/02/2026,Barnet,Chesterfield,1,0,H
+E3,28/02/2026,Crewe,Tranmere,2,1,H
+E3,28/02/2026,Colchester,Salford,0,1,A
+E3,28/02/2026,Oldham,Crawley Town,2,0,H
+E3,28/02/2026,Fleetwood Town,Newport County,0,0,D
+E3,28/02/2026,Cambridge,Milton Keynes Dons,1,1,D
+E3,28/02/2026,Shrewsbury,Walsall,1,2,A
+E3,28/03/2026,Harrogate,Notts County,0,2,A
+E3,28/03/2026,Colchester,Walsall,1,1,D
+E3,28/03/2026,Crawley Town,Gillingham,2,0,H
+E3,28/03/2026,Crewe,Oldham,2,1,H
+E3,28/03/2026,Barnet,Cambridge,1,0,H
+E3,28/03/2026,Barrow,Bromley,2,1,H
+E3,28/03/2026,Newport County,Shrewsbury,1,0,H
+E3,28/03/2026,Bristol Rvs,Accrington ST,2,0,H
+E3,28/03/2026,Salford,Milton Keynes Dons,1,0,H
+E3,28/03/2026,Swindon,Fleetwood Town,1,1,D
+E3,28/10/2025,Accrington ST,Tranmere,1,1,D
+E3,29/08/2025,Salford,Cheltenham,1,1,D
+E3,29/11/2025,Newport County,Barrow,2,2,D
+E3,29/11/2025,Cambridge,Crewe,2,1,H
+E3,29/11/2025,Salford,Crawley Town,4,3,H
+E3,29/11/2025,Barnet,Harrogate,1,1,D
+E3,29/11/2025,Milton Keynes Dons,Fleetwood Town,2,1,H
+E3,29/11/2025,Accrington ST,Oldham,1,0,H
+E3,29/11/2025,Bristol Rvs,Notts County,0,1,A
+E3,29/11/2025,Walsall,Bromley,3,1,H
+E3,29/11/2025,Chesterfield,Swindon,1,2,A
+E3,29/11/2025,Shrewsbury,Gillingham,3,3,D
+E3,29/11/2025,Colchester,Cheltenham,2,0,H
+E3,29/12/2025,Salford,Fleetwood Town,0,0,D
+E3,29/12/2025,Newport County,Crewe,2,0,H
+E3,29/12/2025,Tranmere,Barrow,1,3,A
+E3,29/12/2025,Walsall,Oldham,1,2,A
+E3,29/12/2025,Chesterfield,Cambridge,0,1,A
+E3,29/12/2025,Bristol Rvs,Barnet,0,2,A
+E3,29/12/2025,Milton Keynes Dons,Notts County,1,1,D
+E3,29/12/2025,Cheltenham,Swindon,0,2,A
+E3,29/12/2025,Gillingham,Colchester,1,1,D
+E3,29/12/2025,Grimsby,Shrewsbury,1,0,H
+E3,29/12/2025,Accrington ST,Harrogate,1,0,H
+E3,29/12/2025,Crawley Town,Bromley,1,3,A
+E3,30/08/2025,Barnet,Colchester,1,1,D
+E3,30/08/2025,Cambridge,Newport County,2,0,H
+E3,30/08/2025,Tranmere,Notts County,1,2,A
+E3,30/08/2025,Bromley,Harrogate,2,0,H
+E3,30/08/2025,Crewe,Swindon,0,3,A
+E3,30/08/2025,Barrow,Fleetwood Town,0,1,A
+E3,30/08/2025,Chesterfield,Crawley Town,2,2,D
+E3,30/08/2025,Milton Keynes Dons,Walsall,0,1,A
+E3,30/08/2025,Oldham,Gillingham,0,1,A
+E3,30/08/2025,Shrewsbury,Accrington ST,0,0,D
+E3,30/08/2025,Grimsby,Bristol Rvs,0,1,A
+E3,31/01/2026,Bristol Rvs,Newport County,3,0,H
+E3,31/01/2026,Crewe,Colchester,1,0,H
+E3,31/01/2026,Crawley Town,Harrogate,2,0,H
+E3,31/01/2026,Accrington ST,Cheltenham,3,1,H
+E3,31/01/2026,Swindon,Barrow,3,1,H
+E3,31/01/2026,Shrewsbury,Barnet,0,0,D
+E3,31/01/2026,Oldham,Cambridge,0,3,A
+E3,31/01/2026,Gillingham,Bromley,1,4,A
+E3,31/01/2026,Chesterfield,Walsall,2,2,D
+E3,31/01/2026,Fleetwood Town,Notts County,1,2,A
+E3,31/01/2026,Grimsby,Milton Keynes Dons,2,2,D
+E3,31/01/2026,Tranmere,Salford,0,2,A

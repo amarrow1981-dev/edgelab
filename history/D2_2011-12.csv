@@ -1,0 +1,307 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+D2,01/04/2012,FC Ingolstadt 04,MSV Duisburg,1,1,D
+D2,01/04/2012,Karlsruher SC,Union Berlin,2,0,H
+D2,01/04/2012,Energie Cottbus,FSV Frankfurt,1,1,D
+D2,01/10/2011,FC Ingolstadt 04,Vfl Bochum,3,5,A
+D2,01/10/2011,Energie Cottbus,FC St. Pauli,1,4,A
+D2,02/03/2012,FC Ingolstadt 04,Union Berlin,3,3,D
+D2,02/03/2012,MSV Duisburg,SpVgg Greuther Furth,0,2,A
+D2,02/03/2012,Vfl Bochum,Dynamo Dresden,0,2,A
+D2,02/04/2012,Fortuna Dusseldorf,FC St. Pauli,0,0,D
+D2,02/10/2011,TSV 1860 Munich,Dynamo Dresden,2,4,A
+D2,02/10/2011,Karlsruher SC,SpVgg Greuther Furth,2,2,D
+D2,02/10/2011,MSV Duisburg,SC Paderborn 07,0,1,A
+D2,02/12/2011,SC Paderborn 07,FC St. Pauli,1,1,D
+D2,02/12/2011,FC Ingolstadt 04,Eintracht Braunschweig,0,1,A
+D2,02/12/2011,Union Berlin,Energie Cottbus,1,0,H
+D2,03/02/2012,Dynamo Dresden,SpVgg Greuther Furth,3,1,H
+D2,03/02/2012,SC Paderborn 07,Union Berlin,3,2,H
+D2,03/02/2012,MSV Duisburg,FSV Frankfurt,1,2,A
+D2,03/03/2012,Karlsruher SC,Fortuna Dusseldorf,0,5,A
+D2,03/03/2012,Alemannia Aachen,SC Paderborn 07,0,3,A
+D2,03/10/2011,Eintracht Braunschweig,Fortuna Dusseldorf,1,1,D
+D2,03/12/2011,SpVgg Greuther Furth,Hansa Rostock,3,0,H
+D2,03/12/2011,Eintracht Frankfurt,Karlsruher SC,2,0,H
+D2,04/02/2012,Alemannia Aachen,FC St. Pauli,2,1,H
+D2,04/02/2012,FC Ingolstadt 04,Fortuna Dusseldorf,1,1,D
+D2,04/03/2012,Erzgebirge AUE,FSV Frankfurt,4,3,H
+D2,04/03/2012,Eintracht Frankfurt,Energie Cottbus,1,0,H
+D2,04/03/2012,Eintracht Braunschweig,Hansa Rostock,3,2,H
+D2,04/11/2011,Fortuna Dusseldorf,Dynamo Dresden,2,1,H
+D2,04/11/2011,Eintracht Braunschweig,Union Berlin,1,2,A
+D2,04/11/2011,Karlsruher SC,FC Ingolstadt 04,3,2,H
+D2,04/12/2011,Vfl Bochum,Erzgebirge AUE,6,0,H
+D2,04/12/2011,Alemannia Aachen,TSV 1860 Munich,2,2,D
+D2,04/12/2011,Dynamo Dresden,FSV Frankfurt,2,2,D
+D2,05/02/2012,Karlsruher SC,Erzgebirge AUE,2,1,H
+D2,05/02/2012,Vfl Bochum,Hansa Rostock,2,1,H
+D2,05/02/2012,Eintracht Frankfurt,Eintracht Braunschweig,2,1,H
+D2,05/03/2012,TSV 1860 Munich,FC St. Pauli,1,1,D
+D2,05/04/2012,SpVgg Greuther Furth,Energie Cottbus,3,0,H
+D2,05/04/2012,Union Berlin,Erzgebirge AUE,1,0,H
+D2,05/04/2012,Hansa Rostock,Fortuna Dusseldorf,2,1,H
+D2,05/08/2011,FC St. Pauli,Alemannia Aachen,3,1,H
+D2,05/08/2011,Union Berlin,SC Paderborn 07,3,0,H
+D2,05/08/2011,Fortuna Dusseldorf,FC Ingolstadt 04,4,1,H
+D2,05/11/2011,FC St. Pauli,SpVgg Greuther Furth,2,2,D
+D2,05/11/2011,TSV 1860 Munich,Vfl Bochum,1,3,A
+D2,05/12/2011,MSV Duisburg,Fortuna Dusseldorf,0,2,A
+D2,06/02/2012,TSV 1860 Munich,Energie Cottbus,2,0,H
+D2,06/05/2012,Fortuna Dusseldorf,MSV Duisburg,2,2,D
+D2,06/05/2012,FC St. Pauli,SC Paderborn 07,5,0,H
+D2,06/05/2012,Erzgebirge AUE,Vfl Bochum,2,1,H
+D2,06/05/2012,Eintracht Braunschweig,FC Ingolstadt 04,3,1,H
+D2,06/05/2012,Karlsruher SC,Eintracht Frankfurt,1,0,H
+D2,06/05/2012,TSV 1860 Munich,Alemannia Aachen,1,2,A
+D2,06/05/2012,Energie Cottbus,Union Berlin,2,1,H
+D2,06/05/2012,Hansa Rostock,SpVgg Greuther Furth,2,2,D
+D2,06/05/2012,FSV Frankfurt,Dynamo Dresden,1,1,D
+D2,06/08/2011,SpVgg Greuther Furth,Dynamo Dresden,1,0,H
+D2,06/08/2011,Energie Cottbus,TSV 1860 Munich,0,5,A
+D2,06/11/2011,Alemannia Aachen,MSV Duisburg,2,2,D
+D2,06/11/2011,FSV Frankfurt,Hansa Rostock,0,0,D
+D2,06/11/2011,Energie Cottbus,SC Paderborn 07,0,2,A
+D2,07/04/2012,FSV Frankfurt,FC St. Pauli,3,3,D
+D2,07/04/2012,MSV Duisburg,Eintracht Frankfurt,2,0,H
+D2,07/04/2012,Dynamo Dresden,Eintracht Braunschweig,2,2,D
+D2,07/08/2011,Erzgebirge AUE,Karlsruher SC,0,2,A
+D2,07/08/2011,FSV Frankfurt,MSV Duisburg,0,0,D
+D2,07/08/2011,Eintracht Braunschweig,Eintracht Frankfurt,0,3,A
+D2,07/11/2011,Erzgebirge AUE,Eintracht Frankfurt,1,2,A
+D2,08/04/2012,SC Paderborn 07,TSV 1860 Munich,2,2,D
+D2,08/04/2012,FC Ingolstadt 04,Alemannia Aachen,3,3,D
+D2,08/04/2012,Vfl Bochum,Karlsruher SC,0,0,D
+D2,08/08/2011,Hansa Rostock,Vfl Bochum,0,0,D
+D2,09/03/2012,SC Paderborn 07,Vfl Bochum,0,0,D
+D2,09/03/2012,Union Berlin,MSV Duisburg,1,1,D
+D2,09/03/2012,SpVgg Greuther Furth,Alemannia Aachen,1,0,H
+D2,09/09/2011,SpVgg Greuther Furth,MSV Duisburg,2,1,H
+D2,09/09/2011,SC Paderborn 07,Alemannia Aachen,0,0,D
+D2,09/09/2011,Hansa Rostock,Eintracht Braunschweig,0,0,D
+D2,09/12/2011,TSV 1860 Munich,Eintracht Braunschweig,3,0,H
+D2,09/12/2011,MSV Duisburg,Karlsruher SC,3,1,H
+D2,09/12/2011,SC Paderborn 07,Hansa Rostock,2,0,H
+D2,10/02/2012,Energie Cottbus,Alemannia Aachen,1,1,D
+D2,10/02/2012,FSV Frankfurt,FC Ingolstadt 04,1,1,D
+D2,10/03/2012,Fortuna Dusseldorf,Erzgebirge AUE,3,1,H
+D2,10/03/2012,FSV Frankfurt,TSV 1860 Munich,3,1,H
+D2,10/04/2012,Fortuna Dusseldorf,FSV Frankfurt,1,0,H
+D2,10/04/2012,Eintracht Braunschweig,SpVgg Greuther Furth,0,0,D
+D2,10/04/2012,FC St. Pauli,Union Berlin,2,1,H
+D2,10/04/2012,Energie Cottbus,Hansa Rostock,0,1,A
+D2,10/09/2011,Fortuna Dusseldorf,Karlsruher SC,4,2,H
+D2,10/09/2011,Energie Cottbus,Eintracht Frankfurt,3,3,D
+D2,10/12/2011,Vfl Bochum,Fortuna Dusseldorf,1,1,D
+D2,10/12/2011,Union Berlin,FSV Frankfurt,4,0,H
+D2,11/02/2012,Union Berlin,Dynamo Dresden,4,0,H
+D2,11/02/2012,Eintracht Braunschweig,Karlsruher SC,0,0,D
+D2,11/03/2012,Energie Cottbus,Eintracht Braunschweig,1,1,D
+D2,11/03/2012,Dynamo Dresden,FC Ingolstadt 04,0,0,D
+D2,11/03/2012,Hansa Rostock,Eintracht Frankfurt,1,5,A
+D2,11/04/2012,Eintracht Frankfurt,FC Ingolstadt 04,1,1,D
+D2,11/04/2012,Erzgebirge AUE,SC Paderborn 07,0,2,A
+D2,11/04/2012,Karlsruher SC,Dynamo Dresden,2,0,H
+D2,11/04/2012,TSV 1860 Munich,MSV Duisburg,2,1,H
+D2,11/04/2012,Alemannia Aachen,Vfl Bochum,2,0,H
+D2,11/09/2011,FSV Frankfurt,Erzgebirge AUE,1,1,D
+D2,11/09/2011,Union Berlin,FC Ingolstadt 04,4,1,H
+D2,11/09/2011,FC St. Pauli,TSV 1860 Munich,4,2,H
+D2,11/12/2011,Dynamo Dresden,Energie Cottbus,2,1,H
+D2,11/12/2011,FC Ingolstadt 04,FC St. Pauli,1,0,H
+D2,11/12/2011,Alemannia Aachen,Erzgebirge AUE,1,1,D
+D2,12/02/2012,Hansa Rostock,MSV Duisburg,4,2,H
+D2,12/02/2012,FC St. Pauli,Vfl Bochum,2,1,H
+D2,12/02/2012,SpVgg Greuther Furth,SC Paderborn 07,5,1,H
+D2,12/03/2012,FC St. Pauli,Karlsruher SC,1,0,H
+D2,12/08/2011,Karlsruher SC,Eintracht Braunschweig,1,3,A
+D2,12/08/2011,Vfl Bochum,FC St. Pauli,1,2,A
+D2,12/08/2011,Dynamo Dresden,Union Berlin,4,0,H
+D2,12/09/2011,Dynamo Dresden,Vfl Bochum,2,1,H
+D2,12/12/2011,Eintracht Frankfurt,SpVgg Greuther Furth,0,0,D
+D2,13/02/2012,Fortuna Dusseldorf,Eintracht Frankfurt,1,1,D
+D2,13/04/2012,Union Berlin,Eintracht Braunschweig,1,0,H
+D2,13/04/2012,SpVgg Greuther Furth,FC St. Pauli,2,1,H
+D2,13/04/2012,Hansa Rostock,FSV Frankfurt,0,5,A
+D2,13/08/2011,SC Paderborn 07,SpVgg Greuther Furth,0,1,A
+D2,13/08/2011,Alemannia Aachen,Energie Cottbus,0,2,A
+D2,14/03/2012,Erzgebirge AUE,TSV 1860 Munich,0,0,D
+D2,14/04/2012,Eintracht Frankfurt,Erzgebirge AUE,4,0,H
+D2,14/04/2012,MSV Duisburg,Alemannia Aachen,2,0,H
+D2,14/08/2011,TSV 1860 Munich,Erzgebirge AUE,4,0,H
+D2,14/08/2011,FC Ingolstadt 04,FSV Frankfurt,1,1,D
+D2,14/08/2011,MSV Duisburg,Hansa Rostock,0,0,D
+D2,14/10/2011,Vfl Bochum,Eintracht Frankfurt,0,2,A
+D2,14/10/2011,SC Paderborn 07,Eintracht Braunschweig,1,0,H
+D2,14/10/2011,Hansa Rostock,TSV 1860 Munich,2,0,H
+D2,15/04/2012,FC Ingolstadt 04,Karlsruher SC,2,1,H
+D2,15/04/2012,Vfl Bochum,TSV 1860 Munich,2,2,D
+D2,15/04/2012,SC Paderborn 07,Energie Cottbus,3,1,H
+D2,15/07/2011,SpVgg Greuther Furth,Eintracht Frankfurt,2,3,A
+D2,15/07/2011,FSV Frankfurt,Union Berlin,1,1,D
+D2,15/07/2011,Energie Cottbus,Dynamo Dresden,2,1,H
+D2,15/08/2011,Eintracht Frankfurt,Fortuna Dusseldorf,1,1,D
+D2,15/10/2011,Union Berlin,Karlsruher SC,2,0,H
+D2,15/10/2011,MSV Duisburg,FC Ingolstadt 04,3,1,H
+D2,16/03/2012,Eintracht Frankfurt,Dynamo Dresden,3,0,H
+D2,16/03/2012,Eintracht Braunschweig,FSV Frankfurt,0,0,D
+D2,16/03/2012,Alemannia Aachen,Union Berlin,1,3,A
+D2,16/04/2012,Dynamo Dresden,Fortuna Dusseldorf,2,1,H
+D2,16/07/2011,FC St. Pauli,FC Ingolstadt 04,2,0,H
+D2,16/07/2011,Erzgebirge AUE,Alemannia Aachen,1,0,H
+D2,16/09/2011,Erzgebirge AUE,Fortuna Dusseldorf,2,4,A
+D2,16/09/2011,FC Ingolstadt 04,Dynamo Dresden,4,2,H
+D2,16/09/2011,Eintracht Frankfurt,Hansa Rostock,4,1,H
+D2,16/10/2011,SpVgg Greuther Furth,Erzgebirge AUE,2,0,H
+D2,16/10/2011,Dynamo Dresden,Alemannia Aachen,1,1,D
+D2,16/10/2011,FSV Frankfurt,Energie Cottbus,0,1,A
+D2,16/12/2011,Erzgebirge AUE,FC Ingolstadt 04,1,1,D
+D2,16/12/2011,Fortuna Dusseldorf,SC Paderborn 07,2,3,A
+D2,16/12/2011,SpVgg Greuther Furth,Union Berlin,5,0,H
+D2,17/02/2012,Karlsruher SC,Energie Cottbus,2,0,H
+D2,17/02/2012,MSV Duisburg,FC St. Pauli,0,1,A
+D2,17/02/2012,SC Paderborn 07,Dynamo Dresden,2,2,D
+D2,17/03/2012,TSV 1860 Munich,SpVgg Greuther Furth,1,4,A
+D2,17/03/2012,FC Ingolstadt 04,SC Paderborn 07,4,0,H
+D2,17/07/2011,Hansa Rostock,SC Paderborn 07,1,2,A
+D2,17/07/2011,Eintracht Braunschweig,TSV 1860 Munich,3,1,H
+D2,17/07/2011,Karlsruher SC,MSV Duisburg,3,2,H
+D2,17/09/2011,Eintracht Braunschweig,Energie Cottbus,3,1,H
+D2,17/09/2011,MSV Duisburg,Union Berlin,1,1,D
+D2,17/10/2011,FC St. Pauli,Fortuna Dusseldorf,1,3,A
+D2,17/12/2011,Karlsruher SC,TSV 1860 Munich,1,3,A
+D2,17/12/2011,FSV Frankfurt,Vfl Bochum,0,2,A
+D2,18/02/2012,Eintracht Frankfurt,FSV Frankfurt,6,1,H
+D2,18/02/2012,Vfl Bochum,Union Berlin,4,2,H
+D2,18/03/2012,Karlsruher SC,Hansa Rostock,2,2,D
+D2,18/03/2012,Erzgebirge AUE,FC St. Pauli,2,1,H
+D2,18/03/2012,MSV Duisburg,Vfl Bochum,2,1,H
+D2,18/07/2011,Fortuna Dusseldorf,Vfl Bochum,2,0,H
+D2,18/09/2011,Alemannia Aachen,SpVgg Greuther Furth,0,0,D
+D2,18/09/2011,TSV 1860 Munich,FSV Frankfurt,4,0,H
+D2,18/09/2011,Vfl Bochum,SC Paderborn 07,0,4,A
+D2,18/11/2011,MSV Duisburg,Eintracht Braunschweig,3,0,H
+D2,18/11/2011,SC Paderborn 07,Karlsruher SC,2,1,H
+D2,18/11/2011,FC Ingolstadt 04,TSV 1860 Munich,0,1,A
+D2,18/12/2011,Hansa Rostock,Dynamo Dresden,2,2,D
+D2,18/12/2011,Energie Cottbus,MSV Duisburg,1,1,D
+D2,18/12/2011,Eintracht Braunschweig,Alemannia Aachen,1,1,D
+D2,19/02/2012,FC Ingolstadt 04,SpVgg Greuther Furth,0,0,D
+D2,19/02/2012,Alemannia Aachen,Hansa Rostock,0,0,D
+D2,19/02/2012,TSV 1860 Munich,Fortuna Dusseldorf,2,1,H
+D2,19/03/2012,Energie Cottbus,Fortuna Dusseldorf,1,1,D
+D2,19/08/2011,SpVgg Greuther Furth,FC Ingolstadt 04,3,0,H
+D2,19/08/2011,Fortuna Dusseldorf,TSV 1860 Munich,3,1,H
+D2,19/08/2011,Hansa Rostock,Alemannia Aachen,0,0,D
+D2,19/09/2011,Karlsruher SC,FC St. Pauli,0,2,A
+D2,19/11/2011,Union Berlin,Fortuna Dusseldorf,0,0,D
+D2,19/11/2011,Hansa Rostock,FC St. Pauli,1,3,A
+D2,19/12/2011,FC St. Pauli,Eintracht Frankfurt,2,0,H
+D2,20/02/2012,Erzgebirge AUE,Eintracht Braunschweig,1,1,D
+D2,20/04/2012,Eintracht Braunschweig,MSV Duisburg,0,0,D
+D2,20/04/2012,FSV Frankfurt,SpVgg Greuther Furth,1,1,D
+D2,20/04/2012,Energie Cottbus,Vfl Bochum,1,1,D
+D2,20/08/2011,Eintracht Braunschweig,Erzgebirge AUE,1,1,D
+D2,20/08/2011,Union Berlin,Vfl Bochum,2,1,H
+D2,20/11/2011,Eintracht Frankfurt,Alemannia Aachen,4,3,H
+D2,20/11/2011,SpVgg Greuther Furth,FSV Frankfurt,4,0,H
+D2,20/11/2011,Dynamo Dresden,Erzgebirge AUE,1,2,A
+D2,21/04/2012,TSV 1860 Munich,FC Ingolstadt 04,4,1,H
+D2,21/04/2012,Erzgebirge AUE,Dynamo Dresden,1,1,D
+D2,21/08/2011,Energie Cottbus,Karlsruher SC,2,0,H
+D2,21/08/2011,Dynamo Dresden,SC Paderborn 07,1,2,A
+D2,21/08/2011,FSV Frankfurt,Eintracht Frankfurt,0,4,A
+D2,21/10/2011,TSV 1860 Munich,SC Paderborn 07,1,1,D
+D2,21/10/2011,Fortuna Dusseldorf,Hansa Rostock,2,0,H
+D2,21/10/2011,Karlsruher SC,Vfl Bochum,0,0,D
+D2,21/11/2011,Vfl Bochum,Energie Cottbus,0,1,A
+D2,22/04/2012,Karlsruher SC,SC Paderborn 07,2,0,H
+D2,22/04/2012,Fortuna Dusseldorf,Union Berlin,2,1,H
+D2,22/04/2012,FC St. Pauli,Hansa Rostock,3,0,H
+D2,22/07/2011,MSV Duisburg,Energie Cottbus,1,2,A
+D2,22/07/2011,FC Ingolstadt 04,Erzgebirge AUE,0,0,D
+D2,22/07/2011,Vfl Bochum,FSV Frankfurt,1,0,H
+D2,22/08/2011,FC St. Pauli,MSV Duisburg,2,1,H
+D2,22/10/2011,Energie Cottbus,SpVgg Greuther Furth,0,2,A
+D2,22/10/2011,Eintracht Braunschweig,Dynamo Dresden,0,2,A
+D2,23/03/2012,Vfl Bochum,FC Ingolstadt 04,0,1,A
+D2,23/03/2012,FSV Frankfurt,Alemannia Aachen,2,1,H
+D2,23/03/2012,Dynamo Dresden,TSV 1860 Munich,0,1,A
+D2,23/04/2012,Alemannia Aachen,Eintracht Frankfurt,0,3,A
+D2,23/07/2011,Union Berlin,SpVgg Greuther Furth,0,4,A
+D2,23/07/2011,TSV 1860 Munich,Karlsruher SC,2,1,H
+D2,23/09/2011,FC St. Pauli,Erzgebirge AUE,2,3,A
+D2,23/09/2011,SC Paderborn 07,FC Ingolstadt 04,4,1,H
+D2,23/09/2011,FSV Frankfurt,Eintracht Braunschweig,1,1,D
+D2,23/10/2011,Alemannia Aachen,FC Ingolstadt 04,3,1,H
+D2,23/10/2011,Erzgebirge AUE,Union Berlin,1,1,D
+D2,23/10/2011,FC St. Pauli,FSV Frankfurt,2,1,H
+D2,23/10/2011,Eintracht Frankfurt,MSV Duisburg,3,0,H
+D2,24/02/2012,Dynamo Dresden,MSV Duisburg,2,0,H
+D2,24/02/2012,Hansa Rostock,FC Ingolstadt 04,1,2,A
+D2,24/02/2012,Union Berlin,TSV 1860 Munich,0,1,A
+D2,24/03/2012,Fortuna Dusseldorf,Eintracht Braunschweig,1,1,D
+D2,24/03/2012,SpVgg Greuther Furth,Karlsruher SC,3,0,H
+D2,24/07/2011,Dynamo Dresden,Hansa Rostock,1,1,D
+D2,24/07/2011,Alemannia Aachen,Eintracht Braunschweig,0,2,A
+D2,24/07/2011,SC Paderborn 07,Fortuna Dusseldorf,1,1,D
+D2,24/09/2011,Fortuna Dusseldorf,Energie Cottbus,4,2,H
+D2,24/09/2011,Union Berlin,Alemannia Aachen,2,0,H
+D2,25/02/2012,SpVgg Greuther Furth,Vfl Bochum,6,2,H
+D2,25/02/2012,Energie Cottbus,Erzgebirge AUE,2,0,H
+D2,25/03/2012,Hansa Rostock,Erzgebirge AUE,0,1,A
+D2,25/03/2012,FC St. Pauli,Energie Cottbus,0,0,D
+D2,25/03/2012,SC Paderborn 07,MSV Duisburg,1,2,A
+D2,25/07/2011,Eintracht Frankfurt,FC St. Pauli,1,1,D
+D2,25/09/2011,Vfl Bochum,MSV Duisburg,2,1,H
+D2,25/09/2011,SpVgg Greuther Furth,TSV 1860 Munich,2,0,H
+D2,25/09/2011,Hansa Rostock,Karlsruher SC,1,1,D
+D2,25/11/2011,FSV Frankfurt,SC Paderborn 07,2,2,D
+D2,25/11/2011,Erzgebirge AUE,MSV Duisburg,1,2,A
+D2,25/11/2011,Hansa Rostock,Union Berlin,2,5,A
+D2,26/02/2012,FC St. Pauli,Eintracht Braunschweig,0,0,D
+D2,26/02/2012,SC Paderborn 07,Eintracht Frankfurt,4,2,H
+D2,26/02/2012,FSV Frankfurt,Karlsruher SC,2,1,H
+D2,26/03/2012,Union Berlin,Eintracht Frankfurt,0,4,A
+D2,26/08/2011,MSV Duisburg,Dynamo Dresden,3,0,H
+D2,26/08/2011,FC Ingolstadt 04,Hansa Rostock,3,1,H
+D2,26/08/2011,Vfl Bochum,SpVgg Greuther Furth,1,4,A
+D2,26/09/2011,Dynamo Dresden,Eintracht Frankfurt,1,4,A
+D2,26/11/2011,TSV 1860 Munich,Eintracht Frankfurt,2,1,H
+D2,26/11/2011,Karlsruher SC,Alemannia Aachen,0,2,A
+D2,27/02/2012,Fortuna Dusseldorf,Alemannia Aachen,0,0,D
+D2,27/08/2011,Alemannia Aachen,Fortuna Dusseldorf,0,0,D
+D2,27/08/2011,Karlsruher SC,FSV Frankfurt,0,4,A
+D2,27/11/2011,FC St. Pauli,Dynamo Dresden,3,1,H
+D2,27/11/2011,Eintracht Braunschweig,Vfl Bochum,4,0,H
+D2,27/11/2011,Energie Cottbus,FC Ingolstadt 04,0,0,D
+D2,28/08/2011,Eintracht Frankfurt,SC Paderborn 07,0,0,D
+D2,28/08/2011,Eintracht Braunschweig,FC St. Pauli,1,0,H
+D2,28/08/2011,TSV 1860 Munich,Union Berlin,3,1,H
+D2,28/10/2011,Union Berlin,FC St. Pauli,0,2,A
+D2,28/10/2011,Hansa Rostock,Energie Cottbus,1,1,D
+D2,28/10/2011,Vfl Bochum,Alemannia Aachen,1,0,H
+D2,28/11/2011,Fortuna Dusseldorf,SpVgg Greuther Furth,2,1,H
+D2,29/04/2012,Alemannia Aachen,Karlsruher SC,1,0,H
+D2,29/04/2012,MSV Duisburg,Erzgebirge AUE,2,1,H
+D2,29/04/2012,SC Paderborn 07,FSV Frankfurt,1,0,H
+D2,29/04/2012,FC Ingolstadt 04,Energie Cottbus,1,0,H
+D2,29/04/2012,Dynamo Dresden,FC St. Pauli,1,0,H
+D2,29/04/2012,Union Berlin,Hansa Rostock,5,4,H
+D2,29/04/2012,SpVgg Greuther Furth,Fortuna Dusseldorf,1,1,D
+D2,29/04/2012,Vfl Bochum,Eintracht Braunschweig,2,0,H
+D2,29/04/2012,Eintracht Frankfurt,TSV 1860 Munich,0,2,A
+D2,29/08/2011,Erzgebirge AUE,Energie Cottbus,0,0,D
+D2,29/10/2011,SC Paderborn 07,Erzgebirge AUE,1,0,H
+D2,29/10/2011,Dynamo Dresden,Karlsruher SC,5,1,H
+D2,30/03/2012,Eintracht Frankfurt,Vfl Bochum,3,0,H
+D2,30/03/2012,Eintracht Braunschweig,SC Paderborn 07,0,0,D
+D2,30/03/2012,Alemannia Aachen,Dynamo Dresden,0,1,A
+D2,30/09/2011,Eintracht Frankfurt,Union Berlin,3,1,H
+D2,30/09/2011,Erzgebirge AUE,Hansa Rostock,1,0,H
+D2,30/09/2011,Alemannia Aachen,FSV Frankfurt,1,3,A
+D2,30/10/2011,MSV Duisburg,TSV 1860 Munich,0,3,A
+D2,30/10/2011,FC Ingolstadt 04,Eintracht Frankfurt,1,1,D
+D2,30/10/2011,FSV Frankfurt,Fortuna Dusseldorf,2,5,A
+D2,31/03/2012,Erzgebirge AUE,SpVgg Greuther Furth,1,1,D
+D2,31/03/2012,TSV 1860 Munich,Hansa Rostock,0,1,A
+D2,31/10/2011,SpVgg Greuther Furth,Eintracht Braunschweig,1,3,A

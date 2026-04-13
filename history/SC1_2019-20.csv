@@ -1,0 +1,138 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/02/2020,Inverness CT,Alloa Athletic,1,1,D
+SC1,01/02/2020,Morton,Dundee,1,1,D
+SC1,01/02/2020,Queen of the South,Dunfermline,2,3,A
+SC1,01/02/2020,Dundee Utd,Arbroath,0,1,A
+SC1,01/11/2019,Dundee,Morton,2,1,H
+SC1,02/08/2019,Dunfermline,Dundee,2,2,D
+SC1,02/11/2019,Ayr Utd,Partick,4,1,H
+SC1,02/11/2019,Dunfermline,Queen of the South,2,0,H
+SC1,02/11/2019,Arbroath,Alloa Athletic,2,1,H
+SC1,02/11/2019,Inverness CT,Dundee Utd,0,3,A
+SC1,03/03/2020,Inverness CT,Morton,3,2,H
+SC1,03/03/2020,Ayr Utd,Dundee Utd,0,0,D
+SC1,03/03/2020,Dundee,Alloa Athletic,0,0,D
+SC1,03/03/2020,Partick,Queen of the South,0,0,D
+SC1,03/08/2019,Alloa Athletic,Partick,1,1,D
+SC1,03/08/2019,Arbroath,Queen of the South,0,0,D
+SC1,03/08/2019,Dundee Utd,Inverness CT,4,1,H
+SC1,03/08/2019,Ayr Utd,Morton,4,2,H
+SC1,03/12/2019,Ayr Utd,Dunfermline,0,1,A
+SC1,04/01/2020,Dunfermline,Ayr Utd,0,1,A
+SC1,04/01/2020,Arbroath,Morton,1,2,A
+SC1,04/01/2020,Queen of the South,Dundee Utd,0,1,A
+SC1,04/01/2020,Dundee,Inverness CT,0,2,A
+SC1,04/01/2020,Alloa Athletic,Partick,1,1,D
+SC1,04/03/2020,Arbroath,Dunfermline,0,0,D
+SC1,04/10/2019,Alloa Athletic,Dundee Utd,1,0,H
+SC1,05/10/2019,Dundee,Arbroath,2,0,H
+SC1,05/10/2019,Partick,Queen of the South,0,1,A
+SC1,05/10/2019,Morton,Dunfermline,1,1,D
+SC1,05/10/2019,Ayr Utd,Inverness CT,0,2,A
+SC1,07/03/2020,Morton,Arbroath,1,1,D
+SC1,07/03/2020,Alloa Athletic,Inverness CT,2,0,H
+SC1,07/03/2020,Dundee Utd,Partick,1,1,D
+SC1,07/03/2020,Dunfermline,Queen of the South,1,1,D
+SC1,07/03/2020,Ayr Utd,Dundee,0,0,D
+SC1,07/12/2019,Arbroath,Dundee,1,1,D
+SC1,07/12/2019,Dunfermline,Morton,3,1,H
+SC1,07/12/2019,Dundee Utd,Alloa Athletic,2,1,H
+SC1,07/12/2019,Queen of the South,Partick,1,2,A
+SC1,07/12/2019,Inverness CT,Ayr Utd,2,0,H
+SC1,08/02/2020,Morton,Queen of the South,2,2,D
+SC1,08/02/2020,Dundee,Partick,2,0,H
+SC1,08/11/2019,Dundee,Dundee Utd,0,2,A
+SC1,09/08/2019,Partick,Dundee Utd,1,2,A
+SC1,09/11/2019,Alloa Athletic,Dunfermline,2,1,H
+SC1,09/11/2019,Queen of the South,Ayr Utd,3,1,H
+SC1,09/11/2019,Partick,Morton,2,1,H
+SC1,09/11/2019,Arbroath,Inverness CT,3,0,H
+SC1,10/03/2020,Partick,Dunfermline,1,1,D
+SC1,10/03/2020,Dundee,Ayr Utd,2,0,H
+SC1,10/03/2020,Inverness CT,Queen of the South,3,1,H
+SC1,10/08/2019,Queen of the South,Dunfermline,1,1,D
+SC1,10/08/2019,Dundee,Ayr Utd,1,0,H
+SC1,10/08/2019,Inverness CT,Arbroath,2,1,H
+SC1,10/08/2019,Morton,Alloa Athletic,4,1,H
+SC1,10/12/2019,Ayr Utd,Arbroath,1,1,D
+SC1,10/12/2019,Morton,Dundee Utd,1,2,A
+SC1,11/01/2020,Morton,Dunfermline,3,2,H
+SC1,11/01/2020,Partick,Dundee Utd,1,4,A
+SC1,13/09/2019,Arbroath,Partick,1,1,D
+SC1,14/02/2020,Alloa Athletic,Dundee Utd,0,0,D
+SC1,14/09/2019,Dundee,Alloa Athletic,2,1,H
+SC1,14/09/2019,Ayr Utd,Dundee Utd,2,0,H
+SC1,14/09/2019,Dunfermline,Inverness CT,0,1,A
+SC1,14/09/2019,Queen of the South,Morton,1,0,H
+SC1,14/12/2019,Ayr Utd,Alloa Athletic,2,1,H
+SC1,14/12/2019,Partick,Inverness CT,3,1,H
+SC1,14/12/2019,Dundee,Dunfermline,4,3,H
+SC1,14/12/2019,Arbroath,Dundee Utd,0,1,A
+SC1,15/02/2020,Arbroath,Queen of the South,2,0,H
+SC1,16/11/2019,Dundee Utd,Queen of the South,3,0,H
+SC1,16/11/2019,Morton,Arbroath,1,0,H
+SC1,19/10/2019,Dundee,Partick,1,3,A
+SC1,19/10/2019,Dunfermline,Ayr Utd,3,2,H
+SC1,19/10/2019,Arbroath,Morton,1,0,H
+SC1,19/10/2019,Queen of the South,Dundee Utd,4,0,H
+SC1,19/10/2019,Inverness CT,Alloa Athletic,2,2,D
+SC1,21/01/2020,Alloa Athletic,Arbroath,2,0,H
+SC1,21/02/2020,Dundee Utd,Inverness CT,2,1,H
+SC1,21/09/2019,Partick,Dunfermline,0,3,A
+SC1,21/09/2019,Inverness CT,Queen of the South,2,0,H
+SC1,21/09/2019,Morton,Dundee,1,0,H
+SC1,21/09/2019,Dundee Utd,Arbroath,2,1,H
+SC1,21/09/2019,Alloa Athletic,Ayr Utd,1,4,A
+SC1,21/12/2019,Partick,Dundee,0,1,A
+SC1,21/12/2019,Inverness CT,Dunfermline,2,0,H
+SC1,21/12/2019,Queen of the South,Arbroath,2,0,H
+SC1,21/12/2019,Dundee Utd,Ayr Utd,4,0,H
+SC1,21/12/2019,Alloa Athletic,Morton,0,2,A
+SC1,22/02/2020,Queen of the South,Dundee,0,1,A
+SC1,22/02/2020,Morton,Alloa Athletic,4,4,D
+SC1,23/08/2019,Morton,Partick,3,2,H
+SC1,23/11/2019,Inverness CT,Dundee,1,0,H
+SC1,24/01/2020,Dunfermline,Dundee,2,0,H
+SC1,24/08/2019,Alloa Athletic,Arbroath,0,1,A
+SC1,24/08/2019,Dunfermline,Dundee Utd,0,2,A
+SC1,24/08/2019,Ayr Utd,Queen of the South,1,0,H
+SC1,24/08/2019,Dundee,Inverness CT,0,0,D
+SC1,25/01/2020,Ayr Utd,Inverness CT,1,0,H
+SC1,25/01/2020,Queen of the South,Alloa Athletic,2,3,A
+SC1,25/01/2020,Dundee Utd,Morton,1,1,D
+SC1,25/01/2020,Arbroath,Partick,2,1,H
+SC1,25/02/2020,Dunfermline,Inverness CT,1,2,A
+SC1,25/02/2020,Ayr Utd,Morton,1,2,A
+SC1,25/10/2019,Ayr Utd,Dundee,1,2,A
+SC1,26/10/2019,Partick,Arbroath,1,3,A
+SC1,26/10/2019,Alloa Athletic,Queen of the South,2,2,D
+SC1,26/10/2019,Dundee Utd,Dunfermline,2,0,H
+SC1,26/10/2019,Morton,Inverness CT,2,1,H
+SC1,26/11/2019,Partick,Alloa Athletic,1,1,D
+SC1,27/09/2019,Queen of the South,Dundee,1,1,D
+SC1,27/12/2019,Dundee Utd,Dundee,1,1,D
+SC1,28/09/2019,Dundee Utd,Morton,6,0,H
+SC1,28/09/2019,Dunfermline,Alloa Athletic,1,1,D
+SC1,28/09/2019,Inverness CT,Partick,1,3,A
+SC1,28/09/2019,Arbroath,Ayr Utd,0,3,A
+SC1,28/12/2019,Dunfermline,Alloa Athletic,1,3,A
+SC1,28/12/2019,Ayr Utd,Queen of the South,1,2,A
+SC1,28/12/2019,Inverness CT,Arbroath,0,1,A
+SC1,28/12/2019,Morton,Partick,1,2,A
+SC1,29/02/2020,Queen of the South,Morton,0,4,A
+SC1,29/02/2020,Dunfermline,Dundee Utd,2,0,H
+SC1,29/02/2020,Alloa Athletic,Ayr Utd,0,2,A
+SC1,29/10/2019,Dundee Utd,Partick,1,0,H
+SC1,29/10/2019,Dunfermline,Arbroath,2,0,H
+SC1,29/10/2019,Alloa Athletic,Dundee,0,3,A
+SC1,29/10/2019,Queen of the South,Inverness CT,0,2,A
+SC1,29/10/2019,Morton,Ayr Utd,2,3,A
+SC1,30/08/2019,Inverness CT,Morton,5,0,H
+SC1,30/08/2019,Dundee Utd,Dundee,6,2,H
+SC1,30/11/2019,Alloa Athletic,Inverness CT,0,2,A
+SC1,30/11/2019,Dunfermline,Partick,5,1,H
+SC1,30/11/2019,Dundee,Queen of the South,1,2,A
+SC1,31/01/2020,Partick,Ayr Utd,1,1,D
+SC1,31/08/2019,Arbroath,Dunfermline,1,0,H
+SC1,31/08/2019,Partick,Ayr Utd,2,3,A
+SC1,31/08/2019,Queen of the South,Alloa Athletic,0,1,A

@@ -1,0 +1,186 @@
+Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+SC1,01/04/2023,Dundee,Hamilton Academical,7,0,H
+SC1,01/04/2023,Raith Rovers,Queen's Park,2,0,H
+SC1,01/04/2023,Cove Rangers,Partick,0,5,A
+SC1,01/04/2023,Morton,Inverness CT,1,2,A
+SC1,01/10/2022,Queen's Park,Raith Rovers,1,0,H
+SC1,01/10/2022,Cove Rangers,Arbroath,2,0,H
+SC1,01/10/2022,Ayr Utd,Inverness CT,0,1,A
+SC1,01/10/2022,Partick,Morton,5,1,H
+SC1,01/10/2022,Hamilton Academical,Dundee,0,2,A
+SC1,02/01/2023,Dundee,Arbroath,2,4,A
+SC1,02/01/2023,Inverness CT,Cove Rangers,6,1,H
+SC1,02/01/2023,Queen's Park,Partick,2,0,H
+SC1,02/01/2023,Hamilton Academical,Raith Rovers,0,1,A
+SC1,03/02/2023,Queen's Park,Ayr Utd,2,0,H
+SC1,03/03/2023,Hamilton Academical,Arbroath,0,0,D
+SC1,03/09/2022,Cove Rangers,Hamilton Academical,2,2,D
+SC1,03/09/2022,Arbroath,Partick,0,2,A
+SC1,03/09/2022,Raith Rovers,Inverness CT,0,2,A
+SC1,03/09/2022,Morton,Ayr Utd,1,2,A
+SC1,03/09/2022,Dundee,Queen's Park,3,0,H
+SC1,03/12/2022,Inverness CT,Dundee,0,1,A
+SC1,03/12/2022,Ayr Utd,Raith Rovers,2,0,H
+SC1,03/12/2022,Arbroath,Morton,1,1,D
+SC1,03/12/2022,Queen's Park,Hamilton Academical,4,0,H
+SC1,03/12/2022,Cove Rangers,Partick,1,1,D
+SC1,04/02/2023,Inverness CT,Morton,2,2,D
+SC1,04/02/2023,Partick,Cove Rangers,0,1,A
+SC1,04/02/2023,Hamilton Academical,Dundee,1,1,D
+SC1,04/02/2023,Arbroath,Raith Rovers,1,2,A
+SC1,04/03/2023,Ayr Utd,Inverness CT,1,2,A
+SC1,04/03/2023,Partick,Raith Rovers,3,0,H
+SC1,04/03/2023,Cove Rangers,Dundee,0,2,A
+SC1,04/03/2023,Queen's Park,Morton,2,2,D
+SC1,04/04/2023,Raith Rovers,Hamilton Academical,1,2,A
+SC1,04/10/2022,Cove Rangers,Dundee,3,1,H
+SC1,04/10/2022,Queen's Park,Morton,1,2,A
+SC1,04/11/2022,Cove Rangers,Queen's Park,2,0,H
+SC1,05/05/2023,Arbroath,Hamilton Academical,0,0,D
+SC1,05/05/2023,Cove Rangers,Morton,1,2,A
+SC1,05/05/2023,Queen's Park,Dundee,3,5,A
+SC1,05/05/2023,Inverness CT,Ayr Utd,1,2,A
+SC1,05/05/2023,Raith Rovers,Partick,2,2,D
+SC1,05/08/2022,Queen's Park,Ayr Utd,2,3,A
+SC1,05/11/2022,Raith Rovers,Hamilton Academical,3,1,H
+SC1,05/11/2022,Partick,Dundee,2,3,A
+SC1,05/11/2022,Ayr Utd,Morton,1,1,D
+SC1,05/11/2022,Inverness CT,Arbroath,1,1,D
+SC1,06/01/2023,Raith Rovers,Dundee,1,1,D
+SC1,06/08/2022,Morton,Cove Rangers,1,0,H
+SC1,06/08/2022,Partick,Hamilton Academical,1,1,D
+SC1,06/08/2022,Raith Rovers,Dundee,0,1,A
+SC1,06/08/2022,Arbroath,Inverness CT,0,0,D
+SC1,07/01/2023,Ayr Utd,Hamilton Academical,1,0,H
+SC1,07/01/2023,Arbroath,Inverness CT,1,4,A
+SC1,07/01/2023,Cove Rangers,Queen's Park,0,6,A
+SC1,07/01/2023,Partick,Morton,2,1,H
+SC1,07/03/2023,Morton,Ayr Utd,1,3,A
+SC1,07/04/2023,Partick,Queen's Park,4,0,H
+SC1,07/10/2022,Inverness CT,Partick,1,0,H
+SC1,08/04/2023,Hamilton Academical,Cove Rangers,1,1,D
+SC1,08/04/2023,Arbroath,Dundee,0,0,D
+SC1,08/04/2023,Ayr Utd,Morton,1,1,D
+SC1,08/04/2023,Inverness CT,Raith Rovers,2,0,H
+SC1,08/10/2022,Arbroath,Dundee,1,1,D
+SC1,08/10/2022,Ayr Utd,Queen's Park,5,0,H
+SC1,08/10/2022,Morton,Hamilton Academical,5,0,H
+SC1,08/10/2022,Raith Rovers,Cove Rangers,3,0,H
+SC1,09/05/2023,Airdrie United,Falkirk,6,2,H
+SC1,09/05/2023,Alloa Athletic,Hamilton Academical,1,0,H
+SC1,10/03/2023,Queen's Park,Cove Rangers,1,0,H
+SC1,11/02/2023,Morton,Queen's Park,3,2,H
+SC1,11/03/2023,Morton,Partick,0,0,D
+SC1,11/04/2023,Morton,Hamilton Academical,2,0,H
+SC1,11/04/2023,Inverness CT,Arbroath,2,0,H
+SC1,11/04/2023,Dundee,Raith Rovers,3,1,H
+SC1,11/11/2022,Hamilton Academical,Ayr Utd,2,3,A
+SC1,12/02/2023,Dundee,Cove Rangers,3,0,H
+SC1,12/08/2022,Dundee,Arbroath,4,2,H
+SC1,12/11/2022,Arbroath,Cove Rangers,1,1,D
+SC1,12/11/2022,Morton,Partick,2,1,H
+SC1,12/11/2022,Dundee,Raith Rovers,2,0,H
+SC1,12/11/2022,Queen's Park,Inverness CT,2,1,H
+SC1,13/05/2023,Hamilton Academical,Alloa Athletic,5,2,H
+SC1,13/05/2023,Falkirk,Airdrie United,0,1,A
+SC1,13/08/2022,Inverness CT,Cove Rangers,4,1,H
+SC1,13/08/2022,Raith Rovers,Morton,2,1,H
+SC1,13/08/2022,Ayr Utd,Hamilton Academical,2,2,D
+SC1,13/08/2022,Queen's Park,Partick,3,2,H
+SC1,14/01/2023,Inverness CT,Queen's Park,0,0,D
+SC1,14/01/2023,Hamilton Academical,Morton,1,0,H
+SC1,14/01/2023,Ayr Utd,Arbroath,2,2,D
+SC1,14/01/2023,Cove Rangers,Raith Rovers,2,2,D
+SC1,14/04/2023,Queen's Park,Hamilton Academical,1,0,H
+SC1,14/10/2022,Queen's Park,Arbroath,1,1,D
+SC1,15/04/2023,Raith Rovers,Arbroath,1,1,D
+SC1,15/04/2023,Dundee,Morton,3,3,D
+SC1,15/04/2023,Cove Rangers,Inverness CT,1,2,A
+SC1,15/04/2023,Partick,Ayr Utd,1,1,D
+SC1,15/10/2022,Morton,Raith Rovers,1,0,H
+SC1,15/10/2022,Dundee,Ayr Utd,2,1,H
+SC1,15/10/2022,Hamilton Academical,Partick,1,2,A
+SC1,15/10/2022,Cove Rangers,Inverness CT,0,1,A
+SC1,17/02/2023,Morton,Dundee,1,0,H
+SC1,17/02/2023,Queen's Park,Raith Rovers,1,1,D
+SC1,17/03/2023,Arbroath,Morton,1,1,D
+SC1,17/05/2023,Airdrie United,Hamilton Academical,1,0,H
+SC1,17/09/2022,Hamilton Academical,Queen's Park,0,2,A
+SC1,17/09/2022,Dundee,Inverness CT,2,3,A
+SC1,17/09/2022,Partick,Cove Rangers,2,2,D
+SC1,17/09/2022,Morton,Arbroath,1,2,A
+SC1,17/09/2022,Raith Rovers,Ayr Utd,3,2,H
+SC1,17/12/2022,Raith Rovers,Arbroath,1,1,D
+SC1,17/12/2022,Partick,Ayr Utd,3,2,H
+SC1,18/02/2023,Cove Rangers,Arbroath,1,1,D
+SC1,18/02/2023,Inverness CT,Hamilton Academical,0,3,A
+SC1,18/02/2023,Ayr Utd,Partick,0,1,A
+SC1,18/03/2023,Raith Rovers,Cove Rangers,6,1,H
+SC1,18/03/2023,Queen's Park,Inverness CT,2,1,H
+SC1,18/03/2023,Partick,Dundee,0,0,D
+SC1,18/03/2023,Hamilton Academical,Ayr Utd,0,2,A
+SC1,18/04/2023,Hamilton Academical,Inverness CT,1,2,A
+SC1,18/10/2022,Inverness CT,Hamilton Academical,0,1,A
+SC1,19/08/2022,Partick,Inverness CT,4,1,H
+SC1,19/10/2022,Arbroath,Raith Rovers,0,1,A
+SC1,19/11/2022,Partick,Arbroath,3,0,H
+SC1,19/11/2022,Cove Rangers,Morton,1,2,A
+SC1,19/11/2022,Raith Rovers,Queen's Park,2,5,A
+SC1,19/11/2022,Dundee,Hamilton Academical,1,0,H
+SC1,19/11/2022,Inverness CT,Ayr Utd,2,2,D
+SC1,20/08/2022,Cove Rangers,Ayr Utd,1,2,A
+SC1,20/08/2022,Morton,Dundee,0,0,D
+SC1,20/08/2022,Hamilton Academical,Raith Rovers,0,2,A
+SC1,20/08/2022,Arbroath,Queen's Park,1,2,A
+SC1,21/02/2023,Hamilton Academical,Inverness CT,2,1,H
+SC1,21/03/2023,Dundee,Ayr Utd,3,1,H
+SC1,21/04/2023,Ayr Utd,Queen's Park,0,0,D
+SC1,22/04/2023,Hamilton Academical,Partick,2,2,D
+SC1,22/04/2023,Inverness CT,Dundee,1,1,D
+SC1,22/04/2023,Morton,Raith Rovers,1,0,H
+SC1,22/04/2023,Arbroath,Cove Rangers,0,1,A
+SC1,22/10/2022,Partick,Queen's Park,0,4,A
+SC1,22/10/2022,Arbroath,Hamilton Academical,1,0,H
+SC1,22/10/2022,Ayr Utd,Cove Rangers,2,2,D
+SC1,22/10/2022,Inverness CT,Raith Rovers,1,1,D
+SC1,22/10/2022,Dundee,Morton,0,0,D
+SC1,23/12/2022,Cove Rangers,Hamilton Academical,2,0,H
+SC1,23/12/2022,Arbroath,Queen's Park,1,4,A
+SC1,23/12/2022,Ayr Utd,Dundee,0,2,A
+SC1,23/12/2022,Raith Rovers,Morton,2,2,D
+SC1,23/12/2022,Partick,Inverness CT,5,1,H
+SC1,24/02/2023,Raith Rovers,Ayr Utd,0,0,D
+SC1,24/03/2023,Queen's Park,Arbroath,0,1,A
+SC1,24/03/2023,Ayr Utd,Cove Rangers,3,0,H
+SC1,24/03/2023,Inverness CT,Partick,1,0,H
+SC1,25/02/2023,Hamilton Academical,Queen's Park,1,4,A
+SC1,25/02/2023,Dundee,Inverness CT,1,1,D
+SC1,25/02/2023,Morton,Cove Rangers,2,1,H
+SC1,25/02/2023,Arbroath,Partick,0,0,D
+SC1,25/10/2022,Ayr Utd,Partick,4,2,H
+SC1,26/08/2022,Ayr Utd,Dundee,3,1,H
+SC1,27/01/2023,Cove Rangers,Ayr Utd,0,5,A
+SC1,27/08/2022,Queen's Park,Cove Rangers,2,1,H
+SC1,27/08/2022,Inverness CT,Morton,0,1,A
+SC1,27/08/2022,Partick,Raith Rovers,2,1,H
+SC1,27/08/2022,Hamilton Academical,Arbroath,1,0,H
+SC1,28/01/2023,Dundee,Queen's Park,3,0,H
+SC1,28/01/2023,Partick,Hamilton Academical,0,1,A
+SC1,28/01/2023,Morton,Arbroath,1,2,A
+SC1,28/01/2023,Raith Rovers,Inverness CT,2,2,D
+SC1,28/02/2023,Dundee,Partick,1,3,A
+SC1,28/04/2023,Dundee,Cove Rangers,0,0,D
+SC1,28/10/2022,Morton,Inverness CT,4,0,H
+SC1,28/10/2022,Queen's Park,Dundee,2,2,D
+SC1,29/04/2023,Partick,Arbroath,2,0,H
+SC1,29/04/2023,Morton,Queen's Park,2,1,H
+SC1,29/04/2023,Ayr Utd,Raith Rovers,1,0,H
+SC1,29/10/2022,Raith Rovers,Partick,3,0,H
+SC1,29/10/2022,Hamilton Academical,Cove Rangers,4,4,D
+SC1,29/10/2022,Arbroath,Ayr Utd,0,2,A
+SC1,30/07/2022,Cove Rangers,Raith Rovers,2,0,H
+SC1,30/07/2022,Ayr Utd,Arbroath,0,0,D
+SC1,30/07/2022,Inverness CT,Queen's Park,1,1,D
+SC1,30/07/2022,Dundee,Partick,2,3,A
+SC1,30/07/2022,Hamilton Academical,Morton,1,1,D
+SC1,31/03/2023,Arbroath,Ayr Utd,2,0,H
