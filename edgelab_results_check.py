@@ -362,17 +362,20 @@ def main():
                         correct = (pred == actual)
 
                         all_results.append({
-                            "home": home,
-                            "away": away,
-                            "tier": tier,
-                            "date": date_str,
-                            "pred": pred,
+                            "home":   home,
+                            "away":   away,
+                            "tier":   tier,
+                            "date":   date_str,
+                            "pred":   pred,
                             "actual": actual,
-                            "score": score_str,
-                            "conf": conf,
-                            "chaos": chaos,
-                            "upset": upset,
+                            "score":  score_str,
+                            "conf":   conf,
+                            "chaos":  chaos,
+                            "upset":  upset,
                             "correct": correct,
+                            "b365h":  pred_row.get("B365H"),
+                            "b365d":  pred_row.get("B365D"),
+                            "b365a":  pred_row.get("B365A"),
                         })
 
             except Exception as e:
@@ -489,12 +492,70 @@ def main():
     # Notable misses — high conf, wrong
     notable = [r for r in all_results if not r["correct"] and r["conf"] >= 0.80]
     if notable:
-        print(f"\n  NOTABLE MISSES (conf ≥80%, wrong):")
+        print(f"\n  NOTABLE MISSES (conf >=80%, wrong):")
         for r in sorted(notable, key=lambda x: -x["conf"]):
             print(f"    [{r['tier']}] {r['home']} vs {r['away']}  "
                   f"-> predicted {r['pred']}, actual {r['actual']} ({r['score']})  "
                   f"conf={conf_display(r['conf'])}  chaos={r['chaos']}  "
                   f"upset={r['upset']:.2f}")
+
+    # ── Auto-save results CSV ─────────────────────────────────────────────────
+    # Always saves to results/YYYY-MM-DD_results.csv — no flags needed.
+    # Filename derived from predictions CSV if provided, else date-from.
+    # Creates results/ folder if it doesn't exist.
+    # Includes market prediction + disagree flag for immediate comparison analysis.
+    try:
+        os.makedirs("results", exist_ok=True)
+        if args.predictions:
+            base = os.path.splitext(os.path.basename(args.predictions))[0]
+            save_name = base.replace("_predictions", "_results")
+        else:
+            save_name = f"{args.date_from or from_dt}_results"
+        save_path = os.path.join("results", f"{save_name}.csv")
+
+        rows = []
+        for r in sorted_results:
+            market_pred = None
+            market_correct = None
+            b365h = r.get("b365h")
+            b365d = r.get("b365d")
+            b365a = r.get("b365a")
+            if b365h and b365d and b365a:
+                try:
+                    probs = {"H": 1/float(b365h), "D": 1/float(b365d), "A": 1/float(b365a)}
+                    market_pred = max(probs, key=probs.get)
+                    market_correct = int(market_pred == r["actual"])
+                except (ZeroDivisionError, TypeError, ValueError):
+                    pass
+            rows.append({
+                "date":           r["date"],
+                "tier":           r["tier"],
+                "home":           r["home"],
+                "away":           r["away"],
+                "prediction":     r["pred"],
+                "actual":         r["actual"],
+                "score":          r["score"],
+                "correct":        int(r["correct"]),
+                "confidence":     round(r["conf"], 4),
+                "chaos_tier":     r["chaos"],
+                "upset_score":    round(r["upset"], 4),
+                "market_pred":    market_pred if market_pred else "",
+                "market_correct": market_correct if market_correct is not None else "",
+                "disagree":       int(market_pred is not None and r["pred"] != market_pred),
+            })
+
+        if rows:
+            if pd is not None:
+                pd.DataFrame(rows).to_csv(save_path, index=False)
+            else:
+                import csv as _csv
+                with open(save_path, "w", newline="", encoding="utf-8") as f:
+                    writer = _csv.DictWriter(f, fieldnames=rows[0].keys())
+                    writer.writeheader()
+                    writer.writerows(rows)
+            print(f"\n  Saved: {save_path}")
+    except Exception as _save_err:
+        print(f"\n  [!] Could not save results CSV: {_save_err}")
 
     print()
 
