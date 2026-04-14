@@ -95,7 +95,7 @@ def eval_draw_accuracy(df: pd.DataFrame, params: LeagueParams, pred_fn) -> dict:
     df_eval = compute_odds_draw_prob(df_eval)
     df_eval = compute_score_prediction(df_eval, window=5)
 
-    # Convert LeagueParams → EngineParams
+    # Convert LeagueParams -> EngineParams
     from edgelab_engine import EngineParams
     ep = EngineParams(
         w_form=params.w_form, w_gd=params.w_gd, home_adv=params.home_adv,
@@ -229,8 +229,8 @@ def main():
         })
 
         gate_str = "✅" if (gate_draw and gate_overall) else "❌"
-        print(f"  [{tier}] overall: {baseline_stats['overall_acc']:.1%} → {seeded_stats['overall_acc']:.1%} "
-              f"({overall_delta:+.1%}) | draw: {baseline_stats['draw_acc']:.1%} → {seeded_stats['draw_acc']:.1%} "
+        print(f"  [{tier}] overall: {baseline_stats['overall_acc']:.1%} -> {seeded_stats['overall_acc']:.1%} "
+              f"({overall_delta:+.1%}) | draw: {baseline_stats['draw_acc']:.1%} -> {seeded_stats['draw_acc']:.1%} "
               f"({draw_delta:+.1%}) | draws pred: {seeded_stats['draws_predicted']}/{seeded_stats['draws_actual']} {gate_str}")
 
     # ── Summary ───────────────────────────────────────────────────────────

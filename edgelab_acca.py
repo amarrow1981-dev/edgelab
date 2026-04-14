@@ -632,7 +632,7 @@ class AccaBuilder:
             print(f"\n  ⚠  DUPLICATE PICKS ACROSS ACCA TYPES:")
             for match, types in duplicates.items():
                 type_labels = " + ".join(ACCA_TYPES.get(t, t) for t in types)
-                print(f"     {match}  →  appears in: {type_labels}")
+                print(f"     {match}  ->  appears in: {type_labels}")
             print(f"     These legs are correlated — consider diversifying.")
 
     def print_matchday_briefing(self, fold: int = 5) -> None:

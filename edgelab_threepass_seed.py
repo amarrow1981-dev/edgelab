@@ -70,7 +70,7 @@ def run_seed(
 ):
     print("\n" + "=" * 65)
     print("  EDGELAB THREE-PASS SEED")
-    print("  Seeds param_profile.json best values → edgelab_params.json")
+    print("  Seeds param_profile.json best values -> edgelab_params.json")
     print("=" * 65)
 
     if dry_run:
@@ -147,13 +147,13 @@ def run_seed(
         new_lp = apply_overrides(current_lp, overrides)
 
         print(f"\n  [{tier}] SEED — {source_desc}")
-        print(f"    Baseline: {baseline_acc:.1%}  →  Best: {best_acc:.1%}  (delta: {delta:+.1%})")
+        print(f"    Baseline: {baseline_acc:.1%}  ->  Best: {best_acc:.1%}  (delta: {delta:+.1%})")
         for param, value in overrides.items():
             # Show what changed
             from dataclasses import asdict
             old_val = asdict(current_lp).get(param, "?")
             changed = " ◄ CHANGED" if abs(float(old_val) - float(value)) > 0.0001 else ""
-            print(f"    {param:<25} {old_val} → {value}{changed}")
+            print(f"    {param:<25} {old_val} -> {value}{changed}")
 
         if not dry_run:
             save_params(
@@ -185,7 +185,7 @@ def run_seed(
     if skipped_gate:
         print(f"\n  Tiers below gate (not seeded):")
         for tier, delta, base, best in skipped_gate:
-            print(f"    {tier:<5}  delta={delta:+.1%}  ({base:.1%} → {best:.1%})")
+            print(f"    {tier:<5}  delta={delta:+.1%}  ({base:.1%} -> {best:.1%})")
 
     if dry_run:
         print(f"\n  DRY RUN complete — no changes written.")

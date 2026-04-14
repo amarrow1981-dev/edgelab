@@ -276,8 +276,8 @@ def run_gridsearch(data_dir: str, profile_path: str, tier_filter: str = None):
             draw_delta    = best_draw_acc - baseline_draw_acc
             sign = "+" if overall_delta >= 0 else ""
             print(f"     ✓ DRAW IMPROVEMENT FOUND")
-            print(f"       Overall : {baseline_acc:.3%} → {best_stats['accuracy']:.3%}  ({sign}{overall_delta:.3%})")
-            print(f"       Draw acc: {baseline_draw_acc:.1%} → {best_draw_acc:.1%}  (+{draw_delta:.1%})")
+            print(f"       Overall : {baseline_acc:.3%} -> {best_stats['accuracy']:.3%}  ({sign}{overall_delta:.3%})")
+            print(f"       Draw acc: {baseline_draw_acc:.1%} -> {best_draw_acc:.1%}  (+{draw_delta:.1%})")
             print(f"       w_draw_odds={w_odds}  w_draw_tendency={w_tend}  w_h2h_draw={w_h2h}")
             print(f"       draw_score_thresh={thresh}  w_xg_draw={w_xg}  composite_draw_boost={w_boost}")
             print(f"       Draws predicted: {best_stats['predicted_counts'].get('D',0)}  "

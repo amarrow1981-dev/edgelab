@@ -278,7 +278,7 @@ def main():
         write_to_db = True
         print("  DB completion: ON (no predictions CSV — will log results only)")
 
-    print(f"\n  Fetching results: {args.date_from or from_dt} → {args.date_to or to_dt}")
+    print(f"\n  Fetching results: {args.date_from or from_dt} -> {args.date_to or to_dt}")
     print(f"  Tiers: {', '.join(tiers_to_check)}\n")
 
     # Fetch and match
@@ -484,7 +484,7 @@ def main():
         pct = 100 * b["correct"] / b["total"]
         print(f"\n  UPSET FLAGGED:     {b['correct']}/{b['total']}  ({pct:.1f}%)")
         if pct < 40:
-            print(f"    → Upset flags firing correctly — these are genuine volatility signals")
+            print(f"    -> Upset flags firing correctly — these are genuine volatility signals")
 
     # Notable misses — high conf, wrong
     notable = [r for r in all_results if not r["correct"] and r["conf"] >= 0.80]
@@ -492,7 +492,7 @@ def main():
         print(f"\n  NOTABLE MISSES (conf ≥80%, wrong):")
         for r in sorted(notable, key=lambda x: -x["conf"]):
             print(f"    [{r['tier']}] {r['home']} vs {r['away']}  "
-                  f"→ predicted {r['pred']}, actual {r['actual']} ({r['score']})  "
+                  f"-> predicted {r['pred']}, actual {r['actual']} ({r['score']})  "
                   f"conf={conf_display(r['conf'])}  chaos={r['chaos']}  "
                   f"upset={r['upset']:.2f}")
 

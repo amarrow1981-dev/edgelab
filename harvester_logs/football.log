@@ -17,3 +17,36 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 20: character maps to <undefined>
 [13/04/2026  2:09:39.07] Finished football 
+[14/04/2026  2:00:02.01] Starting football 
+
+============================================================
+  EdgeLab Harvester — FOOTBALL
+============================================================
+  DB         : harvester_football.db
+  Leagues    : E0, E1, E2, E3, EC, SP1, SP2, D1, D2, I1, I2, N1, B1, SC0, SC1, SC2, SC3
+Traceback (most recent call last):
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_harvester.py", line 614, in <module>
+    main()
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_harvester.py", line 603, in main
+    harvest(
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_harvester.py", line 402, in harvest
+    print(f"  Seasons    : {seasons[0]} \u2192 {seasons[-1]}")
+  File "C:\Users\amarr\AppData\Local\Python\pythoncore-3.11-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 20: character maps to <undefined>
+[14/04/2026  2:00:02.25] Running merge 
+
+============================================================
+Traceback (most recent call last):
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_merge.py", line 517, in <module>
+    main()
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_merge.py", line 507, in main
+    run_merge(
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_merge.py", line 398, in run_merge
+    print(f"  EdgeLab Merge — Harvester DB \u2192 history/ CSVs")
+  File "C:\Users\amarr\AppData\Local\Python\pythoncore-3.11-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 31: character maps to <undefined>
+[14/04/2026  2:00:02.87] Finished football 

@@ -1,0 +1,9 @@
+[14/04/2026  3:10:02.02] Starting nba 
+usage: edgelab_harvester.py [-h] --sport
+                            {football,basketball,nba,rugby,hockey,baseball,afl,handball,formula1,mma,nfl}
+                            --key KEY [--tier TIER]
+                            [--from-season FROM_SEASON]
+                            [--to-season TO_SEASON]
+                            [--daily-limit DAILY_LIMIT] [--test] [--status]
+edgelab_harvester.py: error: the following arguments are required: --key
+[14/04/2026  3:10:02.31] Finished nba 

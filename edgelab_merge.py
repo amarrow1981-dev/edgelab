@@ -2,7 +2,7 @@
 """
 EdgeLab Merge Tool
 ------------------
-Converts harvester_football.db → football-data.co.uk CSV format → history/
+Converts harvester_football.db -> football-data.co.uk CSV format -> history/
 
 Bridges the gap between the API-Football harvester database and the CSV
 dataset the engine reads. Run once to backfill, then after each daily harvest.
@@ -395,7 +395,7 @@ def run_merge(
     status_only: bool = False,
 ):
     print(f"\n{'='*60}")
-    print(f"  EdgeLab Merge — Harvester DB → history/ CSVs")
+    print(f"  EdgeLab Merge — Harvester DB -> history/ CSVs")
     print(f"{'='*60}")
     print(f"\n  Harvester DB : {harvester_db}")
     print(f"  History dir  : {history_dir}")

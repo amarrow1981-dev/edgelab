@@ -1,0 +1,19 @@
+[14/04/2026  4:00:02.01] Starting handball 
+
+============================================================
+  EdgeLab Harvester — HANDBALL
+============================================================
+  DB         : harvester_handball.db
+  Leagues    : Champions League, Bundesliga
+Traceback (most recent call last):
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_harvester.py", line 614, in <module>
+    main()
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_harvester.py", line 603, in main
+    harvest(
+  File "C:\Users\amarr\OneDrive\Desktop\EDGELAB\edgelab\edgelab_harvester.py", line 402, in harvest
+    print(f"  Seasons    : {seasons[0]} \u2192 {seasons[-1]}")
+  File "C:\Users\amarr\AppData\Local\Python\pythoncore-3.11-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 20: character maps to <undefined>
+[14/04/2026  4:00:02.25] Finished handball 

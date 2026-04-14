@@ -272,7 +272,7 @@ def print_acca_candidates(df: pd.DataFrame) -> None:
         conf = f"{row['confidence']:.0%}"
         chaos = row["chaos_tier"]
         date = row["Date"]
-        print(f"  {date}  {home} vs {away}  →  {winner} ({pred})  {conf}  {chaos}")
+        print(f"  {date}  {home} vs {away}  ->  {winner} ({pred})  {conf}  {chaos}")
 
     print()
 

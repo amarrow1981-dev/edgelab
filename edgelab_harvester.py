@@ -399,7 +399,7 @@ def harvest(
     print(f"{'='*60}")
     print(f"  DB         : {db_path}")
     print(f"  Leagues    : {', '.join(leagues.keys())}")
-    print(f"  Seasons    : {seasons[0]} → {seasons[-1]}")
+    print(f"  Seasons    : {seasons[0]} -> {seasons[-1]}")
     print(f"  Daily limit: {limit} calls  ({PREDICTION_RESERVE} reserved for predictions)")
 
     client = HarvesterClient(api_key, base, limit)
@@ -515,7 +515,7 @@ def harvest(
         "FROM raw_matches WHERE sport = ?", (sport,)
     ).fetchone()
     print(f"  DB total      : {stats['n']:,} matches")
-    print(f"  Date range    : {stats['oldest']} → {stats['newest']}")
+    print(f"  Date range    : {stats['oldest']} -> {stats['newest']}")
     conn.close()
 
 

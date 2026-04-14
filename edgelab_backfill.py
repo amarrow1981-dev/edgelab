@@ -325,7 +325,7 @@ def analyse_discarded_params(db: EdgeLabDB, df_all: pd.DataFrame):
             for f in findings[:5]:
                 print(f"    [{f['tier']}] {f['region']:20s} "
                       f"val={f['value']:.2f}  n={f['n']:4d}  "
-                      f"{f['base_acc']:.1%} → {f['test_acc']:.1%}  "
+                      f"{f['base_acc']:.1%} -> {f['test_acc']:.1%}  "
                       f"(+{f['delta']:.1%})")
         else:
             print(f"    No conditional signal found — confirmed dead across all regions")
@@ -422,9 +422,9 @@ def run_backfill(
         # Run pipeline
         try:
             df_processed = run_pipeline(df_tier, params)
-            print(f"→ pipeline done", end=" ", flush=True)
+            print(f"-> pipeline done", end=" ", flush=True)
         except Exception as e:
-            print(f"→ PIPELINE ERROR: {e}")
+            print(f"-> PIPELINE ERROR: {e}")
             continue
 
         # Convert to records and bulk write in batches
@@ -441,7 +441,7 @@ def run_backfill(
         total_written += written
         total_skipped += skipped
 
-        print(f"→ {written:,} written, {skipped:,} skipped")
+        print(f"-> {written:,} written, {skipped:,} skipped")
 
     # ── Summary ──────────────────────────────────────────────────────────────
     print(f"\n{'='*60}")
