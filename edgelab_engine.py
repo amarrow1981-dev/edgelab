@@ -323,6 +323,42 @@ def assign_chaos_tier(dti: float) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Tier-specific draw rate priors — verified against actual dataset S35
+# Used as neutral fallback in all draw intelligence functions.
+# Default 0.26 if tier not found.
+# ---------------------------------------------------------------------------
+
+TIER_DRAW_RATE = {
+    "B1":  0.248,
+    "D1":  0.247,
+    "D2":  0.273,
+    "E0":  0.245,
+    "E1":  0.270,
+    "E2":  0.264,
+    "E3":  0.271,
+    "EC":  0.254,
+    "I1":  0.266,
+    "I2":  0.321,
+    "N1":  0.235,
+    "SC0": 0.240,
+    "SC1": 0.271,
+    "SC2": 0.201,
+    "SC3": 0.209,
+    "SP1": 0.252,
+    "SP2": 0.299,
+}
+
+
+def get_tier_draw_prior(df: pd.DataFrame) -> float:
+    """Return tier-specific draw rate prior from the dataframe's tier column."""
+    if "tier" in df.columns:
+        tier = df["tier"].iloc[0] if len(df) > 0 else None
+        if tier and tier in TIER_DRAW_RATE:
+            return TIER_DRAW_RATE[tier]
+    return 0.26
+
+
+# ---------------------------------------------------------------------------
 # Draw intelligence features (session 6)
 # Three new signals built chronologically from raw match data.
 # All use the same rolling-history pattern as form/GD — no lookahead.
@@ -338,7 +374,7 @@ def compute_team_draw_tendency(df: pd.DataFrame, window: int = 10) -> pd.DataFra
       away_draw_rate  — away team's recent draw rate (0.0 – 1.0)
     """
     df = df.copy().reset_index(drop=True)
-    NEUTRAL = 0.26  # league-average draw rate — used before enough history
+    NEUTRAL = get_tier_draw_prior(df)  # tier-specific draw rate prior
 
     team_history: Dict[str, List[float]] = {}  # 1.0=draw, 0.0=non-draw
     home_rates = [NEUTRAL] * len(df)
@@ -379,7 +415,7 @@ def compute_h2h(df: pd.DataFrame, window: int = 6) -> pd.DataFrame:
     H2H is identified as sorted (TeamA, TeamB) pair — symmetric.
     """
     df = df.copy().reset_index(drop=True)
-    NEUTRAL_DRAW = 0.26
+    NEUTRAL_DRAW = get_tier_draw_prior(df)  # tier-specific draw rate prior
     NEUTRAL_EDGE = 0.0
 
     # h2h_store[pair] = list of (home_won, drew, away_won) tuples
@@ -591,7 +627,7 @@ def compute_odds_draw_prob(df: pd.DataFrame) -> pd.DataFrame:
                         NaN rows fall back to league-average (0.26)
     """
     df = df.copy()
-    NEUTRAL = 0.26
+    NEUTRAL = get_tier_draw_prior(df)  # tier-specific draw rate prior
 
     if "B365D" not in df.columns:
         df["odds_draw_prob"] = NEUTRAL
@@ -723,10 +759,11 @@ def predict_dataframe(df: pd.DataFrame, params: EngineParams) -> pd.DataFrame:
     # draw_score is a weighted sum of the three signals.
     # When draw_score exceeds draw_score_thresh, override the prediction to D.
     # Params start at 0.0 so this layer is inert until DPOL activates it.
+    _draw_prior = get_tier_draw_prior(df)  # tier-specific neutral prior for fillna
     if (params.w_draw_odds + params.w_draw_tendency + params.w_h2h_draw) > 0:
-        odds_signal    = df["odds_draw_prob"].fillna(0.26) if "odds_draw_prob" in df.columns else pd.Series(0.26, index=df.index)
-        tendency_signal = ((df["home_draw_rate"].fillna(0.26) + df["away_draw_rate"].fillna(0.26)) / 2) if "home_draw_rate" in df.columns else pd.Series(0.26, index=df.index)
-        h2h_signal     = df["h2h_draw_rate"].fillna(0.26) if "h2h_draw_rate" in df.columns else pd.Series(0.26, index=df.index)
+        odds_signal    = df["odds_draw_prob"].fillna(_draw_prior) if "odds_draw_prob" in df.columns else pd.Series(_draw_prior, index=df.index)
+        tendency_signal = ((df["home_draw_rate"].fillna(_draw_prior) + df["away_draw_rate"].fillna(_draw_prior)) / 2) if "home_draw_rate" in df.columns else pd.Series(_draw_prior, index=df.index)
+        h2h_signal     = df["h2h_draw_rate"].fillna(_draw_prior) if "h2h_draw_rate" in df.columns else pd.Series(_draw_prior, index=df.index)
 
         total_w = params.w_draw_odds + params.w_draw_tendency + params.w_h2h_draw
         draw_score = (
@@ -777,7 +814,7 @@ def predict_dataframe(df: pd.DataFrame, params: EngineParams) -> pd.DataFrame:
 
         # 2. Composite gate
         if params.composite_draw_boost > 0 and "odds_draw_prob" in df.columns:
-            anchor = df["odds_draw_prob"].fillna(0.26) > 0.288
+            anchor = df["odds_draw_prob"].fillna(_draw_prior) > 0.288
 
             form_parity_signal = pd.Series(False, index=df.index)
             if "home_form" in df.columns and "away_form" in df.columns:
@@ -786,11 +823,11 @@ def predict_dataframe(df: pd.DataFrame, params: EngineParams) -> pd.DataFrame:
 
             home_draw_signal = pd.Series(False, index=df.index)
             if "home_draw_rate" in df.columns:
-                home_draw_signal = df["home_draw_rate"].fillna(0.26) > 0.28
+                home_draw_signal = df["home_draw_rate"].fillna(_draw_prior) > 0.28
 
             h2h_draw_signal = pd.Series(False, index=df.index)
             if "h2h_draw_rate" in df.columns:
-                h2h_draw_signal = df["h2h_draw_rate"].fillna(0.26) > 0.28
+                h2h_draw_signal = df["h2h_draw_rate"].fillna(_draw_prior) > 0.28
 
             supporting = form_parity_signal | home_draw_signal | h2h_draw_signal
             composite_gate = anchor & supporting

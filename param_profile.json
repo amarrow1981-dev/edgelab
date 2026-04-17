@@ -30,24 +30,233 @@
     "pass2b_teacher_layer": true
   },
   "baseline": {
+    "B1": {
+      "accuracy": 0.49231346081739785,
+      "n": 10668
+    },
+    "D1": {
+      "accuracy": 0.4971051928386924,
+      "n": 11227
+    },
+    "D2": {
+      "accuracy": 0.4417947026109907,
+      "n": 10609
+    },
     "E0": {
-      "accuracy": 0.5112034325410338,
-      "n": 14683
+      "accuracy": 0.5112336601307189,
+      "n": 14688
+    },
+    "E1": {
+      "accuracy": 0.44683046683046684,
+      "n": 20350
+    },
+    "E2": {
+      "accuracy": 0.44948361023798833,
+      "n": 20043
+    },
+    "E3": {
+      "accuracy": 0.43397257551669316,
+      "n": 20128
+    },
+    "EC": {
+      "accuracy": 0.4620460119117132,
+      "n": 17126
+    },
+    "I1": {
+      "accuracy": 0.5103557421041767,
+      "n": 14533
+    },
+    "I2": {
+      "accuracy": 0.4253862079949036,
+      "n": 12558
+    },
+    "N1": {
+      "accuracy": 0.5292612463887743,
+      "n": 12115
+    },
+    "SC0": {
+      "accuracy": 0.5034449413755591,
+      "n": 8273
+    },
+    "SC1": {
+      "accuracy": 0.4467772720599031,
+      "n": 6811
+    },
+    "SC2": {
+      "accuracy": 0.49055837563451776,
+      "n": 4925
+    },
+    "SC3": {
+      "accuracy": 0.4823841698841699,
+      "n": 4144
+    },
+    "SP1": {
+      "accuracy": 0.5043882978723404,
+      "n": 15040
+    },
+    "SP2": {
+      "accuracy": 0.45720899470899473,
+      "n": 15120
     }
   },
   "pass2_movers": {
-    "E0": []
+    "B1": [],
+    "D1": [
+      "w_form",
+      "home_adv"
+    ],
+    "D2": [],
+    "E0": [],
+    "E1": [],
+    "E2": [],
+    "E3": [],
+    "EC": [],
+    "I1": [],
+    "I2": [
+      "w_draw_odds",
+      "draw_score_thresh"
+    ],
+    "N1": [],
+    "SC0": [],
+    "SC1": [],
+    "SC2": [
+      "home_adv",
+      "w_form",
+      "w_gd"
+    ],
+    "SC3": [
+      "w_score_margin"
+    ],
+    "SP1": [],
+    "SP2": []
   },
   "pass2_best_values": {
-    "E0": {}
+    "B1": {},
+    "D1": {
+      "w_form": 0.1,
+      "home_adv": 0.5
+    },
+    "D2": {},
+    "E0": {},
+    "E1": {},
+    "E2": {},
+    "E3": {},
+    "EC": {},
+    "I1": {},
+    "I2": {
+      "w_draw_odds": 0.1,
+      "draw_score_thresh": 0.5
+    },
+    "N1": {},
+    "SC0": {},
+    "SC1": {},
+    "SC2": {
+      "w_form": 1.2,
+      "w_gd": 0.15,
+      "home_adv": 0.1
+    },
+    "SC3": {
+      "w_score_margin": 0.3
+    },
+    "SP1": {},
+    "SP2": {}
   },
   "pass2b_teacher": {
+    "B1": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "w_draw_odds",
+        "home_adv",
+        "draw_margin"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_gd",
+          "home_adv",
+          "w_draw_odds",
+          "w_score_margin",
+          "draw_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_draw_odds"
+        ]
+      }
+    },
+    "D1": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "home_adv",
+        "dti_edge_scale",
+        "dti_ha_scale",
+        "coin_dti_thresh",
+        "w_draw_odds",
+        "draw_margin"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "home_adv",
+          "w_score_margin"
+        ],
+        "D": [
+          "dti_edge_scale",
+          "dti_ha_scale",
+          "coin_dti_thresh",
+          "w_draw_odds",
+          "w_form",
+          "draw_margin",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ]
+      }
+    },
+    "D2": {
+      "confirmed_params": [
+        "w_gd",
+        "w_draw_odds",
+        "w_score_margin",
+        "w_form"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_score_margin",
+          "w_gd"
+        ],
+        "D": [
+          "w_draw_odds"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_draw_odds"
+        ]
+      }
+    },
     "E0": {
       "confirmed_params": [
         "w_form",
         "w_gd",
         "w_score_margin",
         "w_h2h_draw",
+        "w_draw_odds",
         "w_btts"
       ],
       "outcome_candidates": {
@@ -60,6 +269,7 @@
           "w_form",
           "w_gd",
           "w_h2h_draw",
+          "w_draw_odds",
           "w_btts",
           "w_score_margin"
         ],
@@ -68,12 +278,924 @@
           "w_gd"
         ]
       }
+    },
+    "E1": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "w_h2h_draw",
+        "w_draw_odds"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_h2h_draw"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_draw_odds"
+        ]
+      }
+    },
+    "E2": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "w_h2h_draw",
+        "w_xg_draw",
+        "composite_draw_boost",
+        "w_draw_odds"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_h2h_draw",
+          "w_xg_draw",
+          "composite_draw_boost"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_draw_odds"
+        ]
+      }
+    },
+    "E3": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "w_h2h_draw",
+        "home_adv",
+        "w_draw_odds"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_h2h_draw"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "home_adv",
+          "w_draw_odds"
+        ]
+      }
+    },
+    "EC": {
+      "confirmed_params": [
+        "w_gd",
+        "w_form",
+        "w_score_margin",
+        "dti_edge_scale",
+        "dti_ha_scale",
+        "coin_dti_thresh",
+        "w_h2h_draw",
+        "draw_margin",
+        "w_xg_draw",
+        "composite_draw_boost",
+        "w_draw_odds"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_gd",
+          "w_score_margin",
+          "w_form"
+        ],
+        "D": [
+          "dti_edge_scale",
+          "dti_ha_scale",
+          "coin_dti_thresh",
+          "w_h2h_draw",
+          "w_form",
+          "draw_margin",
+          "w_gd",
+          "w_xg_draw",
+          "composite_draw_boost"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_draw_odds"
+        ]
+      }
+    },
+    "I1": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "dti_edge_scale",
+        "dti_ha_scale",
+        "coin_dti_thresh",
+        "w_draw_tendency",
+        "w_h2h_draw",
+        "w_draw_odds",
+        "draw_margin",
+        "w_xg_draw",
+        "composite_draw_boost"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "dti_edge_scale",
+          "dti_ha_scale",
+          "coin_dti_thresh",
+          "w_draw_tendency",
+          "w_h2h_draw",
+          "w_draw_odds",
+          "w_form",
+          "draw_margin",
+          "w_gd",
+          "w_xg_draw",
+          "composite_draw_boost",
+          "w_score_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_gd"
+        ]
+      }
+    },
+    "I2": {
+      "confirmed_params": [
+        "w_gd",
+        "w_draw_odds",
+        "w_form",
+        "w_score_margin",
+        "w_h2h_draw"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_h2h_draw",
+          "w_draw_odds",
+          "w_gd"
+        ],
+        "A": [
+          "w_gd",
+          "w_draw_odds"
+        ]
+      }
+    },
+    "N1": {
+      "confirmed_params": [
+        "w_form",
+        "w_score_margin",
+        "w_gd",
+        "dti_edge_scale",
+        "dti_ha_scale",
+        "coin_dti_thresh",
+        "w_draw_tendency",
+        "w_h2h_draw",
+        "w_draw_odds",
+        "w_btts",
+        "draw_margin"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_gd",
+          "dti_edge_scale",
+          "dti_ha_scale",
+          "coin_dti_thresh",
+          "w_draw_tendency",
+          "w_h2h_draw",
+          "w_draw_odds",
+          "w_score_margin",
+          "w_btts",
+          "draw_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_score_margin"
+        ]
+      }
+    },
+    "SC0": {
+      "confirmed_params": [
+        "w_score_margin",
+        "w_form",
+        "w_gd",
+        "w_h2h_draw",
+        "w_draw_odds",
+        "w_btts",
+        "draw_margin"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_gd",
+          "w_h2h_draw",
+          "w_draw_odds",
+          "w_btts",
+          "draw_margin",
+          "w_score_margin"
+        ],
+        "A": [
+          "w_form"
+        ]
+      }
+    },
+    "SC1": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "home_adv",
+        "w_draw_odds"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "home_adv",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_draw_odds",
+          "w_score_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_gd"
+        ]
+      }
+    },
+    "SC2": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_draw_odds",
+        "w_score_margin",
+        "w_draw_tendency",
+        "home_adv",
+        "w_xg_draw",
+        "composite_draw_boost"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "home_adv",
+          "w_draw_odds",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_draw_tendency",
+          "w_draw_odds",
+          "w_xg_draw",
+          "composite_draw_boost",
+          "w_score_margin"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_draw_tendency"
+        ]
+      }
+    },
+    "SC3": {
+      "confirmed_params": [
+        "w_gd",
+        "w_form",
+        "w_draw_odds",
+        "w_draw_tendency",
+        "w_score_margin",
+        "draw_margin",
+        "w_xg_draw",
+        "composite_draw_boost"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_draw_tendency",
+          "w_draw_odds",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_draw_odds",
+          "w_gd",
+          "draw_margin",
+          "w_xg_draw",
+          "composite_draw_boost"
+        ],
+        "A": [
+          "w_form",
+          "w_gd"
+        ]
+      }
+    },
+    "SP1": {
+      "confirmed_params": [
+        "w_form",
+        "w_gd",
+        "w_score_margin",
+        "w_xg_draw",
+        "composite_draw_boost",
+        "dti_edge_scale",
+        "dti_ha_scale",
+        "coin_dti_thresh",
+        "w_h2h_draw",
+        "w_draw_odds"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_form",
+          "w_gd",
+          "w_xg_draw",
+          "composite_draw_boost",
+          "w_score_margin"
+        ],
+        "D": [
+          "w_form",
+          "w_gd",
+          "dti_edge_scale",
+          "dti_ha_scale",
+          "coin_dti_thresh",
+          "w_h2h_draw",
+          "w_draw_odds",
+          "w_score_margin",
+          "w_xg_draw",
+          "composite_draw_boost"
+        ],
+        "A": [
+          "w_form",
+          "w_gd",
+          "w_score_margin"
+        ]
+      }
+    },
+    "SP2": {
+      "confirmed_params": [
+        "w_form",
+        "w_score_margin",
+        "w_gd",
+        "w_h2h_draw",
+        "w_draw_odds",
+        "w_btts"
+      ],
+      "outcome_candidates": {
+        "H": [
+          "w_score_margin",
+          "w_form",
+          "w_gd"
+        ],
+        "D": [
+          "w_form",
+          "w_h2h_draw"
+        ],
+        "A": [
+          "w_draw_odds",
+          "w_btts"
+        ]
+      }
     }
   },
   "pass3_results": {
+    "B1": {
+      "baseline_acc": 0.4923,
+      "n_tested": 35,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4938,
+          "delta": 0.0015,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "draw_margin"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "draw_margin": 0.13
+          },
+          "accuracy": 0.4937,
+          "delta": 0.0014,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds",
+            "draw_margin"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "w_draw_odds": 0.0,
+            "draw_margin": 0.13
+          },
+          "accuracy": 0.4937,
+          "delta": 0.0014,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "home_adv"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "home_adv": 0.5
+          },
+          "accuracy": 0.4935,
+          "delta": 0.0012,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds",
+            "home_adv"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_draw_odds": 0.0,
+            "home_adv": 0.5
+          },
+          "accuracy": 0.4935,
+          "delta": 0.0012,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "home_adv",
+            "draw_margin"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "home_adv": 0.5,
+            "draw_margin": 0.13
+          },
+          "accuracy": 0.4934,
+          "delta": 0.0011,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "home_adv",
+            "draw_margin"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "home_adv": 0.5,
+            "draw_margin": 0.13
+          },
+          "accuracy": 0.4929,
+          "delta": 0.0006,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "home_adv"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "home_adv": 0.5
+          },
+          "accuracy": 0.4928,
+          "delta": 0.0005,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds",
+            "home_adv"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "w_draw_odds": 0.0,
+            "home_adv": 0.5
+          },
+          "accuracy": 0.4928,
+          "delta": 0.0005,
+          "n": 10668,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "home_adv"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_score_margin": 0.3,
+            "home_adv": 0.5
+          },
+          "accuracy": 0.4926,
+          "delta": 0.0003,
+          "n": 10668,
+          "improvement": false
+        }
+      ]
+    },
+    "D1": {
+      "baseline_acc": 0.4971,
+      "n_tested": 120,
+      "n_improving": 55,
+      "best": {
+        "params": [
+          "w_form",
+          "w_score_margin",
+          "dti_edge_scale"
+        ],
+        "values": {
+          "w_form": 0.1,
+          "w_score_margin": 0.3,
+          "dti_edge_scale": 0.6
+        },
+        "accuracy": 0.5023,
+        "delta": 0.0052,
+        "n": 11227,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "dti_edge_scale"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_score_margin": 0.3,
+            "dti_edge_scale": 0.6
+          },
+          "accuracy": 0.5023,
+          "delta": 0.0052,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_score_margin": 0.3,
+            "dti_ha_scale": 0.3
+          },
+          "accuracy": 0.5021,
+          "delta": 0.005,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "dti_edge_scale": 0.6,
+            "coin_dti_thresh": 0.5
+          },
+          "accuracy": 0.502,
+          "delta": 0.0049,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "dti_ha_scale": 0.3
+          },
+          "accuracy": 0.5019,
+          "delta": 0.0048,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_ha_scale",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "dti_ha_scale": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5019,
+          "delta": 0.0048,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_ha_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.5
+          },
+          "accuracy": 0.5018,
+          "delta": 0.0047,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "dti_edge_scale": 0.6
+          },
+          "accuracy": 0.5017,
+          "delta": 0.0046,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5017,
+          "delta": 0.0046,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "dti_edge_scale": 0.6,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5017,
+          "delta": 0.0046,
+          "n": 11227,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.5016,
+          "delta": 0.0045,
+          "n": 11227,
+          "improvement": true
+        }
+      ]
+    },
+    "D2": {
+      "baseline_acc": 0.4418,
+      "n_tested": 10,
+      "n_improving": 5,
+      "best": {
+        "params": [
+          "w_gd",
+          "w_score_margin",
+          "w_form"
+        ],
+        "values": {
+          "w_gd": 0.15,
+          "w_score_margin": 0.3,
+          "w_form": 0.2
+        },
+        "accuracy": 0.4459,
+        "delta": 0.0041,
+        "n": 10609,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin",
+            "w_form"
+          ],
+          "values": {
+            "w_gd": 0.15,
+            "w_score_margin": 0.3,
+            "w_form": 0.2
+          },
+          "accuracy": 0.4459,
+          "delta": 0.0041,
+          "n": 10609,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_form"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_form": 0.2
+          },
+          "accuracy": 0.4447,
+          "delta": 0.0029,
+          "n": 10609,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_draw_odds",
+            "w_score_margin",
+            "w_form"
+          ],
+          "values": {
+            "w_draw_odds": 0.0,
+            "w_score_margin": 0.3,
+            "w_form": 0.2
+          },
+          "accuracy": 0.4447,
+          "delta": 0.0029,
+          "n": 10609,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_gd": 0.15,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4444,
+          "delta": 0.0026,
+          "n": 10609,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_gd": 0.15,
+            "w_draw_odds": 0.0,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4444,
+          "delta": 0.0026,
+          "n": 10609,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_draw_odds",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_draw_odds": 0.0,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4438,
+          "delta": 0.002,
+          "n": 10609,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.15,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4425,
+          "delta": 0.0007,
+          "n": 10609,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_draw_odds",
+            "w_form"
+          ],
+          "values": {
+            "w_draw_odds": 0.0,
+            "w_form": 0.2
+          },
+          "accuracy": 0.4419,
+          "delta": 0.0001,
+          "n": 10609,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_form"
+          ],
+          "values": {
+            "w_gd": 0.15,
+            "w_form": 0.2
+          },
+          "accuracy": 0.4401,
+          "delta": -0.0017,
+          "n": 10609,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds",
+            "w_form"
+          ],
+          "values": {
+            "w_gd": 0.15,
+            "w_draw_odds": 0.0,
+            "w_form": 0.2
+          },
+          "accuracy": 0.4401,
+          "delta": -0.0017,
+          "n": 10609,
+          "improvement": false
+        }
+      ]
+    },
     "E0": {
       "baseline_acc": 0.5112,
-      "n_tested": 20,
+      "n_tested": 35,
       "n_improving": 0,
       "best": null,
       "top_combinations": [
@@ -88,9 +1210,9 @@
             "w_gd": 0.3,
             "w_score_margin": 0.3
           },
-          "accuracy": 0.5122,
+          "accuracy": 0.5123,
           "delta": 0.001,
-          "n": 14683,
+          "n": 14688,
           "improvement": false
         },
         {
@@ -102,9 +1224,9 @@
             "w_form": 0.3,
             "w_score_margin": 0.3
           },
-          "accuracy": 0.512,
+          "accuracy": 0.5121,
           "delta": 0.0008,
-          "n": 14683,
+          "n": 14688,
           "improvement": false
         },
         {
@@ -118,9 +1240,25 @@
             "w_score_margin": 0.3,
             "w_h2h_draw": 0.0
           },
-          "accuracy": 0.512,
+          "accuracy": 0.5121,
           "delta": 0.0008,
-          "n": 14683,
+          "n": 14688,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5121,
+          "delta": 0.0008,
+          "n": 14688,
           "improvement": false
         },
         {
@@ -134,9 +1272,9 @@
             "w_score_margin": 0.3,
             "w_btts": 0.0
           },
-          "accuracy": 0.512,
+          "accuracy": 0.5121,
           "delta": 0.0008,
-          "n": 14683,
+          "n": 14688,
           "improvement": false
         },
         {
@@ -150,7 +1288,21 @@
           },
           "accuracy": 0.5119,
           "delta": 0.0007,
-          "n": 14683,
+          "n": 14688,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0007,
+          "n": 14688,
           "improvement": false
         },
         {
@@ -164,7 +1316,23 @@
           },
           "accuracy": 0.5119,
           "delta": 0.0007,
-          "n": 14683,
+          "n": 14688,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_h2h_draw": 0.0,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0007,
+          "n": 14688,
           "improvement": false
         },
         {
@@ -180,7 +1348,1469 @@
           },
           "accuracy": 0.5119,
           "delta": 0.0007,
-          "n": 14683,
+          "n": 14688,
+          "improvement": false
+        }
+      ]
+    },
+    "E1": {
+      "baseline_acc": 0.4468,
+      "n_tested": 20,
+      "n_improving": 6,
+      "best": {
+        "params": [
+          "w_form",
+          "w_score_margin"
+        ],
+        "values": {
+          "w_form": 0.1,
+          "w_score_margin": 0.3
+        },
+        "accuracy": 0.4489,
+        "delta": 0.0021,
+        "n": 20350,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4489,
+          "delta": 0.0021,
+          "n": 20350,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_score_margin": 0.3,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4489,
+          "delta": 0.0021,
+          "n": 20350,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4489,
+          "delta": 0.0021,
+          "n": 20350,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4488,
+          "delta": 0.002,
+          "n": 20350,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4488,
+          "delta": 0.002,
+          "n": 20350,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_h2h_draw",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_h2h_draw": 0.0,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4488,
+          "delta": 0.002,
+          "n": 20350,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_gd": 0.05,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4486,
+          "delta": 0.0017,
+          "n": 20350,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4484,
+          "delta": 0.0015,
+          "n": 20350,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_score_margin": 0.3,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4484,
+          "delta": 0.0015,
+          "n": 20350,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4484,
+          "delta": 0.0015,
+          "n": 20350,
+          "improvement": false
+        }
+      ]
+    },
+    "E2": {
+      "baseline_acc": 0.4495,
+      "n_tested": 56,
+      "n_improving": 15,
+      "best": {
+        "params": [
+          "w_form",
+          "w_score_margin"
+        ],
+        "values": {
+          "w_form": 0.5,
+          "w_score_margin": 0.25
+        },
+        "accuracy": 0.4519,
+        "delta": 0.0024,
+        "n": 20043,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_score_margin": 0.25
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_xg_draw"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_score_margin": 0.25,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_xg_draw"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_score_margin": 0.25,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_score_margin": 0.25,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_score_margin": 0.25,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw",
+            "w_xg_draw"
+          ],
+          "values": {
+            "w_form": 0.5,
+            "w_h2h_draw": 0.0,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.4519,
+          "delta": 0.0024,
+          "n": 20043,
+          "improvement": true
+        }
+      ]
+    },
+    "E3": {
+      "baseline_acc": 0.434,
+      "n_tested": 35,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "home_adv"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "home_adv": 0.15
+          },
+          "accuracy": 0.4354,
+          "delta": 0.0014,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_h2h_draw",
+            "home_adv"
+          ],
+          "values": {
+            "w_h2h_draw": 0.0,
+            "home_adv": 0.15
+          },
+          "accuracy": 0.4354,
+          "delta": 0.0014,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_draw_odds"
+          ],
+          "values": {
+            "home_adv": 0.15,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4354,
+          "delta": 0.0014,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw",
+            "home_adv"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_h2h_draw": 0.0,
+            "home_adv": 0.15
+          },
+          "accuracy": 0.4354,
+          "delta": 0.0014,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "home_adv",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "home_adv": 0.15,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4354,
+          "delta": 0.0014,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_h2h_draw",
+            "home_adv",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_h2h_draw": 0.0,
+            "home_adv": 0.15,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4354,
+          "delta": 0.0014,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_score_margin": 0.1,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4351,
+          "delta": 0.0011,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_score_margin": 0.1,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4351,
+          "delta": 0.0011,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "home_adv"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_score_margin": 0.1,
+            "home_adv": 0.15
+          },
+          "accuracy": 0.4351,
+          "delta": 0.0011,
+          "n": 20128,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_h2h_draw",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_score_margin": 0.1,
+            "w_h2h_draw": 0.0,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4351,
+          "delta": 0.0011,
+          "n": 20128,
+          "improvement": false
+        }
+      ]
+    },
+    "EC": {
+      "baseline_acc": 0.462,
+      "n_tested": 220,
+      "n_improving": 6,
+      "best": {
+        "params": [
+          "dti_edge_scale",
+          "coin_dti_thresh",
+          "draw_margin"
+        ],
+        "values": {
+          "dti_edge_scale": 0.5,
+          "coin_dti_thresh": 0.6,
+          "draw_margin": 0.08
+        },
+        "accuracy": 0.4642,
+        "delta": 0.0022,
+        "n": 17126,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "dti_edge_scale",
+            "coin_dti_thresh",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "coin_dti_thresh": 0.6,
+            "draw_margin": 0.08
+          },
+          "accuracy": 0.4642,
+          "delta": 0.0022,
+          "n": 17126,
+          "improvement": true
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "coin_dti_thresh": 0.6
+          },
+          "accuracy": 0.4641,
+          "delta": 0.002,
+          "n": 17126,
+          "improvement": true
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "coin_dti_thresh",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "coin_dti_thresh": 0.6,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.4641,
+          "delta": 0.002,
+          "n": 17126,
+          "improvement": true
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "coin_dti_thresh",
+            "w_xg_draw"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "coin_dti_thresh": 0.6,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.4641,
+          "delta": 0.002,
+          "n": 17126,
+          "improvement": true
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "coin_dti_thresh",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "coin_dti_thresh": 0.6,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.4641,
+          "delta": 0.002,
+          "n": 17126,
+          "improvement": true
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "coin_dti_thresh",
+            "w_draw_odds"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "coin_dti_thresh": 0.6,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4641,
+          "delta": 0.002,
+          "n": 17126,
+          "improvement": true
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "draw_margin": 0.08
+          },
+          "accuracy": 0.4639,
+          "delta": 0.0018,
+          "n": 17126,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "w_h2h_draw",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "w_h2h_draw": 0.0,
+            "draw_margin": 0.08
+          },
+          "accuracy": 0.4639,
+          "delta": 0.0018,
+          "n": 17126,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "draw_margin",
+            "w_xg_draw"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "draw_margin": 0.08,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.4639,
+          "delta": 0.0018,
+          "n": 17126,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "draw_margin",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "dti_edge_scale": 0.5,
+            "draw_margin": 0.08,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.4639,
+          "delta": 0.0018,
+          "n": 17126,
+          "improvement": false
+        }
+      ]
+    },
+    "I1": {
+      "baseline_acc": 0.5104,
+      "n_tested": 286,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "dti_ha_scale",
+            "coin_dti_thresh",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.6,
+            "draw_margin": 0.18
+          },
+          "accuracy": 0.5121,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "draw_margin": 0.18
+          },
+          "accuracy": 0.512,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "w_draw_tendency",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "w_draw_tendency": 0.0,
+            "draw_margin": 0.18
+          },
+          "accuracy": 0.512,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "w_h2h_draw",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "w_h2h_draw": 0.0,
+            "draw_margin": 0.18
+          },
+          "accuracy": 0.512,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "w_draw_odds",
+            "draw_margin"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "w_draw_odds": 0.0,
+            "draw_margin": 0.18
+          },
+          "accuracy": 0.512,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "draw_margin",
+            "w_xg_draw"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "draw_margin": 0.18,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.512,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "draw_margin",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "draw_margin": 0.18,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.512,
+          "delta": 0.0017,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.6
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0016,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0016,
+          "n": 14533,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5119,
+          "delta": 0.0016,
+          "n": 14533,
+          "improvement": false
+        }
+      ]
+    },
+    "I2": {
+      "baseline_acc": 0.4254,
+      "n_tested": 35,
+      "n_improving": 14,
+      "best": {
+        "params": [
+          "w_draw_odds",
+          "w_gd"
+        ],
+        "values": {
+          "w_draw_odds": 0.1,
+          "w_gd": 0.1
+        },
+        "accuracy": 0.431,
+        "delta": 0.0057,
+        "n": 12558,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_draw_odds",
+            "w_gd"
+          ],
+          "values": {
+            "w_draw_odds": 0.1,
+            "w_gd": 0.1
+          },
+          "accuracy": 0.431,
+          "delta": 0.0057,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_draw_odds",
+            "w_form"
+          ],
+          "values": {
+            "w_draw_odds": 0.1,
+            "w_form": 0.4
+          },
+          "accuracy": 0.4307,
+          "delta": 0.0053,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "draw_score_thresh",
+            "w_gd"
+          ],
+          "values": {
+            "draw_score_thresh": 0.5,
+            "w_gd": 0.1
+          },
+          "accuracy": 0.4306,
+          "delta": 0.0052,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "draw_score_thresh",
+            "w_form"
+          ],
+          "values": {
+            "draw_score_thresh": 0.5,
+            "w_form": 0.4
+          },
+          "accuracy": 0.4303,
+          "delta": 0.0049,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_form",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_gd": 0.1,
+            "w_form": 0.4,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4302,
+          "delta": 0.0048,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_gd": 0.1,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4294,
+          "delta": 0.0041,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_draw_odds",
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_draw_odds": 0.1,
+            "w_gd": 0.1,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4294,
+          "delta": 0.0041,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "draw_score_thresh",
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "draw_score_thresh": 0.5,
+            "w_gd": 0.1,
+            "w_score_margin": 0.3
+          },
+          "accuracy": 0.4294,
+          "delta": 0.0041,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_gd": 0.1,
+            "w_score_margin": 0.3,
+            "w_h2h_draw": 0.15
+          },
+          "accuracy": 0.4294,
+          "delta": 0.0041,
+          "n": 12558,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_draw_odds",
+            "draw_score_thresh",
+            "w_gd"
+          ],
+          "values": {
+            "w_draw_odds": 0.1,
+            "draw_score_thresh": 0.5,
+            "w_gd": 0.1
+          },
+          "accuracy": 0.4293,
+          "delta": 0.0039,
+          "n": 12558,
+          "improvement": true
+        }
+      ]
+    },
+    "N1": {
+      "baseline_acc": 0.5293,
+      "n_tested": 220,
+      "n_improving": 2,
+      "best": {
+        "params": [
+          "w_form",
+          "dti_edge_scale",
+          "draw_margin"
+        ],
+        "values": {
+          "w_form": 0.3,
+          "dti_edge_scale": 0.6,
+          "draw_margin": 0.1
+        },
+        "accuracy": 0.5314,
+        "delta": 0.0021,
+        "n": 12115,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "draw_margin"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6,
+            "draw_margin": 0.1
+          },
+          "accuracy": 0.5314,
+          "delta": 0.0021,
+          "n": 12115,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6,
+            "dti_ha_scale": 0.7
+          },
+          "accuracy": 0.5313,
+          "delta": 0.0021,
+          "n": 12115,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6
+          },
+          "accuracy": 0.5311,
+          "delta": 0.0018,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_gd",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "w_gd": 0.2,
+            "dti_ha_scale": 0.7
+          },
+          "accuracy": 0.5311,
+          "delta": 0.0018,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.5311,
+          "delta": 0.0018,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5311,
+          "delta": 0.0018,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5311,
+          "delta": 0.0018,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "dti_edge_scale",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.3,
+            "dti_edge_scale": 0.6,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5311,
+          "delta": 0.0018,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "dti_edge_scale",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_gd": 0.2,
+            "dti_edge_scale": 0.6,
+            "dti_ha_scale": 0.7
+          },
+          "accuracy": 0.531,
+          "delta": 0.0017,
+          "n": 12115,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_edge_scale",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "dti_edge_scale": 0.6,
+            "dti_ha_scale": 0.7
+          },
+          "accuracy": 0.5308,
+          "delta": 0.0016,
+          "n": 12115,
+          "improvement": false
+        }
+      ]
+    },
+    "SC0": {
+      "baseline_acc": 0.5034,
+      "n_tested": 56,
+      "n_improving": 10,
+      "best": {
+        "params": [
+          "w_score_margin",
+          "w_gd"
+        ],
+        "values": {
+          "w_score_margin": 0.3,
+          "w_gd": 0.05
+        },
+        "accuracy": 0.5061,
+        "delta": 0.0027,
+        "n": 8273,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_score_margin",
+            "w_gd"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_gd": 0.05
+          },
+          "accuracy": 0.5061,
+          "delta": 0.0027,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_gd",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_gd": 0.05,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5061,
+          "delta": 0.0027,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_gd": 0.05,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5061,
+          "delta": 0.0027,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_gd",
+            "w_btts"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_gd": 0.05,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5061,
+          "delta": 0.0027,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0023,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0023,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_btts"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0023,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_h2h_draw",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_h2h_draw": 0.0,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0023,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_h2h_draw",
+            "w_btts"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_h2h_draw": 0.0,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0023,
+          "n": 8273,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds",
+            "w_btts"
+          ],
+          "values": {
+            "w_gd": 0.05,
+            "w_draw_odds": 0.0,
+            "w_btts": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0023,
+          "n": 8273,
+          "improvement": true
+        }
+      ]
+    },
+    "SC1": {
+      "baseline_acc": 0.4468,
+      "n_tested": 20,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_score_margin": 0.2
+          },
+          "accuracy": 0.4478,
+          "delta": 0.001,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4478,
+          "delta": 0.001,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_score_margin": 0.2,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4478,
+          "delta": 0.001,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_gd"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_gd": 0.3
+          },
+          "accuracy": 0.4477,
+          "delta": 0.0009,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_gd",
+            "w_score_margin"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_gd": 0.3,
+            "w_score_margin": 0.2
+          },
+          "accuracy": 0.4477,
+          "delta": 0.0009,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_gd": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4477,
+          "delta": 0.0009,
+          "n": 6811,
           "improvement": false
         },
         {
@@ -190,11 +2820,673 @@
           ],
           "values": {
             "w_gd": 0.3,
-            "w_score_margin": 0.3
+            "w_score_margin": 0.2
           },
-          "accuracy": 0.5117,
-          "delta": 0.0005,
-          "n": 14683,
+          "accuracy": 0.4475,
+          "delta": 0.0007,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4475,
+          "delta": 0.0007,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_gd": 0.3,
+            "w_score_margin": 0.2,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4475,
+          "delta": 0.0007,
+          "n": 6811,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "home_adv"
+          ],
+          "values": {
+            "w_score_margin": 0.2,
+            "home_adv": 0.35
+          },
+          "accuracy": 0.4471,
+          "delta": 0.0003,
+          "n": 6811,
+          "improvement": false
+        }
+      ]
+    },
+    "SC2": {
+      "baseline_acc": 0.4906,
+      "n_tested": 84,
+      "n_improving": 36,
+      "best": {
+        "params": [
+          "home_adv",
+          "w_form"
+        ],
+        "values": {
+          "home_adv": 0.1,
+          "w_form": 1.2
+        },
+        "accuracy": 0.4971,
+        "delta": 0.0065,
+        "n": 4925,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "home_adv",
+            "w_form"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_form": 1.2
+          },
+          "accuracy": 0.4971,
+          "delta": 0.0065,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_form",
+            "w_draw_odds"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_form": 1.2,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4971,
+          "delta": 0.0065,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_form",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_form": 1.2,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.4971,
+          "delta": 0.0065,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_form",
+            "w_xg_draw"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_form": 1.2,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.4971,
+          "delta": 0.0065,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_form",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_form": 1.2,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.4971,
+          "delta": 0.0065,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_draw_odds"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.496,
+          "delta": 0.0055,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.496,
+          "delta": 0.0055,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_xg_draw"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_xg_draw": 0.0
+          },
+          "accuracy": 0.496,
+          "delta": 0.0055,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "composite_draw_boost": 0.0
+          },
+          "accuracy": 0.496,
+          "delta": 0.0055,
+          "n": 4925,
+          "improvement": true
+        },
+        {
+          "params": [
+            "home_adv",
+            "w_draw_odds",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "home_adv": 0.1,
+            "w_draw_odds": 0.0,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.496,
+          "delta": 0.0055,
+          "n": 4925,
+          "improvement": true
+        }
+      ]
+    },
+    "SC3": {
+      "baseline_acc": 0.4824,
+      "n_tested": 84,
+      "n_improving": 21,
+      "best": {
+        "params": [
+          "w_score_margin",
+          "w_draw_odds"
+        ],
+        "values": {
+          "w_score_margin": 0.3,
+          "w_draw_odds": 0.0
+        },
+        "accuracy": 0.4862,
+        "delta": 0.0039,
+        "n": 4144,
+        "improvement": true
+      },
+      "top_combinations": [
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "draw_margin"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "draw_margin": 0.08
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_xg_draw"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_xg_draw": 0.25
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "composite_draw_boost": 0.2
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds",
+            "w_draw_tendency"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0,
+            "w_draw_tendency": 0.0
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds",
+            "draw_margin"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0,
+            "draw_margin": 0.08
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds",
+            "w_xg_draw"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0,
+            "w_xg_draw": 0.25
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds",
+            "composite_draw_boost"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_odds": 0.0,
+            "composite_draw_boost": 0.2
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_tendency",
+            "draw_margin"
+          ],
+          "values": {
+            "w_score_margin": 0.3,
+            "w_draw_tendency": 0.0,
+            "draw_margin": 0.08
+          },
+          "accuracy": 0.4862,
+          "delta": 0.0039,
+          "n": 4144,
+          "improvement": true
+        }
+      ]
+    },
+    "SP1": {
+      "baseline_acc": 0.5044,
+      "n_tested": 165,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "dti_ha_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.55
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0013,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_xg_draw",
+            "dti_ha_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "w_xg_draw": 0.0,
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.55
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0013,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "composite_draw_boost",
+            "dti_ha_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "composite_draw_boost": 0.0,
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.55
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0013,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "coin_dti_thresh",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.55,
+            "w_h2h_draw": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0013,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "dti_ha_scale",
+            "coin_dti_thresh",
+            "w_draw_odds"
+          ],
+          "values": {
+            "dti_ha_scale": 0.3,
+            "coin_dti_thresh": 0.55,
+            "w_draw_odds": 0.0
+          },
+          "accuracy": 0.5057,
+          "delta": 0.0013,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_gd",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_form": 0.1,
+            "w_gd": 0.1,
+            "dti_ha_scale": 0.3
+          },
+          "accuracy": 0.5055,
+          "delta": 0.0011,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "w_score_margin",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "w_gd": 0.1,
+            "w_score_margin": 0.25,
+            "coin_dti_thresh": 0.55
+          },
+          "accuracy": 0.5055,
+          "delta": 0.0011,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "dti_edge_scale",
+            "coin_dti_thresh"
+          ],
+          "values": {
+            "w_score_margin": 0.25,
+            "dti_edge_scale": 0.6,
+            "coin_dti_thresh": 0.55
+          },
+          "accuracy": 0.5055,
+          "delta": 0.0011,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_gd",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_gd": 0.1,
+            "dti_ha_scale": 0.3
+          },
+          "accuracy": 0.5054,
+          "delta": 0.001,
+          "n": 15040,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_xg_draw",
+            "dti_ha_scale"
+          ],
+          "values": {
+            "w_xg_draw": 0.0,
+            "dti_ha_scale": 0.3
+          },
+          "accuracy": 0.5054,
+          "delta": 0.001,
+          "n": 15040,
+          "improvement": false
+        }
+      ]
+    },
+    "SP2": {
+      "baseline_acc": 0.4572,
+      "n_tested": 35,
+      "n_improving": 0,
+      "best": null,
+      "top_combinations": [
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_h2h_draw": 0.05
+          },
+          "accuracy": 0.4574,
+          "delta": 0.0002,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_draw_odds": 0.05
+          },
+          "accuracy": 0.4574,
+          "delta": 0.0002,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_btts": 0.05
+          },
+          "accuracy": 0.4574,
+          "delta": 0.0002,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_h2h_draw": 0.05,
+            "w_draw_odds": 0.05
+          },
+          "accuracy": 0.4574,
+          "delta": 0.0002,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_h2h_draw",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_h2h_draw": 0.05,
+            "w_btts": 0.05
+          },
+          "accuracy": 0.4574,
+          "delta": 0.0002,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_draw_odds",
+            "w_btts"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_draw_odds": 0.05,
+            "w_btts": 0.05
+          },
+          "accuracy": 0.4574,
+          "delta": 0.0002,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_form",
+            "w_score_margin",
+            "w_gd"
+          ],
+          "values": {
+            "w_form": 0.2,
+            "w_score_margin": 0.2,
+            "w_gd": 0.05
+          },
+          "accuracy": 0.4573,
+          "delta": 0.0001,
+          "n": 15120,
           "improvement": false
         },
         {
@@ -203,12 +3495,26 @@
             "w_h2h_draw"
           ],
           "values": {
-            "w_score_margin": 0.3,
-            "w_h2h_draw": 0.0
+            "w_score_margin": 0.2,
+            "w_h2h_draw": 0.05
           },
-          "accuracy": 0.5117,
-          "delta": 0.0005,
-          "n": 14683,
+          "accuracy": 0.4572,
+          "delta": 0.0,
+          "n": 15120,
+          "improvement": false
+        },
+        {
+          "params": [
+            "w_score_margin",
+            "w_draw_odds"
+          ],
+          "values": {
+            "w_score_margin": 0.2,
+            "w_draw_odds": 0.05
+          },
+          "accuracy": 0.4572,
+          "delta": 0.0,
+          "n": 15120,
           "improvement": false
         },
         {
@@ -217,12 +3523,12 @@
             "w_btts"
           ],
           "values": {
-            "w_score_margin": 0.3,
-            "w_btts": 0.0
+            "w_score_margin": 0.2,
+            "w_btts": 0.05
           },
-          "accuracy": 0.5117,
-          "delta": 0.0005,
-          "n": 14683,
+          "accuracy": 0.4572,
+          "delta": 0.0,
+          "n": 15120,
           "improvement": false
         }
       ]
