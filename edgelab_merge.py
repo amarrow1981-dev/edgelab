@@ -23,6 +23,8 @@ Design principles:
   - Skips any match without a completed result (status != FT)
   - Uses the same CSV column format as football-data.co.uk exactly
   - Only touches football — other sports are separate
+  - Only merges the 17 proven tiers into history/ — all other harvester
+    leagues stay in harvester_football.db until explicitly expanded
 
 Usage:
     python edgelab_merge.py
@@ -53,6 +55,21 @@ DEFAULT_HARVESTER_DB = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                      "harvester_football.db")
 DEFAULT_HISTORY_DIR  = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                      "history")
+
+# ---------------------------------------------------------------------------
+# TIER WHITELIST — only these 17 tiers merge into history/
+# All other harvester leagues stay in harvester_football.db only
+# until explicitly added here after validation
+# ---------------------------------------------------------------------------
+TIER_WHITELIST = {
+    "E0", "E1", "E2", "E3", "EC",
+    "B1",
+    "D1", "D2",
+    "I1", "I2",
+    "N1",
+    "SC0", "SC1", "SC2", "SC3",
+    "SP1", "SP2",
+}
 
 # football-data.co.uk CSV columns — this is the exact format the engine expects
 CSV_COLUMNS = ["Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR"]
@@ -289,6 +306,7 @@ def write_to_csv(history_dir: str, tier: str, season_int: int,
             ).reset_index(drop=True)
         except Exception:
             pass
+
         combined.to_csv(path, index=False)
     else:
         # New file
@@ -403,6 +421,7 @@ def run_merge(
         print(f"  Mode         : DRY RUN — no files will be written")
     if target_tier:
         print(f"  Tier filter  : {target_tier}")
+    print(f"  Tier whitelist: {len(TIER_WHITELIST)} proven tiers only")
 
     # Load harvester matches
     try:
@@ -413,6 +432,27 @@ def run_merge(
 
     if df_harvester.empty:
         print(f"\n  No completed matches in harvester DB. Nothing to merge.")
+        return
+
+    # --- TIER WHITELIST FILTER ---
+    # Only merge the 17 proven tiers. All other harvester leagues stay
+    # in harvester_football.db until explicitly added to TIER_WHITELIST.
+    if target_tier:
+        # Single-tier run: validate it's in the whitelist
+        if target_tier not in TIER_WHITELIST:
+            print(f"\n  ERROR: '{target_tier}' is not in TIER_WHITELIST.")
+            print(f"  Add it to TIER_WHITELIST in edgelab_merge.py to enable merging.")
+            sys.exit(1)
+    else:
+        # Full run: filter to whitelist only
+        before = len(df_harvester)
+        df_harvester = df_harvester[df_harvester["tier"].isin(TIER_WHITELIST)]
+        blocked = before - len(df_harvester)
+        if blocked > 0:
+            print(f"  Blocked      : {blocked:,} rows from non-whitelisted leagues (staying in harvester_football.db)")
+
+    if df_harvester.empty:
+        print(f"\n  No whitelisted tier matches to merge. Nothing to do.")
         return
 
     # Status report

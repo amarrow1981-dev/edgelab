@@ -8,16 +8,14 @@ Replaces the manual HTML build process entirely. One command, correct output,
 no date errors, no manual data entry.
 
 What it produces:
-  - Tab 1: All Predictions — every fixture grouped by league, confidence bar,
-            chaos tier, score prediction, upset flag, ~D flag
-  - Tab 2: Gary's Picks — acca cards (result, safety, value, winner+btts,
-            btts, upset) with Gary's comments and qualifying picks lists
-  - Tab 3: Qualifying Picks — full candidate lists per acca type
+  - Tab 1: Predictions — sub-tabs per league
+  - Tab 2: Gary's Picks — sub-tabs per acca type (result, safety, value, winner+btts, btts, upset)
+  - Tab 3: Qualifying Picks — sub-tabs per acca type
 
 Usage:
-    python edgelab_html_generator.py predictions/2026-04-12_predictions.csv
-    python edgelab_html_generator.py predictions/2026-04-12_predictions.csv --out public/gary_picks.html
-    python edgelab_html_generator.py predictions/2026-04-12_predictions.csv --fold 5 --title "Weekend 12-14 Apr 2026"
+    python edgelab_html_generator.py predictions/2026-04-17_predictions.csv
+    python edgelab_html_generator.py predictions/2026-04-17_predictions.csv --out public/gary_picks.html
+    python edgelab_html_generator.py predictions/2026-04-17_predictions.csv --fold 5 --title "Weekend 17-20 Apr 2026"
 
 Output:
     predictions/YYYY-MM-DD_predictions_public.html
@@ -25,6 +23,7 @@ Output:
 
 import argparse
 import html
+import json
 import os
 import sys
 from datetime import datetime
@@ -75,17 +74,18 @@ ACCA_LABELS = {
     "result":      "Result Acca",
     "safety":      "Safety Acca",
     "value":       "Value Acca",
-    "winner_btts": "Winner + Both Teams to Score",
+    "winner_btts": "Winner + BTTS",
     "btts":        "BTTS Acca",
     "upset":       "Upset Acca",
 }
+
+ACCA_ORDER = ["result", "safety", "value", "winner_btts", "btts", "upset"]
 
 # ---------------------------------------------------------------------------
 # Date helpers
 # ---------------------------------------------------------------------------
 
 def parse_date(date_str: str) -> Optional[datetime]:
-    """Parse DD/MM/YYYY or YYYY-MM-DD date string."""
     for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d/%m/%y"):
         try:
             return datetime.strptime(str(date_str).strip(), fmt)
@@ -95,31 +95,27 @@ def parse_date(date_str: str) -> Optional[datetime]:
 
 
 def format_date_short(date_str: str) -> str:
-    """DD/MM/YYYY -> 'Sat 12 Apr'"""
     dt = parse_date(date_str)
     if dt is None:
         return str(date_str)
-    return dt.strftime("%a %-d %b") if sys.platform != "win32" else dt.strftime("%a %#d %b")
+    return dt.strftime("%a %#d %b") if sys.platform == "win32" else dt.strftime("%a %-d %b")
 
 
 def format_date_medium(date_str: str) -> str:
-    """DD/MM/YYYY -> '12 Apr'"""
     dt = parse_date(date_str)
     if dt is None:
         return str(date_str)
-    return dt.strftime("%-d %b") if sys.platform != "win32" else dt.strftime("%#d %b")
+    return dt.strftime("%#d %b") if sys.platform == "win32" else dt.strftime("%-d %b")
 
 
 def format_date_long(date_str: str) -> str:
-    """DD/MM/YYYY -> 'Saturday 12 April'"""
     dt = parse_date(date_str)
     if dt is None:
         return str(date_str)
-    return dt.strftime("%A %-d %B") if sys.platform != "win32" else dt.strftime("%A %#d %B")
+    return dt.strftime("%A %#d %B") if sys.platform == "win32" else dt.strftime("%A %-d %B")
 
 
 def date_range_title(df: pd.DataFrame) -> str:
-    """Build a date range string from the predictions dataframe."""
     dates = []
     for d in df["Date"].dropna():
         dt = parse_date(d)
@@ -129,18 +125,18 @@ def date_range_title(df: pd.DataFrame) -> str:
         return "Upcoming Fixtures"
     dates.sort()
     if dates[0].date() == dates[-1].date():
-        return dates[0].strftime("%-d %B %Y") if sys.platform != "win32" else dates[0].strftime("%#d %B %Y")
+        return dates[0].strftime("%#d %B %Y") if sys.platform == "win32" else dates[0].strftime("%-d %B %Y")
     if dates[0].month == dates[-1].month:
-        start = dates[0].strftime("%-d") if sys.platform != "win32" else dates[0].strftime("%#d")
-        end = dates[-1].strftime("%-d %B %Y") if sys.platform != "win32" else dates[-1].strftime("%#d %B %Y")
+        start = dates[0].strftime("%#d") if sys.platform == "win32" else dates[0].strftime("%-d")
+        end = dates[-1].strftime("%#d %B %Y") if sys.platform == "win32" else dates[-1].strftime("%-d %B %Y")
         return f"{start}\u2013{end}"
-    start = dates[0].strftime("%-d %b") if sys.platform != "win32" else dates[0].strftime("%#d %b")
-    end = dates[-1].strftime("%-d %b %Y") if sys.platform != "win32" else dates[-1].strftime("%#d %b %Y")
+    start = dates[0].strftime("%#d %b") if sys.platform == "win32" else dates[0].strftime("%-d %b")
+    end = dates[-1].strftime("%#d %b %Y") if sys.platform == "win32" else dates[-1].strftime("%-d %b %Y")
     return f"{start}\u2013{end}"
 
 
 # ---------------------------------------------------------------------------
-# Confidence colour helper
+# Confidence / chaos helpers
 # ---------------------------------------------------------------------------
 
 def conf_color(conf: float) -> str:
@@ -148,8 +144,7 @@ def conf_color(conf: float) -> str:
         return "var(--green)"
     elif conf >= 0.52:
         return "var(--accent)"
-    else:
-        return "var(--red)"
+    return "var(--red)"
 
 
 def conf_bar_color(conf: float) -> str:
@@ -157,8 +152,7 @@ def conf_bar_color(conf: float) -> str:
         return "#c8f135"
     elif conf >= 0.52:
         return "#4a9bc4"
-    else:
-        return "#f13557"
+    return "#f13557"
 
 
 def chaos_label(chaos: str) -> str:
@@ -172,7 +166,6 @@ def chaos_color(chaos: str) -> str:
 
 
 def h(text) -> str:
-    """HTML-escape a value."""
     return html.escape(str(text)) if text is not None else ""
 
 
@@ -183,7 +176,6 @@ def h(text) -> str:
 def load_predictions(csv_path: str) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
 
-    # Normalise columns
     float_cols = ["confidence", "dti", "odds_draw_prob", "h2h_draw_rate",
                   "draw_score", "btts_prob", "upset_score",
                   "B365H", "B365D", "B365A"]
@@ -195,7 +187,6 @@ def load_predictions(csv_path: str) -> pd.DataFrame:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0).astype(int)
 
-    # Sort by date then tier order
     tier_rank = {t: i for i, t in enumerate(TIER_ORDER)}
     df["_tier_rank"] = df["tier"].map(tier_rank).fillna(99)
     df["_parsed_date"] = df["Date"].apply(lambda d: parse_date(d) or datetime(2099, 1, 1))
@@ -204,17 +195,34 @@ def load_predictions(csv_path: str) -> pd.DataFrame:
     return df
 
 
+def load_upset_notes(csv_path: str) -> dict:
+    """Load companion upset notes JSON if it exists."""
+    base = os.path.splitext(csv_path)[0]
+    notes_path = base.replace("_predictions", "") + "_upset_notes.json"
+    if not os.path.exists(notes_path):
+        # Try same folder with date prefix
+        folder = os.path.dirname(csv_path)
+        date_prefix = os.path.basename(csv_path)[:10]
+        notes_path = os.path.join(folder, f"{date_prefix}_upset_notes.json")
+    if os.path.exists(notes_path):
+        try:
+            with open(notes_path, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
 # ---------------------------------------------------------------------------
-# Build accas using existing AccaBuilder
+# Build accas
 # ---------------------------------------------------------------------------
 
 def build_accas(df: pd.DataFrame, fold: int = 5):
-    """Run AccaBuilder and return dict of acca type -> Acca object."""
     try:
         from edgelab_acca import AccaBuilder, AccaConstraints
         builder = AccaBuilder(df)
         results = {}
-        for acca_type in ["result", "safety", "value", "winner_btts", "btts", "upset"]:
+        for acca_type in ACCA_ORDER:
             constraints = AccaConstraints(fold=fold, acca_type=acca_type)
             accas = builder.build(constraints=constraints, top_n=1)
             all_picks = builder.get_picks(constraints)
@@ -229,78 +237,208 @@ def build_accas(df: pd.DataFrame, fold: int = 5):
 
 
 # ---------------------------------------------------------------------------
-# HTML sections
+# CSS
 # ---------------------------------------------------------------------------
 
 CSS = """
-:root{--bg:#060a0e;--surface:#0d1318;--border:rgba(74,155,196,0.15);--accent:#4a9bc4;--green:#c8f135;--orange:#f1a035;--red:#f13557;--purple:#a855f7;--text:#e8eef2;--muted:#4a6070;--dim:#7a8e9a}
+:root{
+  --bg:#060a0e;--surface:#0d1318;--border:rgba(74,155,196,0.15);
+  --accent:#4a9bc4;--green:#c8f135;--orange:#f1a035;--red:#f13557;
+  --purple:#a855f7;--text:#e8eef2;--muted:#4a6070;--dim:#7a8e9a;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;font-weight:300;font-size:14px;line-height:1.5;padding:18px 12px 48px}
-header{padding-bottom:16px;margin-bottom:20px;border-bottom:2px solid var(--accent)}
-.logo{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:.1em;color:var(--text);line-height:1}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:'Barlow',sans-serif;font-weight:300;
+  font-size:16px;line-height:1.6;
+  padding:20px 14px 56px;
+}
+header{padding-bottom:18px;margin-bottom:22px;border-bottom:2px solid var(--accent)}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:.1em;color:var(--text);line-height:1}
 .logo span{color:var(--accent)}
-.tagline{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:3px}
-.meta-row{margin-top:8px;font-size:12px;color:var(--dim);line-height:1.8}
-.explainer{background:var(--surface);border-left:3px solid var(--accent);padding:12px 14px;margin-bottom:20px;font-size:13px;color:var(--dim);line-height:1.7}
+.tagline{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.meta-row{margin-top:10px;font-size:13px;color:var(--dim);line-height:1.8}
+.explainer{
+  background:var(--surface);border-left:3px solid var(--accent);
+  padding:14px 16px;margin-bottom:22px;
+  font-size:15px;color:var(--dim);line-height:1.75;
+}
 .explainer strong{color:var(--text)}
-.section-title{font-size:10px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;margin-top:24px}
-.acca-card{background:var(--surface);border:1px solid var(--border);border-top:3px solid var(--accent);padding:14px;margin-bottom:10px}
-.acca-card.safety{border-top-color:var(--accent)}.acca-card.value{border-top-color:var(--green)}.acca-card.winner-btts{border-top-color:var(--purple)}.acca-card.upset{border-top-color:var(--red)}.acca-card.btts{border-top-color:var(--orange)}
-.acca-type{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
-.acca-what{font-size:12px;color:var(--dim);margin-bottom:5px}
-.acca-odds{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.05em;color:var(--accent);line-height:1;margin-bottom:4px}
-.acca-card.value .acca-odds{color:var(--green)}.acca-card.winner-btts .acca-odds{color:var(--purple)}.acca-card.upset .acca-odds{color:var(--red)}.acca-card.btts .acca-odds{color:var(--orange)}
-.acca-comment{font-size:12px;color:var(--dim);font-style:italic;margin:8px 0 10px;padding-bottom:10px;border-bottom:1px solid var(--border);line-height:1.5}
-.acca-pick{display:flex;align-items:flex-start;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)}
-.acca-pick:last-child{border-bottom:none}
-.pick-num{color:var(--muted);min-width:16px;flex-shrink:0;font-size:11px;padding-top:2px}
-.pick-body{flex:1}
-.pick-team{color:var(--text);font-weight:600;font-size:14px}
-.pick-detail{font-size:11px;color:var(--dim);margin-top:1px}
-.pick-conf{font-family:'Bebas Neue',sans-serif;font-size:18px;color:var(--accent);flex-shrink:0}
-.acca-card.value .pick-conf{color:var(--green)}.acca-card.winner-btts .pick-conf{color:var(--purple)}.acca-card.btts .pick-conf{color:var(--orange)}.acca-card.upset .pick-conf{color:var(--red)}
-.upset-card{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--red);padding:14px;margin-bottom:12px}
-.upset-match{font-size:15px;font-weight:600;color:var(--text);margin-bottom:2px}
-.upset-meta{font-size:11px;color:var(--muted);letter-spacing:.08em;margin-bottom:8px}
-.upset-summary{background:rgba(241,53,87,.07);border:1px solid rgba(241,53,87,.15);padding:8px 10px;margin-bottom:8px;font-size:12px;color:var(--dim);line-height:1.6}
-.upset-summary strong{color:var(--text)}
-.gary-label{font-size:9px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:5px}
-.gary-text{font-size:13px;color:var(--dim);line-height:1.7}
-.tab-nav{display:flex;gap:0;margin-bottom:24px;border-bottom:2px solid var(--border);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+
+/* ── Top-level tabs ── */
+.tab-nav{
+  display:flex;gap:0;margin-bottom:0;
+  border-bottom:2px solid var(--border);
+  overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+}
 .tab-nav::-webkit-scrollbar{display:none}
-.tab-btn{background:none;border:none;color:var(--muted);font-family:'Barlow',sans-serif;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;padding:12px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:color .15s;white-space:nowrap;flex-shrink:0;touch-action:manipulation;-webkit-tap-highlight-color:transparent;min-height:44px;user-select:none;-webkit-user-select:none}
+.tab-btn{
+  background:none;border:none;color:var(--muted);
+  font-family:'Barlow',sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;
+  padding:13px 16px;cursor:pointer;
+  border-bottom:2px solid transparent;margin-bottom:-2px;
+  transition:color .15s;white-space:nowrap;flex-shrink:0;
+  touch-action:manipulation;-webkit-tap-highlight-color:transparent;
+  min-height:48px;user-select:none;-webkit-user-select:none;
+}
 .tab-btn:hover{color:var(--text)}
 .tab-btn.active{color:var(--accent);border-bottom-color:var(--accent)}
-.tab-panel{display:none}.tab-panel.active{display:block}
-.search-wrap{margin-bottom:14px;margin-top:0}
-.search-wrap input{width:100%;background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);color:var(--text);font-family:'Barlow',sans-serif;font-size:15px;font-weight:300;padding:11px 14px;outline:none;-webkit-appearance:none;border-radius:0}
+.tab-panel{display:none;padding-top:20px}.tab-panel.active{display:block}
+
+/* ── Sub-tabs (inside each main tab) ── */
+.sub-nav{
+  display:flex;gap:0;margin-bottom:20px;
+  border-bottom:1px solid var(--border);
+  overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+  flex-wrap:nowrap;
+}
+.sub-nav::-webkit-scrollbar{display:none}
+.sub-btn{
+  background:none;border:none;color:var(--muted);
+  font-family:'Barlow',sans-serif;font-size:11px;font-weight:600;
+  letter-spacing:.15em;text-transform:uppercase;
+  padding:10px 14px;cursor:pointer;
+  border-bottom:2px solid transparent;margin-bottom:-1px;
+  transition:color .12s;white-space:nowrap;flex-shrink:0;
+  touch-action:manipulation;-webkit-tap-highlight-color:transparent;
+  min-height:42px;user-select:none;-webkit-user-select:none;
+}
+.sub-btn:hover{color:var(--text)}
+.sub-btn.active{color:var(--accent);border-bottom-color:var(--accent)}
+.sub-panel{display:none}.sub-panel.active{display:block}
+
+/* ── Search ── */
+.search-wrap{margin-bottom:16px}
+.search-wrap input{
+  width:100%;background:var(--surface);
+  border:1px solid var(--border);border-left:3px solid var(--accent);
+  color:var(--text);font-family:'Barlow',sans-serif;
+  font-size:16px;font-weight:300;
+  padding:12px 16px;outline:none;-webkit-appearance:none;border-radius:0;
+}
 .search-wrap input::placeholder{color:var(--muted)}
-.search-count{font-size:11px;color:var(--muted);margin-top:5px}
-.qual-section{margin-bottom:28px}
-.qual-section-title{font-size:10px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;padding:8px 0 6px;margin-bottom:8px;border-bottom:2px solid var(--border);display:flex;align-items:center;gap:8px}
-.qual-section-title .qs-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.qual-count{font-size:10px;color:var(--muted);margin-left:auto;letter-spacing:0;text-transform:none}
-.qual-table{width:100%;border-collapse:collapse;margin-top:0}
-.qual-table th{text-align:left;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--border);font-weight:600;white-space:nowrap}
-.qual-table td{padding:7px 8px;border-bottom:1px solid rgba(74,155,196,.06);font-size:12px;color:var(--dim);vertical-align:middle}
-.qual-table td:first-child{color:var(--text);font-weight:600}
-.qual-high{color:var(--green)}.qual-med{color:var(--dim)}
-.legend{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
-.legend-item{font-size:12px;color:var(--dim);display:flex;align-items:center;gap:5px}
-.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.league-block{margin-bottom:24px}.league-block.hidden{display:none}
-.league-header{display:flex;align-items:center;gap:10px;padding:8px 0 7px;border-bottom:2px solid var(--accent);margin-bottom:0}
-.league-accent-bar{width:3px;height:18px;background:var(--accent);flex-shrink:0;border-radius:1px}
-.league-name{font-size:14px;font-weight:600;color:var(--text)}
-.league-count{margin-left:auto;font-size:10px;color:var(--muted)}
+.search-count{font-size:12px;color:var(--muted);margin-top:6px}
+
+/* ── Legend ── */
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+.legend-item{font-size:14px;color:var(--dim);display:flex;align-items:center;gap:6px}
+.legend-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.section-title{
+  font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:12px;margin-top:28px;
+}
+.section-title:first-child{margin-top:0}
+
+/* ── Predictions table ── */
 .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-table{width:100%;border-collapse:collapse;min-width:400px}
-th{text-align:left;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--border);font-weight:600;white-space:nowrap}
-td{padding:7px 8px;border-bottom:1px solid rgba(74,155,196,.06);font-size:13px;color:var(--dim);vertical-align:middle}
+table{width:100%;border-collapse:collapse;min-width:420px}
+th{
+  text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);padding:7px 10px;border-bottom:1px solid var(--border);
+  font-weight:600;white-space:nowrap;
+}
+td{
+  padding:9px 10px;border-bottom:1px solid rgba(74,155,196,.06);
+  font-size:15px;color:var(--dim);vertical-align:middle;
+}
 tr:hover td{background:rgba(74,155,196,.04)}
 tr.row-hidden{display:none}
-footer{border-top:1px solid var(--border);padding-top:16px;margin-top:36px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:2;text-align:center}
+
+/* ── League block ── */
+.league-block{margin-bottom:28px}
+.league-header{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 0 8px;border-bottom:2px solid var(--accent);margin-bottom:0;
+}
+.league-accent-bar{width:3px;height:20px;background:var(--accent);flex-shrink:0;border-radius:1px}
+.league-name{font-size:16px;font-weight:600;color:var(--text)}
+.league-count{margin-left:auto;font-size:11px;color:var(--muted)}
+
+/* ── Acca cards ── */
+.acca-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-top:3px solid var(--accent);padding:16px;margin-bottom:12px;
+}
+.acca-card.safety{border-top-color:var(--accent)}
+.acca-card.value{border-top-color:var(--green)}
+.acca-card.winner-btts{border-top-color:var(--purple)}
+.acca-card.upset{border-top-color:var(--red)}
+.acca-card.btts{border-top-color:var(--orange)}
+.acca-type{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.acca-what{font-size:13px;color:var(--dim);margin-bottom:6px}
+.acca-odds{
+  font-family:'Bebas Neue',sans-serif;font-size:30px;
+  letter-spacing:.05em;color:var(--accent);line-height:1;margin-bottom:5px;
+}
+.acca-card.value .acca-odds{color:var(--green)}
+.acca-card.winner-btts .acca-odds{color:var(--purple)}
+.acca-card.upset .acca-odds{color:var(--red)}
+.acca-card.btts .acca-odds{color:var(--orange)}
+.acca-comment{
+  font-size:14px;color:var(--dim);font-style:italic;
+  margin:10px 0 12px;padding-bottom:12px;
+  border-bottom:1px solid var(--border);line-height:1.6;
+}
+.acca-pick{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid var(--border)}
+.acca-pick:last-child{border-bottom:none}
+.pick-num{color:var(--muted);min-width:18px;flex-shrink:0;font-size:13px;padding-top:2px}
+.pick-body{flex:1}
+.pick-team{color:var(--text);font-weight:600;font-size:16px}
+.pick-detail{font-size:13px;color:var(--dim);margin-top:2px}
+.pick-conf{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--accent);flex-shrink:0}
+.acca-card.value .pick-conf{color:var(--green)}
+.acca-card.winner-btts .pick-conf{color:var(--purple)}
+.acca-card.btts .pick-conf{color:var(--orange)}
+.acca-card.upset .pick-conf{color:var(--red)}
+
+/* ── Upset cards ── */
+.upset-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-left:4px solid var(--red);padding:16px;margin-bottom:14px;
+}
+.upset-match{font-size:17px;font-weight:600;color:var(--text);margin-bottom:3px}
+.upset-meta{font-size:12px;color:var(--muted);letter-spacing:.08em;margin-bottom:10px}
+.upset-summary{
+  background:rgba(241,53,87,.07);border:1px solid rgba(241,53,87,.15);
+  padding:10px 12px;margin-bottom:10px;font-size:14px;color:var(--dim);line-height:1.6;
+}
+.upset-summary strong{color:var(--text)}
+.gary-label{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:6px}
+.gary-text{font-size:15px;color:var(--dim);line-height:1.75}
+
+/* ── Qualifying table ── */
+.qual-section{margin-bottom:30px}
+.qual-section-title{
+  font-size:11px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;
+  padding:9px 0 7px;margin-bottom:10px;border-bottom:2px solid var(--border);
+  display:flex;align-items:center;gap:10px;
+}
+.qual-section-title .qs-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.qual-count{font-size:11px;color:var(--muted);margin-left:auto;letter-spacing:0;text-transform:none}
+.qual-table{width:100%;border-collapse:collapse;margin-top:0}
+.qual-table th{
+  text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);padding:7px 10px;border-bottom:1px solid var(--border);
+  font-weight:600;white-space:nowrap;
+}
+.qual-table td{
+  padding:8px 10px;border-bottom:1px solid rgba(74,155,196,.06);
+  font-size:14px;color:var(--dim);vertical-align:middle;
+}
+.qual-table td:first-child{color:var(--text);font-weight:600}
+.qual-high{color:var(--green)}.qual-med{color:var(--dim)}
+
+footer{
+  border-top:1px solid var(--border);padding-top:18px;margin-top:40px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);line-height:2.2;text-align:center;
+}
 """
+
+# ---------------------------------------------------------------------------
+# JavaScript
+# ---------------------------------------------------------------------------
 
 JS = """
 function switchTab(id) {
@@ -309,44 +447,46 @@ function switchTab(id) {
   var panel = document.getElementById('tab-' + id);
   if (panel) panel.classList.add('active');
   document.querySelectorAll('[data-tab="' + id + '"]').forEach(b => b.classList.add('active'));
-  if (id !== 'predictions') {
-    var sc = document.getElementById('searchCount');
-    if (sc) sc.textContent = '';
-  }
+}
+
+function switchSub(groupId, subId) {
+  var group = document.getElementById(groupId);
+  if (!group) return;
+  group.querySelectorAll('.sub-panel').forEach(p => p.classList.remove('active'));
+  group.querySelectorAll('.sub-btn').forEach(b => b.classList.remove('active'));
+  var panel = document.getElementById(groupId + '-' + subId);
+  if (panel) panel.classList.add('active');
+  group.querySelectorAll('[data-sub="' + subId + '"]').forEach(b => b.classList.add('active'));
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  var searchInput = document.getElementById('searchInput');
-  if (searchInput) {
-    searchInput.addEventListener('input', filterMatches);
-    searchInput.addEventListener('keyup', filterMatches);
-  }
+  var si = document.getElementById('searchInput');
+  if (si) { si.addEventListener('input', filterMatches); si.addEventListener('keyup', filterMatches); }
 });
 
 function filterMatches(){
-  const q = document.getElementById('searchInput').value.toLowerCase().trim();
-  let visible = 0;
-
-  document.querySelectorAll('#tab-predictions .league-block').forEach(function(block) {
-    const leagueName = (block.querySelector('.league-name') ? block.querySelector('.league-name').textContent : '').toLowerCase();
-    const leagueCode = (block.querySelector('.league-code') ? block.querySelector('.league-code').textContent : '').toLowerCase();
-    const leagueMatch = !q || leagueName.includes(q) || leagueCode.includes(q);
-
-    let blockVisible = 0;
+  var q = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+  var visible = 0;
+  document.querySelectorAll('.league-block').forEach(function(block) {
+    var leagueName = (block.querySelector('.league-name') ? block.querySelector('.league-name').textContent : '').toLowerCase();
+    var leagueMatch = !q || leagueName.includes(q);
+    var blockVisible = 0;
     block.querySelectorAll('tbody tr').forEach(function(r) {
-      const rowText = (r.getAttribute('data-search') || '').toLowerCase();
-      const show = !q || leagueMatch || rowText.includes(q);
+      var rowText = (r.getAttribute('data-search') || '').toLowerCase();
+      var show = !q || leagueMatch || rowText.includes(q);
       r.classList.toggle('row-hidden', !show);
       if (show) { visible++; blockVisible++; }
     });
-
-    block.classList.toggle('hidden', blockVisible === 0 && q.length > 0);
+    block.style.display = (blockVisible === 0 && q.length > 0) ? 'none' : '';
   });
-
-  document.getElementById('searchCount').textContent = q ? visible + ' matches found' : '';
+  var sc = document.getElementById('searchCount');
+  if (sc) sc.textContent = q ? visible + ' matches found' : '';
 }
 """
 
+# ---------------------------------------------------------------------------
+# Predictions tab — sub-tab per league
+# ---------------------------------------------------------------------------
 
 def build_prediction_row(row: pd.Series) -> str:
     conf = float(row.get("confidence", 0) or 0)
@@ -358,8 +498,8 @@ def build_prediction_row(row: pd.Series) -> str:
     date_str = format_date_short(str(row.get("Date", "")))
     score = str(row.get("pred_scoreline", "?-?"))
     upset_flag = int(row.get("upset_flag", 0) or 0)
+
     pred_score_draw = 0
-    # Check if score prediction is a draw (equal goals in pred_scoreline)
     try:
         parts = score.split("-")
         if len(parts) == 2 and parts[0].strip() == parts[1].strip():
@@ -367,7 +507,6 @@ def build_prediction_row(row: pd.Series) -> str:
     except Exception:
         pass
 
-    # Call label
     if pred == "H":
         call = f"{home} to win"
     elif pred == "A":
@@ -375,22 +514,17 @@ def build_prediction_row(row: pd.Series) -> str:
     else:
         call = f"{home} vs {away} &mdash; Draw"
 
-    # Confidence bar
     bar_w = int(conf * 100)
     bar_color = conf_bar_color(conf)
     conf_pct = f"{conf:.0%}"
     chaos_lbl = chaos_label(chaos)
     chaos_col = chaos_color(chaos)
 
-    # Score cell — add ~D flag if score is a draw and pred isn't D
     score_cell = h(score)
     if pred_score_draw and pred != "D":
-        score_cell += ' <span style="color:#f1a035;font-size:10px" title="Score model predicts a draw">~D</span>'
+        score_cell += ' <span style="color:#f1a035;font-size:11px" title="Score model predicts a draw">~D</span>'
 
-    # Upset flag cell
     upset_cell = '<span style="color:#f13557;font-weight:600">&#9888;</span>' if upset_flag else ""
-
-    # Search data
     search = f"{home.lower()} {away.lower()} {tier.lower()} {TIER_NAMES.get(tier, '').lower()}"
 
     return (
@@ -400,8 +534,8 @@ def build_prediction_row(row: pd.Series) -> str:
         f'<td style="color:#7a8e9a">vs {away}</td>'
         f'<td style="color:#e8eef2;white-space:nowrap">{call}</td>'
         f'<td style="white-space:nowrap">'
-        f'<span style="display:inline-block;width:{bar_w}%;max-width:60px;height:3px;'
-        f'background:{bar_color};vertical-align:middle;margin-right:4px;border-radius:1px"></span>'
+        f'<span style="display:inline-block;width:{bar_w}%;max-width:64px;height:3px;'
+        f'background:{bar_color};vertical-align:middle;margin-right:5px;border-radius:1px"></span>'
         f'{conf_pct}</td>'
         f'<td style="color:{chaos_col};white-space:nowrap">{chaos_lbl}</td>'
         f'<td style="white-space:nowrap;color:#7a8e9a">{score_cell}</td>'
@@ -411,60 +545,81 @@ def build_prediction_row(row: pd.Series) -> str:
 
 
 def build_predictions_tab(df: pd.DataFrame) -> str:
-    lines = []
-    lines.append('<div id="tab-predictions" class="tab-panel active">')
-    lines.append('<div class="search-wrap">')
-    lines.append('  <input type="text" id="searchInput" placeholder="Search by team or league..." '
-                 'oninput="filterMatches()" onkeyup="filterMatches()" onchange="filterMatches()"/>')
-    lines.append('  <div class="search-count" id="searchCount"></div>')
-    lines.append('</div>')
-    lines.append('<div class="section-title">All Predictions</div>')
-    lines.append('<div class="legend">')
-    lines.append('  <div class="legend-item"><div class="legend-dot" style="background:#c8f135"></div> Settled &mdash; data is clear</div>')
-    lines.append('  <div class="legend-item"><div class="legend-dot" style="background:#7a8e9a"></div> Mixed &mdash; some uncertainty</div>')
-    lines.append('  <div class="legend-item"><div class="legend-dot" style="background:#f13557"></div> Unpredictable &mdash; hard to read</div>')
-    lines.append('  <div class="legend-item"><span style="color:#f13557;margin-right:3px">&#9888;</span> Upset warning</div>')
-    lines.append('  <div class="legend-item"><span style="color:#f1a035;margin-right:3px">~D</span> Score model says draw</div>')
-    lines.append('</div>')
-    lines.append('')
-
-    # Group by tier in defined order
     tiers_in_data = df["tier"].unique()
     ordered_tiers = [t for t in TIER_ORDER if t in tiers_in_data]
-    # Add any tiers not in TIER_ORDER at the end
     for t in tiers_in_data:
         if t not in ordered_tiers:
             ordered_tiers.append(t)
 
-    for tier in ordered_tiers:
+    lines = []
+    lines.append('<div id="tab-predictions" class="tab-panel active">')
+
+    # Search bar
+    lines.append('<div class="search-wrap">')
+    lines.append('  <input type="text" id="searchInput" placeholder="Search team or league..." '
+                 'oninput="filterMatches()" onkeyup="filterMatches()"/>')
+    lines.append('  <div class="search-count" id="searchCount"></div>')
+    lines.append('</div>')
+
+    # Legend
+    lines.append('<div class="legend">')
+    lines.append('  <div class="legend-item"><div class="legend-dot" style="background:#c8f135"></div>Settled</div>')
+    lines.append('  <div class="legend-item"><div class="legend-dot" style="background:#7a8e9a"></div>Mixed</div>')
+    lines.append('  <div class="legend-item"><div class="legend-dot" style="background:#f13557"></div>Unpredictable</div>')
+    lines.append('  <div class="legend-item"><span style="color:#f13557;margin-right:4px">&#9888;</span>Upset warning</div>')
+    lines.append('  <div class="legend-item"><span style="color:#f1a035;margin-right:4px">~D</span>Score says draw</div>')
+    lines.append('</div>')
+
+    # Sub-nav — one button per league
+    lines.append('<div id="pred-subnav" class="sub-nav">')
+    for i, tier in enumerate(ordered_tiers):
+        active = ' active' if i == 0 else ''
+        league_name = TIER_NAMES.get(tier, tier)
+        n = len(df[df["tier"] == tier])
+        lines.append(f'  <button class="sub-btn{active}" data-sub="{tier}" '
+                     f'onclick="switchSub(\'pred-subnav-group\', \'{tier}\')">'
+                     f'{h(league_name)} <span style="opacity:.5;font-size:10px">({n})</span></button>')
+    lines.append('</div>')
+
+    # Sub-panels — one per league
+    lines.append('<div id="pred-subnav-group">')
+    for i, tier in enumerate(ordered_tiers):
+        active = ' active' if i == 0 else ''
         df_tier = df[df["tier"] == tier]
         if df_tier.empty:
             continue
         league_name = h(TIER_NAMES.get(tier, tier))
         count = len(df_tier)
 
-        lines.append(f'<div class="league-block" data-tier="{tier}">')
-        lines.append(f'  <div class="league-header">')
-        lines.append(f'    <span class="league-accent-bar"></span>')
-        lines.append(f'    <span class="league-name">{league_name}</span>')
-        lines.append(f'    <span class="league-count">{count} match{"es" if count != 1 else ""}</span>')
-        lines.append(f'  </div>')
-        lines.append(f'  <div class="table-wrap">')
-        lines.append(f'  <table><thead><tr>')
-        lines.append(f'    <th>Date</th><th>Home Team</th><th>Away Team</th><th>Gary\'s Call</th>')
-        lines.append(f'    <th>Confidence</th><th>How Readable</th><th>Score</th><th></th>')
-        lines.append(f'  </tr></thead><tbody>')
+        lines.append(f'<div id="pred-subnav-group-{tier}" class="sub-panel{active}">')
+        lines.append(f'  <div class="league-block" data-tier="{tier}">')
+        lines.append(f'    <div class="league-header">')
+        lines.append(f'      <span class="league-accent-bar"></span>')
+        lines.append(f'      <span class="league-name">{league_name}</span>')
+        lines.append(f'      <span class="league-count">{count} match{"es" if count != 1 else ""}</span>')
+        lines.append(f'    </div>')
+        lines.append(f'    <div class="table-wrap">')
+        lines.append(f'    <table><thead><tr>')
+        lines.append(f'      <th>Date</th><th>Home</th><th>Away</th><th>Gary\'s Call</th>')
+        lines.append(f'      <th>Confidence</th><th>Readable</th><th>Score</th><th></th>')
+        lines.append(f'    </tr></thead><tbody>')
 
         for _, row in df_tier.iterrows():
             lines.append(build_prediction_row(row))
 
-        lines.append(f'  </tbody></table>')
+        lines.append(f'    </tbody></table>')
+        lines.append(f'    </div>')
         lines.append(f'  </div>')
         lines.append(f'</div>')
 
+    lines.append('</div><!-- end pred-subnav-group -->')
     lines.append('</div><!-- end tab-predictions -->')
     return "\n".join(lines)
 
+
+# ---------------------------------------------------------------------------
+# Accas tab — sub-tab per acca type
+# ---------------------------------------------------------------------------
 
 def build_acca_card(acca_type: str, acca, df: pd.DataFrame) -> str:
     if acca is None:
@@ -473,8 +628,7 @@ def build_acca_card(acca_type: str, acca, df: pd.DataFrame) -> str:
     color = ACCA_COLORS.get(acca_type, "var(--accent)")
     label = ACCA_LABELS.get(acca_type, acca_type)
     css_class = acca_type.replace("_", "-")
-
-    odds_str = f"~{acca.combined_odds:.1f}/1" if acca.combined_odds else "&mdash; (no odds)"
+    odds_str = f"~{acca.combined_odds:.1f}/1" if acca.combined_odds else "&mdash;"
 
     lines = []
     lines.append(f'<div class="acca-card {css_class}">')
@@ -499,37 +653,48 @@ def build_acca_card(acca_type: str, acca, df: pd.DataFrame) -> str:
     return "\n".join(lines)
 
 
-def build_upset_cards(df: pd.DataFrame) -> str:
-    """Build Gary's upset warning cards for high-confidence upset-flagged matches."""
+def build_upset_cards(df: pd.DataFrame, upset_notes: dict = None) -> str:
     upset_rows = df[
         (df.get("upset_flag", pd.Series(0, index=df.index)) == 1) &
         (df["confidence"] >= 0.60)
-    ].sort_values("upset_score", ascending=False).head(5)
+    ].sort_values("upset_score", ascending=False).head(8)
 
     if upset_rows.empty:
-        return ""
+        return '<p style="font-size:15px;color:var(--dim)">No upset flags this round.</p>'
+
+    if upset_notes is None:
+        upset_notes = {}
 
     lines = []
-    lines.append('<div class="section-title">Gary\'s Take &mdash; Matches He Doesn\'t Trust</div>')
-    lines.append('<p style="font-size:13px;color:var(--dim);margin-bottom:14px;line-height:1.6;">'
-                 'Gary made a confident call on these but the data is also flagging caution.</p>')
+    lines.append('<div class="section-title">Matches Gary Doesn\'t Fully Trust</div>')
 
     for _, row in upset_rows.iterrows():
         home = h(row.get("HomeTeam", ""))
         away = h(row.get("AwayTeam", ""))
         tier = str(row.get("tier", ""))
         tier_name = h(TIER_NAMES.get(tier, tier))
-        date_long = format_date_long(str(row.get("Date", "")))
+        date_raw = str(row.get("Date", ""))
+        date_long = format_date_long(date_raw)
+        date_med = format_date_medium(date_raw)
         pred = str(row.get("prediction", "?"))
         conf_pct = f"{float(row.get('confidence', 0)):.0%}"
         score = h(row.get("pred_scoreline", "?"))
 
-        if pred == "H":
-            call_label = f"{home} to win"
-        elif pred == "A":
-            call_label = f"{away} to win"
-        else:
-            call_label = "Draw"
+        call_label = f"{home} to win" if pred == "H" else (f"{away} to win" if pred == "A" else "Draw")
+
+        # Look up Gary's note
+        note_key = f"{row.get('HomeTeam','')}_{row.get('AwayTeam','')}_{date_med}"
+        gary_note = upset_notes.get(note_key, "")
+        if not gary_note:
+            # Try alternate key formats
+            for k, v in upset_notes.items():
+                if row.get('HomeTeam','') in k and row.get('AwayTeam','') in k:
+                    gary_note = v
+                    break
+
+        if not gary_note:
+            gary_note = ("High confidence call with an upset flag active. "
+                         "Check H2H and recent form before including in any acca.")
 
         lines.append(f'<div class="upset-card">')
         lines.append(f'  <div class="upset-match">{home} vs {away}</div>')
@@ -538,51 +703,70 @@ def build_upset_cards(df: pd.DataFrame) -> str:
                      f'<strong>Gary\'s call:</strong> {call_label} &nbsp;&middot;&nbsp; '
                      f'<strong>Confidence:</strong> {conf_pct} &nbsp;&middot;&nbsp; '
                      f'<strong>Score model:</strong> {score}</div>')
-        lines.append(f'  <div class="gary-label">Upset Warning</div>')
-        lines.append(f'  <div class="gary-text">High confidence call with an upset flag active. '
-                     f'Check H2H and form before including in any acca.</div>')
+        lines.append(f'  <div class="gary-label">Gary\'s Take</div>')
+        lines.append(f'  <div class="gary-text">{h(gary_note)}</div>')
         lines.append(f'</div>')
 
     return "\n".join(lines)
 
 
-def build_accas_tab(acca_data: dict, df: pd.DataFrame) -> str:
+def build_accas_tab(acca_data: dict, df: pd.DataFrame, upset_notes: dict = None) -> str:
     lines = []
     lines.append('<div id="tab-accas" class="tab-panel">')
-    lines.append('<div class="section-title">Gary\'s Accumulator Picks</div>')
-    lines.append('<div class="acca-grid">')
-    lines.append('')
 
-    for acca_type in ["result", "safety", "value", "winner_btts", "btts", "upset"]:
+    # Sub-nav — one per acca type
+    lines.append('<div id="acca-subnav" class="sub-nav">')
+    first = True
+    for acca_type in ACCA_ORDER:
         data = acca_data.get(acca_type, {})
         acca = data.get("acca")
+        label = ACCA_LABELS.get(acca_type, acca_type)
+        active = ' active' if first else ''
+        lines.append(f'  <button class="sub-btn{active}" data-sub="{acca_type}" '
+                     f'onclick="switchSub(\'acca-subnav-group\', \'{acca_type}\')">'
+                     f'{h(label)}</button>')
+        first = False
+
+    # Upset tab
+    lines.append(f'  <button class="sub-btn" data-sub="upset-watch" '
+                 f'onclick="switchSub(\'acca-subnav-group\', \'upset-watch\')">'
+                 f'Upset Watch</button>')
+    lines.append('</div>')
+
+    lines.append('<div id="acca-subnav-group">')
+
+    first = True
+    for acca_type in ACCA_ORDER:
+        data = acca_data.get(acca_type, {})
+        acca = data.get("acca")
+        active = ' active' if first else ''
+        lines.append(f'<div id="acca-subnav-group-{acca_type}" class="sub-panel{active}">')
         if acca:
             lines.append(build_acca_card(acca_type, acca, df))
-            lines.append('')
+        else:
+            lines.append(f'<p style="font-size:15px;color:var(--dim);padding:12px 0">No {ACCA_LABELS.get(acca_type,acca_type)} available this round.</p>')
+        lines.append('</div>')
+        first = False
 
+    # Upset watch panel
+    lines.append('<div id="acca-subnav-group-upset-watch" class="sub-panel">')
+    lines.append(build_upset_cards(df, upset_notes))
     lines.append('</div>')
-    lines.append('')
 
-    # Upset warning cards
-    lines.append(build_upset_cards(df))
-
-    lines.append('')
+    lines.append('</div><!-- end acca-subnav-group -->')
     lines.append('</div><!-- end tab-accas -->')
     return "\n".join(lines)
 
 
-def build_qual_section_result(acca_type: str, picks, color_var: str, label: str) -> str:
-    if not picks:
-        return ""
+# ---------------------------------------------------------------------------
+# Qualifying tab — sub-tab per acca type
+# ---------------------------------------------------------------------------
 
-    n = len(picks)
+def build_qual_picks_panel(acca_type: str, picks, color_var: str) -> str:
+    if not picks:
+        return f'<p style="font-size:15px;color:var(--dim);padding:12px 0">No qualifying picks.</p>'
+
     lines = []
-    lines.append(f'<div class="qual-section">')
-    lines.append(f'  <div class="qual-section-title">')
-    lines.append(f'    <span class="qs-dot" style="background:{color_var}"></span>')
-    lines.append(f'    <span style="color:{color_var}">{label}</span>')
-    lines.append(f'    <span class="qual-count">{n} candidate{"s" if n != 1 else ""}</span>')
-    lines.append(f'  </div>')
     lines.append(f'  <div class="table-wrap">')
 
     if acca_type == "btts":
@@ -595,11 +779,8 @@ def build_qual_section_result(acca_type: str, picks, color_var: str, label: str)
             btts_pct = f"{pick.btts_prob:.0%}"
             match_str = h(f"{pick.home_team} vs {pick.away_team}")
             lines.append(f'    <tr>'
-                         f'<td>{date_fmt}</td>'
-                         f'<td>{match_str}</td>'
-                         f'<td>{tier_name}</td>'
-                         f'<td style="color:{color_var}">{btts_pct}</td>'
-                         f'<td>{pick.chaos_tier}</td>'
+                         f'<td>{date_fmt}</td><td>{match_str}</td><td>{tier_name}</td>'
+                         f'<td style="color:{color_var}">{btts_pct}</td><td>{pick.chaos_tier}</td>'
                          f'</tr>')
 
     elif acca_type == "upset":
@@ -611,13 +792,10 @@ def build_qual_section_result(acca_type: str, picks, color_var: str, label: str)
             tier_name = h(TIER_NAMES.get(pick.tier, pick.tier))
             conf_pct = f"{pick.confidence:.0%}"
             conf_cls = "qual-high" if pick.confidence >= 0.65 else "qual-med"
-            upset_str = f"{pick.upset_score:.2f}"
             lines.append(f'    <tr>'
-                         f'<td>{date_fmt}</td>'
-                         f'<td>{h(pick.selection_label)}</td>'
-                         f'<td>{tier_name}</td>'
+                         f'<td>{date_fmt}</td><td>{h(pick.selection_label)}</td><td>{tier_name}</td>'
                          f'<td class="{conf_cls}">{conf_pct}</td>'
-                         f'<td style="color:{color_var}">{upset_str}</td>'
+                         f'<td style="color:{color_var}">{pick.upset_score:.2f}</td>'
                          f'</tr>')
 
     elif acca_type == "winner_btts":
@@ -631,11 +809,8 @@ def build_qual_section_result(acca_type: str, picks, color_var: str, label: str)
             conf_cls = "qual-high" if pick.confidence >= 0.65 else "qual-med"
             btts_pct = f"{pick.btts_prob:.0%}"
             lines.append(f'    <tr>'
-                         f'<td>{date_fmt}</td>'
-                         f'<td>{h(pick.selection_label)}</td>'
-                         f'<td>{tier_name}</td>'
-                         f'<td class="{conf_cls}">{conf_pct}</td>'
-                         f'<td>{pick.chaos_tier}</td>'
+                         f'<td>{date_fmt}</td><td>{h(pick.selection_label)}</td><td>{tier_name}</td>'
+                         f'<td class="{conf_cls}">{conf_pct}</td><td>{pick.chaos_tier}</td>'
                          f'<td style="color:{color_var}">{btts_pct}</td>'
                          f'</tr>')
 
@@ -649,18 +824,14 @@ def build_qual_section_result(acca_type: str, picks, color_var: str, label: str)
             conf_pct = f"{pick.confidence:.0%}"
             conf_cls = "qual-high" if pick.confidence >= 0.65 else "qual-med"
             edge_str = f"+{pick.edge:.0%}" if pick.edge is not None else "&mdash;"
-            edge_color = f'style="color:{color_var}"' if pick.edge is not None else ""
             lines.append(f'    <tr>'
-                         f'<td>{date_fmt}</td>'
-                         f'<td>{h(pick.selection_label)}</td>'
-                         f'<td>{tier_name}</td>'
-                         f'<td class="{conf_cls}">{conf_pct}</td>'
-                         f'<td>{pick.chaos_tier}</td>'
-                         f'<td {edge_color}>{edge_str}</td>'
+                         f'<td>{date_fmt}</td><td>{h(pick.selection_label)}</td><td>{tier_name}</td>'
+                         f'<td class="{conf_cls}">{conf_pct}</td><td>{pick.chaos_tier}</td>'
+                         f'<td style="color:{color_var}">{edge_str}</td>'
                          f'</tr>')
 
     else:
-        # result / safety — confidence + chaos + edge
+        # result / safety
         lines.append(f'  <table class="qual-table"><thead><tr>'
                      f'<th>Date</th><th>Pick</th><th>League</th><th>Conf</th><th>Chaos</th><th>Edge</th>'
                      f'</tr></thead><tbody>')
@@ -671,40 +842,52 @@ def build_qual_section_result(acca_type: str, picks, color_var: str, label: str)
             conf_cls = "qual-high" if pick.confidence >= 0.65 else "qual-med"
             edge_str = f"+{pick.edge:.0%}" if pick.edge is not None else "&mdash;"
             lines.append(f'    <tr>'
-                         f'<td>{date_fmt}</td>'
-                         f'<td>{h(pick.selection_label)}</td>'
-                         f'<td>{tier_name}</td>'
-                         f'<td class="{conf_cls}">{conf_pct}</td>'
-                         f'<td>{pick.chaos_tier}</td>'
+                         f'<td>{date_fmt}</td><td>{h(pick.selection_label)}</td><td>{tier_name}</td>'
+                         f'<td class="{conf_cls}">{conf_pct}</td><td>{pick.chaos_tier}</td>'
                          f'<td>{edge_str}</td>'
                          f'</tr>')
 
     lines.append(f'  </tbody></table>')
     lines.append(f'  </div>')
-    lines.append(f'</div>')
     return "\n".join(lines)
 
 
 def build_qualifying_tab(acca_data: dict) -> str:
-    sections = [
-        ("result",      "var(--accent)",  "Result Acca"),
-        ("safety",      "var(--accent)",  "Safety Acca"),
-        ("value",       "var(--green)",   "Value Acca"),
-        ("winner_btts", "var(--purple)",  "Winner + BTTS"),
-        ("btts",        "var(--orange)",  "BTTS Acca"),
-        ("upset",       "var(--red)",     "Upset Acca"),
-    ]
-
     lines = []
     lines.append('<div id="tab-qualifying" class="tab-panel">')
 
-    for acca_type, color, label in sections:
+    lines.append('<div id="qual-subnav" class="sub-nav">')
+    first = True
+    for acca_type in ACCA_ORDER:
+        label = ACCA_LABELS.get(acca_type, acca_type)
+        active = ' active' if first else ''
+        lines.append(f'  <button class="sub-btn{active}" data-sub="{acca_type}" '
+                     f'onclick="switchSub(\'qual-subnav-group\', \'{acca_type}\')">'
+                     f'{h(label)}</button>')
+        first = False
+    lines.append('</div>')
+
+    lines.append('<div id="qual-subnav-group">')
+    first = True
+    for acca_type in ACCA_ORDER:
         data = acca_data.get(acca_type, {})
         picks = data.get("picks", [])
-        section = build_qual_section_result(acca_type, picks, color, label)
-        if section:
-            lines.append(section)
+        color = ACCA_COLORS.get(acca_type, "var(--accent)")
+        active = ' active' if first else ''
+        n = len(picks)
+        label = ACCA_LABELS.get(acca_type, acca_type)
 
+        lines.append(f'<div id="qual-subnav-group-{acca_type}" class="sub-panel{active}">')
+        lines.append(f'  <div class="qual-section-title">')
+        lines.append(f'    <span class="qs-dot" style="background:{color}"></span>')
+        lines.append(f'    <span style="color:{color}">{label}</span>')
+        lines.append(f'    <span class="qual-count">{n} candidate{"s" if n != 1 else ""}</span>')
+        lines.append(f'  </div>')
+        lines.append(build_qual_picks_panel(acca_type, picks, color))
+        lines.append('</div>')
+        first = False
+
+    lines.append('</div><!-- end qual-subnav-group -->')
     lines.append('</div><!-- end tab-qualifying -->')
     return "\n".join(lines)
 
@@ -716,6 +899,7 @@ def build_qualifying_tab(acca_data: dict) -> str:
 def generate_html(
     df: pd.DataFrame,
     acca_data: dict,
+    upset_notes: dict = None,
     title_override: str = None,
     run_date: str = None,
 ) -> str:
@@ -723,7 +907,12 @@ def generate_html(
     date_range = title_override or date_range_title(df)
     n_predictions = len(df)
     n_leagues = df["tier"].nunique()
-    run_date_str = run_date or datetime.today().strftime("%-d %B %Y") if sys.platform != "win32" else datetime.today().strftime("%#d %B %Y")
+    run_date_str = run_date or (
+        datetime.today().strftime("%#d %B %Y") if sys.platform == "win32"
+        else datetime.today().strftime("%-d %B %Y")
+    )
+    if upset_notes is None:
+        upset_notes = {}
 
     lines = []
     lines.append('<!DOCTYPE html>')
@@ -748,25 +937,23 @@ def generate_html(
     lines.append('<div class="explainer">')
     lines.append('  <strong>How to read this:</strong> Gary analyses recent form, head-to-head records, '
                  'and match data to call the most likely result. <strong>Confidence</strong> shows how '
-                 'certain Gary is. <strong>How Readable</strong> tells you how clear-cut the data is '
-                 '&mdash; Settled means straightforward, Unpredictable means the data is all over the '
-                 'place. A <strong style="color:#f13557">&#9888; Upset Warning</strong> means Gary is '
-                 'confident but the data is also flagging that an upset is possible. The '
-                 '<strong style="color:#f1a035">~D</strong> flag on a score means the score model '
-                 'thinks it could be a draw even where Gary calls a winner &mdash; watch those ones.')
+                 'certain Gary is. <strong>Readable</strong> tells you how clear-cut the data is '
+                 '&mdash; Settled means straightforward, Unpredictable means chaos. '
+                 'A <strong style="color:#f13557">&#9888; Upset Warning</strong> means Gary is '
+                 'confident but the data is also flagging that an upset is possible. '
+                 '<strong style="color:#f1a035">~D</strong> on a score means the score model '
+                 'thinks it could finish level.')
     lines.append('</div>')
     lines.append('')
     lines.append('<nav class="tab-nav">')
-    lines.append('  <button class="tab-btn active" data-tab="predictions" onclick="switchTab(\'predictions\')">All Predictions</button>')
+    lines.append('  <button class="tab-btn active" data-tab="predictions" onclick="switchTab(\'predictions\')">Predictions</button>')
     lines.append('  <button class="tab-btn" data-tab="accas" onclick="switchTab(\'accas\')">Gary\'s Picks</button>')
-    lines.append('  <button class="tab-btn" data-tab="qualifying" onclick="switchTab(\'qualifying\')">Qualifying Picks</button>')
+    lines.append('  <button class="tab-btn" data-tab="qualifying" onclick="switchTab(\'qualifying\')">All Candidates</button>')
     lines.append('</nav>')
     lines.append('')
-
-    # Tabs — accas first in DOM (hidden), predictions second (active)
-    lines.append(build_accas_tab(acca_data, df))
-    lines.append('')
     lines.append(build_predictions_tab(df))
+    lines.append('')
+    lines.append(build_accas_tab(acca_data, df, upset_notes))
     lines.append('')
     lines.append(build_qualifying_tab(acca_data))
     lines.append('')
@@ -797,7 +984,7 @@ def main():
     parser.add_argument("--fold",  type=int, default=5,
                         help="Acca fold size (default: 5)")
     parser.add_argument("--title", type=str, default=None,
-                        help="Override date range title e.g. 'Weekend 12-14 Apr 2026'")
+                        help="Override date range title")
     args = parser.parse_args()
 
     if not os.path.exists(args.predictions_csv):
@@ -808,6 +995,10 @@ def main():
     df = load_predictions(args.predictions_csv)
     print(f"  {len(df)} predictions across {df['tier'].nunique()} tiers")
 
+    print(f"  Loading upset notes...")
+    upset_notes = load_upset_notes(args.predictions_csv)
+    print(f"  {len(upset_notes)} upset notes loaded")
+
     print(f"  Building accas (fold={args.fold})...")
     acca_data = build_accas(df, fold=args.fold)
     for acca_type, data in acca_data.items():
@@ -817,18 +1008,19 @@ def main():
         print(f"    {acca_type:<15} {status}, {len(picks)} qualifying picks")
 
     print(f"  Generating HTML...")
-    # Run date from CSV filename if possible
     basename = os.path.basename(args.predictions_csv)
     run_date_str = basename[:10] if len(basename) >= 10 else None
     try:
         rd = datetime.strptime(run_date_str, "%Y-%m-%d")
-        run_date_fmt = rd.strftime("%-d %B %Y") if sys.platform != "win32" else rd.strftime("%#d %B %Y")
+        run_date_fmt = rd.strftime("%#d %B %Y") if sys.platform == "win32" else rd.strftime("%-d %B %Y")
     except Exception:
         run_date_fmt = None
 
-    html_content = generate_html(df, acca_data, title_override=args.title, run_date=run_date_fmt)
+    html_content = generate_html(
+        df, acca_data, upset_notes=upset_notes,
+        title_override=args.title, run_date=run_date_fmt
+    )
 
-    # Output path
     if args.out:
         out_path = args.out
     else:

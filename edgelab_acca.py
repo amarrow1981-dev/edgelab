@@ -245,8 +245,10 @@ class AccaBuilder:
             if UPSET_FLAG_BLOCKS and not constraints.include_upsets:
                 df = df[df["upset_flag"] == 0]
         elif constraints.acca_type == "upset":
+            # Upset acca — picks where engine is confident but upset is flagged
+            # Use upset_score threshold, not chaos filter (upsets happen in HIGH chaos)
             df = df[df["upset_flag"] == 1]
-            df = df[df["chaos_tier"].isin(CHAOS_ALLOWED)]
+            df = df[df["upset_score"] >= 0.65]
         else:
             # Standard result acca filters
             df = df[df["confidence"] >= CONF_THRESHOLD]
