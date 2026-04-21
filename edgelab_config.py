@@ -161,6 +161,12 @@ def load_params(
         w_motivation_gap=p.get("w_motivation_gap", 0.0),
         # Phase 2 external signals
         w_weather_signal=p.get("w_weather_signal", 0.0),
+        # Fixture Specificity Layer (Session 38)
+        w_venue_form=p.get("w_venue_form", 0.0),
+        w_team_home_adv=p.get("w_team_home_adv", 0.0),
+        w_opp_strength=p.get("w_opp_strength", 0.0),
+        w_season_stage=p.get("w_season_stage", 0.0),
+        w_rest_diff=p.get("w_rest_diff", 0.0),
     )
 
     logger.info(
@@ -233,6 +239,18 @@ def show_config(config_path: str = DEFAULT_CONFIG_PATH) -> None:
               f"w_timing_signal={w_timing:.3f}  w_motivation_gap={w_mot:.3f}")
         print(f"    --- Phase 2 signals ---")
         print(f"    w_weather_signal={w_weather:.3f}")
+        # Fixture specificity layer (Session 38)
+        w_vf  = p.get("w_venue_form",    0.0)
+        w_tha = p.get("w_team_home_adv", 0.0)
+        w_os  = p.get("w_opp_strength",  0.0)
+        w_ss  = p.get("w_season_stage",  0.0)
+        w_rd  = p.get("w_rest_diff",     0.0)
+        fs_active = any(w > 0.0 for w in [w_vf, w_tha, w_os, w_ss, w_rd])
+        fs_status = "ACTIVE" if fs_active else "dormant"
+        print(f"    --- Fixture specificity [{fs_status}] ---")
+        print(f"    w_venue_form={w_vf:.3f}  w_team_home_adv={w_tha:.3f}  "
+              f"w_opp_strength={w_os:.3f}")
+        print(f"    w_season_stage={w_ss:.3f}  w_rest_diff={w_rd:.3f}")
 
     print(f"\n{'='*60}\n")
 
@@ -377,3 +395,58 @@ if __name__ == "__main__":
         show_config(path)
     else:
         print(f"Usage: python edgelab_config.py show [path_to_params.json]")
+
+
+# ---------------------------------------------------------------------------
+# Outcome-specific param persistence
+# ---------------------------------------------------------------------------
+
+def save_outcome_params(
+    tier: str,
+    outcome: str,
+    params,
+    accuracy: float,
+    matches: int,
+    source: str = "dpol_outcome",
+    config_path: str = DEFAULT_CONFIG_PATH,
+) -> None:
+    """
+    Save outcome-specific evolved params.
+    Stored as {tier}_{outcome} e.g. 'E0_H', 'E0_D', 'E0_A'.
+    Existing overall tier params untouched.
+    """
+    key = f"{tier}_{outcome}"
+    config = _load_raw(config_path)
+    config[key] = {
+        "params": asdict(params),
+        "accuracy": round(accuracy, 6),
+        "matches": matches,
+        "source": source,
+        "outcome": outcome,
+        "saved_at": datetime.utcnow().isoformat(),
+    }
+    _write_raw(config, config_path)
+    logger.info(f"[Config] Saved outcome params {key} — accuracy={accuracy:.1%}, matches={matches}")
+
+
+def load_outcome_params(
+    tier: str,
+    outcome: str,
+    config_path: str = DEFAULT_CONFIG_PATH,
+) -> Optional[LeagueParams]:
+    """
+    Load outcome-specific params for a tier/outcome combo.
+    Falls back to overall tier params if outcome-specific not yet saved.
+    Falls back to None if neither exists.
+    """
+    from dataclasses import asdict as _asdict
+    key = f"{tier}_{outcome}"
+    config = _load_raw(config_path)
+
+    if key in config:
+        p = config[key]["params"]
+        defaults = LeagueParams()
+        return LeagueParams(**{k: p.get(k, getattr(defaults, k)) for k in _asdict(defaults).keys()})
+
+    # Seed from overall evolved params for first outcome-specific run
+    return load_params(tier, config_path=config_path)

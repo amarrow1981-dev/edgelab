@@ -22,8 +22,10 @@ from edgelab_engine import (
     assign_match_round,
     EngineParams,
 )
-from edgelab_dpol import DPOLManager, LeagueParams
-from edgelab_config import load_params, save_params, show_config, check_dataset_hash, save_dataset_hash
+from edgelab_dpol import DPOLManager, LeagueParams, OutcomeParams
+from edgelab_config import (load_params, save_params, show_config,
+                             check_dataset_hash, save_dataset_hash,
+                             load_outcome_params, save_outcome_params)
 
 # Fixture intelligence database — logs every candidate DPOL evaluates
 try:
@@ -52,6 +54,11 @@ def engine_params_to_league_params(ep):
         w_score_margin=ep.w_score_margin, w_btts=ep.w_btts,
         w_ref_signal=ep.w_ref_signal, w_travel_load=ep.w_travel_load,
         w_timing_signal=ep.w_timing_signal, w_motivation_gap=ep.w_motivation_gap,
+        w_venue_form=getattr(ep, "w_venue_form", 0.0),
+        w_team_home_adv=getattr(ep, "w_team_home_adv", 0.0),
+        w_opp_strength=getattr(ep, "w_opp_strength", 0.0),
+        w_season_stage=getattr(ep, "w_season_stage", 0.0),
+        w_rest_diff=getattr(ep, "w_rest_diff", 0.0),
     )
 
 
@@ -64,8 +71,18 @@ def league_params_to_engine_params(lp):
         w_draw_odds=lp.w_draw_odds, w_draw_tendency=lp.w_draw_tendency,
         w_h2h_draw=lp.w_h2h_draw, draw_score_thresh=lp.draw_score_thresh,
         w_score_margin=lp.w_score_margin, w_btts=lp.w_btts,
-        w_ref_signal=lp.w_ref_signal, w_travel_load=lp.w_travel_load,
-        w_timing_signal=lp.w_timing_signal, w_motivation_gap=lp.w_motivation_gap,
+        w_xg_draw=getattr(lp, "w_xg_draw", 0.0),
+        composite_draw_boost=getattr(lp, "composite_draw_boost", 0.0),
+        w_ref_signal=getattr(lp, "w_ref_signal", 0.0),
+        w_travel_load=getattr(lp, "w_travel_load", 0.0),
+        w_timing_signal=getattr(lp, "w_timing_signal", 0.0),
+        w_motivation_gap=getattr(lp, "w_motivation_gap", 0.0),
+        w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
+        w_venue_form=getattr(lp, "w_venue_form", 0.0),
+        w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
+        w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
+        w_season_stage=getattr(lp, "w_season_stage", 0.0),
+        w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
         form_window=5,
     )
 
@@ -320,6 +337,203 @@ def run_dpol_for_tier(df_tier, tier, window_rounds, boldness, save=True, signals
     }
 
 
+def run_outcome_specific_for_tier(df_tier, tier, window_rounds, boldness, save=True, max_seasons=None):
+    """
+    Outcome-specific DPOL evolution for a single tier.
+    Evolves separate H, D, A param sets independently.
+    Seeds from existing evolved params — never cold starts.
+    Global guard sample: 5000 (D population needs headroom).
+    """
+    print(f"\n{'='*60}")
+    print(f"  TIER: {tier}  |  Matches: {len(df_tier)}  |  MODE: OUTCOME-SPECIFIC")
+    print(f"  Window: {window_rounds} rounds  |  Boldness: {boldness}")
+    print(f"{'='*60}")
+
+    # Seed each outcome from the existing evolved params
+    seed_lp = load_params(tier)
+    if seed_lp is None:
+        print(f"  ⚠  No evolved params for {tier} — seeding from defaults")
+        seed_lp = LeagueParams()
+    else:
+        print(f"  ✓ Seeding H/D/A from evolved params for {tier}")
+
+    import copy
+    outcome_params = OutcomeParams(
+        H=copy.deepcopy(seed_lp),
+        D=LeagueParams(),  # Cold start — D finds its own position from defaults
+        A=copy.deepcopy(seed_lp),
+    )
+    print(f"  ⚡ D: cold start — finding draw params from defaults")
+
+    # Load previously saved outcome params (subsequent runs resume from last best)
+    # D cold start is preserved — only resume D if a genuine outcome-specific key exists
+    from edgelab_config import DEFAULT_CONFIG_PATH, _load_raw
+    _raw_config = _load_raw(DEFAULT_CONFIG_PATH)
+    for outcome in ("H", "D", "A"):
+        key = f"{tier}_{outcome}"
+        if key in _raw_config:
+            # Genuine outcome-specific saved result exists — resume from it
+            p = _raw_config[key]["params"]
+            defaults = LeagueParams()
+            from dataclasses import asdict
+            saved = LeagueParams(**{k: p.get(k, getattr(defaults, k)) for k in asdict(defaults).keys()})
+            outcome_params.set_outcome(outcome, saved)
+            print(f"  ✓ {outcome}: resuming from saved outcome params")
+        elif outcome == "D":
+            print(f"  ⚡ D: cold start — no prior outcome-specific params")
+
+    default_params = EngineParams()
+    df_tier = assign_match_round(df_tier)
+
+    # Show population sizes
+    for outcome in ("H", "D", "A"):
+        n = (df_tier["FTR"] == outcome).sum()
+        print(f"  Population {outcome}: {n:,} matches")
+
+    # Pre-compute features once on full tier
+    starting_ep = league_params_to_engine_params(seed_lp)
+    df_features_full = prepare_dataframe(df_tier.copy(), starting_ep)
+
+    # Global guard: 5000 sample — larger than standard to give D population headroom
+    GLOBAL_GUARD_SAMPLE = 5000
+    if len(df_features_full) > GLOBAL_GUARD_SAMPLE:
+        df_global_guard = df_features_full.sample(n=GLOBAL_GUARD_SAMPLE, random_state=42)
+    else:
+        df_global_guard = df_features_full
+
+    def fast_pred_fn(df_window: pd.DataFrame, league_params) -> pd.Series:
+        params = EngineParams(
+            w_form=league_params.w_form,
+            w_gd=league_params.w_gd,
+            home_adv=league_params.home_adv,
+            dti_edge_scale=league_params.dti_edge_scale,
+            dti_ha_scale=league_params.dti_ha_scale,
+            draw_margin=league_params.draw_margin,
+            coin_dti_thresh=league_params.coin_dti_thresh,
+            draw_pull=league_params.draw_pull,
+            dti_draw_lock=league_params.dti_draw_lock,
+            w_draw_odds=league_params.w_draw_odds,
+            w_draw_tendency=league_params.w_draw_tendency,
+            w_h2h_draw=league_params.w_h2h_draw,
+            draw_score_thresh=league_params.draw_score_thresh,
+            w_score_margin=league_params.w_score_margin,
+            w_btts=league_params.w_btts,
+            w_xg_draw=getattr(league_params, "w_xg_draw", 0.0),
+            composite_draw_boost=getattr(league_params, "composite_draw_boost", 0.0),
+            w_ref_signal=getattr(league_params, "w_ref_signal", 0.0),
+            w_travel_load=getattr(league_params, "w_travel_load", 0.0),
+            w_timing_signal=getattr(league_params, "w_timing_signal", 0.0),
+            w_motivation_gap=getattr(league_params, "w_motivation_gap", 0.0),
+            w_weather_signal=getattr(league_params, "w_weather_signal", 0.0),
+            w_venue_form=getattr(league_params, "w_venue_form", 0.0),
+            w_team_home_adv=getattr(league_params, "w_team_home_adv", 0.0),
+            w_opp_strength=getattr(league_params, "w_opp_strength", 0.0),
+            w_season_stage=getattr(league_params, "w_season_stage", 0.0),
+            w_rest_diff=getattr(league_params, "w_rest_diff", 0.0),
+            form_window=5,
+        )
+        feat_rows = df_features_full.loc[df_features_full.index.isin(df_window.index)].copy()
+        if feat_rows.empty:
+            return pd.Series([], dtype=str)
+        from edgelab_engine import predict_dataframe
+        result = predict_dataframe(feat_rows, params)
+        return result["prediction"]
+
+    dpol = DPOLManager(
+        window_rounds=window_rounds,
+        boldness=boldness,
+        db=_db if _DB_AVAILABLE else None,
+    )
+
+    # Show baseline per-outcome accuracy before evolution
+    print(f"\n  BASELINE (seeded params)")
+    for outcome in ("H", "D", "A"):
+        df_outcome = df_features_full[df_features_full["FTR"] == outcome]
+        n = len(df_outcome)
+        if n == 0:
+            continue
+        preds = fast_pred_fn(df_outcome, outcome_params.for_outcome(outcome))
+        ftr = df_outcome["FTR"].reindex(preds.index)
+        correct = sum(1 for p, a in zip(preds, ftr) if p == a == outcome)
+        print(f"    {outcome}: {correct}/{n} = {correct/n:.1%} correctly called as {outcome}")
+
+    # Process most recent seasons first — limit to max_seasons if set (test mode)
+    seasons = sorted(df_tier["season"].unique(), reverse=True)
+    if max_seasons is not None:
+        seasons = seasons[:max_seasons]
+        print(f"  ⚡ TEST MODE — limiting to {max_seasons} most recent seasons")
+    evolution_log = []
+
+    print(f"\n  OUTCOME-SPECIFIC EVOLUTION  ({len(seasons)} seasons)")
+    print(f"  {'-'*50}")
+
+    for season in seasons:
+        df_season = df_features_full[df_features_full["season"] == season].copy()
+        max_round = int(df_season["match_round"].max())
+
+        # D needs a wider window so starts later, but still iterates every round
+        # H/A start from window_rounds, D starts from window_rounds*2
+        outcome_start = {"H": window_rounds, "D": window_rounds * 2, "A": window_rounds}
+        min_start = min(outcome_start.values())
+
+        for rnd in range(min_start, max_round + 1):
+            df_up_to_round = df_season[df_season["match_round"] <= rnd].copy()
+
+            outcome_params = dpol.evolve_outcome_specific(
+                df_league=df_up_to_round,
+                outcome_params=outcome_params,
+                round_col="match_round",
+                pred_fn=fast_pred_fn,
+                df_full=df_global_guard,
+                min_improvement=0.001,
+                candidate_logger=_candidate_logger if '_candidate_logger' in dir() else None,
+                season_label=season,
+            )
+
+        print(f"    Season {season[-10:]:>12}  done")
+
+    # Show evolved per-outcome accuracy
+    print(f"\n  EVOLVED RESULT")
+    outcome_results = {}
+    for outcome in ("H", "D", "A"):
+        df_outcome = df_features_full[df_features_full["FTR"] == outcome]
+        n = len(df_outcome)
+        if n == 0:
+            continue
+        preds = fast_pred_fn(df_outcome, outcome_params.for_outcome(outcome))
+        ftr = df_outcome["FTR"].reindex(preds.index)
+        correct = sum(1 for p, a in zip(preds, ftr) if p == a == outcome)
+        rate = correct / n
+        outcome_results[outcome] = {"correct": correct, "total": n, "rate": rate}
+        print(f"    {outcome}: {correct}/{n} = {rate:.1%} correctly called as {outcome}")
+
+    # Show key param differences between H, D, A
+    print(f"\n  PARAM DIVERGENCE (H vs D vs A)")
+    key_params = ["w_form", "w_gd", "home_adv", "draw_margin", "coin_dti_thresh",
+                  "w_venue_form", "w_team_home_adv", "w_opp_strength"]
+    for param in key_params:
+        h_val = getattr(outcome_params.H, param)
+        d_val = getattr(outcome_params.D, param)
+        a_val = getattr(outcome_params.A, param)
+        if abs(h_val - d_val) > 0.001 or abs(h_val - a_val) > 0.001:
+            print(f"    {param:<20} H={h_val:.4f}  D={d_val:.4f}  A={a_val:.4f}")
+
+    # Save
+    if save:
+        for outcome in ("H", "D", "A"):
+            r = outcome_results.get(outcome, {})
+            if r:
+                save_outcome_params(
+                    tier=tier, outcome=outcome,
+                    params=outcome_params.for_outcome(outcome),
+                    accuracy=r["rate"], matches=r["total"],
+                    source="dpol_outcome",
+                )
+        print(f"\n  ✓ Outcome params saved for {tier} (H, D, A)")
+
+    return {"tier": tier, "outcome_results": outcome_results, "outcome_params": outcome_params}
+
+
 def main():
     parser = argparse.ArgumentParser(description="EdgeLab Runner — DPOL evolution")
     parser.add_argument("folder", nargs="?", default=".", help="Folder containing E0/E1 CSVs")
@@ -333,6 +547,10 @@ def main():
     parser.add_argument("--show-config", action="store_true", help="Show saved params after run")
     parser.add_argument("--signals-only", action="store_true",
                         help="Lock core params — search signal weights only. Requires saved evolved params.")
+    parser.add_argument("--outcome-specific", action="store_true",
+                        help="Run outcome-specific evolution — separate H/D/A param sets. Seeds from evolved params.")
+    parser.add_argument("--seasons", type=int, default=None,
+                        help="Limit evolution to most recent N seasons (test mode). Default: all seasons.")
     args = parser.parse_args()
 
     print("\n╔══════════════════════════════════════════╗")
@@ -344,9 +562,26 @@ def main():
     print(f"  Tier(s)    : {args.tier}")
     if args.signals_only:
         print(f"  Mode       : SIGNALS ONLY (core params locked)")
+    if args.outcome_specific:
+        print(f"  Mode       : OUTCOME-SPECIFIC (H/D/A separate param sets)")
 
     print("\n  Loading CSVs...")
-    df_all = load_all_csvs(args.folder)
+    # Build tier filter for load_all_csvs — avoids loading 400k+ harvester rows
+    english_tiers  = ["E0","E1","E2","E3","EC"]
+    european_tiers = ["B1","D1","D2","I1","I2","N1","SC0","SC1","SC2","SC3","SP1","SP2"]
+    all_tiers      = english_tiers + european_tiers
+
+    if args.tier in ("all", "english", "european", "both"):
+        load_tier_filter = {
+            "all": all_tiers,
+            "english": english_tiers,
+            "european": european_tiers,
+            "both": ["E0","E1"],
+        }[args.tier]
+    else:
+        load_tier_filter = [args.tier]
+
+    df_all = load_all_csvs(args.folder, tiers=load_tier_filter)
     print(f"  Loaded {len(df_all)} rows across {df_all['tier'].nunique()} tiers, {df_all['season'].nunique()} seasons.")
 
     # Dataset hash safeguard — warn if data has changed since params were saved
@@ -361,10 +596,6 @@ def main():
         print(f"     Current: {hash_result['current']}")
         print(f"     Params may be stale. Full re-evolution recommended.")
         print(f"     Continuing anyway — results will update the stored hash.\n")
-
-    english_tiers  = ["E0","E1","E2","E3","EC"]
-    european_tiers = ["B1","D1","D2","I1","I2","N1","SC0","SC1","SC2","SC3","SP1","SP2"]
-    all_tiers      = english_tiers + european_tiers
 
     if args.tier == "all":
         tiers_to_run = all_tiers
@@ -383,7 +614,12 @@ def main():
         if df_tier.empty:
             print(f"\n  No data for tier {tier}, skipping.")
             continue
-        result = run_dpol_for_tier(df_tier=df_tier, tier=tier, window_rounds=args.window, boldness=args.boldness, save=True, signals_only=args.signals_only)
+        if args.outcome_specific:
+            result = run_outcome_specific_for_tier(df_tier=df_tier, tier=tier, window_rounds=args.window, boldness=args.boldness, save=True, max_seasons=args.seasons)
+        elif args.signals_only:
+            result = run_dpol_for_tier(df_tier=df_tier, tier=tier, window_rounds=args.window, boldness=args.boldness, save=True, signals_only=True)
+        else:
+            result = run_dpol_for_tier(df_tier=df_tier, tier=tier, window_rounds=args.window, boldness=args.boldness, save=True)
         if result is None:
             continue
         all_results.append(result)
@@ -391,14 +627,19 @@ def main():
     print(f"\n\n{'='*60}")
     print("  FINAL SUMMARY")
     print(f"{'='*60}")
-    print(f"  {'Tier':<6}  {'Baseline':>10}  {'Evolved':>10}  {'Delta':>8}")
-    print(f"  {'-'*40}")
     for r in all_results:
-        print(f"  {r['tier']:<6}  {r['baseline_accuracy']:>9.1%}  {r['evolved_accuracy']:>9.1%}    {r['delta']:>+.1%}")
+        if "outcome_results" in r:
+            # Outcome-specific result
+            print(f"\n  {r['tier']} — OUTCOME-SPECIFIC")
+            for outcome, data in r["outcome_results"].items():
+                print(f"    {outcome}: {data['correct']}/{data['total']} = {data['rate']:.1%}")
+        else:
+            print(f"  {r['tier']:<6}  {r['baseline_accuracy']:>9.1%}  {r['evolved_accuracy']:>9.1%}    {r['delta']:>+.1%}")
 
-    if all_results:
-        total_baseline = sum(r["baseline_accuracy"] for r in all_results) / len(all_results)
-        total_evolved = sum(r["evolved_accuracy"] for r in all_results) / len(all_results)
+    standard_results = [r for r in all_results if "baseline_accuracy" in r]
+    if standard_results:
+        total_baseline = sum(r["baseline_accuracy"] for r in standard_results) / len(standard_results)
+        total_evolved = sum(r["evolved_accuracy"] for r in standard_results) / len(standard_results)
         print(f"  {'OVERALL':<6}  {total_baseline:>9.1%}  {total_evolved:>9.1%}    {total_evolved-total_baseline:>+.1%}")
 
     # Save dataset hash now that params have been updated

@@ -37,16 +37,6 @@ sys.path.insert(0, os.path.dirname(__file__))
 from edgelab_engine import (
     load_all_csvs,
     prepare_dataframe,
-    compute_form,
-    compute_goal_diff,
-    compute_dti,
-    compute_team_draw_tendency,
-    compute_h2h,
-    compute_odds_draw_prob,
-    compute_score_prediction,
-    predict_dataframe,
-    compute_upset_score,
-    assign_chaos_tier,
     EngineParams,
 )
 from edgelab_config import load_params
@@ -87,8 +77,68 @@ def get_engine_params(tier: str) -> EngineParams:
         draw_score_thresh=lp.draw_score_thresh,
         w_score_margin=lp.w_score_margin,
         w_btts=lp.w_btts,
+        w_xg_draw=getattr(lp, "w_xg_draw", 0.0),
+        composite_draw_boost=getattr(lp, "composite_draw_boost", 0.0),
+        w_ref_signal=getattr(lp, "w_ref_signal", 0.0),
+        w_travel_load=getattr(lp, "w_travel_load", 0.0),
+        w_timing_signal=getattr(lp, "w_timing_signal", 0.0),
+        w_motivation_gap=getattr(lp, "w_motivation_gap", 0.0),
+        w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
+        w_venue_form=getattr(lp, "w_venue_form", 0.0),
+        w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
+        w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
+        w_season_stage=getattr(lp, "w_season_stage", 0.0),
+        w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
         form_window=5,
     )
+
+
+def _lp_to_ep(lp) -> EngineParams:
+    """Convert LeagueParams to EngineParams."""
+    from edgelab_dpol import LeagueParams
+    defaults = LeagueParams()
+    return EngineParams(
+        w_form=lp.w_form, w_gd=lp.w_gd, home_adv=lp.home_adv,
+        dti_edge_scale=lp.dti_edge_scale, dti_ha_scale=lp.dti_ha_scale,
+        draw_margin=lp.draw_margin, coin_dti_thresh=lp.coin_dti_thresh,
+        draw_pull=getattr(lp, "draw_pull", 0.0),
+        dti_draw_lock=getattr(lp, "dti_draw_lock", 999.0),
+        w_draw_odds=getattr(lp, "w_draw_odds", 0.0),
+        w_draw_tendency=getattr(lp, "w_draw_tendency", 0.0),
+        w_h2h_draw=getattr(lp, "w_h2h_draw", 0.0),
+        draw_score_thresh=getattr(lp, "draw_score_thresh", 0.55),
+        w_score_margin=getattr(lp, "w_score_margin", 0.0),
+        w_btts=getattr(lp, "w_btts", 0.0),
+        w_xg_draw=getattr(lp, "w_xg_draw", 0.0),
+        composite_draw_boost=getattr(lp, "composite_draw_boost", 0.0),
+        w_ref_signal=getattr(lp, "w_ref_signal", 0.0),
+        w_travel_load=getattr(lp, "w_travel_load", 0.0),
+        w_timing_signal=getattr(lp, "w_timing_signal", 0.0),
+        w_motivation_gap=getattr(lp, "w_motivation_gap", 0.0),
+        w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
+        w_venue_form=getattr(lp, "w_venue_form", 0.0),
+        w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
+        w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
+        w_season_stage=getattr(lp, "w_season_stage", 0.0),
+        w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
+        form_window=5,
+    )
+
+
+def get_outcome_params(tier: str):
+    """
+    Load H, D, A outcome-specific params for a tier.
+    Returns dict: {'H': EngineParams, 'D': EngineParams, 'A': EngineParams}
+    Falls back to overall evolved params if outcome-specific not saved.
+    Falls back to defaults if neither exists.
+    """
+    from edgelab_config import load_outcome_params
+    result = {}
+    fallback = get_engine_params(tier)
+    for outcome in ("H", "D", "A"):
+        lp = load_outcome_params(tier, outcome)
+        result[outcome] = _lp_to_ep(lp) if lp is not None else fallback
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -125,6 +175,176 @@ def load_upcoming_fixtures(fixtures_path: str) -> pd.DataFrame:
     upcoming = upcoming.sort_values("parsed_date").reset_index(drop=True)
     print(f"  Loaded {len(upcoming)} upcoming fixtures from {os.path.basename(fixtures_path)}")
     return upcoming
+
+
+def predict_upcoming_outcome_routed(
+    df_history: pd.DataFrame,
+    df_upcoming: pd.DataFrame,
+    tier: str,
+    outcome_params: dict,
+) -> pd.DataFrame:
+    """
+    Outcome-routed prediction pipeline.
+
+    Runs the full feature pipeline once (using overall evolved params for
+    feature computation), then applies H, D, A param sets independently
+    to each upcoming fixture. Routes to the final prediction using:
+
+    Decision logic:
+      1. Get predictions from H_params, D_params, A_params independently
+      2. If D_params call D: check draw_score and odds_draw_prob signal strength
+         - If draw evidence is strong (draw_score > 0.3 OR odds_draw_prob > 0.28):
+           call D
+      3. Otherwise: take H or A — whichever param set calls its own outcome
+         with higher confidence
+      4. If H_params call H and A_params call A: take higher confidence
+      5. If both call same outcome: use that
+
+    Adds columns: pred_H, pred_A, pred_D, conf_H, conf_A, conf_D,
+                  outcome_routed (True/False — was routing used?)
+    """
+    from edgelab_engine import predict_dataframe as _pred_df
+
+    # Use overall params for feature computation (neutral starting point)
+    overall_params = get_engine_params(tier)
+
+    df_hist_tier = df_history[df_history["tier"] == tier].copy()
+    df_up_tier = df_upcoming[df_upcoming["tier"] == tier].copy()
+    if df_up_tier.empty:
+        return pd.DataFrame()
+
+    df_hist_tier["_upcoming"] = False
+    df_up_tier["_upcoming"] = True
+    df_combined = pd.concat([df_hist_tier, df_up_tier], ignore_index=True)
+    df_combined = df_combined.sort_values(["parsed_date", "_upcoming"]).reset_index(drop=True)
+
+    # Feature pipeline once
+    df_combined = prepare_dataframe(df_combined, overall_params)
+
+    # Extract upcoming rows with features computed
+    df_feat = df_combined[df_combined["_upcoming"] == True].copy()
+    df_feat = df_feat.drop(columns=["_upcoming"])
+
+    # Get predictions from each outcome param set
+    for outcome in ("H", "D", "A"):
+        p = outcome_params[outcome]
+        result = _pred_df(df_feat, p)
+        df_feat[f"pred_{outcome}"] = result["prediction"]
+        df_feat[f"conf_{outcome}"] = result["confidence"]
+
+    # Routing decision — row by row
+    final_preds = []
+    final_confs = []
+    routed = []
+    top_scorelines = []
+
+    # Load scoreline profiles for this tier (once, outside the loop)
+    scoreline_profiles_available = False
+    try:
+        from edgelab_db import EdgeLabDB
+        _sdb = EdgeLabDB()
+        _profiles_cache = _sdb.get_scoreline_profiles(tier)
+        scoreline_profiles_available = len(_profiles_cache) > 0
+    except Exception:
+        _profiles_cache = {}
+
+    for _, row in df_feat.iterrows():
+        pred_H = row["pred_H"]
+        pred_D = row["pred_D"]
+        pred_A = row["pred_A"]
+        conf_H = row["conf_H"]
+        conf_D = row["conf_D"]
+        conf_A = row["conf_A"]
+        draw_score = row.get("draw_score", 0.0)
+        odds_draw = row.get("odds_draw_prob", 0.0)
+
+        # Scoreline profile matching — find which historical scoreline
+        # populations this fixture most resembles
+        top_scoreline = None
+        scoreline_outcome_signal = None
+        if scoreline_profiles_available:
+            try:
+                fixture_features = {
+                    "home_form": row.get("home_form"),
+                    "away_form": row.get("away_form"),
+                    "home_gd": row.get("home_gd"),
+                    "away_gd": row.get("away_gd"),
+                    "dti": row.get("dti"),
+                    "home_form_home": row.get("home_form_home"),
+                    "away_form_away": row.get("away_form_away"),
+                    "home_adv_team": row.get("home_adv_team"),
+                    "season_stage": row.get("season_stage"),
+                    "rest_days_diff": row.get("rest_days_diff"),
+                    "odds_draw_prob": row.get("odds_draw_prob"),
+                }
+                matches = _sdb.match_fixture_to_scorelines(
+                    tier=tier,
+                    fixture_features=fixture_features,
+                    top_n=3,
+                )
+                if matches:
+                    top_scoreline = matches[0]["scoreline"]
+                    # If top 2 matches are both same outcome, treat as signal
+                    outcomes = [m["outcome"] for m in matches[:2]]
+                    if len(set(outcomes)) == 1:
+                        scoreline_outcome_signal = outcomes[0]
+            except Exception:
+                pass
+
+        # D route — D params call D AND supporting draw evidence
+        draw_evidence = (draw_score or 0) > 0.3 or (odds_draw or 0) > 0.28
+        # Scoreline signal can also trigger D route
+        if scoreline_outcome_signal == "D" and pred_D == "D":
+            draw_evidence = True
+
+        if pred_D == "D" and draw_evidence:
+            final_preds.append("D")
+            final_confs.append(conf_D)
+            routed.append(True)
+            top_scorelines.append(top_scoreline or "")
+            continue
+
+        # H/A route — use whichever calls its own outcome with more confidence
+        # Scoreline signal can boost confidence for the matching outcome
+        h_correct = pred_H == "H"
+        a_correct = pred_A == "A"
+
+        # Apply scoreline signal boost
+        effective_conf_H = conf_H * 1.1 if (scoreline_outcome_signal == "H" and h_correct) else conf_H
+        effective_conf_A = conf_A * 1.1 if (scoreline_outcome_signal == "A" and a_correct) else conf_A
+
+        if h_correct and a_correct:
+            if effective_conf_H >= effective_conf_A:
+                final_preds.append("H")
+                final_confs.append(conf_H)
+            else:
+                final_preds.append("A")
+                final_confs.append(conf_A)
+        elif h_correct:
+            final_preds.append("H")
+            final_confs.append(conf_H)
+        elif a_correct:
+            final_preds.append("A")
+            final_confs.append(conf_A)
+        else:
+            base_pred = row.get("prediction", "H")
+            base_conf = row.get("confidence", 0.5)
+            final_preds.append(base_pred)
+            final_confs.append(base_conf)
+
+        routed.append(False)
+        top_scorelines.append(top_scoreline or "")
+
+    df_feat["prediction"] = final_preds
+    df_feat["confidence"] = final_confs
+    df_feat["outcome_routed"] = routed
+    df_feat["top_scoreline_match"] = top_scorelines
+
+    # Recompute upset score with new predictions
+    from edgelab_engine import compute_upset_score
+    df_feat = compute_upset_score(df_feat)
+
+    return df_feat
 
 
 # ---------------------------------------------------------------------------
@@ -167,19 +387,13 @@ def predict_upcoming(
     df_combined = pd.concat([df_hist_tier, df_up_tier], ignore_index=True)
     df_combined = df_combined.sort_values(["parsed_date", "_upcoming"]).reset_index(drop=True)
 
-    # Run full feature pipeline
-    # The pipeline reads FTR row by row to build rolling state.
-    # Upcoming rows have FTR="?" — the pipeline will update team history
-    # AFTER reading the row, so the upcoming fixtures see correct prior state.
-    df_combined = compute_form(df_combined, window=params.form_window)
-    df_combined = compute_goal_diff(df_combined, window=params.form_window)
-    df_combined = compute_dti(df_combined)
-    df_combined = compute_team_draw_tendency(df_combined, window=params.form_window * 2)
-    df_combined = compute_h2h(df_combined, window=6)
-    df_combined = compute_odds_draw_prob(df_combined)
-    df_combined = compute_score_prediction(df_combined, window=params.form_window)
-    df_combined = predict_dataframe(df_combined, params)
-    df_combined = compute_upset_score(df_combined)
+    # Run full feature pipeline via prepare_dataframe
+    # This automatically includes all fixture specificity features (venue-split
+    # form, team-specific home advantage, opponent-adjusted form, season stage,
+    # rest days) added in Session 38. Using prepare_dataframe ensures predict
+    # always stays in sync with engine changes rather than maintaining a
+    # duplicate call sequence.
+    df_combined = prepare_dataframe(df_combined, params)
 
     # Extract only the upcoming rows
     result = df_combined[df_combined["_upcoming"] == True].copy()
@@ -228,7 +442,7 @@ def format_predictions_table(df: pd.DataFrame) -> None:
 
 
 def save_predictions_csv(df: pd.DataFrame, run_date: str) -> str:
-    """Save predictions to CSV for logging."""
+    """Save predictions to CSV and log to fixture intelligence DB with team_id."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     path = os.path.join(OUTPUT_DIR, f"{run_date}_predictions.csv")
 
@@ -240,12 +454,128 @@ def save_predictions_csv(df: pd.DataFrame, run_date: str) -> str:
         "draw_score", "btts_flag", "btts_prob",
         "upset_score", "upset_flag",
         "B365H", "B365D", "B365A",
+        # Outcome-specific routing (Session 39)
+        "pred_H", "pred_D", "pred_A",
+        "conf_H", "conf_D", "conf_A",
+        "outcome_routed", "top_scoreline_match",
+        # Fixture specificity (Session 38)
+        "home_form_home", "away_form_away",
+        "home_adv_team",
+        "home_form_adj", "away_form_adj",
+        "season_stage",
+        "home_rest_days", "away_rest_days", "rest_days_diff",
     ]
-    # Only include columns that exist
     out_cols = [c for c in cols if c in df.columns]
     df[out_cols].to_csv(path, index=False)
     print(f"  Predictions saved: {path}")
+
+    # Log to fixture intelligence DB with team_id
+    _log_predictions_to_db(df, run_date)
+
     return path
+
+
+def _log_predictions_to_db(df: pd.DataFrame, run_date: str):
+    """
+    Write prediction records to edgelab.db at prediction time.
+    Includes team_id from the identity layer for cross-source joins.
+    Silent — never blocks prediction output if DB write fails.
+    """
+    try:
+        from edgelab_db import EdgeLabDB
+        db = EdgeLabDB()
+
+        resolver = None
+        try:
+            from edgelab_identity import TeamResolver
+            resolver = TeamResolver()
+        except Exception:
+            pass
+
+        written = 0
+        for _, row in df.iterrows():
+            try:
+                tier = str(row.get("tier", ""))
+                home = str(row.get("HomeTeam", ""))
+                away = str(row.get("AwayTeam", ""))
+                date_raw = str(row.get("Date", run_date))
+                try:
+                    match_date = pd.to_datetime(
+                        date_raw, dayfirst=True
+                    ).strftime("%Y-%m-%d")
+                except Exception:
+                    match_date = run_date
+
+                home_team_id = resolver.resolve(home, tier=tier, source="football_data") if resolver else None
+                away_team_id = resolver.resolve(away, tier=tier, source="football_data") if resolver else None
+
+                param_version_id = None
+                try:
+                    pv = db.get_latest_param_version(tier)
+                    if pv:
+                        param_version_id = pv["version_id"]
+                except Exception:
+                    pass
+
+                def _f(key, default=0.0):
+                    v = row.get(key, default)
+                    return float(v) if v is not None else default
+
+                features = {
+                    "home_form":      _f("home_form"),
+                    "away_form":      _f("away_form"),
+                    "home_gd":        _f("home_gd"),
+                    "away_gd":        _f("away_gd"),
+                    "dti":            _f("dti"),
+                    "chaos_tier":     str(row.get("chaos_tier", "MED")),
+                    "odds_draw_prob":  _f("odds_draw_prob"),
+                    "h2h_draw_rate":   _f("h2h_draw_rate"),
+                    "h2h_home_edge":   _f("h2h_home_edge"),
+                    "pred_margin":     _f("pred_margin"),
+                    "pred_home_goals": _f("pred_home_goals"),
+                    "pred_away_goals": _f("pred_away_goals"),
+                    "btts_prob":       _f("btts_prob"),
+                    "btts_flag":       int(row.get("btts_flag", 0) or 0),
+                    "upset_score":     _f("upset_score"),
+                    "upset_flag":      int(row.get("upset_flag", 0) or 0),
+                    "draw_score":      _f("draw_score"),
+                    "weather_load":    _f("weather_load"),
+                    "home_form_home":  _f("home_form_home", 0.5),
+                    "away_form_away":  _f("away_form_away", 0.5),
+                    "home_adv_team":   _f("home_adv_team"),
+                    "home_form_adj":   _f("home_form_adj", 0.5),
+                    "away_form_adj":   _f("away_form_adj", 0.5),
+                    "season_stage":    _f("season_stage", 0.5),
+                    "home_rest_days":  _f("home_rest_days", 7.0),
+                    "away_rest_days":  _f("away_rest_days", 7.0),
+                    "rest_days_diff":  _f("rest_days_diff"),
+                }
+                if home_team_id:
+                    features["home_team_id"] = home_team_id
+                if away_team_id:
+                    features["away_team_id"] = away_team_id
+
+                db.write_fixture_prematch(
+                    tier=tier,
+                    season="2025-26",
+                    match_date=match_date,
+                    home_team=home,
+                    away_team=away,
+                    prediction=str(row.get("prediction", "?")),
+                    confidence=float(row.get("confidence", 0) or 0),
+                    pred_scoreline=str(row.get("pred_scoreline", "?-?")),
+                    features=features,
+                    param_version_id=param_version_id,
+                    data_source="predict_live",
+                )
+                written += 1
+            except Exception:
+                pass
+
+        if written:
+            print(f"  DB: {written} fixtures logged (team_id wired)")
+    except Exception:
+        pass
 
 
 def print_acca_candidates(df: pd.DataFrame) -> None:
@@ -334,13 +664,14 @@ def main():
     all_predictions = []
 
     for tier in tiers:
-        params = get_engine_params(tier)
+        outcome_params = get_outcome_params(tier)
         n_upcoming = len(df_upcoming[df_upcoming["tier"] == tier])
+        overall_p = get_engine_params(tier)
         print(f"\n  [{tier}] {n_upcoming} fixtures  |  "
-              f"params: w_form={params.w_form:.3f}  home_adv={params.home_adv:.3f}  "
-              f"draw_intel={'ON' if params.w_draw_odds > 0 or params.w_h2h_draw > 0 else 'OFF'}")
+              f"outcome-specific routing active  |  "
+              f"base: w_form={overall_p.w_form:.3f}  home_adv={overall_p.home_adv:.3f}")
 
-        preds = predict_upcoming(df_history, df_upcoming, tier, params)
+        preds = predict_upcoming_outcome_routed(df_history, df_upcoming, tier, outcome_params)
 
         if preds.empty:
             print(f"  [{tier}] No predictions generated.")

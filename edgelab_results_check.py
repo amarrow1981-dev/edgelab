@@ -67,11 +67,13 @@ def fetch_results_for_league(api_key: str, league_id: int, date_str: str) -> lis
         "league": league_id,
         "season": 2025,
         "date": date_str,
-        "status": "FT",
     }
     resp = requests.get(url, headers=get_headers(api_key), params=params, timeout=15)
     resp.raise_for_status()
-    return resp.json().get("response", [])
+    all_fixtures = resp.json().get("response", [])
+    # Filter to finished matches only (FT, AET, PEN)
+    finished = {"FT", "AET", "PEN"}
+    return [f for f in all_fixtures if f.get("fixture", {}).get("status", {}).get("short") in finished]
 
 
 # ---------------------------------------------------------------------------
@@ -126,15 +128,19 @@ def load_predictions_from_csv(csv_path: str) -> list:
     records = []
     for _, row in df.iterrows():
         records.append({
-            "tier":        str(row.get("tier", "")),
-            "date":        str(row.get("Date", "")),
-            "home_team":   str(row.get("HomeTeam", "")),
-            "away_team":   str(row.get("AwayTeam", "")),
-            "prediction":  str(row.get("prediction", "")),
-            "confidence":  float(row.get("confidence", 0)),
-            "chaos_tier":  str(row.get("chaos_tier", "")),
-            "upset_score": float(row.get("upset_score", 0)),
-            "upset_flag":  int(row.get("upset_flag", 0)),
+            "tier":           str(row.get("tier", "")),
+            "date":           str(row.get("Date", "")),
+            "home_team":      str(row.get("HomeTeam", "")),
+            "away_team":      str(row.get("AwayTeam", "")),
+            "prediction":     str(row.get("prediction", "")),
+            "confidence":     float(row.get("confidence", 0)),
+            "chaos_tier":     str(row.get("chaos_tier", "")),
+            "upset_score":    float(row.get("upset_score", 0)),
+            "upset_flag":     int(row.get("upset_flag", 0)),
+            "pred_scoreline": str(row.get("pred_scoreline", "")) if pd.notna(row.get("pred_scoreline")) else "",
+            "B365H":          row.get("B365H"),
+            "B365D":          row.get("B365D"),
+            "B365A":          row.get("B365A"),
         })
     return records
 
@@ -362,20 +368,21 @@ def main():
                         correct = (pred == actual)
 
                         all_results.append({
-                            "home":   home,
-                            "away":   away,
-                            "tier":   tier,
-                            "date":   date_str,
-                            "pred":   pred,
-                            "actual": actual,
-                            "score":  score_str,
-                            "conf":   conf,
-                            "chaos":  chaos,
-                            "upset":  upset,
-                            "correct": correct,
-                            "b365h":  pred_row.get("B365H"),
-                            "b365d":  pred_row.get("B365D"),
-                            "b365a":  pred_row.get("B365A"),
+                            "home":          home,
+                            "away":          away,
+                            "tier":          tier,
+                            "date":          date_str,
+                            "pred":          pred,
+                            "actual":        actual,
+                            "score":         score_str,
+                            "pred_scoreline": pred_row.get("pred_scoreline", ""),
+                            "conf":          conf,
+                            "chaos":         chaos,
+                            "upset":         upset,
+                            "correct":       correct,
+                            "b365h":         pred_row.get("B365H"),
+                            "b365d":         pred_row.get("B365D"),
+                            "b365a":         pred_row.get("B365A"),
                         })
 
             except Exception as e:
@@ -528,20 +535,21 @@ def main():
                 except (ZeroDivisionError, TypeError, ValueError):
                     pass
             rows.append({
-                "date":           r["date"],
-                "tier":           r["tier"],
-                "home":           r["home"],
-                "away":           r["away"],
-                "prediction":     r["pred"],
-                "actual":         r["actual"],
-                "score":          r["score"],
-                "correct":        int(r["correct"]),
-                "confidence":     round(r["conf"], 4),
-                "chaos_tier":     r["chaos"],
-                "upset_score":    round(r["upset"], 4),
-                "market_pred":    market_pred if market_pred else "",
-                "market_correct": market_correct if market_correct is not None else "",
-                "disagree":       int(market_pred is not None and r["pred"] != market_pred),
+                "date":             r["date"],
+                "tier":             r["tier"],
+                "home":             r["home"],
+                "away":             r["away"],
+                "prediction":       r["pred"],
+                "actual":           r["actual"],
+                "score":            r["score"],
+                "pred_scoreline":   r.get("pred_scoreline", ""),
+                "correct":          int(r["correct"]),
+                "confidence":       round(r["conf"], 4),
+                "chaos_tier":       r["chaos"],
+                "upset_score":      round(r["upset"], 4),
+                "market_pred":      market_pred if market_pred else "",
+                "market_correct":   market_correct if market_correct is not None else "",
+                "disagree":         int(market_pred is not None and r["pred"] != market_pred),
             })
 
         if rows:

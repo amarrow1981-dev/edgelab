@@ -76,6 +76,12 @@ class LeagueParams:
     # --- Composite draw signal layer (session 26) ---
     w_xg_draw: float = 0.0           # expected goals total as draw signal (1.088x lift)
     composite_draw_boost: float = 0.0 # additive boost when odds anchor + supporting signal align
+    # --- Fixture Specificity Layer (session 38) ---
+    w_venue_form:    float = 0.0  # venue-split form weight
+    w_team_home_adv: float = 0.0  # team-specific home advantage weight
+    w_opp_strength:  float = 0.0  # opponent-adjusted form weight
+    w_season_stage:  float = 0.0  # season stage signal weight
+    w_rest_diff:     float = 0.0  # rest days differential weight
 
 
 @dataclass
@@ -343,6 +349,167 @@ class DPOLManager:
         )
         return float(sum(scores) / max_possible) if max_possible > 0 else 0.0
 
+    def evolve_outcome_specific(
+        self,
+        df_league: pd.DataFrame,
+        outcome_params: "OutcomeParams",
+        round_col: str = "match_round",
+        pred_fn: Callable[[pd.DataFrame, LeagueParams], pd.Series] = None,
+        df_full: pd.DataFrame = None,
+        min_improvement: float = 0.001,
+        candidate_logger: Callable = None,
+        season_label: str = "",
+        param_version_id: str = None,
+    ) -> "OutcomeParams":
+        """
+        Outcome-specific DPOL evolution.
+
+        Evolves H, D, A param sets independently. Each outcome's params are
+        evaluated only against matches of that outcome type.
+
+        Global guard is outcome-specific: H params must not regress on the H
+        population globally, D on D, A on A.
+        """
+        if pred_fn is None:
+            raise ValueError("pred_fn required for outcome-specific evolution.")
+        if df_league.empty:
+            return outcome_params
+
+        tier_name = str(df_league["tier"].iloc[0])
+        max_round = int(df_league[round_col].max())
+        if max_round < 1:
+            return outcome_params
+
+        window_size = self.window_rounds
+
+        proven_directions = []
+        if self.db is not None:
+            try:
+                proven_directions = self.db.get_successful_param_directions(
+                    tier=tier_name, top_n=10, min_delta=0.001,
+                )
+            except Exception:
+                proven_directions = []
+
+        # Outcome-specific window sizes — D has ~25% of matches so needs a wider
+        # window to accumulate enough signal. H and A use the standard window.
+        outcome_window = {
+            "H": window_size,
+            "D": window_size * 2,  # 2x window for draws — same signal density as H/A
+            "A": window_size,
+        }
+
+        for outcome in ("H", "D", "A"):
+            base_params = outcome_params.for_outcome(outcome)
+            ow = outcome_window[outcome]
+            start_round = max(1, max_round - ow + 1)
+            window_outcome = df_league[
+                df_league[round_col].between(start_round, max_round) &
+                (df_league["FTR"] == outcome)
+            ].copy()
+
+            # Absolute floor of 3 — the global guard is the quality control mechanism,
+            # not a pre-filter. If a candidate looks good on a small window but regresses
+            # globally, the guard rejects it. Don't silence the data before DPOL sees it.
+            if len(window_outcome) < 3:
+                logger.info(
+                    f"[DPOL-OS] {tier_name} {outcome} Round={max_round} "
+                    f"— {len(window_outcome)} matches, skipping"
+                )
+                continue
+
+            df_global_outcome = None
+            if df_full is not None and not df_full.empty and len(window_outcome) >= 5:
+                df_global_outcome = df_full[df_full["FTR"] == outcome].copy()
+
+            base_acc = self._evaluate_outcome_params(window_outcome, base_params, pred_fn, outcome)
+
+            global_base_acc = None
+            if df_global_outcome is not None and not df_global_outcome.empty:
+                global_base_acc = self._evaluate_outcome_params(
+                    df_global_outcome, base_params, pred_fn, outcome
+                )
+
+            candidates = self._generate_candidates(base_params, proven_directions=proven_directions)
+
+            best_candidate = None
+            best_candidate_acc = base_acc
+            all_evaluated = []
+
+            for params in candidates:
+                acc = self._evaluate_outcome_params(window_outcome, params, pred_fn, outcome)
+                all_evaluated.append((params, acc))
+                if acc <= base_acc + min_improvement:
+                    continue
+                if acc > best_candidate_acc:
+                    best_candidate_acc = acc
+                    best_candidate = params
+
+            global_acc_for_best = None
+            if best_candidate is not None and global_base_acc is not None:
+                global_acc_for_best = self._evaluate_outcome_params(
+                    df_global_outcome, best_candidate, pred_fn, outcome
+                )
+                if global_acc_for_best < global_base_acc - min_improvement:
+                    logger.info(
+                        f"[DPOL-OS] {tier_name} {outcome} Candidate rejected: "
+                        f"window={best_candidate_acc:.3f} global={global_acc_for_best:.3f} "
+                        f"< {global_base_acc:.3f}"
+                    )
+                    best_candidate = None
+
+            accepted = best_candidate is not None
+            if accepted:
+                logger.info(
+                    f"[DPOL-OS] {tier_name} {outcome} Round={max_round} "
+                    f"Improved {base_acc:.3f} -> {best_candidate_acc:.3f}"
+                )
+                outcome_params.set_outcome(outcome, best_candidate)
+
+            if candidate_logger is not None:
+                for eval_params, eval_acc in all_evaluated:
+                    is_accepted = accepted and eval_params is best_candidate
+                    try:
+                        candidate_logger(
+                            tier=f"{tier_name}_{outcome}",
+                            season=season_label,
+                            round_num=max_round,
+                            params=eval_params,
+                            window_acc=eval_acc,
+                            global_acc=global_acc_for_best if is_accepted else None,
+                            accepted=is_accepted,
+                            base_acc=base_acc,
+                            param_version_id=param_version_id,
+                        )
+                    except Exception as _log_err:
+                        logger.warning(f"[DPOL-OS] Candidate log failed: {_log_err}")
+
+        return outcome_params
+
+    def _evaluate_outcome_params(
+        self,
+        df_outcome: pd.DataFrame,
+        params: LeagueParams,
+        pred_fn: Callable[[pd.DataFrame, LeagueParams], pd.Series],
+        outcome: str,
+    ) -> float:
+        """
+        Evaluate params against a single-outcome population.
+        Measures: what fraction of these [outcome] matches does this param set
+        correctly call as [outcome]?
+        Draw outcomes weighted 1.5x to prevent DPOL ignoring them.
+        """
+        if df_outcome.empty:
+            return 0.0
+        preds = pred_fn(df_outcome, params)
+        ftr = df_outcome["FTR"].reindex(preds.index)
+        if len(preds) == 0:
+            return 0.0
+        weight = 1.5 if outcome == "D" else 1.0
+        correct = sum(weight for p, a in zip(preds, ftr) if p == a == outcome)
+        total = len(preds) * weight if outcome == "D" else len(preds)
+        return float(correct / total) if total > 0 else 0.0
+
     def _generate_candidates_signals_only(self, base: LeagueParams) -> List[LeagueParams]:
         """
         Signals-only variant — only varies signal weights.
@@ -516,5 +683,57 @@ class DPOLManager:
         biased_variants_zero_safe("w_timing_signal",  base.w_timing_signal,  EXT_STEP)
         biased_variants_zero_safe("w_motivation_gap", base.w_motivation_gap, EXT_STEP)
 
+        # ── Fixture Specificity Layer (Session 38) ───────────────────────────
+        FS_STEP = max(scale, 0.05)
+        biased_variants_zero_safe("w_venue_form",    base.w_venue_form,    FS_STEP)
+        biased_variants_zero_safe("w_team_home_adv", base.w_team_home_adv, FS_STEP)
+        biased_variants_zero_safe("w_opp_strength",  base.w_opp_strength,  FS_STEP)
+        biased_variants_zero_safe("w_season_stage",  base.w_season_stage,  FS_STEP)
+        biased_variants_zero_safe("w_rest_diff",     base.w_rest_diff,     FS_STEP)
+
         return candidates
+
+
+# ---------------------------------------------------------------------------
+# Outcome-specific param container
+# ---------------------------------------------------------------------------
+
+@dataclass
+class OutcomeParams:
+    """
+    Three separate LeagueParams — one per outcome (H, D, A).
+    Each evolves independently against its own population.
+    Seeded from the existing evolved params so evolution starts
+    from the best known position rather than cold.
+    """
+    H: LeagueParams = field(default_factory=LeagueParams)
+    D: LeagueParams = field(default_factory=LeagueParams)
+    A: LeagueParams = field(default_factory=LeagueParams)
+
+    def for_outcome(self, outcome: str) -> LeagueParams:
+        return {"H": self.H, "D": self.D, "A": self.A}[outcome]
+
+    def set_outcome(self, outcome: str, params: LeagueParams) -> None:
+        setattr(self, outcome, params)
     
+
+# ---------------------------------------------------------------------------
+# Outcome-specific param container
+# ---------------------------------------------------------------------------
+
+@dataclass
+class OutcomeParams:
+    """
+    Three separate LeagueParams — one per outcome (H, D, A).
+    Each evolves independently against its own population.
+    Seed from existing evolved params so evolution starts from best known position.
+    """
+    H: LeagueParams = field(default_factory=LeagueParams)
+    D: LeagueParams = field(default_factory=LeagueParams)
+    A: LeagueParams = field(default_factory=LeagueParams)
+
+    def for_outcome(self, outcome: str) -> LeagueParams:
+        return {"H": self.H, "D": self.D, "A": self.A}[outcome]
+
+    def set_outcome(self, outcome: str, params: LeagueParams) -> None:
+        setattr(self, outcome, params)

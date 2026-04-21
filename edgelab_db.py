@@ -86,6 +86,9 @@ PARAM_FIELDS = [
     "w_score_margin", "w_btts", "w_xg_draw", "composite_draw_boost",
     "w_ref_signal", "w_travel_load", "w_timing_signal", "w_motivation_gap",
     "w_weather_signal",
+    # Fixture Specificity Layer (Session 38)
+    "w_venue_form", "w_team_home_adv", "w_opp_strength",
+    "w_season_stage", "w_rest_diff",
 ]
 
 # Pre-match feature fields stored per fixture
@@ -99,6 +102,12 @@ FEATURE_FIELDS = [
     "draw_score",
     "weather_load", "travel_load", "motivation_gap", "timing_signal",
     "ref_signal",
+    # Fixture Specificity Layer (Session 38)
+    "home_form_home", "away_form_away",       # venue-split form
+    "home_adv_team",                           # team-specific home advantage
+    "home_form_adj", "away_form_adj",          # opponent-adjusted form
+    "season_stage",                            # season stage 0→1
+    "home_rest_days", "away_rest_days", "rest_days_diff",  # rest days
 ]
 
 
@@ -169,6 +178,14 @@ class EdgeLabDB:
                     logger.info(f"Migration: added fixtures.{f}")
                 except Exception:
                     pass
+
+        # Add actual_scoreline column for scoreline map logging
+        if "actual_scoreline" not in fx_cols and fx_cols:
+            try:
+                conn.execute("ALTER TABLE fixtures ADD COLUMN actual_scoreline TEXT")
+                logger.info("Migration: added fixtures.actual_scoreline")
+            except Exception:
+                pass
 
         # Add missing param columns to dpol_candidate_log
         for p in PARAM_FIELDS:
@@ -260,6 +277,7 @@ class EdgeLabDB:
             actual_result       TEXT,
             actual_home_goals   INTEGER,
             actual_away_goals   INTEGER,
+            actual_scoreline    TEXT,
             correct             INTEGER,
             completed_at        TIMESTAMP,
 
@@ -510,17 +528,19 @@ class EdgeLabDB:
                 return True
 
             correct = 1 if row["prediction"] == actual_result else 0
+            actual_scoreline = f"{actual_home_goals}-{actual_away_goals}"
 
             conn.execute(
                 """UPDATE fixtures
                    SET actual_result = ?,
                        actual_home_goals = ?,
                        actual_away_goals = ?,
+                       actual_scoreline = ?,
                        correct = ?,
                        completed_at = ?
                    WHERE fixture_id = ?""",
                 (actual_result, actual_home_goals, actual_away_goals,
-                 correct, datetime.utcnow().isoformat(), fixture_id)
+                 actual_scoreline, correct, datetime.utcnow().isoformat(), fixture_id)
             )
             conn.commit()
 
@@ -718,24 +738,45 @@ class EdgeLabDB:
         tier: Optional[str] = None,
         n: int = 200,
         completed_only: bool = True,
+        max_distance: Optional[float] = None,
     ) -> List[Dict]:
         """
-        Find the N most similar historical fixtures to a given feature vector.
-        Uses Euclidean distance across the numeric feature space.
+        Find similar historical fixtures to a given feature vector.
 
-        This is the nearest-neighbour lookup for Gary and DPOL.
-        Gary calls this to get pattern memory.
-        DPOL calls this to find historical fixtures with similar conditions.
+        Self-tuning variable neighbourhood — finds the natural elbow in the
+        distance distribution for each query fixture. The elbow is the point
+        where the gap between consecutive distances is largest relative to
+        local variation. Everything before it is the genuine neighbourhood.
+        Everything after is "close by rank, not by nature."
+
+        This means neighbourhood size is determined by the data, not a
+        parameter. A common fixture type in a dense region gets many
+        neighbours. A rare fixture in a sparse region gets few — and that
+        sparsity is itself meaningful signal.
+
+        Key design:
+        - Features z-score normalised across candidate pool — all features
+          contribute equally regardless of raw scale.
+        - Feature mask built per query — dormant signals (zero/null in the
+          query fixture) excluded so they don't pollute distance calculation.
+        - max_distance overrides self-tuning when explicit control is needed.
 
         Args:
-            feature_vector: dict of feature_name -> value for the target fixture
-            tier:           optional — restrict to same tier
-            n:              how many similar fixtures to return
-            completed_only: only return fixtures with known outcomes
+            feature_vector:  dict of feature_name -> value for target fixture
+            tier:            optional — restrict to same tier
+            n:               max results to return (hard cap in both modes)
+            completed_only:  only return fixtures with known outcomes
+            max_distance:    normalised distance threshold override.
+                             None (default) = self-tuning elbow detection.
 
         Returns:
-            List of fixture dicts sorted by similarity (closest first),
-            each including distance, actual_result, prediction, correct.
+            List of fixture dicts sorted by similarity (closest first).
+            Each dict includes:
+              _distance            — normalised Euclidean distance
+              _neighbourhood_size  — genuine neighbourhood size at elbow
+              _active_features     — number of features used
+              _cutoff_method       — 'elbow', 'manual', or 'all'
+              _cutoff_distance     — distance threshold used
         """
         where_clauses = []
         params = []
@@ -757,26 +798,159 @@ class EdgeLabDB:
         if not rows:
             return []
 
-        # Numeric features to use for distance calculation
-        distance_features = [
-            f for f in FEATURE_FIELDS
-            if f not in ("chaos_tier",) and feature_vector.get(f) is not None
+        row_dicts = [dict(r) for r in rows]
+
+        # ── Feature mask: only features meaningful for this specific fixture ──
+        # Signal fields (Phase 1/2) start at 0 when dormant. Exclude them from
+        # the distance calculation when they're not active in the query fixture.
+        # Core fields (form, gd, dti etc.) are always included if present.
+        # Activation threshold is derived per-feature from the pool's own spread —
+        # a value must exceed 5% of that feature's std to count as active.
+        # No hardcoded cutoff — the data sets its own scale.
+        SIGNAL_FIELDS = {
+            "weather_load", "travel_load", "motivation_gap",
+            "timing_signal", "ref_signal",
+        }
+        ALWAYS_INCLUDE = {
+            "home_form", "away_form", "home_gd", "away_gd",
+            "dti", "pred_margin", "pred_home_goals", "pred_away_goals",
+        }
+
+        import math
+
+        # Compute per-feature std across the full candidate pool first.
+        # Used both for activation thresholds and z-score normalisation.
+        all_numeric = [f for f in FEATURE_FIELDS if f != "chaos_tier"]
+        pool_vals: Dict[str, List[float]] = {f: [] for f in all_numeric}
+        for rd in row_dicts:
+            for f in all_numeric:
+                v = rd.get(f)
+                pool_vals[f].append(float(v) if v is not None else 0.0)
+
+        col_mean: Dict[str, float] = {}
+        col_std: Dict[str, float] = {}
+        for f in all_numeric:
+            vals = pool_vals[f]
+            mean = sum(vals) / len(vals)
+            variance = sum((v - mean) ** 2 for v in vals) / len(vals)
+            col_mean[f] = mean
+            col_std[f] = math.sqrt(variance) if variance > 0 else 1.0
+
+        # A feature is active in this fixture if its value exceeds 5% of the
+        # feature's own spread. Scales with the feature — no single cutoff.
+        ACTIVATION_FRACTION = 0.05
+
+        active_features = []
+        for f in all_numeric:
+            val = feature_vector.get(f)
+            if val is None:
+                continue
+            fval = float(val)
+            if f not in ALWAYS_INCLUDE:
+                threshold = col_std[f] * ACTIVATION_FRACTION
+                if abs(fval) < threshold:
+                    continue  # not meaningfully active for this fixture
+            active_features.append(f)
+
+        if not active_features:
+            return []
+
+        # ── Normalise query vector using pool stats ───────────────────────────
+        target_norm = [
+            (float(feature_vector.get(f, 0.0) or 0.0) - col_mean[f]) / col_std[f]
+            for f in active_features
         ]
 
-        results = []
-        target = [feature_vector.get(f, 0.0) or 0.0 for f in distance_features]
+        # ── Distance calculation ──────────────────────────────────────────────
+        scored = []
+        for rd in row_dicts:
+            candidate_norm = [
+                (float(rd.get(f) or 0.0) - col_mean[f]) / col_std[f]
+                for f in active_features
+            ]
+            dist = math.sqrt(
+                sum((a - b) ** 2 for a, b in zip(target_norm, candidate_norm))
+            )
+            rd["_distance"] = round(dist, 4)
+            scored.append(rd)
 
-        for row in rows:
-            row_dict = dict(row)
-            candidate = [row_dict.get(f, 0.0) or 0.0 for f in distance_features]
+        scored.sort(key=lambda x: x["_distance"])
 
-            # Euclidean distance
-            dist = sum((a - b) ** 2 for a, b in zip(target, candidate)) ** 0.5
-            row_dict["_distance"] = round(dist, 4)
-            results.append(row_dict)
+        # ── Threshold selection ───────────────────────────────────────────────
+        # If max_distance is explicitly provided, use it directly.
+        # Otherwise, find the natural elbow in the distance distribution —
+        # the point where the gap between consecutive distances is largest
+        # relative to local variation. Everything before the elbow is the
+        # genuine neighbourhood. Everything after is "similar by rank, not nature."
+        if max_distance is not None:
+            cutoff = max_distance
+            method = "manual"
+        else:
+            distances = [r["_distance"] for r in scored]
 
-        results.sort(key=lambda x: x["_distance"])
-        return results[:n]
+            if len(distances) < 4:
+                # Too few candidates to find an elbow — return all
+                cutoff = distances[-1] if distances else 0.0
+                method = "all"
+            else:
+                # Compute gaps between consecutive sorted distances.
+                # Normalise each gap by the local median gap in a window
+                # around it — this makes the elbow detection robust to
+                # overall scale differences between fixture types.
+                WINDOW = max(5, len(distances) // 20)  # 5% of candidates, min 5
+                gaps = [distances[i+1] - distances[i] for i in range(len(distances)-1)]
+
+                normalised_gaps = []
+                for i, gap in enumerate(gaps):
+                    lo = max(0, i - WINDOW)
+                    hi = min(len(gaps), i + WINDOW + 1)
+                    window_gaps = sorted(gaps[lo:hi])
+                    median_gap = window_gaps[len(window_gaps) // 2]
+                    norm = gap / median_gap if median_gap > 1e-9 else gap
+                    normalised_gaps.append(norm)
+
+                # Find the largest normalised gap — that's the elbow.
+                # No hardcoded minimum — derive the meaningful search start
+                # from the distance distribution itself. The first significant
+                # jump above the baseline noise level marks where the dense
+                # cluster ends. Baseline noise = median of all normalised gaps.
+                # We start searching from the first gap that exceeds it,
+                # meaning we skip the tight inner cluster automatically.
+                MAX_NEIGHBOURS = n  # never return more than the n cap
+
+                search_gaps = normalised_gaps[:MAX_NEIGHBOURS]
+                all_sorted_gaps = sorted(search_gaps)
+                baseline_noise = all_sorted_gaps[len(all_sorted_gaps) // 2]
+
+                # Find where we first leave the noise floor — that's our
+                # search start. Then find the biggest gap from there.
+                search_start = 1
+                for i, ng in enumerate(search_gaps):
+                    if ng > baseline_noise:
+                        search_start = i
+                        break
+
+                elbow_idx = search_start  # default: first gap above noise
+                best_gap = 0.0
+                for i in range(search_start, len(search_gaps)):
+                    if search_gaps[i] > best_gap:
+                        best_gap = search_gaps[i]
+                        elbow_idx = i
+
+                cutoff = distances[elbow_idx]
+                method = "elbow"
+
+        within = [r for r in scored if r["_distance"] <= cutoff]
+        neighbourhood_size = len(within)
+        results = within[:n]
+
+        for r in results:
+            r["_neighbourhood_size"] = neighbourhood_size
+            r["_active_features"] = len(active_features)
+            r["_cutoff_method"] = method
+            r["_cutoff_distance"] = round(cutoff, 4)
+
+        return results
 
     def get_outcome_distribution(
         self,
@@ -808,6 +982,160 @@ class EdgeLabDB:
             "D_pct": round(counts["D"] / total, 3) if total else 0,
             "A_pct": round(counts["A"] / total, 3) if total else 0,
         }
+
+    def get_scoreline_profiles(self, tier: str) -> Dict[str, Dict]:
+        """
+        Load all evolved scoreline param profiles for a tier.
+
+        Returns dict keyed by scoreline string e.g. '1-0', '2-1', '0-0'.
+        Each value contains the evolved params, density scores, outcome,
+        and population size.
+
+        Used by the prediction routing layer to match a live fixture against
+        historical scoreline populations and read their param signatures.
+        """
+        try:
+            with self._conn() as conn:
+                rows = conn.execute(
+                    """
+                    SELECT scoreline, outcome, population_size,
+                           evolved_density, baseline_density, delta_density,
+                           merged_to_outcome,
+                           """ + ", ".join(f"p_{p}" for p in PARAM_FIELDS) + """
+                    FROM scoreline_param_profiles
+                    WHERE tier = ?
+                    ORDER BY evolved_density DESC
+                    """,
+                    (tier,)
+                ).fetchall()
+        except Exception:
+            return {}
+
+        profiles = {}
+        col_names = (
+            ["scoreline", "outcome", "population_size",
+             "evolved_density", "baseline_density", "delta_density",
+             "merged_to_outcome"] +
+            [f"p_{p}" for p in PARAM_FIELDS]
+        )
+        for row in rows:
+            d = dict(zip(col_names, row))
+            scoreline = d.pop("scoreline")
+            # Rebuild LeagueParams from stored p_ columns
+            from edgelab_dpol import LeagueParams
+            lp_kwargs = {p: d.pop(f"p_{p}", 0.0) or 0.0 for p in PARAM_FIELDS}
+            d["params"] = LeagueParams(**lp_kwargs)
+            profiles[scoreline] = d
+        return profiles
+
+    def match_fixture_to_scorelines(
+        self,
+        tier: str,
+        fixture_features: Dict,
+        top_n: int = 5,
+    ) -> List[Dict]:
+        """
+        Given a live fixture's features, find the top N scoreline populations
+        it most resembles based on feature similarity.
+
+        Similarity is computed as cosine similarity between the fixture's
+        feature vector and each population's average feature signature
+        (approximated via the evolved params, which encode the param signature
+        surrounding that population).
+
+        Returns list of dicts: scoreline, outcome, similarity_score, params,
+        evolved_density, population_size — sorted by similarity descending.
+        """
+        profiles = self.get_scoreline_profiles(tier)
+        if not profiles:
+            return []
+
+        # Features to use for matching — static features available pre-match
+        match_features = [
+            "home_form", "away_form", "home_gd", "away_gd", "dti",
+            "home_form_home", "away_form_away", "home_adv_team",
+            "season_stage", "rest_days_diff", "odds_draw_prob",
+        ]
+
+        # Build fixture vector
+        fix_vec = []
+        active_features = []
+        for f in match_features:
+            v = fixture_features.get(f)
+            if v is not None and not (isinstance(v, float) and (v != v)):  # not NaN
+                fix_vec.append(float(v))
+                active_features.append(f)
+
+        if not fix_vec:
+            return []
+
+        import numpy as np
+        fix_arr = np.array(fix_vec)
+        fix_norm = np.linalg.norm(fix_arr)
+        if fix_norm == 0:
+            return []
+
+        results = []
+        for scoreline, profile in profiles.items():
+            if profile.get("merged_to_outcome"):
+                continue  # skip merged populations — they're not specific enough
+            p = profile["params"]
+
+            # Build profile vector from the same features using param signatures
+            # as proxies. w_form and w_gd capture form sensitivity,
+            # home_adv captures venue sensitivity, etc.
+            # This is a lightweight approximation — the full scoreline map
+            # encodes the density directly, but we don't have per-feature
+            # population means stored yet. Use density-weighted param similarity.
+            prof_vec = []
+            for f in active_features:
+                if f == "home_form":
+                    prof_vec.append(p.w_form)
+                elif f == "away_form":
+                    prof_vec.append(p.w_form)
+                elif f == "home_gd":
+                    prof_vec.append(p.w_gd)
+                elif f == "away_gd":
+                    prof_vec.append(p.w_gd)
+                elif f == "dti":
+                    prof_vec.append(p.dti_edge_scale)
+                elif f == "home_form_home":
+                    prof_vec.append(p.w_venue_form)
+                elif f == "away_form_away":
+                    prof_vec.append(p.w_venue_form)
+                elif f == "home_adv_team":
+                    prof_vec.append(p.w_team_home_adv)
+                elif f == "season_stage":
+                    prof_vec.append(p.w_season_stage)
+                elif f == "rest_days_diff":
+                    prof_vec.append(p.w_rest_diff)
+                elif f == "odds_draw_prob":
+                    prof_vec.append(p.w_draw_odds)
+                else:
+                    prof_vec.append(0.0)
+
+            prof_arr = np.array(prof_vec)
+            prof_norm = np.linalg.norm(prof_arr)
+            if prof_norm == 0:
+                similarity = 0.0
+            else:
+                similarity = float(np.dot(fix_arr, prof_arr) / (fix_norm * prof_norm))
+
+            # Weight similarity by evolved density — denser maps are more reliable
+            weighted_similarity = similarity * (profile.get("evolved_density", 0.0) or 0.0)
+
+            results.append({
+                "scoreline": scoreline,
+                "outcome": profile["outcome"],
+                "similarity": round(similarity, 4),
+                "weighted_similarity": round(weighted_similarity, 4),
+                "evolved_density": profile.get("evolved_density", 0.0),
+                "population_size": profile.get("population_size", 0),
+                "params": profile["params"],
+            })
+
+        results.sort(key=lambda x: x["weighted_similarity"], reverse=True)
+        return results[:top_n]
 
     # -----------------------------------------------------------------------
     # Queries — reporting and status
