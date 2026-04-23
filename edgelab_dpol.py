@@ -79,9 +79,13 @@ class LeagueParams:
     # --- Fixture Specificity Layer (session 38) ---
     w_venue_form:    float = 0.0  # venue-split form weight
     w_team_home_adv: float = 0.0  # team-specific home advantage weight
+    w_away_team_adv: float = 0.0  # away team's natural away strength weight
     w_opp_strength:  float = 0.0  # opponent-adjusted form weight
     w_season_stage:  float = 0.0  # season stage signal weight
     w_rest_diff:     float = 0.0  # rest days differential weight
+    # --- Layer Agreement Layer (session 41) ---
+    w_scoreline_agreement:  float = 0.0  # confidence adjustment: outcome layer vs scoreline layer agreement
+    w_scoreline_confidence: float = 0.0  # confidence adjustment: clarity of scoreline population match
 
 
 @dataclass
@@ -687,9 +691,14 @@ class DPOLManager:
         FS_STEP = max(scale, 0.05)
         biased_variants_zero_safe("w_venue_form",    base.w_venue_form,    FS_STEP)
         biased_variants_zero_safe("w_team_home_adv", base.w_team_home_adv, FS_STEP)
+        biased_variants_zero_safe("w_away_team_adv", base.w_away_team_adv, FS_STEP)
         biased_variants_zero_safe("w_opp_strength",  base.w_opp_strength,  FS_STEP)
         biased_variants_zero_safe("w_season_stage",  base.w_season_stage,  FS_STEP)
         biased_variants_zero_safe("w_rest_diff",     base.w_rest_diff,     FS_STEP)
+
+        # ── Layer Agreement Layer (Session 41) ───────────────────────────────
+        biased_variants_zero_safe("w_scoreline_agreement",  base.w_scoreline_agreement,  FS_STEP)
+        biased_variants_zero_safe("w_scoreline_confidence", base.w_scoreline_confidence, FS_STEP)
 
         return candidates
 

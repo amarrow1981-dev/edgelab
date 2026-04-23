@@ -26,6 +26,10 @@ from edgelab_dpol import DPOLManager, LeagueParams, OutcomeParams
 from edgelab_config import (load_params, save_params, show_config,
                              check_dataset_hash, save_dataset_hash,
                              load_outcome_params, save_outcome_params)
+from edgelab_scoreline_maps import (
+    run_scoreline_maps_for_tier,
+    init_scoreline_table,
+)
 
 # Fixture intelligence database — logs every candidate DPOL evaluates
 try:
@@ -56,9 +60,12 @@ def engine_params_to_league_params(ep):
         w_timing_signal=ep.w_timing_signal, w_motivation_gap=ep.w_motivation_gap,
         w_venue_form=getattr(ep, "w_venue_form", 0.0),
         w_team_home_adv=getattr(ep, "w_team_home_adv", 0.0),
+        w_away_team_adv=getattr(ep, "w_away_team_adv", 0.0),
         w_opp_strength=getattr(ep, "w_opp_strength", 0.0),
         w_season_stage=getattr(ep, "w_season_stage", 0.0),
         w_rest_diff=getattr(ep, "w_rest_diff", 0.0),
+        w_scoreline_agreement=getattr(ep, "w_scoreline_agreement", 0.0),
+        w_scoreline_confidence=getattr(ep, "w_scoreline_confidence", 0.0),
     )
 
 
@@ -80,9 +87,12 @@ def league_params_to_engine_params(lp):
         w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
         w_venue_form=getattr(lp, "w_venue_form", 0.0),
         w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
+        w_away_team_adv=getattr(lp, "w_away_team_adv", 0.0),
         w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
         w_season_stage=getattr(lp, "w_season_stage", 0.0),
         w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
+        w_scoreline_agreement=getattr(lp, "w_scoreline_agreement", 0.0),
+        w_scoreline_confidence=getattr(lp, "w_scoreline_confidence", 0.0),
         form_window=5,
     )
 
@@ -139,6 +149,50 @@ def run_dpol_for_tier(df_tier, tier, window_rounds, boldness, save=True, signals
     df_tier = assign_match_round(df_tier)
     df_features_full = prepare_dataframe(df_tier.copy(), starting_engine_params)
 
+    # Pre-compute scoreline match columns once — same pattern as features.
+    if _DB_AVAILABLE and _db is not None:
+        try:
+            _profiles = _db.get_scoreline_profiles(tier)
+            if _profiles:
+                print(f"  Pre-computing scoreline match for {len(df_features_full):,} rows...", end="", flush=True)
+                sl_outcomes = []
+                sl_densities = []
+                for _, row in df_features_full.iterrows():
+                    fixture_features = {
+                        "home_form": row.get("home_form"),
+                        "away_form": row.get("away_form"),
+                        "home_gd": row.get("home_gd"),
+                        "away_gd": row.get("away_gd"),
+                        "dti": row.get("dti"),
+                        "home_form_home": row.get("home_form_home"),
+                        "away_form_away": row.get("away_form_away"),
+                        "home_adv_team": row.get("home_adv_team"),
+                        "season_stage": row.get("season_stage"),
+                        "rest_days_diff": row.get("rest_days_diff"),
+                        "odds_draw_prob": row.get("odds_draw_prob"),
+                    }
+                    matches = _db.match_fixture_to_scorelines(tier=tier, fixture_features=fixture_features, top_n=2)
+                    if matches:
+                        outcomes = [m["outcome"] for m in matches[:2]]
+                        sl_outcomes.append(outcomes[0] if len(set(outcomes)) == 1 else "")
+                        sl_densities.append(float(matches[0].get("similarity", 0.5)))
+                    else:
+                        sl_outcomes.append("")
+                        sl_densities.append(0.5)
+                df_features_full["top_scoreline_match_outcome"] = sl_outcomes
+                df_features_full["top_scoreline_match_density"] = sl_densities
+                print(f" done")
+            else:
+                df_features_full["top_scoreline_match_outcome"] = ""
+                df_features_full["top_scoreline_match_density"] = 0.5
+        except Exception as _sl_err:
+            logger.warning(f"Scoreline pre-pass failed: {_sl_err}")
+            df_features_full["top_scoreline_match_outcome"] = ""
+            df_features_full["top_scoreline_match_density"] = 0.5
+    else:
+        df_features_full["top_scoreline_match_outcome"] = ""
+        df_features_full["top_scoreline_match_density"] = 0.5
+
     # Global guard sample — used for the regression check on every candidate.
     # Evaluating the full tier dataset every round is prohibitively slow on large
     # tiers (E0: 14,683 matches × hundreds of rounds = millions of evals).
@@ -174,6 +228,14 @@ def run_dpol_for_tier(df_tier, tier, window_rounds, boldness, save=True, signals
             w_timing_signal=getattr(league_params, "w_timing_signal", 0.0),
             w_motivation_gap=getattr(league_params, "w_motivation_gap", 0.0),
             w_weather_signal=getattr(league_params, "w_weather_signal", 0.0),
+            w_venue_form=getattr(league_params, "w_venue_form", 0.0),
+            w_team_home_adv=getattr(league_params, "w_team_home_adv", 0.0),
+            w_away_team_adv=getattr(league_params, "w_away_team_adv", 0.0),
+            w_opp_strength=getattr(league_params, "w_opp_strength", 0.0),
+            w_season_stage=getattr(league_params, "w_season_stage", 0.0),
+            w_rest_diff=getattr(league_params, "w_rest_diff", 0.0),
+            w_scoreline_agreement=getattr(league_params, "w_scoreline_agreement", 0.0),
+            w_scoreline_confidence=getattr(league_params, "w_scoreline_confidence", 0.0),
             form_window=5,
         )
         feat_rows = df_features_full.loc[df_features_full.index.isin(df_window.index)].copy()
@@ -394,6 +456,53 @@ def run_outcome_specific_for_tier(df_tier, tier, window_rounds, boldness, save=T
     starting_ep = league_params_to_engine_params(seed_lp)
     df_features_full = prepare_dataframe(df_tier.copy(), starting_ep)
 
+    # Pre-compute scoreline match columns once — same pattern as features.
+    # top_scoreline_match_outcome and top_scoreline_match_density are added to
+    # every row so predict_dataframe can read them during DPOL candidate evaluation.
+    # Without this, w_scoreline_agreement and w_scoreline_confidence can never activate.
+    if _DB_AVAILABLE and _db is not None:
+        try:
+            _profiles = _db.get_scoreline_profiles(tier)
+            if _profiles:
+                print(f"  Pre-computing scoreline match for {len(df_features_full):,} rows...", end="", flush=True)
+                sl_outcomes = []
+                sl_densities = []
+                for _, row in df_features_full.iterrows():
+                    fixture_features = {
+                        "home_form": row.get("home_form"),
+                        "away_form": row.get("away_form"),
+                        "home_gd": row.get("home_gd"),
+                        "away_gd": row.get("away_gd"),
+                        "dti": row.get("dti"),
+                        "home_form_home": row.get("home_form_home"),
+                        "away_form_away": row.get("away_form_away"),
+                        "home_adv_team": row.get("home_adv_team"),
+                        "season_stage": row.get("season_stage"),
+                        "rest_days_diff": row.get("rest_days_diff"),
+                        "odds_draw_prob": row.get("odds_draw_prob"),
+                    }
+                    matches = _db.match_fixture_to_scorelines(tier=tier, fixture_features=fixture_features, top_n=2)
+                    if matches:
+                        outcomes = [m["outcome"] for m in matches[:2]]
+                        sl_outcomes.append(outcomes[0] if len(set(outcomes)) == 1 else "")
+                        sl_densities.append(float(matches[0].get("similarity", 0.5)))
+                    else:
+                        sl_outcomes.append("")
+                        sl_densities.append(0.5)
+                df_features_full["top_scoreline_match_outcome"] = sl_outcomes
+                df_features_full["top_scoreline_match_density"] = sl_densities
+                print(f" done")
+            else:
+                df_features_full["top_scoreline_match_outcome"] = ""
+                df_features_full["top_scoreline_match_density"] = 0.5
+        except Exception as _sl_err:
+            logger.warning(f"Scoreline pre-pass failed: {_sl_err}")
+            df_features_full["top_scoreline_match_outcome"] = ""
+            df_features_full["top_scoreline_match_density"] = 0.5
+    else:
+        df_features_full["top_scoreline_match_outcome"] = ""
+        df_features_full["top_scoreline_match_density"] = 0.5
+
     # Global guard: 5000 sample — larger than standard to give D population headroom
     GLOBAL_GUARD_SAMPLE = 5000
     if len(df_features_full) > GLOBAL_GUARD_SAMPLE:
@@ -427,9 +536,12 @@ def run_outcome_specific_for_tier(df_tier, tier, window_rounds, boldness, save=T
             w_weather_signal=getattr(league_params, "w_weather_signal", 0.0),
             w_venue_form=getattr(league_params, "w_venue_form", 0.0),
             w_team_home_adv=getattr(league_params, "w_team_home_adv", 0.0),
+            w_away_team_adv=getattr(league_params, "w_away_team_adv", 0.0),
             w_opp_strength=getattr(league_params, "w_opp_strength", 0.0),
             w_season_stage=getattr(league_params, "w_season_stage", 0.0),
             w_rest_diff=getattr(league_params, "w_rest_diff", 0.0),
+            w_scoreline_agreement=getattr(league_params, "w_scoreline_agreement", 0.0),
+            w_scoreline_confidence=getattr(league_params, "w_scoreline_confidence", 0.0),
             form_window=5,
         )
         feat_rows = df_features_full.loc[df_features_full.index.isin(df_window.index)].copy()
@@ -510,7 +622,7 @@ def run_outcome_specific_for_tier(df_tier, tier, window_rounds, boldness, save=T
     # Show key param differences between H, D, A
     print(f"\n  PARAM DIVERGENCE (H vs D vs A)")
     key_params = ["w_form", "w_gd", "home_adv", "draw_margin", "coin_dti_thresh",
-                  "w_venue_form", "w_team_home_adv", "w_opp_strength"]
+                  "w_venue_form", "w_team_home_adv", "w_away_team_adv", "w_opp_strength"]
     for param in key_params:
         h_val = getattr(outcome_params.H, param)
         d_val = getattr(outcome_params.D, param)
@@ -549,6 +661,8 @@ def main():
                         help="Lock core params — search signal weights only. Requires saved evolved params.")
     parser.add_argument("--outcome-specific", action="store_true",
                         help="Run outcome-specific evolution — separate H/D/A param sets. Seeds from evolved params.")
+    parser.add_argument("--with-scoreline-maps", action="store_true",
+                        help="After outcome-specific evolution, run scoreline map evolution for each tier seeded from evolved H/D/A params. Requires --outcome-specific.")
     parser.add_argument("--seasons", type=int, default=None,
                         help="Limit evolution to most recent N seasons (test mode). Default: all seasons.")
     args = parser.parse_args()
@@ -564,6 +678,8 @@ def main():
         print(f"  Mode       : SIGNALS ONLY (core params locked)")
     if args.outcome_specific:
         print(f"  Mode       : OUTCOME-SPECIFIC (H/D/A separate param sets)")
+    if getattr(args, 'with_scoreline_maps', False):
+        print(f"  Mode       : + SCORELINE MAPS (863 profiles evolved per tier after H/D/A)")
 
     print("\n  Loading CSVs...")
     # Build tier filter for load_all_csvs — avoids loading 400k+ harvester rows
@@ -616,6 +732,29 @@ def main():
             continue
         if args.outcome_specific:
             result = run_outcome_specific_for_tier(df_tier=df_tier, tier=tier, window_rounds=args.window, boldness=args.boldness, save=True, max_seasons=args.seasons)
+            # If scoreline maps requested, run immediately after for this tier
+            # seeded from the just-evolved outcome params
+            if getattr(args, 'with_scoreline_maps', False) and result is not None:
+                print(f"\n  ── Scoreline maps for {tier} (seeded from evolved outcome params)")
+                outcome_params = result.get("outcome_params")
+                if outcome_params is not None:
+                    import os as _os
+                    _db_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "edgelab.db")
+                    init_scoreline_table(_db_path)
+                    from datetime import datetime as _dt
+                    _run_id = _dt.utcnow().strftime("%Y%m%d_%H%M%S")
+                    # Pass outcome params so scoreline maps seed H pops from H params,
+                    # D pops from D params, A pops from A params
+                    run_scoreline_maps_for_tier(
+                        df_tier=df_tier,
+                        tier=tier,
+                        db_path=_db_path,
+                        run_id=_run_id,
+                        show_populations=False,
+                        outcome_params=outcome_params,
+                    )
+                else:
+                    print(f"  ⚠  No outcome params returned for {tier} — scoreline maps skipped")
         elif args.signals_only:
             result = run_dpol_for_tier(df_tier=df_tier, tier=tier, window_rounds=args.window, boldness=args.boldness, save=True, signals_only=True)
         else:

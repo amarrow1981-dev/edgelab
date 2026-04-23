@@ -74,6 +74,39 @@ class EngineParams:
     composite_draw_boost: float = 0.0 # additive boost to draw_score when composite
                                       # gate fires: odds_draw_prob > 0.288 AND at
                                       # least one supporting signal in draw-positive band
+    # --- Fixture Specificity Layer (session 38) ---
+    # All start at 0.0 — inert until DPOL activates.
+    # These replace or supplement the averaging assumptions in the core engine.
+    w_venue_form:    float = 0.0  # venue-split form weight vs blended form
+                                   # home_form_home / away_form_away replace home_form / away_form
+                                   # when this weight is active
+    w_team_home_adv: float = 0.0  # team-specific home advantage weight
+                                   # replaces flat home_adv when active
+                                   # derived from each team's actual historical home record
+    w_away_team_adv: float = 0.0  # away team's natural away strength weight
+                                   # away team's historical away win rate vs their home win rate
+                                   # Man City away at Burnley ≠ Man City away at Chelsea
+                                   # evolved independently from w_team_home_adv — DPOL finds balance
+    w_opp_strength:  float = 0.0  # opponent-adjusted form weight
+                                   # weights each result in form window by opponent's GD
+                                   # a win against a strong team scores higher than vs weak
+    w_season_stage:  float = 0.0  # season stage signal weight
+                                   # early season (low) vs late season (high) context
+                                   # captures motivation, fatigue, nothing-to-play-for
+    w_rest_diff:     float = 0.0  # rest days differential weight
+                                   # positive = home team more rested, negative = away more rested
+    # --- Layer Agreement Layer (session 41) ---
+    # All start at 0.0 — inert until DPOL activates.
+    # These allow DPOL to learn how much to trust agreement/disagreement
+    # between the outcome layer and the scoreline map layer.
+    w_scoreline_agreement:  float = 0.0  # confidence adjustment when outcome layer and
+                                          # scoreline map layer agree or disagree on outcome.
+                                          # agree → boost confidence; disagree → reduce.
+                                          # read from top_scoreline_match outcome vs prediction.
+    w_scoreline_confidence: float = 0.0  # confidence adjustment based on how clearly the
+                                          # fixture matched one scoreline population vs many.
+                                          # high clarity match → boost; scattered → reduce.
+                                          # read from top_scoreline_match density score.
 
 
 # ---------------------------------------------------------------------------
@@ -908,6 +941,125 @@ def predict_dataframe(df: pd.DataFrame, params: EngineParams) -> pd.DataFrame:
 
     confidence = (score.abs() / (params.draw_margin * 4 + 0.001)).clip(0, 1).round(4)
 
+    # --- Fixture Specificity Layer (Session 38) ---
+    # All signals start at 0.0 — inert until DPOL activates them.
+    # Each replaces or supplements an averaging assumption in the core engine.
+
+    # Venue-split form: replace blended form with venue-specific form
+    # when w_venue_form > 0. Blends: (1-w)*blended + w*venue_split
+    if getattr(params, "w_venue_form", 0.0) > 0:
+        wvf = params.w_venue_form
+        if "home_form_home" in df.columns and "away_form_away" in df.columns:
+            venue_form_diff = (
+                (df["home_form_home"] * wvf + df["home_form"] * (1 - wvf)) -
+                (df["away_form_away"] * wvf + df["away_form"] * (1 - wvf))
+            ) * params.w_form * dti_damp
+            # Delta vs original form_diff
+            orig_form_diff = (df["home_form"] - df["away_form"]) * params.w_form * dti_damp
+            score = score + (venue_form_diff - orig_form_diff)
+
+    # Team-specific home advantage: blend with flat home_adv
+    if getattr(params, "w_team_home_adv", 0.0) > 0:
+        wtha = params.w_team_home_adv
+        if "home_adv_team" in df.columns:
+            team_ha = df["home_adv_team"].fillna(0.0)
+            # Replace flat home_adv contribution partially with team-specific
+            flat_ha  = params.home_adv * dti_ha_damp
+            team_ha_contrib = (
+                params.home_adv * (1 - wtha) + team_ha * wtha
+            ) * dti_ha_damp
+            score = score + (team_ha_contrib - flat_ha)
+
+    # Away team natural away strength: subtracts from home advantage.
+    # away_adv_team is (away_win_rate - home_win_rate) * 0.5 for the away team.
+    # Most teams: negative (worse away than home) → small reduction to score.
+    # Strong away sides (Man City): less negative or positive → larger reduction.
+    # Evolved independently from w_team_home_adv — DPOL finds their balance.
+    if getattr(params, "w_away_team_adv", 0.0) > 0:
+        wata = params.w_away_team_adv
+        if "away_adv_team" in df.columns:
+            away_adv = df["away_adv_team"].fillna(0.0)
+            # away_adv is signed: positive = strong away side, negative = weak away side.
+            # Subtract from score: a strong away side erodes the home advantage.
+            score = score - wata * away_adv * dti_ha_damp
+
+    # Opponent-adjusted form: blend with raw form
+    if getattr(params, "w_opp_strength", 0.0) > 0:
+        wos = params.w_opp_strength
+        if "home_form_adj" in df.columns and "away_form_adj" in df.columns:
+            adj_form_diff = (
+                (df["home_form_adj"] * wos + df["home_form"] * (1 - wos)) -
+                (df["away_form_adj"] * wos + df["away_form"] * (1 - wos))
+            ) * params.w_form * dti_damp
+            orig_form_diff = (df["home_form"] - df["away_form"]) * params.w_form * dti_damp
+            score = score + (adj_form_diff - orig_form_diff)
+
+    # Season stage: late-season dampens signal (both teams settled / motivations unclear)
+    if getattr(params, "w_season_stage", 0.0) > 0:
+        wss = params.w_season_stage
+        if "season_stage" in df.columns:
+            # Early season (stage~0): slight boost to home signal (predictable)
+            # Late season (stage~1): slight dampening (unpredictable motivation)
+            stage = df["season_stage"].fillna(0.5)
+            stage_factor = 1.0 - (wss * (stage - 0.5))  # dampens in late season
+            score = score * stage_factor
+
+    # Rest days differential: more rested team has slight advantage
+    if getattr(params, "w_rest_diff", 0.0) > 0:
+        wrd = params.w_rest_diff
+        if "rest_days_diff" in df.columns:
+            # Positive diff = home more rested = boost to home score
+            # Normalise: 7 days diff is large, cap at 14 days
+            rest_signal = (df["rest_days_diff"].fillna(0.0) / 14.0).clip(-1.0, 1.0)
+            score = score + wrd * rest_signal
+
+    # Re-evaluate predictions after fixture specificity adjustments
+    if any([
+        getattr(params, "w_venue_form", 0.0),
+        getattr(params, "w_team_home_adv", 0.0),
+        getattr(params, "w_away_team_adv", 0.0),
+        getattr(params, "w_opp_strength", 0.0),
+        getattr(params, "w_season_stage", 0.0),
+        getattr(params, "w_rest_diff", 0.0),
+    ]):
+        pred = pd.Series("D", index=df.index)
+        pred[score >  params.draw_margin] = "H"
+        pred[score < -params.draw_margin] = "A"
+        coin_mask_fs = (pred == "D") & (df["dti"] >= params.coin_dti_thresh)
+        pred[coin_mask_fs & (score > 0)] = "H"
+        pred[coin_mask_fs & (score < 0)] = "A"
+        # Recompute confidence with updated score
+        confidence = (score.abs() / (params.draw_margin * 4 + 0.001)).clip(0, 1).round(4)
+
+    # --- Layer Agreement Layer (Session 41) ---
+    # w_scoreline_agreement: adjusts confidence based on whether the outcome
+    # layer (pred) agrees with the scoreline map layer (top_scoreline_match outcome).
+    # agree → positive confidence adjustment; disagree → negative.
+    # w_scoreline_confidence: adjusts confidence based on how clearly the fixture
+    # matched a scoreline population. Uses top_scoreline_match_density if present.
+    # Both start at 0.0 — inert until DPOL activates them.
+    w_sa = getattr(params, "w_scoreline_agreement", 0.0)
+    w_sc = getattr(params, "w_scoreline_confidence", 0.0)
+
+    if (w_sa > 0 or w_sc > 0):
+        confidence = confidence.copy()
+
+        if w_sa > 0 and "top_scoreline_match_outcome" in df.columns:
+            sl_outcome = df["top_scoreline_match_outcome"].fillna("")
+            agree_mask    = (sl_outcome != "") & (sl_outcome == pred)
+            disagree_mask = (sl_outcome != "") & (sl_outcome != pred)
+            confidence = (confidence + w_sa * agree_mask.astype(float)).clip(0, 1)
+            confidence = (confidence - w_sa * disagree_mask.astype(float)).clip(0, 1)
+
+        if w_sc > 0 and "top_scoreline_match_density" in df.columns:
+            # density score is in [0, 1] range — 0.5 is neutral midpoint.
+            # above 0.5 = clear match → boost; below 0.5 = scattered → reduce.
+            density = df["top_scoreline_match_density"].fillna(0.5)
+            density_signal = (density - 0.5) * 2.0  # rescale to [-1, 1]
+            confidence = (confidence + w_sc * density_signal).clip(0, 1)
+
+        confidence = confidence.round(4)
+
     df["prediction"] = pred
     df["confidence"]  = confidence
     df["chaos_tier"]  = df["dti"].apply(assign_chaos_tier)
@@ -1075,8 +1227,310 @@ def compute_upset_score(df: pd.DataFrame, flag_thresh: float = 0.60) -> pd.DataF
 
 
 
+# ---------------------------------------------------------------------------
+# Fixture Specificity Layer (Session 38)
+# Five new feature functions — all additive, nothing breaks existing pipeline.
+# Each adds new columns alongside existing ones.
+# New params in EngineParams (all 0.0 default) gate each signal in predict_dataframe.
+# ---------------------------------------------------------------------------
+
+def compute_venue_split_form(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
+    """
+    Venue-specific form: last N home games for home team, last N away games
+    for away team. Current blended form treats all venues as equivalent.
+
+    Adds: home_form_home, away_form_away
+    Falls back to 0.5 neutral until sufficient venue history exists.
+    """
+    df = df.copy().reset_index(drop=True)
+
+    home_results: Dict[str, List[float]] = {}
+    away_results: Dict[str, List[float]] = {}
+    home_form_home = [0.5] * len(df)
+    away_form_away = [0.5] * len(df)
+
+    hts  = df["HomeTeam"].tolist()
+    ats  = df["AwayTeam"].tolist()
+    ftrs = df["FTR"].tolist()
+
+    for i in range(len(df)):
+        ht, at, ftr = hts[i], ats[i], ftrs[i]
+        home_form_home[i] = _rolling_form(home_results.get(ht, []), window)
+        away_form_away[i] = _rolling_form(away_results.get(at, []), window)
+        _update_history(home_results, ht,
+                        1.0 if ftr == "H" else (0.4 if ftr == "D" else 0.0))
+        _update_history(away_results, at,
+                        1.0 if ftr == "A" else (0.4 if ftr == "D" else 0.0))
+
+    df["home_form_home"] = home_form_home
+    df["away_form_away"] = away_form_away
+    return df
+
+
+def compute_team_home_advantage(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Per-team home advantage from actual historical record.
+    Replaces flat home_adv=0.25 when w_team_home_adv is active.
+
+    Adds: home_adv_team — differential between team's home win rate
+    and away win rate, normalised to [-0.5, 0.5].
+    Falls back to 0.0 (neutral) until MIN_GAMES threshold met.
+    """
+    df = df.copy().reset_index(drop=True)
+    MIN_GAMES = 5
+
+    team_home_wins:  Dict[str, int] = {}
+    team_home_games: Dict[str, int] = {}
+    team_away_wins:  Dict[str, int] = {}
+    team_away_games: Dict[str, int] = {}
+    home_adv_vals = [0.0] * len(df)
+
+    hts  = df["HomeTeam"].tolist()
+    ats  = df["AwayTeam"].tolist()
+    ftrs = df["FTR"].tolist()
+
+    for i in range(len(df)):
+        ht, at, ftr = hts[i], ats[i], ftrs[i]
+
+        ht_hg = team_home_games.get(ht, 0)
+        ht_ag = team_away_games.get(ht, 0)
+
+        if ht_hg >= MIN_GAMES and ht_ag >= MIN_GAMES:
+            home_rate = team_home_wins.get(ht, 0) / ht_hg
+            away_rate = team_away_wins.get(ht, 0) / ht_ag
+            home_adv_vals[i] = round((home_rate - away_rate) * 0.5, 4)
+
+        team_home_games[ht] = ht_hg + 1
+        team_away_games[at] = team_away_games.get(at, 0) + 1
+        if ftr == "H":
+            team_home_wins[ht] = team_home_wins.get(ht, 0) + 1
+        elif ftr == "A":
+            team_away_wins[at] = team_away_wins.get(at, 0) + 1
+
+    df["home_adv_team"] = home_adv_vals
+    return df
+
+
+def compute_away_team_advantage(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Per-team away strength from actual historical record.
+    Mirror of compute_team_home_advantage — but from the away team's perspective.
+
+    Man City away at Burnley is not the same as Man City away at Chelsea.
+    This captures the away team's natural away record independent of who
+    they are facing. Combined with home_adv_team, DPOL finds the balance:
+    how much does the home team's home strength matter vs the away team's
+    away strength?
+
+    Adds: away_adv_team — the away team's historical away win rate minus
+    their home win rate, normalised to [-0.5, 0.5].
+    Positive = strong away side (wins more away than home — rare but real).
+    Negative = poor away side (wins more at home than away — most teams).
+    Falls back to 0.0 (neutral) until MIN_GAMES threshold met.
+
+    Note: sign convention matches home_adv_team — both express the team's
+    venue advantage as a positive number when the venue is beneficial.
+    A strong away side (e.g. Man City away) has a less negative or positive
+    away_adv_team, which reduces the effective home advantage in the score.
+    """
+    df = df.copy().reset_index(drop=True)
+    MIN_GAMES = 5
+
+    team_home_wins:  Dict[str, int] = {}
+    team_home_games: Dict[str, int] = {}
+    team_away_wins:  Dict[str, int] = {}
+    team_away_games: Dict[str, int] = {}
+    away_adv_vals = [0.0] * len(df)
+
+    hts  = df["HomeTeam"].tolist()
+    ats  = df["AwayTeam"].tolist()
+    ftrs = df["FTR"].tolist()
+
+    for i in range(len(df)):
+        ht, at, ftr = hts[i], ats[i], ftrs[i]
+
+        at_ag = team_away_games.get(at, 0)
+        at_hg = team_home_games.get(at, 0)
+
+        if at_ag >= MIN_GAMES and at_hg >= MIN_GAMES:
+            away_rate = team_away_wins.get(at, 0) / at_ag
+            home_rate = team_home_wins.get(at, 0) / at_hg
+            # away_rate - home_rate: positive = better away than home (strong away side)
+            # negative = worse away than home (most teams)
+            away_adv_vals[i] = round((away_rate - home_rate) * 0.5, 4)
+
+        team_home_games[ht] = team_home_games.get(ht, 0) + 1
+        team_away_games[at] = at_ag + 1
+        if ftr == "H":
+            team_home_wins[ht] = team_home_wins.get(ht, 0) + 1
+        elif ftr == "A":
+            team_away_wins[at] = team_away_wins.get(at, 0) + 1
+
+    df["away_adv_team"] = away_adv_vals
+    return df
+
+
+def compute_opponent_adjusted_form(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
+    """
+    Form weighted by opponent strength. A win against a top-4 side counts
+    more than a win against a relegation team.
+
+    Opponent strength proxy: opponent's rolling GD at time of match,
+    normalised across the dataset to [0,1].
+
+    Requires home_gd, away_gd already computed.
+    Adds: home_form_adj, away_form_adj
+    """
+    if "home_gd" not in df.columns or "away_gd" not in df.columns:
+        df = df.copy()
+        df["home_form_adj"] = df.get("home_form", pd.Series(0.5, index=df.index))
+        df["away_form_adj"] = df.get("away_form", pd.Series(0.5, index=df.index))
+        return df
+
+    df = df.copy().reset_index(drop=True)
+
+    all_gd = pd.concat([df["home_gd"], df["away_gd"]])
+    gd_min = float(all_gd.min())
+    gd_range = float(all_gd.max() - gd_min)
+    if gd_range == 0:
+        gd_range = 1.0
+
+    def gd_to_strength(gd: float) -> float:
+        return float(np.clip((gd - gd_min) / gd_range, 0.0, 1.0))
+
+    team_adj_history: Dict[str, List[Tuple[float, float]]] = {}
+    home_form_adj = [0.5] * len(df)
+    away_form_adj = [0.5] * len(df)
+
+    hts  = df["HomeTeam"].tolist()
+    ats  = df["AwayTeam"].tolist()
+    ftrs = df["FTR"].tolist()
+    hgds = df["home_gd"].tolist()
+    agds = df["away_gd"].tolist()
+
+    for i in range(len(df)):
+        ht, at, ftr = hts[i], ats[i], ftrs[i]
+        h_gd, a_gd = hgds[i], agds[i]
+
+        for team, hist, form_arr, result_val, opp_gd in [
+            (ht, team_adj_history.get(ht, []), home_form_adj,
+             1.0 if ftr == "H" else (0.4 if ftr == "D" else 0.0), a_gd),
+            (at, team_adj_history.get(at, []), away_form_adj,
+             1.0 if ftr == "A" else (0.4 if ftr == "D" else 0.0), h_gd),
+        ]:
+            if len(hist) >= 3:
+                recent = hist[-window:]
+                weights = [w for _, w in recent]
+                results = [r for r, _ in recent]
+                total_w = sum(weights)
+                if total_w > 0:
+                    val = sum(r * w for r, w in zip(results, weights)) / total_w
+                else:
+                    val = _rolling_form(results, window)
+            else:
+                val = 0.5
+
+            if team == ht:
+                home_form_adj[i] = round(val, 4)
+            else:
+                away_form_adj[i] = round(val, 4)
+
+            if team not in team_adj_history:
+                team_adj_history[team] = []
+            team_adj_history[team].append((result_val, gd_to_strength(opp_gd)))
+
+    df["home_form_adj"] = home_form_adj
+    df["away_form_adj"] = away_form_adj
+    return df
+
+
+def compute_season_stage(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Season stage: how far through the season each match is.
+    0.0 = first gameweek, 1.0 = final gameweek.
+
+    Requires parsed_date and season columns.
+    Adds: season_stage, matches_played_home, matches_played_away
+    """
+    df = df.copy().reset_index(drop=True)
+
+    season_stage        = [0.5] * len(df)
+    matches_played_home = [0]   * len(df)
+    matches_played_away = [0]   * len(df)
+
+    if "parsed_date" not in df.columns or "season" not in df.columns:
+        df["season_stage"]        = season_stage
+        df["matches_played_home"] = matches_played_home
+        df["matches_played_away"] = matches_played_away
+        return df
+
+    for season in df["season"].unique():
+        season_mask = df["season"] == season
+        season_df   = df[season_mask]
+        dates       = sorted(season_df["parsed_date"].unique())
+        max_round   = len(dates)
+        date_to_round = {d: i + 1 for i, d in enumerate(dates)}
+        team_match_count: Dict[str, int] = {}
+
+        for idx in season_df.index:
+            rd = date_to_round.get(df.at[idx, "parsed_date"], 1)
+            season_stage[idx] = round(rd / max_round, 4) if max_round > 0 else 0.5
+            ht = df.at[idx, "HomeTeam"]
+            at = df.at[idx, "AwayTeam"]
+            matches_played_home[idx] = team_match_count.get(ht, 0)
+            matches_played_away[idx] = team_match_count.get(at, 0)
+            team_match_count[ht] = team_match_count.get(ht, 0) + 1
+            team_match_count[at] = team_match_count.get(at, 0) + 1
+
+    df["season_stage"]        = season_stage
+    df["matches_played_home"] = matches_played_home
+    df["matches_played_away"] = matches_played_away
+    return df
+
+
+def compute_rest_days(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Days since each team's last match. Derivable purely from parsed_date.
+    3 days rest vs 7 days rest is a measurable fixture congestion signal.
+
+    Adds: home_rest_days, away_rest_days, rest_days_diff
+    Falls back to 7.0 (typical between-match gap) when no prior match.
+    """
+    df = df.copy().reset_index(drop=True)
+    NEUTRAL = 7.0
+
+    if "parsed_date" not in df.columns:
+        df["home_rest_days"] = NEUTRAL
+        df["away_rest_days"] = NEUTRAL
+        df["rest_days_diff"] = 0.0
+        return df
+
+    team_last: Dict[str, any] = {}
+    home_rest = [NEUTRAL] * len(df)
+    away_rest = [NEUTRAL] * len(df)
+
+    hts   = df["HomeTeam"].tolist()
+    ats   = df["AwayTeam"].tolist()
+    dates = df["parsed_date"].tolist()
+
+    for i in range(len(df)):
+        ht, at, d = hts[i], ats[i], dates[i]
+        home_rest[i] = float(max(0, (d - team_last[ht]).days)) if ht in team_last else NEUTRAL
+        away_rest[i] = float(max(0, (d - team_last[at]).days)) if at in team_last else NEUTRAL
+        team_last[ht] = d
+        team_last[at] = d
+
+    hr = np.array(home_rest)
+    ar = np.array(away_rest)
+    df["home_rest_days"] = hr.round(1)
+    df["away_rest_days"] = ar.round(1)
+    df["rest_days_diff"] = (hr - ar).round(1)
+    return df
+
+
 def prepare_dataframe(df: pd.DataFrame, params: EngineParams) -> pd.DataFrame:
-    """Full pipeline: compute form, GD, DTI, draw intelligence, external signals, then predict."""
+    """Full pipeline: compute form, GD, DTI, draw intelligence, external signals,
+    fixture specificity features, then predict."""
     df = compute_form(df, window=params.form_window)
     df = compute_goal_diff(df, window=params.form_window)
     df = compute_dti(df)
@@ -1090,11 +1544,16 @@ def prepare_dataframe(df: pd.DataFrame, params: EngineParams) -> pd.DataFrame:
         df = compute_phase1_signals(df)
     except ImportError:
         pass   # signals module optional — engine works without it
-    # Phase 2 external signals — weather (column added by weather bot pre-run)
-    # weather_load column is pre-computed and joined before engine runs —
-    # no live API call inside predict loop. If column absent, engine continues unaffected.
+    # Phase 2 external signals — weather (pre-computed, joined before engine runs)
     if "weather_load" not in df.columns:
         df["weather_load"] = 0.0
+    # Fixture Specificity Layer (Session 38) — all additive, inert until DPOL activates
+    df = compute_venue_split_form(df, window=params.form_window)
+    df = compute_team_home_advantage(df)
+    df = compute_away_team_advantage(df)
+    df = compute_opponent_adjusted_form(df, window=params.form_window)
+    df = compute_season_stage(df)
+    df = compute_rest_days(df)
     df = predict_dataframe(df, params)
     df = compute_upset_score(df)   # runs after predict — reads prediction + confidence
     return df
@@ -1172,6 +1631,9 @@ def make_pred_fn(base_df: pd.DataFrame) -> Callable:
             draw_score_thresh=getattr(league_params, "draw_score_thresh", 0.55),
             w_xg_draw=getattr(league_params, "w_xg_draw", 0.0),
             composite_draw_boost=getattr(league_params, "composite_draw_boost", 0.0),
+            w_scoreline_agreement=getattr(league_params, "w_scoreline_agreement", 0.0),
+            w_scoreline_confidence=getattr(league_params, "w_scoreline_confidence", 0.0),
+            w_away_team_adv=getattr(league_params, "w_away_team_adv", 0.0),
         )
         # Find the start index of the window in the full base_df,
         # then prepend enough prior rows to warm up the rolling calculations.
