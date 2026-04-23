@@ -86,12 +86,9 @@ def get_engine_params(tier: str) -> EngineParams:
         w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
         w_venue_form=getattr(lp, "w_venue_form", 0.0),
         w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
-        w_away_team_adv=getattr(lp, "w_away_team_adv", 0.0),
         w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
         w_season_stage=getattr(lp, "w_season_stage", 0.0),
         w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
-        w_scoreline_agreement=getattr(lp, "w_scoreline_agreement", 0.0),
-        w_scoreline_confidence=getattr(lp, "w_scoreline_confidence", 0.0),
         form_window=5,
     )
 
@@ -121,12 +118,9 @@ def _lp_to_ep(lp) -> EngineParams:
         w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
         w_venue_form=getattr(lp, "w_venue_form", 0.0),
         w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
-        w_away_team_adv=getattr(lp, "w_away_team_adv", 0.0),
         w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
         w_season_stage=getattr(lp, "w_season_stage", 0.0),
         w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
-        w_scoreline_agreement=getattr(lp, "w_scoreline_agreement", 0.0),
-        w_scoreline_confidence=getattr(lp, "w_scoreline_confidence", 0.0),
         form_window=5,
     )
 
@@ -231,12 +225,21 @@ def predict_upcoming_outcome_routed(
     df_feat = df_combined[df_combined["_upcoming"] == True].copy()
     df_feat = df_feat.drop(columns=["_upcoming"])
 
-    # ── Scoreline profile matching — pre-pass before predict calls ──────────
-    # Populate top_scoreline_match_outcome and top_scoreline_match_density on
-    # df_feat BEFORE the per-outcome predict_dataframe calls so the engine can
-    # read them when w_scoreline_agreement / w_scoreline_confidence are active.
+    # Get predictions from each outcome param set
+    for outcome in ("H", "D", "A"):
+        p = outcome_params[outcome]
+        result = _pred_df(df_feat, p)
+        df_feat[f"pred_{outcome}"] = result["prediction"]
+        df_feat[f"conf_{outcome}"] = result["confidence"]
+
+    # Routing decision — row by row
+    final_preds = []
+    final_confs = []
+    routed = []
+    top_scorelines = []
+
+    # Load scoreline profiles for this tier (once, outside the loop)
     scoreline_profiles_available = False
-    _sdb = None
     try:
         from edgelab_db import EdgeLabDB
         _sdb = EdgeLabDB()
@@ -245,16 +248,21 @@ def predict_upcoming_outcome_routed(
     except Exception:
         _profiles_cache = {}
 
-    sl_outcomes_col = []
-    sl_densities_col = []
-    sl_top_col = []
-
     for _, row in df_feat.iterrows():
+        pred_H = row["pred_H"]
+        pred_D = row["pred_D"]
+        pred_A = row["pred_A"]
+        conf_H = row["conf_H"]
+        conf_D = row["conf_D"]
+        conf_A = row["conf_A"]
+        draw_score = row.get("draw_score", 0.0)
+        odds_draw = row.get("odds_draw_prob", 0.0)
+
+        # Scoreline profile matching — find which historical scoreline
+        # populations this fixture most resembles
         top_scoreline = None
         scoreline_outcome_signal = None
-        top_density = 0.5  # neutral fallback
-
-        if scoreline_profiles_available and _sdb is not None:
+        if scoreline_profiles_available:
             try:
                 fixture_features = {
                     "home_form": row.get("home_form"),
@@ -276,48 +284,12 @@ def predict_upcoming_outcome_routed(
                 )
                 if matches:
                     top_scoreline = matches[0]["scoreline"]
-                    top_density = float(matches[0].get("similarity", 0.5))
+                    # If top 2 matches are both same outcome, treat as signal
                     outcomes = [m["outcome"] for m in matches[:2]]
                     if len(set(outcomes)) == 1:
                         scoreline_outcome_signal = outcomes[0]
             except Exception:
                 pass
-
-        sl_outcomes_col.append(scoreline_outcome_signal or "")
-        sl_densities_col.append(top_density)
-        sl_top_col.append(top_scoreline or "")
-
-    df_feat["top_scoreline_match_outcome"]  = sl_outcomes_col
-    df_feat["top_scoreline_match_density"]  = sl_densities_col
-    # top_scoreline_match (display string) will be finalised after routing
-
-    # ── Per-outcome predictions ──────────────────────────────────────────────
-    # df_feat now has top_scoreline_match_outcome and top_scoreline_match_density
-    # so predict_dataframe will pick them up for w_scoreline_agreement/confidence.
-    for outcome in ("H", "D", "A"):
-        p = outcome_params[outcome]
-        result = _pred_df(df_feat, p)
-        df_feat[f"pred_{outcome}"] = result["prediction"]
-        df_feat[f"conf_{outcome}"] = result["confidence"]
-
-    # ── Routing decision — row by row ────────────────────────────────────────
-    final_preds = []
-    final_confs = []
-    routed = []
-    top_scorelines = []
-
-    for idx, row in df_feat.iterrows():
-        pred_H = row["pred_H"]
-        pred_D = row["pred_D"]
-        pred_A = row["pred_A"]
-        conf_H = row["conf_H"]
-        conf_D = row["conf_D"]
-        conf_A = row["conf_A"]
-        draw_score = row.get("draw_score", 0.0)
-        odds_draw = row.get("odds_draw_prob", 0.0)
-
-        top_scoreline = row.get("top_scoreline_match_outcome", "") or ""
-        scoreline_outcome_signal = top_scoreline if top_scoreline else None
 
         # D route — D params call D AND supporting draw evidence
         draw_evidence = (draw_score or 0) > 0.3 or (odds_draw or 0) > 0.28
@@ -329,7 +301,7 @@ def predict_upcoming_outcome_routed(
             final_preds.append("D")
             final_confs.append(conf_D)
             routed.append(True)
-            top_scorelines.append(row.get("top_scoreline_match_outcome", ""))
+            top_scorelines.append(top_scoreline or "")
             continue
 
         # H/A route — use whichever calls its own outcome with more confidence
@@ -361,7 +333,7 @@ def predict_upcoming_outcome_routed(
             final_confs.append(base_conf)
 
         routed.append(False)
-        top_scorelines.append(row.get("top_scoreline_match_outcome", ""))
+        top_scorelines.append(top_scoreline or "")
 
     df_feat["prediction"] = final_preds
     df_feat["confidence"] = final_confs
