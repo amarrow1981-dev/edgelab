@@ -87,8 +87,10 @@ PARAM_FIELDS = [
     "w_ref_signal", "w_travel_load", "w_timing_signal", "w_motivation_gap",
     "w_weather_signal",
     # Fixture Specificity Layer (Session 38)
-    "w_venue_form", "w_team_home_adv", "w_opp_strength",
+    "w_venue_form", "w_team_home_adv", "w_away_team_adv", "w_opp_strength",
     "w_season_stage", "w_rest_diff",
+    # Layer Agreement Layer (Session 41)
+    "w_scoreline_agreement", "w_scoreline_confidence",
 ]
 
 # Pre-match feature fields stored per fixture
@@ -104,7 +106,7 @@ FEATURE_FIELDS = [
     "ref_signal",
     # Fixture Specificity Layer (Session 38)
     "home_form_home", "away_form_away",       # venue-split form
-    "home_adv_team",                           # team-specific home advantage
+    "home_adv_team", "away_adv_team",         # team-specific venue advantage
     "home_form_adj", "away_form_adj",          # opponent-adjusted form
     "season_stage",                            # season stage 0→1
     "home_rest_days", "away_rest_days", "rest_days_diff",  # rest days
