@@ -297,12 +297,27 @@ class AccaBuilder:
         return df
 
     def _qualify_result(self, df: pd.DataFrame) -> pd.DataFrame:
-        """H/A picks. High conviction. Low-to-medium chaos only. No draws."""
+        """H/A picks. High conviction. Low-to-medium chaos only. No draws.
+        If pred_scoreline is present, it must not be a draw scoreline — hard gate.
+        A pick can't be in the result acca if the score model predicts a draw.
+        """
         df = df[df["prediction"].isin(["H", "A"])]
         df = df[df["confidence"] >= CONVICTION_HIGH]
         df = df[df["chaos_tier"].isin({"LOW", "MED"})]
         df = df[df["upset_flag"] == 0]
-        return df
+
+        qualifying = []
+        for _, row in df.iterrows():
+            pred_sc = row.get("pred_scoreline", None)
+            if isinstance(pred_sc, float) and math.isnan(pred_sc):
+                pred_sc = None
+            if pred_sc is not None:
+                parsed = _parse_scoreline(pred_sc)
+                if parsed is not None and parsed[0] == parsed[1]:
+                    continue  # score model predicts a draw — exclude from result acca
+            qualifying.append(row.name)
+
+        return df.loc[qualifying] if qualifying else df.iloc[0:0]
 
     def _qualify_result_btts(self, df: pd.DataFrame) -> pd.DataFrame:
         """

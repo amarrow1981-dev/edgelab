@@ -22,6 +22,7 @@ Gary's brief on each upset pick focuses on:
 
 import os
 import sys
+import json
 import argparse
 import logging
 from datetime import datetime
@@ -163,6 +164,7 @@ def main():
 
     # Collect output for saving
     output_lines = []
+    notes_json = {}  # for HTML generator companion file
 
     for idx, (_, row) in enumerate(upsets.iterrows(), 1):
         header = format_pick_header(row, idx)
@@ -194,6 +196,11 @@ def main():
                 print(gary_line)
                 output_lines.append(gary_line)
 
+                # Store for HTML generator JSON
+                date_med = pd.to_datetime(date, dayfirst=True).strftime("%-d %b") if sys.platform != "win32" else pd.to_datetime(date, dayfirst=True).strftime("%#d %b")
+                note_key = f"{home}_{away}_{date_med}"
+                notes_json[note_key] = response
+
             except Exception as e:
                 err = f"  [Gary] Error: {e}\n"
                 print(err)
@@ -216,6 +223,15 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
     print(f"  Saved: {out_path}\n")
+
+    # Save companion JSON for HTML generator — keyed by HomeTeam_AwayTeam_date
+    # Only saved if Gary ran (otherwise notes are empty, no point saving)
+    if use_gary and notes_json:
+        predictions_dir = os.path.dirname(os.path.abspath(args.predictions))
+        json_path = os.path.join(predictions_dir, f"{run_date}_upset_notes.json")
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(notes_json, f, ensure_ascii=False, indent=2)
+        print(f"  Notes JSON: {json_path}\n")
 
 
 if __name__ == "__main__":
