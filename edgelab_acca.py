@@ -51,6 +51,7 @@ BTTS_SCORELINE_BOOST = 0.10   # gary_rating bonus when pred_scoreline agrees wit
 
 CLEAN_SHEET_CONF_MIN = 0.60   # win confidence minimum for clean sheet pick
 MARKET_EDGE_MIN      = 0.05   # minimum engine edge vs bookmaker implied prob (5pp)
+RESULT_ACCA_MIN_IMPLIED_PROB = 0.40  # result acca: exclude long shots below 40% implied prob
 
 DRAW_CONF_MIN        = CONVICTION_HIGH   # draws need high conviction only
 NO_SCORE_DRAW_CONF   = 0.55             # 0-0 threshold — scoreline gate does heavy lifting
@@ -308,6 +309,7 @@ class AccaBuilder:
 
         qualifying = []
         for _, row in df.iterrows():
+            pred = row["prediction"]
             pred_sc = row.get("pred_scoreline", None)
             if isinstance(pred_sc, float) and math.isnan(pred_sc):
                 pred_sc = None
@@ -315,6 +317,10 @@ class AccaBuilder:
                 parsed = _parse_scoreline(pred_sc)
                 if parsed is not None and parsed[0] == parsed[1]:
                     continue  # score model predicts a draw — exclude from result acca
+            # Exclude long shots: implied prob below threshold (e.g. Charlton-type picks)
+            _, _, _, implied_prob, _ = self._get_odds_and_edge(row, pred)
+            if implied_prob is not None and implied_prob < RESULT_ACCA_MIN_IMPLIED_PROB:
+                continue
             qualifying.append(row.name)
 
         return df.loc[qualifying] if qualifying else df.iloc[0:0]
