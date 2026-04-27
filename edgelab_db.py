@@ -1038,106 +1038,127 @@ class EdgeLabDB:
     ) -> List[Dict]:
         """
         Given a live fixture's features, find the top N scoreline populations
-        it most resembles based on feature similarity.
+        it most resembles.
 
-        Similarity is computed as cosine similarity between the fixture's
-        feature vector and each population's average feature signature
-        (approximated via the evolved params, which encode the param signature
-        surrounding that population).
+        Similarity is computed by running the fixture through each population's
+        evolved params via the engine and reading the confidence score for that
+        population's own outcome. This is a like-for-like comparison in the same
+        space — the engine scores the fixture as if it were a match from that
+        population, and confidence is how strongly those params fire on it.
 
-        Returns list of dicts: scoreline, outcome, similarity_score, params,
+        This replaces the previous cosine similarity approach which compared
+        fixture feature values against param weights — apples and oranges.
+
+        Returns list of dicts: scoreline, outcome, similarity (confidence score),
         evolved_density, population_size — sorted by similarity descending.
         """
         profiles = self.get_scoreline_profiles(tier)
         if not profiles:
             return []
 
-        # Features to use for matching — static features available pre-match
-        match_features = [
-            "home_form", "away_form", "home_gd", "away_gd", "dti",
-            "home_form_home", "away_form_away", "home_adv_team",
-            "season_stage", "rest_days_diff", "odds_draw_prob",
-        ]
-
-        # Build fixture vector
-        fix_vec = []
-        active_features = []
-        for f in match_features:
-            v = fixture_features.get(f)
-            if v is not None and not (isinstance(v, float) and (v != v)):  # not NaN
-                fix_vec.append(float(v))
-                active_features.append(f)
-
-        if not fix_vec:
+        # Lazy import inside function — avoids circular import at module level.
+        # edgelab_engine does not import edgelab_db so this is safe.
+        try:
+            import pandas as pd
+            import numpy as np
+            from edgelab_engine import EngineParams, predict_dataframe
+        except Exception:
             return []
 
-        import numpy as np
-        fix_arr = np.array(fix_vec)
-        fix_norm = np.linalg.norm(fix_arr)
-        if fix_norm == 0:
-            return []
+        # Build a single-row dataframe from fixture features.
+        # Only columns that predict_dataframe actually reads are needed.
+        # Missing values default to 0.0 — same as the engine's fallback behaviour.
+        feature_row = {
+            "home_form":      fixture_features.get("home_form", 0.0) or 0.0,
+            "away_form":      fixture_features.get("away_form", 0.0) or 0.0,
+            "home_gd":        fixture_features.get("home_gd", 0.0) or 0.0,
+            "away_gd":        fixture_features.get("away_gd", 0.0) or 0.0,
+            "dti":            fixture_features.get("dti", 0.5) or 0.5,
+            "home_form_home": fixture_features.get("home_form_home", 0.0) or 0.0,
+            "away_form_away": fixture_features.get("away_form_away", 0.0) or 0.0,
+            "home_adv_team":  fixture_features.get("home_adv_team", 0.0) or 0.0,
+            "away_adv_team":  fixture_features.get("away_adv_team", 0.0) or 0.0,
+            "home_form_adj":  fixture_features.get("home_form_adj", 0.0) or 0.0,
+            "away_form_adj":  fixture_features.get("away_form_adj", 0.0) or 0.0,
+            "season_stage":   fixture_features.get("season_stage", 0.5) or 0.5,
+            "rest_days_diff": fixture_features.get("rest_days_diff", 0.0) or 0.0,
+            "odds_draw_prob": fixture_features.get("odds_draw_prob", 0.0) or 0.0,
+            "draw_score":     0.0,
+            "FTR":            "?",   # sentinel — engine skips eval on this
+        }
+        df_fix = pd.DataFrame([feature_row])
 
         results = []
         for scoreline, profile in profiles.items():
             if profile.get("merged_to_outcome"):
-                continue  # skip merged populations — they're not specific enough
-            p = profile["params"]
+                continue  # skip merged populations — not specific enough
 
-            # Build profile vector from the same features using param signatures
-            # as proxies. w_form and w_gd capture form sensitivity,
-            # home_adv captures venue sensitivity, etc.
-            # This is a lightweight approximation — the full scoreline map
-            # encodes the density directly, but we don't have per-feature
-            # population means stored yet. Use density-weighted param similarity.
-            prof_vec = []
-            for f in active_features:
-                if f == "home_form":
-                    prof_vec.append(p.w_form)
-                elif f == "away_form":
-                    prof_vec.append(p.w_form)
-                elif f == "home_gd":
-                    prof_vec.append(p.w_gd)
-                elif f == "away_gd":
-                    prof_vec.append(p.w_gd)
-                elif f == "dti":
-                    prof_vec.append(p.dti_edge_scale)
-                elif f == "home_form_home":
-                    prof_vec.append(p.w_venue_form)
-                elif f == "away_form_away":
-                    prof_vec.append(p.w_venue_form)
-                elif f == "home_adv_team":
-                    prof_vec.append(p.w_team_home_adv)
-                elif f == "season_stage":
-                    prof_vec.append(p.w_season_stage)
-                elif f == "rest_days_diff":
-                    prof_vec.append(p.w_rest_diff)
-                elif f == "odds_draw_prob":
-                    prof_vec.append(p.w_draw_odds)
-                else:
-                    prof_vec.append(0.0)
+            outcome = profile["outcome"]
+            lp = profile["params"]
 
-            prof_arr = np.array(prof_vec)
-            prof_norm = np.linalg.norm(prof_arr)
-            if prof_norm == 0:
-                similarity = 0.0
-            else:
-                similarity = float(np.dot(fix_arr, prof_arr) / (fix_norm * prof_norm))
+            # Convert LeagueParams to EngineParams
+            ep = EngineParams(
+                w_form=lp.w_form,
+                w_gd=lp.w_gd,
+                home_adv=lp.home_adv,
+                dti_edge_scale=lp.dti_edge_scale,
+                dti_ha_scale=lp.dti_ha_scale,
+                draw_margin=lp.draw_margin,
+                coin_dti_thresh=lp.coin_dti_thresh,
+                draw_pull=getattr(lp, "draw_pull", 0.0),
+                dti_draw_lock=getattr(lp, "dti_draw_lock", 999.0),
+                w_draw_odds=getattr(lp, "w_draw_odds", 0.0),
+                w_draw_tendency=getattr(lp, "w_draw_tendency", 0.0),
+                w_h2h_draw=getattr(lp, "w_h2h_draw", 0.0),
+                draw_score_thresh=getattr(lp, "draw_score_thresh", 0.55),
+                w_score_margin=getattr(lp, "w_score_margin", 0.0),
+                w_btts=getattr(lp, "w_btts", 0.0),
+                w_xg_draw=getattr(lp, "w_xg_draw", 0.0),
+                composite_draw_boost=getattr(lp, "composite_draw_boost", 0.0),
+                w_ref_signal=getattr(lp, "w_ref_signal", 0.0),
+                w_travel_load=getattr(lp, "w_travel_load", 0.0),
+                w_timing_signal=getattr(lp, "w_timing_signal", 0.0),
+                w_motivation_gap=getattr(lp, "w_motivation_gap", 0.0),
+                w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
+                w_venue_form=getattr(lp, "w_venue_form", 0.0),
+                w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
+                w_away_team_adv=getattr(lp, "w_away_team_adv", 0.0),
+                w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
+                w_season_stage=getattr(lp, "w_season_stage", 0.0),
+                w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
+                form_window=5,
+            )
 
-            # Weight similarity by evolved density — denser maps are more reliable
-            weighted_similarity = similarity * (profile.get("evolved_density", 0.0) or 0.0)
+            try:
+                df_result = predict_dataframe(df_fix.copy(), ep)
+                pred = df_result["prediction"].iloc[0]
+                conf = float(df_result["confidence"].iloc[0])
+            except Exception:
+                continue
+
+            # Similarity = confidence score when this population's params are
+            # applied to the fixture AND the prediction matches the population's
+            # own outcome. If the params don't even agree on the outcome for this
+            # fixture, similarity is still recorded but will rank lower (conf < 0.5).
+            # We do not pre-filter by outcome — let the score determine the ranking.
+            similarity = conf if pred == outcome else conf * 0.5
+
+            # Weight by evolved density — higher density = more reliable population
+            density = profile.get("evolved_density", 0.0) or 0.0
+            weighted_similarity = similarity * max(density, 0.01)
 
             results.append({
-                "scoreline": scoreline,
-                "outcome": profile["outcome"],
-                "similarity": round(similarity, 4),
+                "scoreline":        scoreline,
+                "outcome":          outcome,
+                "similarity":       round(similarity, 4),
                 "weighted_similarity": round(weighted_similarity, 4),
-                "evolved_density": profile.get("evolved_density", 0.0),
-                "population_size": profile.get("population_size", 0),
-                "params": profile["params"],
+                "evolved_density":  density,
+                "population_size":  profile.get("population_size", 0),
+                "params":           lp,
             })
 
         results.sort(key=lambda x: x["weighted_similarity"], reverse=True)
-        return results[:top_n]
+        return results[:top_n] if top_n else results
 
     # -----------------------------------------------------------------------
     # Queries — reporting and status
