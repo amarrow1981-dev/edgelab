@@ -47,6 +47,119 @@ logger = logging.getLogger("EdgeLabRunner")
 logger.setLevel(logging.INFO)
 
 
+def _precompute_scoreline_columns(df_features_full, tier):
+    """
+    Pre-compute top_scoreline_match_outcome and top_scoreline_match_density
+    for all rows in df_features_full using batched vectorised engine calls.
+
+    Instead of calling match_fixture_to_scorelines row-by-row (N fixtures x
+    M profiles = N*M engine calls), we run each profile against the full
+    dataframe in one predict_dataframe call (M vectorised calls total).
+    This is orders of magnitude faster.
+
+    Returns df_features_full with two new columns added in-place.
+    """
+    if not _DB_AVAILABLE or _db is None:
+        df_features_full["top_scoreline_match_outcome"] = ""
+        df_features_full["top_scoreline_match_density"] = 0.5
+        return df_features_full
+
+    try:
+        import pandas as pd
+        import numpy as np
+        from edgelab_engine import EngineParams, predict_dataframe
+        from edgelab_db import PARAM_FIELDS
+
+        profiles = _db.get_scoreline_profiles(tier)
+        if not profiles:
+            df_features_full["top_scoreline_match_outcome"] = ""
+            df_features_full["top_scoreline_match_density"] = 0.5
+            return df_features_full
+
+        n_rows = len(df_features_full)
+        n_profiles = sum(1 for p in profiles.values() if not p.get("merged_to_outcome"))
+        print(f"  Pre-computing scoreline match: {n_rows:,} rows x {n_profiles} profiles (batched)...", end="", flush=True)
+
+        # Build a working dataframe with the columns predict_dataframe needs.
+        # We reuse the already-prepared features — just add the sentinel FTR column.
+        df_work = df_features_full.copy()
+        if "FTR" not in df_work.columns:
+            df_work["FTR"] = "?"
+        if "draw_score" not in df_work.columns:
+            df_work["draw_score"] = 0.0
+
+        # Accumulate best similarity per row across all profiles.
+        best_similarity = np.zeros(n_rows, dtype=float)
+        best_outcome = [""] * n_rows
+
+        for scoreline, profile in profiles.items():
+            if profile.get("merged_to_outcome"):
+                continue
+
+            outcome = profile["outcome"]
+            lp = profile["params"]
+            density = float(profile.get("evolved_density", 0.0) or 0.0)
+
+            ep = EngineParams(
+                w_form=lp.w_form,
+                w_gd=lp.w_gd,
+                home_adv=lp.home_adv,
+                dti_edge_scale=lp.dti_edge_scale,
+                dti_ha_scale=lp.dti_ha_scale,
+                draw_margin=lp.draw_margin,
+                coin_dti_thresh=lp.coin_dti_thresh,
+                draw_pull=getattr(lp, "draw_pull", 0.0),
+                dti_draw_lock=getattr(lp, "dti_draw_lock", 999.0),
+                w_draw_odds=getattr(lp, "w_draw_odds", 0.0),
+                w_draw_tendency=getattr(lp, "w_draw_tendency", 0.0),
+                w_h2h_draw=getattr(lp, "w_h2h_draw", 0.0),
+                draw_score_thresh=getattr(lp, "draw_score_thresh", 0.55),
+                w_score_margin=getattr(lp, "w_score_margin", 0.0),
+                w_btts=getattr(lp, "w_btts", 0.0),
+                w_xg_draw=getattr(lp, "w_xg_draw", 0.0),
+                composite_draw_boost=getattr(lp, "composite_draw_boost", 0.0),
+                w_ref_signal=getattr(lp, "w_ref_signal", 0.0),
+                w_travel_load=getattr(lp, "w_travel_load", 0.0),
+                w_timing_signal=getattr(lp, "w_timing_signal", 0.0),
+                w_motivation_gap=getattr(lp, "w_motivation_gap", 0.0),
+                w_weather_signal=getattr(lp, "w_weather_signal", 0.0),
+                w_venue_form=getattr(lp, "w_venue_form", 0.0),
+                w_team_home_adv=getattr(lp, "w_team_home_adv", 0.0),
+                w_away_team_adv=getattr(lp, "w_away_team_adv", 0.0),
+                w_opp_strength=getattr(lp, "w_opp_strength", 0.0),
+                w_season_stage=getattr(lp, "w_season_stage", 0.0),
+                w_rest_diff=getattr(lp, "w_rest_diff", 0.0),
+                form_window=5,
+            )
+
+            try:
+                df_result = predict_dataframe(df_work.copy(), ep)
+                preds = df_result["prediction"].values
+                confs = df_result["confidence"].astype(float).values
+            except Exception:
+                continue
+
+            # Similarity = confidence if prediction matches population outcome, else halved
+            similarity = np.where(preds == outcome, confs, confs * 0.5)
+            weighted = similarity * max(density, 0.01)
+
+            # Update best per row
+            improved = weighted > best_similarity
+            best_similarity = np.where(improved, weighted, best_similarity)
+            best_outcome = [outcome if improved[i] else best_outcome[i] for i in range(n_rows)]
+
+        df_features_full["top_scoreline_match_outcome"] = best_outcome
+        df_features_full["top_scoreline_match_density"] = best_similarity.tolist()
+        print(f" done ({n_profiles} profiles)")
+
+    except Exception as e:
+        logger.warning(f"Scoreline pre-pass (batched) failed: {e}")
+        df_features_full["top_scoreline_match_outcome"] = ""
+        df_features_full["top_scoreline_match_density"] = 0.5
+
+    return df_features_full
+
+
 def engine_params_to_league_params(ep):
     return LeagueParams(
         w_form=ep.w_form, w_gd=ep.w_gd, home_adv=ep.home_adv,
@@ -149,49 +262,8 @@ def run_dpol_for_tier(df_tier, tier, window_rounds, boldness, save=True, signals
     df_tier = assign_match_round(df_tier)
     df_features_full = prepare_dataframe(df_tier.copy(), starting_engine_params)
 
-    # Pre-compute scoreline match columns once — same pattern as features.
-    if _DB_AVAILABLE and _db is not None:
-        try:
-            _profiles = _db.get_scoreline_profiles(tier)
-            if _profiles:
-                print(f"  Pre-computing scoreline match for {len(df_features_full):,} rows...", end="", flush=True)
-                sl_outcomes = []
-                sl_densities = []
-                for _, row in df_features_full.iterrows():
-                    fixture_features = {
-                        "home_form": row.get("home_form"),
-                        "away_form": row.get("away_form"),
-                        "home_gd": row.get("home_gd"),
-                        "away_gd": row.get("away_gd"),
-                        "dti": row.get("dti"),
-                        "home_form_home": row.get("home_form_home"),
-                        "away_form_away": row.get("away_form_away"),
-                        "home_adv_team": row.get("home_adv_team"),
-                        "season_stage": row.get("season_stage"),
-                        "rest_days_diff": row.get("rest_days_diff"),
-                        "odds_draw_prob": row.get("odds_draw_prob"),
-                    }
-                    matches = _db.match_fixture_to_scorelines(tier=tier, fixture_features=fixture_features, top_n=2)
-                    if matches:
-                        outcomes = [m["outcome"] for m in matches[:2]]
-                        sl_outcomes.append(outcomes[0] if len(set(outcomes)) == 1 else "")
-                        sl_densities.append(float(matches[0].get("similarity", 0.5)))
-                    else:
-                        sl_outcomes.append("")
-                        sl_densities.append(0.5)
-                df_features_full["top_scoreline_match_outcome"] = sl_outcomes
-                df_features_full["top_scoreline_match_density"] = sl_densities
-                print(f" done")
-            else:
-                df_features_full["top_scoreline_match_outcome"] = ""
-                df_features_full["top_scoreline_match_density"] = 0.5
-        except Exception as _sl_err:
-            logger.warning(f"Scoreline pre-pass failed: {_sl_err}")
-            df_features_full["top_scoreline_match_outcome"] = ""
-            df_features_full["top_scoreline_match_density"] = 0.5
-    else:
-        df_features_full["top_scoreline_match_outcome"] = ""
-        df_features_full["top_scoreline_match_density"] = 0.5
+    # Pre-compute scoreline match columns once — batched vectorised version.
+    df_features_full = _precompute_scoreline_columns(df_features_full, tier)
 
     # Global guard sample — used for the regression check on every candidate.
     # Evaluating the full tier dataset every round is prohibitively slow on large
@@ -456,52 +528,8 @@ def run_outcome_specific_for_tier(df_tier, tier, window_rounds, boldness, save=T
     starting_ep = league_params_to_engine_params(seed_lp)
     df_features_full = prepare_dataframe(df_tier.copy(), starting_ep)
 
-    # Pre-compute scoreline match columns once — same pattern as features.
-    # top_scoreline_match_outcome and top_scoreline_match_density are added to
-    # every row so predict_dataframe can read them during DPOL candidate evaluation.
-    # Without this, w_scoreline_agreement and w_scoreline_confidence can never activate.
-    if _DB_AVAILABLE and _db is not None:
-        try:
-            _profiles = _db.get_scoreline_profiles(tier)
-            if _profiles:
-                print(f"  Pre-computing scoreline match for {len(df_features_full):,} rows...", end="", flush=True)
-                sl_outcomes = []
-                sl_densities = []
-                for _, row in df_features_full.iterrows():
-                    fixture_features = {
-                        "home_form": row.get("home_form"),
-                        "away_form": row.get("away_form"),
-                        "home_gd": row.get("home_gd"),
-                        "away_gd": row.get("away_gd"),
-                        "dti": row.get("dti"),
-                        "home_form_home": row.get("home_form_home"),
-                        "away_form_away": row.get("away_form_away"),
-                        "home_adv_team": row.get("home_adv_team"),
-                        "season_stage": row.get("season_stage"),
-                        "rest_days_diff": row.get("rest_days_diff"),
-                        "odds_draw_prob": row.get("odds_draw_prob"),
-                    }
-                    matches = _db.match_fixture_to_scorelines(tier=tier, fixture_features=fixture_features, top_n=2)
-                    if matches:
-                        outcomes = [m["outcome"] for m in matches[:2]]
-                        sl_outcomes.append(outcomes[0] if len(set(outcomes)) == 1 else "")
-                        sl_densities.append(float(matches[0].get("similarity", 0.5)))
-                    else:
-                        sl_outcomes.append("")
-                        sl_densities.append(0.5)
-                df_features_full["top_scoreline_match_outcome"] = sl_outcomes
-                df_features_full["top_scoreline_match_density"] = sl_densities
-                print(f" done")
-            else:
-                df_features_full["top_scoreline_match_outcome"] = ""
-                df_features_full["top_scoreline_match_density"] = 0.5
-        except Exception as _sl_err:
-            logger.warning(f"Scoreline pre-pass failed: {_sl_err}")
-            df_features_full["top_scoreline_match_outcome"] = ""
-            df_features_full["top_scoreline_match_density"] = 0.5
-    else:
-        df_features_full["top_scoreline_match_outcome"] = ""
-        df_features_full["top_scoreline_match_density"] = 0.5
+    # Pre-compute scoreline match columns once — batched vectorised version.
+    df_features_full = _precompute_scoreline_columns(df_features_full, tier)
 
     # Global guard: 5000 sample — larger than standard to give D population headroom
     GLOBAL_GUARD_SAMPLE = 5000
