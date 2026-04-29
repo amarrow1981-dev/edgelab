@@ -579,10 +579,28 @@ def run_outcome_specific_for_tier(df_tier, tier, window_rounds, boldness, save=T
         result = predict_dataframe(feat_rows, params)
         return result["prediction"]
 
+    # --- Teacher layer pre-load (S45) ---
+    # Query miss patterns before evolution starts so DPOL candidate generation
+    # is biased away from historically dominant failure modes for this tier.
+    # Falls back silently if teacher data is unavailable — no impact on DPOL flow.
+    teacher_hints = []
+    if _DB_AVAILABLE and _db is not None:
+        try:
+            miss_data = _db.get_miss_patterns(tier)
+            if miss_data and miss_data.get("param_hints"):
+                teacher_hints = miss_data["param_hints"]
+                dom = miss_data.get("dominant_hc_miss") or miss_data.get("dominant_miss", "")
+                rate = miss_data.get("high_conf_miss_rate") or miss_data.get("miss_rate", 0)
+                print(f"  [Teacher] {tier}: dominant miss={dom} ({rate:.1%}), "
+                      f"{len(teacher_hints)} param hints loaded")
+        except Exception as _te:
+            logger.warning(f"[Teacher] Could not load miss patterns for {tier}: {_te}")
+
     dpol = DPOLManager(
         window_rounds=window_rounds,
         boldness=boldness,
         db=_db if _DB_AVAILABLE else None,
+        teacher_hints=teacher_hints,
     )
 
     # Show baseline per-outcome accuracy before evolution

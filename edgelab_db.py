@@ -117,6 +117,54 @@ FEATURE_FIELDS = [
 # Database class
 # ---------------------------------------------------------------------------
 
+def _miss_type_to_param_hints(miss_type: str) -> list:
+    """
+    Translate a dominant miss type into param direction hints for DPOL.
+
+    These are educated starting biases — not overrides. DPOL still evaluates
+    each candidate against the loss function. If the hint is wrong for this
+    tier's data, DPOL's global guard will reject it.
+
+    Format: [{param, direction}] where direction is "up" or "down".
+    """
+    hints = {
+        # Called H, was D — overcalling home wins as decisive
+        # Fix: widen draw band, reduce home advantage weight
+        "predicted_H_was_D": [
+            {"param": "draw_margin",    "direction": "up"},
+            {"param": "home_adv",       "direction": "down"},
+        ],
+        # Called H, was A — strongly overweighting home signals
+        # Fix: reduce form and GD weight (they're noisy here), reduce home adv
+        "predicted_H_was_A": [
+            {"param": "w_form",         "direction": "down"},
+            {"param": "w_gd",           "direction": "down"},
+            {"param": "home_adv",       "direction": "down"},
+        ],
+        # Called A, was H — underweighting home advantage
+        "predicted_A_was_H": [
+            {"param": "home_adv",       "direction": "up"},
+            {"param": "w_away_team_adv","direction": "down"},
+        ],
+        # Called A, was D — away calls that should have been draws
+        "predicted_A_was_D": [
+            {"param": "draw_margin",    "direction": "up"},
+            {"param": "w_away_team_adv","direction": "down"},
+        ],
+        # Called D, was H — draw calls that should have been home wins
+        "predicted_D_was_H": [
+            {"param": "draw_margin",    "direction": "down"},
+            {"param": "home_adv",       "direction": "up"},
+        ],
+        # Called D, was A — draw calls that should have been away wins
+        "predicted_D_was_A": [
+            {"param": "draw_margin",    "direction": "down"},
+            {"param": "w_away_team_adv","direction": "up"},
+        ],
+    }
+    return hints.get(miss_type, [])
+
+
 class EdgeLabDB:
     """
     Single access point for the EdgeLab fixture intelligence database.
@@ -733,6 +781,107 @@ class EdgeLabDB:
         # Sort by avg_delta descending — strongest proven movers first
         results.sort(key=lambda x: x["avg_delta"], reverse=True)
         return results[:top_n]
+
+    def get_miss_patterns(
+        self,
+        tier: str,
+        min_samples: int = 50,
+    ) -> Dict:
+        """
+        Query prediction_result_memory for miss patterns in a tier.
+
+        Called by DPOL at the start of each tier evolution to pre-load
+        the teacher's signal — what types of mistakes does the engine
+        historically make here, and under what conditions?
+
+        Returns a dict with:
+            dominant_miss:      str  — most frequent miss type e.g. "predicted_H_was_D"
+            miss_rate:          float — overall miss rate for the tier
+            high_conf_miss_rate: float — miss rate among high-confidence predictions
+            dominant_hc_miss:   str  — most frequent high-confidence miss type
+            closing_against_pct: float — % of misses where closing line was against us
+            param_hints:        list of dicts [{param, direction}] — suggested bias
+            sample_size:        int  — number of completed predictions used
+
+        param_hints translates dominant miss patterns into param directions:
+            predicted_H_was_D → draw_margin up, home_adv down
+            predicted_H_was_A → w_form down, w_gd down (over-weighting home signals)
+            predicted_A_was_H → home_adv up, w_away_team_adv down
+            predicted_D_was_H → draw_margin down, w_draw_odds up
+            predicted_D_was_A → draw_margin down, w_away_team_adv up
+
+        Returns empty dict if prediction_result_memory table doesn't exist
+        or has insufficient data for this tier.
+        """
+        try:
+            with self._conn() as conn:
+                # Check table exists
+                tables = conn.execute(
+                    "SELECT name FROM sqlite_master WHERE type='table' AND name='prediction_result_memory'"
+                ).fetchone()
+                if not tables:
+                    return {}
+
+                rows = conn.execute("""
+                    SELECT miss_type, confidence_band, closing_line_signal, correct
+                    FROM prediction_result_memory
+                    WHERE tier = ? AND actual IS NOT NULL
+                """, (tier,)).fetchall()
+
+            if len(rows) < min_samples:
+                return {}
+
+            total = len(rows)
+            misses = [r for r in rows if r["correct"] == 0]
+            n_miss = len(misses)
+
+            if n_miss == 0:
+                return {"miss_rate": 0.0, "sample_size": total, "param_hints": []}
+
+            miss_rate = n_miss / total
+
+            # Dominant miss type
+            miss_counts = {}
+            for r in misses:
+                mt = r["miss_type"] or "unknown"
+                miss_counts[mt] = miss_counts.get(mt, 0) + 1
+            dominant_miss = max(miss_counts, key=miss_counts.get)
+
+            # High-confidence miss rate
+            hc_all = [r for r in rows if r["confidence_band"] == "high"]
+            hc_miss = [r for r in hc_all if r["correct"] == 0]
+            high_conf_miss_rate = len(hc_miss) / len(hc_all) if hc_all else None
+
+            # Dominant high-confidence miss
+            hcm_counts = {}
+            for r in hc_miss:
+                mt = r["miss_type"] or "unknown"
+                hcm_counts[mt] = hcm_counts.get(mt, 0) + 1
+            dominant_hc_miss = max(hcm_counts, key=hcm_counts.get) if hcm_counts else None
+
+            # Closing line alignment on misses
+            against = sum(1 for r in misses if r["closing_line_signal"] == "against_our_call")
+            closing_against_pct = against / n_miss if n_miss > 0 else 0.0
+
+            # Translate dominant miss into param hints
+            # Primary focus: the dominant HIGH-CONFIDENCE miss (most actionable signal)
+            target_miss = dominant_hc_miss or dominant_miss
+            param_hints = _miss_type_to_param_hints(target_miss)
+
+            return {
+                "dominant_miss":       dominant_miss,
+                "miss_rate":           round(miss_rate, 4),
+                "high_conf_miss_rate": round(high_conf_miss_rate, 4) if high_conf_miss_rate is not None else None,
+                "dominant_hc_miss":    dominant_hc_miss,
+                "closing_against_pct": round(closing_against_pct, 4),
+                "param_hints":         param_hints,
+                "sample_size":         total,
+            }
+
+        except Exception as e:
+            logger.warning(f"[Teacher] get_miss_patterns failed for {tier}: {e}")
+            return {}
+
 
     def find_similar_fixtures(
         self,

@@ -119,6 +119,7 @@ class DPOLManager:
         window_rounds: int = 6,
         boldness: str = "small",  # 'tiny', 'small', 'medium'
         db=None,  # Optional EdgeLabDB instance — enables candidate log navigation
+        teacher_hints: list = None,  # Miss pattern hints from teacher layer (S45)
     ):
         """
         :param initial_params_factory: function(tier) -> LeagueParams
@@ -128,10 +129,15 @@ class DPOLManager:
                    get_successful_param_directions() before each evolution round
                    to bias candidate generation toward historically proven moves.
                    Without this, DPOL runs blind (previous behaviour).
+        :param teacher_hints: list of {param, direction} dicts from get_miss_patterns().
+                   Pre-loaded once per tier before evolution. Biases candidate
+                   generation away from historically dominant failure modes.
+                   Does not override DPOL loss function — informs, not overrides.
         """
         self.window_rounds = window_rounds
         self.boldness = boldness
         self.db = db  # fixture intelligence database — None = blind mode
+        self.teacher_hints = teacher_hints or []  # miss pattern hints from teacher layer (S45)
 
         if initial_params_factory is None:
             initial_params_factory = lambda tier: LeagueParams()
@@ -369,10 +375,14 @@ class DPOLManager:
         Outcome-specific DPOL evolution.
 
         Evolves H, D, A param sets independently. Each outcome's params are
-        evaluated only against matches of that outcome type.
+        evaluated on a window of that outcome's matches — so H params learn
+        what H matches look like, D learns D, A learns A.
 
-        Global guard is outcome-specific: H params must not regress on the H
-        population globally, D on D, A on A.
+        Global guard uses the FULL mixed dataset with weighted accuracy.
+        A candidate that improves H recall but tanks overall accuracy gets
+        rejected. This prevents over-specialisation — params that call
+        everything H score 99.9% on H-only evaluation but fail the global
+        guard because they destroy D and A accuracy.
         """
         if pred_fn is None:
             raise ValueError("pred_fn required for outcome-specific evolution.")
@@ -422,17 +432,20 @@ class DPOLManager:
                 )
                 continue
 
-            df_global_outcome = None
-            if df_full is not None and not df_full.empty and len(window_outcome) >= 5:
-                df_global_outcome = df_full[df_full["FTR"] == outcome].copy()
-
+            # Window evaluation — per-outcome population only.
+            # H params trained on H window, D on D window, A on A window.
+            # This is correct: each param set should know what its outcome looks like.
             base_acc = self._evaluate_outcome_params(window_outcome, base_params, pred_fn, outcome)
 
+            # Global guard — FULL mixed dataset, not per-outcome filtered.
+            # A candidate for H params must not improve H recall at the cost of
+            # tanking D or A accuracy. The guard measures overall weighted accuracy
+            # across all outcomes on the full dataset — the only number that matters.
+            # This was the core bug: filtering to df_full[FTR==outcome] meant the
+            # guard never saw the cost of over-specialisation on the other outcomes.
             global_base_acc = None
-            if df_global_outcome is not None and not df_global_outcome.empty:
-                global_base_acc = self._evaluate_outcome_params(
-                    df_global_outcome, base_params, pred_fn, outcome
-                )
+            if df_full is not None and not df_full.empty and len(window_outcome) >= 5:
+                global_base_acc = self._evaluate_params(df_full, base_params, pred_fn)
 
             candidates = self._generate_candidates(base_params, proven_directions=proven_directions)
 
@@ -451,9 +464,7 @@ class DPOLManager:
 
             global_acc_for_best = None
             if best_candidate is not None and global_base_acc is not None:
-                global_acc_for_best = self._evaluate_outcome_params(
-                    df_global_outcome, best_candidate, pred_fn, outcome
-                )
+                global_acc_for_best = self._evaluate_params(df_full, best_candidate, pred_fn)
                 if global_acc_for_best < global_base_acc - min_improvement:
                     logger.info(
                         f"[DPOL-OS] {tier_name} {outcome} Candidate rejected: "
@@ -572,9 +583,30 @@ class DPOLManager:
         }.get(self.boldness, 0.05)
 
         # Build a quick lookup: param -> direction entry
-        # Only params with clear direction ("up" or "down") and enough evidence
-        # get the bias treatment. "mixed" and unknown fall through to blind.
+        # Sources (in priority order):
+        #   1. proven_directions — from candidate log (historical DPOL wins)
+        #   2. teacher_hints — from miss pattern analysis (what to avoid)
+        # Candidate log takes priority: if DPOL has proven a direction works,
+        # that outweighs the teacher's avoidance signal.
         direction_map = {}
+
+        # Layer 1: teacher hints as baseline (lower priority)
+        # Convert {param, direction} hints into direction_map format.
+        # Teacher hints use direction to mean "bias toward" — same convention
+        # as proven_directions so the biased_variants functions work unchanged.
+        for hint in self.teacher_hints:
+            p = hint.get("param")
+            d = hint.get("direction")
+            if p and d in ("up", "down"):
+                direction_map[p] = {
+                    "param": p,
+                    "direction": d,
+                    "avg_delta": 0.001,  # minimal weight — teacher hint, not proven move
+                    "avg_signed_move": 0.05 if d == "up" else -0.05,
+                    "count": 1,
+                }
+
+        # Layer 2: proven_directions override teacher hints (higher priority)
         if proven_directions:
             for entry in proven_directions:
                 direction_map[entry["param"]] = entry
